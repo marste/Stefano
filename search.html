@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /search/
+tipue_search_active: true
+exclude_from_search: true
+---
+<center>
+<i class="fa fa-search fa-lg"></i>   
+</br>
+</br>
+<form action="{{ page.url | relative_url }}">
+  <div class="tipue_search_center"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+  <div style="clear: both;"></div>
+</form>
+
+<div id="tipue_search_content"></div>
+</br>
+</br>
+ 
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>
+
+</center>
