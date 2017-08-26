@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://marste.github.io/Stefano/"
+url: "http://s.marzorati.co"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -35,7 +35,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "https://farm5.staticflickr.com/4422/36338067630_35412523d4_s.jpg"
+avatar: "http://s.marzorati.co/img/me.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -95,7 +95,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "http://marste.github.io/Stefano/"
+url-pretty: "http://s.marzorati.co"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
