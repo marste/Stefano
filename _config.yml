@@ -30,7 +30,7 @@ navbar-links:
   Search: "search"
   Links:
     - Erica: "http://erica.marzorati.co/"
-    - Papà: "http://stefano.marzorati.co/"
+    - Alice: "http://alice.marzorati.co/"
   CV: "curriculum-vitae"
 
 # Image to show in the navigation bar - image must be a square (width = height)
