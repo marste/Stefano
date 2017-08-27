@@ -105,7 +105,7 @@ url-pretty: "http://s.marzorati.co"
 google_analytics: "UA-38247823-1"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-MRMHBC"
 
 # Facebook App ID
 # fb_app_id: ""
