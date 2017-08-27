@@ -50,7 +50,7 @@ author:
   email: "stefano@marzorati.co"
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
-  twitter: yourname   # eg. daattali
+  twitter: marzorati_ste   # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: stefanomarzorati  # eg. daattali
@@ -70,7 +70,7 @@ footer-links-active:
   rss: truee
   facebook: false
   email: true
-  twitter: false
+  twitter: true
   google-plus: false
   github: false
   reddit: false
