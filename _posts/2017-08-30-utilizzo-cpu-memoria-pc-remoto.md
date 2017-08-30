@@ -22,10 +22,3 @@ Per visualizzare la percentuale di memoria utilizzata di un PC remoto, digita:
 Il valore ottenuto sarà espresso in **Kilobyte**, per cui basterà dividerlo per **1.048.576** per ottenere il valore in **Gigabyte**   
 
 In alternativa potete installare <a href="https://lizardsystems.com/downloads/index.php#remote-process-explorer" target="_blank">Remote Process Explorer</a> per poter gestire i processi dei PC remoti in tempo reale.   
-
-| bit | byte | Kilobyte | Megabyte | Gigabyte |
-| :--- |:--- | :--- | :--- | :--- |
-| bit 1 | byte 1 |  |
-| byte 8 | Kilobyte 1.024 | Kilobyte 1 |
-| Kilobyte 8.192 | Megabyte  1.048.576 | Megabyte 1.024 |
-| Megabyte  8.388.608 | Gigabyte  1.073.741.824 | Gigabyte  1.048.576 |
