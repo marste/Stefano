@@ -22,13 +22,13 @@ Invece ti consiglio di installare **ATFTP**
 
 Cambia da: <code>USE_INETD=true</code> a <code>USE_INETD=false</code>   
 
+Di default i files verranno salvati in **/srv/tftp**, ma se vuoi cambiare percorso, basta che modifichi sempre questo file, sostituendo il percorso /srv/tftp in quello che vuoi.
+
 Salva ed esci
 
 <code>sudo invoke-rc.d atftpd start</code>
 
 <code>sudo /etc/init.d/atftpd restart</code>
-
-Di default i files verranno salvati in **/srv/tftp**
 
 Come client usate **atftp**
 
