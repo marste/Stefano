@@ -18,9 +18,9 @@ Invece ti consiglio di installare **ATFTP**
 
 `sudo apt-get install atftpd atftp`
 
-<code>sudo nano /etc/default/atftpd</code>   
+`sudo nano /etc/default/atftpd`
 
-Cambia da: <code>USE_INETD=true</code> a <code>USE_INETD=false</code>   
+Cambia da: `USE_INETD=true` a `USE_INETD=false`
 
 Di default i files verranno salvati in **/srv/tftp**, ma se vuoi cambiare percorso, basta che modifichi sempre questo file, sostituendo il percorso /srv/tftp in quello che vuoi.
 
@@ -34,13 +34,16 @@ sudo chown -R nobody /var/cisco_config
 
 Salva ed esci
 
-<code>sudo invoke-rc.d atftpd start</code>
-
-<code>sudo /etc/init.d/atftpd restart</code>
+```
+sudo invoke-rc.d atftpd start
+sudo /etc/init.d/atftpd restart
+```
 
 Come client usate **atftp**
 
 Example:   
-<code>atftp 127.0.0.1</code>   
-<code>put test.txt</code>   
-<code>get test.txt</code>   
+```
+atftp 127.0.0.1
+put test.txt
+get test.txt
+```
