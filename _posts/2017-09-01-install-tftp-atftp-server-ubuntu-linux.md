@@ -16,7 +16,7 @@ tags:
 
 Invece ti consiglio di installare **ATFTP**
 
-<code>sudo apt-get install atftpd atftp</code>   
+`sudo apt-get install atftpd atftp`
 
 <code>sudo nano /etc/default/atftpd</code>   
 
