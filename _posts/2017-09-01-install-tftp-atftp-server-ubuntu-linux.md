@@ -27,7 +27,7 @@ Di default i files verranno salvati in **/srv/tftp**, ma se vuoi cambiare percor
 Nel mio caso ho creato la directory **/var/cisco_config** in questo modo:   
 
 ```
-sudo mkdir /var/cisco_config   
+sudo mkdir /var/cisco_config
 sudo chmod -R 777 /var/cisco_config
 sudo chown -R nobody /var/cisco_config
 ```
