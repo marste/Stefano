@@ -24,6 +24,12 @@ Cambia da: <code>USE_INETD=true</code> a <code>USE_INETD=false</code>
 
 Di default i files verranno salvati in **/srv/tftp**, ma se vuoi cambiare percorso, basta che modifichi sempre questo file, sostituendo il percorso /srv/tftp in quello che vuoi.
 
+Nel mio caso ho creato la directory **/var/cisco_config** in questo modo:   
+
+<code>sudo mkdir /var/cisco_config</code>   
+<code>sudo chmod -R 777 /var/cisco_config</code>   
+<code>sudo chown -R nobody /var/cisco_config</code>   
+
 Salva ed esci
 
 <code>sudo invoke-rc.d atftpd start</code>
