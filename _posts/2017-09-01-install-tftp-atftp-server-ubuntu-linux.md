@@ -11,7 +11,6 @@ tags:
   - cisco
   - ubuntu
   - linux
-image: http://n00tz.net/wp-content/uploads/2010/07/atftp.png
 ---
 *Innanzitutto non consiglio di installare xinetd*
 
@@ -34,6 +33,6 @@ Di default i files verranno salvati in **/srv/tftp**
 Come client usate **atftp**
 
 Example:   
-<code>atftp 127.0.0.1</code>
-<code>put test.txt</code>
-<code>get test.txt</code>
+<code>atftp 127.0.0.1</code>   
+<code>put test.txt</code>   
+<code>get test.txt</code>   
