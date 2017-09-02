@@ -10,6 +10,15 @@
 <section id = "social-share-section">
   <span class="sr-only">Share: </span>
 
+   {% if site.share-links-active.whatsapp %}
+  <!--- Share on whatsapp -->
+    <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}""
+      class="btn btn-social-icon btn-whatsapp" title="Share on whatsapp">
+      <span class="fa fa-fw fa-whatsapp" aria-hidden="true"></span>
+      <span class="sr-only">Whatsapp</span>
+    </a>
+  {% endif %}
+  
   {% if site.share-links-active.twitter %}
   <!--- Share on Twitter -->
     <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}"
