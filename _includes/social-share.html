@@ -8,9 +8,7 @@
 
 {% if any-share-links %}
 <section id = "social-share-section">
-  Share:
-
-   {% if site.share-links-active.whatsapp %}
+    {% if site.share-links-active.whatsapp %}
   <!--- Share on Whatsapp -->
     <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Whatsapp">
       <span class="fa fa-whatsapp" aria-hidden="true"></span>
