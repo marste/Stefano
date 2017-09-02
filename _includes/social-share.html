@@ -12,7 +12,7 @@
 
    {% if site.share-links-active.whatsapp %}
   <!--- Share on Whatsapp -->
-    <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}"" title="Share on Whatsapp">
+    <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Whatsapp">
       <span class="fa fa-whatsapp fa-2x" aria-hidden="true"></span>
       <span class="sr-only">Whatsapp</span>
     </a>
@@ -20,17 +20,16 @@
   
   {% if site.share-links-active.twitter %}
   <!--- Share on Twitter -->
-    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}"
-       class="fa fa-twitter fa-2x" title="Share on Twitter">
-       
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Twitter">
+       <span class="fa fa-twitter fa-2x" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
     </a>
   {% endif %}
 
   {% if site.share-links-active.facebook %}
   <!--- Share on Facebook -->
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
-      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
-      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook">
+      <span class="fa fa-facebook fa-2x" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
     </a>
   {% endif %}
@@ -46,9 +45,8 @@
 
   {% if site.share-links-active.linkedin %}
   <!--- Share on LinkedIn -->
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}"
-      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
-      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" title="Share on LinkedIn">
+      <span class="fa fa-linkedin fa-2x" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
     </a>
   {% endif %}
