@@ -11,8 +11,8 @@
     {% if site.share-links-active.whatsapp %}
   <!--- Share on Whatsapp -->
     <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Whatsapp">
-      <span class="fa fa-whatsapp" aria-hidden="true"></span>
-      <span class="sr-only">Whatsapp</span>
+	<img src="{{ site.baseurl }}/img/whatsapp.svg" height="24px" width="24px"/>
+      
     </a>
   {% endif %}
   &nbsp;&nbsp;
@@ -48,7 +48,7 @@
       <span class="sr-only">LinkedIn</span>
     </a>
   {% endif %}
-	<img src="{{ site.baseurl }}/img/whatsapp.svg" height="24px" width="24px"/>
+	
 </section>
 
 {% endif %}
