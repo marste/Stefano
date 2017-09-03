@@ -12,23 +12,20 @@
   <!--- Share on Whatsapp -->
     <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Whatsapp">
 	<img src="{{ site.baseurl }}/img/whatsapp.svg" height="24px" width="24px"/>
-      
     </a>
   {% endif %}
   &nbsp;&nbsp;
   {% if site.share-links-active.twitter %}
   <!--- Share on Twitter -->
     <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Twitter">
-       <span class="fa fa-twitter" aria-hidden="true"></span>
-      <span class="sr-only">Twitter</span>
+    <img src="{{ site.baseurl }}/img/twitter.svg" height="24px" width="24px"/>   
     </a>
   {% endif %}
   &nbsp;&nbsp;
   {% if site.share-links-active.facebook %}
   <!--- Share on Facebook -->
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook">
-      <span class="fa fa-facebook" aria-hidden="true"></span>
-      <span class="sr-only">Facebook</span>
+    <img src="{{ site.baseurl }}/img/facebook.svg" height="24px" width="24px"/>
     </a>
   {% endif %}
    &nbsp;&nbsp;
@@ -44,8 +41,7 @@
   {% if site.share-links-active.linkedin %}
   <!--- Share on LinkedIn -->
     <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" title="Share on LinkedIn">
-      <span class="fa fa-linkedin" aria-hidden="true"></span>
-      <span class="sr-only">LinkedIn</span>
+    <img src="{{ site.baseurl }}/img/linkedin.svg" height="24px" width="24px"/>
     </a>
   {% endif %}
 	
