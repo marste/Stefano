@@ -30,13 +30,14 @@ sudo chmod -R 777 /var/cisco_config
 sudo chown -R nobody /var/cisco_config
 ```
 Salva ed esci
-```
-sudo invoke-rc.d atftpd start   
-sudo /etc/init.d/atftpd restart
-```
+
+	sudo invoke-rc.d atftpd start   
+	sudo /etc/init.d/atftpd restart
+
 Come client usate **atftp**
 
 Example:   
+
 ```
 atftp 127.0.0.1
 put test.txt
