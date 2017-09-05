@@ -16,9 +16,9 @@ tags:
 
 Invece ti consiglio di installare **ATFTP**
 
-`sudo apt-get install atftpd atftp`   
+	sudo apt-get install atftpd atftp
 
-`sudo nano /etc/default/atftpd`   
+	sudo nano /etc/default/atftpd
 
 Cambia da: `USE_INETD=true` a `USE_INETD=false`
 
