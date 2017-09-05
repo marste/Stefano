@@ -41,6 +41,6 @@ Come client usate **atftp**
 
 Example:   
 
-`atftp 127.0.0.1`   
-`put test.txt`   
-`get test.txt`   
+```atftp 127.0.0.1
+put test.txt
+get test.txt```
