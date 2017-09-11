@@ -17,6 +17,7 @@ tags:
   - trunk
 ---
 **Verifica su quale porta è collegato un certo pc o device:**   
+
 	ping *ipaddress*   
 	show ip arp *ipaddress*   
 	show mac address-table address *mac-address*   
