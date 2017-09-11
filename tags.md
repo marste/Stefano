@@ -2,6 +2,7 @@
 layout: page
 title: Tags
 subtitle: Browse this blog by tag.
+permalink: /tags/
 ---
 
 <div class="home">
