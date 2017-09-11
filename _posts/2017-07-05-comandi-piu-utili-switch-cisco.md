@@ -34,47 +34,47 @@ tags:
 
 **Per mettere una porta in trunk su piu VLAN:**   
 
-	conf t   
-	interface gig1/0/x   
-	switchport mode trunk   
-	switchport trunk allowed vlan 1,100   
-	end   
-	wr memory   
+	conf t
+	interface gig1/0/x
+	switchport mode trunk
+	switchport trunk allowed vlan 1,100
+	end
+	wr memory
 
 
 **Togliere trunk:**  
 
-	conf t    
-	interface gig1/0/x   
-	switchport mode access   
-	end   
-	wr memory   
+	conf t 
+	interface gig1/0/x
+	switchport mode access
+	end
+	wr memory
 
 
 **Per vedere quali porte sono in trunk e su quali VLAN:**   
 
-	show interfaces trunk   
+	show interfaces trunk
 
 
 **Per vedere lo stato di tutte le porte e la loro descrizione:**   
 
-	show interfaces description   
+	show interfaces description
 
 
 **Per poter configurare una porta a cui sarà collegato uno switch bisogna fare quanto segue:**   
 
-	conf t   
-	interface gig1/0/<numero porta>   
-	switchport mode trunk   
-	no spanning-tree portfast   
-	shutdown   
-	no shutdown   
+	conf t
+	interface gig1/0/<numero porta>
+	switchport mode trunk
+	no spanning-tree portfast
+	shutdown
+	no shutdown
 
 
 **Mentre per configurare una porta dove ci sarà collegato un pc più telefono il commando è quello che segue:**   
 
-	conf t   
-	interface GigabitEthernet1/0/numero porta   
-	description *** PC + Voice VLAN ***   
-	switchport trunk allowed vlan 100   
-	switchport mode trunk   
+	conf t
+	interface GigabitEthernet1/0/numero porta
+	description *** PC + Voice VLAN ***
+	switchport trunk allowed vlan 100
+	switchport mode trunk
