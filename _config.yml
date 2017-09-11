@@ -30,8 +30,7 @@ navbar-links:
   Search: "search"
   CV: "curriculum-vitae"
   Links:
-    - Bank:
-		- Migliori: "http://mobile.teleborsa.it/migliori-peggiori.aspx"
+    - Erica: "http://erica.marzorati.co/"
     - Alice: "http://alice.marzorati.co/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
