@@ -6,7 +6,7 @@ layout: post
 image: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
 share-img: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
 bigimg:
-  - "https://i.stack.imgur.com/tjSgV.jpg" : "Montezuma, Costa Rica (2011)"
+  - "https://i.stack.imgur.com/tjSgV.jpg" : "Server TFTP on Ubuntu"
 categories:
   - Linux
 tags:
