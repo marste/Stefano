@@ -6,7 +6,7 @@ layout: post
 image: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
 share-img: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
 bigimg:
-  - "/img/laos-pond2.jpeg" : "Montezuma, Costa Rica (2011)"
+  - "https://i.stack.imgur.com/tjSgV.jpg" : "Montezuma, Costa Rica (2011)"
 categories:
   - Linux
 tags:
