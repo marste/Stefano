@@ -5,6 +5,8 @@ author: Stefano Marzorati
 layout: post
 image: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
 share-img: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
+bigimg:
+  - "http://deanattali.com/img/big-imgs/laos-pond2.jpeg" : "Montezuma, Costa Rica (2011)"
 categories:
   - Linux
 tags:
