@@ -5,8 +5,6 @@ author: Stefano Marzorati
 layout: post
 image: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
 share-img: "https://farm5.staticflickr.com/4396/36390457313_658eb0b66a_o.jpg"
-bigimg:
-  - "https://farm5.staticflickr.com/4396/36390457313_658eb0b66a_o.jpg" : "Cisco Catalyst 2960-X"
 categories:
   - Network
 tags:
