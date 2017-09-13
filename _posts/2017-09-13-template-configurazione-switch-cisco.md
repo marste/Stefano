@@ -4,9 +4,9 @@ date: 2017-09-13 13:00:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
-share-img: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
+share-img: "https://farm5.staticflickr.com/4396/36390457313_658eb0b66a_o.jpg"
 bigimg:
-  - "https://i.stack.imgur.com/tjSgV.jpg" : "Server TFTP on Ubuntu"
+  - "https://farm5.staticflickr.com/4396/36390457313_658eb0b66a_o.jpg" : "Cisco Catalyst 2960-X"
 categories:
   - Network
 tags:
@@ -21,9 +21,7 @@ tags:
  - Controllare la versione del firmware, digitando: `show version` e controllare dal sito Cisco se corrisponde all'ultima versione suggerita.
  - Se non fosse l'ultima versione, procedere come segue per aggiornarlo.
 
-==================
-Aggiornamento IOS 
-==================
+***Aggiornamento IOS***
 
 Oltre al collegamento con la seriale, collegarsi anche con un cavo ethernet, impostando al PC l'indirizzo `1.1.1.1` e subnet `255.255.255.252`
 
@@ -46,9 +44,7 @@ Installare un server TFTP (Tftpd64) locale sul PC per trasferire il firmware sul
 	#show boot
 	#reload
 
-======================
-Configurazione Switch
-======================
+***Configurazione Switch***
 
 	# conf t
 
@@ -98,9 +94,7 @@ Configurazione Switch
 	vtp domain Siit-VTP
 	vtp password vl4n-s11t
 
-====================
-Port Configuration
-====================
+***Port Configuration***
 
 interface range gig1/0/1-2 (Per selezionare un tot. di porte sul quale applicare il comando)
 default interface gig1/0/1 (Per riportare a default la configurazione della porta)
