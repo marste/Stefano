@@ -3,7 +3,7 @@ title: Template di configurazione di uno switch Cisco
 date: 2017-09-13 13:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
+image: "http://www.myiconfinder.com/uploads/iconsets/256-256-1dfedd385bb8e3d6686fa7bda30da1e0-Cisco.png"
 share-img: "https://farm5.staticflickr.com/4396/36390457313_658eb0b66a_o.jpg"
 categories:
   - Network
