@@ -3,8 +3,8 @@ title: Come installare un TFTP Server su Ubuntu
 date: 2017-09-01 14:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
-share-img: 'https://apprecs.org/ios/images/app-icons/256/bc/398104252.jpg'
+image: 'http://www.myiconfinder.com/uploads/iconsets/256-256-1dfedd385bb8e3d6686fa7bda30da1e0-Cisco.png'
+share-img: 'http://www.myiconfinder.com/uploads/iconsets/256-256-1dfedd385bb8e3d6686fa7bda30da1e0-Cisco.png'
 bigimg:
   - "https://i.stack.imgur.com/tjSgV.jpg" : "Server TFTP on Ubuntu"
 categories:
