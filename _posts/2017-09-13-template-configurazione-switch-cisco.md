@@ -28,7 +28,7 @@ Oltre al collegamento con la seriale, collegarsi anche con un cavo ethernet, imp
 	#ip address 1.1.1.2 255.255.255.252
 	#end
 
-Installare un server TFTP (Tftpd64) locale sul PC per trasferire il firmware sullo switch e metterlo in modalità *PXE Compatibility*
+Installare un server TFTP <a href="http://tftpd32.jounin.net/tftpd32_download.html" target="_blank">(Tftpd64)</a> locale sul PC per trasferire il firmware sullo switch e metterlo in modalità *PXE Compatibility*
 
 	#archive tar /xtrac tftp://1.1.1.1/c2960x-universalk9-mz.152-2.E6.tar flash:
 	#verify /md5 flash:/c2960x-universalk9-mz.152-2.E6/c2960x-universalk9-mz.152-2.E6.bin 
