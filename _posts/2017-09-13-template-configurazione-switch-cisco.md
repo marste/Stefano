@@ -1,10 +1,10 @@
 ---
-title: Template di configurazione di uno switch Cisco
-date: 2017-09-13 13:00:00 +0200
-author: Stefano Marzorati
 layout: post
-image: "https://farm5.staticflickr.com/4383/36390662603_aa17d0fa81_o.png"
-share-img: "https://farm5.staticflickr.com/4383/36390662603_aa17d0fa81_o.png"
+title: Template di configurazione di uno switch Cisco
+date: '2017-09-13 13:00:00 +0200'
+author: Stefano Marzorati
+image: 'https://farm5.staticflickr.com/4383/36390662603_aa17d0fa81_o.png'
+share-img: 'https://farm5.staticflickr.com/4383/36390662603_aa17d0fa81_o.png'
 categories:
   - Network
 tags:
@@ -13,6 +13,7 @@ tags:
   - cisco
   - template
   - commandline
+published: false
 ---
  - Collegare lo switch con il cavo seriale e rispondere di `no` alla richiesta di configurazione iniziale (wizard)
  - Digitare `enable` per entrare nella modalità di configurazione
