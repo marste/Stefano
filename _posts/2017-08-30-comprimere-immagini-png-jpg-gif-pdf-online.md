@@ -4,6 +4,8 @@ subtitle: Servizio molto utile per ottimizzare le immagini per siti web
 date: 2017-08-30 09:35:00 +0200
 author: Stefano Marzorati
 layout: post
+image: "https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/compress.png"
+share-img: "https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/compress.png"
 categories:
   - Windows
 tags:
