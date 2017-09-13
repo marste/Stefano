@@ -16,4 +16,7 @@ tags:
   - gif
   - online
 ---
-<a href="http://compresspng.com/it/" target="_blank">Compress PNG</a> , <a href="http://compressjpeg.com/it/" target="_blank">Compress JPG</a> , <a href="http://gifcompressor.com/" target="_blank">Compress GIF</a> , <a href="http://shrinkpdf.com/it/" target="_blank">Compress PDF</a>
+ - <a href="http://compresspng.com/it/" target="_blank">Compress PNG</a>   
+ - <a href="http://compressjpeg.com/it/" target="_blank">Compress JPG</a>   
+ - <a href="http://gifcompressor.com/" target="_blank">Compress GIF</a>   
+ - <a href="http://shrinkpdf.com/it/" target="_blank">Compress PDF</a>   
