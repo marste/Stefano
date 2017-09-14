@@ -5,20 +5,8 @@ author: Stefano Marzorati
 layout: post
 guid: http://ubbunti.wordpress.com/2011/03/05/se-il-led-del-wifi-del-portatile-blinka
 permalink: /led-wifi-notebook-blink-debian/
-blogger_blog:
-  - ubbunti.blogspot.com
-  - ubbunti.blogspot.com
-  - ubbunti.blogspot.com
-blogger_author:
-  - m@il_of_d@y
-  - m@il_of_d@y
-  - m@il_of_d@y
-blogger_e466c7156e8bac77e64f63e8bad92c92_permalink:
-  - 1099199663445866140
-  - 1099199663445866140
-  - 1099199663445866140
-dsq_thread_id:
-  - 2232570771
+image: 'http://www.capalbio.it/images/wifi.png'
+share-img: 'http://www.capalbio.it/images/wifi.png'
 categories:
   - Linux
 tags:
