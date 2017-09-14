@@ -13,7 +13,7 @@ tags:
   - cisco
   - template
   - commandline
-published: false
+published: true
 ---
  - Collegare lo switch con il cavo seriale e rispondere di `no` alla richiesta di configurazione iniziale (wizard)
  - Digitare `enable` per entrare nella modalità di configurazione
@@ -51,16 +51,16 @@ Installare un server TFTP <a href="http://tftpd32.jounin.net/tftpd32_download.ht
 	service timestamps log datetime msec
 	service password-encryption
 	!
-	hostname SW-2960-48p-Villetta
+	hostname SW-2960-48p-Primo_Piano
 	!
-	enable secret m6r!g2tx
+	enable secret password_scelta
 	!
-	username admin privilege 15 secret m6r!g2tx
+	username admin privilege 15 secret password_scelta
 	!
 	clock timezone GMT 1 0
 	clock summer-time OraLegale recurring last Sun Mar 3:00 last Sun Oct 3:00
 	!
-	ip domain-name siit.it
+	ip domain-name dominio.com
 	!
 	spanning-tree mode rapid-pvst
 	spanning-tree portfast bpduguard default
@@ -90,8 +90,8 @@ Installare un server TFTP <a href="http://tftpd32.jounin.net/tftpd32_download.ht
 	ntp server 193.204.114.233
 	!
 	vtp mode client
-	vtp domain Siit-VTP
-	vtp password vl4n-s11t
+	vtp domain Dominio-VTP
+	vtp password password_vlt
 
 ***Port Configuration***
 
