@@ -3,22 +3,9 @@ id: 94
 title: Problemi wifi ALICE GATE 2 Plus
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/2011/03/05/problemi-wifi-alice-gate-2-plus
+image: 'http://www.capalbio.it/images/wifi.png'
+share-img: 'http://www.capalbio.it/images/wifi.png'
 permalink: /problemi-wifi-alice-gate-2-plus/
-blogger_blog:
-  - ubbunti.blogspot.com
-  - ubbunti.blogspot.com
-  - ubbunti.blogspot.com
-blogger_author:
-  - m@il_of_d@y
-  - m@il_of_d@y
-  - m@il_of_d@y
-blogger_e466c7156e8bac77e64f63e8bad92c92_permalink:
-  - 5897032199811224947
-  - 5897032199811224947
-  - 5897032199811224947
-dsq_thread_id:
-  - 2384185719
 categories:
   - Linux
 ---
