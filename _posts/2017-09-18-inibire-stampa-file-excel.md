@@ -3,8 +3,8 @@ layout: post
 title: Impedire la stampa di un file Excel
 date: '2017-09-18 14:00:00 +0200'
 author: Stefano Marzorati
-image: 'http://www.brunopramaggiore.net/wp-content/uploads/2013/04/Logo-Excel.png'
-share-img: 'http://www.brunopramaggiore.net/wp-content/uploads/2013/04/Logo-Excel.png'
+image: 'https://cdn1.iconfinder.com/data/icons/application-file-formats/128/microsoft-excel-128.png'
+share-img: 'https://cdn1.iconfinder.com/data/icons/application-file-formats/128/microsoft-excel-128.png'
 categories:
   - Excel
 tags:
