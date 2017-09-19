@@ -12,8 +12,8 @@
   {% endif %}
   
   <meta name="author" content="{{ site.author.name }}" />
-  
-  <meta name="description" content="ICT Manager - Addicted to new technology and lead away by innovation.">
+    
+  <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
   
   <meta name="keywords" content="Stefano Marzorati,Stefano,Marzorati,ICT,IT,Manager,Milano,Varese,administrator">
 
