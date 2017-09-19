@@ -2,16 +2,28 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-  <meta name="author" content="{{ site.author.name }}" />
-
-  {% if page.subtitle %}
-  <meta name="description" content="{{ page.subtitle }}">
+  
+  {% if page.meta-title %}
+  <title>{{ page.meta-title }}</title>
+  {% elsif page.title %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>{{ site.title }}</title>
   {% endif %}
+  
+  <meta name="author" content="{{ site.author.name }}" />
+  
+  {% if page.meta-description %}
+  <meta name="description" content="{{ page.meta-description }}">
+  {% elsif page.subtitle %}
+  <meta name="description" content="{{ page.subtitle }}">
+  {% else %}
+  <meta name="description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  {% endif %}
+  
+  <meta name="keywords" content="Stefano Marzorati,Stefano,Marzorati,ICT,IT,Manager,Milano,Varese,administrator">
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   {% include gtm_head.html %}
 
