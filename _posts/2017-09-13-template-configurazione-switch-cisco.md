@@ -95,8 +95,8 @@ Installare un server TFTP <a href="http://tftpd32.jounin.net/tftpd32_download.ht
 
 ***Port Configuration***
 
-interface range gig1/0/1-2 (Per selezionare un tot. di porte sul quale applicare il comando)
-default interface gig1/0/1 (Per riportare a default la configurazione della porta)
+interface range gig1/0/1-2 (Per selezionare un tot. di porte sul quale applicare il comando)   
+default interface gig1/0/1 (Per riportare a default la configurazione della porta)   
 
 **Porta dedicata a VLAN VOCE**   
 
