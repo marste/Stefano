@@ -3,6 +3,8 @@ title: Verifica Copertura Fibra, ADSL, SHDSL
 date: 2017-10-06 15:00:00 +0200
 author: Stefano Marzorati
 layout: post
+image: 'http://www.grp.vi.it/internet/wp-content/uploads/2015/04/fiber-optic.png'
+share-img: 'http://www.grp.vi.it/internet/wp-content/uploads/2015/04/fiber-optic.png'
 categories:
   - Internet
 tags:
