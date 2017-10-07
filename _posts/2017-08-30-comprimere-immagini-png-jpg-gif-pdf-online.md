@@ -10,6 +10,8 @@ categories:
   - Windows
 tags:
   - compress
+  - ottimizza
+  - web
   - immagini
   - png
   - jpg
