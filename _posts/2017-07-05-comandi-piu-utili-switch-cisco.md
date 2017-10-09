@@ -22,6 +22,9 @@ tags:
 	show ip arp *ipaddress*   
 	show mac address-table address *mac-address*   
 
+**Trova l'indirizzo IP di un device con un certo mac-address facente parte di una VLAN specifica:**   
+
+	show ip arp vlan 100
 
 **Per assegnare una VLAN su una determinata porta:**   
 
