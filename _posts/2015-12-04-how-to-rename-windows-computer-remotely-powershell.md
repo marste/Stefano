@@ -4,6 +4,8 @@ date: 2015-12-04 15:42:00 -07:00
 author: Stefano Marzorati
 layout: post
 permalink: /how-to-rename-windows-computer-remotely-powershell/
+image: 'http://ramblingcookiemonster.github.io/images/why-powershell/logo.png'
+share-img: 'http://ramblingcookiemonster.github.io/images/why-powershell/logo.png'
 categories:
   - Windows
 tags:
