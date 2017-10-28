@@ -47,7 +47,7 @@ permalink: /curriculum-vitae/
 
 **Principali competenze ed attività trasversali:**
 
-* Assicurare l'informatizzazione della Società, nel rispetto di priorità e linee guida assegnate, contribuendo alla definizione di politiche, budget, piano di investimenti/​costi di funzione
+* Assicurare l'informatizzazione della Società, nel rispetto di priorità e linee guida assegnate dalla Direzione, contribuendo alla definizione di politiche, budget, piano di investimenti/​costi di funzione
 * Garantire la continuità dei servizi erogati, la sicurezza e l'armonia delle varie strutture hardware/​software
 * Garantire la corretta gestione della rete aziendale, del server e delle reti informatiche sia dell'Area Amministrativa sia delle funzioni connesse al business dello stabilimento (Produzione, Supply Chain, Qualità, etc.)
 * Coordinare la progettazione e l'implementazione dei nuovi servizi, con l'obiettivo di assicurare la piena integrazione con i servizi già presenti
