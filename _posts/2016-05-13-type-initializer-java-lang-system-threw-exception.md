@@ -24,4 +24,4 @@ In inglese:
 
 installa questo:   
 
-<a href="https://www.microsoft.com/it-it/download/details.aspx?id=4712" target="_blank">Microsoft Visual J# 2.0 Restributable Package</a>
+<a href="https://download.microsoft.com/download/9/a/0/9a01eb1e-fe80-41af-a3f8-ea41220918f7/vjredist.exe" target="_blank">Microsoft Visual J# 2.0 Restributable Package</a>
