@@ -3,6 +3,8 @@ id: 1981
 title: Drivers PC DELL
 author: Stefano Marzorati
 layout: post
+image: 'https://www.vouchercodes.co.uk/static/v10/images/merchant/logo/128px/278_170913182442.png'
+share-img: 'https://www.vouchercodes.co.uk/static/v10/images/merchant/logo/128px/278_170913182442.png'
 guid: http://marzorati.co/?p=1981
 permalink: /drivers-pc-dell/
 publicize_twitter_user:

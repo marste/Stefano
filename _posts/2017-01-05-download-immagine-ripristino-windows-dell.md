@@ -2,6 +2,8 @@
 title: Download immagine di ripristino Windows Dell
 date: 2017-01-05 18:42:00 +0200
 author: Stefano Marzorati
+image: 'https://www.vouchercodes.co.uk/static/v10/images/merchant/logo/128px/278_170913182442.png'
+share-img: 'https://www.vouchercodes.co.uk/static/v10/images/merchant/logo/128px/278_170913182442.png'
 layout: post
 permalink: /download-immagine-ripristino-windows-dell/
 categories:

@@ -1,6 +1,8 @@
 ---
 title: Set date and time in DELL PowerConnect Switch with SNTP
 author: Stefano Marzorati
+image: 'https://www.vouchercodes.co.uk/static/v10/images/merchant/logo/128px/278_170913182442.png'
+share-img: 'https://www.vouchercodes.co.uk/static/v10/images/merchant/logo/128px/278_170913182442.png'
 date: 2015-09-18 15:30:00 -07:00
 layout: post
 permalink: /set-date-time-dell-powerconnect-switch-sntp/
