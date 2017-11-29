@@ -106,17 +106,7 @@ Per selezionare un tot. di porte sul quale applicare il comando
 Per riportare a default la configurazione della porta   
 
 	default interface gig1/0/1
-	
-Per disabilitare/abilitare una porta   
 
-	interface GigabitEthernet1/0/x
-	shutdown
-	no shutdown
-	
-Togliere trunk   
-
-	interface gig1/0/x
-	switchport mode access
 
 **Porta dedicata a VLAN VOCE**   
 
@@ -152,4 +142,15 @@ Togliere trunk
 	interface GigabitEthernet1/0/10
 	description *** VLAN 50 ***
 	switchport access vlan 50
+	switchport mode access
+
+**Per disabilitare/abilitare una porta**   
+
+	interface GigabitEthernet1/0/x
+	shutdown
+	no shutdown
+	
+**Togliere trunk**   
+
+	interface gig1/0/x
 	switchport mode access
