@@ -55,239 +55,239 @@ published: true
 **Finestra DOS**
 `cmd`
 
-Servizi Componenti
+**Servizi Componenti**   
 dcomcnfg
 
-Gestione Computer
+**Gestione Computer**   
 compmgmt.msc
 
-Pannello di Controllo
+**Pannello di Controllo**   
 control
 
-Proprietà Data/Ora
+**Proprietà Data/Ora**   
 timedate.cpl
 
-Condivisioni DDE
+**Condivisioni DDE**   
 ddeshare
 
-Gestione Periferiche
+**Gestione Periferiche**   
 devmgmt.msc
 
-Diagnostica Direct X
+**Diagnostica Direct X**   
 dxdiag
 
-Pulizia Disco
+**Pulizia Disco**   
 cleanmgr
 
-Deframmentazione Disco
+**Deframmentazione Disco**   
 dfrg.msc
 
-Gestione Disco
+**Gestione Disco**   
 diskmgmt.msc
 
-Gestione Partizione Disco
+**Gestione Partizione Disco**   
 diskpart
 
-Proprietà Schermo
+**Proprietà Schermo**   
 control desktop
 
-Proprietà Schermo
+**Proprietà Schermo**   
 desk.cpl
 
-Driver Verifier Manager
+**Driver Verifier Manager**   
 verifier
 
-Visualizzatore Eventi
+**Visualizzatore Eventi**   
 eventvwr.msc
 
-Trasferimento Guidato File e Impostazioni
+**Trasferimento Guidato File e Impostazioni**   
 migwiz
 
-Verifica Firma File
+**Verifica Firma File**   
 sigverif
 
-Opzioni Cartella
+**Opzioni Cartella**   
 control folders
 
-Font
+**Font**   
 control fonts
 
-Cartella Font
+**Cartella Font**   
 fonts
 
-Controlli Gioco
+**Controlli Gioco**   
 joy.cpl
 
-Criterio Gruppo
+**Criterio Gruppo**   
 gpedit.msc
   
-Iexpress Wizard
+**Iexpress Wizard**   
 iexpress
     
-Internet Explorer
+**Internet Explorer**   
 iexplore
 
-Proprietà Internet
+**Proprietà Internet**   
 inetcpl.cpl
 
-Proprietà Tastiera
+**Proprietà Tastiera**   
 control keyboard
 
-Impostazioin Protezione Locale
+**Impostazioin Protezione Locale**   
 secpol.msc
 
-Utenti e Gruppi Locali
+**Utenti e Gruppi Locali**   
 lusrmgr.msc
 
-Uscire da Windows
+**Uscire da Windows**   
 logoff
 
-Strumento di Rimozione Malware
+**Strumento di Rimozione Malware**   
 mrt
  
-Microsoft Paint
+**Microsoft Paint**   
 mspaint
 
-Microsoft Syncronization Tool
+**Microsoft Syncronization Tool**   
 mobsync
 
-Proprietà Mouse
+**Proprietà Mouse**   
 control mouse
 
-Proprietà Mouse
+**Proprietà Mouse**   
 main.cpl
 
-Connessioni di Rete
+**Connessioni di Rete**   
 control netconnections
 
-Connessioni di Rete
+**Connessioni di Rete**   
 ncpa.cpl
 
-Connessioni Guidata Rete
+**Connessioni Guidata Rete**   
 netsetup.cpl
 
-Notepad
+**Notepad**   
 notepad
 
-Amministrazione Origine Dati ODBC
+**Amministrazione Origine Dati ODBC**   
 odbccp32.cpl
 
-Tastiera su Schermo
+**Tastiera su Schermo**   
 osk
    
-Proprietà Password
+**Proprietà Password**   
 password.cpl
 
-Monitor Performance
+**Monitor Performance**   
 perfmon.msc
 
-Monitor Performance
+**Monitor Performance**   
 perfmon
 
-Opzioni Telefono e Modem
+**Opzioni Telefono e Modem**   
 telephon.cpl
 
-Connessione Telefonica
+**Connessione Telefonica**   
 dialer
 
-Opzioni Risparmio Energia
+**Opzioni Risparmio Energia**   
 powercfg.cpl
 
-Stampanti e Fax
+**Stampanti e Fax**   
 control printers
 
-Cartella Stampanti
+**Cartella Stampanti**   
 printers
 
-Impostazioni Regionali
+**Impostazioni Regionali**   
 intl.cpl
 
-Editor del Registro di Sistema
+**Editor del Registro di Sistema**   
 regedit
 
-Editor del Registro di Sistema
+**Editor del Registro di Sistema**   
 regedit32
 
-Rubrica per la Connessione Remota
+**Rubrica per la Connessione Remota**   
 rasphone
 
-Desktop Remoto
+**Desktop Remoto**   
 mstsc
 
-Archivi Removibili
+**Archivi Removibili**   
 ntmsmgr.msc
 
-Richieste Operatore per Archivi Removibili
+**Richieste Operatore per Archivi Removibili**   
 ntmsoprq.msc
 
-Gruppo di Criteri Risultante
+**Gruppo di Criteri Risultante**   
 rsop.msc
 
-Scanner e Macchine Fotografiche
+**Scanner e Macchine Fotografiche**   
 sticpl.cpl
 
-Operazioni Pianificate
+**Operazioni Pianificate**   
 control schedtasks
 
-Centro Sicurezza
+**Centro Sicurezza**   
 wscui.cpl
 
-Servizi
+**Servizi**   
 services.msc
 
-Cartelle Condivise
+**Cartelle Condivise**   
 fsmgmt.msc
 
-Chiusura Windows
+**Chiusura Windows**   
 shutdown
 
-Souni e Periferiche Audio
+**Souni e Periferiche Audio**   
 mmsys.cpl
 
-Utilità di rete Configurazione SQL
+**Utilità di rete Configurazione SQL**   
 cliconfg
 
-Editor di Configurazione di Sistema
+**Editor di Configurazione di Sistema**   
 sysedit
 
-Utilità di Configurazione di Sistema
+**Utilità di Configurazione di Sistema**   
 msconfig
 
-Informazioni di Sitema
+**Informazioni di Sitema**   
 msinfo32
 
-Proprietà di Sistema
+**Proprietà di Sistema**   
 sysdm.cpl
 
-Task Manager
+**Task Manager**   
 taskmgr
 
-TCP Tester
+**TCP Tester**   
 tcptest
 
-Telnet Client
+**Telnet Client**   
 telnet
 
-Gestione Account Utente
+**Gestione Account Utente**   
 nusrmgr.cpl
 
-Assistente Vocale
+**Assistente Vocale**   
 utilman
 
-Windows Explorer
+**Windows Explorer**   
 explorer
 
-Windows Firewall
+**Windows Firewall**   
 firewall.cpl
 
-Windows Magnifier
+**Windows Magnifier**   
 magnify
 
-Windows Management Infrastructure
+**Windows Management Infrastructure**   
 wmimgmt.msc
    
-Versione di Windows
+**Versione di Windows**   
 winver
 
-Wordpad
+**Wordpad**   
 write
