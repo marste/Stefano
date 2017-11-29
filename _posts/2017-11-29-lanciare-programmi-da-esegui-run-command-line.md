@@ -20,9 +20,9 @@ Controlli Accessibilità: `access.cpl`
 Wizard Accessibilità: `accwiz`   
 Aggiungi Hardware: `hdwwiz.cpl`   
 Aggiungi/Rimuovi hardware: `appwiz.cpl`
+Strumenti Amministrazione:
+<code>control admintools</code>   
 
-Strumenti Amministrazione
-	control admintools
 Aggiornamenti Automatici
 	wuaucpl.cpl
 Trasferimento Guidato Bluetooth
