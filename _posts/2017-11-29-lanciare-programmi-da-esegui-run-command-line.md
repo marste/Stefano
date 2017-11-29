@@ -3,8 +3,8 @@ layout: post
 title: Lanciare programmi Windows da esegui o cmd
 date: '2017-11-29 12:00:00 +0200'
 author: Stefano Marzorati
-image: 'https://raw.githubusercontent.com/commandlineparser/commandline/master/art/CommandLine20.png'
-share-img: 'https://raw.githubusercontent.com/commandlineparser/commandline/master/art/CommandLine20.png'
+image: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
+share-img: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
 categories:
   - Windows
 tags:
