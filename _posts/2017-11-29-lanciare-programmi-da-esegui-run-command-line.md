@@ -16,13 +16,21 @@ tags:
   - command line
 published: true
 ---
-Controlli Accessibilità: `access.cpl`   
-Wizard Accessibilità: `accwiz`   
-Aggiungi Hardware: `hdwwiz.cpl`   
-Aggiungi/Rimuovi hardware: `appwiz.cpl`   
+Controlli Accessibilità:
+`access.cpl`   
+
+Wizard Accessibilità:   
+`accwiz`   
+
+Aggiungi Hardware:   
+`hdwwiz.cpl`   
+
+Aggiungi/Rimuovi hardware:   
+`appwiz.cpl`   
+   
 Strumenti Amministrazione:   
-	
-	control admintools   
+`control admintools`   
+
 
 Aggiornamenti Automatici
 	wuaucpl.cpl
