@@ -92,11 +92,31 @@ Installare un server TFTP <a href="http://tftpd32.jounin.net/tftpd32_download.ht
 	vtp mode client
 	vtp domain Dominio-VTP
 	vtp password password_vlt
+	!
+	end
+	!
+	wr memory
 
 ***Port Configuration***
 
-interface range gig1/0/1-2 (Per selezionare un tot. di porte sul quale applicare il comando)   
-default interface gig1/0/1 (Per riportare a default la configurazione della porta)   
+Per selezionare un tot. di porte sul quale applicare il comando   
+
+	interface range gig1/0/1-2   
+	
+Per riportare a default la configurazione della porta   
+
+	default interface gig1/0/1
+	
+Per disabilitare/abilitare una porta   
+
+	interface GigabitEthernet1/0/x
+	shutdown
+	no shutdown
+	
+Togliere trunk   
+
+	interface gig1/0/x
+	switchport mode access
 
 **Porta dedicata a VLAN VOCE**   
 
