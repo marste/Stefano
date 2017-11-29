@@ -16,26 +16,30 @@ tags:
   - command line
 published: true
 ---
-Controlli Accessibilità
+Controlli Accessibilità   
 	access.cpl
-Wizard Accessibilità
+Wizard Accessibilità   
 	accwiz
-Aggiungi Hardware
+Aggiungi Hardware   
 	hdwwiz.cpl
-Aggiungi/Rimuovi hardware
+Aggiungi/Rimuovi hardware   
 	appwiz.cpl
 Strumenti Amministrazione
 	control admintools
-    
-	
-	
-	Aggiornamenti Automatici – wuaucpl.cpl
-    Trasferimento Guidato Bluetooth – fsquirt
-    Calcolatrice – calc
-    Certificati – certmgr.msc
-    Mappa Caratteri – charmap
-    Esegui Check Disk – chkdsk
-    Visualizza Clipboard – clipbrd
+Aggiornamenti Automatici
+	wuaucpl.cpl
+Trasferimento Guidato Bluetooth
+	fsquirt
+Calcolatrice
+	calc
+Certificati
+	certmgr.msc
+Mappa Caratteri
+	charmap
+Esegui Check Disk
+	chkdsk
+Visualizza Clipboard
+	clipbrd
     Finestra DOS – cmd
     Servizi Componenti – dcomcnfg
     Gestione Computer – compmgmt.msc
