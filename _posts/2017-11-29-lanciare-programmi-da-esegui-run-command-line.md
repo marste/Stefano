@@ -223,33 +223,71 @@ ntmsoprq.msc
 Gruppo di Criteri Risultante
 rsop.msc
 
-    Scanner e Macchine Fotografiche – sticpl.cpl
-    perazioni Pianificate – control schedtasks
-    Centro Sicurezza – wscui.cpl
-    Servizi – services.msc
-    Cartelle Condivise – fsmgmt.msc
-    Chiusura Windows – shutdown
-    Souni e Periferiche Audio – mmsys.cpl
-    Gioco Spider – spider
-    Utilità di rete Configurazione SQL – cliconfg
-    Editor di Configurazione di Sistema – sysedit
-    Utilità di Configurazione di Sistema – msconfig
-    Informazioni di Sitema – msinfo32
-    Proprietà di Sistema – sysdm.cpl
-    Task Manager – taskmgr
-    TCP Tester – tcptest
-    Telnet Client – telnet
-    Gestione Account Utente – nusrmgr.cpl
-    Utility Manager – utilman
-    Rubrica Windows – wab
-    Utilità Importazione Rubrica Windows – wabmig
-    Windows Explorer – explorer
-    Windows Firewall – firewall.cpl
-    Windows Magnifier – magnify
-    Windows Management Infrastructure – wmimgmt.msc
-    Windows Media Player – wmplayer
-    Windows Messenger – msmsgs
-    Protezione del Database Account Windows – syskey
-    Windows Update – wupdmgr
-    Versione di Windows – winver
-    Wordpad – write
+Scanner e Macchine Fotografiche
+sticpl.cpl
+
+Operazioni Pianificate
+control schedtasks
+
+Centro Sicurezza
+wscui.cpl
+
+Servizi
+services.msc
+
+Cartelle Condivise
+fsmgmt.msc
+
+Chiusura Windows
+shutdown
+
+Souni e Periferiche Audio
+mmsys.cpl
+
+Utilità di rete Configurazione SQL
+cliconfg
+
+Editor di Configurazione di Sistema
+sysedit
+
+Utilità di Configurazione di Sistema
+msconfig
+
+Informazioni di Sitema
+msinfo32
+
+Proprietà di Sistema
+sysdm.cpl
+
+Task Manager
+taskmgr
+
+TCP Tester
+tcptest
+
+Telnet Client
+telnet
+
+Gestione Account Utente
+nusrmgr.cpl
+
+Assistente Vocale
+utilman
+
+Windows Explorer
+explorer
+
+Windows Firewall
+firewall.cpl
+
+Windows Magnifier
+magnify
+
+Windows Management Infrastructure
+wmimgmt.msc
+   
+Versione di Windows
+winver
+
+Wordpad
+write
