@@ -154,3 +154,7 @@ Per riportare a default la configurazione della porta
 
 	interface gig1/0/x
 	switchport mode access
+	
+**Vedere l'indirizzo IP e la configurazione**
+
+	show config
