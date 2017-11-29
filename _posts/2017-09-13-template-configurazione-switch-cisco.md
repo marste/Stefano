@@ -101,7 +101,7 @@ Installare un server TFTP <a href="http://tftpd32.jounin.net/tftpd32_download.ht
 
 Per selezionare un tot. di porte sul quale applicare il comando   
 
-	interface range gig1/0/1-2   
+	interface range gig1/0/1-48
 	
 Per riportare a default la configurazione della porta   
 
