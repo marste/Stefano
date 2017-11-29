@@ -31,22 +31,30 @@ published: true
 **Strumenti Amministrazione**   
 `control admintools`   
 
+**Aggiornamenti Automatici**
+`wuaucpl.cpl`
 
-Aggiornamenti Automatici
-	wuaucpl.cpl
-Trasferimento Guidato Bluetooth
-	fsquirt
-Calcolatrice
-	calc
-Certificati
-	certmgr.msc
-Mappa Caratteri
-	charmap
-Esegui Check Disk
-	chkdsk
-Visualizza Clipboard
-	clipbrd
-    Finestra DOS – cmd
+**Trasferimento Guidato Bluetooth**
+`fsquirt`
+	
+**Calcolatrice**
+`calc`
+
+**Certificati**
+`certmgr.msc`
+
+**Mappa Caratteri**
+`charmap`
+
+**Esegui Check Disk**
+`chkdsk`
+
+**Visualizza Clipboard**
+`clipbrd`
+
+**Finestra DOS**
+`cmd`
+
     Servizi Componenti – dcomcnfg
     Gestione Computer – compmgmt.msc
     Pannello di Controllo – control
