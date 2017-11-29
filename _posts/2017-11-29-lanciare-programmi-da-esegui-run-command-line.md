@@ -16,19 +16,19 @@ tags:
   - command line
 published: true
 ---
-Controlli Accessibilità:
+**Controlli Accessibilità**   
 `access.cpl`   
 
-Wizard Accessibilità:   
+**Wizard Accessibilità**   
 `accwiz`   
 
-Aggiungi Hardware:   
+**Aggiungi Hardware**   
 `hdwwiz.cpl`   
 
-Aggiungi/Rimuovi hardware:   
+**Aggiungi/Rimuovi hardware**   
 `appwiz.cpl`   
    
-Strumenti Amministrazione:   
+**Strumenti Amministrazione**   
 `control admintools`   
 
 
