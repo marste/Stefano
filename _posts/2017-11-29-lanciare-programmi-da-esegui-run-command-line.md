@@ -17,19 +17,19 @@ tags:
 published: true
 ---
 **Controlli Accessibilità**   
-`access.cpl`   
+`access.cpl`
 
 **Wizard Accessibilità**   
-`accwiz`   
+`accwiz`
 
 **Aggiungi Hardware**   
-`hdwwiz.cpl`   
+`hdwwiz.cpl`
 
 **Aggiungi/Rimuovi hardware**   
-`appwiz.cpl`   
+`appwiz.cpl`
    
 **Strumenti Amministrazione**   
-`control admintools`   
+`control admintools`
 
 **Aggiornamenti Automatici**
 `wuaucpl.cpl`
@@ -56,238 +56,238 @@ published: true
 `cmd`
 
 **Servizi Componenti**   
-dcomcnfg
+`dcomcnfg`
 
 **Gestione Computer**   
-compmgmt.msc
+`compmgmt.msc`
 
 **Pannello di Controllo**   
-control
+`control`
 
 **Proprietà Data/Ora**   
-timedate.cpl
+`timedate.cpl`
 
 **Condivisioni DDE**   
-ddeshare
+`ddeshare`
 
 **Gestione Periferiche**   
-devmgmt.msc
+`devmgmt.msc`
 
 **Diagnostica Direct X**   
-dxdiag
+`dxdiag`
 
 **Pulizia Disco**   
-cleanmgr
+`cleanmgr`
 
 **Deframmentazione Disco**   
-dfrg.msc
+`dfrg.msc`
 
 **Gestione Disco**   
-diskmgmt.msc
+`diskmgmt.msc`
 
 **Gestione Partizione Disco**   
-diskpart
+`diskpart`
 
 **Proprietà Schermo**   
-control desktop
+`control desktop`
 
 **Proprietà Schermo**   
-desk.cpl
+`desk.cpl`
 
 **Driver Verifier Manager**   
-verifier
+`verifier`
 
 **Visualizzatore Eventi**   
-eventvwr.msc
+`eventvwr.msc`
 
 **Trasferimento Guidato File e Impostazioni**   
-migwiz
+`migwiz`
 
 **Verifica Firma File**   
-sigverif
+`sigverif`
 
 **Opzioni Cartella**   
-control folders
+`control folders`
 
 **Font**   
-control fonts
+`control fonts`
 
 **Cartella Font**   
-fonts
+`fonts`
 
 **Controlli Gioco**   
-joy.cpl
+`joy.cpl`
 
 **Criterio Gruppo**   
-gpedit.msc
+`gpedit.msc`
   
 **Iexpress Wizard**   
-iexpress
+`iexpress`
     
 **Internet Explorer**   
-iexplore
+`iexplore`
 
 **Proprietà Internet**   
-inetcpl.cpl
+`inetcpl.cpl`
 
 **Proprietà Tastiera**   
-control keyboard
+`control keyboard`
 
 **Impostazioin Protezione Locale**   
-secpol.msc
+`secpol.msc`
 
 **Utenti e Gruppi Locali**   
-lusrmgr.msc
+`lusrmgr.msc`
 
 **Uscire da Windows**   
-logoff
+`logoff`
 
 **Strumento di Rimozione Malware**   
-mrt
+`mrt`
  
 **Microsoft Paint**   
-mspaint
+`mspaint`
 
 **Microsoft Syncronization Tool**   
-mobsync
+`mobsync`
 
 **Proprietà Mouse**   
-control mouse
+`control mouse`
 
 **Proprietà Mouse**   
-main.cpl
+`main.cpl`
 
 **Connessioni di Rete**   
-control netconnections
+`control netconnections`
 
 **Connessioni di Rete**   
-ncpa.cpl
+`ncpa.cpl`
 
 **Connessioni Guidata Rete**   
-netsetup.cpl
+`netsetup.cpl`
 
 **Notepad**   
-notepad
+`notepad`
 
 **Amministrazione Origine Dati ODBC**   
-odbccp32.cpl
+`odbccp32.cpl`
 
 **Tastiera su Schermo**   
-osk
+`osk`
    
 **Proprietà Password**   
-password.cpl
+`password.cpl`
 
 **Monitor Performance**   
-perfmon.msc
+`perfmon.msc`
 
 **Monitor Performance**   
-perfmon
+`perfmon`
 
 **Opzioni Telefono e Modem**   
-telephon.cpl
+`telephon.cpl`
 
 **Connessione Telefonica**   
-dialer
+`dialer`
 
 **Opzioni Risparmio Energia**   
-powercfg.cpl
+`powercfg.cpl`
 
 **Stampanti e Fax**   
-control printers
+`control printers`
 
 **Cartella Stampanti**   
-printers
+`printers`
 
 **Impostazioni Regionali**   
-intl.cpl
+`intl.cpl`
 
 **Editor del Registro di Sistema**   
-regedit
+`regedit`
 
 **Editor del Registro di Sistema**   
-regedit32
+`regedit32`
 
 **Rubrica per la Connessione Remota**   
-rasphone
+`rasphone`
 
 **Desktop Remoto**   
-mstsc
+`mstsc`
 
 **Archivi Removibili**   
-ntmsmgr.msc
+`ntmsmgr.msc`
 
 **Richieste Operatore per Archivi Removibili**   
-ntmsoprq.msc
+`ntmsoprq.msc`
 
 **Gruppo di Criteri Risultante**   
-rsop.msc
+`rsop.msc`
 
 **Scanner e Macchine Fotografiche**   
-sticpl.cpl
+`sticpl.cpl`
 
 **Operazioni Pianificate**   
-control schedtasks
+`control schedtasks`
 
 **Centro Sicurezza**   
-wscui.cpl
+`wscui.cpl`
 
 **Servizi**   
-services.msc
+`services.msc`
 
 **Cartelle Condivise**   
-fsmgmt.msc
+`fsmgmt.msc`
 
 **Chiusura Windows**   
-shutdown
+`shutdown`
 
 **Souni e Periferiche Audio**   
-mmsys.cpl
+`mmsys.cpl`
 
 **Utilità di rete Configurazione SQL**   
-cliconfg
+`cliconfg`
 
 **Editor di Configurazione di Sistema**   
-sysedit
+`sysedit`
 
 **Utilità di Configurazione di Sistema**   
-msconfig
+`msconfig`
 
 **Informazioni di Sitema**   
-msinfo32
+`msinfo32`
 
 **Proprietà di Sistema**   
-sysdm.cpl
+`sysdm.cpl`
 
 **Task Manager**   
-taskmgr
+`taskmgr`
 
 **TCP Tester**   
-tcptest
+`tcptest`
 
 **Telnet Client**   
-telnet
+`telnet`
 
 **Gestione Account Utente**   
-nusrmgr.cpl
+`nusrmgr.cpl`
 
 **Assistente Vocale**   
-utilman
+`utilman`
 
 **Windows Explorer**   
-explorer
+`explorer`
 
 **Windows Firewall**   
-firewall.cpl
+`firewall.cpl`
 
 **Windows Magnifier**   
-magnify
+`magnify`
 
 **Windows Management Infrastructure**   
-wmimgmt.msc
+`wmimgmt.msc`
    
 **Versione di Windows**   
-winver
+`winver`
 
 **Wordpad**   
-write
+`write`
