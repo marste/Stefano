@@ -18,12 +18,16 @@ published: true
 ---
 Controlli Accessibilità   
 	access.cpl
+
 Wizard Accessibilità   
 	accwiz
+
 Aggiungi Hardware   
 	hdwwiz.cpl
+
 Aggiungi/Rimuovi hardware   
 	appwiz.cpl
+
 Strumenti Amministrazione
 	control admintools
 Aggiornamenti Automatici
