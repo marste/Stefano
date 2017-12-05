@@ -14,6 +14,7 @@ tags:
   - applicazioni
   - administrator
   - appwiz.cpl
+  - runas
 ---
 	runas /user:dominio\administrator "control appwiz.cpl"
 oppure	
