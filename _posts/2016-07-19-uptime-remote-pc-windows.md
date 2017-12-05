@@ -2,6 +2,8 @@
 title: Uptime di un PC Windows Remoto
 date: 2016-07-19 09:50:00 +0200
 author: Stefano Marzorati
+image: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
+share-img: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
 layout: post
 permalink: /uptime-pc-remoto-windows/
 categories:
