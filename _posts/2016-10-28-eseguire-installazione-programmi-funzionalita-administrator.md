@@ -15,5 +15,6 @@ tags:
   - administrator
   - appwiz.cpl
 ---
-<code>runas /user:dominio\administrator "control appwiz.cpl"</code>   
-<code>runas /username:siit\Administrator "rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl"</code>
+	runas /user:dominio\administrator "control appwiz.cpl"
+	
+	runas /username:siit\Administrator "rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl"
