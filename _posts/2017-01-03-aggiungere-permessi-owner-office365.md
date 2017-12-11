@@ -2,6 +2,8 @@
 title: Dare permessi di Owner ad un utente su Office365
 date: 2017-01-03 14:00:00 +0200
 author: Stefano Marzorati
+image: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
+share-img: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
 layout: post
 permalink: /aggiungere-permessi-owner-office365-powershell/
 categories:

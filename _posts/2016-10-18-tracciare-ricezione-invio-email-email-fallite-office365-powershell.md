@@ -2,6 +2,8 @@
 title: Tracciare invio e ricezione di email fallite su Office365
 date: 2016-10-18 15:00:00 +0200
 author: Stefano Marzorati
+image: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
+share-img: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
 layout: post
 permalink: /tracciare-ricezione-invio-email-email-fallite-office365-powershell/
 categories:

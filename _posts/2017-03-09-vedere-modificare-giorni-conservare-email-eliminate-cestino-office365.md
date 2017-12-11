@@ -2,6 +2,8 @@
 title: Vedere e modificare i giorni per conservare email eliminate in Office 365
 date: 2017-03-09 11:00:00 +0200
 author: Stefano Marzorati
+image: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
+share-img: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
 layout: post
 permalink: /vedere-modificare-giorni-conservare-email-eliminate-cestino-office365/
 categories:

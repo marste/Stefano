@@ -2,6 +2,8 @@
 title: Office 365 - La risorsa non accetta riunioni con durata superiore a 1440 minuti
 date: 2017-01-26 17:40:00 +0200
 author: Stefano Marzorati
+image: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
+share-img: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
 layout: post
 permalink: /office365-risorsa-non-accetta-riunioni-durata-superiore-1440-minuti/
 categories:
