@@ -2,6 +2,8 @@
 title: Visualizzare la dimensione e lo stato della quota di una cassetta postale su Office 365
 date: 2016-10-17 15:00:00 +0200
 author: Stefano Marzorati
+image: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
+share-img: 'http://www.fullerton.edu/it/_resources/images/faculty_software_logo/office365_logo.png'
 layout: post
 permalink: /visualizzare-dimensione-quota-cassetta-postale-office365-powershell/
 categories:
