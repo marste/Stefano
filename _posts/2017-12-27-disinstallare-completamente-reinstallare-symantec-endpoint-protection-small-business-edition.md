@@ -27,16 +27,18 @@ b.	Per i Servers, collegamento diretto all'ultima versione disponibile di CleanW
 3.	Rimuovere il client dalla console di hostendpoint (<a href="https://hostedendpoint.spn.com" target="_blank">https://hostedendpoint.spn.com</a>).
 4.	Esegui **Symantec Removal Tool Extractor v2** <a href="https://symantec.app.box.com/SymantecRemovalToolExtractorV2" target="_blank">Symantec Removal Tool Extractor v2</a>
 5.	Riavvia la macchina
-6.	Se ancora presenti, elimina: 
-a.	C:\ProgramData\Norton
-b.	C:\ProgramData\NortonInstaller
-c.	C:\ProgramData\Symantec
-d.	C:\ProgramData\Symantec Cloud
+6.	Se ancora presenti, elimina:   
+
+	C:\ProgramData\Norton
+	C:\ProgramData\NortonInstaller
+	C:\ProgramData\Symantec
+	C:\ProgramData\Symantec Cloud
  
-7.	[Opzionale] Se ancora presente, eliminare le seguenti chiavi del Registro di sistema (eseguire sempre il backup del registro prima di eliminare qualsiasi chiave):
-a.	HKEY_LOCAL_MACHINE\SOFTWARE\Norton
-b.	HKEY_LOCAL_MACHINE\SOFTWARE\Symantec
-c.	HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Norton
-d.	HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Symantec
+7.	[Opzionale] Se ancora presente, eliminare le seguenti chiavi del Registro di sistema (eseguire sempre il backup del registro prima di eliminare qualsiasi chiave):   
+
+	HKEY_LOCAL_MACHINE\SOFTWARE\Norton
+	HKEY_LOCAL_MACHINE\SOFTWARE\Symantec
+	HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Norton
+	HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Symantec
  
 8.	Log on to <a href="https://hostedendpoint.spn.com" target="_blank">https://hostedendpoint.spn.com</a> > Computers > Add Computers > download a fresh new package.
