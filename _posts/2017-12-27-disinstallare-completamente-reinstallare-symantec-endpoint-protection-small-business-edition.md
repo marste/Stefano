@@ -29,10 +29,10 @@ b.	Per i Servers, collegamento diretto all'ultima versione disponibile di CleanW
 5.	Riavvia la macchina   
 6.	Se ancora presenti, elimina:   
 
-	C:\ProgramData\Norton
-	C:\ProgramData\NortonInstaller
-	C:\ProgramData\Symantec
-	C:\ProgramData\Symantec Cloud
+	C:\ProgramData\Norton   
+	C:\ProgramData\NortonInstaller   
+	C:\ProgramData\Symantec   
+	C:\ProgramData\Symantec Cloud   
  
 7.	[Opzionale] Se ancora presente, eliminare le seguenti chiavi del Registro di sistema (eseguire sempre il backup del registro prima di eliminare qualsiasi chiave):   
 
