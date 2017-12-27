@@ -3,6 +3,8 @@ title: Download removal tool Symantec
 date: 2016-07-29 11:25:00 +0200
 author: Stefano Marzorati
 layout: post
+image: 'https://tigerware.lsu.edu/image/e7275ace-8ee7-4baf-9fe7-df2f62e76682.png'
+share-img: 'https://tigerware.lsu.edu/image/e7275ace-8ee7-4baf-9fe7-df2f62e76682.png'
 permalink: /download-removal-tool-symantec/
 categories:
   - Software
