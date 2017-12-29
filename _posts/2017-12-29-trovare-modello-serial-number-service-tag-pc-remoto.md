@@ -29,7 +29,7 @@ Remote PC:
 	
 	psexec \\nome_pc wmic csproduct get vendor, name, identifyingnumber
 	
-Oppure   
+**Oppure**   
 
 Local PC:   
 
@@ -39,7 +39,7 @@ Remote PC:
 
 	psexec \\nome_pc wmic bios get serialnumber
 	
-Se vuoi sapere anche se è a 32 bit o 64 bit, il produttore e il modello
+**Se vuoi sapere anche se è a 32 bit o 64 bit, il produttore e il modello**
 
 Local PC:   
 
