@@ -3,8 +3,8 @@ title: Trovare modello e serial number o service tag di un PC remoto
 date: 2017-12-29 12:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://www.malekal.com/wp-content/uploads/invite_commandes_windows_logo.jpg'
-share-img: 'https://www.malekal.com/wp-content/uploads/invite_commandes_windows_logo.jpg'
+image: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
+share-img: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
 categories:
   - Windows
 tags:
