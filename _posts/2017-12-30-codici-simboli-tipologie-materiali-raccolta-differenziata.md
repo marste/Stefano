@@ -175,5 +175,10 @@ tags:
     <td class="tg-s6z2">61 TEX</td>
     <td class="tg-s6z2">Juta</td>
   </tr>
-</table>
+  <tr>
+    <td class="tg-s6z2"></td>
+    <td class="tg-s6z2">62 69</td>
+    <td class="tg-s6z2">Altri materiali tessili</td>
+  </tr>
+  </table>
 
