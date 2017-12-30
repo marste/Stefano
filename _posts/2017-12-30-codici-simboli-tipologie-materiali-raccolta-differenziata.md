@@ -182,3 +182,89 @@ tags:
   </tr>
   </table>
 
+<p>
+  
+  <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e">80</th>
+    <th class="tg-031e">Carta e cartone/metalli vari</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">81</td>
+    <td class="tg-031e">Carta e cartone/plastica</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">82</td>
+    <td class="tg-yw4l">Carta e cartone/alluminio: Sacchetto di biscotti,confezionati</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">83</td>
+    <td class="tg-yw4l">Carta e cartone/latta</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">84</td>
+    <td class="tg-yw4l">Carta e cartone/plastica/alluminio</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">85</td>
+    <td class="tg-yw4l">Carta e cartone/plastica/alluminio/latta</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">86 89<br></td>
+    <td class="tg-yw4l">Altri materiali composti</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">93 94<br></td>
+    <td class="tg-yw4l">Altri materiali composti</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">99</td>
+    <td class="tg-yw4l">Altri materiali composti</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">90</td>
+    <td class="tg-yw4l">Plastica/alluminio</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">91</td>
+    <td class="tg-yw4l">Plastica/latta</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">92</td>
+    <td class="tg-yw4l">Plastica/metalli vari</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">95</td>
+    <td class="tg-yw4l">Vetro/plastica</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">96</td>
+    <td class="tg-yw4l">Vetro/alluminio</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">97</td>
+    <td class="tg-yw4l">Vetro/latta</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">98</td>
+    <td class="tg-yw4l">Vetro/metalli vari</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">R SP</td>
+    <td class="tg-yw4l">Medicinali</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">R SP</td>
+    <td class="tg-yw4l">Apparecchiature tecnologiche</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">R SP</td>
+    <td class="tg-yw4l">Pile e batterie esaurite</td>
+  </tr>
+</table>
