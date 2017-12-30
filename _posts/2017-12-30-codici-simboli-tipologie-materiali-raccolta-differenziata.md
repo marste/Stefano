@@ -113,9 +113,7 @@ tags:
   </tr>
 </table>
 
-
-
-
+<p>
 
 <table class="tg">
   <tr>
@@ -131,9 +129,14 @@ tags:
     <td class="tg-s6z2">41 ALU</td>
     <td class="tg-s6z2">Alluminio</td>
   </tr>
+   <tr>
+    <td class="tg-s6z2"></td>
+    <td class="tg-s6z2">42 49</td>
+    <td class="tg-s6z2">Altri tipi di metallo</td>
+  </tr>
 </table>
 
-
+<p>
 
 <table class="tg">
   <tr>
@@ -148,5 +151,36 @@ tags:
     <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/FOR_51.gif" alt="sughero 51"></td>
     <td class="tg-s6z2">51 FOR</td>
     <td class="tg-s6z2">Sughero</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2"></td>
+    <td class="tg-s6z2">52 59</td>
+    <td class="tg-s6z2">Altri tipi di materiali in legno</td>
+  </tr>
+</table>
+
+<p>
+
+<table class="tg">
+  <tr>
+    <th class="tg-hgcj" colspan="3">Tessili</th>
+  </tr>
+  <tr>
+    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/TEX_60.gif" alt="tessile 60"></td>
+    <td class="tg-s6z2">60 TEX</td>
+    <td class="tg-s6z2">Cotone</td>
+  </tr>
+</table>
+
+<p>
+
+<table class="tg">
+  <tr>
+    <th class="tg-hgcj" colspan="3">Tessili</th>
+  </tr>
+  <tr>
+    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/TEX_60.gif" alt="tessile 60"></td>
+    <td class="tg-s6z2">60 TEX</td>
+    <td class="tg-s6z2">Cotone</td>
   </tr>
 </table>
