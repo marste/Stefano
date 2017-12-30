@@ -70,9 +70,7 @@ tags:
     <td class="tg-baqh">07-19 O</td>
     <td class="tg-baqh">Tutte le altre plastiche</td>
   </tr>
-</table>
-
-<br>
+</table>   
 
 <table class="tg">
   <tr>
