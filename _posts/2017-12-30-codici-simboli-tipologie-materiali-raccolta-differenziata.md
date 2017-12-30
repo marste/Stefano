@@ -192,8 +192,8 @@ tags:
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-031e">80</th>
-    <th class="tg-031e">Carta e cartone/metalli vari</th>
+    <td class="tg-031e">80</td>
+    <td class="tg-031e">Carta e cartone/metalli vari</td>
   </tr>
   <tr>
     <td class="tg-031e">81</td>
