@@ -29,7 +29,7 @@ tags:
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
 .tg .tg-s6z2{text-align:center}
 .tg .tg-hgcj{font-weight:bold;text-align:center}
-.tg .tg-yw4l{vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
@@ -66,8 +66,8 @@ tags:
     <td class="tg-s6z2">Polistirene o Polistirolo: Bicchieri monouso</td>
   </tr>
   <tr>
-    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/O_07gif.gif" alt="plastica O 07" width="50" height="50" /></td>
-    <td class="tg-s6z2">07-19 O</td>
-    <td class="tg-s6z2">Tutte le altre plastiche</td>
+    <td class="tg-baqh"><img src="http://www.difesambiente.it/immagini/O_07gif.gif" alt="plastica O 07" width="50" height="50" /></td>
+    <td class="tg-baqh">07-19 O</td>
+    <td class="tg-baqh">Tutte le altre plastiche</td>
   </tr>
 </table>
