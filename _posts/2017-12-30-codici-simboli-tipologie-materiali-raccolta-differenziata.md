@@ -37,37 +37,37 @@ tags:
   </tr>
   <tr>
     <td class="tg-031e"><img src="http://www.difesambiente.it/immagini/PET_01.gif" alt="plastica PET" width="50" height="50" /></td>
-    <td class="tg-031e">#1 PET o PETE</td>
+    <td class="tg-031e">01 PET o PETE</td>
     <td class="tg-s6z2">Polietilene tereftalato o arnite: Bottiglie di acqua, bottiglie di bibite, flaconi di shampoo</td>
   </tr>
   <tr>
     <td class="tg-031e"><img src="http://www.difesambiente.it/immagini/PE_02.gif" alt="plastica PE-HD 02" width="50" height="50" /></td>
-    <td class="tg-031e">#2 HDPE</td>
+    <td class="tg-031e">02 HDPE</td>
     <td class="tg-031e">Polietilene ad alta densità: Contenitori degli yogurt, flaconi di detersivo</td>
   </tr>
   <tr>
     <td class="tg-031e"><img src="http://www.difesambiente.it/immagini/PVC_03.gif" alt="plastica PVC 03" width="50" height="50" /></td>
-    <td class="tg-031e">#3 PVC o V</td>
+    <td class="tg-031e">03 PVC o V</td>
     <td class="tg-031e">Cloruro di polivinile: Contenitori,per alimenti</td>
   </tr>
   <tr>
     <td class="tg-031e"><img src="http://www.difesambiente.it/immagini/PE_04.gif" alt="plastica PE-LD" width="50" height="50" /></td>
-    <td class="tg-031e">#4 LDPE</td>
+    <td class="tg-031e">04 LDPE</td>
     <td class="tg-031e">Polietilene a bassa densità: Sacchetti cibi surgelati, bottiglie spremibili</td>
   </tr>
   <tr>
     <td class="tg-031e"><img src="http://www.difesambiente.it/immagini/PP_05.gif" alt="plastica PP 05" width="50" height="50" /></td>
-    <td class="tg-031e">#5 PP</td>
+    <td class="tg-031e">05 PP</td>
     <td class="tg-031e">Polipropilene o Moplen: Bottiglie di ketchup</td>
   </tr>
   <tr>
     <td class="tg-031e"><img src="http://www.difesambiente.it/immagini/PS_06gif.gif" alt="plastica PS 06" width="50" height="50" /></td>
-    <td class="tg-031e">#6 PS</td>
+    <td class="tg-031e">06 PS</td>
     <td class="tg-031e">Polistirene o Polistirolo: Bicchieri monouso</td>
   </tr>
   <tr>
     <td class="tg-yw4l"><img src="http://www.difesambiente.it/immagini/O_07gif.gif" alt="plastica O 07" width="50" height="50" /></td>
-    <td class="tg-yw4l">#7-#19 O</td>
+    <td class="tg-yw4l">07-19 O</td>
     <td class="tg-yw4l">Tutte le altre plastiche</td>
   </tr>
 </table>
