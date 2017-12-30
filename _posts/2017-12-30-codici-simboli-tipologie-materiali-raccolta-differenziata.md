@@ -71,7 +71,7 @@ tags:
     <td class="tg-baqh">Tutte le altre plastiche</td>
   </tr>
 </table>   
-
+<p>
 <table class="tg">
   <tr>
     <th class="tg-hgcj" colspan="3">Carta e vetro</th>
