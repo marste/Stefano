@@ -170,17 +170,10 @@ tags:
     <td class="tg-s6z2">60 TEX</td>
     <td class="tg-s6z2">Cotone</td>
   </tr>
-</table>
-
-<p>
-
-<table class="tg">
   <tr>
-    <th class="tg-hgcj" colspan="3">Tessili</th>
-  </tr>
-  <tr>
-    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/TEX_60.gif" alt="tessile 60"></td>
-    <td class="tg-s6z2">60 TEX</td>
-    <td class="tg-s6z2">Cotone</td>
+    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/TEX_61.gif" alt="tessile 61"></td>
+    <td class="tg-s6z2">61 TEX</td>
+    <td class="tg-s6z2">Juta</td>
   </tr>
 </table>
+
