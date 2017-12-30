@@ -112,3 +112,41 @@ tags:
     <td class="tg-baqh">Vetro di colore marrone: Bottiglie di birra</td>
   </tr>
 </table>
+
+
+
+
+
+<table class="tg">
+  <tr>
+    <th class="tg-hgcj" colspan="3">Metalli</th>
+  </tr>
+  <tr>
+    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/FE_40.gif" alt="ferro 40"></td>
+    <td class="tg-s6z2">40 FE</td>
+    <td class="tg-s6z2">Acciaio - Ferro</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/ALU_41.gif" alt="alluminio 41"></td>
+    <td class="tg-s6z2">41 ALU</td>
+    <td class="tg-s6z2">Alluminio</td>
+  </tr>
+</table>
+
+
+
+<table class="tg">
+  <tr>
+    <th class="tg-hgcj" colspan="3">Legno</th>
+  </tr>
+  <tr>
+    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/FOR_50.gif" alt="legno 50"></td>
+    <td class="tg-s6z2">50 FOR</td>
+    <td class="tg-s6z2">Legno</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2"><img src="http://www.difesambiente.it/immagini/FOR_51.gif" alt="sughero 51"></td>
+    <td class="tg-s6z2">51 FOR</td>
+    <td class="tg-s6z2">Sughero</td>
+  </tr>
+</table>
