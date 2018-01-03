@@ -18,6 +18,9 @@ Example:
 
 	sudo fsck -yvfM /dev/sda1   
 	
+	
 	sudo fsck -y /dev/sda1   
 	
+	
 	sudo fsck -tyfc /dev/sda1   
+	
