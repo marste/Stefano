@@ -23,29 +23,28 @@ tags:
 ---
 Local PC:
 	
-	wmic csproduct get vendor, name, identifyingnumber
+`wmic csproduct get vendor, name, identifyingnumber`
 	
 Remote PC:   
 	
-	psexec \\nome_pc wmic csproduct get vendor, name, identifyingnumber
+`psexec \\nome_pc wmic csproduct get vendor, name, identifyingnumber`
 	
 **Oppure**   
 
 Local PC:   
 
-	wmic bios get serialnumber
+`wmic bios get serialnumber`
 	
 Remote PC:   
 
-	psexec \\nome_pc wmic bios get serialnumber
+`psexec \\nome_pc wmic bios get serialnumber`
 	
 **Se vuoi sapere anche se è a 32 bit o 64 bit, il produttore e il modello**
 
 Local PC:   
 
-	wmic computersystem get model, name, manufacturer, systemtype
+`wmic computersystem get model, name, manufacturer, systemtype`
 	
 Remote PC:   
 
-	psexec \\nome_pc wmic computersystem get model, name, manufacturer, systemtype
-
+`psexec \\nome_pc wmic computersystem get model, name, manufacturer, systemtype`
