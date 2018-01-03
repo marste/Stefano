@@ -3,8 +3,8 @@ title: Check and repair a linux corrupted filesystem
 date: 2018-01-03 08:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'http://www.gandotech.net/wp-content/uploads/2015/04/Terminal-icon-shell-linux-unix.png'
-share-img: 'http://www.gandotech.net/wp-content/uploads/2015/04/Terminal-icon-shell-linux-unix.png'
+image: 'https://raw.githubusercontent.com/snwh/moka-icon-theme/master/Moka/64x64@2x/apps/utilities-terminal.png'
+share-img: 'https://raw.githubusercontent.com/snwh/moka-icon-theme/master/Moka/64x64@2x/apps/utilities-terminal.png'
 categories:
   - Linux
 tags:
