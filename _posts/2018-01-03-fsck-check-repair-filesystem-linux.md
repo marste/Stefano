@@ -8,11 +8,13 @@ share-img: 'http://pngimg.com/uploads/linux/linux_PNG2.png'
 categories:
   - Linux
 tags:
-  - tftp
-  - server
-  - cisco
-  - ubuntu
+  - check
+  - repair
+  - filesystem
+  - corrupted
   - linux
+  - badblock
+  - fsck
 ---
 Example:   
 
