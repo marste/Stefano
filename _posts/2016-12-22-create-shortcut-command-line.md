@@ -3,6 +3,8 @@ title: Create shortcut from command line
 date: 2016-12-22 14:42:00 +0200
 author: Stefano Marzorati
 layout: post
+image: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
+share-img: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
 permalink: /create-shortcut-command-line/
 categories:
   - Windows
@@ -16,7 +18,7 @@ tags:
 ---
 Ecco il comando che ti servirà per creare un collegamento ad un file:   
 
-<code>mklink nome_da_dare_al_link file_di_destinazione</code>
+<code>mklink /D nome_da_dare_al_link file_di_destinazione</code>
 
 Se ti esce il seguente messaggio, vorrà dire che non sei abilitato a lanciare il comando **mklink**, per cui o lo lanci come administrator oppure dai gli accessi a chi vuoi per poterlo eseguire:   
 
