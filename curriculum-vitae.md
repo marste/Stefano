@@ -2,8 +2,8 @@
 layout: page
 title: Curriculum Vitae
 permalink: /curriculum-vitae/
-image: 'https://cdn1.iconfinder.com/data/icons/business-and-finance-flat-3/128/114-128.png'
-share-img: 'https://cdn1.iconfinder.com/data/icons/business-and-finance-flat-3/128/114-128.png'
+image: 'https://cdn3.iconfinder.com/data/icons/business-vol-2/72/72-128.png'
+share-img: 'https://cdn3.iconfinder.com/data/icons/business-vol-2/72/72-128.png'
 ---
 [05/2015 – Attuale]
 
