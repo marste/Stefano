@@ -3,8 +3,8 @@ layout: post
 title: Togliere protezione o limiti da un file Word senza conoscere la password
 date: '2018-01-16 08:00:00 +0200'
 author: Stefano Marzorati
-image: 'http://blog.directionstraining.com/wp-content/uploads/2013/07/word2013.png'
-share-img: 'http://blog.directionstraining.com/wp-content/uploads/2013/07/word2013.png'
+image: 'http://thelaymanslawyer.com/wp-content/uploads/2016/05/download-draft-the-laymans-lawyer-2.png'
+share-img: 'http://thelaymanslawyer.com/wp-content/uploads/2016/05/download-draft-the-laymans-lawyer-2.png'
 categories:
   - Office
 tags:
