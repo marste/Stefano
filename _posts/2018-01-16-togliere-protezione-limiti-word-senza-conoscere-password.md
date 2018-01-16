@@ -16,12 +16,12 @@ tags:
   - unprotected
 published: true
 ---
-1. Apri il file Word (doc, docx)   
-2. Scegli "File", "Save as" e assciurati di salvare il file in formato .rtf ("Rich-Text-Format")   
+1. **Apri il file Word** (doc, docx)   
+2. Scegli **"File"**, **"Save as"** e assciurati di salvare il file in formato **.rtf** ("Rich-Text-Format")   
 3. Chiudi il file   
-4. Apri il nuovo file .rtf con un editor di testo (Notepad o Notepad++)   
-5. Trova all'interno del file la parola "passwordhash" e sostituisci la stringa alfanumerica con una parola a caso (esempio "nopassword")   
-6. Salva e chiudi   
-7. Riapri il file .rtf con Word vai in "Review", "Restrict Editing" e clicca su "Stop Protection". Togli tutti i flag   
+4. **Apri** il nuovo file .rtf con un editor di testo (Notepad o **Notepad++**)   
+5. Trova all'interno del file la parola **"passwordhash"** e **sostituisci la stringa alfanumerica** con una parola a caso (esempio "nopassword")   
+6. **Salva e chiudi**   
+7. **Riapri il file .rtf** con Word vai in "Review", "Restrict Editing" e clicca su **"Stop Protection"**. Togli tutti i flag   
 8. Fatto. Hai tolto la protezione al file senza sapere la sua password   
 9. Se vuoi puoi risalvare il file in doc o docx   
