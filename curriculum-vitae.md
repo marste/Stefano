@@ -2,8 +2,8 @@
 layout: page
 title: Curriculum Vitae
 permalink: /curriculum-vitae/
-image: 'https://cdn3.iconfinder.com/data/icons/business-vol-2/72/72-128.png'
-share-img: 'https://cdn3.iconfinder.com/data/icons/business-vol-2/72/72-128.png'
+image: 'http://papantonakos.it/assets/img/favicon.png'
+share-img: 'http://papantonakos.it/assets/img/favicon.png'
 ---
 [05/2015 – Attuale]
 
