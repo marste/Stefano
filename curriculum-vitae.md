@@ -2,8 +2,8 @@
 layout: page
 title: Curriculum Vitae
 permalink: /curriculum-vitae/
-image: 'http://papantonakos.it/assets/img/favicon.png'
-share-img: 'http://papantonakos.it/assets/img/favicon.png'
+image: 'http://marzorati.co/img/cv.png'
+share-img: 'http://marzorati.co/img/cv.png'
 ---
 [05/2015 – Attuale]
 
