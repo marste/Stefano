@@ -17,7 +17,7 @@ tags:
 Digita:   
 **GO ASSIST** opzione **4**   
 
-https://farm5.staticflickr.com/4606/39730944062_d30bb39876_o.png
+![AS400](https://farm5.staticflickr.com/4606/39730944062_d30bb39876_o.png)
 
 Se si vuole mandare il messaggio solo a qualche utente, digitare il nome dell’utente.   
 Se si vuole mandare a tutti gli utenti digitare **<code>*ALLACT</code>**
