@@ -25,3 +25,7 @@ Il comando da digitare è il seguente:
 Se fosse un PC con Windows in inglese:   
 
 	systeminfo /s nome_pc_remoto | find "System Up Time"
+
+Oppure con WMIC:
+
+	wmic /node:"nome_PC_remoto" OS get LastBootUpTime
