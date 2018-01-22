@@ -2,8 +2,8 @@
 title: Invio messaggio a tutti gli utenti attivi su AS/400
 date: 2018-01-18 16:45:00 +0200
 published: true
-image: https://cdn2.iconfinder.com/data/icons/metro-ui-dock/128/OS_Windows_8.png
-share-img: https://cdn2.iconfinder.com/data/icons/metro-ui-dock/128/OS_Windows_8.png
+image: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
+share-img: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
 categories:
   - AS/400
 tags:
