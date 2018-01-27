@@ -15,5 +15,5 @@ tags:
   - spengono
 ---
 <center>![vodafone_station](http://v1.vodafone.it/portal/resources/media/Images/Vodafone-Station-Revolution/310x170_Vodafone_Station_Revolution.png)</center>   
-Se avete notato che da qualche giorno non si spengono più i tre LED verdi posizionati sopra la vostra Vodafone Station Revolution nonostante dalla vostra APP gli abbiate detto di spegnersi per il risparmio energetico, la soluzione è più semplice del previsto.   
+Se avete notato che da qualche giorno non si spengono più i tre LED verdi posizionati sopra la vostra Vodafone Station Revolution, nonostante dalla vostra APP gli abbiate detto di spegnersi per il risparmio energetico, la soluzione è più semplice del previsto.   
 Togliete la polvere che si è depositata sui due sensori posizionati tra i LED verdi, magari aiutandovi con un pennellino. ![smile](http://marzorati.co/img/smile-icon.png)
