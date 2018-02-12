@@ -17,12 +17,9 @@ tags:
   - disabled
   - vcenter
 ---
-To disable SSH and warning using vSphere Web Client:
-
-From the vSphere Web Client, select vCenter from the Home menu.
-Select Hosts and Clusters under the Inventory Trees.
-Expand the tree in the left pane of the vSphere Web Client.
-**Click the ESXi host with the yellow exclamation** and click the **Configuration** tab.
-Click on **Security Profile** nella sezione Software.
-In **Services** click **Properties**.
-Trova il servizio **SSH** e stoppalo.
+  - Avvia **vCenter**   
+  - Seleziona **Hosts and Clusters**   
+  - **Clicca l'host ESXi con il punto esclamativo giallo** e clicca il **Configuration** tab   
+  - Clicca su **Security Profile** nella sezione Software   
+  - In **Services** click **Properties**   
+  - Trova il servizio **SSH** e stoppalo   
