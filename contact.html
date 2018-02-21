@@ -4,12 +4,15 @@ title: Contattami
 permalink: /contact/
 tags: contact
 ---
-<form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
-  <input name="email" placeholder="Your email" type="email">
-  <textarea name="message" rows="10" placeholder="Message"></textarea>
-  <button type="submit">Send</button>
-</form>
 
+<form class="wj-contact" action="https://formspree.io/stefano@marzorati.co" method="POST">
+    <input type="text" name="email" placeholder="Email Address">
+    <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+    <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
+    <input type="hidden" name="_subject" value="New Contact Form Submission">
+    <input type="text" name="_gotcha" style="display:none">
+    <input type="submit" value="Submit">
+</form>
 
 <style>
 form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
