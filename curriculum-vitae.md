@@ -7,7 +7,7 @@ share-img: 'http://marzorati.co/img/cv.png'
 ---
 [05/2015 – Attuale]
 
-### **IT Infrastructure Specialist**   
+### **IT Infrastructure Manager**   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.siitgroup.com/" target="_blank">S.I.I.T. S.r.l.</a></b> - Società nata nel 1951 per il confezionamento di farmaci per conto terzi, oggi azienda leader come partner ideale per le aziende che vogliono affidare in outsourcing lo sviluppo e la produzione di specialità medicinali, integratori alimentari.*   
