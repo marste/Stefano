@@ -3,8 +3,8 @@ title: Firewall vs Hacker
 date: 2018-03-17 16:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'http://pngimg.com/uploads/linux/linux_PNG2.png'
-share-img: 'http://pngimg.com/uploads/linux/linux_PNG2.png'
+image: 'https://cdn0.iconfinder.com/data/icons/cyber-crime-or-threats-blue-set/120/hacker_cyber_crime-256.png'
+share-img: 'https://cdn0.iconfinder.com/data/icons/cyber-crime-or-threats-blue-set/120/hacker_cyber_crime-256.png'
 categories:
   - Humor
 tags:
