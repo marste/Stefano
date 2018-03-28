@@ -18,4 +18,8 @@ tags:
   - 2010
   - 2016
 ---
-<a href="http://marzorati.co/download/500_migliori_aziende_italiane.pdf" target="_blank">Ecco la lista completa suddivisa per regioni</a>
+Ecco le 500 imprese champion: hanno vinto la crisi e competono sui mercati globali   
+
+S.I.I.T. S.r.l. è una di queste.   
+
+<a href="http://marzorati.co/download/500_migliori_aziende_italiane.pdf" target="_blank">Clicca qua per vedere la lista completa suddivisa per regioni</a>
