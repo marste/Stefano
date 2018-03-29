@@ -20,7 +20,9 @@ http://www.tipue.com/search
 }
 .tipue_search_content_title
 {
-     font: 100 26px/1.7 'Lora', 'Times New Roman', serif;
+    /* font: 100 26px/1.7 'Lora', 'Times New Roman', serif; */
+	font-size: larger;
+	font-weight:bold;
 }
 .tipue_search_content_text, .tipue_search_related_title
 {
