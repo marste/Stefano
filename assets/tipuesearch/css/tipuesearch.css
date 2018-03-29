@@ -27,7 +27,7 @@ http://www.tipue.com/search
 .tipue_search_content_text, .tipue_search_related_title
 {
    /*  font: 300 15px/1.7 'Lora', 'Times New Roman', serif; */
-   font-size: large;
+   font-size: medium;
 }
 .tipue_search_content_bold, .tipue_search_related_bold
 {
