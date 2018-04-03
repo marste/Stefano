@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'http://marzorati.co/img/cv.png'
