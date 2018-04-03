@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Ricerche più frequenti su Google Italia
 permalink: /google-trend/
 image: 'https://gadgetstouse.com/wp-content/uploads/2017/08/photo-e1503315125151.png'
