@@ -21,7 +21,7 @@ Procedere con seguenti passaggi per garantire che nulla delle installazioni prec
 
 Esegui Norton Removal Tool (Desktop OS) o CleanWipe (Server OS) e riavvia.   
 
-1.	Per i **Desktops** <a href="ftp://ftp.symantec.com/public/english_us_canada/removal_tools/Norton_Removal_Tool.exe" target="_blank">Norton Removal Tool</a>   
+1.	<del>Per i **Desktops** <a href="ftp://ftp.symantec.com/public/english_us_canada/removal_tools/Norton_Removal_Tool.exe" target="_blank">Norton Removal Tool</a></del>   
 	Per i **Servers**, collegamento diretto all'ultima versione disponibile di CleanWipe la trovi nella parte inferiore di questo articolo: <a href="http://www.symantec.com/docs/HOWTO124983" target="_blank">http://www.symantec.com/docs/HOWTO124983</a>   
 2.	Esegui **CEDAR Tool** (può essere richiesto il riavvio) <a href="https://ins.spn.com/CEDAR.exe" target="_blank">CEDAR</a>   
 3.	Rimuovere il client dalla console di hostendpoint (<a href="https://hostedendpoint.spn.com" target="_blank">https://hostedendpoint.spn.com</a>).   
