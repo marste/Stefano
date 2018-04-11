@@ -4,8 +4,8 @@ date: 2018-04-09 23:00:00 +0200
 author: Stefano Marzorati
 layout: post
 permalink: /quanti-kwh-per-metro-cubo-di-metano/
-image: 'https://www.iconsdb.com/icons/preview/caribbean-blue/gas-xxl.png'
-share-img: 'https://www.iconsdb.com/icons/preview/caribbean-blue/gas-xxl.png'
+image: 'https://iot-playground.com/images/articles/025/gas.png'
+share-img: 'https://iot-playground.com/images/articles/025/gas.png'
 categories:
   - Varie
 ---
