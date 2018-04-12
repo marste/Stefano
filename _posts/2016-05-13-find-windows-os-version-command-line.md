@@ -20,4 +20,4 @@ Local PC:
 	
 Remote PC:   
 	
-	psexec \\nome_pc wmic os get Caption,CSDVersion /value
+	wmic /node:NOME_PC os get Caption,CSDVersion /value
