@@ -1,11 +1,10 @@
 ---
-title: Find windows OS version from command line
-date: 2016-05-13 15:00:00 +0200
-author: Stefano Marzorati
-layout: post
+title: Visualizza programmi che si avviano automaticamente all'avvio del PC
+date: 2018-04-12 15:00:00 +0200
 image: 'http://ramblingcookiemonster.github.io/images/why-powershell/logo.png'
 share-img: 'http://ramblingcookiemonster.github.io/images/why-powershell/logo.png'
-permalink: /find-windows-os-version-command-line/
+author: Stefano Marzorati
+layout: post
 categories:
   - Windows
 tags:
@@ -15,11 +14,16 @@ tags:
   - command
   - cmd
   - remote
+  - wmic
+  - programmi
+  - avvio
+  - automatico
+  - startup
 ---
 Local PC:
 	
-	wmic os get Caption,CSDVersion /value
+	wmic startup get command
 	
 Remote PC:   
 	
-	wmic /node:NOME_PC os get Caption,CSDVersion /value
+	wmic /node:NOME_PC startup get command
