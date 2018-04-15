@@ -33,4 +33,7 @@ Plasm (Bitrate: 128kbit/s)
 
 Radio Planet FM (Bitrate: 128kbit/s)   
 <audio preload="auto" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://91.121.104.139:8100/"></audio>
-http://91.121.104.139:8100/listen.pls
+
+Cavo Paradiso (Bitrate: 128kbit/s)   
+<audio preload="auto" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://s5.onweb.gr:8488/"></audio>
+
