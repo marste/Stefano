@@ -30,3 +30,7 @@ MagicRadio by PulsRadio 80 (Bitrate: 192kbit/s)
 
 Plasm (Bitrate: 128kbit/s)   
 <audio preload="auto" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://streaming.radionomy.com/Plasm"></audio>
+
+Radio Planet FM (Bitrate: 128kbit/s)   
+<audio preload="auto" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://91.121.104.139:8100/"></audio>
+http://91.121.104.139:8100/listen.pls
