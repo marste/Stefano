@@ -19,10 +19,9 @@ tags:
   - html5
   - player
 ---
-<a href="http://marzorati.co/download/music/Intense_Radio.m3u" target="_blank">Intense Radio (Bitrate: 192kbit/s)</a>
-
-RMC 2 (Bitrate: 160kbit/s)   
-<audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://icecast.unitedradio.it/MC2.mp3"></audio>
+<a href="http://marzorati.co/download/music/Intense_Radio.m3u" target="_blank">Intense Radio (Bitrate: 192kbit/s)</a>   
+   
+<a href="http://marzorati.co/download/music/Intense_Radio.m3u" target="_blank">RMC 2 (Bitrate: 160kbit/s)</a>   
 
 MagicRadio by PulsRadio 80 (Bitrate: 192kbit/s)   
 <audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://icecast.pulsradio.com:80/magicradioHD.mp3"></audio>
