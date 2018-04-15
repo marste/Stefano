@@ -37,3 +37,5 @@ Radio Planet FM (Bitrate: 128kbit/s)
 Cavo Paradiso (Bitrate: 128kbit/s)   
 <audio preload="auto" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://s5.onweb.gr:8488/"></audio>
 
+SmoothJazz.com Global (Bitrate: 128kbit/s)   
+<audio preload="auto" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://sj128.hnux.com"></audio>
