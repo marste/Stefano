@@ -19,4 +19,23 @@ tags:
   - html5
   - player
 ---
-<audio controls autoplay style="width:100%; height:50;  background-color:#000; color:#000;" src="http://stream.intenseradio.net:8000/live"></audio>
+Intense Radio   
+<audio controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://stream.intenseradio.net:8000/live"></audio>
+
+RMC 2   
+<audio controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://icecast.unitedradio.it/MC2.mp3"></audio>
+
+MagicRadio by PulsRadio 80   
+<audio controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://icecast.pulsradio.com:80/magicradioHD.mp3"></audio>
+
+RMI - Italo Disco Classic   
+<audio controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://newairhost.com:8004"></audio>
+
+FluxFM 80   
+<audio controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://fluxfm80s.radio.it"></audio>
+
+Deep House Network   
+<audio controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://51.254.130.212:8000"></audio>
+
+Plasm   
+<audio controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://streaming.radionomy.com/Plasm"></audio>
