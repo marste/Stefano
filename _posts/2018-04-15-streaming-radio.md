@@ -18,6 +18,7 @@ tags:
   - preferita
   - html5
   - player
+  - m3u
 ---
 <a href="http://marzorati.co/download/music/Intense_Radio.m3u" target="_blank">Intense Radio (Bitrate: 192kbit/s)</a>   
    
@@ -28,9 +29,7 @@ tags:
 <a href="http://marzorati.co/download/music/Plasm.m3u" target="_blank">Plasm (Bitrate: 128kbit/s)</a>   
    
 <a href="http://marzorati.co/download/music/RadioPlanetFM.m3u" target="_blank">Radio Planet FM (Bitrate: 128kbit/s)</a>   
-
-Cavo Paradiso (Bitrate: 128kbit/s)   
-<audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://s5.onweb.gr:8488/"></audio>
-
-SmoothJazz.com Global (Bitrate: 128kbit/s)   
-<audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://sj128.hnux.com"></audio>
+   
+<a href="http://marzorati.co/download/music/CavoParadiso.m3u" target="_blank">Cavo Paradiso (Bitrate: 128kbit/s)</a>   
+   
+<a href="http://marzorati.co/download/music/SmoothJazz.m3u" target="_blank">SmoothJazz.com Global (Bitrate: 128kbit/s)</a>   
