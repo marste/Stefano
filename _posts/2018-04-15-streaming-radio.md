@@ -24,12 +24,10 @@ tags:
 <a href="http://marzorati.co/download/music/RMC2.m3u" target="_blank">RMC 2 (Bitrate: 160kbit/s)</a>   
    
 <a href="http://marzorati.co/download/music/PulsRadio80.m3u" target="_blank">MagicRadio by PulsRadio 80 (Bitrate: 192kbit/s)</a>   
-
-Plasm (Bitrate: 128kbit/s)   
-<audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://streaming.radionomy.com/Plasm"></audio>
-
-Radio Planet FM (Bitrate: 128kbit/s)   
-<audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://91.121.104.139:8100/"></audio>
+   
+<a href="http://marzorati.co/download/music/Plasm.m3u" target="_blank">Plasm (Bitrate: 128kbit/s)</a>   
+   
+<a href="http://marzorati.co/download/music/RadioPlanetFM.m3u" target="_blank">Radio Planet FM (Bitrate: 128kbit/s)</a>   
 
 Cavo Paradiso (Bitrate: 128kbit/s)   
 <audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://s5.onweb.gr:8488/"></audio>
