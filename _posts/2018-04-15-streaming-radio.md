@@ -19,8 +19,7 @@ tags:
   - html5
   - player
 ---
-Intense Radio (Bitrate: 192kbit/s)   
-<audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://stream.intenseradio.net:8000/live"></audio>
+<a href="http://marzorati.co/download/music/Intense_Radio.m3u" target="_blank">Intense Radio (Bitrate: 192kbit/s)</a>
 
 RMC 2 (Bitrate: 160kbit/s)   
 <audio autostart="0" autostart="false" preload ="none" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://icecast.unitedradio.it/MC2.mp3"></audio>
