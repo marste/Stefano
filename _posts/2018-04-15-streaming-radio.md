@@ -39,5 +39,3 @@ Deep House Network (Bitrate: 192kbit/s)
 
 Plasm (Bitrate: 128kbit/s)   
 <audio preload="auto" controls style="width:100%; height:50;  background-color:#000; color:#000;" src="http://streaming.radionomy.com/Plasm"></audio>
-
-<audio src="http://newairhost.com:8004/" controls autoplay loop></audio>
