@@ -15,7 +15,10 @@ tags:
   - script
 ---
 **Analisi defrag:**   
-<code>psexec \\nome_pc defrag c: -a >> log_analisi.txt 2>&1</code>   
+
+	psexec \\nome_pc defrag c: -a >> log_analisi.txt 2>&1
+
 
 **Esegui defrag:**   
-<code>psexec \\nome_pc defrag c: >> log_defrag.txt 2>&1</code>   
+
+	psexec \\nome_pc defrag c: >> log_defrag.txt 2>&1
