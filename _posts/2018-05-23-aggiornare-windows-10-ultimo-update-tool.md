@@ -1,5 +1,5 @@
 ---
-title: Aggiornare Windows 10 a April Update build 17134
+title: Aggiornare Windows 10 a April Update build 17134 con Update Assistant
 date: 2018-05-23 10:47:00 +0200
 published: true
 layout: post
@@ -16,6 +16,7 @@ tags:
   - aggiornamenti
   - 17134
   - upgrade
+  - assistant
 ---
 Scarica questo tool:   
 <a href="https://go.microsoft.com/fwlink/?LinkID=799445" target="_blank">Windows10Upgrade9252.exe</a>   
