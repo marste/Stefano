@@ -17,5 +17,4 @@ tags:
   - 17134
 ---
 Scarica questo tool:   
-
 <a href="https://go.microsoft.com/fwlink/?LinkID=799445" target="_blank">Windows10Upgrade9252.exe</a>   
