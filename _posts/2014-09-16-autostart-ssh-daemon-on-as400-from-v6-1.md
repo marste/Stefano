@@ -4,8 +4,8 @@ title: '(Auto)start ssh daemon on AS400 from  V6.1'
 author: Stefano Marzorati
 layout: post
 guid: http://marzorati.co/?p=3111
-image: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
-share-img: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
+image: https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-256.png
+share-img: https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-256.png
 permalink: /autostart-ssh-daemon-on-as400-from-v6-1/
 authorsure_include_css:
   - 

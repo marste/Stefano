@@ -2,8 +2,8 @@
 title: Schedulazione spegnimento e accensione AS/400
 author: Stefano Marzorati
 layout: post
-image: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
-share-img: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
+image: https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-256.png
+share-img: https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-256.png
 categories:
   - AS400
 tags:

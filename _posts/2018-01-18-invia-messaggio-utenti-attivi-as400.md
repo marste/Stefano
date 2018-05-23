@@ -2,8 +2,8 @@
 title: Invio messaggio a tutti gli utenti attivi su AS/400
 date: 2018-01-18 16:45:00 +0200
 published: true
-image: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
-share-img: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
+image: https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-256.png
+share-img: https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-256.png
 categories:
   - AS/400
 tags:
