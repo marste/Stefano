@@ -1,5 +1,5 @@
 ---
-title: Dimensioni di un TV Monitor, larghezza, altezza e diagonale
+title: Dimensioni di un TV Monitor, pollici, larghezza, altezza e diagonale
 date: 2018-05-30 14:40:00 +0200
 published: true
 layout: post
@@ -17,6 +17,7 @@ tags:
   - altezza
   - diagonale
   - centimetri
+  - pollici
 ---
 <center>
 <style type="text/css">
