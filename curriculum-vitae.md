@@ -33,11 +33,13 @@ share-img: 'http://marzorati.co/img/cv.png'
 * MS Windows Client e Servers
 * Web Servers Linux (Centos – Debian - Ubuntu)
 * Firewall Sonicwall Dell
+* Switch Cisco
 * Sistemi di virtualizzazione: ESX, VMWare Server
 * Office 365 - Exchange Online
 * Web servers (Linux, Apache, Mysql, PHP)
 * IBM AS/400
 * Microsoft Exchange
+* Microsoft SQL
 * VPN
 * Server FTP
 * Appliance Symantec Antivirus-Antispam
@@ -45,7 +47,7 @@ share-img: 'http://marzorati.co/img/cv.png'
 * Telefonia DECT Spectralink
 * Data Logger a radiofrequenza
 * Lettori Barcode
-* Dos&Donts
+* Controllo accessi
 
 **Principali competenze ed attività trasversali:**
 
