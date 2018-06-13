@@ -53,6 +53,7 @@ tags:
     <td class="tg-yw4l">-90 dBm</td>
     <td class="tg-yw4l">La possibilità di un collegamento è molto improbabile.</td>
   </tr>
-</table>
+</table>   
    
+      
 <img src="https://eyesaas.com/wp-content/uploads/what-is-a-good-wifi-signal-1024x576.png"></center>
