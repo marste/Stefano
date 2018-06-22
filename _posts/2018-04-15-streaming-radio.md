@@ -35,3 +35,5 @@ tags:
 <a href="http://marzorati.co/download/music/SmoothJazz.m3u" target="_blank">SmoothJazz.com Global (Bitrate: 128kbit/s)</a>   
 
 <a href="http://marzorati.co/download/music/FluxFM80.m3u" target="_blank">Flux FM 80's (Bitrate: 320kbit/s)</a>   
+
+<a href="http://178.32.136.9/proxy/cjaccari?mp=/;" target="_blank">Negozi OVS (Bitrate: 128kbit/s)</a>   
