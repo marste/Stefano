@@ -3,8 +3,8 @@ id: 94
 title: Problemi wifi ALICE GATE 2 Plus
 author: Stefano Marzorati
 layout: post
-image: 'http://www.capalbio.it/images/wifi.png'
-share-img: 'http://www.capalbio.it/images/wifi.png'
+image: 'http://marzorati.co/img/wifi.png'
+share-img: 'http://marzorati.co/img/wifi.png'
 permalink: /problemi-wifi-alice-gate-2-plus/
 categories:
   - Linux

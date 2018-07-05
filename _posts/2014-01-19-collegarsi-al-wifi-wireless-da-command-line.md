@@ -3,8 +3,8 @@ id: 2704
 title: Collegarsi al WiFi Wireless da command line
 author: Stefano Marzorati
 layout: post
-image: 'http://www.capalbio.it/images/wifi.png'
-share-img: 'http://www.capalbio.it/images/wifi.png'
+image: 'http://marzorati.co/img/wifi.png'
+share-img: 'http://marzorati.co/img/wifi.png'
 permalink: /collegarsi-al-wifi-wireless-da-command-line/
 authorsure_include_css:
   - 
