@@ -22,3 +22,5 @@ Digitare il comando <code>GO SAVE</code> opzione <code>21</code>
 ![backup_as400](https://farm2.staticflickr.com/1788/41140944530_f3653a924a_o.png)   
 <br>
 ![backup1_as400](https://farm2.staticflickr.com/1773/41140944630_1752d17423_o.png)
+<br>
+![backup2_as400](https://farm2.staticflickr.com/1761/42540302084_77c0c2a6a3_o.png)   
