@@ -3,8 +3,8 @@ title: Verificare se la scheda WiFi supporta la frequenza di 5GHz
 date: 2016-09-07 11:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'http://www.capalbio.it/images/wifi.png'
-share-img: 'http://www.capalbio.it/images/wifi.png'
+image: 'http://marzorati.co/img/wifi.png'
+share-img: 'http://marzorati.co/img/wifi.png'
 permalink: /verifica-scheda-wifi-frequenza-5ghz/
 categories:
   - Rete

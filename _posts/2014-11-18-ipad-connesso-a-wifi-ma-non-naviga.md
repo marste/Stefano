@@ -3,8 +3,8 @@ id: 3155
 title: iPad connesso a WiFi, ma non naviga
 author: Stefano Marzorati
 layout: post
-image: 'http://www.capalbio.it/images/wifi.png'
-share-img: 'http://www.capalbio.it/images/wifi.png'
+image: 'http://marzorati.co/img/wifi.png'
+share-img: 'http://marzorati.co/img/wifi.png'
 permalink: /ipad-connesso-a-wifi-ma-non-naviga/
 authorsure_include_css:
   - 
