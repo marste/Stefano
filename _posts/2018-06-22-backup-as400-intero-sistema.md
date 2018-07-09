@@ -25,3 +25,9 @@ Digitare il comando <code>GO SAVE</code> opzione <code>21</code>
 <br>
 ![backup2_as400](https://farm2.staticflickr.com/1761/42540302084_77c0c2a6a3_o.png)   
 <br>
+Per verificare quanto tempo ci ha messo ad effettuare il backup, ti basterà premere F1 sul messaggio che vedrai in console sull'esito del backup.   
+Oppure puoi vedere i log di sistema <code>DSPLOG PERIOD((010000 080718) (*AVAIL *END))</code> mettendo l'ora e la data iniziale dal quale partire.   
+
+Per vedere il log del nastro, per capire cosa è stato salvato, digita:   
+<code>DSPTAP DEV(TAP01) OUTPUT(*PRINT)</code>   
+<code>WRKSPLF</code>   
