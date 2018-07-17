@@ -14,6 +14,8 @@ tags:
   - android
   - rotture
   - motorola
+  - top ten
+  - failure
 ---
 ![android_guasti](https://farm1.staticflickr.com/920/43413947012_d7a8586d5c_o.jpg)   
 <br>
