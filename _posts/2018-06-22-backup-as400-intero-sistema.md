@@ -2,8 +2,8 @@
 title: Schedulare backup intero sistema su AS/400
 date: 2018-07-09 09:45:00 +0200
 published: true
-image: https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-256.png
-share-img: https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-256.png
+image: https://marzorati.co/img/ibm.png
+share-img: https://marzorati.co/img/ibm.png
 categories:
   - AS/400
 tags:
