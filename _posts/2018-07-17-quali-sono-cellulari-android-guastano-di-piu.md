@@ -2,8 +2,8 @@
 title: Quali sono i cellulari Android che si guastano di più
 date: 2018-07-17 09:00:00 +0200
 published: true
-image: http://marzorati.co/img/android.png
-share-img: http://marzorati.co/img/android.png
+image: https://marzorati.co/img/android.png
+share-img: https://marzorati.co/img/android.png
 categories:
   - Android
 tags:

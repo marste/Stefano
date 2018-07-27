@@ -3,8 +3,8 @@ title: Quali processori supportano le varie versione di Windows
 date: 2018-07-20 11:47:00 +0200
 published: true
 layout: post
-image: 'http://marzorati.co/img/intel.png'
-share-img: 'http://marzorati.co/img/intel.png'
+image: 'https://marzorati.co/img/intel.png'
+share-img: 'https://marzorati.co/img/intel.png'
 categories:
   - Windows
 tags:
