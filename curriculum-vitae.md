@@ -2,8 +2,8 @@
 layout: page
 title: Curriculum Vitae
 permalink: /curriculum-vitae/
-image: 'http://marzorati.co/img/cv.png'
-share-img: 'http://marzorati.co/img/cv.png'
+image: 'https://marzorati.co/img/cv.png'
+share-img: 'https://marzorati.co/img/cv.png'
 ---
 [05/2015 – Attuale]
 
