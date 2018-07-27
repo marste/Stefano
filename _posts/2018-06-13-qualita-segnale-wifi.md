@@ -3,8 +3,8 @@ title: Qualità del segnale WiFi
 date: 2018-06-12 11:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'http://marzorati.co/img/wifi.png'
-share-img: 'http://marzorati.co/img/wifi.png'
+image: 'https://marzorati.co/img/wifi.png'
+share-img: 'https://marzorati.co/img/wifi.png'
 categories:
   - Rete
 tags:
