@@ -1,5 +1,5 @@
 ---
-title: Aggiungere un link web per aggiungere un contatto in WhatsApp
+title: Link web per aggiungere un contatto in WhatsApp
 date: 2018-08-06 09:00:00 +0200
 author: Stefano Marzorati
 layout: post
