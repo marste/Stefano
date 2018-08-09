@@ -18,5 +18,5 @@ tags:
   - cerca.vert
 ---
 <div class="video">
-    <iframe src="//youtu.be/eoVGPbSjSkg" frameborder="0" allowfullscreen></iframe>
+    <iframe src="//www.youtube.com/embed/eoVGPbSjSkg" frameborder="0" allowfullscreen></iframe>
 </div>
