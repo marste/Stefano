@@ -15,6 +15,7 @@ tags:
   - video
   - youtube
   - verticale
+  - cerca.vert
 ---
 <div class="video">
     <iframe src="//youtu.be/eoVGPbSjSkg" frameborder="0" allowfullscreen></iframe>
