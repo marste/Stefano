@@ -21,6 +21,8 @@ tags:
 
 *William H. McRaven*   
 
-<center><video>https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6430727980795916288"</video></center>
+<center><div class="video">
+    <iframe src="//www.linkedin.com/embed/feed/update/urn:li:ugcPost:6430727980795916288" frameborder="0" allowfullscreen></iframe>
+</div></center>
 
 <small>William Harry McRaven (Pinehurst, 6 novembre 1955) è un ammiraglio statunitense, ex-comandante del Joint Special Operations Command noto per essere stato il protagonista dell'Operazione Lancia di Nettuno, avvenuta tra il 1º e il 2 maggio 2011 ad Abbottabad e culminata con l'uccisione del leader di Al-Qāʿida Osama bin Laden.</small>
