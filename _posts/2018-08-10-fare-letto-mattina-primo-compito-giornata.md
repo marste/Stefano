@@ -17,10 +17,10 @@ tags:
   - william
   - cose
 ---
-«Se la mattina vi fate il letto, avrete portato a termine il primo compito della giornata. Questo vi darà una sensazione di orgoglio e vi incoraggerà a concluderne un altro, e poi un altro ancora. Farsi il letto, inoltre, rimarca la consapevolezza che nella vita le piccole cose contano. Se non sapete fare bene le piccole cose, non ne farete mai di grandi».   
+*«Se la mattina vi fate il letto, avrete portato a termine il primo compito della giornata. Questo vi darà una sensazione di orgoglio e vi incoraggerà a concluderne un altro, e poi un altro ancora. Farsi il letto, inoltre, rimarca la consapevolezza che nella vita le piccole cose contano. Se non sapete fare bene le piccole cose, non ne farete mai di grandi».*   
 
-William H. McRaven
+*William H. McRaven*   
 
 <center><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6430727980795916288?compact=1" allowfullscreen="" width="504" height="284" frameborder="0"></iframe></center>
 
-William Harry McRaven (Pinehurst, 6 novembre 1955) è un ammiraglio statunitense, ex-comandante del Joint Special Operations Command noto per essere stato il protagonista dell'Operazione Lancia di Nettuno, avvenuta tra il 1º e il 2 maggio 2011 ad Abbottabad e culminata con l'uccisione del leader di Al-Qāʿida Osama bin Laden.
+### William Harry McRaven (Pinehurst, 6 novembre 1955) è un ammiraglio statunitense, ex-comandante del Joint Special Operations Command noto per essere stato il protagonista dell'Operazione Lancia di Nettuno, avvenuta tra il 1º e il 2 maggio 2011 ad Abbottabad e culminata con l'uccisione del leader di Al-Qāʿida Osama bin Laden.
