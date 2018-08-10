@@ -23,4 +23,4 @@ tags:
 
 <center><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6430727980795916288?compact=1" allowfullscreen="" frameborder="0"></iframe></center>
 
-### William Harry McRaven (Pinehurst, 6 novembre 1955) è un ammiraglio statunitense, ex-comandante del Joint Special Operations Command noto per essere stato il protagonista dell'Operazione Lancia di Nettuno, avvenuta tra il 1º e il 2 maggio 2011 ad Abbottabad e culminata con l'uccisione del leader di Al-Qāʿida Osama bin Laden.
+<small>William Harry McRaven (Pinehurst, 6 novembre 1955) è un ammiraglio statunitense, ex-comandante del Joint Special Operations Command noto per essere stato il protagonista dell'Operazione Lancia di Nettuno, avvenuta tra il 1º e il 2 maggio 2011 ad Abbottabad e culminata con l'uccisione del leader di Al-Qāʿida Osama bin Laden.</small>
