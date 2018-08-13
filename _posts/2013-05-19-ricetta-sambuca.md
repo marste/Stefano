@@ -1,5 +1,5 @@
 ---
-title: 'Ricetta: Sambuca'
+title: 'Ricetta Sambuca'
 author: Stefano Marzorati
 date: 2018-08-12 17:01:00 +0200
 layout: post
