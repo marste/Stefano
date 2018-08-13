@@ -1,7 +1,7 @@
 ---
 title: Ricetta Pinza Veneta
 author: Stefano Marzorati
-date: 2018-08-13 17:01:00 +0200
+date: 2018-08-13 16:01:00 +0200
 layout: post
 image: 'https://farm2.staticflickr.com/1799/44011125951_9af4879d87_q.jpg'
 share-img: 'https://farm2.staticflickr.com/1799/44011125951_9af4879d87_q.jpg'
