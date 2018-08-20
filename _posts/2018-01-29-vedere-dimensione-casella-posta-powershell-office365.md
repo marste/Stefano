@@ -20,14 +20,14 @@ tags:
 
 	$UserCredential = Get-Credential
 
-  - <code>$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection</code>
+	$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
 
-  - <code>Import-PSSession $Session</code>
+	Import-PSSession $Session
 
 **Verificare gli attuali permessi:**   
 
-  - <code>Get-MailboxStatistics [username] | Format-List StorageLimitStatus,TotalItemSize,TotalDeletedItemSize,ItemCount,DeletedItemCount</code>
+	Get-MailboxStatistics [username] | Format-List StorageLimitStatus,TotalItemSize,TotalDeletedItemSize,ItemCount,DeletedItemCount
 
 **Chudere la sessione:**   
 
-  - <code>Remove-PSSession $Session</code>
+	Remove-PSSession $Session
