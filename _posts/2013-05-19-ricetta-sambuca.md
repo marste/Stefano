@@ -1,36 +1,35 @@
 ---
-id: 1556
-title: 'Ricetta: Sambuca'
+title: 'Ricetta Sambuca'
 author: Stefano Marzorati
+date: 2018-08-12 17:01:00 +0200
 layout: post
-guid: http://marzorati.co/?p=1556
+image: 'https://farm1.staticflickr.com/931/43998348721_bde325f86e_q.jpg'
+share-img: 'https://farm1.staticflickr.com/931/43998348721_bde325f86e_q.jpg'
 permalink: /ricetta-sambuca/
-publicize_reach:
-  - 'a:2:{s:7:"twitter";a:1:{i:3411;i:25;}s:2:"wp";a:1:{i:0;i:1;}}'
-  - 'a:2:{s:7:"twitter";a:1:{i:3411;i:25;}s:2:"wp";a:1:{i:0;i:1;}}'
-publicize_twitter_user:
-  - marzorati_ste
-  - marzorati_ste
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 1924268202
+tags:
+  - ricetta
+  - sambuca
+  - anice
+  - acqua
+  - zucchero
+  - alcool
 categories:
-  - Varie
+  - Ricette
 ---
-Ingredienti:
+**Ingredienti:**   
 
-1l. di alcool,
+  - 1l. di alcool
+  - 1l. di acqua
+  - 1200g. di zucchero
+  - 40g. di anice stellato
 
-1l. di acqua,
+<center><img src="https://farm1.staticflickr.com/931/43998348721_ec504ea12f_o.jpg" alt="Ricetta Sambuca Anice Stellato"></center>
 
-1200g. di zucchero,
+**Preparazione:**   
 
-40g. di anice stellato
+* Ho messo a macerare l’anice stellato nell’alcool e lasciato stare per 3 settimane.
 
-Ho messo a macerare l’anice stellato nell’alcool e lasciato stare per 3 settimane.
+* Dopo 3 settimane ho seguito il tipico procedimento dei liquori fatti in casa, ho fatto uno sciroppo con lo zucchero e l’acqua e l’ho unito al resto e lasciato ancora 1 giorno.   
 
-Dopo 3 settimane ho seguito il tipico procedimento dei liquori fatti in casa, ho fatto uno sciroppo con lo zucchero e l’acqua e l’ho unito al resto e lasciato ancora 1 giorno.
-
-Il sapore è quasi uguale alla Sambuca anche se la sensazione è che la Sambuca sia più artificiale, mentre questo molto più naturale.  
-Il colore ovviamente non sarà lo stesso, ma sarà leggermente marroncino per via del colore dell&#8217;anice stellato.
+Il sapore è quasi uguale alla Sambuca anche se la sensazione è che la Sambuca sia più artificiale, mentre questo molto più naturale.   
+Il colore ovviamente non sarà lo stesso, ma sarà leggermente marroncino per via del colore dell'anice stellato.   
