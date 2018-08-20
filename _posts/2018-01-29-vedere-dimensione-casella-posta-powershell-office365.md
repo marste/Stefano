@@ -18,7 +18,7 @@ tags:
 ---
 **Connettersi tramite PowerShell a Office365:**   
 
-  - <code>$UserCredential = Get-Credential</code>
+	$UserCredential = Get-Credential
 
   - <code>$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection</code>
 
