@@ -22,6 +22,7 @@ tags:
 
   - Per ottenere l'ID della macchina virtuale, digita:   
 
+  
 	vim-cmd vmsvc/getallvms
 
   - Trova il VMid della VM con il problema di configurazione e annotati il VMid. Ad esempio, considera che il VMid è 42   
