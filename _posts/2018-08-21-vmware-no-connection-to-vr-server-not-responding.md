@@ -17,14 +17,17 @@ tags:
   - vmreplica
 ---
   - Per prima cosa abilita il servizio **SSH** sull'host in cui è presente la macchina virtuale che dà quel messaggio di errore.   
+
   - Poi usando **Putty** ti colleghi in SSH sull'host.   
+
   - Per ottenere l'ID della macchina virtuale, digita:   
-  
+
 	vim-cmd vmsvc/getallvms
 
-  - Trova il VMid della VM con il problema di configurazione e annotati il VMid. Ad esempio, considera che il VMid è 42
-  - Per ottenere lo stato di replica della Macchina Virtuale, esegui il comando:
-	
+  - Trova il VMid della VM con il problema di configurazione e annotati il VMid. Ad esempio, considera che il VMid è 42   
+
+  - Per ottenere lo stato di replica della Macchina Virtuale, esegui il comando:   
+
 	vim-cmd hbrsvc/vmreplica.getState 42
 
   - Per disabilitare la replica VMware sulla macchina virtuale, eseguire il comando:
