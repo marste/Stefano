@@ -45,7 +45,6 @@ tags:
 
 * Otterrai:
 
-
 	[root@VMhost:~] vim-cmd hbrsvc/vmreplica.getState 42   
 	Retrieve VM running replication state:   
 	(vim.fault.ReplicationVmFault) {   
@@ -57,4 +56,3 @@ tags:
 	msg = “Received SOAP response fault from [<cs p:1fwaf548, TCP:localhost:80>]: getGroupState   
 	vSphere Replication operation error: Virtual machine is not configured for replication.”   
 	}   
-	</code>
