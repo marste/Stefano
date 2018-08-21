@@ -16,11 +16,9 @@ tags:
   - ssh
   - vmreplica
 ---
-1. Per prima cosa abilita il servizio **SSH** sull'host in cui è presente la macchina virtuale che dà quel messaggio di errore.   
-
-2. Poi usando **Putty** ti colleghi in SSH sull'host.   
-
-3. Per ottenere l'ID della macchina virtuale, digita:   
+Per prima cosa abilita il servizio **SSH** sull'host in cui è presente la macchina virtuale che dà quel messaggio di errore.   
+Poi usando **Putty** ti colleghi in SSH sull'host.   
+Per ottenere l'ID della macchina virtuale, digita:   
 
 	vim-cmd vmsvc/getallvms
 
