@@ -46,15 +46,15 @@ Disable VM Replication:</code>
   - Otterrai:
 
 <code>
-[root@VMhost:~] vim-cmd hbrsvc/vmreplica.getState 42
-Retrieve VM running replication state:
-(vim.fault.ReplicationVmFault) {
-faultCause = (vmodl.MethodFault) null,
-reason = “notConfigured”,
-state = <unset>,
-instanceId = <unset>,
-vm = ‘vim.VirtualMachine:42’,
-msg = “Received SOAP response fault from [<cs p:1fwaf548, TCP:localhost:80>]: getGroupState
-vSphere Replication operation error: Virtual machine is not configured for replication.”
-}
+[root@VMhost:~] vim-cmd hbrsvc/vmreplica.getState 42   
+Retrieve VM running replication state:   
+(vim.fault.ReplicationVmFault) {   
+faultCause = (vmodl.MethodFault) null,   
+reason = “notConfigured”,   
+state = <unset>,   
+instanceId = <unset>,   
+vm = ‘vim.VirtualMachine:42’,   
+msg = “Received SOAP response fault from [<cs p:1fwaf548, TCP:localhost:80>]: getGroupState   
+vSphere Replication operation error: Virtual machine is not configured for replication.”   
+}   
 </code>
