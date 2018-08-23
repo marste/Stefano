@@ -2,8 +2,8 @@
 title: 'Download from...'
 date: 2018-08-23 10:00:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/share.jpg'
-share-img: 'https://marzorati.co/img/share.jpg'
+image: 'https://marzorati.co/img/share.png'
+share-img: 'https://marzorati.co/img/share.png'
 layout: post
 categories:
   - download
