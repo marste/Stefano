@@ -31,4 +31,4 @@ Trova email con dimensione inferiore ai 2KB
 
 	size < 2000
 
-In alternativa al posto di *size* è possibile scriverlo anche in italiano *dimensione*   
+In alternativa al posto di **size** è possibile scrivere il comando anche in italiano utilizzando la parola **dimensione**   
