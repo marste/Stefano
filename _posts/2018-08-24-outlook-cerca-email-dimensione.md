@@ -30,3 +30,5 @@ Trova email con dimensione tra i 10MB e i 20MB
 Trova email con dimensione inferiore ai 2KB
 
 	size < 2000
+
+In alternativa al posto di *size* è possibile scriverlo anche in italiano *dimensione*   
