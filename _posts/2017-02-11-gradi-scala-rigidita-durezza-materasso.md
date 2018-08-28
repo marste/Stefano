@@ -14,19 +14,29 @@ tags:
   - h2
   - h3
 ---
-* **Classe rigiditá H1 =  morbido**   
+* **Classe rigidità H1 =  morbido**   
  
-Un materasso H1 è particolarmente indicato per persone con peso corporeo  basso e offre a queste persone una piacevole morbiditá, e un ottimo sostegno. Allo stesso modo, un materasso H1 è adatto a persone che diserano o devono dormire su un materasso morbido. 
+Un materasso H1 è particolarmente indicato per persone con peso corporeo  basso e offre a queste persone una piacevole morbiditá, e un ottimo sostegno. Allo stesso modo, un materasso H1 è adatto a persone che desiderano o devono dormire su un materasso morbido. 
 Indicativamente consigliato per persone fino a 60 kg
  
  
-* **Classe rigiditá H2 =  medio**   
+* **Classe rigidità H2 =  medio**   
  
-Il materasso H2 offre la via di mezzo. Si tratta di un materasso con una piacevole morbidezza. Materassi H2 vanno bene anche per persone con un “sovrapeso” che amano dormire lateralemente e non sentirsi su un matersso molto duro.
+Il materasso H2 offre la via di mezzo. Si tratta di un materasso con una piacevole morbidezza. Materassi H2 vanno bene anche per persone con un "sovrappeso" che amano dormire lateralemente e non sentirsi su un matersso molto duro.
 Indicativamente consigliato per persone fino a circa 60-80 kg
  
  
-* **Classe rigiditá H3 =  duro**    
+* **Classe rigidità H3 =  duro**    
  
-Il materasso H3 é un materasso sostenuto. È un materasso adatto per chi desidera dormire su un materasso più sostenuto (p.e. per persone che amano dormire sulla pancia).
+Il materasso H3 è un materasso sostenuto. È un materasso adatto per chi desidera dormire su un materasso più sostenuto (esempio: per persone che amano dormire sulla pancia).
 Indicativamente consigliato per persone oltre 80 kg.   
+
+
+* **Classe rigidità H4**   
+
+Un materasso con rigidità H4 è molto stabile e ha un limite superiore di 140 Kg.
+
+
+* **Classe rigidità H5**   
+
+Il grado di rigidità H5 è anch'esso molto raro ed è adatto a persone fortemente in sovrappeso (dai 140 kg in sù).   
