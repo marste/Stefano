@@ -2,8 +2,8 @@
 title: Non si spengono i LED verdi della Vodafone Station Revolution
 author: Stefano Marzorati
 layout: post
-image: https://static-s.aa-cdn.net/img/ios/881427792/c53aef9122518d36b46beaaab3257454
-share-img: https://static-s.aa-cdn.net/img/ios/881427792/c53aef9122518d36b46beaaab3257454
+image: 'https://marzorati.co/img/vodafone.jpeg'
+share-img: 'https://marzorati.co/img/vodafone.jpeg'
 categories:
   - Vodafone
 tags:

@@ -3,7 +3,8 @@ id: 2016
 title: Percentuale di memoria libera su Linux
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2016
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /percentuale-di-memoria-libera-su-linux/
 publicize_twitter_user:
   - marzorati_ste

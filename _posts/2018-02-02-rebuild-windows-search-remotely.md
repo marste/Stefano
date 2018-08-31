@@ -4,8 +4,8 @@ title: Rebuild Windows Search remotely
 date: '2018-02-02 16:00:00 +0200'
 author: Stefano Marzorati
 published: true
-image: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
-share-img: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
+image: 'https://marzorati.co/img/terminal.png'
+share-img: 'https://marzorati.co/img/terminal.png'
 categories:
   - Windows
 tags:

@@ -3,8 +3,8 @@ title: Calcolare la percentuale di memoria usata su Linux
 date: 2018-03-08 16:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'http://pngimg.com/uploads/linux/linux_PNG2.png'
-share-img: 'http://pngimg.com/uploads/linux/linux_PNG2.png'
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 categories:
   - Linux
 tags:

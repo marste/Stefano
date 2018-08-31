@@ -3,7 +3,8 @@ id: 2784
 title: Impostare data e ora in linux
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2784
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /impostare-data-e-ora-in-linux/
 authorsure_include_css:
   - 

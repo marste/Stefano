@@ -3,7 +3,8 @@ id: 1897
 title: Capture video of a linux desktop
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=1897
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /capture-video-of-a-linux-desktop/
 publicize_reach:
   - 'a:2:{s:7:"twitter";a:1:{i:3411;i:26;}s:2:"wp";a:1:{i:0;i:1;}}'

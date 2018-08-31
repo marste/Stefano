@@ -3,7 +3,8 @@ id: 1301
 title: Disattivare segreteria telefonica Vodafone
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=1301
+image: 'https://marzorati.co/img/vodafone.jpeg'
+share-img: 'https://marzorati.co/img/vodafone.jpeg'
 permalink: /disattivare-segreteria-telefonica-vodafone/
 publicize_reach:
   - 'a:2:{s:7:"twitter";a:1:{i:3411;i:27;}s:2:"wp";a:1:{i:0;i:1;}}'

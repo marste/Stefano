@@ -3,7 +3,8 @@ id: 3148
 title: SQL Select %LIKE%
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=3148
+image: https://marzorati.co/img/sql.png
+share-img: https://marzorati.co/img/sql.png
 permalink: /sql-select-like/
 authorsure_include_css:
   - 

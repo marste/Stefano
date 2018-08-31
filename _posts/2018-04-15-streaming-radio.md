@@ -3,8 +3,8 @@ title: Streaming Radio, my favorite list
 date: 2018-04-15 23:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'http://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Media-play-music-icon.png'
-share-img: 'http://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Media-play-music-icon.png'
+image: 'https://marzorati.co/img/music.png'
+share-img: 'https://marzorati.co/img/music.png'
 permalink: /streaming-radio-list/
 categories:
   - Music

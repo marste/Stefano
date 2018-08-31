@@ -3,7 +3,8 @@ id: 945
 title: Installare i fonts di Ubuntu anche su altre distribuzioni Linux
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/?p=945
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /installare-i-fonts-di-ubuntu-anche-su-altre-distribuzioni-linux/
 authorsure_include_css:
   - 

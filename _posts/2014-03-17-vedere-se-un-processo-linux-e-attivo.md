@@ -3,7 +3,8 @@ id: 2764
 title: Vedere se un processo linux è attivo
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2764
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /vedere-se-un-processo-linux-e-attivo/
 authorsure_include_css:
   - 

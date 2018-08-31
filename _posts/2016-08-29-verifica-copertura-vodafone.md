@@ -3,6 +3,8 @@ title: Verifica Copertura Vodafone Linea Fissa
 date: 2017-06-14 11:00:00 +0200
 author: Stefano Marzorati
 layout: post
+image: 'https://marzorati.co/img/vodafone.jpeg'
+share-img: 'https://marzorati.co/img/vodafone.jpeg'
 permalink: /copertura-linea-fissa-vodafone/
 categories:
   - Telefonia

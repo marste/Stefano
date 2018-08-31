@@ -2,6 +2,8 @@
 title: Analizzare system load su Linux
 author: Stefano Marzorati
 layout: post
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /analizzare-system-load-linux/
 comments: true
 categories:

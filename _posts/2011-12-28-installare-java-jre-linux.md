@@ -3,7 +3,8 @@ id: 1079
 title: Installare Java jre su linux
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/?p=1079
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /installare-java-jre-linux/
 publicize_results:
   - 'a:1:{s:7:"twitter";a:1:{i:396682267;a:2:{s:7:"user_id";s:13:"marzorati_ste";s:7:"post_id";s:18:"152035859284238337";}}}'

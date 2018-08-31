@@ -3,7 +3,8 @@ id: 3200
 title: Vedere tutti i servizi attivi su linux
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=3200
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /vedere-tutti-i-servizi-attivi-su-linux/
 authorsure_include_css:
   - 

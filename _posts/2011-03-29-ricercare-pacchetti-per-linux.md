@@ -3,7 +3,8 @@ id: 672
 title: Ricercare pacchetti per Linux
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/?p=672
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /ricercare-pacchetti-per-linux/
 categories:
   - Linux

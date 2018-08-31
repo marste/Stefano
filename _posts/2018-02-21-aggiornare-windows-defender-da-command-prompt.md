@@ -3,8 +3,8 @@ layout: post
 title: Aggiornare Windows Defender da Command Prompt
 date: '2018-02-21 10:02:00 +0200'
 author: Stefano Marzorati
-image: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
-share-img: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
+image: 'https://marzorati.co/img/terminal.png'
+share-img: 'https://marzorati.co/img/terminal.png'
 categories:
   - Windows
 tags:

@@ -3,7 +3,8 @@ id: 3150
 title: Codifica caratteri SUSE Linux Enterprise Server e Red Hat
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=3150
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /codifica-caratteri-suse-linux-enterprise-server-e-red-hat/
 authorsure_include_css:
   - 

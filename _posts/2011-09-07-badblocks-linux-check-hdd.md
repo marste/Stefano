@@ -3,7 +3,8 @@ id: 970
 title: Verificare se ci sono settori danneggiati
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/?p=970
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /badblocks-linux-check-hdd/
 authorsure_include_css:
   - 

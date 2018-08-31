@@ -3,7 +3,8 @@ id: 2954
 title: Copertura segnale TIM, Vodafone, Wind, 3
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2954
+image: 'https://marzorati.co/img/vodafone.jpeg'
+share-img: 'https://marzorati.co/img/vodafone.jpeg'
 permalink: /copertura-segnale-tim-vodafone-wind-3/
 authorsure_include_css:
   - 

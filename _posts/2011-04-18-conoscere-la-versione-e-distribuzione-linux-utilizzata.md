@@ -3,7 +3,8 @@ id: 786
 title: Conoscere la versione e distribuzione Linux utilizzata
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/?p=786
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /conoscere-la-versione-e-distribuzione-linux-utilizzata/
 authorsure_include_css:
   - 

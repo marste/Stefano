@@ -2,8 +2,8 @@
 title: Clear IBM Client Access password cache
 author: Stefano Marzorati
 layout: post
-image: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
-share-img: http://forums.nekochan.net/download/file.php?avatar=14158291_1477785421.png
+image: https://marzorati.co/img/ibm.png
+share-img: https://marzorati.co/img/ibm.png
 categories:
   - AS400
 tags:

@@ -3,7 +3,8 @@ id: 2959
 title: Come disattivare Vodafone Recall e Chiamami
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2959
+image: 'https://marzorati.co/img/vodafone.jpeg'
+share-img: 'https://marzorati.co/img/vodafone.jpeg'
 permalink: /come-disattivare-vodafone-recall-e-chiamami/
 authorsure_include_css:
   - 

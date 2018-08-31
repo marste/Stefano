@@ -3,7 +3,8 @@ id: 2014
 title: Svuotare swap linux
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2014
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /svuotare-swap-linux/
 publicize_twitter_user:
   - marzorati_ste

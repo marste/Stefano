@@ -3,7 +3,8 @@ id: 1046
 title: Migliorare prestazioni di Flash in Linux
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/?p=1046
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /performance-flash-in-linux/
 authorsure_include_css:
   - 

@@ -3,7 +3,8 @@ id: 2745
 title: Configurare NTP Server su SUSE Linux
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2745
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /configurare-ntp-server-su-suse-linux/
 authorsure_include_css:
   - 

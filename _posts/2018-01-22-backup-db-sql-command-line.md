@@ -2,8 +2,8 @@
 title: Backup SQL da command line
 date: 2018-01-22 11:45:00 +0200
 published: true
-image: http://www.oracle.com/technetwork/developer-tools/sql-developer/sqldev-128x128x32-2372774.png
-share-img: http://www.oracle.com/technetwork/developer-tools/sql-developer/sqldev-128x128x32-2372774.png
+image: https://marzorati.co/img/sql.png
+share-img: https://marzorati.co/img/sql.png
 categories:
   - Windows
 tags:

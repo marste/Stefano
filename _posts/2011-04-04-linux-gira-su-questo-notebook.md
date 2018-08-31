@@ -3,7 +3,8 @@ id: 681
 title: Linux gira su questo notebook?
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/?p=681
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 permalink: /linux-gira-su-questo-notebook/
 dsq_thread_id:
   - 2256436941

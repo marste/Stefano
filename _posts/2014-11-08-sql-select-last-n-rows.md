@@ -3,7 +3,8 @@ id: 3146
 title: SQL SELECT LAST N Rows
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=3146
+image: https://marzorati.co/img/sql.png
+share-img: https://marzorati.co/img/sql.png
 permalink: /sql-select-last-n-rows/
 authorsure_include_css:
   - 
