@@ -11,13 +11,13 @@
 
 	{% if site.share-links-active.email %}
    <!---Share on email -->
-    <a href="mailto:?subject={{ page.title }}&amp;body=Guarda questo sito: {{ site.url }}{{ site.baseurl }}{{ page.url }}">
+<b>Condividi:</b>&nbsp;&nbsp;<a href="mailto:?subject={{ page.title }}&amp;body=Guarda questo sito: {{ site.url }}{{ site.baseurl }}{{ page.url }}">
       <img src="{{ site.baseurl }}/img/email.svg" height="24" width="24" title="Condividi via email"></a>
 	{% endif %}
 	&nbsp;&nbsp;
     {% if site.share-links-active.whatsapp %}
   <!--- Share on Whatsapp -->
-  <b>Condividi:</b>&nbsp;&nbsp;<a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Condividi su Whatsapp">
+  <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Condividi su Whatsapp">
 	<img src="{{ site.baseurl }}/img/whatsapp.svg" height="24px" width="24px"/>
     </a>
   {% endif %}
