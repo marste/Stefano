@@ -49,6 +49,10 @@ Condividi:
   <!--- Share on Printer -->
     <a href="javascript:window.print()"><img src="/img/printer.svg" height="24" width="24" title="Print"></a>
   {% endif %}
+  {% if site.share-links-active.email %}
+  <!--- Share on email -->
+    <a  href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Share via Email" ><i class="fa fa-envelope share-button"> email</i>
+  {% endif %}
 	
 </section>
 
