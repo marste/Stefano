@@ -51,8 +51,11 @@ Condividi:
   {% endif %}
   {% if site.share-links-active.email %}
   <!--- Share on email -->
-    <a  href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Share via Email" ><i class="fa fa-envelope share-button"> email</i>
-  {% endif %}
+    <a href="mailto:?subject={{ page.title }}&amp;body=Guarda questo sito: {{ site.url }}{{ site.baseurl }}{{ page.url }}"
+      class="btn btn-social-icon btn-google" title="Condividi via email">
+      <span class="fa fa-lg fa-envelope" aria-hidden="true"></span>
+      <span class="sr-only">Email</span>
+    </a>
 	
 </section>
 
