@@ -5,12 +5,12 @@
     {% assign any-share-links = true %}
   {% endif %}
 {% endfor %}
-Condividi:
+
 {% if any-share-links %}
 <section id = "social-share-section">
     {% if site.share-links-active.whatsapp %}
   <!--- Share on Whatsapp -->
-    <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Whatsapp">
+  Condividi:  <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Whatsapp">
 	<img src="{{ site.baseurl }}/img/whatsapp.svg" height="24px" width="24px"/>
     </a>
   {% endif %}
