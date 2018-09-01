@@ -10,21 +10,21 @@
 <section id = "social-share-section">
     {% if site.share-links-active.whatsapp %}
   <!--- Share on Whatsapp -->
-  Condividi:  <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Whatsapp">
+  <b>Condividi:</b>&nbsp;&nbsp;<a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Condividi su Whatsapp">
 	<img src="{{ site.baseurl }}/img/whatsapp.svg" height="24px" width="24px"/>
     </a>
   {% endif %}
   &nbsp;&nbsp;
   {% if site.share-links-active.twitter %}
   <!--- Share on Twitter -->
-    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Twitter">
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Condividi su Twitter">
     <img src="{{ site.baseurl }}/img/twitter.svg" height="24px" width="24px"/>   
     </a>
   {% endif %}
   &nbsp;&nbsp;
   {% if site.share-links-active.facebook %}
   <!--- Share on Facebook -->
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Condividi su Facebook">
     <img src="{{ site.baseurl }}/img/facebook.svg" height="24px" width="24px"/>
     </a>
   {% endif %}
@@ -40,14 +40,14 @@
    
   {% if site.share-links-active.linkedin %}
   <!--- Share on LinkedIn -->
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" title="Share on LinkedIn">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" title="Condividi su LinkedIn">
     <img src="{{ site.baseurl }}/img/linkedin.svg" height="24px" width="24px"/>
     </a>
   {% endif %}
   &nbsp;&nbsp;
    {% if site.share-links-active.printer %}
   <!--- Share on Printer -->
-    <a href="javascript:window.print()"><img src="/img/printer.svg" height="24" width="24" title="Print"></a>
+    <a href="javascript:window.print()"><img src="/img/printer.svg" height="24" width="24" title="Stampa"></a>
   {% endif %}
   &nbsp;&nbsp;
   {% if site.share-links-active.email %}
