@@ -812,10 +812,7 @@ a, a:hover {
 	text-decoration: none;
 }
 
-.socialshare, .socialshare ul, .socialshare li {
-	margin: 0;
-	padding: 5px;
-}
+
 
 .socialshare li {
     list-style: none outside none;
