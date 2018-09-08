@@ -2,8 +2,8 @@
 title: Qualità segnale GSM in dBm
 author: Stefano Marzorati
 layout: post
-image: 'http://www.capalbio.it/images/wifi.png'
-share-img: 'http://www.capalbio.it/images/wifi.png'
+image: 'https://marzorati.co/img/wifi.png'
+share-img: 'https://marzorati.co/img/wifi.png'
 permalink: /intensita-segnale-gsm-in-dbm/
 categories:
   - Varie
@@ -24,7 +24,7 @@ tags:
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-baqh">﻿da -121 a -107 dBm</th>
+    <th class="tg-baqh">﻿da -107 a -121 dBm</th>
     <th class="tg-baqh">ricezione debole</th>
   </tr>
   <tr>
