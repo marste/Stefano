@@ -45,5 +45,4 @@ tags:
   </tr>
 </table>
 </center>   
-<p>
-</p>
+<br>
