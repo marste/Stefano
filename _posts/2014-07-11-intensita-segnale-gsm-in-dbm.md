@@ -28,15 +28,15 @@ tags:
     <th class="tg-baqh">ricezione debole</th>
   </tr>
   <tr>
-    <td class="tg-baqh">da -107 a -98 dBm</td>
+    <td class="tg-baqh">da -98 a -107 dBm</td>
     <td class="tg-baqh">ricezione sufficiente</td>
   </tr>
   <tr>
-    <td class="tg-baqh">da -98 a -87 dBm</td>
+    <td class="tg-baqh">da -87 a -98 dBm</td>
     <td class="tg-baqh">ricezione buona</td>
   </tr>
   <tr>
-    <td class="tg-baqh">da -87 a -76 dBm</td>
+    <td class="tg-baqh">da -76 a -87 dBm</td>
     <td class="tg-baqh">ricezione ottima</td>
   </tr>
   <tr>
