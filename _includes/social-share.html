@@ -1,55 +1,15 @@
-<!-- Check if any share-links are active -->
-{% assign any-share-links = false %}
-{% for links in site.share-links-active %}
-  {% if links[1] == true %}
-    {% assign any-share-links = true %}
-  {% endif %}
-{% endfor %}
-
-{% if any-share-links %}
 <section id = "social-share-section">
-    {% if site.share-links-active.whatsapp %}
-  <!--- Share on Whatsapp -->
-    <a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Whatsapp">
-	<img src="{{ site.baseurl }}/img/whatsapp.svg" height="24px" width="24px"/>
-    </a>
-  {% endif %}
-  &nbsp;&nbsp;
-  {% if site.share-links-active.twitter %}
-  <!--- Share on Twitter -->
-    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Share on Twitter">
-    <img src="{{ site.baseurl }}/img/twitter.svg" height="24px" width="24px"/>   
-    </a>
-  {% endif %}
-  &nbsp;&nbsp;
-  {% if site.share-links-active.facebook %}
-  <!--- Share on Facebook -->
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook">
-    <img src="{{ site.baseurl }}/img/facebook.svg" height="24px" width="24px"/>
-    </a>
-  {% endif %}
-   &nbsp;&nbsp;
-  {% if site.share-links-active.google %}
-  <!--- Share on Google Plus -->
-    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
-      class="btn btn-social-icon btn-google" title="Share on Google+">
-      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
-      <span class="sr-only">Google+</span>
-    </a>
-  {% endif %}
-   
-  {% if site.share-links-active.linkedin %}
-  <!--- Share on LinkedIn -->
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" title="Share on LinkedIn">
-    <img src="{{ site.baseurl }}/img/linkedin.svg" height="24px" width="24px"/>
-    </a>
-  {% endif %}
-  &nbsp;&nbsp;
-   {% if site.share-links-active.printer %}
-  <!--- Share on Printer -->
-    <a href="javascript:window.print()"><img src="/img/printer.svg" height="24" width="24" title="Print"></a>
-  {% endif %}
-	
+
+<div class="socialshare">
+
+<li><b>Condividi su:</b>&nbsp;&nbsp;<a href="mailto:?subject={{ page.title }}&amp;body=Guarda questo sito: {{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Condividi via email" class="fa fa-lg fa-envelope"></a></li>&nbsp;&nbsp;
+<li><a href="whatsapp://send?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Condividi su Whatsapp" class="fa fa-lg fa-whatsapp"></a></li>&nbsp;&nbsp;
+<li><a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" title="Condividi su Twitter" class="fa fa-lg fa-twitter"></a></li>&nbsp;&nbsp;
+<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Condividi su Facebook" class="fa fa-lg fa-facebook"></a></li>&nbsp;&nbsp;
+<li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" title="Condividi su LinkedIn" class="fa fa-lg fa-linkedin"></a></li>&nbsp;&nbsp;
+<li><a href="javascript:window.print()" title="Stampa" class="fa fa-lg fa-print"></a></li>
+
+</div>
+    
 </section>
 
-{% endif %}
