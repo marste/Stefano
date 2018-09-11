@@ -20,4 +20,6 @@ tags:
   - vodafone
   - wind
 ---
-[![opensignal](https://lh6.ggpht.com/5Vlpsx8ZjkfLeLHpiMI79vx7bjU0ca3plMMHLHH0FDTVZisOFFP1RAZCpCe6MWtN9w=w300)](http://opensignal.com/)
+<center><a href="http://opensignal.com/" target="_blank">
+<img alt="verifica copertura tim vodafone wind 3 illiad" src="https://lh6.ggpht.com/5Vlpsx8ZjkfLeLHpiMI79vx7bjU0ca3plMMHLHH0FDTVZisOFFP1RAZCpCe6MWtN9w=w300">
+</a></center>
