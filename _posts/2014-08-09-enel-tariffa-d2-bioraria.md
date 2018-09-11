@@ -1,5 +1,5 @@
 ---
-title: 'Enel &#8211; Tariffa D2 bioraria'
+title: 'Enel – Tariffa D2 bioraria'
 author: Stefano Marzorati
 layout: post
 permalink: /enel-tariffa-d2-bioraria/
