@@ -1,8 +1,10 @@
 ---
-title: Spectralink DECT - Come vedere la qualità del segnale radio
+title: 'Spectralink DECT - Come vedere la qualità del segnale radio'
 author: Stefano Marzorati
 date: 2015-11-24 09:59:00 -07:00
 layout: post
+image: 'https://marzorati.co/img/spectralink.png'
+share-img: 'https://marzorati.co/img/spectralink.png'
 permalink: /spectralink-dect-come-vedere-qualita-segnale-radio/
 categories:
   - Telefonia
