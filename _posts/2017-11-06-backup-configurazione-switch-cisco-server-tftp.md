@@ -3,8 +3,8 @@ layout: post
 title: Backup della configurazione di uno switch Cisco
 date: '2017-11-06 14:00:00 +0200'
 author: Stefano Marzorati
-image: 'https://farm5.staticflickr.com/4383/36390662603_aa17d0fa81_o.png'
-share-img: 'https://farm5.staticflickr.com/4383/36390662603_aa17d0fa81_o.png'
+image: 'https://marzorati.co/img/cisco.png'
+share-img: 'https://marzorati.co/img/cisco.png'
 categories:
   - Network
 tags:
@@ -21,7 +21,7 @@ Collegarsi allo switch di cui si vuol salvare la configurazione.
 	copy running-config tftp:
 	Address or name of remote host []?
 	
-Inserire l'indirizzo del server tftp remoto   
+Inserire l'indirizzo del server tftp remoto (esempio: 192.168.20.12)   
 
 	Destination filename [nome dello switch]?
 	
