@@ -1,39 +1,37 @@
 ---
-id: 3280
 title: 'Frequenze 4G &#8211; 3G &#8211; 2G in Italia'
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=3280
 permalink: /frequenze-4g-3g-2g-in-italia/
-authorsure_include_css:
-  - 
-video_url:
-  - 
-quote_content:
-  - 
-quote_attribution:
-  - 
-dsq_needs_sync:
-  - 1
+image: 'https://marzorati.co/img/wifi.png'
+share-img: 'https://marzorati.co/img/wifi.png'
 categories:
-  - Varie
+  - Telefonia
 tags:
   - 2G
   - 3G
   - 4G
+  - 4,5G
+  - 5G
   - frequenze
   - italia
   - mobile
   - telefonia
+  - iliad
 ---
-**4G**: LTE FDD-LTE 800/1800/2600 MHz &#8211; (B3=1800 MHz e B7=2600 MHz)  
-**3G**: HSDPA WCDMA 2100 MHz  
+**4,5G**: 1500 MHz
+**4G**: LTE FDD-LTE 800/1800/2600/2100 MHz 
+**3G**: HSDPA WCDMA 900/2100 MHz  
 **2G**: GSM 900/1800 MHz
 
-Per quanto riguarda le frequenze 4G e gli operatori telefonici italiani:
+Per quanto riguarda le frequenze e gli operatori telefonici italiani:
 
-&#8211; banda **800 MHz**: hanno due blocchi a testa **Vodafone Italia**, **Telecom Italia** e **Wind Telecomunicazioni**
+  - Banda **800 MHz** (LTE Banda 20): hanno due blocchi a testa **Vodafone Italia**, **TIM** e **Wind 3**
+  
+  - Banda **900 MHz** (GSM-UMTS Banda 8): hanno due blocchi a testa **Vodafone Italia**, **TIM** e **Wind 3**, mentre **Iliad** ne ha solo uno
 
-&#8211; banda **1800 MHz**: hanno un blocco a testa **Vodafone Italia**, **Telecom Italia**, **3 Italia**
+  - Banda **1800 MHz** (GSM-LTE Banda 3): hanno quattro blocchi a testa **Vodafone Italia**, **TIM** e **Wind 3**, mentre **Iliad** ne ha due
+  
+  - Banda **2100 MHz** (UMTS Banda 1): hanno tre blocchi a testa **Vodafone Italia**, **TIM** mentre **Wind 3** ne ha quattro e **Iliad** ne ha due
 
-&#8211; banda **2600 MHz**: hanno quattro blocchi **3 Italia** e **Wind Telecomunicazioni** e 3 blocchi a **Telecom Italia** e **Vodafone Italia**
+  - Banda **2600 MHz** (LTE FDD Banda 7): hanno tre blocchi a testa **Vodafone Italia**, **TIM** mentre **Wind 3** ne ha quattro e **Iliad** ne ha due
