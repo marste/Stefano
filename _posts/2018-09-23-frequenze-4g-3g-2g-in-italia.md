@@ -19,10 +19,10 @@ tags:
   - telefonia
   - iliad
 ---
-**4,5G**: 1500 MHz
-**4G**: LTE FDD-LTE 800/1800/2600/2100 MHz 
-**3G**: HSDPA WCDMA 900/2100 MHz  
-**2G**: GSM 900/1800 MHz
+**4,5G**: 1500 MHz   
+**4G**: LTE FDD-LTE 800/1800/2600/2100 MHz   
+**3G**: HSDPA WCDMA 900/2100 MHz   
+**2G**: GSM 900/1800 MHz   
 
 Per quanto riguarda le frequenze e gli operatori telefonici italiani:
 
