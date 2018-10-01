@@ -14,7 +14,7 @@ tags:
   - shutdown
   - power
 ---
-La schedulazione di spegnimento / accensione la puoi vedere digitando il comando: **GO POWER**
+La schedulazione di spegnimento / accensione la puoi vedere digitando il comando: <code>GO POWER</code>
 
 <center><img src="https://farm5.staticflickr.com/4714/25758852897_2a709049d3_o.png" alt="Go Power"></center>   
 Selezionando la scelta 1:   
