@@ -26,6 +26,6 @@ The .reg files below will modify the DWORD value below in the registry key below
 
 **LaunchTo** DWORD
 
-1 = This PC
-2 = Quick access
-3 = Downloads
+1 = This PC   
+2 = Quick access   
+3 = Downloads   
