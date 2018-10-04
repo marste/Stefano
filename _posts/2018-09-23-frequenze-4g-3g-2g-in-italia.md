@@ -1,5 +1,5 @@
 ---
-title: 'Frequenze 4G &#8211; 3G &#8211; 2G in Italia'
+title: 'Frequenze 5G - 4G - 3G - 2G in Italia'
 author: Stefano Marzorati
 layout: post
 permalink: /frequenze-4g-3g-2g-in-italia/
@@ -19,6 +19,7 @@ tags:
   - telefonia
   - iliad
 ---
+**5G**: 700/3700 MHz e 26 GHz   
 **4,5G**: 1500 MHz   
 **4G**: LTE FDD-LTE 800/1800/2600/2100 MHz   
 **3G**: HSDPA WCDMA 900/2100 MHz   
@@ -35,3 +36,10 @@ Per quanto riguarda le frequenze e gli operatori telefonici italiani:
   - Banda **2100 MHz** (UMTS Banda 1): hanno tre blocchi a testa **Vodafone Italia**, **TIM** mentre **Wind 3** ne ha quattro e **Iliad** ne ha due
 
   - Banda **2600 MHz** (LTE FDD Banda 7): hanno tre blocchi a testa **Vodafone Italia**, **TIM** mentre **Wind 3** ne ha quattro e **Iliad** ne ha due
+  
+  - Banda **700 MHz** (5G FDD): hanno due blocchi a testa **Vodafone Italia**, **TIM** e **Iliad** ne ha uno
+  
+  - Banda **3700 MHz** (5G): hanno un blocco a testa **Vodafone Italia**, **TIM**, **Wind 3** e **Iliad**
+  
+  - Banda **26 GHz** (5G): hanno un blocco a testa **Vodafone Italia**, **TIM**, **Wind 3**, **Iliad** e **Fastweb**
+  
