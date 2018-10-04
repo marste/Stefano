@@ -1,6 +1,7 @@
 ---
 title: 'Frequenze 5G - 4G - 3G - 2G in Italia'
 author: Stefano Marzorati
+date: 2018-10-04 23:00:00 +0200
 layout: post
 permalink: /frequenze-4g-3g-2g-in-italia/
 image: 'https://marzorati.co/img/wifi.png'
