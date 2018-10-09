@@ -3,8 +3,8 @@ title: Codici e simboli delle tipologie di materiali per la raccolta differenzia
 date: 2017-12-30 12:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'http://www.krn.social/wp-content/uploads/2015/08/riciclo.png'
-share-img: 'http://www.krn.social/wp-content/uploads/2015/08/riciclo.png'
+image: 'https://marzorati.co/img/recycle.png'
+share-img: 'https://marzorati.co/img/recycle.png'
 categories:
   - Varie
 tags:
