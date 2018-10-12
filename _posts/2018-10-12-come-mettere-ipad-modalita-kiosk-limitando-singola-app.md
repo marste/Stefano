@@ -1,5 +1,5 @@
 ---
-title: Come mettere un iPad in modalità Kiosk, limitandolo a una singola app
+title: Come mettere un iPad in modalità Kiosk, limitandolo ad una singola app
 date: 2018-10-12 16:40:00 +0200
 published: true
 layout: post
