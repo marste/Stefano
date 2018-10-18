@@ -31,6 +31,6 @@ The .reg files below will modify the DWORD value below in the registry key below
 3 = Downloads   
 
 
-Oppure più semplicemente, basta andare in "Opzioni Esplora File" e scegliere tra "Questo PC" o "Accesso Rapido"   
+Oppure più semplicemente, basta andare in **Opzioni Esplora File** e scegliere tra **Questo PC** o **Accesso Rapido**   
 
 <center><img src="https://farm2.staticflickr.com/1952/30462374037_a16f151eaa_o.png" alt="Opzioni Esplora File"></center>
