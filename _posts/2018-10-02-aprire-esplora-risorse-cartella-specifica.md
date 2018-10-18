@@ -33,4 +33,4 @@ The .reg files below will modify the DWORD value below in the registry key below
 
 Oppure più semplicemente, basta andare in **Opzioni Esplora File** e scegliere tra **Questo PC** o **Accesso Rapido**   
 
-<center><img src="https://farm2.staticflickr.com/1952/30462374037_a16f151eaa_o.png" alt="Opzioni Esplora File"></center>
+<center><img src="https://farm2.staticflickr.com/1952/30462374037_a16f151eaa_o.png" alt="Opzioni Esplora File"></center>   
