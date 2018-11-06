@@ -20,6 +20,7 @@ Il grado IP **(Degree of Protection)** è indicato con due cifre più due letter
 
 **La prima cifra** indica il grado di **protezione contro la penetrazione di corpi solidi estranei** secondo la seguente tabella:   
 
+<center>
 <table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
@@ -100,11 +101,12 @@ Il grado IP **(Degree of Protection)** è indicato con due cifre più due letter
       totalmente protetto contro le polveri
     </td>
   </tr>
-</table>   
+</table></center>   
 <BR>
 <BR>
 **La seconda cifra** indica il grado di **protezione contro la penetrazione di liquidi**:   
 
+<center>
 <table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
@@ -206,10 +208,12 @@ Il grado IP **(Degree of Protection)** è indicato con due cifre più due letter
     </td>
   </tr>
 </table>   
+</center>
 <BR>
 <BR>
 **La lettera aggiuntiva** indica il grado di **protezione contro l’accesso a parti pericolose**:   
 
+<center>
 <table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
@@ -261,10 +265,12 @@ Il grado IP **(Degree of Protection)** è indicato con due cifre più due letter
     </td>
   </tr>
 </table>   
+</center>
 <BR>
 <BR>
 **La lettera supplementare** fornisce informazioni relative alla **protezione del materiale**:   
 
+<center>
 <table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
@@ -316,3 +322,4 @@ Il grado IP **(Degree of Protection)** è indicato con due cifre più due letter
     </td>
   </tr>
 </table>   
+</center>
