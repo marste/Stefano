@@ -25,5 +25,5 @@ tags:
   
 **Preparazione:**   
   
-* Mescolate il cacao e lo zucchero, profumate con la vaniglina e diluite prima con poco latte, poi con il restante latte e con la panna.   
+* Mescolate il cacao e lo zucchero, profumate con la vanillina e diluite prima con poco latte, poi con il restante latte e con la panna.   
 
