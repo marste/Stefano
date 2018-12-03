@@ -36,7 +36,8 @@ occorrerà spegnere e riaccendere l'interfaccia vlan1
 	shutdown
 	no shutdown
 
-	Digitando nuovamente **sh run** vedrete che l'interfaccia sarà salita e la scritta **shutdown** sarà sparita.
+Digitando nuovamente **sh run** vedrete che l'interfaccia sarà salita e la scritta **shutdown** sarà sparita.   
+
 	interface Vlan1
 	description *** VLAN 1 ***
 	ip address 192.168.25.33 255.255.0.0
