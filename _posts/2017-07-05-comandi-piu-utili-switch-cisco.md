@@ -3,7 +3,8 @@ title: Comandi più usati su Switch Cisco
 date: 2017-07-05 15:00:00 +0200
 author: Stefano Marzorati
 layout: post
-permalink: /comandi-piu-utili-switch-cisco/
+image: 'https://marzorati.co/img/cisco.png'
+share-img: 'https://marzorati.co/img/cisco.png'
 categories:
   - Networks
 tags:
