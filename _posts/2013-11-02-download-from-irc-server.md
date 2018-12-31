@@ -1,7 +1,7 @@
 ---
 title: Download from IRC Server
 author: Stefano Marzorati
-date: 2015-09-06 23:00:00 -07:00
+date: 2018-12-28 23:00:00 -07:00
 layout: post
 permalink: /download-from-irc-server/
 categories:
@@ -15,7 +15,7 @@ tags:
 ---
 **Server:** <a href="irc://irc.rootworld.net" target="_blank">irc.rootworld.net</a>  
 **Channel:** atollo-friends  
-**List:** <a href="http://listaatollo.altervista.org/lista/" target="_blank">http://listaatollo.altervista.org/lista/</a>  
+**List:** <a href="http://www.ohi.im/3k59" target="_blank">http://www.ohi.im/3k59/</a>  
 **Velocità:** +650 KB/S   
 **User:** atollofriends   
 **Password:** l1st44t0ll0   
