@@ -15,6 +15,7 @@ tags:
   - cmd
   - command
   - line
+  - 7zip
 ---
 Vai in command prompt:   
 
