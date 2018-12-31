@@ -19,5 +19,7 @@ tags:
 Vai in command prompt:   
 
 	sqlcmd -U sa -P password -S localhost\session -Q "BACKUP DATABASE NomeDatabase to DISK='C:\Backup_DB\Backup.BAK' WITH INIT"
-	
+	c:\batch\7z.exe a -tzip C:\Backup_DB\NomeDatabase.zip C:\Backup_DB\NomeDatabase.BAK
+	del C:\Backup_DB\NomeDatabase.BAK
+
 Potete creare un file .cmd e schedularlo in Windows.
