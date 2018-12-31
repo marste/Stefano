@@ -18,6 +18,6 @@ tags:
 ---
 Vai in command prompt:   
 
-	sqlcmd -U sa -P password -S localhost\session -Q "BACKUP DATABASE ERWEKAMC to DISK='C:\Backup_DB\Backup.BAK' WITH INIT"
+	sqlcmd -U sa -P password -S localhost\session -Q "BACKUP DATABASE NomeDatabase to DISK='C:\Backup_DB\Backup.BAK' WITH INIT"
 	
 Potete creare un file .cmd e schedularlo in Windows.
