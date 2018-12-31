@@ -1,5 +1,5 @@
 ---
-title: Script di Backup per SQL Server
+title: Script di Backup per SQL Server compresso
 date: 2018-12-31 12:00:00 +0200
 published: true
 layout: post
