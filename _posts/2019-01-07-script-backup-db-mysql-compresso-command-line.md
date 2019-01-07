@@ -3,15 +3,15 @@ title: Script di Backup per MySQL Server compresso
 date: 2019-01-07 09:00:00 +0200
 published: true
 layout: post
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/mysql.png'
+share-img: 'https://marzorati.co/img/mysql.png'
 categories:
   - Windows
 tags:
   - windows
-  - sql
+  - mysql
   - backup
-  - sqlcmd
+  - mysqldump
   - cmd
   - command
   - line

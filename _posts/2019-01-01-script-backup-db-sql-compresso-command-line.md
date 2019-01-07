@@ -3,8 +3,8 @@ title: Script di Backup per SQL Server compresso
 date: 2019-01-01 08:00:00 +0200
 published: true
 layout: post
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/sql.png'
+share-img: 'https://marzorati.co/img/sql.png'
 categories:
   - Windows
 tags:
