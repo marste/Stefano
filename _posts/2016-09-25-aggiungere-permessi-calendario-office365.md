@@ -14,6 +14,7 @@ tags:
   - calendario
   - office365
   - powershell
+  - rimuovere
 ---
 **Connettersi tramite PowerShell a Office365:**   
 
