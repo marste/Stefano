@@ -1,5 +1,5 @@
 ---
-title: Tabella riassuntiva minusvalenze plusvalenze per compensare
+title: Tabella riassuntiva minusvalenze plusvalenze
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/money.png'
@@ -18,5 +18,6 @@ tags:
   - compensare
 ---
 Come recuperare le minusvalenze.   
+Cosa puoi compensare e cosa no...   
 
 <center><img src="https://farm8.staticflickr.com/7846/47463539361_ce3eaba96b_o.jpg" alt="Tabella minusvalenze plusvalenze"></center>   
