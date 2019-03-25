@@ -17,4 +17,6 @@ tags:
   - bond
   - compensare
 ---
+Come recuperare le minusvalenze.   
+
 <center><img src="https://farm8.staticflickr.com/7846/47463539361_ce3eaba96b_o.jpg" alt="Tabella minusvalenze plusvalenze"></center>   
