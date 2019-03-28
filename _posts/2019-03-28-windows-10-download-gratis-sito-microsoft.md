@@ -13,7 +13,7 @@ tags:
   - iso
   - file
   - immagine
-  - 'windows 10'
+  - windows 10
   - free
 ---
 Se avete bisogno di scaricare l'immagine ISO di Windows 10 Pro o Home, andate sul sito ufficiale Microsoft al seguente indirizzo: <a href="https://www.microsoft.com/it-it/software-download/windows10ISO" target="_blank">Microsoft Windows 10</a>   
