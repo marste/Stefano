@@ -1,6 +1,6 @@
 ---
-title: Aggiornare Windows 10 a April Update build 17134 con Update Assistant
-date: 2018-05-23 10:47:00 +0200
+title: Aggiornare Windows 10 con Update Assistant Tool
+date: 2019-03-29 10:47:00 +0200
 published: true
 layout: post
 image: 'https://winaero.com/blog/wp-content/uploads/2015/09/Windows-10-logo-icon-22.png'
