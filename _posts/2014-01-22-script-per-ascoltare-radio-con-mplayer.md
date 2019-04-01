@@ -92,7 +92,7 @@ GOTO Again
 mplayer http://s7.onweb.gr:8410/   
 GOTO Again   
 :Item6   
-mplayer http://mp3.kataweb.it:8000/M2O   
+mplayer https://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/index_96_a-b.m3u8?sd=10&rebase=on   
 GOTO Again   
 :Item7   
 mplayer http://shoutcast2.hardcoreradio.nl   
