@@ -30,7 +30,7 @@ tags:
    
 <a href="http://marzorati.co/download/music/RadioPlanetFM.m3u" target="_blank">Radio Planet FM (Bitrate: 128kbit/s)</a>   
    
-<a href="http://marzorati.co/download/music/CavoParadiso.m3u" target="_blank">Cavo Paradiso (Bitrate: 128kbit/s)</a>   
+<a href="http://s5.onweb.gr:8488" target="_blank">Cavo Paradiso (Bitrate: 128kbit/s)</a>   
    
 <a href="http://marzorati.co/download/music/SmoothJazz.m3u" target="_blank">SmoothJazz.com Global (Bitrate: 128kbit/s)</a>   
 
