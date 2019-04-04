@@ -16,7 +16,7 @@ tags:
   - code32
   - qrcode
 ---
-<a href="https://marzorati.co/download/Manuale_Configurazione_ Scantech_ID_ IG620.pdf" target="_blank">Download Manuale Completo</a>   
+<a href="https://marzorati.co/download/Manuale_Configurazione_Scantech_ID_IG620.pdf" target="_blank">Download Manuale Completo</a>   
 
 Per settare il codice adottato dal Ministero della Sanità italiano per la codifica dei prodotti farmaceutici, andare a pagina 14 per iniziare la configurazione, poi pagina 72 (Italian Pharmacy/Code 32 ON) e salvare i parametri sempre a pagina 14.   
 Se vuoi impostare l'emulazione di tastiera italiana, vai a pagina 159.
