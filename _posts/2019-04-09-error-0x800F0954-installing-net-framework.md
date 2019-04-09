@@ -28,6 +28,7 @@ Fate così:
 - **Monta l'immagine ISO** di Windows 10
 - L'immagine verrà montata come disco, ad esempio H:\
 - Apri **cmd** con privilegi di administrator
-- Lancia questo comando:   
+
+Lancia questo comando:   
 
 	dism /online /enable-feature /featurename:NetFX3 /Source:H:\sources\sxs /LimitAccess
