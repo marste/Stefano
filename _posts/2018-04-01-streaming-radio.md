@@ -38,5 +38,6 @@ tags:
 
 <a href="http://178.32.136.9/proxy/cjaccari?mp=/;" target="_blank">Negozi OVS (Bitrate: 128kbit/s)</a>   
 
-<a href="https://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/index_96_a-b.m3u8?sd=10&rebase=on" target="_blank">M2O (Bitrate: 320kbit/s)</a>
+<a href="https://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/index_96_a-b.m3u8?sd=10&rebase=on" target="_blank">M2O - Deejay Station (Bitrate: 320kbit/s)</a>   
 
+<a href="https://streamingp.shoutcast.com/TomorrowlandOneWorldRadio" target="_blank">One World Radio - Tomorrowland (Bitrate: 320kbit/s)</a>
