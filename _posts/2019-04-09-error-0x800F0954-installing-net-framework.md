@@ -19,9 +19,9 @@ tags:
 ---
 Se state cercando di abilitare .NET Framework 3.5 e cliccando OK vi compare questo errore:   
 
-**Windows couldn’t complete the requested changes.**
-**The changes couldn’t be completed. Please reboot your computer and try again.**
-**Error code: 0x800F0954**
+**Windows couldn’t complete the requested changes.**   
+**The changes couldn’t be completed. Please reboot your computer and try again.**   
+**Error code: 0x800F0954**   
 
 Fate così:
 
