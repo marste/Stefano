@@ -19,8 +19,4 @@ tags:
 ---
 Se avete bisogno di estrarre del testo da un'immagine o da un file PDF, vi consiglio questi due siti che hanno un servizio online:   
 
-<a href="https://lightpdf.com/it/ocr" target="_blank">LightPDF</a>
-
-oppure   
-
-<a href="http://www.i2ocr.com/free-online-italian-ocr" target="_blank">i2OCR</a>
+<a href="https://lightpdf.com/it/ocr" target="_blank">LightPDF</a> oppure <a href="http://www.i2ocr.com/free-online-italian-ocr" target="_blank">i2OCR</a>
