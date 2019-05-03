@@ -26,7 +26,7 @@ In alternativa potete effettuare un reset delle impostazioni e dei parametri di 
 
 `netsh winsock reset`  
 `netsh int ip reset`  
-`netsh advfirewall reset`
-`ipconfig /flushdns`
-`ipconfig /release`
-`ipconfig /renew`
+`netsh advfirewall reset`   
+`ipconfig /flushdns`   
+`ipconfig /release`   
+`ipconfig /renew`   
