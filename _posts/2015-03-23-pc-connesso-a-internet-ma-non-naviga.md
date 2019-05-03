@@ -1,18 +1,11 @@
 ---
-id: 3278
 title: PC connesso a internet, ma non naviga
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=3278
+date: 2019-05-03 09:00:00 +0200
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
 permalink: /pc-connesso-a-internet-ma-non-naviga/
-authorsure_include_css:
-  - 
-video_url:
-  - 
-quote_content:
-  - 
-quote_attribution:
-  - 
 categories:
   - Windows
 tags:
@@ -34,3 +27,6 @@ In alternativa potete effettuare un reset delle impostazioni e dei parametri di 
 `netsh winsock reset`  
 `netsh int ip reset`  
 `netsh advfirewall reset`
+`ipconfig /flushdns`
+`ipconfig /release`
+`ipconfig /renew`
