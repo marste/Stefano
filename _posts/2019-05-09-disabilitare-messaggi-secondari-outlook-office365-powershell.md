@@ -38,3 +38,4 @@ Questo comando vi permetterà di raccogliere tutte le caselle di posta (Get-Mail
 **Chudere la sessione:**   
 
 	Remove-PSSession $Session
+
