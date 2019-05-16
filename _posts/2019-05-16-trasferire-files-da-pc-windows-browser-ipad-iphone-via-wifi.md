@@ -20,7 +20,7 @@ tags:
   - airtransfer
   - browser
 ---
-Se dovete trasferire dei files in maniera veloce tra un PC e un iPad o iPhone, potete utilizzare questa l'app **<a href="https://itunes.apple.com/it/app/documents-di-readdle/id364901807?mt=8" target="_blank">Documents di Readdle</a>** Documents di Readdle.   
+Se dovete trasferire dei files in maniera veloce tra un PC e un iPad o iPhone, potete utilizzare questa l'app **<a href="https://itunes.apple.com/it/app/documents-di-readdle/id364901807?mt=8" target="_blank">Documents di Readdle</a>**.   
 Puoi trasferire qualsiasi files o intere cartelle di qualsiasi dimensione.   
 Dal PC basterà collegarti al sito <a href="https://docstransfer.com/" target="_blank">https://docstransfer.com/</a> e dall'iPad fare la scansione del QR Code che appare sullo schermo del PC.   
 A questo punto trascinate i files o le cartelle nel browser che verranno trasferiti all'istante sull'iPad.   
