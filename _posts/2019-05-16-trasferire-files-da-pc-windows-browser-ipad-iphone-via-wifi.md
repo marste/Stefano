@@ -25,7 +25,7 @@ Puoi trasferire qualsiasi files o intere cartelle di qualsiasi dimensione.
 Dal PC basterà collegarti al sito <a href="https://docstransfer.com/" target="_blank">https://docstransfer.com/</a> e dall'iPad fare la scansione del QR Code che appare sullo schermo del PC.   
 A questo punto trascinate i files o le cartelle nel browser che verranno trasferiti all'istante sull'iPad.   
 
-Le cartelle e i files potranno essere visualizzati anche dall'applicazione nativa **Files" dell'iPad.   
+Le cartelle e i files potranno essere visualizzati anche dall'applicazione nativa **Files** dell'iPad.   
 Occorrerà aprirla e andare in: Sfoglia - Posizioni - Altre posizioni - Documents   
 
-Ottima alternativa all'app ** Portal di Pushbullet**   
+Ottima alternativa all'app **Portal di Pushbullet**   
