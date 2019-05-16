@@ -1,5 +1,5 @@
 ---
-title: Trasferire via WiFi files da PC a iPad o iPhone
+title: Trasferire via WiFi files da PC Windows a iPad o iPhone
 date: 2019-05-16 10:47:00 +0200
 published: true
 layout: post
@@ -18,6 +18,7 @@ tags:
   - PC
   - airdrop
   - airtransfer
+  - browser
 ---
 Se dovete trasferire dei files in maniera veloce tra un PC e un iPad o iPhone, potete utilizzare questa l'app **<a href="https://itunes.apple.com/it/app/documents-di-readdle/id364901807?mt=8" target="_blank">Documents di Readdle</a>** Documents di Readdle.   
 Puoi trasferire qualsiasi files o intere cartelle di qualsiasi dimensione.   
