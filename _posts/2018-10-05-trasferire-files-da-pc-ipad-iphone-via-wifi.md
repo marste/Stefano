@@ -22,6 +22,10 @@ Puoi trasferire qualsiasi files o intere cartelle di qualsiasi dimensione.
 Dal PC basterà collegarti al sito <a href="http://portal.pushbullet.com/" target="_blank">http://portal.pushbullet.com/</a> e dall'iPad fare la scansione del QR Code che appare sullo schermo del PC.   
 A questo punto trascinate i files o le cartelle nel browser che verranno trasferiti all'istante sull'iPad.   
 
+**Update: Dopo gli ultimi aggiornamenti di iOS l'app non permette l'uso della fotocamera per scannerizzare il QRCode.**   
+
+Una valida alternativa è la seguente: <a href="https://marzorati.co/trasferire-files-da-pc-ipad-iphone-via-wifi/" target="_blank">Documents di Readdle/</a>
+
 <div class="video">
     <iframe src="//www.youtube.com/embed/2Czaw0IPHKo" frameborder="0" allowfullscreen></iframe>
 </div>
