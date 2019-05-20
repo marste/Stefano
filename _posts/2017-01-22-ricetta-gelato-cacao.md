@@ -3,6 +3,8 @@ title: Ricetta gelato al cacao
 date: 2017-01-22 13:21:00 +0200
 author: Stefano Marzorati
 layout: post
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 permalink: /ricetta-gelato-cacao/
 categories:
   - Ricette

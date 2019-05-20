@@ -1,21 +1,10 @@
 ---
-id: 1554
 title: 'Ricetta: Liquore alla Liquirizia'
 author: Stefano Marzorati
 layout: post
-imagefeature: liquirizia.jpg
-guid: http://marzorati.co/?p=1554
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 permalink: /ricetta-liquore-alla-liquirizia/
-publicize_reach:
-  - 'a:2:{s:7:"twitter";a:1:{i:3411;i:25;}s:2:"wp";a:1:{i:0;i:1;}}'
-  - 'a:2:{s:7:"twitter";a:1:{i:3411;i:25;}s:2:"wp";a:1:{i:0;i:1;}}'
-publicize_twitter_user:
-  - marzorati_ste
-  - marzorati_ste
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 1982276120
 categories:
   - Varie
 ---

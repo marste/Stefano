@@ -3,15 +3,9 @@ id: 1561
 title: 'Ricetta: VOV'
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=1561
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 permalink: /ricetta-vov/
-publicize_twitter_user:
-  - marzorati_ste
-  - marzorati_ste
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2141513527
 categories:
   - Varie
 ---

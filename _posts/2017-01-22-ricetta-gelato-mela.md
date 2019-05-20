@@ -5,6 +5,8 @@ author: Stefano Marzorati
 published: true
 layout: post
 permalink: /ricetta-gelato-mela/
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 categories:
   - Ricette
 tags:

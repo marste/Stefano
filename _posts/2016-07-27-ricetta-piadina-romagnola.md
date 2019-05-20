@@ -4,6 +4,8 @@ date: 2016-07-27 22:50:00 +0200
 author: Stefano Marzorati
 layout: post
 permalink: /ricetta-piadina-romagnola/
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 categories:
   - Ricette
 tags:

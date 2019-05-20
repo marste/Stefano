@@ -4,6 +4,8 @@ date: 2017-02-01 03:01:00 +0200
 published: true
 author: Stefano Marzorati
 layout: post
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 permalink: /ricetta-gelato-liquirizia/
 categories:
   - Ricette
