@@ -3,8 +3,8 @@ title: Ricetta patate arrosto al forno a microonde
 author: Stefano Marzorati
 date: 2019-05-20 15:01:00 +0200
 layout: post
-image: 'https://live.staticflickr.com/65535/47889612161_60cfe31f93_s.jpg'
-share-img: 'https://live.staticflickr.com/65535/47889612161_60cfe31f93_s.jpg'
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 tags:
   - ricetta
   - patate
