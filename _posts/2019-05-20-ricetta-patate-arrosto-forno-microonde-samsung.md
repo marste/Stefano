@@ -21,7 +21,7 @@ categories:
 
 * Sbucciare tre patate e tagliarle a cubetti.
 * Metterle in una ciotola di vetro e sciacquarle un paio di volte.
-* Riempire la ciotola di acqua fino a coprire le patate.
+* Riempire la ciotola di acqua fino a coprire le patate con un filo d'olio e un po' di sale.
 * Metterle nel forno scegliendo la funzione **microonde**, **900W**, per **4 minuti**   
 * Tiratele fuori dal forno e mettetele sul piatto crispy sul ripiano più alto   
 * Scegliete il **programma 2-6** (Grilled Tomatoes) ed eseguitelo per **due volte**
