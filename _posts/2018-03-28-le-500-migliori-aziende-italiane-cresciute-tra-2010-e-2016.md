@@ -3,8 +3,8 @@ title: Le 500 migliori aziende italiane cresciute tra il 2010 e il 2016
 date: 2018-03-28 23:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'http://www.siitgroup.com/wp/wp-content/uploads/2017/03/Logo_SIIT_ultimo-SCONTORNATO.jpg'
-share-img: 'http://www.siitgroup.com/wp/wp-content/uploads/2017/03/Logo_SIIT_ultimo-SCONTORNATO.jpg'
+image: 'https://marzorati.co/img/industria.png'
+share-img: 'https://marzorati.co/img/industria.png'
 categories:
   - News
 tags:
