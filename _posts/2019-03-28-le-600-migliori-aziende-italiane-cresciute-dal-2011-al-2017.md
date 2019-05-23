@@ -27,4 +27,4 @@ Ecco le 600 imprese champion che hanno vinto la crisi e competono sui mercati gl
 
 <a href="https://www.siitgroup.com" target="_blank">S.I.I.T. S.r.l.</a> è una di queste.   
 
-<sub><a href="https://www.italypost.it/le-600-champion-2019-svetta-la-lombardia-sorpresa-emilia/" target="_blank">Fonte</a></sub>
+<sup><a href="https://www.italypost.it/le-600-champion-2019-svetta-la-lombardia-sorpresa-emilia/" target="_blank">Fonte</a></sup>
