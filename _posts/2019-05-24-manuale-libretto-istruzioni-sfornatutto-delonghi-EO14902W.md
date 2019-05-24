@@ -16,6 +16,8 @@ tags:
   - eo14902w
   - download
   - pdf
+  - forno
+  - elettrico
 ---
 Ecco il libretto delle istruzioni:   
 
