@@ -19,4 +19,4 @@ tags:
 ---
 Ecco il libretto delle istruzioni:   
 
-Clicca<a href="https://marzorati.co/download/Manuale_Istruzioni_EO14902.W.pdf" target="_blank">qua</a> per effettuare il download.   
+Clicca <a href="https://marzorati.co/download/Manuale_Istruzioni_EO14902.W.pdf" target="_blank">qua</a> per effettuare il download.   
