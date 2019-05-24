@@ -1,18 +1,10 @@
 ---
-id: 1565
 title: 'Ricetta: Liquore alla menta'
 author: Stefano Marzorati
 layout: post
-imagefeature: menta.jpg
-guid: http://marzorati.co/?p=1565
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 permalink: /ricetta-liquore-menta/
-publicize_twitter_user:
-  - marzorati_ste
-  - marzorati_ste
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2134435961
 categories:
   - Varie
 ---

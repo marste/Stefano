@@ -5,6 +5,8 @@ published: true
 author: Stefano Marzorati
 layout: post
 permalink: /ricetta-gelato-brasiliano/
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 categories:
   - Ricette
 tags:

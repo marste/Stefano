@@ -4,6 +4,8 @@ date: 2016-10-09 22:50:00 +0200
 author: Stefano Marzorati
 layout: post
 permalink: /ricetta-torta-paesana/
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 categories:
   - Ricette
 tags:

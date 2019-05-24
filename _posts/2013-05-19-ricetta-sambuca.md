@@ -3,8 +3,8 @@ title: 'Ricetta Sambuca'
 author: Stefano Marzorati
 date: 2018-08-12 17:01:00 +0200
 layout: post
-image: 'https://farm1.staticflickr.com/931/43998348721_bde325f86e_q.jpg'
-share-img: 'https://farm1.staticflickr.com/931/43998348721_bde325f86e_q.jpg'
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 permalink: /ricetta-sambuca/
 tags:
   - ricetta

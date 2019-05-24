@@ -4,6 +4,8 @@ date: 2017-01-22 13:50:00 +0200
 published: true
 author: Stefano Marzorati
 layout: post
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 permalink: /ricetta-gelato-caffe/
 categories:
   - Ricette

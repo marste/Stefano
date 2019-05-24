@@ -4,6 +4,8 @@ date: 2017-01-22 13:20:00 +0200
 author: Stefano Marzorati
 layout: post
 permalink: /ricetta-gelato-crema/
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 categories:
   - Ricette
 tags:
