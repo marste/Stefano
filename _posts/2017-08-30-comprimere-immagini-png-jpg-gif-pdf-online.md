@@ -23,5 +23,5 @@ tags:
  - <a href="http://gifcompressor.com/" target="_blank">Compress GIF</a>   
  - <a href="http://shrinkpdf.com/it/" target="_blank">Compress PDF</a>   
  
-Un'altra valida alternativa che ti permette di comprimere fino a 40 immagini simultaneamente di un massimo di 50 Mb ognuna, è questo sito: <a href="https://www.websiteplanet.com/webtools/imagecompressor/" target="_blank">Image Compressor PDF</a>
+Un'altra valida alternativa che ti permette di comprimere fino a 40 immagini simultaneamente di un massimo di 50 Mb ognuna, è questo sito: <a href="https://www.websiteplanet.com/webtools/imagecompressor/" target="_blank">Image Compressor</a>
  
