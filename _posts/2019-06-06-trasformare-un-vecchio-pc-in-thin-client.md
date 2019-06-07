@@ -30,5 +30,5 @@ Ad esempio:
 
 In più se volete non far eliminare l'icona launcher, modificate i permessi su quello shortcut con il comando **sudo chattr +i**
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=marzoratiamaz-21&m=amazon&o=29&p=8&l=as1&IS2=1&asins=B075RZT2PW&linkId=0672027579fc5b5628b8991ba88231f9&bc1=ffffff&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
+<iframe style="width:728px;height:90px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=marzoratiamaz-21&m=amazon&o=29&p=8&l=as1&IS2=1&asins=B075RZT2PW&linkId=0672027579fc5b5628b8991ba88231f9&bc1=ffffff&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
     </iframe>
