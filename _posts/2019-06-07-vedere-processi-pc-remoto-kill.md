@@ -18,6 +18,7 @@ tags:
   - tasklist
   - taskkill
 ---
+Per vedere tutti i processi attivi su un PC remoto:   
 
 	TASKLIST /S Nome_PC_Remoto
 	
@@ -25,6 +26,7 @@ Se lo vuoi mettere in un file .cmd o .bat, scrivi questo, considerando che **%1*
 
 	TASKLIST /S %1
 
+Per killare un processo su un PC remoto:   
 
 	TASKKILL /S Nome_PC_Remoto /IM notepad.exe
 
