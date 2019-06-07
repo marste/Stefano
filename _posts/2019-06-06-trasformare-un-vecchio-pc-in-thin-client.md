@@ -30,4 +30,5 @@ Ad esempio:
 
 In più se volete non far eliminare l'icona launcher, modificate i permessi su quello shortcut con il comando **sudo chattr +i**
 
-<a target="_blank" href="https://www.amazon.it/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=marzoratiamaz-21&keywords=thin client&index=aps&camp=3414&creative=21718&linkCode=ur2&linkId=8f21ccd1ec63dbdfb8abc4c72368774e">thin client</a><img src="//ir-it.amazon-adsystem.com/e/ir?t=marzoratiamaz-21&l=ur2&o=29&camp=3414" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-eu.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=marzoratiamaz-21&m=amazon&o=29&p=8&l=as1&IS2=1&asins=B075RZT2PW&linkId=0672027579fc5b5628b8991ba88231f9&bc1=ffffff&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
+    </iframe>
