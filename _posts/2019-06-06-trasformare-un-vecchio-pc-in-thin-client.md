@@ -29,3 +29,5 @@ Ad esempio:
 	rdesktop -u nome_utente -d dominio -f nome_server:3389
 
 In più se volete non far eliminare l'icona launcher, modificate i permessi su quello shortcut con il comando **sudo chattr +i**
+
+<a target="_blank" href="https://www.amazon.it/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=marzoratiamaz-21&keywords=thin client&index=aps&camp=3414&creative=21718&linkCode=ur2&linkId=8f21ccd1ec63dbdfb8abc4c72368774e">thin client</a><img src="//ir-it.amazon-adsystem.com/e/ir?t=marzoratiamaz-21&l=ur2&o=29&camp=3414" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
