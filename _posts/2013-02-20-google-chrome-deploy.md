@@ -1,6 +1,6 @@
 ---
 title: Google Chrome Deploy
-subtitle: Filtrare con query XML dall'Event Viewer
+subtitle: Download Chrome .msi
 author: Stefano Marzorati
 layout: post
 published: true
