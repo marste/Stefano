@@ -6,8 +6,8 @@ layout: post
 published: true
 date: 2019-06-13 10:45:00 +0200
 permalink: /google-chrome-deploy/
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/chrome.png'
+share-img: 'https://marzorati.co/img/chrome.png'
 categories:
   - Windows
 ---
