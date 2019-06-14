@@ -16,9 +16,9 @@ permalink: /amp/
         "@context": "http://schema.org",
         "@type": "NewsArticle",
         "headline": "Open-source framework for publishing content",
-        "datePublished": "2015-10-07T12:02:41Z",
+        "datePublished": "2019-10-07T12:02:41Z",
         "image": [
-          "logo.jpg"
+          "img/android.png"
         ]
       }
     </script>
