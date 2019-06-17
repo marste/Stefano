@@ -1,5 +1,6 @@
 ---
 title: 'Outlook si blocca quando si clicca su Firma'
+subtitle: Outlook freezes clicking the Signature button
 date: 2019-06-17 16:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/office.png'
@@ -15,6 +16,7 @@ tags:
   - freeze
   - signature
   - blocca
+  - freeze
 ---
 Se vi è successo in **Windows 10** che Outlook si blocchi e non apra la finestra delle **firme**, è sufficiente andare in:   
 **Installazione Applicazioni** - **App e funzionalità** e rimuovere **Microsoft Office Desktop Apps**   
