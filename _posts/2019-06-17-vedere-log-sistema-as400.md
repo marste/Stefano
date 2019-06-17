@@ -1,5 +1,5 @@
 ---
-title: Come vedere i log di sistema su AS400
+title: Come vedere i log di sistema su AS/400
 author: Stefano Marzorati
 layout: post
 image: https://marzorati.co/img/ibm.png
