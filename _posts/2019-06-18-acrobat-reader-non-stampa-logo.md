@@ -1,6 +1,6 @@
 ---
 title: 'Acrobat Reader non stampa logo'
-subtitle: Se vuoi risparmiare inchiostro o toner
+subtitle: Risparmia inchiostro o toner
 date: 2019-06-18 14:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/acrobat.png'
