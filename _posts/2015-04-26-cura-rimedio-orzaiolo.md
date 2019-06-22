@@ -16,7 +16,7 @@ tags:
 ---
 Se spesso sotto l'occhio vi compare l'orzaiolo, che non è altro che un'infezione di alcune ghiandole dell'occhio,   
 
-![orzaiolo](http://static.tantasalute.it/tantasalute/fotogallery/979X0/1221/alterazione-della-palpebra.jpg)   
+![orzaiolo](https://live.staticflickr.com/65535/48110164596_f2802651fa_o.jpg)   
 
 vi consiglio di non ricorrere a medicinali, ma fare esclusivamente degli impacchi tiepidi di acqua e sale per sgonfiarli.
 
