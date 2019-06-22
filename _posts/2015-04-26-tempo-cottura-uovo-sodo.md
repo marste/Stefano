@@ -5,6 +5,7 @@ author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/farmacia.png'
 share-img: 'https://marzorati.co/img/farmacia.png'
+permalink: /curare-rimedio-orzaiolo/
 categories:
   - Varie
 tags:
