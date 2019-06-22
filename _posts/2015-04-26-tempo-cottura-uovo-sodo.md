@@ -1,28 +1,22 @@
 ---
-title: Come curare l'orzaiolo
-date: 2015-04-26 15:00:00 -07:00
+title: Tempo di cottura uovo sodo
+date: 2019-06-22 23:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://marzorati.co/img/farmacia.png'
-share-img: 'https://marzorati.co/img/farmacia.png'
-permalink: /curare-rimedio-orzaiolo/
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 categories:
-  - Varie
+  - Ricette
 tags:
-  - curare
-  - rimedio
-  - naturale
-  - orzaiolo
+  - tempo
+  - cottura
+  - uovo
+  - sodo
+  - coque
 ---
-Se spesso sotto l'occhio vi compare l'orzaiolo, che non è altro che un'infezione di alcune ghiandole dell'occhio,   
+Mettere le uova in un pentolino riempito d'acqua fredda su un fornello con fiamma alta.   
+Quando l'acqua inizia a bollire, spostare il pentolino dalla fiamma coprendolo con un coperchio e cuocere le uova per il tempo corrispondente al gusto desiderato.   
 
-![orzaiolo](https://live.staticflickr.com/65535/48110164596_f2802651fa_o.jpg)   
-
-vi consiglio di non ricorrere a medicinali, ma fare esclusivamente degli impacchi tiepidi di acqua e sale per sgonfiarli.
-
-  - Fai bollire acqua e ci metti una manciata di sale
-  - Lascia che l'acqua diventi tiepida e imbevi del cotone e applicalo sulle palpebre
-
-Il calore e il sale servono a scomporre il grumo di sebo o pus che incistisce la ghiandola di meibonio (ghiandola sebacea, secerne la parte grassa della lacrima)
-Se lo fate alla sera prima di andare a dormire, è molto probabile che al risveglio non avrete più nulla.
- 
+<center>
+<img alt="cottura_uovo" src="https://live.staticflickr.com/65535/40931695443_40c99464ef_o.jpg">
+</center>   
