@@ -3,8 +3,8 @@ title: 'Come curare il calazio'
 subtitle: occhio gonfio diagnosi e cura
 date: 2019-06-22 13:00:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/office.png'
-share-img: 'https://marzorati.co/img/office.png'
+image: 'https://marzorati.co/img/farmacia.png'
+share-img: 'https://marzorati.co/img/farmacia.png'
 layout: post
 categories:
   - medicina
