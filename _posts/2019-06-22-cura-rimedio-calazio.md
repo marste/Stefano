@@ -32,6 +32,6 @@ Non aspettate che passi da solo, perchè può essere che il corpo riesca a ripar
  
 Se il calazio non passa anche dopo la cura antibiotica e cortisonica, può essere necessario un piccolo intervento chirurgico.   
 
-Successivamente alla cura, per prevenire in futuro la problematica, mettere 1 goccia per 3 volte al giorno in entrambi gli occhi, il collirio **Altial Plus** per sempre.   
+Successivamente alla cura, per prevenire in futuro la problematica, mettere 1 goccia per 3 volte al giorno in entrambi gli occhi, il collirio **Altial Plus**, per sempre.   
 
 
