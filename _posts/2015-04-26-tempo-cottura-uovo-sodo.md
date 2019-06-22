@@ -14,7 +14,8 @@ tags:
   - sodo
   - coque
 ---
-Mettere le uova in un pentolino riempito d'acqua fredda su un fornello con fiamma alta.   
+Mettere le uova in un pentolino riempito **d'acqua fredda** su un fornello con **fiamma alta**.   
+
 Quando l'acqua inizia a bollire, spostare il pentolino dalla fiamma coprendolo con un coperchio e cuocere le uova per il tempo corrispondente al gusto desiderato.   
 
 <center>
