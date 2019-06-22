@@ -27,6 +27,7 @@ Se avete un occhio gonfio, come nella foto sottostante, è molto probabile che s
 Non aspettate che passi da solo, perchè può essere che il corpo riesca a riparare il *problema*, ma è molto probabile che a breve distanza, si ripresenti.   
 
 **CURA**   
+
  - **Betabioptal Gel**: 1 goccia per 3 volte al giorno (ore: 8 - 14 - 20) per 10 giorni
  - Impacchi di acqua tiepida/calda per 10 giorni della durata di 10 minuti
  
@@ -35,3 +36,11 @@ Se il calazio non passa anche dopo la cura antibiotica e cortisonica, può esser
 Successivamente alla cura, per prevenire in futuro la problematica, mettere 1 goccia per 3 volte al giorno in entrambi gli occhi, il collirio **Altial Plus**, per sempre.   
 
 
+**DOVE FARVI VISITARE**   
+
+Se volete farvi visitare da un medico oculista e siete di Milano, potreste andare al pronto soccorso oftalmico Fatebenefratelli al Piazzale Principessa Clotilde, 3 che è aperto 24 ore su 24.   
+L'unico rischio è che ci sia solo un medico a visitare e 25 persone in attesa.   
+Questo vuol dire tante ore di attesa. (considerando che a Milano c'è più probabilità che arrivi qualcuno con codice verde o rosso)
+
+Se siete arrivati a sabato, potete andare all'ospedale nuovo di Legnano in Via Papa Giovanni Paolo II, dalle 10:00 alle 12:00.   
+In questa fascia oraria è presente un medico oculista al pronto soccorso e qua la coda è molto breve.   
