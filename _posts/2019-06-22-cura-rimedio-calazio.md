@@ -40,7 +40,7 @@ Successivamente alla cura, per prevenire in futuro la problematica, mettere 1 go
 
 Se volete farvi visitare da un medico oculista e siete di **Milano**, potreste andare al pronto soccorso **oftalmico Fatebenefratelli al Piazzale Principessa Clotilde, 3** che è aperto 24 ore su 24.   
 L'unico rischio è che ci sia solo un medico a visitare e 25 persone in attesa.   
-Questo vuol dire __tante ore di attesa__. (considerando che a Milano c'è più probabilità che arrivi qualcuno con codice verde o rosso)
+Questo vuol dire <u>tante ore di attesa</u>. (considerando che a Milano c'è più probabilità che arrivi qualcuno con codice verde o rosso)
 
 Se siete arrivati a **sabato**, potete andare all'ospedale nuovo di **Legnano in Via Papa Giovanni Paolo II, dalle 10:00 alle 12:00**.   
 In questa fascia oraria è presente un medico oculista al pronto soccorso e qua la coda è molto breve.   
