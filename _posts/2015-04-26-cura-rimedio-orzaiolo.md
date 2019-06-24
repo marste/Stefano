@@ -15,6 +15,10 @@ tags:
 ---
 Se spesso sotto l'occhio vi compare l'orzaiolo, che non è altro che un'infezione di alcune ghiandole dell'occhio,   
 
+**COS'È**   
+Infiammazione e ostruzione della ghiandola di Zeis o di Moll annessa al follicolo ciliare.   
+Successivamente all'infiammazione arriva l'infezione.   
+
 <center>
 <img alt="orzaiolo" src="https://live.staticflickr.com/65535/48110164596_f2802651fa_o.jpg">
 </center>   
