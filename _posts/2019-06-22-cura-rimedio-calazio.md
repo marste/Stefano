@@ -24,7 +24,7 @@ Se avete un occhio gonfio, come nella foto sottostante, è molto probabile che s
 <img alt="Calazio" src="https://live.staticflickr.com/65535/48107457077_0a3ec97a9a_o.jpg">
 </center>
 
-**COS'È**
+**COS'È**   
 Il calazio è causato dall'ostruzione di una ghiandola di Meibomio.   
 Cosa sono le ghiandole di Meibomio?   
 Le ghiandole di Mebomio sono ghiandole sebacee, che si trovano lungo i margini palpebrali e che sono deputate alla produzione della componente lipidica del film lacrimale.   
