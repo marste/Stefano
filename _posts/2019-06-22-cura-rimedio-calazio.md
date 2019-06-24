@@ -25,11 +25,11 @@ Se avete un occhio gonfio, come nella foto sottostante, è molto probabile che s
 </center>
 
 **COS'È**   
-Il calazio è causato dall'ostruzione di una ghiandola di Meibomio.   
-Cosa sono le ghiandole di Meibomio?   
-Le ghiandole di Mebomio sono ghiandole sebacee, che si trovano lungo i margini palpebrali e che sono deputate alla produzione della componente lipidica del film lacrimale.   
-Sono circa 60 sulla parte superiore della palpebra e 60 sulla parte inferiore e riversano il loro secreto lungo la rima palpebrale attraverso dei forellini denominati dotti escretori.   
-L'ostruzione dei fori di uscita delle ghiandole di Meibomio può comportare l'insorgenza di un calazio.   
+Il calazio è causato dall'ostruzione di una **ghiandola di Meibomio**.   
+Cosa sono le *ghiandole di Meibomio*?   
+Le ghiandole di Mebomio sono ghiandole sebacee, che si trovano lungo i margini palpebrali e che sono deputate alla **produzione della componente lipidica del film lacrimale**.   
+Sono circa 60 sulla parte superiore della palpebra e 60 sulla parte inferiore e riversano il loro secreto lungo la rima palpebrale attraverso dei forellini denominati **dotti escretori**.   
+**L'ostruzione dei fori** di uscita delle ghiandole di Meibomio può comportare l'insorgenza di un calazio.   
 
 **CURA**   
 Non aspettate che passi da solo, perchè può essere che il corpo riesca a riparare il *problema*, ma è molto probabile che a breve distanza, si ripresenti.   
