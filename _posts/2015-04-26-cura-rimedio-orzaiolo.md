@@ -3,7 +3,8 @@ title: Come curare l'orzaiolo
 date: 2015-04-26 15:00:00 -07:00
 author: Stefano Marzorati
 layout: post
-permalink: /curare-rimedio-orzaiolo/
+image: 'https://marzorati.co/img/farmacia.png'
+share-img: 'https://marzorati.co/img/farmacia.png'
 categories:
   - Varie
 tags:
@@ -14,7 +15,13 @@ tags:
 ---
 Se spesso sotto l'occhio vi compare l'orzaiolo, che non è altro che un'infezione di alcune ghiandole dell'occhio,   
 
-![orzaiolo](http://static.tantasalute.it/tantasalute/fotogallery/979X0/1221/alterazione-della-palpebra.jpg)   
+**COS'È**   
+Infiammazione e ostruzione della ghiandola di Zeis o di Moll annessa al follicolo ciliare.   
+Successivamente all'infiammazione arriva l'infezione.   
+
+<center>
+<img alt="orzaiolo" src="https://live.staticflickr.com/65535/48110164596_f2802651fa_o.jpg">
+</center>   
 
 vi consiglio di non ricorrere a medicinali, ma fare esclusivamente degli impacchi tiepidi di acqua e sale per sgonfiarli.
 
