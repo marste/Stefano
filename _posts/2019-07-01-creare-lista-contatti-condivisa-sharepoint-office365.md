@@ -19,6 +19,8 @@ tags:
   - office365
 ---
 
-<a href="https://www.youtube.com/watch?v=MeZ17wVIYfo" target="_blank">https://www.youtube.com/watch?v=MeZ17wVIYfo</a>
+<div class="video">
+    <iframe src="//www.youtube.com/embed/MeZ17wVIYfo" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <a href="https://www.quadrotech-it.com/blog/create-a-company-shared-contacts-folder-in-office-365/" target="_blank">https://www.quadrotech-it.com/blog/create-a-company-shared-contacts-folder-in-office-365/</a>
