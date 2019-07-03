@@ -32,4 +32,4 @@ Ecco i passaggi corretti per effettuare la clonazione di un HDD su un SSD:
  - **disk_to_local_disk**	local_disk_to_local_disk_clone
  - scegli il disco **origine**
  - scegli disco **destinazione**
- - Skip checking /repairing source file system
+ - Skip checking/repairing source file system
