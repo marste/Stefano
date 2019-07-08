@@ -21,7 +21,7 @@ tags:
 ---
 Local PC:
 	
-	wmic wmic OS get OSArchitecture
+	wmic OS get OSArchitecture
 	
 Remote PC:   
 	
