@@ -1,5 +1,6 @@
 ---
-title: Windows installer Coordinator in loop infinito
+title: Windows installer Coordinator
+subtitle: Attendere. Preparazione dell'applicazione per il primo utilizzo
 date: 2019-07-09 10:30:00 +0200
 author: Stefano Marzorati
 layout: post
