@@ -27,7 +27,7 @@ Se mentre state installando un'applicazione su Terminal Server e vi appare una f
 
 e attendendo un tempo infinito la situazione non cambia, occorre fare la seguente modifica.   
 
-Aprire ***"local group policy editor"*** sul server (**gpedit.msc**) e modificare:   
+Aprire ***local group policy editor*** sul server (**gpedit.msc**) e modificare:   
 
 	Computer Configuration\Administrative Templates\Windows Components\Remote Desktop Services\Remote Desktop Session Host\Application Compatibility\
 
