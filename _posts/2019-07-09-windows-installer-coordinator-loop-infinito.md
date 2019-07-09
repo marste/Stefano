@@ -23,7 +23,7 @@ tags:
 ---
 Se mentre state installando un'applicazione su Terminal Server e vi appare una finestra con il messaggio:   
 
-**Windows installer Coordinator** - **(Attendere. Preparazione dell'applicazione per il primo utilizzo)** o in inglese **(Please wait while the application is preparing for the first use)   
+**Windows installer Coordinator** - **(Attendere. Preparazione dell'applicazione per il primo utilizzo)** o in inglese **(Please wait while the application is preparing for the first use)**   
 
 e attendendo un tempo infinito la situazione non cambia, occorre fare la seguente modifica.   
 
