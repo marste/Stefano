@@ -4,8 +4,8 @@ subtitle:
 date: 2019-07-09 12:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/html.png'
+share-img: 'https://marzorati.co/img/html.png'
 categories:
   - HTML
 tags:
