@@ -33,5 +33,4 @@ Aprire ***local group policy editor*** sul server (**gpedit.msc**) e modificare:
 
 **Turn off Windows Installer RDS Compatibility** e Settarlo a **Enabled**   
 
-<span style="background-color:black">Turn off Windows Installer RDS Compatibility</span>
 <span style="background-color:yellow">Turn off Windows Installer RDS Compatibility</span>  e Settarlo a **Enabled**   
