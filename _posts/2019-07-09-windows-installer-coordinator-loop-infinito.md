@@ -31,6 +31,4 @@ Aprire ***local group policy editor*** sul server (**gpedit.msc**) e modificare:
 
 	Computer Configuration\Administrative Templates\Windows Components\Remote Desktop Services\Remote Desktop Session Host\Application Compatibility\
 
-**Turn off Windows Installer RDS Compatibility** e Settarlo a **Enabled**   
-
 <span style="background-color:yellow">Turn off Windows Installer RDS Compatibility</span>  e Settarlo a **Enabled**   
