@@ -4,6 +4,8 @@ date: 2017-03-13 17:00:00 +0200
 author: Stefano Marzorati
 layout: post
 permalink: /nmap-ip-scanner/
+image: 'https://marzorati.co/img/terminal.png'
+share-img: 'https://marzorati.co/img/terminal.png'
 categories:
   - Windows
 tags:
@@ -13,6 +15,9 @@ tags:
   - port
   - packet
   - scan
+  - commandline
+  - search
+  - ricerca
 ---
 Ecco alcuni **comandi utili**.   
 
