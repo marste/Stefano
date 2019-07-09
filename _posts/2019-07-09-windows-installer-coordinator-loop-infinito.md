@@ -27,8 +27,11 @@ Se mentre state installando un'applicazione su Terminal Server e vi appare una f
 
 e attendendo un tempo infinito la situazione non cambia, occorre fare la seguente modifica.   
 
-Aprire ***local group policy editor*** sul server (**gpedit.msc**) e <tt>modificare</tt>:   
+Aprire ***local group policy editor*** sul server (**gpedit.msc**) e modificare:   
 
 	Computer Configuration\Administrative Templates\Windows Components\Remote Desktop Services\Remote Desktop Session Host\Application Compatibility\
 
 **Turn off Windows Installer RDS Compatibility** e Settarlo a **Enabled**   
+
+<span style="background-color:colore_testo">Turn off Windows Installer RDS Compatibility</span>
+<span style="background-color:yellow">Turn off Windows Installer RDS Compatibility</span>  e Settarlo a **Enabled**   
