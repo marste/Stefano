@@ -1,10 +1,11 @@
 ---
 title: Liberare spazio pulendo la cartella WinSXS
+subtitle: Da Windows Server 2012 R2 in poi
 date: 2018-06-14 10:47:00 +0200
 published: true
 layout: post
-image: 'https://winaero.com/blog/wp-content/uploads/2015/09/Windows-10-logo-icon-22.png'
-share-img: 'https://winaero.com/blog/wp-content/uploads/2015/09/Windows-10-logo-icon-22.png'
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
 categories:
   - Windows
 tags:
@@ -15,6 +16,8 @@ tags:
   - spazio
   - liberare
   - pulire
+  - server
+  - 2012 R2
 ---
 Premi i tasti **Win+R** e scrivi: **taskschd.msc** per aprire **Task Scheduler**   
 Vai in questo percorso:   
