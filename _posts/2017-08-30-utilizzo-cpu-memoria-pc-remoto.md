@@ -14,6 +14,7 @@ tags:
   - remote
   - commandline
   - wmic
+  - pslist
 ---
 Per visualizzare la <span style="background-color:yellow">percentuale di processore</span> utilizzata di un PC remoto, digita:   
 
