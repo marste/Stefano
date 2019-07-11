@@ -25,7 +25,7 @@ oppure potete digitare:
 
 oppure, se volete monitorare un singolo processo (PID)   
 
-	pslist \\nome_pc PID -s
+	pslist \\nome_pc <pid> -s
 
 Per visualizzare la percentuale di memoria utilizzata di un PC remoto, digita:   
 
