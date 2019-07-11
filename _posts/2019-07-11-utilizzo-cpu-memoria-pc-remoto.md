@@ -1,6 +1,6 @@
 ---
 title: Utilizzo della CPU e della Memoria di un PC remoto
-date: 2017-08-30 09:00:00 +0200
+date: 2019-07-11 09:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/terminal.png'
 share-img: 'https://marzorati.co/img/terminal.png'
