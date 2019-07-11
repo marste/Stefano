@@ -2,6 +2,8 @@
 title: Utilizzo della CPU e della Memoria di un PC remoto
 date: 2017-08-30 09:00:00 +0200
 author: Stefano Marzorati
+image: 'https://marzorati.co/img/terminal.png'
+share-img: 'https://marzorati.co/img/terminal.png'
 layout: post
 categories:
   - Windows
@@ -14,10 +16,12 @@ tags:
   - wmic
 ---
 Per visualizzare la percentuale di processore utilizzata di un PC remoto, digita:   
-<code>wmic /node:NOME_PC cpu get loadpercentage</code>   
+
+	psexec \\nome_pc wmic cpu get loadpercentage   
 
 Per visualizzare la percentuale di memoria utilizzata di un PC remoto, digita:   
-<code>wmic /node:NOME_PC OS get FreePhysicalMemory</code>   
+
+	psexec \\nome_pc wmic OS get FreePhysicalMemory
 
 Il valore ottenuto sarà espresso in **Kilobyte**, per cui basterà dividerlo per **1.048.576** per ottenere il valore in **Gigabyte**   
 
