@@ -15,7 +15,7 @@ tags:
   - commandline
   - wmic
 ---
-Per visualizzare la percentuale di processore utilizzata di un PC remoto, digita:   
+Per visualizzare la <span style="background-color:yellow">percentuale di processore</span> utilizzata di un PC remoto, digita:   
 
 	psexec \\nome_pc wmic cpu get loadpercentage   
 	
@@ -27,7 +27,7 @@ oppure, se volete monitorare un singolo processo (PID)
 
 	pslist \\nome_pc <pid> -s
 
-Per visualizzare la percentuale di memoria utilizzata di un PC remoto, digita:   
+Per visualizzare la <span style="background-color:yellow">percentuale di memoria utilizzata</span> di un PC remoto, digita:   
 
 	psexec \\nome_pc wmic OS get FreePhysicalMemory
 
