@@ -28,7 +28,7 @@ oppure, se volete monitorare un singolo processo (PID)
 
 	pslist \\nome_pc <pid> -s
 
-Per visualizzare la <span style="background-color:yellow">percentuale di memoria utilizzata</span> di un PC remoto, digita:   
+Per visualizzare la <span style="background-color:yellow">percentuale di memoria</span> libera di un PC remoto, digita:   
 
 	psexec \\nome_pc wmic OS get FreePhysicalMemory
 
