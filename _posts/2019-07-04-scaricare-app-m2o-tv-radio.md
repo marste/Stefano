@@ -16,6 +16,9 @@ tags:
   - view
   - indirizzo
   - radio
+  - canale
+  - digitale
+  - terrestre
 ---
 Potete aprire **M2O TV** per vedere i video musicali trasmessi con la vostra app streaming preferita *(<a href="https://play.google.com/store/apps/details?id=is.xyz.mpv" target="_blank">MPV</a>, <a href="https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad" target="_blank">MX Player</a>, <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc" target="_blank">VLC</a>)* inserendo questo indirizzo:   
 
