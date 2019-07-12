@@ -2,8 +2,8 @@
 title: 'Windows 10 download gratis dal sito ufficiale Microsoft'
 date: 2019-03-28 11:00:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/microsoft.png'
-share-img: 'https://marzorati.co/img/microsoft.png'
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
 layout: post
 categories:
   - Windows
