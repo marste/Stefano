@@ -2,8 +2,8 @@
 title: Error when checking for updates using Dell Command Update
 date: 2017-05-08 14:00:00 +0200
 author: Stefano Marzorati
-image: 'https://www.vouchercodes.co.uk/static/v10/images/merchant/logo/128px/278_170913182442.png'
-share-img: 'https://www.vouchercodes.co.uk/static/v10/images/merchant/logo/128px/278_170913182442.png'
+image: 'https://marzorati.co/img/dell.png'
+share-img: 'https://marzorati.co/img/dell.png'
 layout: post
 permalink: /error-when-checking-updates-using-dell-command-update/
 categories:
