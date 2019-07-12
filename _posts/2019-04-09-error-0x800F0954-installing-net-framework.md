@@ -41,7 +41,7 @@ Siccome il problema è causato da una difficoltà nel reperire i files dalla ret
 1. Riavviare il PC e loggarsi con un utente locale assicurandosi che non passi attraverso il server WSUS
 2. <u>Risolutiva:</u> Digitare <code>regedit.exe</code> e andare nella seguente chiave di registro:   
 
-	HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+<code>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU</code>
 
 Modificare la chiave <code>UseWUServer</code> a <code>0</code>   
 Riavviare il PC e poi riprovare   
