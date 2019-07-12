@@ -3,6 +3,8 @@ title: Check Spam Score di una email
 subtitle: Se avete dubbi su una email, usate questo servizio
 date: 2017-08-28 16:00:00 +0200
 author: Stefano Marzorati
+image: 'https://marzorati.co/img/email.png'
+share-img: 'https://marzorati.co/img/email.png'
 layout: post
 categories:
   - Windows
