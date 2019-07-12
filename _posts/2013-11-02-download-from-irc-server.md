@@ -4,6 +4,8 @@ author: Stefano Marzorati
 date: 2018-12-28 23:00:00 -07:00
 layout: post
 permalink: /download-from-irc-server/
+image: 'https://marzorati.co/img/irc.png'
+share-img: 'https://marzorati.co/img/irc.png'
 categories:
   - Download
 tags:

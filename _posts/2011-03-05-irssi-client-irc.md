@@ -1,24 +1,10 @@
 ---
-id: 22
 title: 'IRSSI &#8211; Client IRC'
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/2011/03/05/irssi-client-irc
+image: 'https://marzorati.co/img/irc.png'
+share-img: 'https://marzorati.co/img/irc.png'
 permalink: /irssi-client-irc/
-blogger_blog:
-  - ubbunti.blogspot.com
-  - ubbunti.blogspot.com
-  - ubbunti.blogspot.com
-blogger_author:
-  - m@il_of_d@y
-  - m@il_of_d@y
-  - m@il_of_d@y
-blogger_e466c7156e8bac77e64f63e8bad92c92_permalink:
-  - 753029143388612196
-  - 753029143388612196
-  - 753029143388612196
-dsq_thread_id:
-  - 1913634399
 categories:
   - Linux
   - Windows
