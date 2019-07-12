@@ -4,6 +4,8 @@ date: 2016-05-20 09:00:00 +0200
 author: Stefano Marzorati
 layout: post
 permalink: /configurazione-datalogic-falcon-x3/
+image: 'https://marzorati.co/img/datalogic.png'
+share-img: 'https://marzorati.co/img/datalogic.png'
 categories:
   - Hardware
 tags:

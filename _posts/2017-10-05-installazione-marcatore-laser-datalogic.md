@@ -3,8 +3,8 @@ layout: post
 title: Installazione marcatore laser Datalogic
 author: Stefano Marzorati
 published: true
-share-img: 'https://d2ujflorbtfzji.cloudfront.net/key-image/d984841c-47d4-4fed-a03f-fdfd44aa2e00.png'
-image: 'https://d2ujflorbtfzji.cloudfront.net/key-image/d984841c-47d4-4fed-a03f-fdfd44aa2e00.png'
+image: 'https://marzorati.co/img/datalogic.png'
+share-img: 'https://marzorati.co/img/datalogic.png'
 categories:
   - svago
 tags:
