@@ -4,6 +4,8 @@ date: 2017-08-07 21:50:00 +0200
 author: Stefano Marzorati
 layout: post
 published: true
+image: 'https://marzorati.co/img/ricette.png'
+share-img: 'https://marzorati.co/img/ricette.png'
 permalink: /lista-coloranti-alimentari/
 categories:
   - Alimentazione
