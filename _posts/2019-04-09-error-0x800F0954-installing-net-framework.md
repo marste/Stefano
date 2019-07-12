@@ -3,8 +3,8 @@ title: Error 0x800F0954 installing .NET Framework 3.5
 date: 2019-07-12 14:10:00 +0200
 published: true
 layout: post
-image: 'https://marzorati.co/img/microsoft.png'
-share-img: 'https://marzorati.co/img/microsoft.png'
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
 categories:
   - Windows
 tags:
