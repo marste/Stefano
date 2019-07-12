@@ -9,7 +9,7 @@ categories:
   - Windows
 tags:
   - errore
-  - 0x800F0954
+  - '0x800F0954'
   - windows
   - .net
   - framework
