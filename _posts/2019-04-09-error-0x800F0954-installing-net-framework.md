@@ -16,6 +16,8 @@ tags:
   - immagine
   - ISO
   - dism
+  - 800F0954
+  - regedit
 ---
 Se state cercando di abilitare .NET Framework 3.5 e cliccando OK vi compare questo errore:   
 
