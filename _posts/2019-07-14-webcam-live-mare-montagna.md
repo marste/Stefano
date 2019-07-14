@@ -18,17 +18,17 @@ tags:
   - chamois
   - aosta
 ---
-Bogliasco (Genova)
+**Bogliasco** (Genova)   
 <center>
 <img alt="Bogliasco" src="http://www.prolocobogliasco.it/webcam/current_hd.jpg">
 </center>
 
-Chamois (Aosta) - 1800 metri
+**Chamois** (Aosta) - 1800 metri   
 <center>
 <img alt="Bogliasco" src="http://www.comune.chamois.ao.it/wcam/webcam_images/chamois.jpg">
 </center>
 
-Macugnaga - Lago delle Fate (Verbano-Cusio-Ossola)
+**Macugnaga - Lago delle Fate** (Verbano-Cusio-Ossola)   
 <center>
 <img alt="Bogliasco" src="http://www.macugnaga-monterosa.it/images/webcams/lago-delle-fate.jpg/1024x768.jpg">
 </center>
