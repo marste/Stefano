@@ -23,7 +23,7 @@ tags:
 <img alt="Bogliasco" src="http://www.prolocobogliasco.it/webcam/current_hd.jpg">
 </center>
 
-**Chamois** (Aosta) - 1800 metri   
+<strong>Chamois</strong> (Aosta) - 1800 metri   
 <center>
 <img alt="Bogliasco" src="http://www.comune.chamois.ao.it/wcam/webcam_images/chamois.jpg">
 </center>
