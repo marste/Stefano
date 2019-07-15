@@ -3,6 +3,8 @@ title: I gradi di protezione degli involucri per apparecchiature elettriche IP44
 date: 2017-02-24 17:15:00 +0200
 author: Stefano Marzorati
 published: true
+image: 'https://marzorati.co/img/ip67.jpeg'
+share-img: 'https://marzorati.co/img/ip67.jpeg'
 layout: post
 permalink: /gradi-protezione-involucri-apparecchiature-elettriche-ip44-ip65-ip67/
 categories:
