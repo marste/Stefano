@@ -18,7 +18,7 @@ tags:
   - chamois
   - aosta
 ---
-**<center>Bogliasco (Genova)</center>**   
+<center>**BOGLIASCO** (Genova)</center>   
 <center>
 <img alt="Bogliasco" src="http://www.prolocobogliasco.it/webcam/current_hd.jpg">
 </center>
