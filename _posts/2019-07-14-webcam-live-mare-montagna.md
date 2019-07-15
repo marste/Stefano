@@ -17,6 +17,8 @@ tags:
   - macugnaga
   - chamois
   - aosta
+  - varese
+  - campo dei fiori
 ---
 <center><strong>BOGLIASCO</strong> (Genova)</center>   
 <center>
@@ -31,5 +33,10 @@ tags:
 <center><strong>MACUGNAGA</strong> - Lago delle Fate (Verbano-Cusio-Ossola)</center>   
 <center>
 <img alt="Bogliasco" src="http://www.macugnaga-monterosa.it/images/webcams/lago-delle-fate.jpg/1024x768.jpg">
+</center>
+<p></p>
+<center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
+<center>
+<img alt="Varese" src="https://www.astrogeo.va.it/casciago/cdf1_hi.jpg">
 </center>
 <p></p>
