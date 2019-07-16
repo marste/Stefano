@@ -17,6 +17,8 @@ tags:
 ---
 Per visualizzare le seguenti informazioni legate ad un account di dominio Windows utilizzata il comando sottostante:   
 
+	NET USER m.rossi /DOMAIN
+
  - Nome utente
  - Nome completo
  - Account attivo
@@ -30,5 +32,3 @@ Per visualizzare le seguenti informazioni legate ad un account di dominio Window
  - Ore di accesso consentito
  - Appartenenze al gruppo locale
  - Appartenenze al gruppo globale
-
-	NET USER m.rossi /DOMAIN   
