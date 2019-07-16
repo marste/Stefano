@@ -36,3 +36,7 @@ Per visualizzare le seguenti informazioni legate ad un account di dominio Window
 Se vuoi solo sapere quando scadrà la password di un utente, basta digitare:   
 
 	NET USER m.rossi /DOMAIN | FIND /I "Scadenza password"
+
+Se volete cambiare la password ad un utente, basta digitare:   
+
+	NET USER m.rossi newpassword /DOMAIN
