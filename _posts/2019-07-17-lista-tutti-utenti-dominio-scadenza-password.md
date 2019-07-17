@@ -25,7 +25,6 @@ Una volta installato lanciate da **PowerShell** questo comando:
 
 Una volta che avete importato i moduli di ActiveDirectory, potete lanciare questo comando:   
 
-	Get-ADUser -filter {Enabled -eq $True -and PasswordNeverExpires -eq $False} –Properties "DisplayName", "msDS-UserPasswordExpiryTimeComputed" |
-	Select-Object -Property "Displayname",@{Name="ExpiryDate";Expression={[datetime]::FromFileTime($_."msDS-UserPasswordExpiryTimeComputed")}} > c:\Temp\Lista.txt
+	Get-ADUser -filter {Enabled -eq $True -and PasswordNeverExpires -eq $False} –Properties "DisplayName", "msDS-UserPasswordExpiryTimeComputed" | Select-Object -Property "Displayname",@{Name="ExpiryDate";Expression={[datetime]::FromFileTime($_."msDS-UserPasswordExpiryTimeComputed")}} > c:\Temp\Lista.txt
 
 Questa query salverà nel file **Lista.txt** la lista di tutti gli utenti di dominio e la loro scadenza della password.
