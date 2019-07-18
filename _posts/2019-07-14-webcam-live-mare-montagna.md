@@ -28,6 +28,7 @@ tags:
   - ossola
   - varigotti
   - savona
+  - varazze
 ---
 <center><strong>BOGLIASCO</strong> (Genova) - Riviera di Levante</center>   
 <center>
@@ -37,6 +38,11 @@ tags:
 <center><strong>VARIGOTTI</strong> - Loc. Donio (Savona) - Riviera di Ponente</center>   
 <center>
 <img alt="Omegna" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
+</center>
+<p></p>
+<center><strong>VARAZZE</strong> (Savona) - Riviera di Ponente</center>   
+<center>
+<img alt="Omegna" src="http://www.varazzewebcam.it/snapshot.jpg">
 </center>
 <p></p>
 <center><strong>CHAMOIS</strong> (Aosta) - 1800 metri</center>   
