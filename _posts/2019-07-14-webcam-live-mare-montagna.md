@@ -26,6 +26,8 @@ tags:
   - verbano
   - cusio
   - ossola
+  - varigotti
+  - savona
 ---
 <center><strong>BOGLIASCO</strong> (Genova)</center>   
 <center>
@@ -50,5 +52,10 @@ tags:
 <center><strong>OMEGNA</strong> - Lago d'Orta (Verbano-Cusio-Ossola)</center>   
 <center>
 <img alt="Omegna" src="http://webcam.neveazzurra.it/orta.jpg">
+</center>
+<p></p>
+<center><strong>VARIGOTTI</strong> - Loc. Donio (Savona)</center>   
+<center>
+<img alt="Omegna" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
 </center>
 <p></p>
