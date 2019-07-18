@@ -1,6 +1,6 @@
 ---
 title: 'Webcam Live'
-subtitle: Mare e Montagna
+subtitle: Mare, montagna e lago
 date: 2019-07-14 07:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/webcam.png'
@@ -19,6 +19,13 @@ tags:
   - aosta
   - varese
   - campo dei fiori
+  - piemonte
+  - omegna
+  - orta
+  - lago
+  - verbano
+  - cusio
+  - ossola
 ---
 <center><strong>BOGLIASCO</strong> (Genova)</center>   
 <center>
@@ -38,5 +45,10 @@ tags:
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
 <img alt="Varese" src="https://www.astrogeo.va.it/casciago/cdf1_hi.jpg">
+</center>
+<p></p>
+<center><strong>OMEGNA</strong> - Lago d'Orta (Verbano-Cusio-Ossola)</center>   
+<center>
+<img alt="Omegna" src="http://webcam.neveazzurra.it/orta.jpg">
 </center>
 <p></p>
