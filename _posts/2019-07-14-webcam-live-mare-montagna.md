@@ -29,9 +29,14 @@ tags:
   - varigotti
   - savona
 ---
-<center><strong>BOGLIASCO</strong> (Genova)</center>   
+<center><strong>BOGLIASCO</strong> (Genova) - Riviera di Levante</center>   
 <center>
 <img alt="Bogliasco" src="http://www.prolocobogliasco.it/webcam/current_hd.jpg">
+</center>
+<p></p>
+<center><strong>VARIGOTTI</strong> - Loc. Donio (Savona) - Riviera di Ponente</center>   
+<center>
+<img alt="Omegna" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
 </center>
 <p></p>
 <center><strong>CHAMOIS</strong> (Aosta) - 1800 metri</center>   
@@ -52,10 +57,5 @@ tags:
 <center><strong>OMEGNA</strong> - Lago d'Orta (Verbano-Cusio-Ossola)</center>   
 <center>
 <img alt="Omegna" src="http://webcam.neveazzurra.it/orta.jpg">
-</center>
-<p></p>
-<center><strong>VARIGOTTI</strong> - Loc. Donio (Savona)</center>   
-<center>
-<img alt="Omegna" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
 </center>
 <p></p>
