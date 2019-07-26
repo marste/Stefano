@@ -29,6 +29,7 @@ tags:
   - varigotti
   - savona
   - varazze
+  - gatteo
 ---
 <center><strong>BOGLIASCO</strong> (Genova) - Riviera di Levante</center>   
 <center>
@@ -63,5 +64,10 @@ tags:
 <center><strong>OMEGNA</strong> - Lago d'Orta (Verbano-Cusio-Ossola)</center>   
 <center>
 <img alt="Omegna" src="http://webcam.neveazzurra.it/orta.jpg">
+</center>
+<p></p>
+<center><strong>GATTEO A MARE</strong> (Forlì-Cesena)</center>   
+<center>
+<img alt="Gatteo Mare" src="http://31.3.189.179:8081/cgi-bin/faststream.jpg?stream=full&fps=2&rand=685120">
 </center>
 <p></p>
