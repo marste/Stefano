@@ -19,7 +19,7 @@ tags:
   - terra
   - mandown
 ---
-Per configurare il dispositivo TWIG Embody TUP91EU avete bisogno del software **TWIG_Configurator**.   
+Per configurare il dispositivo TWIG Embody TUP91EU avete bisogno del software **TWIG Configurator**.   
 
 <center><a href="https://www.twigcom.com/it_IT/shop/product/swc-twig-configurator-4795" target="_blank">
 <img alt="TWIG Configurator" src="https://live.staticflickr.com/65535/48378521871_a3dc723a95_o.png">
@@ -33,7 +33,7 @@ Dopo varie prove ho trovato questa configurazione funzionale:
 <img alt="TWIG_Embody_1" src="https://live.staticflickr.com/65535/48378476526_3de90a9520_o.png">
 </center>
 <center>
-<img alt="TWIG_Embody_2" src="https://live.staticflickr.com/65535/48378476481_8d11b8a322_o.png">
+<img alt="TWIG_Embody_2" src="https://live.staticflickr.com/65535/48378693302_469f90cd48_o.png">
 </center>
 <center>
 <img alt="TWIG_Embody_3" src="https://live.staticflickr.com/65535/48378620722_874126cc8c_o.png">
