@@ -1,0 +1,43 @@
+---
+title: 'Come configurare TWIG Embody'
+subtitle: Uomo a terra - configurazione di esempio - template
+date: 2019-07-26 08:00:00 +0200
+author: Stefano Marzorati
+image: 'https://marzorati.co/img/industria.png'
+share-img: 'https://marzorati.co/img/industria.png'
+layout: post
+categories:
+  - sicurezza
+tags:
+  - twig
+  - embody
+  - configuration
+  - template
+  - configurazione
+  - esempio
+  - uomo
+  - terra
+  - mandown
+---
+Per configurare il dispositivo TWIG Embody TUP91EU avete bisogno del software **TWIG_Configurator**.   
+
+<center><a href="https://www.twigcom.com/it_IT/shop/product/swc-twig-configurator-4795" target="_blank">
+<img alt="TWIG Configurator" src="https://live.staticflickr.com/65535/48378521871_a3dc723a95_o.png">
+</a></center>
+
+Una volta scaricato e avviato il programma, basta collegare il dispositivo via USB al PC e potrete vedere svariati parametri.   
+
+Dopo varie prove ho trovato questa configurazione funzionale:      
+
+<center>
+<img alt="TWIG_Embody_1" src="https://live.staticflickr.com/65535/48378476526_3de90a9520_o.png">
+</center>
+<center>
+<img alt="TWIG_Embody_2" src="https://live.staticflickr.com/65535/48378476481_8d11b8a322_o.png">
+</center>
+<center>
+<img alt="TWIG_Embody_3" src="https://live.staticflickr.com/65535/48378620722_874126cc8c_o.png">
+</center>
+
+
+
