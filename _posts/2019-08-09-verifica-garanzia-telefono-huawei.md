@@ -13,6 +13,8 @@ tags:
   - huawei
   - smartphone
   - warranty
+  - IMEI
+  - S/N
 ---
 Digitate <code>*#06#</code> nell'applicazione di chiamata per ottenere il codice **IMEI** e **S/N**   
 
