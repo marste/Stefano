@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Ricerche più frequenti su Google Italia
 permalink: /google/
 image: 'https://marzorati.co/img/google.png'
