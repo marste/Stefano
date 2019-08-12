@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ricerche più frequenti su Google Italia
-permalink: /google-trend/
+permalink: /google/
 image: 'https://marzorati.co/img/google.png'
 share-img: 'https://marzorati.co/img/google.png'
 ---
