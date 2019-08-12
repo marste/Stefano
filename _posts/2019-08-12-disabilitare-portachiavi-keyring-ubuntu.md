@@ -7,7 +7,7 @@ image: 'https://marzorati.co/img/linux.png'
 subtitle: 'Basta con i noiosi popup di richiesta password'
 share-img: 'https://marzorati.co/img/linux.png'
 bigimg:
-  - "https://www.tomshw.it/images/images/2019/05/ubuntu-copertina-31588.1200x675.jpg" : "Ubuntu"
+  - 'https://www.tomshw.it/images/images/2019/05/ubuntu-copertina-31588.1200x675.jpg'
 categories:
   - Linux
 tags:
