@@ -5,6 +5,8 @@ author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
+bigimg:
+  - "https://marzorati.co/img/P_Music.jpg"
 permalink: /streaming-radio-list/
 categories:
   - Music
