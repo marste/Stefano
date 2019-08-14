@@ -15,6 +15,8 @@ baseurl: ""
 tipue_search:
   include:
     pages: true
+  exclude:
+    files: [tags.html]
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
@@ -33,12 +35,16 @@ navbar-links:
   Links:
     - Home: "https://stefano.marzorati.co"
     - Il Sole 24 ORE: "https://www.ilsole24ore.com/radiocor"
+    - Indici Borse Mondiali: "https://it.investing.com/indices/major-indices"
     - Playlist Radio: "streaming-radio-list"
     - Webcam Live: "webcam-live-mare-montagna"	
     - C'era una volta un re: "http://www.ceraunavoltaunre.it"
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/me.jpeg"
+
+# --- Background colour/image options --- #
+
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -70,7 +76,7 @@ author:
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: truee
+  rss: true
   facebook: false
   email: true
   twitter: true
@@ -219,7 +225,7 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 

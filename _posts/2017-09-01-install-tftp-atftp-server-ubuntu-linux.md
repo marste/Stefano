@@ -7,6 +7,7 @@ image: 'https://marzorati.co/img/linux.png'
 share-img: 'https://marzorati.co/img/linux.png'
 bigimg:
   - "https://i.stack.imgur.com/tjSgV.jpg" : "Server TFTP on Ubuntu"
+  - "https://images.techhive.com/images/article/2015/12/mint-100632308-large.jpg"
 categories:
   - Linux
 tags:
