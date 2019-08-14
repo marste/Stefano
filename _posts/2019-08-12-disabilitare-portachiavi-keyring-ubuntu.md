@@ -1,5 +1,5 @@
 ---
-title: Disabilitare il Portachivi su Ubuntu
+title: Disabilitare il Portachiavi su Ubuntu
 date: 2019-08-12 14:00:00 +0200
 author: Stefano Marzorati
 layout: post
