@@ -7,7 +7,7 @@ layout: post
 image: 'https://marzorati.co/img/linux.png'
 share-img: 'https://marzorati.co/img/linux.png'
 bigimg:
-  - "https://i.cbc.ca/1.4833630.1537555507!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/global-internet-abstract.jpg" : "Ubuntu"
+  - "https://purelifi.com/wp-content/uploads/2019/02/AdobeStock_118793641-1320x740.jpeg" : "Ubuntu"
 categories:
   - Linux
 tags:
