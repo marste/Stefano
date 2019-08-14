@@ -71,7 +71,7 @@ author:
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: truee
+  rss: true
   facebook: false
   email: true
   twitter: true
@@ -155,7 +155,7 @@ defaults:
       show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: false
+link-tags: true
 
 # Exclude these files from production site
 exclude:
