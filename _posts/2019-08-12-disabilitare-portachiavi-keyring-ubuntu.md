@@ -1,11 +1,13 @@
 ---
 title: Disabilitare il Portachiavi su Ubuntu
+subtitle: 'Basta con i noiosi popup di richiesta password'
 date: 2019-08-12 14:00:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/linux.png'
-subtitle: 'Basta con i noiosi popup di richiesta password'
 share-img: 'https://marzorati.co/img/linux.png'
+bigimg:
+  - "https://www.wordsmart.it/wp-content/uploads/2019/03/come-installare-Ubuntu.jpg" : "Ubuntu"
 categories:
   - Linux
 tags:
