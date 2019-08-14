@@ -22,8 +22,6 @@ tags:
 ---
 <a href="https://streamingp.shoutcast.com/TomorrowlandOneWorldRadio" target="_blank">One World Radio - Tomorrowland (Bitrate: 192kbit/s)</a>   
 
-<a href="https://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/index_96_a-b.m3u8" target="_blank">M2O - Deejay Station (Bitrate: 96kbit/s)</a>   
-
 <a href="http://s5.onweb.gr:8488/;" target="_blank">Cavo Paradiso (Bitrate: 128kbit/s)</a>   
 
 <a href="https://icy.unitedradio.it/RMC.mp3" target="_blank">RMC 2 (Bitrate: 160kbit/s)</a>   
@@ -31,8 +29,6 @@ tags:
 <a href="http://stream.intenseradio.net:8000/live" target="_blank">Intense Radio (Bitrate: 192kbit/s)</a>   
    
 <a href="http://87.98.129.202/magicradioHD.mp3" target="_blank">MagicRadio by PulsRadio 80 (Bitrate: 192kbit/s)</a>   
-   
-<a href="http://streaming.radionomy.com/WJFM-FM929" target="_blank">Plasm (Bitrate: 128kbit/s)</a>   
    
 <a href="http://91.121.104.139:8100/;/;7513909505342709stream.nsv" target="_blank">Radio Planet FM (Bitrate: 128kbit/s)</a>   
    
