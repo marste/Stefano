@@ -4,6 +4,8 @@ title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
+bigimg:
+  - 'https://www.4stars.it/blog/wp-content/uploads/2017/05/cv-europeo-BLOG.jpeg'
 ---
 [05/2015 – Attuale]
 
