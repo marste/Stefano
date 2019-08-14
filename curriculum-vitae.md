@@ -4,8 +4,6 @@ title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
-bigimg:
-  - 'https://marzorati.co/img/cv.jpeg'
 ---
 [05/2015 – Attuale]
 
