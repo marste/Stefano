@@ -7,7 +7,7 @@ layout: post
 image: 'https://marzorati.co/img/linux.png'
 share-img: 'https://marzorati.co/img/linux.png'
 bigimg:
-  - "https://www.wordsmart.it/wp-content/uploads/2019/03/come-installare-Ubuntu.jpg" : "Ubuntu"
+  - "https://i.cbc.ca/1.4833630.1537555507!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/global-internet-abstract.jpg" : "Ubuntu"
 categories:
   - Linux
 tags:
