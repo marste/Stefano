@@ -21,4 +21,4 @@ tags:
 - Andare nelle **Proprietà** del gruppo in Active Directory
 - Andare in **Editor Attributi**
 - Impostare l'attributo **msExchHideFromAddressLists** del gruppo di protezione su **True**
-- Sincronizzare, eventualmente, con il tennant di Office365.
+- Sincronizzare, eventualmente, con il tenant di Office365.
