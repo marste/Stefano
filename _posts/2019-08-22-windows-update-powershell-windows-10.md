@@ -15,15 +15,16 @@ tags:
   - update
   - windowsupdate
 ---
+1)
 	Esegui PowerShell *come Administrator*   
-
+2)
 	Install-Module PSWindowsUpdate
-
+3)
 	Set-ExecutionPolicy RemoteSigned
-
+4)
 	Import-Module PSWindowsUpdate
-
+5)
 	Get-WUList –MicrosoftUpdate
-
+6)
 	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose
 	
