@@ -9,20 +9,20 @@ share-img: 'https://marzorati.co/img/powershell.png'
 categories:
   - Windows
 tags:
-  - disable
-  - keyring
-  - portachiavi
-  - ubuntu
-  - seahorse
+  - windowsupdate
+  - wuinstall
+  - powershell
+  - update
+  - windowsupdate
 ---
 - Esegui PowerShell *come Administrator*   
 
-- 	Install-Module PSWindowsUpdate
+- 	<code>Install-Module PSWindowsUpdate</code>
 
-- 	Set-ExecutionPolicy RemoteSigned
+- 	<code>Set-ExecutionPolicy RemoteSigned</code>
 
-- 	Import-Module PSWindowsUpdate
+- 	<code>Import-Module PSWindowsUpdate</code>
 
-- 	Get-WUList –MicrosoftUpdate
+- 	<code>Get-WUList –MicrosoftUpdate</code>
 
-- 	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot
+- 	<code>Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot</code>
