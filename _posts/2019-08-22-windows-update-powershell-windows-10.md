@@ -15,11 +15,30 @@ tags:
   - update
   - windowsupdate
 ---
-<mark>Esegui PowerShell *come Administrator*</mark>
-Install-Module PSWindowsUpdate
-<mark>Set-ExecutionPolicy RemoteSigned</mark>
-Import-Module PSWindowsUpdate
-Get-WUList –MicrosoftUpdate
-Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose
-Get-WindowsUpdate -MicrosoftUpdate -KBArticleID KB4503308 -Verbose
-Help Get-WUInstall -full
+Esegui PowerShell *come Administrator*
+
+	Install-Module PSWindowsUpdate
+
+Poi
+
+	Set-ExecutionPolicy RemoteSigned
+
+Poi
+
+	Import-Module PSWindowsUpdate
+
+Poi
+
+	Get-WUList –MicrosoftUpdate
+
+Poi
+
+	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose
+
+Poi
+
+	Get-WindowsUpdate -MicrosoftUpdate -KBArticleID KB4503308 -Verbose
+
+Esempio
+
+	Help Get-WUInstall -full
