@@ -15,19 +15,15 @@ tags:
   - ubuntu
   - seahorse
 ---
-1) Esegui PowerShell *come amministratore*   
+- Esegui PowerShell *come Administrator*   
 
-2) Digita:
+- 	Install-Module PSWindowsUpdate
 
-	Install-Module PSWindowsUpdate
+- 	Set-ExecutionPolicy RemoteSigned
 
-3) Digita:
+- 	Import-Module PSWindowsUpdate
 
-	Get-WindowsUpdate
-
-4) Digita:
-
-	Install-WindowsUpdate
+- 	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot
 
 
 	
