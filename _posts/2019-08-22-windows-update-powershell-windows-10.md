@@ -25,5 +25,5 @@ tags:
 
 	Get-WUList –MicrosoftUpdate
 
-	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot
+	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose
 	
