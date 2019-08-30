@@ -15,9 +15,9 @@ tags:
   - update
   - windowsupdate
 ---
-<highlight>Esegui PowerShell *come Administrator*</highlight>
+<mark>Esegui PowerShell *come Administrator*</mark>
 Install-Module PSWindowsUpdate
-Set-ExecutionPolicy RemoteSigned
+<mark>Set-ExecutionPolicy RemoteSigned</mark>
 Import-Module PSWindowsUpdate
 Get-WUList –MicrosoftUpdate
 Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose
