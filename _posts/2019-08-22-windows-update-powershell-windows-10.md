@@ -23,7 +23,6 @@ tags:
 
 - 	Import-Module PSWindowsUpdate
 
+- 	Get-WUList –MicrosoftUpdate
+
 - 	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot
-
-
-	
