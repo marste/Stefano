@@ -36,3 +36,7 @@ tags:
 7)
 
 	Get-WindowsUpdate -MicrosoftUpdate -KBArticleID KB4503308 -Verbose
+	
+Lista Esempi:
+
+	Help Get-WUInstall -full
