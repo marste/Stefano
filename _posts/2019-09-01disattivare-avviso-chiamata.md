@@ -1,11 +1,10 @@
 ---
 title: Disattivare avviso di chiamata Vodafone
-author: Stefano Marzorati
 date: 2019-09-01 18:35:00 +0200
-layout: post
-published: true
+author: Stefano Marzorati
 image: 'https://marzorati.co/img/vodafone.jpeg'
 share-img: 'https://marzorati.co/img/vodafone.jpeg'
+layout: post
 categories:
   - Varie
 tags:
