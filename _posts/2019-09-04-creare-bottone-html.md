@@ -27,3 +27,19 @@ Esempio:
 			<button onclick="window.location.href = 'https://www.google.com';">Clicca qua</button>
 		</body>
 	</html>
+
+Esempio:   
+
+{% highlight html %}
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Titolo</title>
+   </head>
+   <body>
+      <button onclick="window.location.href = 'https://www.google.com';">Clicca qua</button>
+   </body>
+</html>
+
+{% endhighlight %}
