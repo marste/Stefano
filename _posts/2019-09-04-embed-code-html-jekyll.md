@@ -18,6 +18,6 @@ tags:
 ---
 Accertarsi che nel file <code>_config.yml</code> sia presente la riga <code>highlighter: rouge</code>
 
-Quando crei un nuovo post, basterà inserire il codice tra <code>{% highlight html %}</code> e <code>{% endhighlight %}</code> mettendo al posto di HTML il linguaggio inserito.   
+Quando crei un nuovo post, basterà inserire il codice tra <code>&#123;% highlight html %&#125;</code> e <code>&#123;% endhighlight %&#125;</code> mettendo al posto di HTML il linguaggio inserito.   
 
 I linguaggi previsti sono più di 185 e trovi la lista <a href="https://highlightjs.org/static/demo/" target="_blank">QUA</a>
