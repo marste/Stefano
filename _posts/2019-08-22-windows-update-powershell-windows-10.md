@@ -17,11 +17,9 @@ tags:
 ---
 Esegui PowerShell *come Administrator*
 
-	Install-Module PSWindowsUpdate
+{% highlight powershell %} Install-Module PSWindowsUpdate {% endhighlight %}
 
-Poi
-
-	Set-ExecutionPolicy RemoteSigned
+{% highlight powershell %} Set-ExecutionPolicy RemoteSigned {% endhighlight %}
 
 Poi
 
