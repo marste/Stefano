@@ -23,12 +23,12 @@ Esegui PowerShell *come Administrator*
 
 {% highlight powershell %} Import-Module PSWindowsUpdate {% endhighlight %}
 
-{% highlight powershell %}	Get-WUList –MicrosoftUpdate {% endhighlight %}
+{% highlight powershell %} Get-WUList –MicrosoftUpdate {% endhighlight %}
 
-{% highlight powershell %}	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose {% endhighlight %}
+{% highlight powershell %} Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose {% endhighlight %}
 
-{% highlight powershell %}	Get-WindowsUpdate -MicrosoftUpdate -KBArticleID KB4503308 -Verbose {% endhighlight %}
+{% highlight powershell %} Get-WindowsUpdate -MicrosoftUpdate -KBArticleID KB4503308 -Verbose {% endhighlight %}
 
 Esempio:   
 
-{% highlight powershell %}	Help Get-WUInstall -full {% endhighlight %}
+{% highlight powershell %} Help Get-WUInstall -full {% endhighlight %}
