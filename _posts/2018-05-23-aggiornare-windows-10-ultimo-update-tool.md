@@ -1,5 +1,6 @@
 ---
 title: Aggiornare Windows 10 con Update Assistant Tool
+subtitle: Aggiornare Windows 10 alla versione più recente
 date: 2019-03-29 10:47:00 +0200
 published: true
 layout: post
@@ -14,10 +15,10 @@ tags:
   - aggiornare
   - problemi
   - aggiornamenti
-  - 17134
+  - 1903
   - upgrade
   - assistant
   - tool
 ---
-Scarica questo tool:   
+Scarica questo tool Microsoft:   
 <a href="https://go.microsoft.com/fwlink/?LinkID=799445" target="_blank">Windows10Upgrade9252.exe</a>   
