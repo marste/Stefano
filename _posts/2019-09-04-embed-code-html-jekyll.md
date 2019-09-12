@@ -20,4 +20,4 @@ Accertarsi che nel file <code>_config.yml</code> sia presente la riga <code>high
 
 Quando crei un nuovo post, basterà inserire il codice tra <code>&#123;&#37; highlight html &#37;&#125;</code> e <code>&#123;&#37; endhighlight &#37;&#125;</code> mettendo al posto di HTML il linguaggio inserito.   
 
-I linguaggi previsti sono più di 185 e trovi la lista <a href="https://highlightjs.org/static/demo/" target="_blank">QUA</a>
+I linguaggi previsti sono più di 185 e trovi la lista <a href="https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers" target="_blank">QUA</a>

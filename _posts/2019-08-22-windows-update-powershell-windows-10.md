@@ -17,28 +17,18 @@ tags:
 ---
 Esegui PowerShell *come Administrator*
 
-	Install-Module PSWindowsUpdate
+{% highlight powershell %} Install-Module PSWindowsUpdate {% endhighlight %}
 
-Poi
+{% highlight powershell %} Set-ExecutionPolicy RemoteSigned {% endhighlight %}
 
-	Set-ExecutionPolicy RemoteSigned
+{% highlight powershell %} Import-Module PSWindowsUpdate {% endhighlight %}
 
-Poi
+{% highlight powershell %} Get-WUList –MicrosoftUpdate {% endhighlight %}
 
-	Import-Module PSWindowsUpdate
+{% highlight powershell %} Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose {% endhighlight %}
 
-Poi
+{% highlight powershell %} Get-WindowsUpdate -MicrosoftUpdate -KBArticleID KB4503308 -Verbose {% endhighlight %}
 
-	Get-WUList –MicrosoftUpdate
+Esempio:   
 
-Poi
-
-	Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose
-
-Poi
-
-	Get-WindowsUpdate -MicrosoftUpdate -KBArticleID KB4503308 -Verbose
-
-Esempio
-
-	Help Get-WUInstall -full
+{% highlight powershell %} Help Get-WUInstall -full {% endhighlight %}
