@@ -16,6 +16,15 @@ tags:
   - telefono
   - smartphone
 ---
-Ecco il link:   
+Per scoprire il numero IMEI di un qualsiasi telefono, digitare: <code>*#06#</code>
+
+Per scoprire il modello, ecco i links:   
+
+<a href="https://www.imei.info/" target="_blank">IMEI INFO</a>
+
+oppure   
 
 <a href="http://www.imeipro.info/" target="_blank">IMEI PRO</a>
+
+
+
