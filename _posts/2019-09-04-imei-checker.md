@@ -25,6 +25,3 @@ Per scoprire il modello, ecco i links:
 oppure   
 
 <a href="http://www.imeipro.info/" target="_blank">IMEI PRO</a>
-
-
-
