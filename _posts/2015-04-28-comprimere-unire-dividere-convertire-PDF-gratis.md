@@ -1,9 +1,11 @@
 ---
 title: Comprimere, unire, dividere e convertire PDF gratis
-date: 2015-04-28 15:26:00 -07:00
+date: 2015-04-28 15:26:00 +0200
 author: Stefano Marzorati
 layout: post
 permalink: /comprimere-unire-dividere-convertire-PDF-gratis/
+image: 'https://marzorati.co/img/acrobat.png'
+share-img: 'https://marzorati.co/img/acrobat.png'
 categories:
   - Software
 tags:
@@ -31,5 +33,6 @@ Ecco le operazioni che potrai fare:
   - Crea nuovi documenti dalle pagine selezionate
   - Sblocca i file protetti da password   
 
-[smallpdf.com](http://smallpdf.com/it)
+<a href="https://www.ilovepdf.com/it/comprimere_pdf" target="_blank">I Love PDF</a>   
 
+<a href="https://smallpdf.com/it" target="_blank">Small PDF</a>
