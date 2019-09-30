@@ -37,6 +37,10 @@ Se vuoi solo sapere quando scadrà la password di un utente, basta digitare:
 
 	NET USER m.rossi /DOMAIN | FIND /I "Scadenza password"
 
+Se vuoi solo sapere quando è stata cambiata la password di un utente l'ultima volta, basta digitare:   
+
+	NET USER m.rossi /DOMAIN | FIND /I "Ultima impostazione password"
+
 Se volete cambiare la password ad un utente, basta digitare:   
 
 	NET USER m.rossi newpassword /DOMAIN
