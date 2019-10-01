@@ -28,6 +28,6 @@ Si tratta di <a href="https://inkscape.org/" target="_blank">Inkscape</a>
 - Incorpora immagini
 - Precisione approssimazione delle mesh dei gradienti - Ottima
 
-1) Clicca sulla lente di ingrandimento   
-2) Dal menù, scegliere Testo - Testo e carattere   
-3) Modificare la scritta partendo dal fondo   
+1. Clicca sulla lente di ingrandimento   
+2. Dal menù, scegliere Testo - Testo e carattere   
+3. Modificare la scritta partendo dal fondo   
