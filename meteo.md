@@ -5,6 +5,6 @@ permalink: /meteo/
 image: 'https://marzorati.co/img/meteo.png'
 share-img: 'https://marzorati.co/img/meteo.png'
 ---
-<p align="center">
+<div style="text-align:center;">
 <iframe src="https://www.meteo.it/mymeteo/widget/public/it/widget_72h.shtml?i=15181&mt=1&r=3&f=Tahoma" width="100%" height="360px" frameborder="0" scrolling="no"></iframe>
-</p>
+</div>
