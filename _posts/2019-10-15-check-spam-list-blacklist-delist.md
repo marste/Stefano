@@ -19,3 +19,13 @@ Ecco i siti principali sui quali fare delle verifiche per capire se il vostro do
 
 <a href="https://www.blacklistmaster.com/" target="_blank">Black List Master</a> | <a href="https://mxtoolbox.com/blacklists.aspx" target="_blank">MX Toolbox</a> | <a href="http://www.justspam.org/check-an-ip" target="_blank">Just Spam</a> | <a href="https://www.ultratools.com/tools/spamDBLookup" target="_blank">Ultra Tools</a>   
 
+Per vedere i dettagli di una mail, come:   
+
+. Data of the received email
+. Sender IP
+. Receiving timestamp
+. FCrDNS Test
+. Sender Address Tests
+. DNSBL Blacklist Test
+
+può tornare molto utile questo servizio: <a href="http://multirbl.valli.org/fcrdns-test/" target="_blank">http://multirbl.valli.org/fcrdns-test/</a>
