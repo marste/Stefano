@@ -39,8 +39,8 @@ Mostra tutti i pacchetti inviati e ricevuti:
 
 Per fare la scansione solo sulla porta 25 di un indirizzo IP:   
 
-<code>nmap -p25 192.168.20.25</code>
+<code>nmap -p25 192.168.20.25 -o c:\temp\log.txt</code>
 
 Per fare la scansione solo sulla porta 25 di un range di indirizzi IP:   
 
-<code>nmap -p25  192.168.5.0/24</code>
+<code>nmap -p25 192.168.5.0/24 -o c:\temp\log.txt</code>
