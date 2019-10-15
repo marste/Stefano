@@ -1,9 +1,8 @@
 ---
 title: NMap, IP Scanner
-date: 2017-03-13 17:00:00 +0200
+date: 2019-10-15 12:40:00 +0200
 author: Stefano Marzorati
 layout: post
-permalink: /nmap-ip-scanner/
 image: 'https://marzorati.co/img/terminal.png'
 share-img: 'https://marzorati.co/img/terminal.png'
 categories:
