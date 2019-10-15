@@ -21,11 +21,11 @@ Ecco i siti principali sui quali fare delle verifiche per capire se il vostro do
 
 Per vedere i dettagli di una mail, come:   
 
-. Data of the received email
-. Sender IP
-. Receiving timestamp
-. FCrDNS Test
-. Sender Address Tests
-. DNSBL Blacklist Test
+- Data of the received email
+- Sender IP
+- Receiving timestamp
+- FCrDNS Test
+- Sender Address Tests
+- DNSBL Blacklist Test
 
 può tornare molto utile questo servizio: <a href="http://multirbl.valli.org/fcrdns-test/" target="_blank">http://multirbl.valli.org/fcrdns-test/</a>
