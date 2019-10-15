@@ -36,3 +36,11 @@ Quick Scan Plus:
 Mostra tutti i pacchetti inviati e ricevuti:   
 
 <code>nmap --packet-trace 192.168.1.1</code>
+
+Per fare la scansione solo sulla porta 25 di un indirizzo IP:   
+
+<code>nmap -p25 192.168.20.25</code>
+
+Per fare la scansione solo sulla porta 25 di un range di indirizzi IP:   
+
+<code>nmap -p25  192.168.5.0/24</code>
