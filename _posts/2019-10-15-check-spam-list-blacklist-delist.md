@@ -17,10 +17,4 @@ tags:
 ---
 Ecco i siti principali sui quali fare delle verifiche per capire se il vostro dominio o IP pubblico sono finiti in qualche lista:   
 
-<a href="https://www.blacklistmaster.com/" target="_blank">Black List Master</a>   
-
-<a href="https://mxtoolbox.com/blacklists.aspx" target="_blank">MX Toolbox</a>   
-
-<a href="http://www.justspam.org/check-an-ip" target="_blank">Just Spam</a>   
-
-<a href="https://www.ultratools.com/tools/spamDBLookup" target="_blank">Ultra Tools</a>   
+<a href="https://www.blacklistmaster.com/" target="_blank">Black List Master</a> - <a href="https://mxtoolbox.com/blacklists.aspx" target="_blank">MX Toolbox</a> - <a href="http://www.justspam.org/check-an-ip" target="_blank">Just Spam</a> - <a href="https://www.ultratools.com/tools/spamDBLookup" target="_blank">Ultra Tools</a>   
