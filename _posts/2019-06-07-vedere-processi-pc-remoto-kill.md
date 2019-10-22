@@ -17,6 +17,8 @@ tags:
   - remote
   - tasklist
   - taskkill
+  - pslist
+  - pskill
 ---
 Per vedere tutti i processi attivi su un PC remoto:   
 
