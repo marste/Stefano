@@ -15,6 +15,8 @@ tags:
   - sistema
   - intero
 ---
+Prima di tutto occorre inizializzare il nastro secondo <a href="https://marzorati.co/inizializzare-tape-nastro-as400/" target="_blank">questa procedura</a>.   
+
 Accedere alla Console di AS/400   
 
 Digitare il comando <code>GO SAVE</code> opzione <code>21</code>   
