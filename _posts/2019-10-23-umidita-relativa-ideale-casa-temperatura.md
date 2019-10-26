@@ -3,8 +3,8 @@ title: 'Umidità ideale per la casa'
 subtitle: In funzione della temperatura
 date: 2019-10-23 14:00:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/post/meteo.png'
-share-img: 'https://marzorati.co/img/post/meteo.png'
+image: 'https://marzorati.co/img/meteo.png'
+share-img: 'https://marzorati.co/img/meteo.png'
 layout: post
 categories:
   - Varie
@@ -15,7 +15,7 @@ tags:
   - temperatura
   - tabella
 ---
-<center><img src="https://marzorati.co/img/umidita_ideale.jpg" alt="Umidità Ideale Tabella"></center>
+<center><img src="https://marzorati.co/img/post/umidita_ideale.jpg" alt="Umidità Ideale Tabella"></center>
 <br>
 * Temperatura pari a 18°C, l’umidità ideale dovrebbe essere compresa tra il 60 ed il 70%   
 * Temperatura pari a 19°C di temperatura, l’umidità ideale dovrebbe essere compresa tra il 50 e il 70%   
