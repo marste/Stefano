@@ -3,8 +3,8 @@ title: 'Umidità ideale per la casa'
 subtitle: In funzione della temperatura
 date: 2019-10-23 14:00:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/meteo.png'
-share-img: 'https://marzorati.co/img/meteo.png'
+image: 'https://marzorati.co/img/post/meteo.png'
+share-img: 'https://marzorati.co/img/post/meteo.png'
 layout: post
 categories:
   - Varie
