@@ -15,8 +15,8 @@ tags:
   - temperatura
   - tabella
 ---
-<center><img src="https://marzorati.co/img/umidita_ideale.jpg" alt="Umidità Ideale Tabella"></center>
-
+<center><img src="https://marzorati.co/img/post/umidita_ideale.jpg" alt="Umidità Ideale Tabella"></center>
+<br>
 * Temperatura pari a 18°C, l’umidità ideale dovrebbe essere compresa tra il 60 ed il 70%   
 * Temperatura pari a 19°C di temperatura, l’umidità ideale dovrebbe essere compresa tra il 50 e il 70%   
 * Temperatura pari a 20°C di temperatura, l’umidità ideale dovrebbe essere compresa tra il 40 e il 70%   
