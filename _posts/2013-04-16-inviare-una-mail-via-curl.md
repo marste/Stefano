@@ -1,19 +1,30 @@
 ---
-id: 1517
 title: Inviare una mail via cURL
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=1517
-permalink: /inviare-una-mail-via-curl/
-publicize_twitter_user:
-  - marzorati_ste
-  - marzorati_ste
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 1926977058
+date: 2019-10-27 12:30:00 +0200
+image: 'https://marzorati.co/img/terminal.png'
+share-img: 'https://marzorati.co/img/terminal.png'
 categories:
-  - Linux
+  - email
+tags:
+  - smtp
+  - curl
+  - telnet
+  - email
+  - test
 ---
 Esempio:  
-`curl smtp://mailserver.acme.it -v --mail-from "rossi@gmail.com" --mail-rcpt "verdi@gmail.com" -T "c:test.txt"`
+
+	curl smtp://mailserver.acme.it -v --mail-from "rossi@gmail.com" --mail-rcpt "verdi@gmail.com" -T "c:\test.txt"
+	
+Il contenuto del file test.txt, può essere scritto come questo esempio:   
+
+	From: John Smith <john@example.com>
+	To: Joe Smith <smith@example.com>
+	Subject: an example.com example email
+	Date: Mon, 7 Nov 2016 08:45:16
+	
+	Dear Joe,
+	Welcome to this example email. What a lovely day.
+
