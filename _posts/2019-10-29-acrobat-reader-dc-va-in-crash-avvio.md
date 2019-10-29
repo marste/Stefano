@@ -1,5 +1,5 @@
 ---
-title: "Acrobat Reader DC va in crash all'avvio"
+title: Acrobat Reader DC va in crash all'avvio
 subtitle: Problema sui recent files
 date: 2019-10-29 10:50:00 +0200
 author: Stefano Marzorati
