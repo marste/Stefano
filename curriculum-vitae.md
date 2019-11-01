@@ -5,7 +5,7 @@ permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
 ---
-[05/2015 – Attuale]
+[05/2015 – Oggi]
 
 ### **IT Infrastructure Manager**   
 {: style="font-size: 1.6rem; text-align: left;"}
