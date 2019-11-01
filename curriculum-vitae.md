@@ -34,7 +34,7 @@ share-img: 'https://marzorati.co/img/cv.png'
 * Web Servers Linux (Centos – Debian - Ubuntu)
 * Firewall Sonicwall Dell
 * Switch Cisco
-* Sistemi di virtualizzazione: ESX, VMWare Server
+* Sistemi di virtualizzazione: ESX, VMware Server
 * Office 365 - Exchange Online
 * Web servers (Linux, Apache, Mysql, PHP)
 * IBM AS/400
