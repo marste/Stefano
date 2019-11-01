@@ -94,7 +94,7 @@ ___
 * MS Windows Client e Servers
 * Web Servers Linux (Centos – Debian - Ubuntu)
 * Firewall e Proxy Linux
-* Sistemi di virtualizzazione: ESX, VmWare Server
+* Sistemi di virtualizzazione: ESX, VMware Server
 * Web servers (Linux, Apache, Mysql, PHP)
 * Blade Servers IBM
 * IBM AS/400
