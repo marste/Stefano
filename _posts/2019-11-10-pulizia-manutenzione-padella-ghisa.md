@@ -17,6 +17,8 @@ tags:
   - temprare
   - problemi
 ---
+<center><img src="https://marzorati.co/img/post/padella_ghisa.jpg" alt="Padella Ghisa"></center>   
+
 **Istruzioni per l'utente**   
 Le pentole in ghisa sono tanto durevoli quanto semplici. Seguite le procedure di pulizia e di manutenzione appropriate, e la vostra batteria di pentole durerà per le generazioni a venire.   
 
