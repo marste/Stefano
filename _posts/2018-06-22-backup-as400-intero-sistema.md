@@ -21,9 +21,9 @@ Accedere alla Console di AS/400
 
 Digitare il comando <code>GO SAVE</code> opzione <code>21</code>   
 
-![backup_as400](https://marzorati.co/img/post/backup_as400.png)   
+![backup_as400](https://marzorati.co/img/post/backup_as400_1.png)   
 <br>
-![backup1_as400](https://farm2.staticflickr.com/1773/41140944630_1752d17423_o.png)   
+![backup1_as400](https://marzorati.co/img/post/backup_as400_2.png)   
 <br>
 ![backup2_as400](https://farm2.staticflickr.com/1761/42540302084_77c0c2a6a3_o.png)   
 <br>
