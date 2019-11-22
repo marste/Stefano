@@ -4,35 +4,6 @@ layout: base
 
 {% include header.html type="post" %}
 
-<!-- adblock -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.28.11/sweetalert2.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-<script src="https://marzorati.co/jquery.adblock-detector.js"></script>
-<script>
-  $.adblockDetector.detect().done(function(adsEnabled){
-        if (!adsEnabled) {
-           swal({
-  title: 'Adblock Detected',
-  text: "You won't be able to access this page",
-  type: 'warning',
-  showCancelButton: true,
-  confirmButtonColor: '#3085d6',
-  cancelButtonColor: '#d33',
-  confirmButtonText: 'Disable Adblock'
-}).then((result) => {
-  if (result.value) {
-    swal(
-      'Thank You!',
-      'Refresh The Page',
-      'success'
-    )
-  }
-})
-        }
-    });
-  </script>
-<!-- adblock -->
-
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
