@@ -39,22 +39,22 @@ tags:
 <p></p>
 <center><strong>VARIGOTTI</strong> - Loc. Donio (Savona) - Riviera di Ponente</center>   
 <center>
-<img alt="Omegna" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
+<img alt="varigotti" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
 </center>
 <p></p>
 <center><strong>VARAZZE</strong> (Savona) - Riviera di Ponente</center>   
 <center>
-<img alt="Omegna" src="http://www.varazzewebcam.it/snapshot.jpg">
+<img alt="varazze" src="http://www.varazzewebcam.it/snapshot.jpg">
 </center>
 <p></p>
 <center><strong>CHAMOIS</strong> (Aosta) - 1800 metri</center>   
 <center>
-<img alt="Bogliasco" src="http://www.comune.chamois.ao.it/wcam/webcam_images/chamois.jpg">
+<img alt="Chamois" src="http://www.comune.chamois.ao.it/wcam/webcam_images/chamois.jpg">
 </center>
 <p></p>
 <center><strong>MACUGNAGA</strong> - Lago delle Fate (Verbano-Cusio-Ossola)</center>   
 <center>
-<img alt="Bogliasco" src="http://www.macugnaga-monterosa.it/images/webcams/lago-delle-fate.jpg/1024x768.jpg">
+<img alt="Macugnaga" src="http://www.macugnaga-monterosa.it/images/webcams/lago-delle-fate.jpg/1024x768.jpg">
 </center>
 <p></p>
 <center><strong>MERANO</strong> - (Bolzano)</center>   
