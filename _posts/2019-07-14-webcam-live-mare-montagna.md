@@ -57,6 +57,11 @@ tags:
 <img alt="Bogliasco" src="http://www.macugnaga-monterosa.it/images/webcams/lago-delle-fate.jpg/1024x768.jpg">
 </center>
 <p></p>
+<center><strong>MERANO</strong> - (Bolzano)</center>   
+<center>
+<img alt="Merano" src="https://www.visitmerano.it/webcam/webcam-meran.jpg">
+</center>
+<p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
 <img alt="Varese" src="https://www.astrogeo.va.it/casciago/cdf1_hi.jpg">
