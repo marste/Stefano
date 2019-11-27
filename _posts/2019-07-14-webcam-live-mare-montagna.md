@@ -30,6 +30,7 @@ tags:
   - savona
   - varazze
   - gatteo
+  - laveno
 ---
 <center><strong>BOGLIASCO</strong> (Genova) - Riviera di Levante</center>   
 <center>
