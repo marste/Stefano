@@ -61,6 +61,11 @@ tags:
 <img alt="Varese" src="https://www.astrogeo.va.it/casciago/cdf1_hi.jpg">
 </center>
 <p></p>
+<center><strong>LAVENO MOMBELLO</strong> (Varese)</center>   
+<center>
+<img alt="Laveno Mombello" src="https://www.cerrometeo.com/public/gftp0000.jpg">
+</center>
+<p></p>
 <center><strong>OMEGNA</strong> - Lago d'Orta (Verbano-Cusio-Ossola)</center>   
 <center>
 <img alt="Omegna" src="http://webcam.neveazzurra.it/orta.jpg">
