@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Grazie
+subtitle: Il messaggio è stato inviato con successo
 permalink: /thanks/
 ---
 
