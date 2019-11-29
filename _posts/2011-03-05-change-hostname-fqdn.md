@@ -1,32 +1,17 @@
 ---
-id: 36
-title: Cambiare hostname e fqdn
+title: Cambiare hostname e fqdn in linux
 author: Stefano Marzorati
+date: 2019-11-29 17:30:00 +0200
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
 layout: post
-guid: http://ubbunti.wordpress.com/2011/03/05/rinominare-hostname-pc
 permalink: /change-hostname-fqdn/
-blogger_blog:
-  - ubbunti.blogspot.com
-  - ubbunti.blogspot.com
-  - ubbunti.blogspot.com
-blogger_author:
-  - m@il_of_d@y
-  - m@il_of_d@y
-  - m@il_of_d@y
-blogger_e466c7156e8bac77e64f63e8bad92c92_permalink:
-  - 3583658649705446490
-  - 3583658649705446490
-  - 3583658649705446490
-geo_public:
-  - 0
-  - 0
-  - 0
-dsq_thread_id:
-  - 1904290098
 categories:
   - Linux
 tags:
   - rename
+  - hostname
+  - fqdn
 ---
 Editare questi due files:
 
