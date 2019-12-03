@@ -62,6 +62,11 @@ tags:
 <img alt="Merano" src="https://www.visitmerano.it/webcam/webcam-meran.jpg">
 </center>
 <p></p>
+<center><strong>MERANO 2000</strong> - Mittager Avelengo - 2260 metri (Bolzano)</center>   
+<center>
+<img alt="Merano2000" src="https://webcams.meran2000.com/mittager/cam.jpg">
+</center>
+<p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
 <img alt="Varese" src="https://www.astrogeo.va.it/casciago/cdf1_hi.jpg">
