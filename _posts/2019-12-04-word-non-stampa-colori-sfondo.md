@@ -16,7 +16,7 @@ tags:
   - immagini
   - sfondo
 ---
-Se vuoi stampare una pagina di Word che contiene dei colori di sfondo e quando si stampa esce bianco, occorre solamente aggiungere una spunta nelle opzioni di Word.   
+Se vuoi stampare un documento di Word che contiene dei colori di sfondo e quando si stampa esce bianco, occorre solamente aggiungere una spunta nelle opzioni di Word.   
 
 Andare in:   
 
