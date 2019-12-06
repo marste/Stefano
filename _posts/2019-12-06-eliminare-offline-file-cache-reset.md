@@ -25,4 +25,5 @@ Aggiungi una nuova **DWORD** chiamata **FormatDatabase** e dagli valore **1**
 Riavvia il PC
 
 Vedrai che i files offline non ci saranno più e la chiave di registro inserita sarà stata eliminata.   
-A questo punto per far ripartire la sincronizzazione che rimarrà in sospeso, dovrete riavviare il PC o disconnettersi almeno 3 volte.   
+
+A questo punto per far ripartire la **sincronizzazione** che rimarrà **in sospeso**, dovrete **riavviare il PC o disconnettersi almeno 3 volte**.   
