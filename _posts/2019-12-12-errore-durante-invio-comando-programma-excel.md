@@ -1,5 +1,5 @@
 ---
-title: "Excel: errore durante l'invio del comando al programma"
+title: "Excel errore durante l'invio del comando al programma"
 date: 2019-12-12 17:30:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/excel.png'
