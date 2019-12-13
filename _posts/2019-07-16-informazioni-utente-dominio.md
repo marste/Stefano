@@ -48,4 +48,4 @@ Se vuoi cambiare la password ad un utente, basta digitare:
 
 Se vuoi sapere l'ultima volta che l'utente ha fatto logon:   
 
-	NET USER m.rossi /domain | findstr /B /C:"Ultimo accesso"
+	NET USER m.rossi /DOMAIN | FIND /I "Ultimo accesso"
