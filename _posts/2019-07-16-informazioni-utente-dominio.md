@@ -14,6 +14,7 @@ tags:
   - account
   - commandline
   - gruppo
+  - logon
 ---
 Per visualizzare le seguenti informazioni legate ad un account di dominio Windows utilizzata il comando sottostante:   
 
@@ -41,6 +42,10 @@ Se vuoi solo sapere quando è stata cambiata la password di un utente l'ultima v
 
 	NET USER m.rossi /DOMAIN | FIND /I "Ultima impostazione password"
 
-Se volete cambiare la password ad un utente, basta digitare:   
+Se vuoi cambiare la password ad un utente, basta digitare:   
 
 	NET USER m.rossi newpassword /DOMAIN
+
+Se vuoi sapere l'ultima volta che l'utente ha fatto logon:   
+
+	NET USER m.rossi /domain | findstr /B /C:"Ultimo accesso"
