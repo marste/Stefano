@@ -34,3 +34,7 @@ Dai **OK**, chiudi e riapri Excel.
 > [!TIP]
 
 > [!CAUTION]
+
+> [!IMPORTANT]
+
+> [!WARNING]
