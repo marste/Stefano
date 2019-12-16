@@ -27,3 +27,10 @@ Occorre andare in:
 Deseleziona la casella "**Ignora altre applicazioni che utilizzano DDE (Dynamic Data Exchange)**"   
 
 Dai **OK**, chiudi e riapri Excel.
+
+> [!NOTE]
+> Ciao
+
+> [!TIP]
+
+> [!CAUTION]
