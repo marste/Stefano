@@ -50,8 +50,8 @@ Se vuoi sapere l'ultima volta che l'utente ha fatto logon:
 
 	NET USER m.rossi /DOMAIN | FIND /I "Ultimo accesso"
 
--[] punto
--[] punto
--[] punto
+-[] punto   
+-[] punto   
+-[] punto   
 
 > TEST
