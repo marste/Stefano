@@ -1,11 +1,10 @@
 ---
 title: Download removal tool Symantec
-date: 2016-07-29 11:25:00 +0200
+date: 2019-12-17 16:23:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://tigerware.lsu.edu/image/e7275ace-8ee7-4baf-9fe7-df2f62e76682.png'
-share-img: 'https://tigerware.lsu.edu/image/e7275ace-8ee7-4baf-9fe7-df2f62e76682.png'
-permalink: /download-removal-tool-symantec/
+image: 'https://marzorati.co/img/symantec.png'
+share-img: 'https://marzorati.co/img/symantec.png'
 categories:
   - Software
 tags:
@@ -19,7 +18,7 @@ tags:
 ---
 **Per Windows Desktops/Laptops:**   
 
-<a href="ftp://ftp.symantec.com/public/english_us_canada/removal_tools/Norton_Removal_Tool.exe" target="_blank">Norton Removal Tool</a>
+<a href="https://support.norton.com/sp/static/external/NPE/5.3/prod/en/NPE.exe" target="_blank">Norton Power Eraser</a>
 
 **Per Windows Servers:**   
 
