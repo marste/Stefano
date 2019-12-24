@@ -16,10 +16,6 @@ tags:
   - norton
   - tool
 ---
-**Per Windows Desktops/Laptops:**   
-
-<a href="https://support.norton.com/sp/static/external/NPE/5.3/prod/en/NPE.exe" target="_blank">Norton Power Eraser</a>
-
 **Per Windows Servers:**   
 
 <a href="http://marzorati.co/download/CleanWipe.zip" target="_blank">CleanWipe</a>
