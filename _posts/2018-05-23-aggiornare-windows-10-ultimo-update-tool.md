@@ -1,6 +1,5 @@
 ---
-title: Aggiornare Windows 10 con Update Assistant Tool
-subtitle: Aggiornare Windows 10 alla versione più recente
+title: Aggiornare Windows 10 all'ultima versione con Update Assistant Tool
 date: 2019-03-29 10:47:00 +0200
 published: true
 layout: post
