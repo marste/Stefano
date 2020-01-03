@@ -15,10 +15,14 @@ tags:
   - commandline
   - chisono
 ---
-Hai due semplici alternative:   
+Hai tre semplici alternative:   
 
 Digita: <code>whoami</code>   
 
 oppure   
 
-Digita: <code>echo %username%</code>   
+digita: <code>echo %username%</code>   
+
+oppure
+
+digita: <code>query user</code>
