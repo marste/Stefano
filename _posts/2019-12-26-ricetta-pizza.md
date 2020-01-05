@@ -29,5 +29,5 @@ tags:
 * Copri la ciotola con un canovaccio bagnato e strizzato e lascia lievitare nel forno spento per almeno **8 ore** (potete lasciarlo anche 24/48 ore).
 * 30 minuti/1 ora prima della cottura, dividi la pasta in 4 panetti infarinandoli un po'. (per non far attaccare la pasta alle mani, bagnatele).
 * Infarinate le teglie (20/25 cm di diametro) e stendi le palline partendo a premerle dal centro verso l'esterno in modo da lasciare un po' di cornicione.
-* Condire a piacimento.
-* Accendere il forno a **250° C** e cuocere per circa **15 minuti**.
+* Condire a piacimento. Consiglio di mettere la mozzarella **5 minuti prima della fine cottura**
+* Accendere il forno a **250° C** e cuocere per circa **15 minuti**, mettendo la teglia sul penultimo piano del forno.
