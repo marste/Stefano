@@ -6,8 +6,7 @@ layout: post
 image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
 bigimg:
-  - "https://marzorati.co/img/P_Music.jpg"
-permalink: /streaming-radio-list/
+  - "https://marzorati.co/img/post/P_Music.jpg"
 categories:
   - Music
 tags:
