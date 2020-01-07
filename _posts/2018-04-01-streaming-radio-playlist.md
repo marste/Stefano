@@ -23,6 +23,7 @@ tags:
 ---
 * <a href="https://streamingp.shoutcast.com/TomorrowlandOneWorldRadio" target="_blank">One World Radio - Tomorrowland (Bitrate: 192kbit/s)</a>   
 * <a href="http://s5.onweb.gr:8488/;" target="_blank">Cavo Paradiso (Bitrate: 128kbit/s)</a>   
+* <a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos (Bitrate: 128kbit/s)</a>   
 * <a href="https://icy.unitedradio.it/RMC.mp3" target="_blank">RMC 2 (Bitrate: 160kbit/s)</a>   
 * <a href="http://stream.intenseradio.net:8000/live" target="_blank">Intense Radio (Bitrate: 192kbit/s)</a>   
 * <a href="http://87.98.129.202/magicradioHD.mp3" target="_blank">MagicRadio by PulsRadio 80 (Bitrate: 192kbit/s)</a>   
