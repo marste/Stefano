@@ -36,7 +36,7 @@ navbar-links:
     - Home: "https://stefano.marzorati.co"
     - Il Sole 24 ORE: "https://www.ilsole24ore.com/radiocor"
     - Indici Borse Mondiali: "https://it.investing.com/indices/major-indices"
-    - Playlist Radio: "streaming-radio-list"
+    - Playlist Radio: "streaming-radio-playlist"
     - Webcam Live: "webcam-live-mare-montagna"	
     - C'era una volta un re: "http://www.ceraunavoltaunre.it"
 # Image to show in the navigation bar - image must be a square (width = height)
