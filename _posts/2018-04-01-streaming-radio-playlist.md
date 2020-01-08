@@ -1,5 +1,5 @@
 ---
-title: Streaming Radio, my favorite list
+title: Playlist Radio
 date: 2020-01-06 23:00:00 +0200
 author: Stefano Marzorati
 layout: post
@@ -23,7 +23,7 @@ tags:
 ---
 * <a href="https://streamingp.shoutcast.com/TomorrowlandOneWorldRadio" target="_blank">One World Radio - Tomorrowland</a>  (Bitrate: 192kbit/s)   
 * <a href="http://s5.onweb.gr:8488/;" target="_blank">Cavo Paradiso</a> (Bitrate: 128kbit/s)   
-* <a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos</a> (Bitrate: 128kbit/s)   
+* <a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos</a> (Bitrate: 96kbit/s)   
 * <a href="https://icy.unitedradio.it/RMC.mp3" target="_blank">RMC 2</a> (Bitrate: 160kbit/s)   
 * <a href="http://stream.intenseradio.net:8000/live" target="_blank">Intense Radio</a> (Bitrate: 192kbit/s)   
 * <a href="http://87.98.129.202/magicradioHD.mp3" target="_blank">MagicRadio by PulsRadio 80</a> (Bitrate: 192kbit/s)   
