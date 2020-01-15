@@ -33,3 +33,6 @@ Oppure puoi vedere i log di sistema <code>DSPLOG PERIOD((010000 080718) (*AVAIL 
 Per vedere il log del nastro, per capire cosa è stato salvato, digita:   
 <code>DSPTAP DEV(TAP01) OUTPUT(*PRINT)</code>   
 <code>WRKSPLF</code>   
+
+Ma può bastare:   
+<code>DSPTAP DEV(TAP01)</code>
