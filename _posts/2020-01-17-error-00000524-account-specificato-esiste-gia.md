@@ -1,5 +1,5 @@
 ---
-title: 'Error [00000524]: L'account specificato esiste già'
+title: "Error [00000524]: L'account specificato esiste già"
 subtitle: L'esecuzione del codice non può proseguire perchè psregapi.dll non è stato trovato
 date: 2020-01-17 10:47:00 +0200
 published: true
