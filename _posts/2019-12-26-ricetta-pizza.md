@@ -27,7 +27,7 @@ tags:
 * In una ciotola metti **500 grammi di farina 00**, il composto di **acqua e lievito** e comincia ad impastare.
 * Dopo qualche minuto aggiungi anche il composto di **acqua e sale** più gli altri **100 grammi di acqua** e **2 cucchiai di olio extravergine di oliva** e continua ad impastare finchè la pasta non diventa liscia con la consistenza del lobo dell'orecchio.
 * Copri la ciotola con un canovaccio bagnato e strizzato e lascia lievitare nel forno spento per almeno **8 ore** (potete lasciarlo anche 24/48 ore).
-* 30 minuti/1 ora prima della cottura, dividi la pasta in 4 panetti infarinandoli un po'. (per non far attaccare la pasta alle mani, bagnatele).
+* 30 minuti/1 ora prima della cottura, dividi la pasta in 4 panetti infarinandoli un po'. (per non far attaccare la pasta alle mani, infarinatele).
 * Infarinate le teglie (20/25 cm di diametro) e stendi le palline partendo a premerle dal centro verso l'esterno in modo da lasciare un po' di cornicione.
 * Condire a piacimento. Consiglio di mettere la mozzarella **5 minuti prima della fine cottura**
-* Accendere il forno a **250° C** e cuocere per circa **15 minuti**, mettendo la teglia sul penultimo piano del forno. (se fate metà dose, dimezzate i tempi di cottura. Una volta formatosi le bolle di pasta dovrebbe essere pronta)
+* Accendere il forno a **250° C** e cuocere per circa **13 minuti**, mettendo la teglia sul penultimo piano del forno. (se fate metà dose, dimezzate i tempi di cottura. Una volta formatosi le bolle di pasta dovrebbe essere pronta)
