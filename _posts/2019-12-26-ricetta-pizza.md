@@ -20,11 +20,18 @@ tags:
 <p align="center">
   <img src="https://marzorati.co/img/post/pizza.jpg">
 </p>   
+**Ingredienti:**   
+
+- 500 grammi di farina 0
+- 3 grammi di lievito di birra disidratato
+- 250 grammi di acqua
+- 2 cucchiai di olio di oliva
+- 10 grammi di sale (circa due cucchiaini)
 
 * Sciogli **3 grammi di lievito di birra** disidratato in **100 grammi di acqua**.
 * Sciogli **10 grammi di sale** in **50 grammi di acqua**.
 * Tieni da parte altri **100 grammi di acqua**.
-* In una ciotola metti **500 grammi di farina 00**, il composto di **acqua e lievito** e comincia ad impastare.
+* In una ciotola metti **500 grammi di farina 0**, il composto di **acqua e lievito** e comincia ad impastare.
 * Dopo qualche minuto aggiungi anche il composto di **acqua e sale** più gli altri **100 grammi di acqua** e **2 cucchiai di olio extravergine di oliva** e continua ad impastare finchè la pasta non diventa liscia con la consistenza del lobo dell'orecchio.
 * Copri la ciotola con un canovaccio bagnato e strizzato e lascia lievitare nel forno spento per almeno **8 ore** (potete lasciarlo anche 24/48 ore).
 * 30 minuti/1 ora prima della cottura, dividi la pasta in 4 panetti infarinandoli un po'. (per non far attaccare la pasta alle mani, infarinatele).
