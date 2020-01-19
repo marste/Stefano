@@ -1,5 +1,5 @@
 ---
-title: Download lista comuni italiani
+title: Download lista comuni italiani aggiornata
 date: 2020-01-19 12:30:00 +0200
 author: Stefano Marzorati
 layout: post
