@@ -28,3 +28,13 @@ Remote PC:
 Get-WmiObject Win32_OperatingSystem -ComputerName "Nome_PC" |
 Select PSComputerName, Caption, OSArchitecture, Version, BuildNumber | FL
 {% endhighlight %}
+
+Oppure potete utilizzare il seguente comando:   
+
+Local PC:   
+
+	systeminfo | findstr /B /C:"Nome SO" /C:"Versione SO"
+
+Remote PC:   
+
+	psexec  \\Nome_PC systeminfo | findstr /B /C:"Nome SO" /C:"Versione SO"
