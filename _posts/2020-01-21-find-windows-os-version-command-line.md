@@ -19,13 +19,11 @@ tags:
   - powershell
 ---
 Local PC:   
-
-{% highlight powershell %}	
+{% highlight powershell %}
 (Get-WmiObject Win32_OperatingSystem).Version
 {% endhighlight %}
 
 Remote PC:   
-
 {% highlight powershell %}
 Get-WmiObject Win32_OperatingSystem -ComputerName "Nome_PC" |
 Select PSComputerName, Caption, OSArchitecture, Version, BuildNumber | FL
