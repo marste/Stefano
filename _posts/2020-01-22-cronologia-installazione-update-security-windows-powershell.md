@@ -1,6 +1,5 @@
 ---
-title: Cronologia aggiornamenti installati da Windows Update da command line
-subtitle: Using Powershell
+title: Cronologia aggiornamenti installati da Windows Update usando Powershell
 date: 2020-01-22 16:00:00 +0200
 author: Stefano Marzorati
 layout: post
