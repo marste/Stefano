@@ -25,5 +25,5 @@ Get-HotFix
 
 Remote PC:   
 {% highlight powershell %}
-Get-HotFix -Description Security* -ComputerName Nome_PC1, Nome_PC1 -Credential Dominio\Admin
+Get-HotFix -Description Security* -ComputerName Nome_PC1, Nome_PC2 -Credential Dominio\Admin
 {% endhighlight %}
