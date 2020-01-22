@@ -20,10 +20,10 @@ tags:
 ---
 Local PC:   
 {% highlight powershell %}
-Get-HotFix
+Get-HotFix | Sort-Object installedon
 {% endhighlight %}
 
 Remote PC:   
 {% highlight powershell %}
-Get-HotFix -Description Security* -ComputerName Nome_PC1, Nome_PC2 -Credential Dominio\Admin
+Get-HotFix -Description Security* -ComputerName Nome_PC1, Nome_PC2 -Credential Dominio\Admin | Sort-Object installedon
 {% endhighlight %}
