@@ -22,11 +22,11 @@ tags:
 </p>   
 ***Ingredienti:***   
 
-  - 500 grammi di farina 0
-  - 3 grammi di lievito di birra disidratato
-  - 250 grammi di acqua
-  - 2 cucchiai di olio di oliva
-  - 10 grammi di sale (circa due cucchiaini)
+* 500 grammi di farina 0
+* 3 grammi di lievito di birra disidratato
+* 250 grammi di acqua
+* 2 cucchiai di olio di oliva
+* 10 grammi di sale (circa due cucchiaini)
 
 ***Procedimento:***   
 
