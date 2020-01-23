@@ -28,6 +28,8 @@ tags:
   - 2 cucchiai di olio di oliva
   - 10 grammi di sale (circa due cucchiaini)
 
+**Procedimento:**   
+
 * Sciogli **3 grammi di lievito di birra** disidratato in **100 grammi di acqua**.
 * Sciogli **10 grammi di sale** in **50 grammi di acqua**.
 * Tieni da parte altri **100 grammi di acqua**.
