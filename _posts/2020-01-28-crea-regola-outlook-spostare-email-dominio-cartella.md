@@ -6,7 +6,7 @@ layout: post
 image: 'https://marzorati.co/img/outlook.png'
 share-img: 'https://marzorati.co/img/outlook.png'
 categories:
-  - Windows
+  - Outlook
 tags:
   - regola
   - outlook
