@@ -19,5 +19,5 @@ tags:
 ---
 * Nuova regola
 * Applica regola ai messaggi ricevuti
-* Con parole specifiche nell'intestazione del messaggio (come parola specifica metti il dominio, es. marzorati.co)
+* Con parole specifiche nell'indirizzo del mittente (come parola specifica metti il dominio, es. marzorati.co)
 * Sposta il messaggio nella cartella specificata (specifica la cartella in cui vuoi spostare le email)
