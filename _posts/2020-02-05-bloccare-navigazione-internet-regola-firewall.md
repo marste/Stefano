@@ -3,8 +3,8 @@ title: Bloccare la navigazione internet su Windows 10
 subtitle: Attraverso una regola sul Firewall Windows
 author: Stefano Marzorati
 date: 2020-02-05 13:51:00 +0200
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/firewall.png'
+share-img: 'https://marzorati.co/img/firewall.png'
 layout: post
 categories:
   - windows
