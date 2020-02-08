@@ -6,16 +6,8 @@ date: 2020-02-06 09:15:00 +0200
 image: 'https://marzorati.co/img/office.png'
 share-img: 'https://marzorati.co/img/office.png'
 layout: post
-categories:
-  - windows
-tags:
-  - hide
-  - exchange
-  - gal
-  - editor
-  - attribute
-  - adsync
-  - addresslist
+categories: [windows]
+tags: [hide, exchange, gal, editor, attribute, adsync, addresslist]
 ---
 * Dal Domain Controller, **selezionare l'utente** che non si vuol far comparire nella GAL e andare in **Properties**.   
 * Vai nel tab **Attribute Editor**
