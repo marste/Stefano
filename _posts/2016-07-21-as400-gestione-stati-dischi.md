@@ -20,3 +20,11 @@ tags:
 Per vedere lo stato dei dischi dell'AS/400, la percentuale in uso, la dimensione e i dati in tempo reale di lettura e scrittura, digita il seguente comando:   
 
 	WRKDSKSTS
+
+Per vedere la dimensione totale dei dischi e lo spazio occupato in percentuale:
+
+	DSPSYSST
+
+Per vedere lo spazio occupato da ogni singola libreria, puoi fare una query SQL, ad esempio:
+
+	SELECT * FROM indsk80f ORDER BY IDSIZ desc 
