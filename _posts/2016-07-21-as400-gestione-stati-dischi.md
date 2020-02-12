@@ -4,8 +4,8 @@ date: 2016-07-21 11:50:00 +0200
 author: Stefano Marzorati
 layout: post
 permalink: /as400-gestione-stati-dischi/
-image: ibm.png
-share-img: ibm.png
+image: https://marzorati.co/img/ibm.png
+share-img: https://marzorati.co/img/ibm.png
 categories:
   - AS400
 tags:
