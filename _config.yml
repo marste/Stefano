@@ -34,7 +34,7 @@ navbar-links:
   Contact: "contact"
   Links:
     - Home: "https://stefano.marzorati.co"
-    - Ultime Notizie: "ultime-notizie"
+    - Ultime Notizie: "news"
     - Il Sole 24 ORE: "https://www.ilsole24ore.com/radiocor"
     - Indici Borse Mondiali: "https://it.investing.com/indices/major-indices"
     - Playlist Radio: "streaming-radio-playlist"
