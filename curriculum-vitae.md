@@ -174,4 +174,8 @@ ___
 
 ___
 
-<b><center><a href="https://marzorati.co/curriculum-vitae/">Contattami</a></center></b>
+<b><center><a href="https://marzorati.co/contact/">Contattami</a></center></b>
+
+<center>
+<button onclick="window.location.href = 'https://marzorati.co/contact/';">Contattami</button>
+</center>
