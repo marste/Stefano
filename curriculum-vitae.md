@@ -178,6 +178,9 @@ ___
 <form action="https://marzorati.co/contact/"><input type="submit" value="Contattami" /></form>
 </center>
 
+<center>
 <a href="https://marzorati.co/contact/" class="btn btn-primary btn-lg" role="button">Contattami</a>
-
+</center>
+<center>
 <a href="https://marzorati.co/contact/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Contattami</a>
+</center>
