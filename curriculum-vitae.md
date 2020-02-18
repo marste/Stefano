@@ -178,7 +178,4 @@ ___
 <form action="https://marzorati.co/contact/"><input type="submit" value="Contattami" /></form>
 </center>
 
-<a class="btn" href="https://marzorati.co/contact/">Contattami</a>
-<button class="btn" type="submit">Button</button>
-<input class="btn" type="button" value="Input">
-<input class="btn" type="submit" value="Submit">
+<a><button class="btn" type="submit">Contattami</button></a>
