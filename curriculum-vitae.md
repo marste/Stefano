@@ -173,3 +173,5 @@ ___
 * Tecnico Hardware specializzato in installazione, riparazione e manutenzione di PC, stampanti locali o di rete, servers (tecnico interno esterno presso clienti)
 
 ___
+
+<b><center><a href="https://marzorati.co/curriculum-vitae/" target="_blank">Contattami</a></center></b>
