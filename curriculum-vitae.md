@@ -177,3 +177,9 @@ ___
 <center>
 <button onclick="window.location.href = 'https://marzorati.co/contact/';">Contattami</button>
 </center>
+
+<center>
+<form action="https://marzorati.co/contact/">
+    <input type="submit" value="Contattami" />
+</form>
+</center>
