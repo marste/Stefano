@@ -175,7 +175,5 @@ ___
 ___
 
 <center>
-<form action="https://marzorati.co/contact/">
-    <input type="submit" value="Contattami" />
-</form>
+<form action="https://marzorati.co/contact/"><input type="submit" value="Contattami" /></form>
 </center>
