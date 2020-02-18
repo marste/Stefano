@@ -175,22 +175,7 @@ ___
 ___
 
 <center>
-<button onclick="window.location.href = 'https://marzorati.co/contact/';">Contattami</button>
-</center>
-
-<center>
 <form action="https://marzorati.co/contact/">
     <input type="submit" value="Contattami" />
 </form>
 </center>
-
-<a href="http://google.com" class="button">Go to Google</a>
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-}
