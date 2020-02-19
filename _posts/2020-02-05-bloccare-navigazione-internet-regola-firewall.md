@@ -28,3 +28,15 @@ Andate in:
 * Blocca la connessione
 * Dominio - Privato - Pubblico
 * Dare un nome alla regola
+
+Se invece avete bisogno che qualche eseguibile si colleghi ad Internet (esempio antivirus per aggiornarsi), potete decidere di bloccare i browser.
+
+Andate in:   
+* Windows Firewall con sicurezza avanzata (accedere come amministratore)
+* Regole connessioni in uscita
+* Nuova Regola
+* Programma
+* Percorso del browser (IE, Edge, Chrome, Firefox)
+* Blocca la connessione
+* Dominio - Privato - Pubblico
+* Dare un nome alla regola
