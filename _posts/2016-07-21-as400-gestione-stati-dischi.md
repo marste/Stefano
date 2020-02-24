@@ -23,7 +23,7 @@ Per vedere lo stato dei dischi dell'AS/400, la percentuale in uso, la dimensione
 
 Per vedere la dimensione totale dei dischi e lo spazio occupato in percentuale:
 
-	DSPSYSST
+	DSPSYSSTS
 
 Per vedere lo spazio occupato da ogni singola libreria, puoi fare una query SQL, ad esempio:
 
