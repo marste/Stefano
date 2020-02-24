@@ -18,6 +18,7 @@ tags:
 ---
 **<center>Lampadina tradizionale incandescenza</center>**
 
+<center>
 <table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
@@ -98,12 +99,12 @@ tags:
       2160 lumen
     </td>
   </tr>
-</table>   
+</table></center>   
 <BR>
 <BR>
 **<center>Lampadina Alogena</center>**
 
-<table width="50%" border="1">
+<center><table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
       <strong>Consumo</strong>
@@ -173,12 +174,12 @@ tags:
       1900 lumen
     </td>
   </tr>
-</table>   
+</table></center>   
 <BR>
 <BR>
 **<center>Lampadina Fluorescente Compatta</center>**   
 
-<table width="50%" border="1">
+<center><table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
       <strong>Consumo</strong>
@@ -248,12 +249,12 @@ tags:
       1700 lumen
     </td>
   </tr>
-</table>   
+</table></center>   
 <BR>
 <BR>
 **<center>Lampadina Led</center>**   
 
-<table width="50%" border="1">
+<center><table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
       <strong>Consumo</strong>
@@ -303,12 +304,12 @@ tags:
       806 lumen
     </td>
   </tr>
-</table>   
+</table></center>   
 <BR>
 <BR>
 **<center>Lampada Slim T4 Fluorescente</center>**   
 
-<table width="50%" border="1">
+<center><table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
       <strong>Consumo</strong>
@@ -418,12 +419,12 @@ tags:
     2900 lumen
   </td>
   </tr>
-</table>   
+</table></center>   
 <BR>
 <BR>
 **<center>Lampada Slim T5 Fluorescente</center>**   
 
-<table width="50%" border="1">
+<center><table width="50%" border="1">
   <tr>
     <td style="text-align:center;" width="50%">
       <strong>Consumo</strong>
@@ -493,5 +494,5 @@ tags:
     3650 lumen
   </td>
   </tr>
-</table>   
+</table></center>   
 <BR>
