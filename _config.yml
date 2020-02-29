@@ -34,7 +34,6 @@ navbar-links:
   Contact: "contact"
   CV: "curriculum-vitae"
   Links:
-    - Home: "https://stefano.marzorati.co"
     - Il Sole 24 ORE: "https://www.ilsole24ore.com/radiocor"
     - Indici Borse Mondiali: "https://it.investing.com/indices/major-indices"
     - Playlist Radio: "streaming-radio-playlist"
