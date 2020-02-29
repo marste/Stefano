@@ -5,8 +5,12 @@ permalink: /news/
 image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
+<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&num=10&date=y&tz=+2&utf=y&pc=y&html=a"  charset="UTF-8" type="text/javascript"></script>
 
-<iframe width="100%" height="750" frameborder="0" class="rssdog" src="https://www.rssdog.com/index.php?url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&mode=html&showonly=&maxitems=10&showdescs=1&desctrim=0&descmax=0&tabwidth=100%25&showdate=1&linktarget=_blank&textsize=inherit&bordercol=%23d4d0c8&headbgcol=%23999999&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0"></iframe>
+<noscript>
+<a href="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&num=10&date=y&tz=+2&utf=y&pc=y&html=y">View RSS feed</a>
+</noscript>
+
 
 
 <center><h1><span style="background-color:yellow">Italia</span></h1></center>
