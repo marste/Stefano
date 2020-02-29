@@ -30,16 +30,16 @@ description: 'IT Infrastructure Manager - Oltre 20 anni di esperienza nel settor
 # List of links in the navigation bar
 navbar-links:
   Search: "search"
-  CV: "curriculum-vitae"
+  News: "news"
   Contact: "contact"
+  CV: "curriculum-vitae"
   Links:
     - Home: "https://stefano.marzorati.co"
-    - Ultime Notizie: "news"
     - Il Sole 24 ORE: "https://www.ilsole24ore.com/radiocor"
     - Indici Borse Mondiali: "https://it.investing.com/indices/major-indices"
     - Playlist Radio: "streaming-radio-playlist"
     - Webcam Live: "webcam-live-mare-montagna"	
-    - C'era una volta un re: "http://www.ceraunavoltaunre.it"
+    - C'era una volta un re: "https://ceraunavoltaunre.it"
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/me.jpeg"
