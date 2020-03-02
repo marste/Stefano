@@ -17,7 +17,7 @@ tags: [ricetta, grissini, lievito, acqua, sale, farina, olio]
 * 2 grammi di lievito di birra disidratato
 * 140 grammi di acqua
 * 25 grammi di olio di oliva
-* 4 grammi di sale (circa due cucchiaini)
+* 4 grammi di sale
 
 ***Procedimento:***   
 
