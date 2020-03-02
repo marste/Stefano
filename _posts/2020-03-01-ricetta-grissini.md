@@ -5,16 +5,8 @@ author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/ricette.png'
 share-img: 'https://marzorati.co/img/ricette.png'
-categories:
-  - Ricette
-tags:
-  - ricetta
-  - grissini
-  - lievito
-  - acqua
-  - sale
-  - farina
-  - olio
+categories: [Ricette]
+tags: [ricetta, grissini, lievito, acqua, sale, farina, olio]
 ---
 <p align="center">
   <img src="https://marzorati.co/img/post/grissini_1.jpg">
