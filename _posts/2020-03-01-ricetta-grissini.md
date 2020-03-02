@@ -24,7 +24,7 @@ tags: [ricetta, grissini, lievito, acqua, sale, farina, olio]
 * Sciogli **2 grammi di lievito di birra** disidratato in **70 grammi di acqua**.
 * Sciogli **4 grammi di sale** in **70 grammi di acqua**.
 * In una ciotola metti **250 grammi di farina 0**, il composto di **acqua e lievito** e comincia ad impastare.
-* Dopo qualche minuto aggiungi anche il composto di **acqua e sale** e i **50 grammi di olio extravergine di oliva** e continua ad impastare finchè la pasta non diventa liscia con la consistenza del lobo dell'orecchio.
+* Dopo qualche minuto aggiungi anche il composto di **acqua e sale** e i **25 grammi di olio extravergine di oliva** e continua ad impastare finchè la pasta non diventa liscia con la consistenza del lobo dell'orecchio.
 * Dai all'impasto una forma piatta e rettangolare e lascia lievitare nel forno spento per almeno **2 ore**.
 * Con un coltello a lama liscia taglia delle strisce larghe mezzo centimetro dal lato corto del rettangolo.
 * Con le mani tira la singola striscia allungandola della dimensione della teglia.
