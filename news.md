@@ -17,7 +17,3 @@ share-img: 'https://marzorati.co/img/news.png'
 <script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&limit=10&showtitle=false&type=js"></script>
 <center><h1><a name="Salute">Salute</a></h1></center>
 <script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&limit=10&showtitle=false&type=js"></script>
-
-
-
-
