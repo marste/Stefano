@@ -1,5 +1,5 @@
 ---
-title: Le 1000 migliori aziende italiane cresciute tra il 2012 e il 2018
+title: "Le 1000 migliori aziende italiane cresciute tra il 2012 e il 2018"
 date: 2020-03-20 12:00:00 +0200
 author: Stefano Marzorati
 layout: post
