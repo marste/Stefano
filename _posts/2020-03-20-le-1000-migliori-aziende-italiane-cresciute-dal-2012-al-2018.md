@@ -5,7 +5,7 @@ author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/industria.png'
 share-img: 'https://marzorati.co/img/industria.png'
-categories [News]
+categories: [News]
 tags: [SIIT, top, aziende, imprese, italiane, 1000, cresciute, fatturato, Champion, 2012, 2018]
 ---
 L’**Economia** del **Corriere della Sera** pubblica in anteprima la sintesi dell’analisi del Centro Studi di **ItalyPost** sulle imprese che hanno meglio performato tra il 2012 e il 2018.   
