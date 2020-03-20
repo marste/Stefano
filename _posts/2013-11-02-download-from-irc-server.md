@@ -17,9 +17,8 @@ tags:
 ---
 **Server:** <a href="irc://irc.rootworld.net" target="_blank">irc.rootworld.net</a>  
 **Channel:** atollo-friends  
-**List:** <a href="http://www.ohi.im/OafSr" target="_blank">http://www.ohi.im/OafSr</a>  
+**List:** <a href="http://www.tuttochiaro.eu/Links1.html" target="_blank">http://www.tuttochiaro.eu/Links1.html</a>  
 **Velocità:** +650 KB/S   
-**User:** atollofriends   
 **Password:** l1st44t0ll0   
 
 <del>**Server:** <a href="irc://irc.oltreirc.net" target="_blank">irc.oltreirc.net</a>  
