@@ -9,6 +9,7 @@ categories [News]
 tags: [SIIT, top, aziende, imprese, italiane, 1000, cresciute, fatturato, Champion, 2012, 2018]
 ---
 L’**Economia** del **Corriere della Sera** pubblica in anteprima la sintesi dell’analisi del Centro Studi di **ItalyPost** sulle imprese che hanno meglio performato tra il 2012 e il 2018.   
+
 La ricerca completa di tutti i dati sul nostro sito, incluse le 20 big di fascia 500 milioni - un miliardo di euro di fatturato.   
 
 Nel nuovo triangolo industriale Emilia al top, conferme dalla Lombardia, il Veneto non brilla.   
