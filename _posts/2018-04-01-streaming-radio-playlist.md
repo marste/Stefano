@@ -5,24 +5,12 @@ author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
-bigimg:
-  - "https://marzorati.co/img/post/P_Music.jpg"
-categories:
-  - Music
-tags:
-  - streaming
-  - radio
-  - web
-  - musica
-  - music
-  - favorite
-  - preferita
-  - html5
-  - player
-  - m3u
+bigimg: [https://marzorati.co/img/post/P_Music.jpg]
+tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 ---
 * <a href="https://streamingp.shoutcast.com/TomorrowlandOneWorldRadio" target="_blank">One World Radio - Tomorrowland</a>  (Bitrate: 192kbit/s)   
 * <a href="http://s5.onweb.gr:8488/;" target="_blank">Cavo Paradiso</a> (Bitrate: 128kbit/s)   
+* <a href="http://217.182.192.240:12021/stream/1/" target="_blank">Otto FM Anni 80</a> (Bitrate: 128kbit/s)   
 * <a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos</a> (Bitrate: 96kbit/s)   
 * <a href="https://icy.unitedradio.it/RMC.mp3" target="_blank">RMC 2</a> (Bitrate: 160kbit/s)   
 * <a href="http://stream.intenseradio.net:8000/live" target="_blank">Intense Radio</a> (Bitrate: 192kbit/s)   
