@@ -1,6 +1,6 @@
 ---
 title: Playlist Radio
-date: 2020-01-06 23:00:00 +0200
+date: 2020-03-21 23:00:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/music.png'
