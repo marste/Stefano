@@ -40,7 +40,7 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, olio]
   <img src="https://marzorati.co/img/post/panini_2.jpg">
 </p> 
 
-Per vedere la procedura manuale, guardate questo video   
+Per vedere la procedura manuale, guardate questo video:   
 
 <div class="video">
     <iframe src="//www.youtube.com/embed/Q1hK7PnfBKA" frameborder="0" allowfullscreen></iframe>
