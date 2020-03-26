@@ -5,7 +5,7 @@
 body {
   font-family: 'Montserrat', 'sans-serif';
   font-size: 16px;
-  color: #404040;
+  color: #000;
   position: relative;
   background: #FFF;
   word-wrap: break-word;
@@ -266,7 +266,7 @@ footer {
 }
 
 footer a {
-  color: #404040;
+  color: #000;
 }
 
 footer .list-inline {
@@ -314,7 +314,7 @@ footer .theme-by {
 
 .post-preview a {
   text-decoration: none;
-  color: #404040;
+  color: #000;
 }
 
 .post-preview a:focus,
@@ -577,7 +577,7 @@ footer .theme-by {
   padding: 10px 5px;
   background: #FFF;
   border-radius: 0;
-  color: #404040;
+  color: #000;
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
