@@ -56,7 +56,7 @@ avatar: "/img/me.jpeg"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Stefano Marzorati
-  email: "<a href="/contact"></a>"
+  email: "stefano@marzorati.co"
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
   twitter: marzorati_ste   # eg. daattali
