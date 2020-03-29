@@ -7,7 +7,7 @@ author: Stefano Marzorati
 layout: post
 tags: [file, details, linux]
 ---
-``for i in `ls`; do file $i ;done``
+<code>for i in `ls`; do file $i ;done</code>
 
 Esempio risultato:
 
