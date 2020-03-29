@@ -5,7 +5,7 @@ author: Stefano Marzorati
 layout: slide
 theme: white
 transition: slide
-published: true
+published: false
 permalink: /slideshow/
 categories:
   - Fun
