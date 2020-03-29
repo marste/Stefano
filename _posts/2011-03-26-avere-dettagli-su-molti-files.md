@@ -1,15 +1,11 @@
 ---
-id: 660
-title: Avere dettagli su molti files
+title: Avere dettagli su files in Linux
+image: 'https://marzorati.co/img/linux.png'
+share-img: 'https://marzorati.co/img/linux.png'
+date: 2020-03-29 10:30:00 +0200
 author: Stefano Marzorati
 layout: post
-guid: http://ubbunti.wordpress.com/?p=660
-permalink: /avere-dettagli-su-molti-files/
-dsq_thread_id:
-  - 2010467868
-categories:
-  - Linux
-tags:
+tags: [file, details, linux]
   - files
 ---
 ``for i in `ls`; do file $i ;done``
