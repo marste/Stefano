@@ -1,12 +1,11 @@
 ---
-title: Avere dettagli su files in Linux
+title: "Avere dettagli su files in Linux"
 image: 'https://marzorati.co/img/linux.png'
 share-img: 'https://marzorati.co/img/linux.png'
 date: 2020-03-29 10:30:00 +0200
 author: Stefano Marzorati
 layout: post
 tags: [file, details, linux]
-  - files
 ---
 ``for i in `ls`; do file $i ;done``
 
