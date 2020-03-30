@@ -5,9 +5,9 @@
 body {
   font-family: 'Montserrat', 'sans-serif';
   font-size: 16px;
-  color: #FFF;
+  color: #000;
   position: relative;
-  background: #242426;
+  background: #FFF;
   word-wrap: break-word;
 }
 p {
@@ -314,7 +314,7 @@ footer .theme-by {
 
 .post-preview a {
   text-decoration: none;
-  color: #FFF;
+  color: #000;
 }
 
 .post-preview a:focus,
