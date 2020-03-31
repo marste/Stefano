@@ -15,5 +15,5 @@ tags: [patate, forno, croccanti, morbide]
 * Sciacquare le patate sotto dell'acqua fredda per due volte
 * Far bollire dell'acqua in pentola e quando l'acqua bolle, metterci un po' di sale e un po' di aceto
 * Buttare le patate nella pentola, quando l'acqua tornerà a bollire, lasciarle altri 4-5 minuti
-* Scolare le patate e metterle sulla leccarda con un po' di sale, rosmarino, aglio e gli aromi che preferisci (<u>**NON mettere l'olio**</u>)
+* Scolare le patate e metterle sulla leccarda con un po' di sale, rosmarino, aglio e gli aromi che preferisci (**<u>NON mettere l'olio</u>**)
 * Mettere le patate nel forno ventilato a 200°C nel ripiano più in alto per 20 minuti
