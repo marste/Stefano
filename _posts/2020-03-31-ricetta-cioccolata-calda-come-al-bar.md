@@ -7,7 +7,7 @@ share-img: 'https://marzorati.co/img/ricette.png'
 layout: post
 tags: [cioccolata, calda, bar, ciobar]
 ---
-<center><img src="https://marzorati.co/img/post/patate-al-forno.jpg" alt="Patate al forno"></center>   
+<center><img src="https://marzorati.co/img/post/cioccolata-calda.jpg" alt="Cioccolata calda"></center>   
 
 ***Ingredienti per una tazza:*** 
 
