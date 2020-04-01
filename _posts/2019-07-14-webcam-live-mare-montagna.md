@@ -74,7 +74,7 @@ tags:
 <p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
-<img alt="Varese" src="https://www.astrogeo.va.it/casciago/cdf1_hi.jpg">
+<img alt="Varese" src="https://www.astrogeo.va.it/webcam/current/campo_dei_fiori_ovest.jpg">
 </center>
 <p></p>
 <center><strong>LAVENO MOMBELLO</strong> (Varese)</center>   
