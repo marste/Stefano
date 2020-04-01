@@ -57,6 +57,11 @@ tags:
 <img alt="Macugnaga" src="http://www.macugnaga-monterosa.it/images/webcams/val-quarazza-dal-lago-delle-fate.jpg/1024x768.jpg">
 </center>
 <p></p>
+<center><strong>MACUGNAGA</strong> - Madonna delle Nevi (Verbano-Cusio-Ossola)</center>   
+<center>
+<img alt="Macugnaga" src="http://www.macugnaga-monterosa.it/images/webcams/passo-moro-madonna-delle-nevi.jpg/_full.jpg">
+</center>
+<p></p>
 <center><strong>MERANO</strong> - (Bolzano)</center>   
 <center>
 <img alt="Merano" src="https://www.visitmerano.it/webcam/webcam-meran.jpg">
