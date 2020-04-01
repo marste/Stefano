@@ -1,10 +1,8 @@
 ---
 layout: page
-permalink: /categories/
-title: Categories
+permalink: /categorie/
+title: Categorie
 ---
-
-
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
