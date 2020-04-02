@@ -17,6 +17,7 @@ image: 'https://marzorati.co/img/search.png'
 
 <!--test -->
  <form>
+ <div id="search-container">
   <div class="input-group">
     <input type="text" id="search-input" class="form-control" placeholder="Search">
     <div class="input-group-btn">
