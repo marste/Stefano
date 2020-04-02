@@ -15,8 +15,6 @@ image: 'https://marzorati.co/img/search.png'
 </div>
 </center>
 
-
-
 <!-- Script pointing to search-script.js -->
 <script src="/search-script.js" type="text/javascript"></script>
 
