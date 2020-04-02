@@ -11,14 +11,14 @@ image: 'https://marzorati.co/img/search.png'
 <div id="search-container">
 <input type="text" id="search-input" placeholder="search...">
 <br>
+<input class="form-control" type="text" id="search-input" placeholder="Search" aria-label="Search">
 <br>
 <ul id="results-container"></ul>
 </div>
 
 </center>
 
-<!-- Search form -->
-<input class="form-control" type="text" id="search-input" placeholder="Search" aria-label="Search">
+
 
 <!-- Script pointing to search-script.js -->
 <script src="/search-script.js" type="text/javascript"></script>
