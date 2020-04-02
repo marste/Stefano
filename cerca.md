@@ -1,5 +1,13 @@
+---
+layout: page
+title: Google
+permalink: /cerca/
+image: 'https://marzorati.co/img/search.png'
+---
+
 <!-- Html Elements for Search -->
 <center>
+
 <div id="search-container">
 <input type="text" id="search-input" placeholder="search...">
 <ul id="results-container"></ul>
