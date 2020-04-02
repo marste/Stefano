@@ -117,7 +117,7 @@ url-pretty: "https://marzorati.co"
 google_analytics: "UA-38247823-1"
 
 # Google Tag Manager ID
-gtm: "GTM-MRMHBC"
+#gtm: ""
 
 # Facebook App ID
 # fb_app_id: ""
@@ -231,5 +231,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-permalink: /:categories/:title/
