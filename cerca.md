@@ -15,12 +15,7 @@ image: 'https://marzorati.co/img/search.png'
 </div>
 </center>
 
-<!--test -->
-<div id="search-container">
-<input type="text" id="search-input" class="form-control" placeholder="Search">
-<ul id="results-container"></ul>
-</div>
-<!--test -->
+
 
 <!-- Script pointing to search-script.js -->
 <script src="/search-script.js" type="text/javascript"></script>
