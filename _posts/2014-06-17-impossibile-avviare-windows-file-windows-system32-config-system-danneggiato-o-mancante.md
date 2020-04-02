@@ -1,14 +1,7 @@
 ---
-id: 2869
-title: 'Impossibile avviare Windows: file \windows\system32\config\system danneggiato o mancante'
+title: "Impossibile avviare Windows, file windows danneggiato o mancante"
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2869
-permalink: /impossibile-avviare-windows-file-windows-system32-configs-ystem-danneggiato-o-mancante/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2772375146
 categories:
   - Windows
 tags:
