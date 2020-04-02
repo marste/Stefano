@@ -18,7 +18,7 @@ image: 'https://marzorati.co/img/search.png'
 </center>
 
 <!-- Search form -->
-<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+<input class="form-control" type="text" id="search-input" placeholder="Search" aria-label="Search">
 
 <!-- Script pointing to search-script.js -->
 <script src="/search-script.js" type="text/javascript"></script>
