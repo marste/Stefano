@@ -16,7 +16,7 @@ image: 'https://marzorati.co/img/search.png'
 </center>
 
 <div id="search-container">
-      <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+      <input class="form-control" type="text" id="search-input" placeholder="Search" aria-label="Search">
 	  <ul id="results-container"></ul>
 </div>
 
