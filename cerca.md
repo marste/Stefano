@@ -16,18 +16,10 @@ image: 'https://marzorati.co/img/search.png'
 </center>
 
 <!--test -->
- <form>
- <div id="search-container">
-  <div class="input-group">
-    <input type="text" id="search-input" class="form-control" placeholder="Search">
-    <div class="input-group-btn">
-      <button class="btn btn-default" type="submit">
-        <i class="glyphicon glyphicon-search"></i>
-      </button>
-    </div>
-  </div>
-</form>
+<div id="search-container">
+<input type="text" id="search-input" class="form-control" placeholder="Search">
 <ul id="results-container"></ul>
+</div>
 <!--test -->
 
 <!-- Script pointing to search-script.js -->
