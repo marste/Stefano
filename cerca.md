@@ -1,8 +1,10 @@
 <!-- Html Elements for Search -->
+<center>
 <div id="search-container">
 <input type="text" id="search-input" placeholder="search...">
 <ul id="results-container"></ul>
 </div>
+</center>
 
 <!-- Script pointing to search-script.js -->
 <script src="/search-script.js" type="text/javascript"></script>
