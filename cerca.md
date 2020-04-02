@@ -11,6 +11,7 @@ image: 'https://marzorati.co/img/search.png'
 <div id="search-container">
 <input type="text" id="search-input" placeholder="search...">
 <br>
+<br>
 <ul id="results-container"></ul>
 </div>
 </center>
