@@ -5,9 +5,9 @@ layout: null
   {% for post in site.posts %}
     {
 
-      "title"    : "{{ post.title | strip_html | escape }}",
+      "title"    : "{{ post.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "category" : "{{post.categories | join: ', '}}",
+      "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}"
 
