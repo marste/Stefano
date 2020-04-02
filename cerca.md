@@ -14,6 +14,7 @@ image: 'https://marzorati.co/img/search.png'
 <br>
 <ul id="results-container"></ul>
 </div>
+
 </center>
 
 <!-- Script pointing to search-script.js -->
