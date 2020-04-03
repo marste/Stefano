@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Google
-
+permalink: /cerca3/
 image: 'https://marzorati.co/img/search.png'
 ---
 
