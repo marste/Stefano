@@ -8,6 +8,8 @@ image: 'https://marzorati.co/img/search.png'
 <center>
 <div id="search-container">
 <input type="text" id="search-input" class="form-control" placeholder="Search">
+<br>
+<br>
 <ul id="results-container"></ul>
 </div>
 </center>
