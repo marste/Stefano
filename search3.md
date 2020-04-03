@@ -22,10 +22,7 @@ image: 'https://marzorati.co/img/search.png'
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-<<<<<<< HEAD
-=======
-  noResultsText ('Non ho trovato nulla'),
->>>>>>> bb9fd1fa3f99c4522fb3d04865c6dd4c5f0ef3ce
   json: '/search.json'
+  
 })
 </script>
