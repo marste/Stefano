@@ -10,7 +10,7 @@ image: 'https://marzorati.co/img/search.png'
 <input type="text" id="search-input" class="form-control" placeholder="Search">
 <br>
 <br>
-<h3 id="results-container"></h3>
+<h4 id="results-container"></h4>
 </div>
 </center>
 <!--test -->
