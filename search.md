@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Google
-permalink: /search3/
+permalink: /search/
 image: 'https://marzorati.co/img/search.png'
 ---
 <!--test -->
