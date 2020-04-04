@@ -4,7 +4,7 @@ title: Google
 permalink: /search/
 image: 'https://marzorati.co/img/search.png'
 ---
-<!--test -->
+<!-- Search Form -->
 <center>
 <div id="search-container">
 <input type="text" id="search-input" class="form-control" placeholder="Search">
@@ -12,7 +12,7 @@ image: 'https://marzorati.co/img/search.png'
 <b id="results-container"></b>
 </div>
 </center>
-<!--test -->
+<!-- Search Form -->
 
 <!-- Script pointing to search-script.js -->
 <script src="/search-script.js" type="text/javascript"></script>
