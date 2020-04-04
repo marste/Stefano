@@ -7,7 +7,9 @@ image: 'https://marzorati.co/img/search.png'
 <!--test -->
 <center>
 <div id="search-container">
+<div class="md-form mt-0">
 <input type="text" id="search-input" class="form-control" placeholder="Search" aria-label="Search">
+</div>
 <br>
 <b id="results-container"></b>
 </div>
