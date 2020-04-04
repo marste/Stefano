@@ -5,7 +5,9 @@ author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
-bigimg: [https://marzorati.co/img/post/music_1.jpg, https://marzorati.co/img/post/music_2.jpg]
+bigimg:
+  - https://marzorati.co/img/post/music_1.jpg
+  - https://marzorati.co/img/post/music_2.jpg
 tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 ---
 * <a href="https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL.mp3" target="_blank">One World Radio - Tomorrowland</a>  (Bitrate: 192kbit/s)   
