@@ -1,21 +1,12 @@
 ---
 title: Ricetta pizza in 9 passi
-date: 2019-12-26 20:30:00 +0200
+date: 2020-04-05 11:30:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/ricette.png'
 share-img: 'https://marzorati.co/img/ricette.png'
-categories:
-  - Ricette
-tags:
-  - ricetta
-  - pizza
-  - pizzeria
-  - lievito
-  - acqua
-  - sale
-  - farina
-  - olio
+categories: [Ricette]
+tags: [ricetta, pizza, pizzeria, lievito, acqua, sale, farina, zucchero, olio]
 ---
 <p align="center">
   <img src="https://marzorati.co/img/post/pizza.jpg">
@@ -24,18 +15,20 @@ tags:
 
 * 500 grammi di farina 0
 * 3 grammi di lievito di birra disidratato
+* 1 cucchiaino di zucchero
 * 250 grammi di acqua
 * 2 cucchiai di olio di oliva
 * 10 grammi di sale (circa due cucchiaini)
 
 ***Procedimento:***   
 
-* Sciogli **3 grammi di lievito di birra** disidratato in **100 grammi di acqua**.
-* Sciogli **10 grammi di sale** in **150 grammi di acqua**.
-* In una ciotola metti **500 grammi di farina 0**, il composto di **acqua e lievito** e comincia ad impastare.
-* Dopo qualche minuto aggiungi anche il composto di **acqua e sale** e **2 cucchiai di olio extravergine di oliva** e continua ad impastare finchè la pasta non diventa liscia con la consistenza del lobo dell'orecchio.
-* Copri la ciotola con della pellicola trasparente e lascia lievitare nel forno spento per almeno **10 ore** (potete lasciarlo anche 24/48 ore).
-* 30 minuti/1 ora prima della cottura, dividi l'impasto in 3 panetti da 250 grammi l'uno infarinandoli un po'. (per non far attaccare la pasta alle mani, infarinatele).
+* In una ciotola metti **250 grammi di acqua tiepida** e sciogli **3 grammi di lievito di birra** disidratato con un **cucchiaino di zucchero**.
+* Aggiungi i *2 cucchiai di olio di oliva** e continua a mescolare.   
+* Comincia ad **aggiungere la farina** e continua a mescolare.   
+* Aggiungi all'impasto ancora liquido i **10 grammi di sale fino**.   
+* **Aggiungi la rimanente farina** e continua ad impastare finchè la pasta non diventa liscia con la consistenza del lobo dell'orecchio.
+* Fai una croce sull'impasto e coprire la ciotola con della pellicola trasparente e lasciare lievitare nel forno spento (almeno 4-5 ore) o fino a che non si sarà riempita la ciotola. 
+* 30 minuti/1 ora prima della cottura, dividi l'impasto in 3 panetti da 250 grammi l'uno infarinandoli un po'. 
 * Infarinate le teglie (20/25 cm di diametro) e stendi le palline partendo a premerle dal centro verso l'esterno in modo da lasciare un po' di cornicione.
-* Condire a piacimento. Consiglio di mettere la mozzarella **5 minuti prima della fine cottura**
-* Accendere il forno a **220° C** e cuocere per circa **8 minuti**, mettendo la teglia sul penultimo piano del forno.
+* Condire a piacimento. Consiglio di mettere la mozzarella **4 minuti prima della fine cottura**
+* Accendere il forno a **220° C** e cuocere per circa **8 minuti**, mettendo la teglia sul piano più alto del forno.
