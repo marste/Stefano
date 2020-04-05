@@ -1,5 +1,5 @@
 ---
-title: Ricetta pizza in 9 passi
+title: Ricetta pizza in 10 passi
 date: 2020-04-05 11:30:00 +0200
 author: Stefano Marzorati
 layout: post
