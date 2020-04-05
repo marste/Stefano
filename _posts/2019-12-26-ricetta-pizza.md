@@ -8,9 +8,6 @@ share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
 tags: [ricetta, pizza, pizzeria, lievito, acqua, sale, farina, zucchero, olio]
 ---
-<p align="center">
-  <img src="https://marzorati.co/img/post/pizza.jpg">
-</p>   
 ***Ingredienti:***   
 
 * 500 grammi di farina 0
@@ -19,6 +16,10 @@ tags: [ricetta, pizza, pizzeria, lievito, acqua, sale, farina, zucchero, olio]
 * 250 grammi di acqua
 * 2 cucchiai di olio di oliva
 * 10 grammi di sale (circa due cucchiaini)
+
+<p align="center">
+  <img src="https://marzorati.co/img/post/pizza.jpg">
+</p>   
 
 ***Procedimento:***   
 
