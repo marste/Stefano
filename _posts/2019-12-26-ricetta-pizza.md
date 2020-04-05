@@ -22,7 +22,7 @@ tags: [ricetta, pizza, pizzeria, lievito, acqua, sale, farina, zucchero, olio]
 
 ***Procedimento:***   
 
-* In una ciotola metti **250 grammi di acqua tiepida** e sciogli **3 grammi di lievito di birra** disidratato con un **cucchiaino di zucchero**.
+* In una ciotola metti **250 grammi di acqua tiepida** e sciogli **3 grammi di lievito di birra** disidratato con un **cucchiaino di zucchero** lasciando sciogliere per **10 minuti**.
 * Aggiungi i *2 cucchiai di olio di oliva** e continua a mescolare.   
 * Comincia ad **aggiungere la farina** e continua a mescolare.   
 * Aggiungi all'impasto ancora liquido i **10 grammi di sale fino**.   
