@@ -1,6 +1,6 @@
 ---
 title: "Clean BOOT di un lettore Datalogic Falcon X3"
-subitle: Come ripristinare le impostazioni di fabbrica
+subtitle: Come ripristinare le impostazioni di fabbrica
 date: 2020-04-06 15:00:00 +0200
 author: Stefano Marzorati
 layout: post
