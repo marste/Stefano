@@ -10,12 +10,12 @@ tags: [Windows, Name, DisplayName, PowerShell, services, servizio, nome, visuali
 ---
 Da PowerShell digitare **Get-Service** per avere la lista completa di tutti i servizi con il proprio nome.   
 
-Esempio per cercare tutti i servizi con display name che iniziano con *conne...*
+Esempio per cercare tutti i servizi con display name che iniziano con __***conne...***__
 {% highlight powershell %}
 Get-Service | where {($_.DisplayName -like "conne*")}
 {% endhighlight %}
 
-Esempio per cercare tutti i servizi con name che iniziano con *Spooler...*
+Esempio per cercare tutti i servizi con name che iniziano con __***Spooler...***__
 {% highlight powershell %}
 Get-Service | where {($_.Name -like "Spooler*")}
 {% endhighlight %}
