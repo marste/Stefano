@@ -7,7 +7,7 @@ layout: post
 image: 'https://marzorati.co/img/datalogic.png'
 share-img: 'https://marzorati.co/img/datalogic.png'
 categories: [Scanner]
-tags: [Datalogic, ripristino, Falcon, , reset, fabbrica]
+tags: [Datalogic, ripristino, Falcon, reset, fabbrica]
 ---
 * Premere tasto sotto la batteria + SCAN della tastiera
 * Rimettere la batteria
