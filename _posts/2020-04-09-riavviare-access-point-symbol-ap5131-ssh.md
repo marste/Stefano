@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/wifi.png'
 categories: [Network]
 tags: [access, point, symbol, motorola, ap5131, ssh, restart]
 ---
-Se non si possiede più un vecchio browser IE 6 con Java per poter riavviare un AP Symbol, potete collegarvi ad esso via SSH (sperando sia stata aperta la porta 22 in precedenza)
+Se non si possiede più un vecchio browser IE 6 con Java, per poter riavviare un AP Symbol potete collegarvi ad esso via SSH (sperando sia stata aperta la porta 22 in precedenza)
 
 * Collegati via SSH all'indirizzo dell'access-point sulla porta 22
 * User: admin
