@@ -1,5 +1,5 @@
 ---
-title: "Download il nuovo browser Edge basato su Chromium"
+title: "Download nuovo browser Edge basato su Chromium"
 subtitle: Link Ufficiale Microsoft
 date: 2020-04-09 10:00:00 +0200
 author: Stefano Marzorati
