@@ -1,6 +1,6 @@
 ---
 title: "Creare una regola su Outlook via Powershell su Office365"
-date: 2020-04-09 12:00:00 +0200
+date: 2020-04-09 12:30:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/powershell.png'
