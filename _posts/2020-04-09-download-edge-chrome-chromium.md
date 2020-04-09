@@ -7,7 +7,7 @@ layout: post
 image: 'https://marzorati.co/img/edge.png'
 share-img: 'https://marzorati.co/img/edge.png'
 categories: [Browser]
-tags: [Windows, browser, edge, chrome, chromium, link, ufficiale, download]
+tags: [browser, edge, chrome, chromium, link, ufficiale, download]
 ---
 Link per: Windows 10 - Windows 8.1 - Windows 8 - Windows 7 - MacOS - iOS - Android   
 
