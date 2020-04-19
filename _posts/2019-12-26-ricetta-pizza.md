@@ -28,7 +28,7 @@ tags: [ricetta, pizza, pizzeria, lievito, acqua, sale, farina, zucchero, olio]
 * Comincia ad **aggiungere la farina** e continua a mescolare.   
 * Aggiungi all'impasto ancora liquido i **10 grammi di sale fino**.   
 * **Aggiungi la rimanente farina** e continua ad impastare finchè la pasta non diventa liscia con la consistenza del lobo dell'orecchio.
-* Fai una croce sull'impasto e coprire la ciotola con della pellicola trasparente e lasciare lievitare nel forno spento (almeno 4-5 ore) o fino a che non si sarà riempita la ciotola. 
+* Fai una croce sull'impasto e coprire la ciotola con della pellicola trasparente e lasciare lievitare nel forno spento, ma preriscaldato a 50°C (almeno 2-4 ore) o fino a che non si sarà riempita la ciotola. 
 * 30 minuti/1 ora prima della cottura, dividi l'impasto in 3 panetti da 250 grammi l'uno infarinandoli un po'. 
 * Infarinate le teglie (20/25 cm di diametro) e stendi le palline partendo a premerle dal centro verso l'esterno in modo da lasciare un po' di cornicione.
 * Condire a piacimento. Consiglio di mettere la mozzarella **4 minuti prima della fine cottura**
