@@ -9,6 +9,6 @@ share-img: 'https://marzorati.co/img/music.png'
 categories: [audio]
 tags: [audio, extract, video, mp4, mp3]
 ---
-Esempio:
+Esempio:   
 
-`ffmpeg -i input.mp4 -q:a 0 -map a output.mp3`
+`ffmpeg -i input.mp4 -vn audio_only.mp3`
