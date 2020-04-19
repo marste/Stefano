@@ -5,7 +5,6 @@ permalink: /new/
 image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
-
 <style>
 #return-to-top {
     position: fixed;
@@ -86,8 +85,6 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 <script src="//rss.bloople.net/?url=https%3A%2F%2Fwww.wallstreetitalia.com%2Fnews%2Frss&showtitle=false&type=js"></script>
 
 
-
-
 </div>
 <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -107,3 +104,5 @@ $('#return-to-top').click(function () {// When arrow is clicked
 });
 //# sourceURL=pen.js
     </script>
+</body>
+
