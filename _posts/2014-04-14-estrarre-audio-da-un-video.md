@@ -1,20 +1,14 @@
 ---
-id: 2809
-title: Estrarre audio da un video
+title: "Estrarre audio da un video"
+subtitle: MP4 to MP3
+date: 2020-04-19 08:30:00 +0200
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2809
-permalink: /estrarre-audio-da-un-video/
-authorsure_include_css:
-  - 
-categories:
-  - Linux
-  - Windows
-tags:
-  - audio
-  - extract
-  - video
+image: 'https://marzorati.co/img/music.png'
+share-img: 'https://marzorati.co/img/music.png'
+categories: [audio]
+tags: [audio, extract, video, mp4, mp3]
 ---
 Esempio:
 
-`ffmpeg -i c:\video.mp4 -vn -ab 256 c:\audio.mp3`
+`ffmpeg -i input.mp4 -q:a 0 -map a output.mp3`
