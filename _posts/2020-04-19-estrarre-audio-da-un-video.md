@@ -10,5 +10,6 @@ categories: [audio]
 tags: [audio, extract, video, mp4, mp3]
 ---
 Esempio:   
-
-`ffmpeg -i input.mp4 -vn audio_only.mp3`
+~~~batch
+ffmpeg -i input.mp4 -vn audio_only.mp3
+~~~
