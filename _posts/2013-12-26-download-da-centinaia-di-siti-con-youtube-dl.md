@@ -1,23 +1,16 @@
 ---
-id: 2630
 title: Download da centinaia di siti con youtube-dl
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2630
+image: 'https://marzorati.co/img/video.jpg'
+share-img: 'https://marzorati.co/img/video.jpg'
+date: 2020-04-20 08:29:00 +0200
 permalink: /download-da-centinaia-di-siti-con-youtube-dl/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2074452281
-categories:
-  - Linux
-  - Windows
-tags:
-  - download
-  - mp3
-  - porn
-  - video
+categories: [video]
+tags: [download, mp3, porn, video, music]
 ---
+Per poter scaricare da questi siti, potete utilizzare <a href="https://youtube-dl.org/downloads/latest/youtube-dl.exe" target="_blank">youtube-dl</a> da command line.   
+
 1up.com  
 220.ro  
 3sat  
