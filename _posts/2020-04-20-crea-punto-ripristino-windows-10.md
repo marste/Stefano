@@ -13,7 +13,7 @@ Per abilitare **Ripristino configurazione di sistema** in Windows 10 occorre dig
 
 ~~~powershell
 Enable-ComputerRestore -drive "C:\"
-vssadmin resize shadowstorage /on=c: /for=c: /maxsize=8%
+vssadmin resize shadowstorage /on=c: /for=c: /maxsize=4%
 ~~~
 
 Per creare al volo un **punto di ripristino**, basta digitare:   
