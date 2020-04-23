@@ -70,6 +70,20 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
+<center><h1><a name="Salute"><font color="Black">Salute</font></a></h1></center>
+<div id="divRssSalute"></div>
+<script>
+    $('#divRssSalute').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="WallStreet"><font color="Black">Wall Street Italia</font></a></h1></center>
 <div id="divRssWS"></div>
 <script>
