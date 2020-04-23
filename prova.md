@@ -13,7 +13,7 @@ share-img: 'https://marzorati.co/img/news.png'
 				<div id="divRss5"></div>
 				<strong>Code</strong>
 <pre class="prettyprint">
-$('#divRss').FeedEk({
+$('#divRss5').FeedEk({
   FeedUrl:'https://jquery-plugins.net/rss',
   MaxCount: 2,
   DateFormat: 'D',
