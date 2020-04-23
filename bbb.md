@@ -11,6 +11,7 @@ share-img: 'https://marzorati.co/img/news.png'
     .itemDate{font-size:11px;color:#AAAAAA;}
 </style>
 
+<center><h1><a name="Italia"><font color="Black">Italia</font></a></h1></center>
 <div id="divRssItalia"></div>
 <script>
     $('#divRssItalia').FeedEk({
@@ -24,6 +25,7 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
+<center><h1><a name="Affari"><font color="Black">Affari</font></a></h1></center>
 <div id="divRssAffari"></div>
 <script>
     $('#divRssAffari').FeedEk({
@@ -37,9 +39,10 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
+<center><h1><a name="WallStreet"><font color="Black">Wall Street Italia</font></a></h1></center>
 <div id="divRssWS"></div>
 <script>
-    $('#divRss').FeedEk({
+    $('#divRssWS').FeedEk({
     FeedUrl : 'https://www.wallstreetitalia.com/news/rss',
     MaxCount : 10,
     ShowDesc : true,
