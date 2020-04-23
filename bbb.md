@@ -56,6 +56,20 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
+<center><h1><a name="Tecnologia"><font color="Black">Tecnologia</font></a></h1></center>
+<div id="divRssTecnologia"></div>
+<script>
+    $('#divRssTecnologia').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="WallStreet"><font color="Black">Wall Street Italia</font></a></h1></center>
 <div id="divRssWS"></div>
 <script>
