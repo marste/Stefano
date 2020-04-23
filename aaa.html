@@ -9,194 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!--scripts-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://rawgit.com/bbClassic/YRSS/master/yrss.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+ <script type="text/javascript" src="FeedEk.min.js"></script>
     
-    <!--styles-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    
-    <style>
-        html,body {
-        -webkit-font-smoothing:antialiased;
-        -webkit-text-size-adjust:100%;
-        background-color:#fff;
-        color:#222;
-        font-family:"Montserrat", arial, sans-serif;
-        font-size:100%;
-        font-weight:400;
-        height:100%;
-        line-height:1.45;
-        }
-        
-        #wrapper {
-        margin:0 auto;
-        max-width:1200px;
-        padding:3rem 0;
-        width:90%;
-        }
-        
-        #intro {
-        text-align:center;
-        }
-        
-        #intro h1 {
-        color:#006b3a;
-        font-size:3rem;
-        font-weight:600;
-        }
-        
-        #intro p {
-        font-weight:500;
-        margin-bottom:3rem;
-        }
-        
-        #intro p a {
-        color:#006b3a;
-        }
-        
-        .yrss {
-        -webkit-perspective:1;
-        column-fill:balance;
-        column-gap:2rem;
-        margin:0;
-        padding:0;
-        }
-        
-        .entry-wrapper {
-        background-color:#006b3a;
-        border-radius:1px;
-        display:inline-block;
-        margin-bottom:2rem;
-        position:relative;
-        vertical-align:top;
-        width:100%;
-        }
-        
-        .entry-image img {
-        border-radius:1px 1px 0 0;
-        display:block;
-        height:auto;
-        max-width:100%;
-        width:100%;
-        }
-        
-        .entry-title h4 {
-        font-size:1.5rem;
-        line-height:1.2;
-        }
-        
-        .entry-title h4 a {
-        color:#fff;
-        text-decoration:none;
-        transition:color 200ms ease-in-out;
-        }
-        
-        .entry-title h4 a:hover {
-        color:rgba(255,255,255,.7);
-        }
-        
-        .entry-title h4 a::after {
-        content:"\02197";
-        margin-left:.5rem;
-        }
-        
-        .entry-date {
-        color:#fff;
-        font-size:.75rem;
-        padding:.625rem 0 0;
-        }
-        
-        .entry-image + .entry-text .entry-date {
-        background-color:#006b3a;
-        position:absolute;
-        top:0;
-        right:0;
-        padding:.25rem .5rem;
-        border-radius:0 0 0 1px;
-        }
-        
-        .entry-text {
-        padding:1rem;
-        }
-        
-        .entry-image + .entry-text {
-        border-top:3px solid #00371d;
-        }
-        
-        .entry-content {
-        color:#fff;
-        margin:.625rem 0 0;
-        }
-        
-        .entry-content:empty {
-        display:none;
-        }
-        
-        @media only screen and (min-width:480px) {
-            .yrss {
-            column-count:1;
-            }
-        }
-        
-        @media only screen and (min-width:700px) {
-            .yrss {
-            column-count:2;
-            }
-        }
-        
-        @media only screen and (min-width:900px) {
-            .yrss {
-            column-count:3;
-            }
-        }
-        
-        @media only screen and (min-width:1200px) {
-            .yrss {
-            column-count:4;
-            }
-        }
-    </style>
+   
 </head>
 
 <body>
-<div id="wrapper">
-    <div id="intro">
-        <h1>The Onion</h1>
-        <p>Top stories loaded by <a href="https://github.com/bbClassic/YRSS">YRSS</a>.</p>
-    </div>
-    <div id="feed"></div>
-</div>
-
+<div id="divRss"></div>
+    
 <script>
-    var feed = 'https://marzorati.co/rss';
-    $('#feed').yrss(feed, {
-        ssl: false,
-        limit: 20,
-        reverse: false,
-        cache: true,
-        maxage: 3600,
-        showerror: true,
-        errormsg: '',
-        tags: true,
-        date: true,
-        dateformat: 'spellmonth',
-        titletag: 'h4',
-        content: true,
-        image: true,
-        snippet: false,
-        snippetlimit: 120,
-        linktarget: '_blank',
-        logging: true
-    }, function () {
-        // optional callback function
-        $('.entry-content').each(function () {
-            if (!$(this).is(':empty')) {
-                $(this).find('p:last-child').remove();
-            }
-        });
-    });
+    $('#divRss').FeedEk({
+    FeedUrl : 'https://jquery-plugins.net/rss',
+    MaxCount : 5,
+    ShowDesc : true,
+    ShowPubDate:true,
+    DescCharacterLimit:100,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'MM/dd/yyyy',
+    DateFormatLang : 'en'
+  });
 </script>
 </body>
 </html>
