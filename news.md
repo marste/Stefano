@@ -48,6 +48,14 @@ share-img: 'https://marzorati.co/img/news.png'
 }
 </style>
 
+
+<style>
+    .itemTitle a{font-weight:bold; font-size:18px; color:#008AFF; text-decoration:none }
+    .itemTitle a:hover{ text-decoration:underline }
+    .itemDate{font-size:11px;color:#AAAAAA;}
+</style>
+
+
 <script>
   window.console = window.console || function(t) {};
 </script>
@@ -64,20 +72,94 @@ share-img: 'https://marzorati.co/img/news.png'
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 
+
 <center><a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#WallStreet">Wall Street Italia</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
 
+
 <center><h1><a name="Italia"><font color="Black">Italia</font></a></h1></center>
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait&limit=10&showtitle=false&showdate=1&type=js"></script>
+<div id="divRssItalia"></div>
+<script>
+    $('#divRssItalia').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="Affari"><font color="Black">Affari</font></a></h1></center>
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&limit=10&showtitle=false&type=js"></script>
+<div id="divRssAffari"></div>
+<script>
+    $('#divRssAffari').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="Mondo"><font color="Black">Mondo</font></a></h1></center>
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&limit=10&showtitle=false&type=js"></script>
+<div id="divRssMondo"></div>
+<script>
+    $('#divRssMondo').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="Tecnologia"><font color="Black">Tecnologia</font></a></h1></center>
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&limit=10&showtitle=false&type=js"></script>
+<div id="divRssTecnologia"></div>
+<script>
+    $('#divRssTecnologia').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="Salute"><font color="Black">Salute</font></a></h1></center>
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Ftopics%2FCAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ%3Fhl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait&limit=10&showtitle=false&type=js"></script>
+<div id="divRssSalute"></div>
+<script>
+    $('#divRssSalute').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="WallStreet"><font color="Black">Wall Street Italia</font></a></h1></center>
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fwww.wallstreetitalia.com%2Fnews%2Frss&showtitle=false&type=js"></script>
+<div id="divRssWS"></div>
+<script>
+    $('#divRssWS').FeedEk({
+    FeedUrl : 'https://www.wallstreetitalia.com/news/rss',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 
 
 <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
@@ -98,3 +180,4 @@ $('#return-to-top').click(function () {// When arrow is clicked
 });
 //# sourceURL=pen.js
     </script>
+
