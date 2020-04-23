@@ -8,19 +8,15 @@ share-img: 'https://marzorati.co/img/news.png'
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="FeedEk.min.js"></script>
 
-<div id="divRss">
+<div class="col-md-4">
 
-<script type="text/javascript">
- $('#divRss').FeedEk({
-    FeedUrl : 'https://jquery-plugins.net/rss',
-    MaxCount : 5,
-    ShowDesc : true,
-    ShowPubDate:true,
-    DescCharacterLimit:100,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'MM/dd/yyyy',
-    DateFormatLang : 'en'
-  });
-  </script>
-  
-  </div>
+				<div id="divRss5"></div>
+				<strong>Code</strong>
+<pre class="prettyprint">
+$('#divRss').FeedEk({
+  FeedUrl:'https://jquery-plugins.net/rss',
+  MaxCount: 2,
+  DateFormat: 'D',
+  DateFormatLang:'fr-FR'
+});
+</pre>
