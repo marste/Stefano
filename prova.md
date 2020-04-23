@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ultime Notizie
-permalink: /test/
+permalink: /prova/
 image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
