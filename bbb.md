@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/news.png'
 <style>
     .itemTitle a{font-weight:bold; color:#4EBAFF !important; text-decoration:none }
     .itemTitle a:hover{ text-decoration:underline }
-    .itemDate{font-size:11px;color:#AAAAAA;}
+    .itemDate{font-size:16px;color:#AAAAAA;}
 </style>
 
 <div id="divRss"></div>
