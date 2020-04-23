@@ -48,13 +48,13 @@ share-img: 'https://marzorati.co/img/news.png'
 }
 </style>
 
-<-- per RSS -->
+
 <style>
     .itemTitle a{font-weight:bold; font-size:18px; color:#008AFF; text-decoration:none }
     .itemTitle a:hover{ text-decoration:underline }
     .itemDate{font-size:11px;color:#AAAAAA;}
 </style>
-<-- per RSS -->
+
 
 <script>
   window.console = window.console || function(t) {};
