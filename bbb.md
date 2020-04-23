@@ -39,6 +39,20 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
+<center><h1><a name="Mondo"><font color="Black">Mondo</font></a></h1></center>
+<div id="divRssMondo"></div>
+<script>
+    $('#divRssMondo').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="WallStreet"><font color="Black">Wall Street Italia</font></a></h1></center>
 <div id="divRssWS"></div>
 <script>
