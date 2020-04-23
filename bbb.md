@@ -20,7 +20,7 @@ share-img: 'https://marzorati.co/img/news.png'
     MaxCount : 10,
     ShowDesc : true,
     ShowPubDate:true,
-    DescCharacterLimit:300,
+    DescCharacterLimit:
     TitleLinkTarget:'_blank',
     DateFormat : 'dd/MM/yyyy',
     DateFormatLang : 'it'
@@ -34,7 +34,7 @@ share-img: 'https://marzorati.co/img/news.png'
     MaxCount : 10,
     ShowDesc : true,
     ShowPubDate:true,
-    DescCharacterLimit:300,
+    DescCharacterLimit:
     TitleLinkTarget:'_blank',
     DateFormat : 'dd/MM/yyyy',
     DateFormatLang : 'it'
