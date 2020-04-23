@@ -6,7 +6,6 @@ image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
 
-
 <div id="divRss"></div>
     
 <script>
@@ -15,7 +14,7 @@ share-img: 'https://marzorati.co/img/news.png'
     MaxCount : 10,
     ShowDesc : true,
     ShowPubDate:true,
-    DescCharacterLimit:500,
+    DescCharacterLimit:300,
     TitleLinkTarget:'_blank',
     DateFormat : 'dd/MM/yyyy',
     DateFormatLang : 'it'
