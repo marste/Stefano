@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src='FeedEk.min.js'></script>
+<script src='https://marzorati.co/FeedEk.min.js'></script>
 
 <div id="divRss"></div>
     
