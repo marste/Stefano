@@ -11,6 +11,9 @@ share-img: 'https://marzorati.co/img/news.png'
     .itemDate{font-size:11px;color:#AAAAAA;}
 </style>
 
+<center><a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#WallStreet">Wall Street Italia</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
+
+
 <center><h1><a name="Italia"><font color="Black">Italia</font></a></h1></center>
 <div id="divRssItalia"></div>
 <script>
