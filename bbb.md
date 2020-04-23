@@ -11,7 +11,7 @@ share-img: 'https://marzorati.co/img/news.png'
     
 <script>
     $('#divRss').FeedEk({
-    FeedUrl : 'https://jquery-plugins.net/rss',
+    FeedUrl : 'https://www.wallstreetitalia.com/news/rss',
     MaxCount : 10,
     ShowDesc : true,
     ShowPubDate:true,
