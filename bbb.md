@@ -29,7 +29,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 <script>
     $('#divRss').FeedEk({
-    FeedUrl : 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait',
     MaxCount : 10,
     ShowDesc : true,
     ShowPubDate:true,
