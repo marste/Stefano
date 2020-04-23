@@ -26,3 +26,16 @@ share-img: 'https://marzorati.co/img/news.png'
     DateFormatLang : 'it'
   });
 </script>
+
+<script>
+    $('#divRss').FeedEk({
+    FeedUrl : 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    DescCharacterLimit:300,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
