@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/news.png'
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="FeedEk.min.js"></script>
 
-<div id="divRss"></div>
+<div id="divRss">
 
 <script type="text/javascript">
  $('#divRss').FeedEk({
@@ -22,3 +22,5 @@ share-img: 'https://marzorati.co/img/news.png'
     DateFormatLang : 'en'
   });
   </script>
+  
+  </div>
