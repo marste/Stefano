@@ -13,6 +13,11 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ '/rss.xml' | absolute_url }}" />
   <link rel="apple-touch-icon-precomposed" href="https://marzorati.co/img/favicon.png">
   <link rel="icon" href="https://marzorati.co/img/favicon.png">
+  
+	<!-- Style per RSS -->
+	<script src="{{ "/js/jquery-1.9.1.min.js" | relative_url }}"></script>
+	<script src="{{ "/js/FeedEk.min.js" | relative_url }}"></script>
+	<!-- Style per RSS -->
 
   {% include gtag.html %}
   {% include gtm_head.html %}
@@ -125,10 +130,5 @@
   <!-- Staticman -->
   <link rel="stylesheet" href="{{ "/css/staticman.css" | relative_url }}" />
   {% endif %}
-
-
-<script src="{{ "/js/jquery-1.9.1.min.js" | relative_url }}"></script>
-<script src="{{ "/js/FeedEk.min.js" | relative_url }}"></script>
-
 
 </head>
