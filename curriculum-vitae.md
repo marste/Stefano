@@ -155,7 +155,7 @@ ___
 ### **IT Consultant**   
 {: style="font-size: 1.6rem; text-align: left;"}
 
-*<b>TC Sistema S.p.A.</b> - Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza*   
+*<b><a href="https://www.soldionline.it/notizie/azioni-italia/tc-sistema-arriva-il-fallimento" target="_blank">TC Sistema S.p.A.</a></b> - Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza*   
 
 * Sistemista di rete specializzato nell’installazione ed amministrazione di server Lotus Domino.
 * Docente di corsi Lotus Domino Administrator.
@@ -168,7 +168,7 @@ ___
 ### **Hardware Engineer**   
 {: style="font-size: 1.6rem; text-align: left;"}
 
-*<b>TC Sistema S.p.A.</b> - Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza*   
+*<b><a href="https://www.soldionline.it/notizie/azioni-italia/tc-sistema-arriva-il-fallimento" target="_blank">TC Sistema S.p.A.</a></b> - Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza*   
 
 * Tecnico Hardware specializzato in installazione, riparazione e manutenzione di PC, stampanti locali o di rete, servers (tecnico interno esterno presso clienti)
 
