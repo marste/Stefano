@@ -5,6 +5,7 @@ permalink: /news/
 image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
+<!-- Style per bottone top -->
 <style>
 #return-to-top {
     position: fixed;
@@ -47,14 +48,14 @@ share-img: 'https://marzorati.co/img/news.png'
     top: 5px;
 }
 </style>
-
-
+<!-- Style per bottone top -->
+<!-- Style per RSS -->
 <style>
     .itemTitle a{font-weight:bold; font-size:18px; color:#008AFF; text-decoration:none }
     .itemTitle a:hover{ text-decoration:underline }
     .itemDate{font-size:11px;color:#AAAAAA;}
 </style>
-
+<!-- Style per RSS -->
 
 <script>
   window.console = window.console || function(t) {};
