@@ -10,4 +10,4 @@ tags: [caratteri, codici, ascii]
 ---
 Premere ALT+ il codice presente in tabella   
 
-![ASCII](https://marzorati.co/img/post/ascii_codici_caratteri.gif)
+<center><img src="https://marzorati.co/img/post/ascii_codici_caratteri.gif" alt="Caratteri ASCII"></center>
