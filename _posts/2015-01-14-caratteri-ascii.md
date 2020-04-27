@@ -1,15 +1,13 @@
 ---
 title: Caratteri ASCII
 author: Stefano Marzorati
+date: 2020-04-27 10:25:00 +0200
 layout: post
-permalink: /caratteri-ascii/
-comments: true
-categories:
-  - Windows
-  - Linux
-tags:
-  - caratteri
-  - codici
-  - ascii
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
+categories: [Codici]
+tags: [caratteri, codici, ascii]
 ---
-![ASCII](https://farm8.staticflickr.com/7501/16279921185_010f6608da_o.gif)
+Premere ALT+ il codice presente in tabella   
+
+![ASCII](https://marzorati.co/img/post/ascii_codici_caratteri.gif)
