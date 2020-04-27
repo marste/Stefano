@@ -10,8 +10,6 @@ bigimg:
   - https://marzorati.co/img/post/music_2.jpg
 tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 ---
-<center>
-
 * <a href="https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL.mp3" target="_blank">One World Radio - Tomorrowland</a>  (Bitrate: 192kbit/s)   
 * <a href="https://streams.fluxfm.de/technoug/mp3-320/radiode/" target="_blank">Techno Underground</a> (Bitrate: 320kbit/s)   
 * <a href="http://streams.fluxfm.de/bbeachhouse/mp3-320/" target="_blank">Berlin Beach House</a> (Bitrate: 320kbit/s)   
@@ -27,5 +25,3 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 * <a href="http://sj128.hnux.com/live?type=http&nocache=272543" target="_blank">SmoothJazz.com Global</a> (Bitrate: 128kbit/s)   
 * <a href="http://fluxfm.hoerradar.de/flux-80er-mp3-hq?sABC=5po0nr8q%230%237r0op38pr913007379oq5nn513r6r944%23syhksz.qr_jrocynlre&amsparams=playerid:fluxfm.de_webplayer;skey:1555082893" target="_blank">Flux FM 80's</a> (Bitrate: 320kbit/s)   
 * <a href="http://178.32.136.9/proxy/cjaccari?mp=/;" target="_blank">Negozi OVS</a> (Bitrate: 128kbit/s)   
-
-</center>
