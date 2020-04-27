@@ -10,6 +10,7 @@ bigimg:
   - https://marzorati.co/img/post/music_2.jpg
 tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 ---
+<center>
 <table>
 <tbody>
 <tr>
@@ -59,3 +60,4 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 </tr>
 </tbody>
 </table>
+</center>
