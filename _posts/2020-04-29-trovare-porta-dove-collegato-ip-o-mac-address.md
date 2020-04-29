@@ -10,9 +10,9 @@ tags: [arp, find, mac address, trovare, porta, switch]
 published: true
 ---
 Una volta che avete individuato l'indirizzo IP e lo pingate, digitate semplicemente il comando:
-
-`arp -a`
-
+~~~telnet
+arp -a
+~~~
 Nella lista di IP ci sarà anche quello che cercate con il suo relativo **MAC ADDRESS**.
 
 Se volete avere più informazioni inerenti a quel <a href="https://macvendors.com/" target="_blank">MAC ADDRESS</a>, ad esempio il **produttore della scheda di rete**.   
