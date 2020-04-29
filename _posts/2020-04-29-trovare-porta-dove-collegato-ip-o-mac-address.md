@@ -1,12 +1,12 @@
 ---
-title: Scoprire MAC ADDRESS di un device remoto
+title: Trovare su che porta è collegato un certo device conoscendo solo l'IP address
 author: Stefano Marzorati
 layout: post
 date: 2020-04-29 16:00:00 +0200
 image: 'https://marzorati.co/img/terminal.png'
 share-img: 'https://marzorati.co/img/terminal.png'
 categories: [networking]
-tags: [arp, find, mac address, trovare]
+tags: [arp, find, mac address, trovare, porta, switch]
 published: false
 ---
 Una volta che avete individuato l&#8217;indirizzo IP e lo pingate, digitate semplicemente il comando:
