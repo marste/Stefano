@@ -25,3 +25,4 @@ Se volete esportare in un file csv **tutti i logon falliti**, digitate:
 ~~~powershell
 GET-EVENTLOG -Logname Security | where { $_.EntryType -eq 'FailureAudit' } | export-csv C:\Failures.csv
 ~~~
+:scream: :stuck_out_tongue_closed_eyes:
