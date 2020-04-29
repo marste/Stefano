@@ -12,12 +12,12 @@ baseurl: ""
 #baseurl: "/projectname"
 
 # Tipue search settings
-tipue_search:
-  include:
-    pages: true
-  exclude:
-    files: [tags.html]
-# Of course don't forget to change the username and projectname to YOUR username and project
+#tipue_search:
+#  include:
+#    pages: true
+#  exclude:
+#    files: [tags.html]
+
 
 # Name of website
 title: Stefano Marzorati
