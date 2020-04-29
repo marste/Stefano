@@ -3,8 +3,8 @@ title: Trovare su che porta è collegato un certo device conoscendo solo l'IP ad
 author: Stefano Marzorati
 layout: post
 date: 2020-04-29 16:00:00 +0200
-image: 'https://marzorati.co/img/terminal.png'
-share-img: 'https://marzorati.co/img/terminal.png'
+image: 'https://marzorati.co/img/cisco.png'
+share-img: 'https://marzorati.co/img/cisco.png'
 categories: [networking]
 tags: [arp, find, mac address, trovare, porta, switch]
 published: true
