@@ -17,22 +17,17 @@ Nella lista di IP ci sarà anche quello che cercate con il suo relativo **MAC AD
 
 Se volete avere più informazioni inerenti a quel <a href="https://macvendors.com/" target="_blank">MAC ADDRESS</a>, ad esempio il **produttore della scheda di rete**.   
 Poi collegatevi sullo switch Cisco che fa da centro stella e digitate:   
-
 ~~~telnet
 show mac address-table address 6400.6a16.3f4c
 ~~~
-
 Avrete una risposta che vi indica su quale porta trova quel mac address:   
 ~~~telnet
 Gi1/0/5
 ~~~
-
 A questo punto digitate:   
-
 ~~~telnet
 show cdp neighbors
 ~~~
-
 e vi verrà mostrato lo switch successivo da cui passare per arrivare a quel mac-address.   
 Andate avanti così finchè non lo troverete su una porta che non è una porta di rilancio.   
 
