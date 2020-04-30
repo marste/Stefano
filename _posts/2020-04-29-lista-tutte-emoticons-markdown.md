@@ -3,8 +3,8 @@ title: Ecco la lista completa di tutte le emoticons che potete fare in Markdown
 author: Stefano Marzorati
 layout: post
 date: 2020-04-29 23:00:00 +0200
-image: 'https://marzorati.co/img/powershell.png'
-share-img: 'https://marzorati.co/img/powershell.png'
+image: 'https://marzorati.co/img/jekyll.png'
+share-img: 'https://marzorati.co/img/jekyll.png'
 categories: [markdown]
 tags: [gemoji, emoticons, markdown, jekyll, liquid]
 published: true
