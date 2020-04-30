@@ -6,7 +6,7 @@ layout: post
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
 categories: [Codici]
-tags: [caratteri, codici, ascii]
+tags: [caratteri, codici, ascii, tilde]
 ---
 Premere ALT+ il codice presente in tabella   
 
