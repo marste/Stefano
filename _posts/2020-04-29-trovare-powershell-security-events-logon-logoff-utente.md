@@ -9,7 +9,8 @@ categories: [powershell]
 tags: [find, security, events, logon, logoff, failed]
 published: true
 ---
-<p>This article will take {{ content | reading_time | pluralize: "minute" }} to read.</p>
+ {% capture time %}{{ content | reading_time }}{% endcapture %}
+  <p>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</p>
 
 Per trovare tutti gli eventi in cui la persona ***s.marzorati*** ha eseguito un **logon**:
 ~~~powershell
