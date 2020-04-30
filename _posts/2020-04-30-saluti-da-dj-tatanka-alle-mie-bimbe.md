@@ -9,3 +9,7 @@ categories: [audio]
 tags: [audio, tatanka, tana, bisonti, vocal, voce, unicorn, mario, più, remix]
 ---
 {% include youtubePlayer.html id=HUyLhS92QDs %}
+
+<div class="video">
+    <iframe src="//www.youtube.com/embed/HUyLhS92QDs" frameborder="0" allowfullscreen></iframe>
+</div>
