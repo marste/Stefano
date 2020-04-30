@@ -1,5 +1,5 @@
 ---
-title: Saluti da DJ Tatanka alle mie bimbe
+title: Saluti alle mie bimbe da DJ Tatanka
 author: Stefano Marzorati
 layout: post
 date: 2020-04-30 15:00:00 +0200
