@@ -9,9 +9,6 @@ categories: [powershell]
 tags: [find, security, events, logon, logoff, failed]
 published: true
 ---
- {% capture time %}{{ content | reading_time }}{% endcapture %}
-  <p>This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.</p>
-
 Per trovare tutti gli eventi in cui la persona ***s.marzorati*** ha eseguito un **logon**:
 ~~~powershell
 Get-WinEvent -LogName Security -FilterXPath "*[System[EventID=4624 and TimeCreated[timediff(@SystemTime) <= 86400000]] and EventData[Data[@Name='SubjectUserName'] and Data = 's.marzorati']]"
