@@ -12,12 +12,12 @@ baseurl: ""
 #baseurl: "/projectname"
 
 # Tipue search settings
-tipue_search:
-  include:
-    pages: true
-  exclude:
-    files: [tags.html]
-# Of course don't forget to change the username and projectname to YOUR username and project
+#tipue_search:
+#  include:
+#    pages: true
+#  exclude:
+#    files: [tags.html]
+
 
 # Name of website
 title: Stefano Marzorati
@@ -228,6 +228,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jemoji
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
