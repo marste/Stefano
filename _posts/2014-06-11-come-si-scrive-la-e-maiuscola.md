@@ -1,19 +1,16 @@
 ---
-id: 2867
-title: 'Come si scrive la &#8220;è&#8221; maiuscola'
+title: 'Come si scrivono la A E I O U maiuscole accentate?'
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2867
-permalink: /come-si-scrive-la-e-maiuscola/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2754844079
-categories:
-  - Windows
-tags:
-  - accentata
-  - È
-  - maiuscola
+date: 2020-05-07 08:25:00 +0200
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
+categories: [Windows]
+tags: [accento, a e i o u, maiuscola, vocali]
 ---
-Premi **ALT + 0200** dal tastierino numerico
+À = Alt + 0192
+È = Alt + 0200
+Ì = Alt + 0204
+Ò = Alt + 0210
+Ù = Alt + 0217
+
