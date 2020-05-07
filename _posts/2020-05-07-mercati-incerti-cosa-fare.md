@@ -36,3 +36,5 @@ Con un Piano di Accumulo riduci il rischio di investire nel momento sbagliato.
 **8. GUARDATI ALLO SPECCHIO**   
 Non cedere al panico.   
 I tuoi obiettivi non cambiano con gli alti e bassi di mercato.   
+
+<center><img src="https://marzorati.co/img/post/ripresa_mercati.png" alt="ripresa_mercati"></center>
