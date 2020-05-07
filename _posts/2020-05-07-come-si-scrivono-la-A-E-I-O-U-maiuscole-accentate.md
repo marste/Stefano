@@ -8,9 +8,10 @@ share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows]
 tags: [accento, a e i o u, maiuscola, vocali]
 ---
-À = Alt + 0192
-È = Alt + 0200
-Ì = Alt + 0204
-Ò = Alt + 0210
-Ù = Alt + 0217
+À = Alt + 0192   
+È = Alt + 0200   
+Ì = Alt + 0204   
+Ò = Alt + 0210   
+Ù = Alt + 0217   
+
 
