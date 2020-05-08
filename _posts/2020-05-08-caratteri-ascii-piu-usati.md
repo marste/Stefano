@@ -13,8 +13,8 @@ tags: [ascii, play, smile, utilizzati, frequenti, caratteri]
 <tbody>
   <tr>
     <td>•</td>
-    <td>Puntino</td>
-    <td>ALT+7</td>
+    <td>Puntino - Elenco puntato</td>
+    <td>ALT+0149</td>
   </tr>
   <tr>
     <td>►</td>
