@@ -8,36 +8,28 @@ share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows]
 tags: [accento, a e i o u, maiuscola, vocali]
 ---
-**À** = <code>Alt + 0192</code>   
-**È** = <code>Alt + 0200</code>   
-**Ì** = <code>Alt + 0204</code>   
-**Ò** = <code>Alt + 0210</code>   
-**Ù** = <code>Alt + 0217</code>   
-
-
-
 <center>
 <table>
 <tbody>
 
   <tr>
-    <td>**À**</td>
+    <td><b>À</b></td>
     <td><code>Alt + 0192</code></td>
   </tr>
     <tr>
-    <td>**È**</td>
+    <td><b>È</b></td>
     <td><code>Alt + 0200</code></td>
   </tr>
     <tr>
-    <td>**Ì**</td>
+    <td><b>Ì</b></td>
     <td><code>Alt + 0204</code></td>
   </tr>
     <tr>
-    <td>**Ò**</td>
+    <td><b>Ò</b></td>
     <td><code>Alt + 0210</code></td>
   </tr>
     <tr>
-    <td>**Ù**</td>
+    <td><b>Ù</b></td>
     <td><code>Alt + 0217</code></td>
   </tr>
 
