@@ -9,7 +9,7 @@ categories: [Teams]
 tags: [sfondo, wallpaper, immagine, teams, background, path]
 published: true
 ---
-• Creare un'immagine di dimensioni **1920x1080 pixel** con **risoluzione 72 pixel/pollice**.   
-• Riflettere l'immagine come se fosse allo specchio.   
+* Creare un'immagine di dimensioni **1920x1080 pixel** con **risoluzione 72 pixel/pollice**.   
+* Riflettere l'immagine come se fosse allo specchio.   
 Da Photoshop fare: **Modifica ► Trasforma ► Rifletti orizzontale**.   
-• Salvare l'immagine in: <code>%AppData%\Microsoft\Teams\Backgrounds\Uploads</code>
+* Salvare l'immagine in: <code>%AppData%\Microsoft\Teams\Backgrounds\Uploads</code>
