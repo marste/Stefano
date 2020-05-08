@@ -61,6 +61,33 @@ tags: [ascii, play, smile, utilizzati, frequenti, caratteri]
     <td>Cuore</td>
     <td>ALT+3</td>
   </tr>
+  <tr>
+    <td>À</td>
+    <td>A maiuscola accentata</td>
+    <td>ALT+0192</td>
+  </tr>
+  <tr>
+    <td>È</td>
+    <td>E maiuscola accentata</td>
+    <td>ALT+0200</td>
+  </tr>
+  <tr>
+    <td>Ì</td>
+    <td>I maiuscola accentata</td>
+    <td>ALT+0204</td>
+  </tr>
+  <tr>
+    <td>Ò</td>
+    <td>O maiuscola accentata</td>
+    <td>ALT+0210</td>
+  </tr>
+  <tr>
+    <td>Ù</td>
+    <td>U maiuscola accentata</td>
+    <td>ALT+0217</td>
+  </tr>
 </tbody>
 </table>
 </center>
+   
+   
