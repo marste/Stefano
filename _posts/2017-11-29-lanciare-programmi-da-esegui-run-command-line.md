@@ -16,29 +16,42 @@ tags:
   - command line
 published: true
 ---
-**Controlli Accessibilità**   
-`access.cpl`
+<center>
+<table>
+<tbody>
 
-**Wizard Accessibilità**   
-`accwiz`
+  <tr>
+    <td>Aggiungi Hardware</td>
+    <td>hdwwiz.cpl</td>
+  </tr>
+  
+  <tr>
+    <td>Aggiungi/Rimuovi applicazioni</td>
+    <td>appwiz.cpl</td>
+  </tr>
+  
+  <tr>
+    <td>Strumenti Amministrazione</td>
+    <td>control admintools</td>
+  </tr>
+  
+  <tr>
+    <td>Trasferimento Guidato Bluetooth</td>
+    <td>fsquirt</td>
+  </tr>
+  
+  <tr>
+    <td>Calcolatrice</td>
+    <td>calc</td>
+  </tr>
 
-**Aggiungi Hardware**   
-`hdwwiz.cpl`
+</tbody>
+</table>
+</center>
 
-**Aggiungi/Rimuovi hardware**   
-`appwiz.cpl`
-   
-**Strumenti Amministrazione**   
-`control admintools`
 
-**Aggiornamenti Automatici**
-`wuaucpl.cpl`
 
-**Trasferimento Guidato Bluetooth**
-`fsquirt`
-	
-**Calcolatrice**
-`calc`
+
 
 **Certificati**
 `certmgr.msc`
@@ -48,9 +61,6 @@ published: true
 
 **Esegui Check Disk**
 `chkdsk`
-
-**Visualizza Clipboard**
-`clipbrd`
 
 **Finestra DOS**
 `cmd`
@@ -67,10 +77,8 @@ published: true
 **Proprietà Data/Ora**   
 `timedate.cpl`
 
-**Condivisioni DDE**   
-`ddeshare`
 
-**Gestione Periferiche**   
+**Gestione Dispositivi**   
 `devmgmt.msc`
 
 **Diagnostica Direct X**   
@@ -88,10 +96,10 @@ published: true
 **Gestione Partizione Disco**   
 `diskpart`
 
-**Proprietà Schermo**   
+**Sfondo**   
 `control desktop`
 
-**Proprietà Schermo**   
+**Impostazioni Schermo**   
 `desk.cpl`
 
 **Driver Verifier Manager**   
@@ -100,13 +108,11 @@ published: true
 **Visualizzatore Eventi**   
 `eventvwr.msc`
 
-**Trasferimento Guidato File e Impostazioni**   
-`migwiz`
 
 **Verifica Firma File**   
 `sigverif`
 
-**Opzioni Cartella**   
+**Opzioni Esplora file**   
 `control folders`
 
 **Font**   
@@ -157,29 +163,17 @@ published: true
 **Proprietà Mouse**   
 `main.cpl`
 
-**Connessioni di Rete**   
-`control netconnections`
 
 **Connessioni di Rete**   
 `ncpa.cpl`
 
-**Connessioni Guidata Rete**   
-`netsetup.cpl`
 
 **Notepad**   
 `notepad`
 
-**Amministrazione Origine Dati ODBC**   
-`odbccp32.cpl`
-
 **Tastiera su Schermo**   
 `osk`
-   
-**Proprietà Password**   
-`password.cpl`
-
-**Monitor Performance**   
-`perfmon.msc`
+  
 
 **Monitor Performance**   
 `perfmon`
@@ -199,37 +193,28 @@ published: true
 **Cartella Stampanti**   
 `printers`
 
-**Impostazioni Regionali**   
+**Area Geografica**   
 `intl.cpl`
 
 **Editor del Registro di Sistema**   
 `regedit`
 
-**Editor del Registro di Sistema**   
-`regedit32`
-
-**Rubrica per la Connessione Remota**   
+**Connessione Remota - VPN**   
 `rasphone`
 
 **Desktop Remoto**   
 `mstsc`
 
-**Archivi Removibili**   
-`ntmsmgr.msc`
 
-**Richieste Operatore per Archivi Removibili**   
-`ntmsoprq.msc`
 
 **Gruppo di Criteri Risultante**   
 `rsop.msc`
 
-**Scanner e Macchine Fotografiche**   
-`sticpl.cpl`
 
 **Operazioni Pianificate**   
 `control schedtasks`
 
-**Centro Sicurezza**   
+**Centro Sicurezza - Ripristino PC**   
 `wscui.cpl`
 
 **Servizi**   
@@ -262,16 +247,10 @@ published: true
 **Task Manager**   
 `taskmgr`
 
-**TCP Tester**   
-`tcptest`
-
 **Telnet Client**   
 `telnet`
 
-**Gestione Account Utente**   
-`nusrmgr.cpl`
-
-**Assistente Vocale**   
+**Accessibilità**   
 `utilman`
 
 **Windows Explorer**   
