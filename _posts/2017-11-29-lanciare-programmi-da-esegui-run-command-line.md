@@ -3,17 +3,10 @@ layout: post
 title: Lanciare programmi Windows da esegui o cmd
 date: '2017-11-29 12:00:00 +0200'
 author: Stefano Marzorati
-image: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
-share-img: 'http://mininook.com/wp-content/uploads/2014/03/utilities-terminal-icon.png'
-categories:
-  - Windows
-tags:
-  - esegui
-  - programmi
-  - windows
-  - run
-  - pannello controllo
-  - command line
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
+categories: [Windows]
+tags: [esegui, programmi, windows, run, pannello controllo, command line]
 published: true
 ---
 <center>
@@ -44,88 +37,133 @@ published: true
     <td>Calcolatrice</td>
     <td>calc</td>
   </tr>
+  
+  <tr>
+    <td>Certificati</td>
+    <td>certmgr.msc</td>
+  </tr>
+  
+   <tr>
+    <td>Mappa Caratteri</td>
+    <td>charmap</td>
+  </tr>
+  
+    <tr>
+    <td>Esegui Check Disk</td>
+    <td>chkdsk</td>
+  </tr>
+  
+   <tr>
+    <td>Finestra DOS</td>
+    <td>cmd</td>
+  </tr>
+  
+   <tr>
+    <td>Servizi Componenti</td>
+    <td>dcomcnfg</td>
+  </tr>
+  
+   <tr>
+    <td>Gestione Computer</td>
+    <td>compmgmt.msc</td>
+  </tr>
+  
+  <tr>
+    <td>Pannello di Controllo</td>
+    <td>control</td>
+  </tr>
+  
+   <tr>
+    <td>Proprietà Data/Ora</td>
+    <td>timedate.cpl</td>
+  </tr>
+  
+  <tr>
+    <td>Gestione Dispositivi</td>
+    <td>devmgmt.msc</td>
+  </tr>
+  
+    <tr>
+    <td>Diagnostica Direct X</td>
+    <td>dxdiag</td>
+  </tr>
+  
+   <tr>
+    <td>Pulizia Disco</td>
+    <td>cleanmgr</td>
+  </tr>
+  
+   <tr>
+    <td>Deframmentazione Disco</td>
+    <td>dfrg.msc</td>
+  </tr>
+  
+    <tr>
+    <td>Gestione Disco</td>
+    <td>diskmgmt.msc</td>
+  </tr>
 
+ <tr>
+    <td>Gestione Partizione Disco</td>
+    <td>diskpart</td>
+  </tr>
+  
+   <tr>
+    <td>Sfondo</td>
+    <td>control desktop</td>
+  </tr>
+  
+   <tr>
+    <td>Impostazioni Schermo</td>
+    <td>desk.cpl</td>
+  </tr>
+  
+   <tr>
+    <td>Driver Verifier Manager</td>
+    <td>verifier</td>
+  </tr>
+  
+    <tr>
+    <td>Visualizzatore Eventi</td>
+    <td>eventvwr.msc</td>
+  </tr>
+  
+    <tr>
+    <td>Verifica Firma File</td>
+    <td>sigverif</td>
+  </tr>
+  
+   <tr>
+    <td>Opzioni Esplora file</td>
+    <td>control folders</td>
+  </tr>
+  
+   <tr>
+    <td>Fonts</td>
+    <td>control fonts</td>
+  </tr>
+  
+  <tr>
+    <td>Cartella Fonts</td>
+    <td>fonts</td>
+  </tr>
+  
+   <tr>
+    <td>Controlli Gioco</td>
+    <td>joy.cpl</td>
+  </tr>
+  
+   <tr>
+    <td>Criterio Gruppo</td>
+    <td>gpedit.msc</td>
+  </tr>
+  
 </tbody>
 </table>
 </center>
 
 
 
-
-
-**Certificati**
-`certmgr.msc`
-
-**Mappa Caratteri**
-`charmap`
-
-**Esegui Check Disk**
-`chkdsk`
-
-**Finestra DOS**
-`cmd`
-
-**Servizi Componenti**   
-`dcomcnfg`
-
-**Gestione Computer**   
-`compmgmt.msc`
-
-**Pannello di Controllo**   
-`control`
-
-**Proprietà Data/Ora**   
-`timedate.cpl`
-
-
-**Gestione Dispositivi**   
-`devmgmt.msc`
-
-**Diagnostica Direct X**   
-`dxdiag`
-
-**Pulizia Disco**   
-`cleanmgr`
-
-**Deframmentazione Disco**   
-`dfrg.msc`
-
-**Gestione Disco**   
-`diskmgmt.msc`
-
-**Gestione Partizione Disco**   
-`diskpart`
-
-**Sfondo**   
-`control desktop`
-
-**Impostazioni Schermo**   
-`desk.cpl`
-
-**Driver Verifier Manager**   
-`verifier`
-
-**Visualizzatore Eventi**   
-`eventvwr.msc`
-
-
-**Verifica Firma File**   
-`sigverif`
-
-**Opzioni Esplora file**   
-`control folders`
-
-**Font**   
-`control fonts`
-
-**Cartella Font**   
-`fonts`
-
-**Controlli Gioco**   
-`joy.cpl`
-
-**Criterio Gruppo**   
-`gpedit.msc`
   
 **Iexpress Wizard**   
 `iexpress`
