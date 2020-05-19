@@ -158,114 +158,169 @@ published: true
     <td>gpedit.msc</td>
   </tr>
   
+   <tr>
+    <td>Iexpress Wizard</td>
+    <td>iexpress</td>
+  </tr>
+  
+   <tr>
+    <td>Internet Explorer</td>
+    <td>iexplore</td>
+  </tr>
+  
+  <tr>
+    <td>Proprietà Internet</td>
+    <td>inetcpl.cpl</td>
+  </tr>
+  
+   <tr>
+    <td>Proprietà Tastiera</td>
+    <td>control keyboard</td>
+  </tr>
+  
+   <tr>
+    <td>Impostazioin Protezione Locale</td>
+    <td>secpol.msc</td>
+  </tr>
+  
+  <tr>
+    <td>Utenti e Gruppi Locali</td>
+    <td>lusrmgr.msc</td>
+  </tr>
+  
+  <tr>
+    <td>Uscire da Windows</td>
+    <td>logoff</td>
+  </tr>
+  
+   <tr>
+    <td>Strumento di Rimozione Malware</td>
+    <td>mrt</td>
+  </tr>
+  
+  <tr>
+    <td>Microsoft Paint</td>
+    <td>mspaint</td>
+  </tr>
+  
+   <tr>
+    <td>Microsoft Syncronization Tool</td>
+    <td>mobsync</td>
+  </tr>
+  
+   <tr>
+    <td>Proprietà Mouse</td>
+    <td>control mouse</td>
+  </tr>
+  
+   <tr>
+    <td>Connessioni di Rete</td>
+    <td>ncpa.cpl</td>
+  </tr>
+  
+  <tr>
+    <td>Notepad</td>
+    <td>notepad</td>
+  </tr>
+  
+  <tr>
+    <td>Tastiera su Schermo</td>
+    <td>osk</td>
+  </tr>
+  
+   <tr>
+    <td>Monitor Performance</td>
+    <td>perfmon</td>
+  </tr>
+  
+   <tr>
+    <td>Opzioni Telefono e Modem</td>
+    <td>telephon.cpl</td>
+  </tr>
+  
+   <tr>
+    <td>Connessione Telefonica</td>
+    <td>dialer</td>
+  </tr>
+  
+   <tr>
+    <td>Opzioni Risparmio Energia</td>
+    <td>powercfg.cpl</td>
+  </tr>
+  
+    <tr>
+    <td>Stampanti e Fax</td>
+    <td>control printers</td>
+  </tr>
+  
+   <tr>
+    <td>Cartella Stampanti</td>
+    <td>printers</td>
+  </tr>
+  
+    <tr>
+    <td>Area Geografica</td>
+    <td>intl.cpl</td>
+  </tr>
+  
+   <tr>
+    <td>Editor del Registro di Sistema</td>
+    <td>regedit</td>
+  </tr>
+  
+   <tr>
+    <td>Connessione Remota - VPN</td>
+    <td>rasphone</td>
+  </tr>
+  
+   <tr>
+    <td>Desktop Remoto</td>
+    <td>mstsc</td>
+  </tr>
+  
+    <tr>
+    <td>Gruppo di Criteri Risultante</td>
+    <td>rsop.msc</td>
+  </tr>
+  
+   <tr>
+    <td>Operazioni Pianificate</td>
+    <td>control schedtasks</td>
+  </tr>
+  
+   <tr>
+    <td>Centro Sicurezza - Ripristino PC</td>
+    <td>wscui.cpl</td>
+  </tr>
+  
+  <tr>
+    <td>Servizi</td>
+    <td>services.msc</td>
+  </tr>
+  
+  <tr>
+    <td>Cartelle Condivise</td>
+    <td>fsmgmt.msc</td>
+  </tr>
+  
+   <tr>
+    <td>Chiusura Windows</td>
+    <td>shutdown</td>
+  </tr>
+  
+    <tr>
+    <td>Suoni e Periferiche Audio</td>
+    <td>mmsys.cpl</td>
+  </tr>
+  
+    <tr>
+    <td>Suoni e Periferiche Audio</td>
+    <td>mmsys.cpl</td>
+  </tr>
+  
 </tbody>
 </table>
 </center>
-
-
-
-  
-**Iexpress Wizard**   
-`iexpress`
-    
-**Internet Explorer**   
-`iexplore`
-
-**Proprietà Internet**   
-`inetcpl.cpl`
-
-**Proprietà Tastiera**   
-`control keyboard`
-
-**Impostazioin Protezione Locale**   
-`secpol.msc`
-
-**Utenti e Gruppi Locali**   
-`lusrmgr.msc`
-
-**Uscire da Windows**   
-`logoff`
-
-**Strumento di Rimozione Malware**   
-`mrt`
- 
-**Microsoft Paint**   
-`mspaint`
-
-**Microsoft Syncronization Tool**   
-`mobsync`
-
-**Proprietà Mouse**   
-`control mouse`
-
-**Proprietà Mouse**   
-`main.cpl`
-
-
-**Connessioni di Rete**   
-`ncpa.cpl`
-
-
-**Notepad**   
-`notepad`
-
-**Tastiera su Schermo**   
-`osk`
-  
-
-**Monitor Performance**   
-`perfmon`
-
-**Opzioni Telefono e Modem**   
-`telephon.cpl`
-
-**Connessione Telefonica**   
-`dialer`
-
-**Opzioni Risparmio Energia**   
-`powercfg.cpl`
-
-**Stampanti e Fax**   
-`control printers`
-
-**Cartella Stampanti**   
-`printers`
-
-**Area Geografica**   
-`intl.cpl`
-
-**Editor del Registro di Sistema**   
-`regedit`
-
-**Connessione Remota - VPN**   
-`rasphone`
-
-**Desktop Remoto**   
-`mstsc`
-
-
-
-**Gruppo di Criteri Risultante**   
-`rsop.msc`
-
-
-**Operazioni Pianificate**   
-`control schedtasks`
-
-**Centro Sicurezza - Ripristino PC**   
-`wscui.cpl`
-
-**Servizi**   
-`services.msc`
-
-**Cartelle Condivise**   
-`fsmgmt.msc`
-
-**Chiusura Windows**   
-`shutdown`
-
-**Souni e Periferiche Audio**   
-`mmsys.cpl`
 
 **Utilità di rete Configurazione SQL**   
 `cliconfg`
