@@ -9,7 +9,7 @@ categories: [android]
 tags: [change, dns, cambiare, android, app, vpn, cloudflare]
 published: true
 ---
-Se volete cambiare DNS sul vostro smartphone Android senza utilizzare nessuna APP del tipo "DNS Changer", potete semplicemente andare nelle impostazioni ► Wireless e reti ► DNS privato.   
+Se volete cambiare DNS sul vostro smartphone Android senza utilizzare nessuna APP del tipo "DNS Changer", potete semplicemente andare nelle Impostazioni ► Wireless e reti ► DNS privato.   
 Qua occorre inserire l'host name del server DNS e non l'indirizzo IP.   
 Per cui se volete inserire i DNS di Google, basterà mettere <code>dns.google.com</code>, invece se volete inserire i DNS di CloudFlare basterà inserire <code>1dot1dot1dot1.cloudflare-dns.com</code>.   
 Se avrete scelto CloudFlare, potrete verificare il corretto funzionamento di questo DNS andando sulla pagina <a href="https://cloudflare-dns.com/help/" target="_blank">https://cloudflare-dns.com/help/</a>   
