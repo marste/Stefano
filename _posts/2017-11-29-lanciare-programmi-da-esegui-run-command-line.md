@@ -318,48 +318,71 @@ published: true
     <td>mmsys.cpl</td>
   </tr>
   
+    <tr>
+    <td>Utilità di rete Configurazione SQL</td>
+    <td>cliconfg</td>
+  </tr>
+  
+   <tr>
+    <td>Editor di Configurazione di Sistema</td>
+    <td>sysedit</td>
+  </tr>
+  
+   <tr>
+    <td>Utilità di Configurazione di Sistema</td>
+    <td>msconfig</td>
+  </tr>
+  
+   <tr>
+    <td>Informazioni di Sitema</td>
+    <td>msinfo32</td>
+  </tr>
+  
+     <tr>
+    <td>Proprietà di Sistema</td>
+    <td>sysdm.cpl</td>
+  </tr>
+  
+     <tr>
+    <td>Task Manager</td>
+    <td>taskmgr</td>
+  </tr>
+  
+       <tr>
+    <td>Accessibilità</td>
+    <td>utilman</td>
+  </tr>
+  
+     <tr>
+    <td>Windows Explorer</td>
+    <td>explorer</td>
+  </tr>
+  
+   <tr>
+    <td>Windows Firewall</td>
+    <td>firewall.cpl</td>
+  </tr>
+  
+   <tr>
+    <td>Windows Magnifier</td>
+    <td>magnify</td>
+  </tr>
+  
+   <tr>
+    <td>Windows Management Infrastructure</td>
+    <td>wmimgmt.msc</td>
+  </tr>
+  
+  <tr>
+    <td>Versione di Windows</td>
+    <td>winver</td>
+  </tr>
+  
+   <tr>
+    <td>Wordpad</td>
+    <td>write</td>
+  </tr>
+  
 </tbody>
 </table>
 </center>
-
-**Utilità di rete Configurazione SQL**   
-`cliconfg`
-
-**Editor di Configurazione di Sistema**   
-`sysedit`
-
-**Utilità di Configurazione di Sistema**   
-`msconfig`
-
-**Informazioni di Sitema**   
-`msinfo32`
-
-**Proprietà di Sistema**   
-`sysdm.cpl`
-
-**Task Manager**   
-`taskmgr`
-
-**Telnet Client**   
-`telnet`
-
-**Accessibilità**   
-`utilman`
-
-**Windows Explorer**   
-`explorer`
-
-**Windows Firewall**   
-`firewall.cpl`
-
-**Windows Magnifier**   
-`magnify`
-
-**Windows Management Infrastructure**   
-`wmimgmt.msc`
-   
-**Versione di Windows**   
-`winver`
-
-**Wordpad**   
-`write`
