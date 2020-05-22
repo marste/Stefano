@@ -2710,7 +2710,7 @@ select[multiple].form-group-sm .form-control {
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
-  line-height: 32px;
+  line-height: 1.5;
 }
 .input-lg {
   height: 46px;
