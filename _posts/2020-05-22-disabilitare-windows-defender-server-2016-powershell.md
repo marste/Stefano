@@ -9,16 +9,16 @@ categories: [Server]
 tags: [Msmpeng.exe, Server, defender, antivirus, installa, disinstalla, powershell]
 published: true
 ---
-Per verificare che il servizio di Windows Defender è realmente attivo e in esecuzione, basta digitare:<code>sc query Windefend</code>   
+Per verificare che il servizio di Windows Defender è realmente attivo e in esecuzione, basta digitare:~~~batch sc query Windefend~~~   
 
 Se vuoi disabilitarlo, fai così:   
 
 * Apri Windows Powershell come administrator
-* Digita <code>Uninstall-WindowsFeature -Name Windows-Defender</code>
+* Digita ~~~powershell Uninstall-WindowsFeature -Name Windows-Defender~~~
 * Riavvia il server
 
 Se vorrai riabilitare Windows Defender, fai così:   
 
 * Apri Windows Powershell come administrator
-* Digita <code>Install-WindowsFeature -Name Windows-Defender</code>
+* Digita ~~~powershell Install-WindowsFeature -Name Windows-Defender~~~
 * Riavvia il server
