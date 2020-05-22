@@ -17,7 +17,7 @@ sc query Windefend
 Se vuoi disabilitarlo, fai così:   
 
 * Apri Windows Powershell come administrator
-* Digita 
+* Digita: 
 ~~~powershell 
 Uninstall-WindowsFeature -Name Windows-Defender
 ~~~
@@ -26,7 +26,7 @@ Uninstall-WindowsFeature -Name Windows-Defender
 Se vorrai riabilitare Windows Defender, fai così:   
 
 * Apri Windows Powershell come administrator
-* Digita
+* Digita:
 ~~~powershell 
 Install-WindowsFeature -Name Windows-Defender
 ~~~
