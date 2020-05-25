@@ -6,31 +6,8 @@ author: Stefano Marzorati
 image: 'https://marzorati.co/img/webcam.png'
 share-img: 'https://marzorati.co/img/webcam.png'
 layout: post
-categories:
-  - vacanza
-tags:
-  - mare
-  - montagna
-  - webcam
-  - live
-  - genova
-  - macugnaga
-  - chamois
-  - aosta
-  - varese
-  - campo dei fiori
-  - piemonte
-  - omegna
-  - orta
-  - lago
-  - verbano
-  - cusio
-  - ossola
-  - varigotti
-  - savona
-  - varazze
-  - gatteo
-  - laveno
+categories: [webcam]
+tags: [webcam, mare, montagna, live, lago]
 ---
 <center><strong>BOGLIASCO</strong> (Genova) - Riviera di Levante</center>   
 <center>
