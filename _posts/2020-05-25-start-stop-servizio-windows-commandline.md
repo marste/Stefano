@@ -6,7 +6,7 @@ author: Stefano Marzorati
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows]
-tags: [services, servizio, start, stop, commandline]
+tags: [services, servizio, start, stop, commandline, cmd]
 published: true
 ---
 Normalmente utilizziamo **services.msc** per avviare o arrestare o disabilitare o abilitare qualsiasi servizio.   
