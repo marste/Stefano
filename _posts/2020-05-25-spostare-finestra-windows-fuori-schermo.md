@@ -13,3 +13,4 @@ Tenere premuto il tasto **Shift (Maiusc) + click col tasto destro** sull’icona
 Fai click su **Sposta** e poi utilizza le **frecce della tastiera** per riportare la finestra all'interno dello schermo.   
 
 In alternativa puoi premere **ALT+Space** e poi **R** per ripristinare la finestra.   
+ 
