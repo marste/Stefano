@@ -3,8 +3,8 @@ title: Stampante offline
 date: 2020-05-26 14:20:00 +0200
 published: true
 layout: post
-image: 'https://marzorati.co/img/konica.png'
-share-img: 'https://marzorati.co/img/konica.png'
+image: 'https://marzorati.co/img/konica.jpeg'
+share-img: 'https://marzorati.co/img/konica.jpeg'
 categories: [Printer]
 tags: [offline, printer, rete, snmp, stampante]
 ---
