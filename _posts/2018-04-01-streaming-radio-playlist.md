@@ -17,16 +17,16 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL.mp3" target="_blank">One World Radio - Tomorrowland</a> - (Bitrate: 192kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://streams.fluxfm.de/technoug/mp3-320/radiode/" target="_blank">Techno Underground</a> - (Bitrate: 320kbit/s)</td>
+<td style="text-align: center;"><a href="https://radiofg.impek.com/fg" target="_blank">Radio FG</a> - (Bitrate: 320kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://streams.fluxfm.de/bbeachhouse/mp3-320/" target="_blank">Berlin Beach House</a> - (Bitrate: 320kbit/s)</td>
+<td style="text-align: center;"><a href="http://streamplus17.leonex.de:10928/;447304705388607stream.nsv" target="_blank">CueBase FM</a> - (Bitrate: 320kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://streams.fluxfm.de/klubradio/mp3-320/" target="_blank">Klub Radio</a> - (Bitrate: 320kbit/s)</td>
+<td style="text-align: center;"><a href="http://www.ophanim.net:8400/;" target="_blank">NYC House Radio</a> - (Bitrate: 320kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://streams.fluxfm.de/soundofberlin/mp3-320/" target="_blank">Sound of Berlin</a> - (Bitrate: 320kbit/s)</td>
+<td style="text-align: center;"><a href="https://mp3.stream.tb-group.fm/tb.mp3?/technobase.ogg" target="_blank">TechnoBase.FM</a> - (Bitrate: 320kbit/s)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://streams.fluxfm.de/90er/mp3-320/" target="_blank">XRadio 90's</a> - (Bitrate: 320kbit/s)</td>
@@ -35,7 +35,7 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://streams.fluxfm.de/80er/mp3-128/" target="_blank">XRadio 80's</a> - (Bitrate: 320kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://217.182.192.240:12021/stream/1/" target="_blank">Otto FM Anni 80</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="https://mp3.stream.tb-group.fm/trb.mp3?" target="_blank">TranceBase FM</a> - (Bitrate: 128kbit/s)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos</a> - (Bitrate: 96kbit/s)</td>
