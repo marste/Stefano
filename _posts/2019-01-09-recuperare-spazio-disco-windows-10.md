@@ -5,16 +5,8 @@ published: true
 layout: post
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
-categories:
-  - Windows
-tags:
-  - windows
-  - spazio
-  - disco
-  - compact
-  - query
-  - always
-  - never
+categories: [Windows]
+tags: [spazio, disco, compact, query, always, never, compattare]
 ---
 Per verificare se la modalità Compact OS è attiva:   
 
