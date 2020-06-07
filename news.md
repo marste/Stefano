@@ -78,7 +78,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 <center><h1><a name="Principali"><font color="Black">Principali</font></a></h1></center>
-<div id="divRssItalia"></div>
+<div id="divRssPrincipali"></div>
 <script>
     $('#divRssPrincipali').FeedEk({
     FeedUrl : 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
