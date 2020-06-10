@@ -74,8 +74,22 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 
-<center><a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#WallStreet">Wall Street Italia</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
+<center><a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#WallStreet">Wall Street Italia</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
 
+
+<center><h1><a name="Principali"><font color="Black">Principali</font></a></h1></center>
+<div id="divRssPrincipali"></div>
+<script>
+    $('#divRssPrincipali').FeedEk({
+    FeedUrl : 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
+    MaxCount : 10,
+	ShowPubDate:true,
+    ShowDesc : true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
 
 <center><h1><a name="Italia"><font color="Black">Italia</font></a></h1></center>
 <div id="divRssItalia"></div>
