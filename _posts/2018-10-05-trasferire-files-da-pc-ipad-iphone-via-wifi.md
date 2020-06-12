@@ -24,7 +24,7 @@ A questo punto trascinate i files o le cartelle nel browser che verranno trasfer
 
 **Update: Dopo gli ultimi aggiornamenti di iOS l'app non permette l'uso della fotocamera per scannerizzare il QRCode.**   
 
-Una valida alternativa è la seguente: <a href="https://marzorati.co/trasferire-files-da-pc-ipad-iphone-via-wifi/" target="_blank">Documents di Readdle/</a>
+Una valida alternativa è la seguente: <a href="https://readdle.com/it/documents/how-to-transfer-files" target="_blank">Documents di Readdle</a>
 
 <div class="video">
     <iframe src="//www.youtube.com/embed/2Czaw0IPHKo" frameborder="0" allowfullscreen></iframe>
