@@ -19,8 +19,8 @@ p a {
   color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'sans-serif';
-  font-weight: 800;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
   word-wrap: break-word;
 }
 a {
@@ -515,7 +515,7 @@ footer .theme-by {
     font-size: 50px;
   }
   .intro-header .post-heading h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
