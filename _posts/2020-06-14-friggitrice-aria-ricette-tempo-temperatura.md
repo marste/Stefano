@@ -1,5 +1,6 @@
 ---
-title: "Friggitrice ad aria - Tempi e temperature"
+title: "Ricette con la friggitrice ad aria"
+subtitle: Tempi e temperature
 author: Stefano Marzorati
 date: 2020-06-16 17:30:00 +0200
 image: 'https://marzorati.co/img/ricette.png'
