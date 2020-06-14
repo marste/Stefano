@@ -69,3 +69,13 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Gatteo Mare" src="http://31.3.189.179:8081/cgi-bin/faststream.jpg?stream=full&fps=2&rand=685120">
 </center>
 <p></p>
+<center><strong>MARINA DI CAMPO - Isola d'Elba</strong> (Livorno)</center>   
+<center>
+<img alt="Marina di Campo" src="https://cam.elbalink.it/webcam_spiaggia_marina_di_campo/camping_del_mare.jpg">
+</center>
+<p></p>
+<center><strong>PROCCHIO - Isola d'Elba</strong> (Livorno)</center>   
+<center>
+<img alt="Procchio" src="https://www.virtualelba.it/webcam/elba.jpg">
+</center>
+<p></p>
