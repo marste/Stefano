@@ -59,7 +59,7 @@ ___
 ___
 
 **Patate a spicchi**   
-• Quantità: 500 grammi
+• Quantità: 500 grammi   
 • Temperatura: 180/200°C   
 • Tempo: 20 minuti - 4 minuti a 180°C + 16 minuti a 200°C (mescolare ogni 4 minuti)   
 ___
