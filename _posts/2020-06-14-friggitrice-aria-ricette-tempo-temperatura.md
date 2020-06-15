@@ -59,8 +59,9 @@ ___
 ___
 
 **Patate a spicchi**   
-• Temperatura: 200°C   
-• Tempo: 7/8 minuti   
+• Quantità: 500 grammi
+• Temperatura: 180/200°C   
+• Tempo: 20 minuti - 4 minuti a 180°C + 16 minuti a 200°C (mescolare ogni 4 minuti)   
 ___
 
 **Calamari o totani**   
