@@ -101,7 +101,7 @@ img {
 .navbar-custom {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-custom .nav li a {
@@ -569,7 +569,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
