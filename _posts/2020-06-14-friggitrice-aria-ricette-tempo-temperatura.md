@@ -59,9 +59,16 @@ ___ * * * - - - - - -
 ___ * * * - - - - - -
 
 **Patate a spicchi**   
+<<<<<<< HEAD
 • Temperatura: 200°C   
 • Tempo: 7/8 minuti   
 ___ * * * - - - - - -
+=======
+• Quantità: 500 grammi   
+• Temperatura: 180/200°C   
+• Tempo: 20 minuti - 4 minuti a 180°C + 16 minuti a 200°C (mescolare ogni 4 minuti)   
+___
+>>>>>>> c4267896e9d6074b607f58d387c282435b3a4619
 
 **Calamari o totani**   
 • Temperatura: 200°C   
