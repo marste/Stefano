@@ -44,7 +44,7 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 **Alici** infarinate   
 • Quantità: 250 grammi   
 • Temperatura: 200°C   
-• Tempo: 8 minuti   
+• Tempo: 8 minuti (girarle ogni 4 minuti )   
 
 --- --- --- --- --- --- ---
 
@@ -76,6 +76,6 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 
 **Calamari o totani** infarinati    
 • Temperatura: 200°C   
-• Tempo: 8 minuti   
+• Tempo: 8 minuti (girarli ogni 4 minuti)   
 
 --- --- --- --- --- --- ---
