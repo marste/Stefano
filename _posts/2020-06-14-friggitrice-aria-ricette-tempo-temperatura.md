@@ -13,58 +13,58 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 • Quantità: 500 grammi   
 • Temperatura: 180°C   
 • Tempo: 17 minuti (scuotere ogni 3/4 minuti)   
-______________
+___________________________
 
 **Spiedini**   
 • Temperatura: 200°C   
 • Tempo: 7 minuti   
-______________
+___________________________
 
 **Cosce di pollo**   
 • Quantità: 3   
 • Temperatura: 200°C   
 • Tempo: 6 minuti + 7 minuti   
-______________
+___________________________
 
 **Mele a fettine**   
 • Temperatura: 160°C   
 • Tempo: 5 minuti   
-______________
+___________________________
 
 **Hamburger**   
 • Temperatura: 200°C   
 • Tempo: 4 minuti + 4 minuti   
-______________
+___________________________
 
 **Alici**   
 • Quantità: 250 grammi   
 • Temperatura: 200°C   
 • Tempo: 6/7 minuti   
-______________
+___________________________
 
 **Costine**   
 • Temperatura: 180°C   
 • Tempo: 10 minuti + 10 minuti   
-______________
+___________________________
 
 **Bocconcini di vitello**   
 • Quantità: 350 grammi   
 • Temperatura: 200°C   
 • Tempo: 7 minuti   
-______________
+___________________________
 
 **Bastoncini di pesce Findus**   
 • Temperatura: 180°C   
 • Tempo: 9 minuti   
-______________
+___________________________
 
 **Patate a spicchi**   
 • Quantità: 500 grammi   
 • Temperatura: 180/200°C   
 • Tempo: 20 minuti - 4 minuti a 180°C + 16 minuti a 200°C (mescolare ogni 4 minuti)   
-______________
+___________________________
 
 **Calamari o totani**   
 • Temperatura: 200°C   
 • Tempo: 7/8 minuti   
-______________
+___________________________
