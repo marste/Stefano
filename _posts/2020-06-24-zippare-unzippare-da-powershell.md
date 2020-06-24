@@ -3,8 +3,8 @@ title: Zippare e Unzippare da Powershell
 date: 2020-06-24 15:40:00 +0200
 published: true
 layout: post
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/powershell.png'
+share-img: 'https://marzorati.co/img/powershell.png'
 categories: [Powershell]
 tags: [zip, unzip, comprimere, espandere, powershell]
 ---
