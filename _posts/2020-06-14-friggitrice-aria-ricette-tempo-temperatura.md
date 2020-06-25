@@ -2,7 +2,7 @@
 title: "Ricette con la friggitrice ad aria"
 subtitle: Tempi e temperature
 author: Stefano Marzorati
-date: 2020-06-16 17:30:00 +0200
+date: 2020-06-25 20:30:00 +0200
 image: 'https://marzorati.co/img/ricette.png'
 share-img: 'https://marzorati.co/img/ricette.png'
 layout: post
@@ -87,7 +87,7 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 ---
 
 **Crocchette di patate surgelate**   
-• Temperatura: 200°Calamari   
+• Temperatura: 200°C   
 • Tempo: 8 minuti (girarli ogni 4 minuti)   
 
 ---
