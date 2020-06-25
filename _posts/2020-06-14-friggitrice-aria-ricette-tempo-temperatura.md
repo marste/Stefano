@@ -79,3 +79,16 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 • Tempo: 8 minuti (girarli ogni 4 minuti)   
 
 --- --- --- --- --- --- ---
+
+**Filetti di Merluzzo freschi** con un filo d'olio, pangrattato e una spolverata di farina    
+• Temperatura: 180°C per 10 minuti + 200°C per 3 minuti   
+• Tempo: 13 minuti
+
+---
+
+**Crocchette di patate surgelate**   
+• Temperatura: 200°Calamari   
+• Tempo: 8 minuti (girarli ogni 4 minuti)   
+
+---
+
