@@ -92,3 +92,8 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 
 ---
 
+**Salsiccia**   
+• Temperatura: 200°C   
+• Tempo: 9 minuti (girarla dopo 4 minuti)   
+
+---
