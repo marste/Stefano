@@ -2,7 +2,7 @@
 title: "Ricette con la friggitrice ad aria"
 subtitle: Tempi e temperature
 author: Stefano Marzorati
-date: 2020-06-25 20:30:00 +0200
+date: 2020-06-29 20:30:00 +0200
 image: 'https://marzorati.co/img/ricette.png'
 share-img: 'https://marzorati.co/img/ricette.png'
 layout: post
@@ -69,8 +69,8 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 
 **Patate a spicchi**   
 • Quantità: 500 grammi   
-• Temperatura: 180/200°C   
-• Tempo: 20 minuti - 4 minuti a 180°C + 16 minuti a 200°C (mescolare ogni 4 minuti)   
+• Temperatura: 200°C   
+• Tempo: 18 minuti (mescolare ogni 4 minuti)   
 
 ---
 
@@ -95,5 +95,11 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 **Salsiccia**   
 • Temperatura: 200°C   
 • Tempo: 9 minuti (girarla dopo 4 minuti)   
+
+---
+
+**Filetti di Merluzzo surgelato** solo con qualche poof di olio nel cestello e sopra i filetti ancora surgelati    
+• Temperatura: 200°C   
+• Tempo: 16 minuti
 
 ---
