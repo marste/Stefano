@@ -62,8 +62,8 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 ---
 
 **Bastoncini di pesce Findus**   
-• Temperatura: 180°C   
-• Tempo: 9 minuti   
+• Temperatura: 200°C   
+• Tempo: 8 minuti   
 
 ---
 
