@@ -2,7 +2,7 @@
 layout: page
 title: Google
 permalink: /search/
-image: 'https://marzorati.co/img/search.png'
+image: 'https://marzorati.co/img/google.png'
 ---
 <!-- Search Form -->
 <center>
