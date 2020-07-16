@@ -74,7 +74,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 
-<center><a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#WallStreet">Wall Street Italia</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
+<center><a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#FinanciaLounge">FinanciaLounge</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
 
 
 <center><h1><a name="Principali"><font color="Black">Principali</font></a></h1></center>
@@ -161,11 +161,11 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
-<center><h1><a name="WallStreet"><font color="Black">Wall Street Italia</font></a></h1></center>
-<div id="divRssWS"></div>
+<center><h1><a name="FinanciaLounge"><font color="Black">FinanciaLounge</font></a></h1></center>
+<div id="divRssFL"></div>
 <script>
-    $('#divRssWS').FeedEk({
-    FeedUrl : 'https://www.wallstreetitalia.com/news/rss',
+    $('#divRssFL').FeedEk({
+    FeedUrl : 'https://www.financialounge.com/feed/',
     MaxCount : 10,
     ShowDesc : true,
     ShowPubDate:true,
