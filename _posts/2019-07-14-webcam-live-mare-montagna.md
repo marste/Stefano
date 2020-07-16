@@ -31,7 +31,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>MACUGNAGA</strong> - Lago delle Fate (Verbano-Cusio-Ossola)</center>   
 <center>
-<img alt="Macugnaga" src="http://www.macugnaga-monterosa.it/images/webcams/val-quarazza-dal-lago-delle-fate.jpg/1024x768.jpg">
+<img alt="Macugnaga" src="https://www.meteolivevco.it/httpdocs/it/images/cam/lagodellefate.jpg">
 </center>
 <p></p>
 <center><strong>MACUGNAGA</strong> - Madonna delle Nevi (Verbano-Cusio-Ossola)</center>   
