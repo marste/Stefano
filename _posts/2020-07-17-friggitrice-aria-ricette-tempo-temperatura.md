@@ -104,7 +104,7 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 
 ---
 
-**Patatine fritte surgelate Esselunga**
+**Patatine fritte surgelate Esselunga**   
 • Temperatura: 200°C   
 • Tempo: 13 minuti
 
