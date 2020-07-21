@@ -109,3 +109,9 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 • Tempo: 13 minuti
 
 ---
+
+**Peperone**   
+• Temperatura: 200°C   
+• Tempo: 10 minuti
+
+---
