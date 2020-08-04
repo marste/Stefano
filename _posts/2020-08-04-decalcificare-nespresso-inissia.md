@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/home.png'
 share-img: 'https://marzorati.co/img/home.png'
 layout: post
 categories: [Pulizia]
-tags: [calcare, nespresso, inissia, decalcificare, acido citrico, acqua distillata]
+tags: [calcare, nespresso, inissia, decalcificare, acido citrico, acqua distillata, caffè]
 ---
 Si consiglia di decalcificare la macchina del caffè Nespresso Inissia almeno una volta all'anno.   
 Puoi preparare una soluzione naturale di **circa 20 grammi di acido citrico** sciolti in **mezzo litro di acqua distillata**.   
