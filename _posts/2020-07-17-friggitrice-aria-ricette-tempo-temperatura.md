@@ -115,3 +115,9 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 • Tempo: 10 minuti
 
 ---
+
+**Melanzana impanata** con uova, farina, due cucchiai di latte, pangrattato  
+• Temperatura: 200°C   
+• Tempo: 7 minuti
+
+---
