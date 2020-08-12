@@ -1,5 +1,5 @@
 ---
-title: "Windows Server 2016, bloccato su 'Preparing to Configure Windows'"
+title: "Windows Server 2016, bloccato su 'Getting Windows ready'"
 date: 2020-08-12 09:20:00 +0200
 published: true
 layout: post
