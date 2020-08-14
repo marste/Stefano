@@ -74,8 +74,3 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Marina di Campo" src="https://cam.elbalink.it/webcam_spiaggia_marina_di_campo/camping_del_mare.jpg">
 </center>
 <p></p>
-<center><strong>PROCCHIO - Isola d'Elba</strong> (Livorno)</center>   
-<center>
-<img alt="Procchio" src="https://www.virtualelba.it/webcam/elba.jpg">
-</center>
-<p></p>
