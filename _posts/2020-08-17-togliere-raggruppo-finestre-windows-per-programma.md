@@ -9,7 +9,6 @@ categories: [Windows]
 tags: [raggruppo, finestre, separare, windows, taskbar]
 ---
 Vai in:   
-
  - Impostazioni
  - Personalizzazione
  - Barra delle applicazioni
