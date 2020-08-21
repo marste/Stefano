@@ -74,10 +74,10 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 
-<center><a href="#Ultimissime">Ultimissime</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#FinanciaLounge">FinanciaLounge</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
+<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#FinanciaLounge">FinanciaLounge</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
 
 
-<center><h1><a name="Ultimissime"><font color="Black">Ultimissime</font></a></h1></center>
+<center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
 <div id="divRssUltimissime"></div>
 <script>
     $('#divRssUltimissime').FeedEk({
