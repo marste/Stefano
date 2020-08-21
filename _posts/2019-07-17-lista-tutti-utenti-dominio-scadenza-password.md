@@ -17,7 +17,7 @@ tags:
 ---
 Se utilizzi Windows 10 accertati di aver installato **RSAT (Remote Server Administration Tools)** qualora non lo avessi, lo puoi scaricare dal sito Microsoft:   
 
-<a href="https://www.microsoft.com/it-IT/download/details.aspx?id=45520" target="_blank">Download RSAT (Remote Server Administration Tools)per Windows 10</a>
+<a href="https://www.microsoft.com/it-IT/download/details.aspx?id=45520" target="_blank">Download RSAT (Remote Server Administration Tools)per Windows 10</a> scegliendo quello per Windows Server 2016 (WindowsTH-RSAT_WS2016-x64.msu)   
 
 Una volta installato lanciate da **PowerShell** questo comando:   
 
