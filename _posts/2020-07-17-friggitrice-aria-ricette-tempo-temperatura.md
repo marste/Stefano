@@ -116,8 +116,14 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 
 ---
 
-**Melanzana impanata** con uova, farina, due cucchiai di latte, pangrattato  
+**Melanzana impanata** con uova, farina, due cucchiai di latte, pangrattato   
 • Temperatura: 200°C   
 • Tempo: 7 minuti
+
+---
+
+**Salmone in trancio**   
+• Temperatura: 160°C per 10 minuti + 180° per 2 minuti   
+• Tempo: 12 minuti
 
 ---
