@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/leolandia.jpg'
 categories: [Parchi divertimento]
 tags: [lunapark, leolandia, costo, prezzo]
 ---
-Esempio di una famiglia composta da due adulti, due bambini paganti ridotto.   
+Esempio di una famiglia composta da due adulti e due bambini paganti ridotto.   
 
  - Prezzo medio ingresso un adulto comprando il biglietto al massimo tre giorni prima: 36 €
  - Prezzo medio ingresso un bambino comprando il biglietto al massimo tre giorni prima, circa 4 € in meno di un adulto: 32 €
@@ -19,4 +19,4 @@ Esempio di una famiglia composta da due adulti, due bambini paganti ridotto.
  - Granite o ghiaccioli per una merenda rinfrescante: 13 €
  - I gadget hanno prezzi molto più alti che in negozio e raramente inferiori ai 10 €. Ad esempio una piccola confezione di bolle di sapone (da 0,5/1 € al supermercato) costa 6 €
  
-In definitiva **una giornata normale**, senza strafare e senza comprare troppe cose superflue, **costa circa 215 €**
+In definitiva **una giornata normale**, senza strafare e senza comprare troppe cose superflue, **costa circa 215 €**.
