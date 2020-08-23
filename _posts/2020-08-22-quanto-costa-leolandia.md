@@ -10,7 +10,7 @@ tags: [lunapark, leolandia, costo, prezzo]
 ---
 Esempio di una famiglia composta da due adulti e due bambini paganti ridotto.   
 
-• Prezzo medio ingresso un adulto comprando il biglietto al massimo tre giorni prima: **36 €**   
+&#9679;	&#x25CF; Prezzo medio ingresso un adulto comprando il biglietto al massimo tre giorni prima: **36 €**   
 
 • Prezzo medio ingresso un bambino comprando il biglietto al massimo tre giorni prima, circa 4 € in meno di un adulto: **32 €**   
 
