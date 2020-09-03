@@ -1,6 +1,6 @@
 ---
 title: "Riavviare IIS da remoto"
-subtitle: "restart da command line"
+subtitle: "Restart da command line"
 date: 2020-08-14 16:20:00 +0200
 published: true
 layout: post
@@ -22,4 +22,10 @@ Stato di World Wide Web Publishing Service ( W3SVC ) : In esecuzione
 Per riavviare tutti i servizi di IIS, digitare:   
 ~~~batch
 iisreset nome_server /noforce
+~~~
+
+oppure:
+~~~batch
+iisreset nome_server /stop
+iisreset nome_server /start
 ~~~
