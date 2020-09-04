@@ -8,4 +8,4 @@ share-img: 'https://marzorati.co/img/virus.jpg'
 categories: [Salute]
 tags: [covid19, foto, polmoni, cicatrici, ecografia, virus]
 ---
-<center><img src="https://marzorati.co/img/post/Foto-polmoni-covid19.webp" alt="Foto Polmoni cicatrici Covid19"></center>
+<center><img src="https://marzorati.co/img/post/foto-polmoni-covid19.webp" alt="Foto Polmoni cicatrici Covid19"></center>
