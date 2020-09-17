@@ -36,15 +36,15 @@ Inserisci il nome completo dell'utente, ad esempio **Stefano Marzorati**
 
     LastLoggedOnSAMUser
 
-Inserisci lo username, ad esempio DOMAIN\stefano.marzorati
+Inserisci lo username, ad esempio **DOMAIN\stefano.marzorati**
 
     LastLoggedOnUser
 	
-Inserisci ancora lo username, ad esempio DOMAIN\stefano.marzorati
+Inserisci ancora lo username, ad esempio **DOMAIN\stefano.marzorati**
 
     LastLoggedOnUserSID
 	
-Inserisci il SID dell'utente, ad esempio S-1-5-21-112783954-3472839473-6329827380-1437   
+Inserisci il SID dell'utente, ad esempio **S-1-5-21-112783954-3472839473-6329827380-1437**   
 Puoi trovare l'esatto SID dell'utente digitando: <code>wmic useraccount where name='stefano.marzorati'</code>
 
 Poi sarà sufficiente fare un logout per verificare di aver cambiato l'ultimo utente loggato.   
