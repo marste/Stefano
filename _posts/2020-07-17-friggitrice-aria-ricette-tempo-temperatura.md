@@ -9,6 +9,8 @@ layout: post
 categories: [Ricette]
 tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 ---
+<center><img src="https://marzorati.co/img/post/ninja_friggitrice_aria.jpg" alt="Ninja Air Fryer"></center>
+
 **Zucchine a fettine** di 3 mm con sale, farina e pangrattato agitati nel sacchetto   
 • Quantità: 500 grammi   
 • Temperatura: 200°C   
@@ -125,5 +127,11 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
 **Salmone in trancio**   
 • Temperatura: 160°C per 10 minuti + 180° per 2 minuti   
 • Tempo: 12 minuti
+
+---
+
+**Cavolini di Bruxelles** tagliati a metà, conditi con un po' d'olio e sale   
+• Temperatura: 200°C per 7 minuti   
+• Tempo: 7 minuti
 
 ---
