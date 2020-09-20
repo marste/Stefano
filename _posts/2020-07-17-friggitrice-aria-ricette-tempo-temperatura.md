@@ -7,7 +7,7 @@ image: 'https://marzorati.co/img/ricette.png'
 share-img: 'https://marzorati.co/img/ricette.png'
 layout: post
 categories: [Ricette]
-tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer]
+tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 ---
 <center><img src="https://marzorati.co/img/post/ninja_friggitrice_aria.jpg" alt="Ninja Air Fryer"></center>
 
