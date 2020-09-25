@@ -74,7 +74,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 
-<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="#FinanciaLounge">FinanciaLounge</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
+<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
 
 
 <center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
@@ -175,19 +175,6 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
-<center><h1><a name="FinanciaLounge"><font color="Black">FinanciaLounge</font></a></h1></center>
-<div id="divRssFL"></div>
-<script>
-    $('#divRssFL').FeedEk({
-    FeedUrl : 'https://www.financialounge.com/feed/',
-    MaxCount : 10,
-    ShowDesc : true,
-    ShowPubDate:true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
-  });
-</script>
 
 
 
