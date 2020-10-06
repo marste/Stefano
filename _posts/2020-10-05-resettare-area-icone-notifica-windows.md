@@ -28,6 +28,8 @@ La cache delle icone dell'area di notifica per ogni account utente si trova come
 
 Potete resettare le icone nell'area di notifica, <a href="https://marzorati.co/download/Reset_Notification_Area_Icons_Cache.bat" target="_blank">cliccando su questo batch</a> che eseguira questi comandi:   
 
+***N.B. Lo schermo resterà nero per circa 1 minuto, attendete tranquillamente.***
+
 ~~~batch
 @echo off
 
