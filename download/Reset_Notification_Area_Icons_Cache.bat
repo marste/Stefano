@@ -1,8 +1,3 @@
-:: Created by: Shawn Brink
-:: http://www.tenforums.com
-:: Tutorial: http://www.tenforums.com/tutorials/5662-notification-area-icons-reset-windows-10-a.html
-
-
 @echo off
 
 set regPath=HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify
