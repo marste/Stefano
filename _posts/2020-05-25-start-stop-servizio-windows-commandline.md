@@ -34,3 +34,7 @@ Comando per abilitare l'avvio automatico di un servizio:
 ~~~batch
 sc config servicename start= auto
 ~~~
+Comando per abilitare un servizio su un PC/Server remoto in manuale:
+~~~batch
+sc \\nomepc config servizio start= demand
+~~~
