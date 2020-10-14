@@ -11,7 +11,7 @@ tags: [webcam, mare, montagna, live, lago]
 ---
 <center><strong>BOGLIASCO</strong> (Genova) - Riviera di Levante</center>   
 <center>
-<img alt="Bogliasco" src="http://www.prolocobogliasco.it/webcam/current_hd.jpg">
+<img alt="Bogliasco" src="http://www.prolocobogliasco.it/webcam/current_hd.jpgg">
 </center>
 <p></p>
 <center><strong>VARIGOTTI</strong> - Loc. Donio (Savona) - Riviera di Ponente</center>   
