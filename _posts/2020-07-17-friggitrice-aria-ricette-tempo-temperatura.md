@@ -135,3 +135,9 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 • Tempo: 7 minuti
 
 ---
+
+**Castagne**   
+• Temperatura: 200°C per 12 minuti   
+• Tempo: 12 minuti
+
+---
