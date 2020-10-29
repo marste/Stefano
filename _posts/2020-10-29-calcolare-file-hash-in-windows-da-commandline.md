@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Calcolare file hash in Windows da command line
-date: '2020-05-25 13:10:00 +0200'
+date: '2020-10-29 12:40:00 +0200'
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/terminal.png'
 share-img: 'https://marzorati.co/img/terminal.png'
