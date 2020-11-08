@@ -52,7 +52,7 @@ tags: [menù, pizza, pizzeria, random, rescaldina, ingredienti]
 **Wurstel**: pomodoro, mozzarella, wurstel   
 **Zola**: pomodoro, mozzarella, gorgonzola   
 
-##ROSSE: base di solo pomodoro
+## ROSSE: base di solo pomodoro
 
 **Amatriciana**: pomodoro, pomodorini, guanciale romano, pecorino   
 **Arrabbiata**: pomodoro, pomodorini, peperoncino, pecorino   
@@ -65,7 +65,7 @@ tags: [menù, pizza, pizzeria, random, rescaldina, ingredienti]
 **Scamorza e Porcini**: pomodoro, scamorza affumicata e funghi porcini   
 **Stracciatella**: pomodoro, stracciatella pugliese, olio al basilico   
 
-##BIANCHE: base di sola mozzarella
+## BIANCHE: base di sola mozzarella
 
 **Aglio, Olio e Peperoncino**: mozzarella, aglio, olio evo, peperoncino   
 **Cacio Pepe**: fior di latte, pecorino, pepe nero   
@@ -82,7 +82,7 @@ tags: [menù, pizza, pizzeria, random, rescaldina, ingredienti]
 **Zafferano Gamberi e Zucchine**: fior di latte, crema allo zafferano, gamberi, zucchine   
 **Zola e Mele**: mozzarella, gorgonzola, mele   
 
-##DOLCI: base di focaccia
+## DOLCI: base di focaccia
 
 **Nutella**: Crema alla nocciola   
 **Pistacchio**: Crema al pistacchio   
