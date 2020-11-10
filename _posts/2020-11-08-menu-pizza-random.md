@@ -6,7 +6,7 @@ layout: post
 image: 'https://marzorati.co/img/ricette.png'
 share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
-tags: [menù, pizza, pizzeria, random, rescaldina, ingredienti]
+tags: [menù, pizza, pizzeria, random, rescaldina, ingredienti, giropizza]
 ---
 ## Pizze Classiche
 
