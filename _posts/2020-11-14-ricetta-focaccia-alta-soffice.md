@@ -1,5 +1,5 @@
 ---
-title: Ricetta focaccia alta e soffice
+title: "Ricetta focaccia alta e soffice"
 date: 2020-11-14 11:30:00 +0200
 author: Stefano Marzorati
 layout: post
