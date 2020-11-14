@@ -22,45 +22,23 @@ tags: [focaccia, pinsa, bonci, alta, soffice, morbida]
 
 1. Metti in una ciotola tutta la farina e tutta l'acqua
 2. Impasta con impastatrice con gancio per 3 minuti
-<p>
-
 3. Metti il lievito
 4. Impasta con impastatrice con gancio per 3 minuti
-<p>
-
 5. Metti il sale
 6. Impasta con impastatrice con gancio per 3 minuti
-<p>
-
 7. Metti metà olio
 8. Impasta con impastatrice con gancio per 3 minuti
-<p>
-
 9. Metti l'altra metà di olio
 10. Impasta con impastatrice con gancio per 3 minuti
-<p>
-
 11. Lascia riposare l'impasto per 40 minuti
-<p>
-
 12. Fai un po' di pieghe ungendo un po' le dita e il fondo della ciotola
 13. Lascia riposare l'impasto per 30 minuti
-<p>
-
 14. Fai un po' di pieghe ungendo un po' le dita e il fondo della ciotola
-<p>
-
 15. Rovescia l'impasto nella teglia unta d'olio, piegalo un po' di volte e stendilo con i polpastrelli delle dita
 16. Lascia riposare l'impasto per 30 minuti coprendolo con del domopak
-<p>
-
 17. Stendila ancora un po' con le dita
 18. Lascia riposare l'impasto per 30 minuti coprendolo con del domopak
-<p>
-
 19. Stendila ancora un po' con le dita
 20. Lascia riposare l'impasto per 30 minuti coprendolo con del domopak
-<p>
-
 21. Mettere un filo d'olio (o acqua e olio mischiati in un bicchiere), delle olive tagliate a fettine e se piacciono anche le cipolle
 22. Mettere in forno statico a 200°C per 10/15 minuti o finchè non incomincia a colorirsi
