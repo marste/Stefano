@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
 tags: [focaccia, pinsa, bonci, alta, soffice, morbida]
 ---
-<center><img src="https://marzorati.co/img/post/focaccia.png" alt="Focaccia Alta Soffice"></center>
+<center><img src="https://marzorati.co/img/post/focaccia.png" alt="Focaccia_alta_soffice"></center>
 
 ***Ingredienti:***
 
