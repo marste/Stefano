@@ -17,7 +17,7 @@ tags:
   - scheda
   - rete
 ---
-- Da command line digita: <code>set devmgr_show_nonpresent_devices=1</code>"   
+- Da command line digita: <code>set devmgr_show_nonpresent_devices=1</code>
 - Apri la gestione device, da start <code>devmgmt.msc</code>   
 - Clicca su **View** e seleziona **Show Hidden Devices**   
 - Espandi **Network Adapters**
