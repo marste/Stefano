@@ -25,7 +25,7 @@ Dico al gommista che io l'ho già pagato in fattura a gommadiretto, ma lui mi sp
 Loro non percepiscono nulla da gommadiretto per lo smaltimento e quindi per smaltirle dovranno comunque pagare e quindi io lo devo pagare oltre che alla germania, anche in Italia.   
 Qualche giorno dopo decido di lasciare la mia recensione negativa sul sito <a href="https://it.trustpilot.com/users/52ab49080000640001599977" target="_blank">TrustPilot</a> e 3 giorni dopo mi risponde direttamente gommadiretto.it scusandosi per l'inconveniente chiedendomi delle foto per ulteriori verifiche.   
 Provo a scrivere sul form del loro sito per poter documentare il tutto, ma non mi viene più risposto.   
-Hanno perso completamente la mia fiducia e domando: ***"Ti fideresti a comprare ancora su gommadiretto.it? Io NO!"***
+Hanno perso completamente la mia fiducia e domando: ***Ti fideresti a comprare ancora su gommadiretto.it? Io NO!***
 
 
 
