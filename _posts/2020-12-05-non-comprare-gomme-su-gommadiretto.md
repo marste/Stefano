@@ -1,5 +1,5 @@
 ---
-title: "Non comprare le gomme dell'auto su gommadiretto.it"
+title: "Comprare le gomme dell'auto su gommadiretto.it? No grazie!"
 subtitle: "La mia esperienza"
 author: Stefano Marzorati
 layout: post
