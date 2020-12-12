@@ -7,7 +7,7 @@ date: 2020-12-05 08:20:00 +0200
 image: 'https://marzorati.co/img/car.png'
 share-img: 'https://marzorati.co/img/car.png'
 categories: [Automobile]
-tags: [comprare, gomme, auto, pneumatici, gommadiretto, truffa]
+tags: [comprare, gomme, auto, pneumatici, gommadiretto, truffa, online, recensioni]
 published: true
 ---
 Oggi volevo condividere la mia esperienza di acquisto di pneumatici sul sito **gommadiretto.it**.   
