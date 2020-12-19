@@ -31,12 +31,12 @@ Viceversa per calcolare i Lux:
 
 <code>Lux= lumen/mq</code>
 
-Per cui se ho un **piccolo bagno di 4 mq**, dovrò fare: 200 lux x 4 mq = **800 lumen**   
-Se avrò un secondo **bagno** un po' più grande **di 6 mq**, sarà: 200 lux x 6 mq = **1200 lumen**   
-Per una **cucina di 12 mq**: 150 lux x 12 mq = **1800 lumen**   
-Per un **soggiorno di 20 mq**: 100 lux x 20 mq = **2000 lumen**   
-Per una **camera da letto di 16 mq**: 100 lux x 16 mq = **1600 lumen**, ma se vogliamo una luce più tenue e riposante potrebbe bastare da **800 lumen**   
-Per una **cameretta di 12 mq**, in cui servirà anche studiare: 100 lux per 12 mq = **1200 lumen**   
+- Per cui se ho un **piccolo bagno di 4 mq**, dovrò fare: 200 lux x 4 mq = **800 lumen**   
+- Se avrò un secondo **bagno** un po' più grande **di 6 mq**, sarà: 200 lux x 6 mq = **1200 lumen**   
+- Per una **cucina di 12 mq**: 150 lux x 12 mq = **1800 lumen**   
+- Per un **soggiorno di 20 mq**: 100 lux x 20 mq = **2000 lumen**   
+- Per una **camera da letto di 16 mq**: 100 lux x 16 mq = **1600 lumen**, ma se vogliamo una luce più tenue e riposante potrebbe bastare da **800 lumen**   
+- Per una **cameretta di 12 mq**, in cui servirà anche studiare: 100 lux per 12 mq = **1200 lumen**   
 
 Ad oggi esistono in commercio lampadine a led con queste caratteristiche:   
 
