@@ -487,3 +487,7 @@ tags: [alogena, consumo, fluorescenza, incandescenza, lampadina, led, lumen, lum
   </tr>
 </table></center>   
 <BR>
+
+Se volete vedere le differenti gradazioni di colore delle lampadine, andate su <a href="https://marzorati.co/gradazioni-luce-calda-fredda/">questa pagina</a>.
+
+Se volete calcolare l'illuminazione necessaria per le vostre stanze, andate su <a href="https://marzorati.co/quanta-luce-ho-bisogno-stanza-lumen-lux/">questa pagina</a>.

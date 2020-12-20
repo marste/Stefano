@@ -21,3 +21,7 @@ Nella fascia fredda le gradazioni tipiche sono:
 **4.100° K** piano bianco e bianco freddo (colore medio della luce del sole)  
 **5.000° K** ghiaccio freddo puro bianco (colore come la luce del sole tropicale a mezzogiorno)  
 **6.500° K** bianco bluastro e luce del giorno
+
+Se volete vedere le differenze di consumo tra vari tipi di lampadine, andate su <a href="https://marzorati.co/differenza-consumo-lumen-lampadine-incandescenza-alogena-fluorescente-led/">questa pagina</a>.   
+
+Se volete calcolare l'illuminazione necessaria per le vostre stanze, andate su <a href="https://marzorati.co/quanta-luce-ho-bisogno-stanza-lumen-lux/">questa pagina</a>.
