@@ -2,19 +2,10 @@
 title: Differenza consumo lumen lampadine incandescenza alogena fluorescente led
 author: Stefano Marzorati
 layout: post
+date: 2013-09-15 08:20:00 +0200
 permalink: /differenza-consumo-lumen-lampadine-incandescenza-alogena-fluorescente-led/
-categories:
-  - Varie
-tags:
-  - alogena
-  - consumo
-  - fluorescenza
-  - incandescenza
-  - lampadina
-  - led
-  - lumen
-  - luminosità
-  - watt
+categories: [Illuminazione]
+tags: [alogena, consumo, fluorescenza, incandescenza, lampadina, led, lumen, luminosità, watt]
 ---
 **<center>Lampadina tradizionale incandescenza</center>**
 

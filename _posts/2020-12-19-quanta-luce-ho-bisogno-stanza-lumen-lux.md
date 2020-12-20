@@ -55,3 +55,7 @@ Flusso Luminoso: 1521 Lumen
 Potenza: 20 W   
 Equivalente incandescente: 150 Watt   
 Flusso Luminoso: 2451 Lumen   
+
+Se volete vedere le differenze di consumo tra vari tipi di lampadine, andate su <a href="https://marzorati.co/differenza-consumo-lumen-lampadine-incandescenza-alogena-fluorescente-led/">questa pagina</a>.   
+
+Se volete vedere le differenti gradazioni di colore delle lampadine, andate su <a href="https://marzorati.co/gradazioni-luce-calda-fredda/">questa pagina</a>.   

@@ -1,25 +1,15 @@
 ---
-id: 2636
-title: Gradazioni luce calda fredda
+title: "Gradazioni luce calda fredda"
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2636
-permalink: /gradazioni-luce-calda-fredda/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2078921768
-categories:
-  - Varie
-tags:
-  - calda
-  - fredda
-  - kelvin
-  - lampadine
-  - luce
-  - kelvin
+date: 2020-12-20 07:22:00 +0200
+image: 'https://marzorati.co/img/led.png'
+share-img: 'https://marzorati.co/img/led.png'
+categories: [Illuminazione]
+tags: [calda, fredda, led, lampadine, kelvin, luce]
+published: true
 ---
-[<img src="http://res.cloudinary.com/marzorati-co/image/upload/v1408107873/luce_colore_kelvin_rr1mqj.png" alt="luce_colore_kelvin" class="aligncenter size-full wp-image-2639" />][1]
+<center><img src="https://marzorati.co/img/post/luce_colore_kelvin.png" alt="gradi_kelvin_luce"></center>
 
 **Fino a 3.000° K** &#8211; Luce calda e bianco caldo
 
@@ -31,5 +21,3 @@ Nella fascia fredda le gradazioni tipiche sono:
 **4.100° K** piano bianco e bianco freddo (colore medio della luce del sole)  
 **5.000° K** ghiaccio freddo puro bianco (colore come la luce del sole tropicale a mezzogiorno)  
 **6.500° K** bianco bluastro e luce del giorno
-
- [1]: http://res.cloudinary.com/marzorati-co/image/upload/v1408107873/luce_colore_kelvin_rr1mqj.png
