@@ -9,6 +9,8 @@ categories: [Illuminazione]
 tags: [calda, fredda, led, lampadine, kelvin, luce]
 published: true
 ---
+La temperatura di colore è una grandezza fisica associata alla tonalità della luce: a ogni temperatura corrisponde una sola tonalità che viene misurata in kelvin.   
+
 <center><img src="https://marzorati.co/img/post/luce_colore_kelvin.png" alt="gradi_kelvin_luce"></center>
 
 **Fino a 3.000° K** &#8211; Luce calda e bianco caldo
