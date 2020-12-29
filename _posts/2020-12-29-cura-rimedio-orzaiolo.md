@@ -26,7 +26,7 @@ Successivamente all'infiammazione arriva l'infezione.
 vi consiglio di non ricorrere a medicinali, ma utilizzare delle semplici **gocce oculari lubrificanti ed idratanti** che aiuteranno a liberare l'struzione delle ghiandole.   
 Ce ne sono svariate marche in commercio, io consiglio di acquistare:   
 <center>
-<img alt="orzaiolo" src="https://marzorati.co/img/post/iridina.jpg">
+<img alt="orzaiolo" src="https://marzorati.co/img/post/iridina.png">
 </center>   
 o in alternativa:   
 <center>
