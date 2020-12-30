@@ -141,3 +141,17 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 • Tempo: 12 minuti
 
 ---
+
+**Patatine Stick fresche**   
+• Quantità: 500 grammi   
+• Temperatura: 180°C   
+• Tempo: 20 minuti (mescolare spesso)
+
+---
+
+**Pagnotta**   
+• Quantità: 600 grammi   
+• Temperatura: 200°C   
+• Tempo: 35 minuti
+
+---
