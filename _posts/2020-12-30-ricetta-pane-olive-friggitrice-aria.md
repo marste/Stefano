@@ -25,12 +25,12 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, pagnotta]
 
 ***Procedimento:***   
 
-* In una ciotola metti **250 grammi di acqua e sciogli **3 grammi di lievito di birra** disidratato.
-* Mischia i due tipi di farina.
+* In una ciotola metti **250 grammi di acqua** e sciogli **3 grammi di lievito di birra** disidratato.
+* Mescola insieme i due tipi di farina.
 * Comincia ad **aggiungere le farine** e continua a mescolare.   
 * Aggiungi all'impasto ancora liquido i **9 grammi di sale fino**.   
 * Aggiungi la rimanente farina e continua ad impastare finchè non diventa liscia, ma rimarrà comunque sempre appiccicosa.
-* Coprire la ciotola con della pellicola trasparente e lasciare lievitare (almeno 12 ore).  
+* Coprire la ciotola con della pellicola trasparente e **lasciare lievitare** (almeno 12 ore).  
 * Rovescia l'impasto su un piano infarinato e facendo un po' di pieghe lo componi a pagnotta.   
-* Inserisci l'impasto nella friggitrice ad aria a 200°C per circa 35 minuti.
-* Lascia raffreddare il pane a temperatura ambiente prima di tagliarlo.  
+* Inserisci l'impasto nella friggitrice ad aria a **200°C per circa 35 minuti**.
+* **Lascia raffreddare** il pane a temperatura ambiente prima di tagliarlo.  
