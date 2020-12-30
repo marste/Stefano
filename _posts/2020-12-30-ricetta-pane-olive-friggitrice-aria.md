@@ -25,7 +25,7 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, pagnotta]
 
 ***Procedimento:***   
 
-* In una ciotola metti **250 grammi di acqua ** e sciogli **3 grammi di lievito di birra** disidratato.
+* In una ciotola metti **250 grammi di acqua e sciogli **3 grammi di lievito di birra** disidratato.
 * Mischia i due tipi di farina.
 * Comincia ad **aggiungere le farine** e continua a mescolare.   
 * Aggiungi all'impasto ancora liquido i **9 grammi di sale fino**.   
