@@ -17,7 +17,7 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, pagnotta]
 ***Ingredienti:***   
 
 * 170 grammi di farina 0
-* 170 grammi di farina di grano duro
+* 170 grammi di farina di grano duro (semola rimacinata)
 * 3 grammi di lievito di birra disidratato
 * 250 grammi di acqua
 * 9 grammi di sale
