@@ -29,7 +29,7 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, pagnotta]
 * Mescola insieme i due tipi di farina.
 * Comincia ad **aggiungere le farine** e continua a mescolare.   
 * Aggiungi all'impasto ancora liquido i **9 grammi di sale fino**.   
-* Aggiungi la rimanente farina e continua ad impastare finchè non diventa liscia, ma rimarrà comunque sempre appiccicosa.
+* Aggiungi la rimanente farina, le olive e continua ad impastare finchè non diventa liscia, ma rimarrà comunque sempre appiccicosa.
 * Coprire la ciotola con della pellicola trasparente e **lasciare lievitare** (almeno 12 ore).  
 * Rovescia l'impasto su un piano infarinato e facendo un po' di pieghe lo componi a pagnotta.   
 * Inserisci l'impasto nella friggitrice ad aria a **200°C per circa 35 minuti**.
