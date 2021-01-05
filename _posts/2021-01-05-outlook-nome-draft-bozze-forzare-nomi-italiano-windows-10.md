@@ -10,6 +10,6 @@ tags: [outlook, reset, nomi, cartelle, bozze, draft, inbox, arrivo, linguaggio]
 ---
 Se in Outlook non vengono visualizzati i nomi delle cartelle nel linguaggio corretto, ma in inglese o metà in italiano e metà in inglese, procedete come di seguito per resettare la lingua predefinita di Windows.
 
-- Da **Start** - **Esegui** (<font face=Wingdings>ÿ</font> + R) digitare <code>Outlook /resetfolders</code> oppure <code>Outlook /resetfoldernames</code>.
+- Da **Start** - **Esegui** (<i class="fa fa-windows" aria-hidden="true"></i> + R) digitare <code>Outlook /resetfolders</code> oppure <code>Outlook /resetfoldernames</code>.
 
 Si aprirà Outlook con i nomi corretti.   
