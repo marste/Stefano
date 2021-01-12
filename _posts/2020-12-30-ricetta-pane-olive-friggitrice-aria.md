@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
 tags: [ricetta, pane, lievito, acqua, sale, farina, pagnotta]
 ---
-**Quantitativo per fare 1 pagnotta da 600 grammi**   
+**Quantitativo per fare 1 pagnotta da 500 grammi**   
 
 <p align="center">
   <img src="https://marzorati.co/img/post/pagnotta_olive_friggitrice_aria.jpg">

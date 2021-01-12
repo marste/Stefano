@@ -16,8 +16,8 @@ tags: [ricetta, pane, uvetta, lievito, acqua, sale, farina, pagnotta]
 
 ***Ingredienti:***   
 
-* 340 grammi di farina 0 o W260
-* 238 grammi di acqua
+* 400 grammi di farina 0 o W260
+* 240 grammi di acqua
 * 3 grammi di lievito di birra disidratato
 * 6 grammi di sale
 * 120 grammi di uvetta
