@@ -29,7 +29,7 @@ tags: [ricetta, pane, uvetta, lievito, acqua, sale, farina, pagnotta]
 ***Procedimento:***   
 
 * Metti in ammollo 120 grammi di uvetta per almeno mezz'ora.
-* In una ciotola metti **238 grammi di acqua** e sciogli **3 grammi di lievito di birra** disidratato.
+* In una ciotola metti **240 grammi di acqua** e sciogli **3 grammi di lievito di birra** disidratato.
 * Comincia ad **aggiungere la farina** e continua a mescolare.   
 * Aggiungi all'impasto ancora liquido i **6 grammi di sale fino**.   
 * Aggiungi la rimanente farina, l'uvetta e continua ad impastare finchè non diventa liscia, ma rimarrà comunque sempre appiccicosa.
