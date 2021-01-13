@@ -8,6 +8,8 @@ layout: post
 categories: [Windows]
 tags: [sfondo, wallpaper, schermata, blocco, trovare, foto, SpotBright]
 ---
-La foto attuale che Windows scarica automaticamente e ti mette come sfondo in Windows 10 nella schermata di blocco, la puoi trovare qua: <code>%localappdata%\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets</code>   
+La foto attuale che Windows scarica automaticamente e ti mette come sfondo in Windows 10 nella schermata di blocco, la puoi trovare qua: 
+
+	%localappdata%\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets
 
 In questa cartella troverai dei files senza estensione. Ti basterà rinominarli mettendogli l'estensione **.jpg**
