@@ -3,8 +3,8 @@ title: "Netflix non funziona su SmartTV Samsung"
 subtitle: "Impossibile connettersi a Netflix. Riprova o vai su: netflix.com/help"
 author: Stefano Marzorati
 date: 2021-01-23 08:15:00 +0200
-image: 'https://marzorati.co/img/post/netflix.png'
-share-img: 'https://marzorati.co/img/post/netflix.png'
+image: 'https://marzorati.co/img/post/netflix.webp'
+share-img: 'https://marzorati.co/img/post/netflix.webp'
 layout: post
 categories: [TV]
 tags: [samsung, app, netflix, impossibile, connettersi, errore, smarttv]
