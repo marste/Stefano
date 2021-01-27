@@ -13,4 +13,4 @@ Accertarsi di aver installato sul PC l'app **Xbox Game Bar**.
 
 Premendo i tasti <i class="fa fa-windows" aria-hidden="true"></i> + ALT + R avvierete la registrazione della finestra in primo piano.
 
-Il file verrà salvato in formato **mp4** nel proprio profilo Windwos in **\Videos\Captures**   
+Il file verrà salvato in formato **mp4** nel proprio profilo Windows in **\Videos\Captures**   
