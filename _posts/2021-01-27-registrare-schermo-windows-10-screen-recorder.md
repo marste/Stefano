@@ -2,7 +2,7 @@
 title: "Registrare schermo in Windows 10"
 subtitle: Screen Recoder gratis
 author: Stefano Marzorati
-date: 2021-01-05 08:15:00 +0200
+date: 2021-01-27 08:15:00 +0200
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
 layout: post
