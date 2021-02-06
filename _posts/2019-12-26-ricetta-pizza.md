@@ -11,10 +11,9 @@ tags: [ricetta, pizza, pizzeria, lievito, acqua, sale, farina, olio]
 ---
 ***Ingredienti:***   
 
-* 370 grammi di farina 0
+* 433 grammi di farina 0
 * 3 grammi di lievito di birra disidratato
-* 222 grammi di acqua
-* 2 cucchiai di olio di oliva
+* 260 grammi di acqua
 * 10 grammi di sale (circa due cucchiaini)
 
 <p align="center">
@@ -23,13 +22,12 @@ tags: [ricetta, pizza, pizzeria, lievito, acqua, sale, farina, olio]
 
 ***Procedimento:***   
 
-* In una ciotola metti **222 grammi di acqua tiepida** e sciogli **3 grammi di lievito di birra** disidratato lasciando sciogliere per **10 minuti**.
-* Aggiungi i **2 cucchiai di olio di oliva** e continua a mescolare.   
+* In una ciotola metti **260 grammi di acqua tiepida** e sciogli **3 grammi di lievito di birra** disidratato lasciando sciogliere per **10 minuti**.
 * Comincia ad **aggiungere la farina** e continua a mescolare.   
 * Aggiungi all'impasto ancora liquido i **10 grammi di sale fino**.   
 * **Aggiungi la rimanente farina** e continua ad impastare finchè la pasta non diventa liscia con la consistenza del lobo dell'orecchio.
-* Coprire la ciotola con della pellicola trasparente e lasciare lievitare nel forno spento almeno 2-4 ore o fino a che non sarà raddoppiato. 
-* 30 minuti/1 ora prima della cottura, dividi l'impasto in 3 panetti da 200 grammi l'uno infarinandoli un po'. 
+* Coprire la ciotola con della pellicola trasparente e lasciare lievitare nel forno spento almeno 8 ore o fino a che non sarà raddoppiato. 
+* 30 minuti/1 ora prima della cottura, dividi l'impasto in 3 panetti da 220 grammi l'uno infarinandoli un po'. 
 * Infarinate le teglie (20/25 cm di diametro) e stendi le palline partendo a premerle dal centro verso l'esterno in modo da lasciare un po' di cornicione.
 * Condire a piacimento. Consiglio di mettere la mozzarella **4 minuti prima della fine cottura**
 * Accendere il forno a **220° C** e cuocere per circa **9 minuti**, mettendo la teglia sul piano più alto del forno.
