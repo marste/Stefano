@@ -8,10 +8,6 @@ share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
 tags: [ricetta, torta, paesana, pane, amaretti, cacao, uvetta, pinoli, latte]
 ---
-<p align="center">
-  <img src="https://marzorati.co/img/post/torta_pane.jpg">
-</p>   
-
 **Ingredienti:**   
 
   - n° 3 panini secchi (circa 100-150 grammi)
@@ -23,6 +19,10 @@ tags: [ricetta, torta, paesana, pane, amaretti, cacao, uvetta, pinoli, latte]
   - 50 gr di pinoli
   - 75 gr di cacao amaro
   - succo di arancia/clementine
+
+<p align="center">
+  <img src="https://marzorati.co/img/post/torta_pane.jpg">
+</p>   
   
 **Preparazione:**   
   
