@@ -6,14 +6,8 @@ author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/powershell.png'
 share-img: 'https://marzorati.co/img/powershell.png'
-categories:
-  - Windows
-tags:
-  - windowsupdate
-  - wuinstall
-  - powershell
-  - update
-  - windowsupdate
+categories: [Windows]
+tags: [windowsupdate, wuinstall, powershell, update, windowsupdate]
 ---
 Esegui PowerShell *come Administrator*
 
@@ -25,9 +19,9 @@ Esegui PowerShell *come Administrator*
 
 {% highlight powershell %} Get-WUList –MicrosoftUpdate {% endhighlight %}
 
-{% highlight powershell %} Get-WUInstall –MicrosoftUpdate –AcceptAll –AutoReboot -Verbose {% endhighlight %}
+{% highlight powershell %} Install-WindowsUpdate -MicrosoftUpdate -AcceptAll {% endhighlight %}
 
-{% highlight powershell %} Get-WindowsUpdate -MicrosoftUpdate -KBArticleID KB4503308 -Verbose {% endhighlight %}
+{% highlight powershell %} Get-WindowsUpdate -KBArticleID KB2267602, KB4533002 -Install {% endhighlight %}
 
 Esempio:   
 
