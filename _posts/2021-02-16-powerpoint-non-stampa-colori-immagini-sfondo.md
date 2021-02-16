@@ -12,4 +12,4 @@ Se vuoi stampare un documento di PowerPoint che contiene dei colori di sfondo e 
 
 Andare in:   
 
-Opzioni &#x27A1; PowerPoint → Impostazioni avanzate → Durante la stampa del documento: **Scegliere di stampare a colori**
+Opzioni &#x27A1; PowerPoint &#x27A1; Impostazioni avanzate &#x27A1; Durante la stampa del documento: **Scegliere di stampare a colori**
