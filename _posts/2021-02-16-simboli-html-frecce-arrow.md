@@ -11,61 +11,20 @@ tags: [ascii, frecce, arrow, freccia, caratteri]
 <center>
 <table>
 <tbody>
-  <tr>
-    <td>↑</td>
-    <td>Freccia verso l'alto</td>
-    <td>&#x2B06;</td>
-  </tr>
-  <tr>
-    <td>↓</td>
-    <td>Freccia verso il basso</td>
-    <td>ALT+25</td>
-  </tr>
-  <tr>
-    <td>→</td>
-    <td>Freccia verso destra</td>
-    <td>ALT+26</td>
-  </tr>
-  <tr>
-    <td>←</td>
-    <td>Freccia verso sinistra</td>
-    <td>ALT+27</td>
-  </tr>
-  <tr>
-    <td>↔</td>
-    <td>Freccia sinistra-destra</td>
-    <td>ALT+29</td>
-  </tr>
-  <tr>
-    <td>↕</td>
-    <td>Freccia su-giù</td>
-    <td>ALT+18</td>
-  </tr>
-  <tr>
-    <td>↨</td>
-    <td>Freccia su-giù con base</td>
-    <td>ALT+23</td>
-  </tr>
-  <tr>
-    <td>▲</td>
-    <td>Freccia piena verso l'alto</td>
-    <td>ALT+30</td>
-  </tr>
-  <tr>
-    <td>▼</td>
-    <td>Freccia piena verso il basso</td>
-    <td>ALT+31</td>
-  </tr>
-  <tr>
-    <td>►</td>
-    <td>Freccia piena verso destra</td>
-    <td>ALT+16</td>
-  </tr>
-  <tr>
-    <td>◄</td>
-    <td>Freccia piena verso sinistra</td>
-    <td>ALT+17</td>
-  </tr>
+<tr><td>&#x2B06;</td><td>Up Arrow</td><td>&amp;#x2B06;</td></tr>
+<tr><td>&#x2197;</td><td>Up-Right Arrow</td><td>&amp;#x2197;</td></tr>
+<tr><td>&#x27A1;</td><td>Right Arrow</td><td>&amp;#x27A1;</td></tr>
+<tr><td>&#x2198;</td><td>Down Right Arrow</td><td>&amp;#x2198;</td></tr>
+<tr><td>&#x2B07;</td><td>Down Arrow</td><td>&amp;#x2B07;</td></tr>
+<tr><td>&#x2199;</td><td>Down-Left Arrow</td><td>&amp;#x2199;</td></tr>
+<tr><td>&#x2B05;</td><td>Left Arrow</td><td>&amp;#x2B05;</td></tr>
+<tr><td>&#x2196;</td><td>Up-Left Arrow</td><td>&amp;#x2196;</td></tr>
+<tr><td>&#x2195;</td><td>Up-Down Arrow</td><td>&amp;#x2195;</td></tr>
+<tr><td>&#x2194;</td><td>Left-Right Arrow</td><td>&amp;#x2194;</td></tr>
+<tr><td>&#x21A9;</td><td>Right Arrow Curving Left</td><td>&amp;#x21A9;</td></tr>
+<tr><td>&#x21AA;</td><td>Left Arrow Curving Right</td><td>&amp;#x21AA;</td></tr>
+<tr><td>&#x2934;</td><td>Right Arrow Curving Up</td><td>&amp;#x2934;</td></tr>
+<tr><td>&#x2935;</td><td>Right Arrow Curving Down</td><td>&amp;#x2935;</td></tr>
 </tbody>
 </table>
 </center>
