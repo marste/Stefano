@@ -1,8 +1,8 @@
 ---
-title: 'Caratteri ASCII frecce'
+title: 'Simboli ASCII frecce'
 author: Stefano Marzorati
 layout: post
-date: 2021-02-16 12:45:00 +0200
+date: 2021-02-16 13:20:00 +0200
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows]
