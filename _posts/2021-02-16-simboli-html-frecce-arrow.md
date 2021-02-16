@@ -1,5 +1,5 @@
 ---
-title: 'Simboli ASCII frecce'
+title: 'Simboli HTML frecce'
 author: Stefano Marzorati
 layout: post
 date: 2021-02-16 13:20:00 +0200
