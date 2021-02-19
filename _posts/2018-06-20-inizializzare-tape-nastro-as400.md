@@ -10,4 +10,5 @@ tags: [formattare, inizializzare, as400, nastro, tape, inztap]
 Digitare il comando: <code>INZTAP</code>   
 <br>
 ![AS400](https://marzorati.co/img/post/INZTAP.png)   
+<br>
 ![AS400_2](https://marzorati.co/img/post/INZTAP_2.png)   
