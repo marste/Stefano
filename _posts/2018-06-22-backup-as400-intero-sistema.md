@@ -1,5 +1,6 @@
 ---
 title: Schedulare backup intero sistema su AS/400
+subtitle: Full Backup
 date: 2018-07-09 09:45:00 +0200
 published: true
 image: https://marzorati.co/img/ibm.png
@@ -11,7 +12,7 @@ Prima di tutto occorre inizializzare il nastro secondo <a href="https://marzorat
 
 Poi togli la schedulazione di spegnimento e avvio di domenica secondo <a href="https://marzorati.co/schedulazione-spegnimento-accensione-as400/" target="_blank">questa procedura</a>, utilizzando la scelta 2.   
 
-Poi digita <code>WRKJOBSCDE</code> cerca il processo <code>SI5BACKUP</code>, modificalo, vai alla seconda pagina e ometti la data del backup di sabato notte per non far scrivere sulla cassetta del FULL il backup del sabato.   
+Poi digita <code>WRKJOBSCDE</code> cerca il processo <code>SI5BACKUP</code>, modificalo, vai alla seconda pagina, premi F10 e ometti la data del backup di sabato notte per non far scrivere sulla cassetta del FULL il backup del sabato.   
 
 ![backup3_as400](https://marzorati.co/img/post/backup_as400_4.png)   
 
