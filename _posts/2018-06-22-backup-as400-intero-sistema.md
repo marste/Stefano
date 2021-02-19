@@ -9,6 +9,12 @@ tags: [backup, go save, nastro, as400. tape, full, sistema, intero]
 ---
 Prima di tutto occorre inizializzare il nastro secondo <a href="https://marzorati.co/inizializzare-tape-nastro-as400/" target="_blank">questa procedura</a>.   
 
+Poi togli la schedulazione di spegnimento e avvio di domenica secondo <a href="https://marzorati.co/schedulazione-spegnimento-accensione-as400/" target="_blank">questa procedura</a>, utilizzando la scelta 2.   
+
+Poi digita <code>WRKJOBSCDE</code> cerca il processo <code>SI5BACKUP</code>, modificalo, vai alla seconda pagina e ometti la data del backup di sabato notte per non far scrivere sulla cassetta del FULL il backup del sabato.   
+
+![backup3_as400](https://marzorati.co/img/post/backup_as400_4.png)   
+
 Accedere alla Console di AS/400   
 
 Digitare il comando <code>GO SAVE</code> opzione <code>21</code>   
@@ -19,6 +25,7 @@ Digitare il comando <code>GO SAVE</code> opzione <code>21</code>
 <br>
 ![backup2_as400](https://marzorati.co/img/post/backup_as400_3.png)   
 <br>
+
 Per verificare quanto tempo ci ha messo ad effettuare il backup, ti basterà premere F1 sul messaggio che vedrai in console sull'esito del backup.   
 Oppure puoi vedere i log di sistema <code>DSPLOG PERIOD((010000 080718) (*AVAIL *END))</code> mettendo l'ora e la data iniziale dal quale partire.   
 
