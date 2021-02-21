@@ -27,6 +27,8 @@ Digitare il comando <code>GO SAVE</code> opzione <code>21</code>
 ![backup2_as400](https://marzorati.co/img/post/backup_as400_3.png)   
 <br>
 
+Se per qualche motivo volete <u>annullare l'operazione</u>, basterà premere i tasti **SHIFT+ESC**, vi comparirà una riga in basso, **digitate 2** e la schedulazione sarà annullata.
+
 Per verificare quanto tempo ci ha messo ad effettuare il backup, ti basterà premere F1 sul messaggio che vedrai in console sull'esito del backup.   
 Oppure puoi vedere i log di sistema <code>DSPLOG PERIOD((010000 080718) (*AVAIL *END))</code> mettendo l'ora e la data iniziale dal quale partire.   
 
