@@ -23,5 +23,5 @@ Get-WmiObject Win32_Product -ComputerName localhost | select Name,Version > c:\T
 Per visualizzare i programmi installati su un PC remoto, basterà sostituire localhost con il nome del PC remoto:   
 
 ~~~batch
-Get-WmiObject Win32_Product -ComputerName vigmar | select Name,Version
+Get-WmiObject Win32_Product -ComputerName nome_pc_remoto | select Name,Version
 ~~~
