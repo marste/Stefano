@@ -13,8 +13,8 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 
 **Zucchine a fettine** di 3 mm con sale, farina e pangrattato agitati nel sacchetto   
 • Quantità: 500 grammi   
-• Temperatura: 200°C   
-• Tempo: 11 minuti (scuotere ogni 2/3 minuti)   
+• Temperatura: 180°C   
+• Tempo: 20 minuti (scuotere ogni 4 minuti)   
 
 ---
 
