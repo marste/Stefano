@@ -13,3 +13,9 @@ Ecco un esempio di video di dimensioni 1920x1080 che voglio far diventare 640x35
 ~~~batch
 ffmpeg -i C:\TMP\VID_20210310_111304.mp4 -vf scale=640:352 "C:\TMP\output_640.mp4"
 ~~~
+
+oppure
+
+~~~batch
+ffmpeg -i input.avi -vf scale="640:-1" output.avi
+~~~
