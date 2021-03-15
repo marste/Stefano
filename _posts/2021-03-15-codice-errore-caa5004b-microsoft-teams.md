@@ -10,7 +10,7 @@ tags: [error, caa5004b, code, errore, microsoft, teams]
 published: true
 ---
 
-Il problema è legato all'autenticazione che non avviene più.
+Il problema è legato all'autenticazione che non avviene più.   
 Si arriva alla finestra di login, ma la password non viene più chiesta.
 
 Per risolvere velocemente il problema, io ho risolto così:
