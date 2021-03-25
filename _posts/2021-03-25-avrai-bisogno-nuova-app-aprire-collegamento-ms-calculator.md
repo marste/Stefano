@@ -3,8 +3,8 @@ title: 'Avrai bisogno di una nuova app per aprire questo collegamento ms-calcula
 author: Stefano Marzorati
 layout: post
 date: 2021-03-25 13:20:00 +0200
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/powershell.png'
+share-img: 'https://marzorati.co/img/powershell.png'
 categories: [Windows]
 tags: [aprire, calcolatrice, app, store, microsoft, ms-calculator]
 ---
