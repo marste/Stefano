@@ -12,7 +12,8 @@ tags: [find, delete, trova, sposta, elimina, windows, files, powershell, script]
 * Apri PowerShell come amministratore (<i class="fa fa-windows" aria-hidden="true"></i> + x + a)
 * Esegui lo script che trovi qua sotto
 * Scrivi il nome della cartella in cui vorrai trovare i files duplicati
-* Al termine della ricerca, apparirà una finestra per selezionare i file duplicati in base al valore hash. Tutti i file selezionati verranno spostati in C: \ DuplicatesCurrentDate
+* Al termine della ricerca, apparirà una finestra per selezionare i file duplicati in base al valore hash.   
+Tutti i file selezionati verranno spostati in C: \ DuplicatesCurrentDate
 
 Ecco lo <a href="https://marzorati.co/download/find_duplicate_files.zip" target="_blank">script</a>
 
