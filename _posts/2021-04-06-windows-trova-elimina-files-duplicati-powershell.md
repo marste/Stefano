@@ -48,7 +48,7 @@ else {
     $d.Group | Select-Object -Property Path, Hash   
     } 
 
-$date = Get-Date -Format "MM/dd/yyy"
+$date = Get-Date -Format "dd_MM_yyy"
 $itemstomove = $result | 
 Out-GridView -Title `
 "Select files (CTRL for multiple) and press OK. Selected files will be moved to C:\Duplicates_$date" `
@@ -77,6 +77,6 @@ Write-Warning "Operation aborted. No files selected."
 else 
 {
     Write-Warning `
-    "Folder not found. Use full path to directory e.g. C:\photos\patrick"
+    "Folder not found. Use full path to directory e.g. C:\Docs\"
 }
 ~~~
