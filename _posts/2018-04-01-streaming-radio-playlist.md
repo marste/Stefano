@@ -17,10 +17,10 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL.mp3" target="_blank">One World Radio - Tomorrowland</a> - (Bitrate: 192kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://radiofg.impek.com/fg" target="_blank">Radio FG</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="https://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/index_96_a-p.m3u8?sd=10&rebase=on" target="_blank">Radio Deejay</a> - (Bitrate: 128kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://streamplus17.leonex.de:10928/;447304705388607stream.nsv" target="_blank">CueBase FM</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="https://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/index_96_a-p.m3u8?sd=10&rebase=on" target="_blank">m2o</a> - (Bitrate: 128kbit/s)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://www.ophanim.net:8400/;" target="_blank">NYC House Radio</a> - (Bitrate: 128kbit/s)</td>
@@ -47,16 +47,13 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://87.98.129.202/magicradioHD.mp3" target="_blank">MagicRadio by PulsRadio 80</a> - (Bitrate: 192kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://91.121.104.139:8100/;/;7513909505342709stream.nsv" target="_blank">Radio Planet FM</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="http://91.121.104.139:8100" target="_blank">Radio Planet FM</a> - (Bitrate: 128kbit/s)</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://sj128.hnux.com/live?type=http&nocache=272543" target="_blank">SmoothJazz.com Global</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="http://sj128.hnux.com" target="_blank">SmoothJazz.com Global</a> - (Bitrate: 128kbit/s)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://fluxfm.hoerradar.de/flux-80er-mp3-hq?sABC=5po0nr8q%230%237r0op38pr913007379oq5nn513r6r944%23syhksz.qr_jrocynlre&amsparams=playerid:fluxfm.de_webplayer;skey:1555082893" target="_blank">Flux FM 80's</a> - (Bitrate: 320kbit/s)</td>
-</tr>
-<tr>
-<td style="text-align: center;"><a href="http://178.32.136.9/proxy/cjaccari?mp=/;" target="_blank">Negozi OVS</a> - (Bitrate: 128kbit/s)</td>
 </tr>
 </tbody>
 </table>
