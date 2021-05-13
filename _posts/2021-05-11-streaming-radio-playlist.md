@@ -14,47 +14,54 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <table>
 <tbody>
 <tr>
-<td style="text-align: center;"><a href="https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL.mp3" target="_blank">One World Radio - Tomorrowland</a> - (Bitrate: 192kbit/s)</td>
+<td style="text-align: center;"><a href="https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL.mp3" target="_blank">One World Radio - Tomorrowland</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/index_96_a-p.m3u8?sd=10&rebase=on" target="_blank">Radio Deejay</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8" target="_blank">Radio Deejay</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/index_96_a-p.m3u8?sd=10&rebase=on" target="_blank">m2o</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8" target="_blank">m2o</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://www.ophanim.net:8400/;" target="_blank">NYC House Radio</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="http://www.ophanim.net:8400/;" target="_blank">NYC House Radio</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://mp3.stream.tb-group.fm/tb.mp3?/technobase.ogg" target="_blank">TechnoBase.FM</a> - (Bitrate: 192kbit/s)</td>
+<td style="text-align: center;"><a href="https://mp3.stream.tb-group.fm/tb.mp3?/technobase.ogg" target="_blank">TechnoBase.FM</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://streams.fluxfm.de/90er/mp3-320/" target="_blank">XRadio 90's</a> - (Bitrate: 320kbit/s)</td>
+<td style="text-align: center;"><a href="http://streams.fluxfm.de/90er/mp3-320/" target="_blank">XRadio 90's</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://streams.fluxfm.de/80er/mp3-128/" target="_blank">XRadio 80's</a> - (Bitrate: 320kbit/s)</td>
+<td style="text-align: center;"><a href="http://streams.fluxfm.de/80er/mp3-128/" target="_blank">XRadio 80's</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://mp3.stream.tb-group.fm/trb.mp3?" target="_blank">TranceBase FM</a> - (Bitrate: 192kbit/s)</td>
+<td style="text-align: center;"><a href="https://mp3.stream.tb-group.fm/trb.mp3?" target="_blank">TranceBase FM</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos</a> - (Bitrate: 96kbit/s)</td>
+<td style="text-align: center;"><a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://icy.unitedradio.it/RMC.mp3" target="_blank">RMC 2</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="http://wma02.fluidstream.net:5010/" target="_blank">Radio Ibiza</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://87.98.129.202/magicradioHD.mp3" target="_blank">MagicRadio by PulsRadio 80</a> - (Bitrate: 192kbit/s)</td>
+<td style="text-align: center;"><a href="https://icy.unitedradio.it/RMC.mp3" target="_blank">RMC 2</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://91.121.104.139:8100" target="_blank">Radio Planet FM</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="http://edge.radiomontecarlo.net/rmcweb008" target="_blank">RMC '80</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://sj128.hnux.com" target="_blank">SmoothJazz.com Global</a> - (Bitrate: 128kbit/s)</td>
+<td style="text-align: center;"><a href="http://87.98.129.202/magicradioHD.mp3" target="_blank">MagicRadio by PulsRadio 80</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://fluxfm.hoerradar.de/flux-80er-mp3-hq?sABC=5po0nr8q%230%237r0op38pr913007379oq5nn513r6r944%23syhksz.qr_jrocynlre&amsparams=playerid:fluxfm.de_webplayer;skey:1555082893" target="_blank">Flux FM 80's</a> - (Bitrate: 320kbit/s)</td>
+<td style="text-align: center;"><a href="http://91.121.104.139:8100" target="_blank">Radio Planet FM</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="http://sj128.hnux.com" target="_blank">SmoothJazz.com Global</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="http://fluxfm.hoerradar.de/flux-80er-mp3-hq?sABC=5po0nr8q%230%237r0op38pr913007379oq5nn513r6r944%23syhksz.qr_jrocynlre&amsparams=playerid:fluxfm.de_webplayer;skey:1555082893" target="_blank">Flux FM 80's</a></td>
 </tr>
 </tbody>
 </table>
 </center>
+
