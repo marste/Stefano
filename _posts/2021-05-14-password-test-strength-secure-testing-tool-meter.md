@@ -10,6 +10,9 @@ tags: [password, test, strength, secure, testing, tool, meter, verifica, qualit√
 Ecco i siti principali per effettuare la verifica sulla forza di una password.
 
 <a href="https://www.uic.edu/apps/strong-password/" target="_blank">https://www.uic.edu/apps/strong-password/</a>   
+
 <a href="https://bitwarden.com/password-strength/" target="_blank">https://bitwarden.com/password-strength/</a>   
+
 <a href="https://www.my1login.com/resources/password-strength-test/" target="_blank">https://www.my1login.com/resources/password-strength-test/</a>   
+
 <a href="https://www.grc.com/haystack.htm" target="_blank">https://www.grc.com/haystack.htm</a>   
