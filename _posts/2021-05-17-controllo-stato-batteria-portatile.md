@@ -25,4 +25,4 @@ In questo report occorre trovare le righe **Capacità nominale** e **Ultima cari
 
 oppure se in inglese cerca: **Design Capacity** e **Last Full Charge**.   
 
-Dividi l'ultima carica totale con la capacità nominale: 65877/68005=0,9687 moltiplica per 100 = **96,87% efficienza della batteria**
+Dividi l'ultima carica totale con la capacità nominale: **65877/68005=0,9687** moltiplica **per 100** = **96,87% efficienza della batteria**
