@@ -13,7 +13,7 @@ Per misurare la tensione della batteria dell'auto è possibile acquistare un Vol
 
 Di seguito le tensioni da verificare:
 
-
+<center>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -46,10 +46,12 @@ Di seguito le tensioni da verificare:
   </tr>
 </tbody>
 </table>
+</center>
 
 <p>
 </p>
 
+<center>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -82,3 +84,4 @@ Di seguito le tensioni da verificare:
   </tr>
 </tbody>
 </table>
+</center>
