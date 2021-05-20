@@ -1,16 +1,8 @@
 ---
-id: 3015
 title: Batteria auto scarica?
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=3015
 permalink: /batteria-auto-scarica/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2969816054
-post_views_count:
-  - 1
 categories:
   - Varie
 tags:
