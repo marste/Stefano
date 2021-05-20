@@ -9,6 +9,8 @@ tags: [controllo, test, check, battery, batteria, automobile, volt, voltaggio]
 ---
 Per misurare la tensione della batteria dell'auto è possibile acquistare un Voltmetro Digitale a LED da collegare all'accendisigari.   
 
+<center><img src="https://marzorati.co/img/post/voltmetro_digitale-accendisigari.jpg" alt="Voltmetro Digitale Auto"></center>
+
 Di seguito le tensioni da verificare:
 
 
@@ -45,7 +47,8 @@ Di seguito le tensioni da verificare:
 </tbody>
 </table>
 
-
+<p>
+</p>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
