@@ -3,8 +3,8 @@ title: Controllo stato della batteria dell'auto
 date: 2021-05-20 08:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://marzorati.co/img/battery.png'
-share-img: 'https://marzorati.co/img/battery.png'
+image: 'https://marzorati.co/img/car-battery.png'
+share-img: 'https://marzorati.co/img/car-battery.png'
 tags: [controllo, test, check, battery, batteria, automobile, volt, voltaggio]
 ---
 Per misurare la tensione della batteria dell'auto è possibile acquistare un Voltmetro Digitale a LED da collegare all'accendisigari.   
