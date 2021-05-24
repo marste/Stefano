@@ -11,7 +11,7 @@ tags: [ricetta, pane, uvetta, lievito, acqua, sale, farina]
 **Quantitativo per fare 1 filoncino da 700 grammi**   
 
 <p align="center">
-  <img src="https://marzorati.co/img/post/pane_uvetta_friggitrice_aria_1.jpg">
+  <img src="https://marzorati.co/img/post/pane_uvetta_1a.jpg">
 </p>   
 
 ***Ingredienti:***   
@@ -24,7 +24,7 @@ tags: [ricetta, pane, uvetta, lievito, acqua, sale, farina]
 * 130 grammi di uvetta
 
 <p align="center">
-  <img src="https://marzorati.co/img/post/pane_uvetta_friggitrice_aria_2.jpg">
+  <img src="https://marzorati.co/img/post/pane_uvetta_2a.jpg">
 </p>  
 
 ***Procedimento:***   
