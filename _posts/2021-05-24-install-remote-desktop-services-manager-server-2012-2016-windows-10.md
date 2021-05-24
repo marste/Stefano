@@ -16,6 +16,6 @@ Quindi tutto ciò che devi fare è copiare il file <a href="https://marzorati.co
 
 Il file zip è composto da 4 files: **tsadmin.msc**, **wts.dll**, **tsadmin.dll** e **tsadmin.reg**   
 
-* Estrai i files in **C:\Windows\System32\**
+* Estrai i files in **C:\Windows\System32**
 * Doppio click su **tsadmin.reg** per aggiungere al registro le informazioni richieste per il gestore dei servizi terminal al fine di caricare lo snap-in MMC
 * Doppio click su **tsadmin.exe**
