@@ -3,10 +3,10 @@ title: 'Installare Remote Desktop Services Manager su Windows Server 2016 e Wind
 author: Stefano Marzorati
 layout: post
 date: 2021-05-24 12:45:00 +0200
-image: 'https://marzorati.co/img/terminal.png'
-share-img: 'https://marzorati.co/img/terminal.png'
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows]
-tags: [find, trova, product, key, windows, wmic]
+tags: [installare, remote, desktop, service, windows, manager, tsadmin.msc]
 ---
 Ti manca il buon vecchio Remote Desktop Services Manager che era presente in Windows Server 2008 R2?   
 
