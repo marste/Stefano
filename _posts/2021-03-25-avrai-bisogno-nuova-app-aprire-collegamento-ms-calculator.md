@@ -16,6 +16,19 @@ Quindi per installare quest'ultimo pi√π tutte le app di default di Windows 10, √
 * Cliccare su **Windows PowerShell (amministratore)**
 * Al command prompt, digitare il seguente comando e dare **Invio**:
 
+<code>wsreset</code> (ripristina Windows Store senza modificare le impostazioni dell'account o eliminare le app installate)
+
+oppure per ripristinare esclusivamente la calcolatrice:   
+
+~~~powershell
+Get-AppxPackage -Name Microsoft.WindowsCalculator | Remove-AppxPackage
+~~~
+~~~powershell
+Get-AppxPackage -Name Microsoft.WindowsCalculator | Add-AppxPackage
+~~~
+
+oppure per ripristinare tutte le app:   
+
 ~~~powershell
 Get-AppXPackage -allusers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ~~~
