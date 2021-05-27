@@ -1,22 +1,17 @@
 ---
-title: Colesterolo e calcolo rischio cardiovascolare
+title: 'Colesterolo e calcolo rischio cardiovascolare'
 author: Stefano Marzorati
-date: 2015-10-07 15:30:00 -07:00
+date: 2021-05-27 06:30:00 +0200
 layout: post
-permalink: /colesterolo-calcolo-rischio-cardiovascolare/
-categories:
-  - salute
-tags:
-  - colesterolo
-  - buono
-  - cattivo
-  - totale
-  - HDL
-  - LDL
+categories: [salute]
+tags: [colesterolo, buono, cattivo, totale, HDL, LDL]
+image: 'https://marzorati.co/img/salute.png'
+share-img: 'https://marzorati.co/img/salute.png'
 ---
 Se volete calcolare l'indice di rischio cardiovascolare, basta semplicemente fare una divisione matematica tra il colesterolo totale e il colesterolo HDL (buono).   
 In base al risultato ottenuto, potrete capire il vostro rischio confrontando i valori riportati nella tabella sottostante:   
 
+<center>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
@@ -56,3 +51,4 @@ In base al risultato ottenuto, potrete capire il vostro rischio confrontando i v
     <td class="tg-baqh">&gt; 11,04<br></td>
   </tr>
 </table>
+</center>
