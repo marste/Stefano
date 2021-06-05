@@ -56,7 +56,7 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://91.121.104.139:8100" target="_blank">Radio Planet FM</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://sj128.hnux.com" target="_blank">SmoothJazz.com Global</a></td>
+<td style="text-align: center;"><a href="https://smoothjazz.cdnstream1.com/2585_128.mp3" target="_blank">SmoothJazz.com Global</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://fluxfm.hoerradar.de/flux-80er-mp3-hq?sABC=5po0nr8q%230%237r0op38pr913007379oq5nn513r6r944%23syhksz.qr_jrocynlre&amsparams=playerid:fluxfm.de_webplayer;skey:1555082893" target="_blank">Flux FM 80's</a></td>
