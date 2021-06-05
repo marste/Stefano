@@ -44,7 +44,7 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://wma02.fluidstream.net:5010/" target="_blank">Radio Ibiza</a></td>
+<td style="text-align: center;"><a href="http://wma02.fluidstream.net:5010/;" target="_blank">Radio Ibiza</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="https://icy.unitedradio.it/RMC.mp3" target="_blank">RMC 2</a></td>
@@ -56,7 +56,7 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://87.98.129.202/magicradioHD.mp3" target="_blank">MagicRadio by PulsRadio 80</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://91.121.104.139:8100" target="_blank">Radio Planet FM</a></td>
+<td style="text-align: center;"><a href="http://91.121.104.139:8100/;" target="_blank">Radio Planet FM</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="https://smoothjazz.cdnstream1.com/2585_128.mp3" target="_blank">SmoothJazz.com Global</a></td>
