@@ -339,6 +339,7 @@ footer .theme-by {
   font-size: 13px;
   font-style: italic;
   margin: 0 0 10px;
+  text-align: center;
 }
 .post-preview .post-entry {
   font-family: 'Noto Sans', sans-serif;
