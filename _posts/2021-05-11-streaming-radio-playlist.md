@@ -23,6 +23,9 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8" target="_blank">m2o</a></td>
 </tr>
 <tr>
+<td style="text-align: center;"><a href="https://58c04fb1d143f.streamlock.net/rararadio/rararadio/chunklist_w1916927459.m3u8" target="_blank">RaRaRadio.org</a></td>
+</tr>
+<tr>
 <td style="text-align: center;"><a href="http://www.ophanim.net:8400/;" target="_blank">NYC House Radio</a></td>
 </tr>
 <tr>
@@ -41,7 +44,7 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://s7.onweb.gr:8410/;" target="_blank">Venus Radio Mykonos</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://wma02.fluidstream.net:5010/" target="_blank">Radio Ibiza</a></td>
+<td style="text-align: center;"><a href="http://wma02.fluidstream.net:5010/;" target="_blank">Radio Ibiza</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="https://icy.unitedradio.it/RMC.mp3" target="_blank">RMC 2</a></td>
@@ -53,10 +56,10 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://87.98.129.202/magicradioHD.mp3" target="_blank">MagicRadio by PulsRadio 80</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://91.121.104.139:8100" target="_blank">Radio Planet FM</a></td>
+<td style="text-align: center;"><a href="http://91.121.104.139:8100/;" target="_blank">Radio Planet FM</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://sj128.hnux.com" target="_blank">SmoothJazz.com Global</a></td>
+<td style="text-align: center;"><a href="https://smoothjazz.cdnstream1.com/2585_128.mp3" target="_blank">SmoothJazz.com Global</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://fluxfm.hoerradar.de/flux-80er-mp3-hq?sABC=5po0nr8q%230%237r0op38pr913007379oq5nn513r6r944%23syhksz.qr_jrocynlre&amsparams=playerid:fluxfm.de_webplayer;skey:1555082893" target="_blank">Flux FM 80's</a></td>

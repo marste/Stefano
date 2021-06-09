@@ -22,6 +22,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 800;
   word-wrap: break-word;
+  text-align: center;
 }
 a {
   color: #008AFF;
@@ -338,6 +339,7 @@ footer .theme-by {
   font-size: 13px;
   font-style: italic;
   margin: 0 0 10px;
+  text-align: center;
 }
 .post-preview .post-entry {
   font-family: 'Noto Sans', sans-serif;
