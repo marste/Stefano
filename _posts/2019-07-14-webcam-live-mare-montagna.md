@@ -34,9 +34,9 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Macugnaga" src="https://www.meteolivevco.it/httpdocs/it/images/cam/lagodellefate.jpg">
 </center>
 <p></p>
-<center><strong>MACUGNAGA</strong> - Madonna delle Nevi (Verbano-Cusio-Ossola)</center>   
+<center><strong>MACUGNAGA</strong> - Ghiacciaio Belvedere (Verbano-Cusio-Ossola)</center>   
 <center>
-<img alt="Macugnaga" src="http://www.macugnaga-monterosa.it/images/webcams/passo-moro-madonna-delle-nevi.jpg/_full.jpg">
+<img alt="Macugnaga" src="https://meteolivevco.it/httpdocs/it/images/cam/ghiacciaiobelvedere.jpg">
 </center>
 <p></p>
 <center><strong>MERANO</strong> - (Bolzano)</center>   
