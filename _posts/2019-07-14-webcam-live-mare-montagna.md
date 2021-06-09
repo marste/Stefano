@@ -21,7 +21,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>VARAZZE</strong> (Savona) - Riviera di Ponente</center>   
 <center>
-<img alt="varazze" src="https://www.meteoindiretta.it/get_webcam.php?src=http%3A%2F%2Fmeteowebcam.leroi.it%2Fleroi.jpg&w=630">
+<img alt="varazze" src="https://vedetta.org/image-client/marina-di-varazze/image.jpg">
 </center>
 <p></p>
 <center><strong>CHAMOIS</strong> (Aosta) - 1800 metri</center>   
