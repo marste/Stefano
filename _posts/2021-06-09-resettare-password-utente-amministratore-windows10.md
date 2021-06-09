@@ -1,5 +1,5 @@
 ---
-title: 'Resettare la password utente o dell'amministratore di Windows 10'
+title: "Resettare la password utente o dell'amministratore di Windows 10"
 author: Stefano Marzorati
 layout: externalpost
 redirect_url: https://www.youtube.com/watch?v=TDuXjHDaqeY
