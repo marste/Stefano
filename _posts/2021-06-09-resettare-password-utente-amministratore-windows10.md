@@ -19,7 +19,7 @@ tags: [reset, ripristino, password, windows, utilman, wpeutil, net, user]
 * Riavviamo digitando **wpeutil reboot**
 * Al riavvio clicchiamo sull'icona dell'**accessibilità** in modo che parta il prompt dei comandi**
 * Digitiamo **net user** per vedere i nomi degli utenti locali
-* Digitiamo **net user administrator *** o al posto di administrator il nome dell'utente di cui vogliamo resettare la password
+* Digitiamo <code>net user administrator *</code> o al posto di administrator il nome dell'utente di cui vogliamo resettare la password
 * Diamo **due volte invio** in modo da non mettere nessuna password
 * Digitare **exit** e riavviare il PC e come per magia il vostro utente di cui non ricordavate la password accederà senza problemi
 
