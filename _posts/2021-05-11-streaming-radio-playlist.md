@@ -20,6 +20,9 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8" target="_blank">Radio Deejay</a></td>
 </tr>
 <tr>
+<td style="text-align: center;"><a href="https://ice01.fluidstream.net/piterpan?FLID=1&type=.aac" target="_blank">Radio Piterpan</a></td>
+</tr>
+<tr>
 <td style="text-align: center;"><a href="http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8" target="_blank">m2o</a></td>
 </tr>
 <tr>
