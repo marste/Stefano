@@ -1,6 +1,6 @@
 ---
 title: Playlist Radio
-date: 2021-05-11 12:41:00 +0200
+date: 2021-06-22 12:41:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/music.png'
@@ -21,6 +21,12 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 </tr>
 <tr>
 <td style="text-align: center;"><a href="https://ice01.fluidstream.net/piterpan?FLID=1&type=.aac" target="_blank">Radio Piterpan</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="https://cc5.beheerstream.com/8022/stream/" target="_blank">Radio Hardcore Power</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="http://centova.pure-isp.eu:8100/ultra" target="_blank">DutchCore.FM</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8" target="_blank">m2o</a></td>
