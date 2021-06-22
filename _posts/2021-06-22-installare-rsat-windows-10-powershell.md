@@ -3,7 +3,7 @@ title: "Installare RSAT (Remote Server Administration Tools) su Windows 10 con P
 author: Stefano Marzorati
 layout: post
 redirect_url: https://www.youtube.com/watch?v=TDuXjHDaqeY
-date: 2021-06-09 11:05:00 +0200
+date: 2021-06-22 11:00:00 +0200
 image: 'https://marzorati.co/img/powershell.png'
 share-img: 'https://marzorati.co/img/powershell.png'
 categories: [Windows]
