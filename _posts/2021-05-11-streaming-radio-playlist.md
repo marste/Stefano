@@ -29,6 +29,9 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://centova.pure-isp.eu:8100/ultra" target="_blank">DutchCore.FM</a></td>
 </tr>
 <tr>
+<td style="text-align: center;"><a href="http://net1.citrus3.com:9170/stream/;" target="_blank">Hard Sound Radio</a></td>
+</tr>
+<tr>
 <td style="text-align: center;"><a href="http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8" target="_blank">m2o</a></td>
 </tr>
 <tr>
