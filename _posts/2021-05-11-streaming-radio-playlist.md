@@ -20,10 +20,10 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8" target="_blank">Radio Deejay</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://ice01.fluidstream.net/piterpan?FLID=1&type=.aac" target="_blank">Radio Piterpan</a></td>
+<td style="text-align: center;"><a href="https://ice01.fluidstream.net/piterpan?FLID=1&type=.mp3" target="_blank">Radio Piterpan</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://cc5.beheerstream.com/8022/stream/" target="_blank">Radio Hardcore Power</a></td>
+<td style="text-align: center;"><a href="http://cc5.beheerstream.com:8022/stream" target="_blank">Radio Hardcore Power</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://centova.pure-isp.eu:8100/ultra" target="_blank">DutchCore.FM</a></td>
