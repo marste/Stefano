@@ -10,6 +10,6 @@ tags: [link, teams, chat, collegamento, html]
 ---
 Se volete creare un pulsante o solo un collegamento ipertestuale che rimandi alla chat di Microsoft Teams direttamente per chattare con voi, ecco come dovete crearlo:   
 
-<code>https://teams.microsoft.com/l/chat/0/0?users=<youremailaddress></code>
+	https://teams.microsoft.com/l/chat/0/0?users=<youremailaddress>
 
 Potete anche aggiungerlo alla firma di Outlook , magari con un'icona e del testo **Chat with me**
