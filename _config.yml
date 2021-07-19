@@ -34,7 +34,7 @@ navbar-links:
   Contact: "contact"
   CV: "curriculum-vitae"
   Links:
-    - Speed Test: "https://speed.measurementlab.net/"
+    - Speed Test: "speedtest"
     - Playlist Radio: "streaming-radio-playlist"
     - Webcam Live: "webcam-live-mare-montagna"	
     - C'era una volta un re: "https://ceraunavoltaunre.it"
