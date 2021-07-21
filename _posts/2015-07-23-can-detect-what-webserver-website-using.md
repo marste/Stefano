@@ -13,39 +13,34 @@ Puoi semplicemente digitare:
 e otterrai un risultato con queste informazioni:   
 
 	HTTP/1.1 200 OK
+	Connection: keep-alive
+	Content-Length: 12352
 	Server: GitHub.com
 	Content-Type: text/html; charset=utf-8
-	Last-Modified: Thu, 23 Jul 2015 20:23:09 GMT
+	Last-Modified: Tue, 20 Jul 2021 07:28:30 GMT
 	Access-Control-Allow-Origin: *
-	Expires: Thu, 23 Jul 2015 21:14:32 GMT
+	ETag: "60f67b1e-3040"
+	expires: Wed, 21 Jul 2021 07:31:57 GMT
 	Cache-Control: max-age=600
-	Content-Length: 6139
+	x-proxy-cache: MISS
+	X-GitHub-Request-Id: 5570:5467:1BE4DD:1D99E8:60F7CB15
 	Accept-Ranges: bytes
-	Date: Thu, 23 Jul 2015 21:04:32 GMT
+	Date: Wed, 21 Jul 2021 07:21:57 GMT
 	Via: 1.1 varnish
 	Age: 0
-	Connection: keep-alive
-	X-Served-By: cache-lhr6321-LHR
+	X-Served-By: cache-mxp6975-MXP
 	X-Cache: MISS
 	X-Cache-Hits: 0
-	X-Timer: S1437685472.532988,VS0,VE105
+	X-Timer: S1626852118.747827,VS0,VE95
 	Vary: Accept-Encoding
+	X-Fastly-Request-ID: e261f5ea96bc0c3ecd1d78effeb7f99c1adf6a09
 	
 O in altri casi più semplici, un risultato simile:   
 
 	HTTP/1.1 200 OK
-	Date: Thu, 23 Jul 2015 20:52:02 GMT
-	Server: Apache
-	Content-Type: text/html
-	X-Powered-By: PHP/5.5.9-1ubuntu4.11
-	Expires: Thu, 19 Nov 1981 08:52:00 GMT
-	Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-	Pragma: no-cache
-	X-Ants-Machine-Id: php02
-	X-Ants-Host: nginx01
-	Set-Cookie: PHPSESSID=9ofov1hcc8fdv2c3h6ubm0l122; path=/
+	Server: nginx
+	Date: Wed, 21 Jul 2021 07:23:25 GMT
+	Content-Type: text/html; charset=UTF-8
+	Connection: keep-alive
 	Vary: Accept-Encoding
-	Set-Cookie: HASH_PHPSESSID=05DEA1665720FA9F0B5F85DFF23A8AB2F87BA2DE; path=/
-	Content-Length: 129231
-	Keep-Alive: timeout=15, max=100
-	Connection: Keep-Alive
+	X-Dck: 01
