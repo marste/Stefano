@@ -1,22 +1,15 @@
 ---
 title: Come posso sapere quale webserver un sito web sta utilizzando?
-date: 2015-07-23 23:00:00 -07:00
+date: 2021-07-21 09:00:00 -07:00
 author: Stefano Marzorati
 layout: post
-permalink: /can-detect-what-webserver-website-using/
-categories:
-  - Software
-tags:
-  - webserver
-  - website
-  - version
-  - apache
-  - linux
-  - distribution
-  - powered
+image: 'https://marzorati.co/img/web.png'
+share-img: 'https://marzorati.co/img/web.png'
+categories: [webserver]
+tags: [webserver, website, version, apache, linux, nginx, curl, server, header]
 ---
 Puoi semplicemente digitare:   
-`wget --save-headers marzorati.co`   
+`curl -I https://marzorati.co`   
 e otterrai un risultato con queste informazioni:   
 
 	HTTP/1.1 200 OK
