@@ -41,6 +41,6 @@ Di seguito il menù attualmente proposto:
   <img src="https://marzorati.co/img/post/menu_san_tomaso.jpg">
 </p> 
 
-Al piano di sotto è presente anche l'agriturismo Rusconi che però risulta sempre pieno e con poca volontà nell'ospitarvi se non avete prenotato.
+Al piano di sotto è presente anche l'agriturismo Rusconi che però risulta sempre pieno e se non avete prenotato difficilmente riuscirete a mangiare.
 
  
