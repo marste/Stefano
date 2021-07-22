@@ -30,6 +30,10 @@ Gli alberi che contornano il pianoro, ideale per i bimbi, sono dei mandorli, mol
 
 E' possibile pranzare al ristoro gestito da soci volontari dell'O.S.A. che, a turno, svolgono il proprio lavoro in cucina ed al bar. Il servizio viene svolto il mercoledì, la domenica e in alcuni giorni festivi (6 gennaio, pasquetta, 25 aprile, 1° maggio, 2 giugno, 8 dicembre).  
 
+<p align="center">
+  <img src="https://marzorati.co/img/post/san_tomaso_panorama.jpg">
+</p> 
+
 Nel periodo di restrizioni a causa del COVID, non è possibile mangiare all'interno del rifugio, ma è comunque possibile ordinare dalla finestra i pasti desiderati e poterli consumare all'esterno in un'area ristoro al coperto oppure direttamente sul prato.   
 Di seguito il menù attualmente proposto:   
 
