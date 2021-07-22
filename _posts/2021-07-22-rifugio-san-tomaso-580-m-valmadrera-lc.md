@@ -14,11 +14,9 @@ Arrivo ore 09.48 a Valmadrera 234 m (LC) nel parcheggio delle scuole elementari 
 Da qui ci si incammina verso le prime segnaletiche dei rifugi che si vedono ad una cinquantina di metri.  
 Proseguendo per circa due tornanti sulla strada asfaltata si incontra un secondo cartello con i vari percorsi e i tempi
 
-
 <p align="center">
   <img src="https://marzorati.co/img/post/san_tomaso_ujh02o.png">
 </p> 
-
 
 Da qua la strada diventa un sentiero di ciotoli fino alla fine.  
 Come si vede dal cartello il tempo previsto per arrivare a San Tomaso è di circa 40 minuti.  
