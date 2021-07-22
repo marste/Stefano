@@ -1,17 +1,11 @@
 ---
-id: 2587
-title: 'Rifugio Antonietta 1400 m &#8211; Pialeral (LC)'
+title: 'Rifugio Antonietta 1400 m – Pialeral (LC)'
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2587
-permalink: /rifugio-antonietta-pialeral-lc/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2052216221
-categories:
-  - Varie
-tags:
+image: 'https://marzorati.co/img/mountain.png'
+share-img: 'https://marzorati.co/img/mountain.png'
+categories: [Montagna]
+tags: [antonietta, lecco, montagna, rifugio, pialeral]
   - antonietta
   - lecco
   - montagna

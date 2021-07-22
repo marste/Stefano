@@ -1,22 +1,11 @@
 ---
-id: 2585
-title: 'Rifugio Castiglioni 1640 m &#8211; Alpe Devero (VB)'
+title: 'Rifugio Castiglioni 1640 m – Alpe Devero (VB)'
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2585
-permalink: /rifugio-castiglioni-alpe-devero-vb/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2052206896
-categories:
-  - Varie
-tags:
-  - alpe devero
-  - castiglioni
-  - montagna
-  - rifugio
-  - verbania
+image: 'https://marzorati.co/img/mountain.png'
+share-img: 'https://marzorati.co/img/mountain.png'
+categories: [Montagna]
+tags: [alpe devero, castiglioni, montagna, rifugio, verbania]
 ---
 San Vittore Olona &#8211; Baceno fraz. Goglio (1133 m): 1,5 ora  
 Parcheggiare <a href="http://goo.gl/maps/qWca" target="_blank">sulla curva dove è presente la centrale elettrica dell’enel</a> e prendere la strada a sinistra (quella che si vede in foto)  

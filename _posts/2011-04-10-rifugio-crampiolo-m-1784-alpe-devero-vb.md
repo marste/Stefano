@@ -1,22 +1,11 @@
 ---
-id: 2583
-title: 'Rifugio Crampiolo m 1784 &#8211; Alpe Devero (VB)'
+title: 'Rifugio Crampiolo m 1784 – Alpe Devero (VB)'
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2583
-permalink: /rifugio-crampiolo-m-1784-alpe-devero-vb/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2052200394
-categories:
-  - Varie
-tags:
-  - alpe devero
-  - crampiolo
-  - montagna
-  - rifugio
-  - verbania
+image: 'https://marzorati.co/img/mountain.png'
+share-img: 'https://marzorati.co/img/mountain.png'
+categories: [Montagna]
+tags: [alpe devero, crampiolo, montagna, rifugio, verbania]
 ---
 Partenza 8.45 da San Vittore Olona.  
 Dopo 1 ora e 30’ arrivi a <a href="https://www.google.it/maps/preview#!data=!1m8!1m3!1d3!2d8.265998!3d46.295752!2m2!1f327.02!2f73.51!4f75!2m9!1e1!2m4!1s0qvxvkNnHcOCjH3wUHXRdA!2e0!9m1!6sFrazione+Goglio!5m2!1s0qvxvkNnHcOCjH3wUHXRdA!2e0&#038;fid=5" target="_blank">Goglio</a>, Baceno (VB) dove c’è la centrale elettrica dell’Enel.  

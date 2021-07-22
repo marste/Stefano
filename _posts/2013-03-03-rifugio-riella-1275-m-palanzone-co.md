@@ -1,22 +1,11 @@
 ---
-id: 2589
-title: 'Rifugio Riella 1275 m &#8211; Palanzone (CO)'
+title: 'Rifugio Riella 1275 m – Palanzone (CO)'
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2589
-permalink: /rifugio-riella-1275-m-palanzone-co/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2052230610
-categories:
-  - Varie
-tags:
-  - como
-  - montagna
-  - palanzone
-  - riella
-  - rifugio
+image: 'https://marzorati.co/img/mountain.png'
+share-img: 'https://marzorati.co/img/mountain.png'
+categories: [Montagna]
+tags: [como, montagna, palanzone, rifugio, riella]
 ---
 Partenza: Rescaldina  
 Arrivo: Colma di Sormano o meglio Pian del Tivano  
@@ -31,6 +20,6 @@ Dal parcheggio risaliamo alla Colma a piedi (15 minuti) e da qua saliamo per il 
 Tempo per arrivare al rifugio: 1h 30m.  
 Mangiamo al rifugio, due polente uncie (molto buona), due stinchi (molto buoni), una birra moretti da 66cl e due caffè. Totale 43 euro.
 
-[<img src="http://res.cloudinary.com/marzorati-co/image/upload/v1408107878/rifugio_riella_palanzone_gj6lvx.jpg" alt="Rifugio Riella - Palanzone" class="aligncenter size-full wp-image-2590" />][1]
-
- [1]: http://res.cloudinary.com/marzorati-co/image/upload/v1408107878/rifugio_riella_palanzone_gj6lvx.jpg
+<p align="center">
+  <img src="https://marzorati.co/img/post/rifugio_riella_palanzone_gj6lvx.jpg">
+</p> 
