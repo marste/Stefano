@@ -11,3 +11,9 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
 <center>
 <script src="https://ws.nperf.com/partner/js?k=33320d1b-1d22-4731-a225-7e710332a1f8"></script>
 </center>
+
+Se ti stai anche domandando ***qual è il mio indirizzo IP?***, ecco la risposta:
+
+<center>
+<div style="text-align: center;"><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="https://www.whatismyip.com/custom/wimi-script.js"></script></div>
+</center>
