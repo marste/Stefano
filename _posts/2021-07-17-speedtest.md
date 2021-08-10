@@ -18,3 +18,5 @@ Se ti stai anche domandando ***qual è il mio indirizzo IP?***, ecco la risposta
 <div style="text-align: center;"><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="https://www.whatismyip.com/custom/wimi-script.js"></script></div>
 <p><!--- End WIMI Script ---><br />
 <center><script type='text/javascript' src='https://it.ipshu.com/ip_location.js'></script></center>
+
+<center><script type="text/javascript" language="javascript" src="http://en.dnstools.ch/out/2.js"></script><noscript><a href="http://en.dnstools.ch/show-my-ip.html" target="_blank">What's my IP</a></noscript></center>
