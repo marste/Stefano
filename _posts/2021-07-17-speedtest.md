@@ -12,7 +12,7 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
 <script src="https://ws.nperf.com/partner/js?k=33320d1b-1d22-4731-a225-7e710332a1f8"></script>
 </center>
 
-<center>**Il tuo indirizzo IP è:**</center>
+<center><b>Il tuo indirizzo IP è:</b></center>
 <p>
 <center><script type='text/javascript' src='https://it.ipshu.com/myip_location.js?lang=it'></script></center>
 </p>
