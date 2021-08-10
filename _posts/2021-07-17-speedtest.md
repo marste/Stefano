@@ -12,11 +12,7 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
 <script src="https://ws.nperf.com/partner/js?k=33320d1b-1d22-4731-a225-7e710332a1f8"></script>
 </center>
 
-Se ti stai anche domandando ***qual è il mio indirizzo IP?***, ecco la risposta:
-
-<!--- Begin WIMI Script --->
-<div style="text-align: center;"><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="https://www.whatismyip.com/custom/wimi-script.js"></script></div>
-
+<center>**Il tuo indirizzo IP è:**</center>
+<p>
 <center><script type='text/javascript' src='https://it.ipshu.com/myip_location.js?lang=it'></script></center>
-
-<center><script type="text/javascript" language="javascript" src="http://en.dnstools.ch/out/2.js"></script><noscript><a href="http://en.dnstools.ch/show-my-ip.html" target="_blank">What's my IP</a></noscript></center>
+</p>
