@@ -14,7 +14,7 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <table>
 <tbody>
 <tr>
-<td style="text-align: center;"><a href="https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL.mp3" target="_blank">One World Radio - Tomorrowland</a></td>
+<td style="text-align: center;"><a href="https://22323.live.streamtheworld.com/OWR_INTERNATIONAL_ADP/HLS/28368/0/playlist.m3u8" target="_blank">One World Radio - Tomorrowland</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8" target="_blank">Radio Deejay</a></td>
