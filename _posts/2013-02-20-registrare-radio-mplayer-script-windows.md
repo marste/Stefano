@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
 layout: post
 categories: [Music]
-tags: [music, mplayer, recorder, script, commandline, registrare, musica]
+tags: [music, mplayer, recorder, script, commandline, registrare, musica, mp3, dump]
 ---
 Esempio:  
 `Registra_Radio_Titolo_Minuti.cmd http://sj128.hnux.com Jazz 60`  
@@ -19,3 +19,5 @@ set /a SECONDS=%3 * 60
 wait %SECONDS%
 close %2
 ~~~
+
+Verrà salvato un file con il nome **stream.dump**, a questo punto vi basterà rinominare l'estensione in **.mp3**.
