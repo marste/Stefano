@@ -13,9 +13,9 @@ Esempio:
 (registra da http://sj128.hnux.com che ha titolo ***Jazz*** per 60 minuti)
 
 ~~~batch
-`for /F "tokens=2-4 delims=/ " %%i in ('date /t') do set DATEFORMATTED=%%k%%i%%j   
-start "%2" /min "C:\Programmi\MPlayer\mplayer.exe" %1 -dumpstream   
-set /a SECONDS=%3 * 60   
-wait %SECONDS%   
-close %2`
+for /F "tokens=2-4 delims=/ " %%i in ('date /t') do set DATEFORMATTED=%%k%%i%%j
+start "%2" /min "C:\Programmi\MPlayer\mplayer.exe" %1 -dumpstream
+set /a SECONDS=%3 * 60
+wait %SECONDS%
+close %2
 ~~~
