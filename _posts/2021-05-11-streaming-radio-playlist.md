@@ -35,7 +35,7 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8" target="_blank">m2o</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://58c04fb1d143f.streamlock.net/rararadio/rararadio/chunklist_w1916927459.m3u8" target="_blank">RaRaRadio.org</a></td>
+<td style="text-align: center;"><a href="https://23613.live.streamtheworld.com/MASTERSOFHARDCORE.mp3" target="_blank">Masters of Hardcore</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://www.ophanim.net:8400/;" target="_blank">NYC House Radio</a></td>
