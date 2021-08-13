@@ -14,10 +14,8 @@ Esempio:
 
 ~~~batch
 for /F "tokens=2-4 delims=/ " %%i in ('date /t') do set DATEFORMATTED=%%k%%i%%j
-start "%2" /min "C:\Programmi\MPlayer\mplayer.exe" %1 -dumpstream
+start "%2" /min "C:\Programmi\MPlayer\mplayer.exe" %1 -dumpstream -dumpfile "%2.mp3"
 set /a SECONDS=%3 * 60
 wait %SECONDS%
 close %2
 ~~~
-
-Verrà salvato un file con il nome **stream.dump**, a questo punto vi basterà rinominare l'estensione in **.mp3**.
