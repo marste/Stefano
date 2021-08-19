@@ -18,6 +18,7 @@ tags: [tabella, farina, tipologia, assorbimento, acqua, forza, proteine, grammi]
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-2sbs{background-color:#68cbd0;font-weight:bold;text-align:center;vertical-align:top}
 </style>
+<center>
 <table class="tg">
 <thead>
   <tr>
@@ -54,3 +55,4 @@ tags: [tabella, farina, tipologia, assorbimento, acqua, forza, proteine, grammi]
   </tr>
 </tbody>
 </table>
+</center>
