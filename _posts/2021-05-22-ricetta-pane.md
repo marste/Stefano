@@ -1,5 +1,6 @@
 ---
 title: "Ricetta pane, semplice semplice"
+subtitle: "Idratazione al 70%"
 date: 2021-08-21 07:30:00 +0200
 author: Stefano Marzorati
 layout: post
@@ -14,8 +15,8 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, filoncino]
 
 ***Ingredienti:***   
 
-* 160 grammi di farina 0
-* 200 grammi di farina di grano duro (semola rimacinata)
+* 160 grammi di farina 0 - 45%
+* 200 grammi di farina di grano duro (semola rimacinata) - 55%
 * 2 grammi di lievito di birra disidratato
 * 250 grammi di acqua
 * 8 grammi di sale
