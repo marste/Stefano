@@ -1,6 +1,6 @@
 ---
 title: "Ricetta pane, semplice semplice"
-date: 2021-05-22 15:30:00 +0200
+date: 2021-08-21 07:30:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/ricette.png'
