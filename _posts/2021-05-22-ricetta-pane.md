@@ -15,11 +15,11 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, filoncino]
 
 ***Ingredienti:***   
 
-* 160 grammi di farina 0 - 45%
-* 200 grammi di farina di grano duro (semola rimacinata) - 55%
-* 2 grammi di lievito di birra disidratato
 * 250 grammi di acqua
+* 200 grammi di farina di grano duro (semola rimacinata) - 55%
+* 160 grammi di farina 0 - 45%
 * 8 grammi di sale
+* 2 grammi di lievito di birra disidratato
 
 ***Procedimento:***   
 
