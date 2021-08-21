@@ -13,9 +13,9 @@ tags: [ricetta, piadina, romagnola, olio, farina, veloce, acqua, latte, sale]
 
   - 500 gr di farina 0 o 00
   - 150 gr di latte
+  - 100 gr di acqua
   - 50 gr di olio extra vergine di oliva
   - 8 gr di sale
-  - 100 gr di acqua
 
 <center><img src="https://marzorati.co/img/post/piadina.jpg" alt="Piadina senza lievito"></center>  
 
