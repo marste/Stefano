@@ -1,13 +1,13 @@
 ---
 title: Ricetta veloce piadina
-subtitle: Veloce e senza lievito
+subtitle: Senza lievito
 date: 2021-08-21 06:50:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/ricette.png'
 share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
-tags: [ricetta, piadina, romagnola, olio, farina, acqua, latte, sale]
+tags: [ricetta, piadina, romagnola, olio, farina, veloce, acqua, latte, sale]
 ---
 **Ingredienti:**   
 
