@@ -31,6 +31,7 @@ description: 'IT Infrastructure Manager - Oltre 20 anni di esperienza nel settor
 navbar-links:
   Search: "search"
   News: "news"
+  Meteo: "meteo-lombardia"
   Contact: "contact"
   CV: "curriculum-vitae"
   Links:
