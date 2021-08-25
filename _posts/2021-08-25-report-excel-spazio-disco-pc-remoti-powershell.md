@@ -6,7 +6,7 @@ layout: post
 image: 'https://marzorati.co/img/powershell.png'
 share-img: 'https://marzorati.co/img/powershell.png'
 categories: [PowerShell]
-tags: [report, excel, script, space, disk, remote, pc]
+tags: [report, excel, script, space, disk, remote, pc, export]
 ---
 Crea il file **Space_Disk.ps1** copiando/incollando il codice qua sotto:   
 
