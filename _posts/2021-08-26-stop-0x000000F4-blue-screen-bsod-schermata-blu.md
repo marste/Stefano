@@ -9,7 +9,7 @@ categories: [Windows]
 tags: [blue, screen, schermata, blu, batteria, cmos, bsod, windows 2008, 000000F4]
 ---
 Molto probabilmente il problema è causato dalla batteria CMOS presente sulla scheda madre che ha una tensione molto bassa o è quasi scarica.   
-- Prova ad aprire il PC o il Server
-- Rimuovi la batteria CMOS dalla scheda madre e aspetta qualche secondo
-- Reinserisci la batteria
-- Riaccendi il PC o il Server
+- Aprire il PC o il Server
+- Rimuovere la batteria CMOS dalla scheda madre e aspettare qualche secondo
+- Reinserire la batteria
+- Riaccendere il PC o il Server
