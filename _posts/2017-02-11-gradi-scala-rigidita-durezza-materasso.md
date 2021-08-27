@@ -3,16 +3,10 @@ title: Gradi e scale di rigidità e durezza del materasso
 date: 2017-02-11 14:42:00 +0200
 author: Stefano Marzorati
 layout: post
-permalink: /gradi-scala-rigidita-durezza-materasso/
-categories:
-  - Casa
-tags:
-  - rigidità
-  - durezza
-  - materasso
-  - h1
-  - h2
-  - h3
+image: 'https://marzorati.co/img/home.png'
+share-img: 'https://marzorati.co/img/home.png'
+categories: [Casa]
+tags: [rigidità, durezza, materasso, H1, H2, H3]
 ---
 * **Classe rigidità H1 =  morbido**   
  
