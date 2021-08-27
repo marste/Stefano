@@ -1,22 +1,13 @@
 ---
-title: I gradi di protezione degli involucri per apparecchiature elettriche IP44, IP65, IP67, etc...
+title: "I gradi di protezione degli involucri per apparecchiature elettriche IP44, IP65, IP67, IP68, etc..."
 date: 2017-02-24 17:15:00 +0200
 author: Stefano Marzorati
 published: true
 image: 'https://marzorati.co/img/ip67.jpeg'
 share-img: 'https://marzorati.co/img/ip67.jpeg'
 layout: post
-permalink: /gradi-protezione-involucri-apparecchiature-elettriche-ip44-ip65-ip67/
-categories:
-  - Varie
-tags:
-  - protezione
-  - involucri
-  - elettriche
-  - IP65
-  - IP67
-  - IP20
-  - IP44
+categories: [Varie]
+tags: [protezione, involucri, elettriche, IP65, IP67, IP68, IP20, IP44]
 ---
 Il grado IP **(Degree of Protection)** è indicato con due cifre più due lettere addizionali eventuali.
 
