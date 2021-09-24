@@ -59,9 +59,10 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Laveno Mombello" src="https://www.cerrometeo.com/public/gftp0000.jpg">
 </center>
 <p></p>
-<center><strong>DERVIO</strong> (Lecco)</center>   
+<p></p>
+<center><strong>BELLANO</strong> (Lecco)</center>   
 <center>
-<iframe src="http://www.vedetta.org/vedetta/dervio_live_sud" width="600" height="400"></iframe>
+<img alt="Bellano" src="http://www.villalarissa.net/cam/jpg/img.jpg">
 </center>
 <p></p>
 <center><strong>OMEGNA</strong> - Lago d'Orta (Verbano-Cusio-Ossola)</center>   
