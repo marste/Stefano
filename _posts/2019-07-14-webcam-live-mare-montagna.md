@@ -59,7 +59,6 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Laveno Mombello" src="https://www.cerrometeo.com/public/gftp0000.jpg">
 </center>
 <p></p>
-<p></p>
 <center><strong>BELLANO</strong> (Lecco)</center>   
 <center>
 <img alt="Bellano" src="http://www.villalarissa.net/cam/jpg/img.jpg">
