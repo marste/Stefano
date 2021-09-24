@@ -61,7 +61,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>DERVIO</strong> (Lecco)</center>   
 <center>
-<img alt="Laveno Mombello" src="https://vedetta.org/vedetta/dervio_live_sud/">
+<iframe src="http://www.vedetta.org/vedetta/dervio_live_sud" width="600" height="400"></iframe>
 </center>
 <p></p>
 <center><strong>OMEGNA</strong> - Lago d'Orta (Verbano-Cusio-Ossola)</center>   
