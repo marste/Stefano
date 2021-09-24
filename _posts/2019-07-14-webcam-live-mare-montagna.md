@@ -58,7 +58,6 @@ tags: [webcam, mare, montagna, live, lago]
 <center>
 <img alt="Laveno Mombello" src="https://www.cerrometeo.com/public/gftp0000.jpg">
 </center>
-</center>
 <p></p>
 <center><strong>DERVIO</strong> (Lecco)</center>   
 <center>
