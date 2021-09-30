@@ -5,6 +5,7 @@
   <meta name="theme-color" content="#000">
   <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="author" content="{{ site.author.name }}" />
+  <meta name="description" content="{{ page.title }}">
 
   {% if page.subtitle %}
   <meta name="description" content="{{ page.subtitle }}">
