@@ -18,11 +18,11 @@ tags:
 ---
 **Connettersi tramite PowerShell a Office365:**   
 
-	$UserCredential = Get-Credential   
+	Install-Module -Name ExchangeOnlineManagement   
 
-	$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection   
+	Import-Module ExchangeOnlineManagement   
 
-	Import-PSSession $Session
+	Connect-ExchangeOnline -UserPrincipalName  mioindirizzoemail
 
 **Verificare gli attuali permessi sul Calendario:**   
 
