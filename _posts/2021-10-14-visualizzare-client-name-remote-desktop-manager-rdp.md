@@ -20,7 +20,6 @@ Per disconnettere un utente:
 ~~~powershell
 Stop-TSSession <numero_id> -ComputerName <nome_server>
 ~~~
-
 Per inviare un messaggio popup:   
 ~~~powershell
 Send-TSMessage <numero_id> -ComputerName <nome_server>
