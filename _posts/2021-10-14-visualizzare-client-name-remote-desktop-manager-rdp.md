@@ -16,6 +16,10 @@ Esempio:
 Get-TSSession -ComputerName <nome_server>
 ~~~
 
+~~~powershell
+Stop-TSSession <numero_id> -ComputerName <nome_server>
+~~~
+
 **Disconnect-TSSession** - Disconnects any attached user from the session.   
 **Get-TSCurrentSession** - Provides information about the session in which the current process is running.   
 **Get-TSServers** - Enumerates all terminal servers in a given domain.   
