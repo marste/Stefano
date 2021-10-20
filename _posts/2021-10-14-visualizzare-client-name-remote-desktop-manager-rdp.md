@@ -15,7 +15,7 @@ Esempio:
 ~~~powershell
 Get-TSSession -ComputerName <nome_server>
 ~~~
-
+Per disconnettere un utente:   
 ~~~powershell
 Stop-TSSession <numero_id> -ComputerName <nome_server>
 ~~~
