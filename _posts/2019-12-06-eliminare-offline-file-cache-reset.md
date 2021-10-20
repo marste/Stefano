@@ -5,16 +5,8 @@ author: Stefano Marzorati
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
 layout: post
-categories:
-  - Windows
-tags:
-  - csc-cache
-  - offline
-  - file
-  - cache
-  - regedit
-  - database
-  - reset
+categories: [Windows]
+tags: [centro, sincronizzazione, csc-cache, offline, file, cache, regedit, database, reset]
 ---
 Apri regedit e vai al seguente percorso:   
 
