@@ -8,10 +8,11 @@ layout: post
 categories: [Windows]
 tags: [getting, client, name, remote desktop server, powershell, rdp, rds]
 ---
+Per installare il modulo:   
 ~~~powershell
 Install-Module -Name PSTerminalServices
 ~~~
-Esempio:
+Per avere la lista dei client collegati:   
 ~~~powershell
 Get-TSSession -ComputerName <nome_server>
 ~~~
