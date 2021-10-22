@@ -25,6 +25,10 @@ Per inviare un messaggio popup:
 Send-TSMessage <numero_id> -ComputerName <nome_server>
 ~~~
 
+Se volete prendere il controllo remoto di una sessione di un utente:   
+
+	mstsc.exe /shadow:<id_sessione> /v:<nome_server> /control /noConsentPrompt
+
 **Disconnect-TSSession** - Disconnects any attached user from the session.   
 **Get-TSCurrentSession** - Provides information about the session in which the current process is running.   
 **Get-TSServers** - Enumerates all terminal servers in a given domain.   
