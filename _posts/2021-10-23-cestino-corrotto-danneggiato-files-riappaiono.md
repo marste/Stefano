@@ -19,3 +19,5 @@ Questo comando eliminerà il cestino del disco **C:\**, ma se avete più dischi 
 Se avete abilitato il folder redirect, dovrete eliminare il cestino presente sul server, ad esempio:   
 
 	rd /s /q "D:\Shared Folders\Utenti\<nome_utente>\Desktop\$RECYCLE.BIN"
+	
+Il cestino verrà ricreato al riavvio del PC.
