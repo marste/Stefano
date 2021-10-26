@@ -12,24 +12,24 @@ Per installare il modulo:
 ~~~powershell
 Install-Module -Name PSTerminalServices
 ~~~
-Per avere la lista dei client collegati:   
+Per avere la **lista dei client** collegati:   
 ~~~powershell
 Get-TSSession -ComputerName <nome_server>
 ~~~
-Per disconnettere un utente:   
+Per **disconnettere** un utente:   
 ~~~powershell
 Stop-TSSession <numero_id> -ComputerName <nome_server>
 ~~~
-Per inviare un messaggio popup:   
+Per inviare un **messaggio popup**:   
 ~~~powershell
 Send-TSMessage <numero_id> -ComputerName <nome_server>
 ~~~
 
-Se volete prendere il controllo remoto di una sessione di un utente:   
+Se volete prendere il **controllo remoto** di una sessione di un utente:   
 
 	mstsc.exe /shadow:<id_sessione> /v:<nome_server> /control /noConsentPrompt
 
-Se volete vedere da quanto tempo un certo utente è idle, basta digitare:   
+Se volete vedere da quanto tempo un certo utente è **idle**, basta digitare:   
 
 	quser /SERVER:<nome_server>
 	
