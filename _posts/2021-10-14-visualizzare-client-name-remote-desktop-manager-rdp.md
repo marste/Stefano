@@ -1,12 +1,12 @@
 ---
 title: Visualizzare il nome client di un Remote Desktop Server da PowerShell
-date: 2021-10-14 09:00:00 +0200
+date: 2021-10-26 14:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/powershell.png'
 share-img: 'https://marzorati.co/img/powershell.png'
 layout: post
 categories: [Windows]
-tags: [getting, client, name, remote desktop server, powershell, rdp, rds]
+tags: [getting, client, name, remote desktop server, powershell, rdp, rds, idle, shadow]
 ---
 Per installare il modulo:   
 ~~~powershell
@@ -28,6 +28,12 @@ Send-TSMessage <numero_id> -ComputerName <nome_server>
 Se volete prendere il controllo remoto di una sessione di un utente:   
 
 	mstsc.exe /shadow:<id_sessione> /v:<nome_server> /control /noConsentPrompt
+
+Se volete vedere da quanto tempo un certo utente è idle, basta digitare:   
+
+	quser /SERVER:<nome_server>
+	
+Altri comandi li trovate qua di seguito:   
 
 **Disconnect-TSSession** - Disconnects any attached user from the session.   
 **Get-TSCurrentSession** - Provides information about the session in which the current process is running.   
