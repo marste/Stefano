@@ -14,7 +14,7 @@ tags: [ricetta, pizza, pizzeria, lievito, acqua, sale, farina, olio]
 * 540 grammi di farina 0
 * 2 grammi di lievito di birra disidratato
 * 297 grammi di acqua
-* 9 grammi di sale (circa due cucchiaini)
+* 11 grammi di sale (circa due cucchiaini)
 
 <p align="center">
   <img src="https://marzorati.co/img/post/pizza.jpg">
