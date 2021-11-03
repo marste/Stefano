@@ -33,6 +33,10 @@ Se volete vedere da quanto tempo un certo utente è **idle**, basta digitare:
 
 	quser /SERVER:<nome_server>
 	
+Un altro modo più semplice per disconnettere un utente da una sessione RDS è il seguente:   
+
+	logoff <id_sessione> /server:<nome_server>
+	
 Altri comandi li trovate qua di seguito:   
 
 **Disconnect-TSSession** - Disconnects any attached user from the session.   
