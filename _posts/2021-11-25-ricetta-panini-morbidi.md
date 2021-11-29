@@ -13,7 +13,7 @@ tags: [ricetta, panini, latte, morbidi, acqua, sale, farina, olio, burro]
 
 * 255 grammi di farina 0
 * 155 grammi di acqua
-* 25 grammi di burro
+* 15 grammi di burro
 * 10 grammi di zucchero
 * 3 grammi di sale
 * 2 grammi di lievito di birra disidratato
