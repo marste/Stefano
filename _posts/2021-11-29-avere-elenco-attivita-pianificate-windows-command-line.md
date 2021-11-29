@@ -15,5 +15,10 @@ schtasks /query /v /fo CSV > tasks.csv
 
 Se vuoi ottenere la lista di tutti i tasks che girano su un PC remoto, digita:   
 ~~~batch
-schtasks /s <Nome_PC> /query
+schtasks /s <Nome_PC> /query /v /fo LIST
+~~~
+
+Se cerchi qualcosa in particolare, puoi aggiungere il comando GREP, ad esempio, così:   
+~~~batch
+schtasks /s <Nome_PC> /query /v /fo LIST | grep 01/12/2021
 ~~~
