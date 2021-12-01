@@ -12,7 +12,7 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <table>
 <tbody>
 <tr>
-<td style="text-align: center;"><a href="http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8" target="_blank">Radio Deejay</a></td>
+<td style="text-align: center;"><a href="https://sunshinelive.hoerradar.de/sunshinelive-hard-mp3-hq" target="_blank">Sunshine-Live</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="https://ice01.fluidstream.net/piterpan?FLID=1&type=.mp3" target="_blank">Radio Piterpan</a></td>
