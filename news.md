@@ -92,9 +92,9 @@ share-img: 'https://marzorati.co/img/news.png'
 </script>
 
 <center><h1><a name="Economia"><font color="Black">Economia</font></a></h1></center>
-<div id="divRssUltimissime"></div>
+<div id="divRssEconomia"></div>
 <script>
-    $('#divRssUltimissime').FeedEk({
+    $('#divRssEconomia').FeedEk({
     FeedUrl : 'https://www.ansa.it/sito/notizie/economia/economia_rss.xml',
     MaxCount : 10,
 	ShowPubDate:true,
