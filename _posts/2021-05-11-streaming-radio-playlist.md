@@ -18,13 +18,16 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <td style="text-align: center;"><a href="https://ice01.fluidstream.net/piterpan?FLID=1&type=.mp3" target="_blank">Radio Piterpan</a></td>
 </tr>
 <tr>
+<td style="text-align: center;"><a href="https://22323.live.streamtheworld.com/TLPSTR01.mp3" target="_blank">Radio 538</a></td>
+</tr>
+<tr>
 <td style="text-align: center;"><a href="http://cc5.beheerstream.com:8022/stream" target="_blank">Radio Hardcore Power</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://centova.pure-isp.eu:8100/ultra" target="_blank">DutchCore.FM</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="http://net1.citrus3.com:9170/stream/;" target="_blank">Hard Sound Radio</a></td>
+<td style="text-align: center;"><a href="http://s2.radioapple.eu:8000/;" target="_blank">Radio Apple</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><a href="http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8" target="_blank">m2o</a></td>
@@ -74,4 +77,6 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 </tbody>
 </table>
 </center>
+
+
 
