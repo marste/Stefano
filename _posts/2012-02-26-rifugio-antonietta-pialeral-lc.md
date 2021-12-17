@@ -1,16 +1,12 @@
 ---
-title: 'Rifugio Antonietta 1400 m – Pialeral (LC)'
+title: "Rifugio Antonietta 1400 m – Pialeral (LC)"
 author: Stefano Marzorati
 layout: post
+date: 2012-02-26 08:00:00 +0200
 image: 'https://marzorati.co/img/mountain.png'
 share-img: 'https://marzorati.co/img/mountain.png'
 categories: [Montagna]
 tags: [antonietta, lecco, montagna, rifugio, pialeral]
-  - antonietta
-  - lecco
-  - montagna
-  - pialeral
-  - rifugio
 ---
 Partenza San Vittore Olona &#8211; Arrivo Pian dei Resinelli 1h 30’
 
