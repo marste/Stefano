@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/mountain.png'
 categories: [Montagna]
 tags: [antonietta, lecco, montagna, rifugio, pialeral]
 ---
-Partenza San Vittore Olona &#8211; Arrivo Pian dei Resinelli 1h 30’
+Partenza San Vittore Olona - Arrivo Pian dei Resinelli 1h 30’
 
 Siamo arrivati al parcheggio del pian dei Resinelli alle ore 10 e c’erano ancora molti posti liberi.  
 Da qui si prende subito la strada segnalata per il Rifugio Antonietta, tempo previsto 2h 15’.  
