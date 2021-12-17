@@ -1,5 +1,5 @@
 ---
-title: "Disconnettere da remoto tutti gli utenti collegati via RDP da un Terminal Server"
+title: 'Disconnettere da remoto tutti gli utenti collegati via RDP da un Terminal Server'
 date: 2021-12-17 08:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/powershell.png'

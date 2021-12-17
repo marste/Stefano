@@ -1,5 +1,5 @@
 ---
-title: "Rifugio Antonietta 1400 m – Pialeral (LC)"
+title: 'Rifugio Antonietta 1400 m – Pialeral (LC)'
 author: Stefano Marzorati
 layout: post
 date: 2012-02-26 08:00:00 +0200
