@@ -1,5 +1,5 @@
 ---
-title: 'Come ottenere l'elenco di tutte le applicazioni installate in Windows'
+title: "Come ottenere l'elenco di tutte le applicazioni installate in Windows"
 date: 2021-12-21 12:35:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/powershell.png'
