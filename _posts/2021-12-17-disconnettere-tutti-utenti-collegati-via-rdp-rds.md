@@ -14,6 +14,6 @@ Alla fine eliminerà il file session1.txt
 
 ~~~batch
 quser /server:SERVER01 > C:\Temp\session1.txt
-for /f "skip=1 tokens=3," %%i in (C:\Temp\session1.txt) DO logoff %%i /server:SERVER01
+for /f "skip=1 tokens=2" %%i in (C:\Temp\session1.txt) DO logoff %%i /server:SERVER01
 del C:\Temp\session1.txt
 ~~~
