@@ -1,16 +1,8 @@
 ---
-id: 2860
-title: 'Esportare gli utenti dell&#8217;active directory in .csv o in Excel'
+title: "Esportare gli utenti dell'active directory in .csv o in Excel"
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=2860
-permalink: /esportare-gli-utenti-dellactive-directory-in-csv-o-in-excel/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2713333152
-categories:
-  - Windows
+categories: [Windows]
 ---
 <!-- HTML generated using hilite.me -->
 
