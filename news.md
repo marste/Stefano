@@ -74,7 +74,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 
-<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Economia">Economia</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
+<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
 
 
 <center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
@@ -82,20 +82,6 @@ share-img: 'https://marzorati.co/img/news.png'
 <script>
     $('#divRssUltimissime').FeedEk({
     FeedUrl : 'https://www.televideo.rai.it/televideo/pub/rss101.xml',
-    MaxCount : 10,
-	ShowPubDate:true,
-    ShowDesc : true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
-  });
-</script>
-
-<center><h1><a name="Economia"><font color="Black">Economia</font></a></h1></center>
-<div id="divRssEconomia"></div>
-<script>
-    $('#divRssEconomia').FeedEk({
-    FeedUrl : 'https://www.ansa.it/sito/notizie/economia/economia_rss.xml',
     MaxCount : 10,
 	ShowPubDate:true,
     ShowDesc : true,
