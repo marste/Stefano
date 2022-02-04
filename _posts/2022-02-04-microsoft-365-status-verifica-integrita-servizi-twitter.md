@@ -7,7 +7,7 @@ image: 'https://marzorati.co/img/microsoft.png'
 share-img: 'https://marzorati.co/img/microsoft.png'
 layout: post
 categories: [Windows]
-tags: [microsoft, 365, status, servizi, down, verifica, office]
+tags: [microsoft, 365, status, servizi, down, verifica, office, health]
 ---
 Se volete verificare l'integrità dei servizi Microsoft, con le eventuali tempistiche di ripristino e informazioni sull'incident, ci sono due possibilità:   
 
