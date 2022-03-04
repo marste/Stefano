@@ -123,7 +123,7 @@ share-img: 'https://marzorati.co/img/news.png'
 <div id="divRssAffari"></div>
 <script>
     $('#divRssAffari').FeedEk({
-    FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    FeedUrl : 'https://risparmiogestito.money.it/spip.php?page=backend',
     MaxCount : 10,
     ShowDesc : true,
     ShowPubDate:true,
