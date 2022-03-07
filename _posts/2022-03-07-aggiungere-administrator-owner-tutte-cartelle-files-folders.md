@@ -16,4 +16,4 @@ Esempi:
 	takeown /F "D:\Shared Folders\Test\Prova\*.*" /A /R
 
 **/A** Questo comando fa diventare proprietario il gruppo di amministratori locali invece dell'utente corrente   
-**/R** Modifica ricorsivamente il proprietari di tutti i file e le cartelle nidificati nella directory specificata   
+**/R** Modifica ricorsivamente il proprietario di tutti i file e le cartelle nidificati nella directory specificata   
