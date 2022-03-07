@@ -17,25 +17,25 @@ tags:
 published: true
 ---
 **Elevate Permission to Stop/Restart Services**   
-`runas /user:Domain\Administrator "mmc.exe \"services.msc\""`
+	runas /user:Domain\Administrator "mmc.exe \"services.msc\""
 
 **Shutdown a PC from the Command Prompt**   
-`runas /user:Domain\Administrator "shutdown -s -t 0"`
+	runas /user:Domain\Administrator "shutdown -s -t 0"
 
 **Restart a PC from the Command Prompt**   
-`runas /user:Domain\Administrator "shutdown -r -t 0"`
+	runas /user:Domain\Administrator "shutdown -r -t 0"
 
 **Elevate Permissions to Edit the Registry**   
-`runas /user:Domain\Administrator "regedit.exe"`
+	runas /user:Domain\Administrator "regedit.exe"
 
 **Elevate Permissions to run CMD commands**   
-`runas /user:Domain\Administrator "cmd.exe"`
+	runas /user:Domain\Administrator "cmd.exe"
 
 **Elevate Permissions to Modify Local Policy**   
-`runas /user:Domain\Administrator "mmc.exe \"gpmc.msc\""`
+	runas /user:Domain\Administrator "mmc.exe \"gpmc.msc\""
 
 **Elevate Permissions to View Security Events**   
-`runas /user:Domain\Administrator "eventvwr.exe"`
+	runas /user:Domain\Administrator "eventvwr.exe"
 
 **Elevate Permissions to Manage Network Computers**   
-`runas /user:domain\Domain\Administrator "mmc.exe \"compmgmt.msc\""`
+	runas /user:domain\Domain\Administrator "mmc.exe \"compmgmt.msc\""
