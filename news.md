@@ -74,7 +74,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 
-<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Affari">Affari</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="https://lab24.ilsole24ore.com/coronavirus/" target="_blank">Covid-19</a></center>   
+<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a></center>   
 
 
 <center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
@@ -119,10 +119,10 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
-<center><h1><a name="Affari"><font color="Black">Affari</font></a></h1></center>
-<div id="divRssAffari"></div>
+<center><h1><a name="Economia"><font color="Black">Economia</font></a></h1></center>
+<div id="divRssEconomia"></div>
 <script>
-    $('#divRssAffari').FeedEk({
+    $('#divRssEconomia').FeedEk({
     FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
     MaxCount : 10,
     ShowDesc : true,
