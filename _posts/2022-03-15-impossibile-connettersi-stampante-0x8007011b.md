@@ -17,4 +17,4 @@ Andate nel registro del vostro Printer Server:
 
 Create una **DWORD**: **RpcAuthnLevelPrivacyEnabled=0**
 
-Riavviate il servizio **Print Spooler"
+Riavviate il servizio **Print Spooler**
