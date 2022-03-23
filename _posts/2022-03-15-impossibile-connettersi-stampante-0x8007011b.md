@@ -1,5 +1,5 @@
 ---
-title: "Impossibile conettersi la stampante"
+title: "Impossibile conettersi alla stampante"
 subtitle: "Codice Errore 0x8007011b"
 date: 2022-03-15 07:53:00 +0200
 author: Stefano Marzorati
