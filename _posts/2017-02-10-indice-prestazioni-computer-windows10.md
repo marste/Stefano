@@ -10,8 +10,11 @@ tags: [windows10, indice, prestazioni, powershell, rating, valutazione]
 ---
 Il comando da digitare in PowerShell come amministratore, è il seguente:   
 
-<code>Get-CimInstance Win32_WinSat</code> oppure   
-<code>Get-WmiObject -Class Win32_WinSAT</code>   
+	Get-CimInstance Win32_WinSat
+	
+oppure
+	
+	Get-WmiObject -Class Win32_WinSAT
 
 L'indice di prestazioni Windows valuta i componenti chiave del sistema, in base ad una **scala da 1,0 a 7,9**   
 
