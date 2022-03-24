@@ -3,6 +3,8 @@ title: Visualizzare l'indice di prestazioni di un PC con Windows 10
 date: 2022-03-24 17:15:00 +0200
 author: Stefano Marzorati
 layout: post
+image: 'https://marzorati.co/img/terminal.png'
+share-img: 'https://marzorati.co/img/terminal.png'
 categories: [Windows]
 tags: [windows10, indice, prestazioni, powershell, rating, valutazione]
 ---
