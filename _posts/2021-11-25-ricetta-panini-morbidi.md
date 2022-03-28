@@ -1,5 +1,5 @@
 ---
-title: "Ricetta panini morbidi"
+title: "Ricetta panini morbidi al burro"
 subtitle: "Idratazione al 60%"
 date: 2021-11-25 07:30:00 +0200
 author: Stefano Marzorati
