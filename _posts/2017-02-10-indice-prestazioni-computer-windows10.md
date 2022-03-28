@@ -16,7 +16,7 @@ oppure
 	
 	Get-WmiObject -Class Win32_WinSAT
 
-L'indice di prestazioni Windows valuta i componenti chiave del sistema, in base ad una **scala da 1,0 a 7,9**   
+L'indice di prestazioni Windows valuta i componenti chiave del sistema, in base ad una **scala da 1,0 a 9,9**   
 
 * CPUScore = prestazioni del processore in calcoli al secondo
 * D3DScore = prestazioni grafiche aziendali e di gioco 3D
