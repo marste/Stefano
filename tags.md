@@ -5,7 +5,6 @@ permalink: /tags/
 image: 'https://marzorati.co/img/tag.png'
 share-img: 'https://marzorati.co/img/tag.png'
 ---
-
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
         {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
