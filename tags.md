@@ -1,7 +1,9 @@
 ---
 layout: page
+title: Tag Index
 permalink: /tags/
-title: 'Tag Index'
+image: 'https://marzorati.co/img/tag.png'
+share-img: 'https://marzorati.co/img/tag.png'
 ---
 
 {%- capture site_tags -%}
