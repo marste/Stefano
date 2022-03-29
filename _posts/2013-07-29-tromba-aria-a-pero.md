@@ -1,5 +1,5 @@
 ---
-title: "Tromba d'aria a Pero"
+title: Tromba d'aria a Pero
 subtitle: "Microburst"
 author: Stefano Marzorati
 layout: post
