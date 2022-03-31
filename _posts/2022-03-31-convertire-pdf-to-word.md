@@ -1,5 +1,5 @@
 ---
-title: "Convertire PDF in Word"
+title: "Convertire PDF in Word con OCR gratis"
 subtitle: ...e tanti altri formati
 date: 2022-03-31 08:23:00 +0200
 author: Stefano Marzorati
