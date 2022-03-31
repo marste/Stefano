@@ -74,7 +74,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 
-<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="https://www.money.it/Guerra-Ucraina-Russia-cosa-succede-oggi-ultime-notizie-diretta" target="_blank">Guerra in Ucraina</a></center>   
+<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="https://www.rainews.it/maratona/2022/03/live-guerra-in-ucraina-la-cronaca-minuto-per-minuto-giorno-36-4e4b61e0-4258-4891-b0f2-c02463a4f8ae.html" target="_blank">Guerra in Ucraina</a></center>   
 
 <center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
 <div id="divRssUltimissime"></div>
