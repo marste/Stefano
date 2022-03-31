@@ -7,6 +7,6 @@ image: 'https://marzorati.co/img/acrobat.png'
 share-img: 'https://marzorati.co/img/acrobat.png'
 layout: post
 categories: [PDF]
-tags: [convertire, pdf, word, online, ocr]
+tags: [convertire, pdf, word, online, ocr, free, gratis]
 ---
 <a href="https://convertio.co" target="_blank">https://convertio.co</a>
