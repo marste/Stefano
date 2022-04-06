@@ -1,31 +1,12 @@
 ---
-id: 1446
 title: Rimuovere protezione PDF
+date: 2022-04-06 08:23:00 +0200
 author: Stefano Marzorati
 layout: post
-guid: http://marzorati.co/?p=1446
-permalink: /rimuovere-protezione-pdf/
-publicize_reach:
-  - 'a:2:{s:7:"twitter";a:1:{i:3411;i:24;}s:2:"wp";a:1:{i:0;i:1;}}'
-  - 'a:2:{s:7:"twitter";a:1:{i:3411;i:24;}s:2:"wp";a:1:{i:0;i:1;}}'
-publicize_twitter_user:
-  - marzorati_ste
-  - marzorati_ste
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2066758703
-categories:
-  - Linux
-  - Windows
-tags:
-  - pdf
-  - protection
-  - protezione
-  - remove
-  - rimuovere
+image: 'https://marzorati.co/img/acrobat.png'
+share-img: 'https://marzorati.co/img/acrobat.png'
+categories: [PDF]
+tags: [pdf, protection, remove, protezione, protetto, rimuovere]
 ---
-http://online2pdf.com/
+<a href="http://online2pdf.com/" target="_blank">http://online2pdf.com/</a>
 
-<div id="dc_vk_code" style="display:none;">
-</div>
