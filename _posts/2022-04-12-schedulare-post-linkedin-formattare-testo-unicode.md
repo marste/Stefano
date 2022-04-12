@@ -9,7 +9,7 @@ layout: post
 categories: [Social]
 tags: [schedulare, post, linkedin, twitter, unicode, free, converter]
 ---
-Se avete la necessità di schedulare la pubblicazione di alcuni post su Linkedin ad un certo giorno e ad un certo orario, potete utilizzare questa piattaforma gratuita:   
+Se avete la necessità di schedulare la pubblicazione di alcuni post su Linkedin (ma anche su Facebook, Instagram, Twitter, Pinterest, Telegram, Youtube) ad un certo giorno e ad un certo orario, potete utilizzare questa piattaforma gratuita:   
 
 👉 <a href="https://www.postpickr.com/" target="_blank">PostPickr</a>
 
