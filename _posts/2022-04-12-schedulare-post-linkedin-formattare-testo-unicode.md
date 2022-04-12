@@ -11,7 +11,7 @@ tags: [schedulare, post, linkedin, twitter, unicode, free, converter]
 ---
 Se avete la necessità di schedulare la pubblicazione di alcuni post su Linkedin ad un certo giorno e ad un certo orario, potete utilizzare questa piattaforma gratuita:   
 
-<a href="https://www.postpickr.com/" target="_blank">PostPickr</a>
+👉 <a href="https://www.postpickr.com/" target="_blank">PostPickr</a>
 
 Se avete la necessità di scrivere dei testi con una certa formattazione (grassetto/corsivo, icone, emoji) sempre su Linkedin o su altri Social Network che non permettono l'utilizzo del codice HTML, dovete utilizzare dei convertitori di testo UNICODE.   
 
@@ -22,3 +22,5 @@ Qua di seguito alcuni siti:
 👉 <a href="https://yaytext.com/" target="_blank">https://yaytext.com/</a>   
 
 👉 <a href="https://texteditor.com/" target="_blank">https://texteditor.com/</a>   
+
+😉
