@@ -16,5 +16,3 @@ tags: [curare, rimedio, ingorgo, mammario, mastite, cavolo, cappuccio, naturale]
   - Avvolgere la mammella con delle foglie di cavolo cappuccio dopo averle schiacciate eventualmente con un mattarello per far sì che avvolgano bene e rimettete il reggiseno, lasciatelo anche un'intera notte e vedrete che l'infiammazione sparirà
 
 <center><img src="https://marzorati.co/img/post/cavolo-cappuccio.jpg" alt="Cavolo Cappuccio"></center>
-
-
