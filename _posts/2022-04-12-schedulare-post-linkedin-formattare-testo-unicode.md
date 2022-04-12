@@ -23,4 +23,4 @@ Qua di seguito alcuni siti:
 
 👉 <a href="https://texteditor.com/" target="_blank">https://texteditor.com/</a>   
 
-😉
+<center>😉</center>
