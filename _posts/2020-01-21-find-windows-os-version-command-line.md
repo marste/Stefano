@@ -1,22 +1,13 @@
 ---
-title: Find windows OS version from command line
-subtitle: Using Powershell
+title: Vedere la versione di Windows 10 di un PC remoto
+subtitle: Usando Powershell
 date: 2020-01-21 09:00:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/powershell.png'
 share-img: 'https://marzorati.co/img/powershell.png'
-permalink: /find-windows-os-version-command-line/
-categories:
-  - Windows
-tags:
-  - Windows
-  - version
-  - OS
-  - command
-  - cmd
-  - remote
-  - powershell
+categories: [Windows]
+tags: [Windows, versione, os, command, line, cmd, remote, version]
 ---
 Local PC:   
 {% highlight powershell %}
