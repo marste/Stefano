@@ -1,7 +1,7 @@
 ---
 title: Vedere la versione di Windows 10 di un PC remoto
 subtitle: Usando Powershell
-date: 2020-01-21 09:00:00 +0200
+date: 2022-04-14 09:00:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/powershell.png'
