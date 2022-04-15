@@ -12,7 +12,7 @@ Ricetta per 8 tortillas da 75/80 grammi l'una.
 
 ***Ingredienti:***   
 
-* 390 grammi di farina (312 grammi di farina 0 e 78 grammi di farina di mais gialla per polenta)
+* 390 grammi di farina (**312 grammi di farina 0** e 7**8 grammi di farina di mais gialla** per polenta)
 * 210 grammi di acqua
 * 15 grammi di olio di semi
 * 6 grammi di sale fino
