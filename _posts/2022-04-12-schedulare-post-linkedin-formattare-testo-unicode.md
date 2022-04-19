@@ -21,4 +21,4 @@ Qua di seguito alcuni siti:
 
 👉 <a href="https://yaytext.com/" target="_blank">https://yaytext.com/</a>   
 
-👉 <a href="https://texteditor.com/" target="_blank">https://texteditor.com/</a>   
+👉 <a href="https://emojiterra.com/it/" target="_blank">https://emojiterra.com/it/</a>   
