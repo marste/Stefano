@@ -1,5 +1,5 @@
 ---
-title: "Ricetta Tortillas per Burrito"
+title: "Ricetta Tortillas per Burrito 🌯"
 date: 2022-04-15 07:30:00 +0200
 author: Stefano Marzorati
 layout: post
