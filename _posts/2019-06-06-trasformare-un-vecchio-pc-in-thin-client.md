@@ -1,6 +1,6 @@
 ---
 title: Trasformare un vecchio PC in Thin Client
-date: 2022-04-22 13:00:00 +0200
+date: 2022-04-22 08:00:00 +0200
 published: true
 layout: post
 image: 'https://marzorati.co/img/linux.png'
