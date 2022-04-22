@@ -21,7 +21,7 @@ Digita il seguente comando per visualizzare un elenco dei 20 aggiornamenti più 
 	Get-WUHistory -ComputerName "nome_del_PC_remoto" | Select-Object -First 20
 
 
-**Con un tool:**   
+**Con un programma:**   
 
 Scarica questo programmino della <b><a href="https://www.nirsoft.net/articles/view-windows-10-update-history.html" target="_blank">NirSoft</a></b>, **premi F9**, scrivi il nome o l'IP del PC remoto e avrai la cronologia degli aggiornamenti installati.   
 
