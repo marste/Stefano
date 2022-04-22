@@ -10,3 +10,7 @@ tags: [update, tool, last, build, version, ultimo, aggiornamento, aggiornare, wi
 ---
 Scarica questo tool Microsoft per avere sempre installata l'ultima versione di Windows 10:   
 <a href="https://go.microsoft.com/fwlink/?LinkID=799445" target="_blank">Windows10Upgrade9252.exe</a>   
+
+Per eseguire l'aggiornamento in modalità silent:   
+
+	Windows10Upgrade9252.exe /quietinstall /skipeula /auto upgrade
