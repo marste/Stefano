@@ -14,7 +14,7 @@ Una volta installata, crea un utente con diritti non amministrativi, <u>elimina 
 Ti consiglio di **disattivare lo screensaver** o almeno eliminare la richiesta di password dopo il suo sblocco.   
 Installa: **sudo apt-get install freerdp2-x11**   
 
-**Crea uno script eseguibile** da salvare in un percorso che non sia il dekstop, con questi comandi:   
+**Crea uno script eseguibile .sh** da salvare in un percorso che non sia il dekstop, con questi comandi:   
 
 ~~~batch
 xfreerdp /v:tuo_server /u:$(zenity --entry --title="Utente di Dominio" --text="Inserisci il tuo utente") /p:$(zenity --entry --title="Password di Dominio" --text="Inserisci la tua password" --hide-text) /d:tuo_dominio /f /cert-ignore +clipboard
