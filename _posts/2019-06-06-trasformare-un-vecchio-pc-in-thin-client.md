@@ -12,7 +12,10 @@ Installa una distribuzione Linux che non ti farà impazzire con driver e che è 
 Io ti consiglio **Linux Mint**, in questo periodo è scaricabile la versione **Linux Mint LMDE 5**.   
 Una volta installata, crea un utente con diritti non amministrativi, <u>elimina tutte le icone dal desktop</u> e <u>crea un launcher</u> per avviare il **Remote Desktop** con i parametri per collegarsi al terminal server.   
 Ti consiglio di **disattivare lo screensaver** o almeno eliminare la richiesta di password dopo il suo sblocco.   
-Installa: **sudo apt-get install freerdp2-x11**   
+
+Installa:   
+
+	sudo apt-get install freerdp2-x11
 
 **Crea uno script eseguibile .sh** da salvare in un percorso che non sia il dekstop, con questi comandi:   
 
