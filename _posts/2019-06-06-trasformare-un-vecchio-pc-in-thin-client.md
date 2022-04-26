@@ -25,4 +25,7 @@ xfreerdp /v:tuo_server /u:$(zenity --entry --title="Utente di Dominio" --text="I
 
 A questo punto crea uno shortcut sul desktop che punti a questo script.   
 
+Per renderlo eseguibile, digita: **sudo chmod +x**   
+Aprite il gestore di risorse e andate in **Modifica** - **Preferenze** - **Comportamento** - **Eseguire i file di testo eseguibili quando vengono aperti**   
+
 In più se volete non far eliminare l'icona launcher, modificate i permessi, con l'utenza di root, su quello shortcut con il comando **sudo chattr +i**   
