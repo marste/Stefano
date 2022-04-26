@@ -1,12 +1,12 @@
 ---
-title: "Download Acrobat Reader DC 64 bit in Italiano"
+title: "Download ultima versione di Acrobat Reader DC 64 bit offline in Italiano"
 date: 2022-01-05 17:53:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/acrobat.png'
 share-img: 'https://marzorati.co/img/acrobat.png'
 layout: post
 categories: [Windows]
-tags: [download, acrobat, reader, 64, italiano, list, version]
+tags: [download, acrobat, reader, 64, italiano, list, versione, ultima, offline]
 ---
 Se avete bisogno di scaricare l'ultimissima versione di Acrobat Reader DC a 64 bit ed avete bisogno del file completo di installazione, per prima cosa visitate il sito di Adobe per vedere il numero della versione.   
 
