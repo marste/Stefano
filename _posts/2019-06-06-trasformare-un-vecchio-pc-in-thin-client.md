@@ -27,15 +27,15 @@ A questo punto crea uno shortcut sul desktop che punti a questo script.
 
 Per renderlo eseguibile, digita:   
 
-	**sudo chmod +x**   
+	sudo chmod +x   
 
 Aprite il gestore di risorse e andate in:   
 
-	**Modifica** - **Preferenze** - **Comportamento** - **Eseguire i file di testo eseguibili quando vengono aperti**   
+	Modifica - Preferenze - Comportamento - Eseguire i file di testo eseguibili quando vengono aperti  
 
 In più se volete non far eliminare l'icona launcher, modificate i permessi, con l'utenza di root, su quello shortcut con il comando:   
 
-	**sudo chattr +i**   
+	sudo chattr +i   
 
 Per modificare la password di root:   
 
