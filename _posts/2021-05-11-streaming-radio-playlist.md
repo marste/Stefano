@@ -12,6 +12,9 @@ tags: [streaming, radio, web, musica, music, favorite, preferita, html5, player]
 <table>
 <tbody>
 <tr>
+<td style="text-align: center;"><a href="http://technoszene.stream.laut.fm/technoszene" target="_blank">TECHNOSZENE</a></td>
+</tr>
+<tr>
 <td style="text-align: center;"><a href="https://sunshinelive.hoerradar.de/sunshinelive-hard-mp3-hq" target="_blank">Sunshine-Live</a></td>
 </tr>
 <tr>
