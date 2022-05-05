@@ -13,6 +13,6 @@ tags: [microsoft, 365, whitelist, exchange, posta, bloccare, office, consentire]
 - Andare in **Sicurezza**
 - **Criteri e regole**
 - **Criteri per minaccia**
-- **Criteri di protezione della posta indesiderata**
-- Scegli: **Criteri di protezione posta indesiderata in ingresso**
+- **Filtro della posta indesiderata**
+- Scegli: **Criteri di protezione posta indesiderata in ingresso (Predefinito)**
 - Clicca su **Modifica mittenti e domini consentiti e bloccati**
