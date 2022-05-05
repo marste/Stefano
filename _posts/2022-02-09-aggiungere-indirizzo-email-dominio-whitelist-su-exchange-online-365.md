@@ -7,7 +7,7 @@ image: 'https://marzorati.co/img/microsoft.png'
 share-img: 'https://marzorati.co/img/microsoft.png'
 layout: post
 categories: [Windows]
-tags: [microsoft, 365, whitelist, exchange, posta, bloccare, office, consentire]
+tags: [microsoft, 365, whitelist, exchange, posta, bloccare, office, consentire, blacklist]
 ---
 - Accedere all'Admin Portal di Office 365.
 - Andare in **Sicurezza**
