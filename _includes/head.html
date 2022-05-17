@@ -49,8 +49,23 @@
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
 	{% endfor %}
 	{% endif %}
+<!-- Copia Link -->	
+	<script>
+$(document).ready(function(){
+var $temp = $("<input>");
+var $url = $(location).attr('href');
+$('#btn').click(function() {
+$("body").append($temp);
+$temp.val($url).select();
+document.execCommand("copy");
+$temp.remove();
+$("p").text("URL copiato!");
+});
+});
+</script>
+<!-- Copia Link -->		
 	
-	<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
 <script type="text/javascript" async="true">
 (function() {
     var host = 'www.themoneytizer.com';
