@@ -7,7 +7,7 @@ layout: post
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows]
-tags: [Windows, get, LastAccessTime, export, powershell, Get-ChildItem, Recurse]
+tags: [Windows, MFA, autenticazione, multifattore, fattori, Office, 2013, outlook, password]
 ---
 Microsoft Office 2013 supporta l'autenticazione moderna, ma ha bisogno che vengano aggiunte le seguenti chiavi di registro:   
 
