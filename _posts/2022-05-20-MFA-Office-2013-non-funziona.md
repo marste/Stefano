@@ -4,8 +4,8 @@ subtitle: Richiesta continua della password di Outlook
 date: 2022-05-20 09:05:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/office.png'
+share-img: 'https://marzorati.co/img/office.png'
 categories: [Windows]
 tags: [Windows, MFA, autenticazione, multifattore, fattori, Office, 2013, outlook, password]
 ---
