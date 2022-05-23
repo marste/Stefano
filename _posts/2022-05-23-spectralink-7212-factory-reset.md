@@ -8,4 +8,4 @@ share-img: 'https://marzorati.co/img/spectralink.png'
 categories: [Telefonia]
 tags: [spectralink, dect, 7212, factory, reset]
 ---
-Digitate il codice <b>&#42;99940&#42;</b> e premere il tasto dell'invio chiamata per ripristina ad impostazioni di fabbrica il telefono.   
+Digitate il codice <b>&#42;99940&#42;</b> e premere il tasto dell'invio chiamata per ripristinare ad impostazioni di fabbrica il telefono.   
