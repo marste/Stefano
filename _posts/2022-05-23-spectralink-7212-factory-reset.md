@@ -1,7 +1,7 @@
 ---
 title: 'Spectralink 7212 - Factory Reset'
 author: Stefano Marzorati
-date: 2019-06-25 09:33:00 +0200
+date: 2022-05-23 17:33:00 +0200
 layout: post
 image: 'https://marzorati.co/img/spectralink.png'
 share-img: 'https://marzorati.co/img/spectralink.png'
