@@ -1,5 +1,5 @@
 ---
-title: 'Spectralink 7212 - Factory Reset'
+title: "Spectralink 7212 - Factory Reset"
 author: Stefano Marzorati
 date: 2022-05-23 17:33:00 +0200
 layout: post
