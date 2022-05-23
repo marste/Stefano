@@ -17,4 +17,5 @@ Accedere al portale Microsoft <a href="https://admin.teams.microsoft.com/" targe
 <br>
 <center><img src="https://marzorati.co/img/post/teams_background_2.webp" alt="Teams Background"></center>
 <br>
-Ad oggi è possibile aggiungere fino a 50 sfondi.
+Ad oggi è possibile aggiungere fino a 50 sfondi.   
+L'immagine sarà disponibile sui PC degli utenti dopo un'oretta.
