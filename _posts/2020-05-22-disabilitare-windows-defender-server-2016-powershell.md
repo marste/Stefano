@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Disabilitare o disinstallare Windows Defender da Windows Server 2016 via Powershell
-date: '2022-05-22 12:30:00 +0200'
+date: '2022-05-27 12:30:00 +0200'
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/powershell.png'
 share-img: 'https://marzorati.co/img/powershell.png'
