@@ -1,12 +1,12 @@
 ---
-title: "Controllo censura di un sito Web"
+title: "Rimuovere lo sfondo di una foto online"
 author: Stefano Marzorati
 date: 2022-05-31 13:00:00 +0200
 layout: post
 image: 'https://marzorati.co/img/web.png'
 share-img: 'https://marzorati.co/img/web.png'
-categories: [Web]
-tags: [Cina, Russia, Turchia, censura, sito, web]
+categories: [Grafica]
+tags: [rimuovere, sfondo, foto, web]
 ---
 Se avete bisogno di rimuovere uno sfondo da una fotografia, potete usare questi siti:   
 
