@@ -1,13 +1,15 @@
 ---
-title: Password testing strength secure tool meter
-date: 2021-05-14 12:41:00 +0200
+title: Verificare la complessità della password e stima per poterla decifrare
+date: 2022-05-31 12:41:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/virus.jpg'
 share-img: 'https://marzorati.co/img/virus.jpg'
 tags: [password, test, strength, secure, testing, tool, meter, verifica, qualità]
 ---
-Ecco i siti principali per effettuare la verifica sulla forza di una password.
+Se dovete cambiare una vostra password e vi piacerebbe scoprire quanto sia difficile per un computer poterla decifrare, potete utilizzare questi siti:   
+
+* <a href="https://www.digitale.co/generatore-password" target="_blank">digitale.co</a>  
 
 * <a href="https://bitwarden.com/password-strength/" target="_blank">bitwarden</a>   
 
