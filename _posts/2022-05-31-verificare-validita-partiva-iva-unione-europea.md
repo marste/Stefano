@@ -1,7 +1,7 @@
 ---
 title: "Verifica validità partiva IVA Europea"
 author: Stefano Marzorati
-date: 2022-06-02 01:00:00 +0200
+date: 2022-06-01 01:00:00 +0200
 layout: post
 image: 'https://marzorati.co/img/web.png'
 share-img: 'https://marzorati.co/img/web.png'
