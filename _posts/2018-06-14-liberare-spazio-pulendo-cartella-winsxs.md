@@ -1,28 +1,19 @@
 ---
 title: Liberare spazio pulendo la cartella WinSXS
-subtitle: Da Windows Server 2012 R2 in poi
-date: 2018-06-14 10:47:00 +0200
+subtitle: In Windows 10
+date: 2022-06-10 10:28:00 +0200
 published: true
 layout: post
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
-categories:
-  - Windows
-tags:
-  - cleanup
-  - folder
-  - windows
-  - winsxs
-  - spazio
-  - liberare
-  - pulire
-  - server
-  - 2012 R2
+categories: [Windows]
+tags: [cleanup, folder, windows, winsxs, liberare, spazio, pulire]
 ---
-Premi i tasti **Win+R** e scrivi: **taskschd.msc** per aprire **Task Scheduler**   
-Vai in questo percorso:   
+Per verificare quanto spazio occupa effettivamente la cartella WinSxS, digita:   
 
-	Task Scheduler Library\Microsoft\Windows\Servicing
+	dism /Online /Cleanup-Image /AnalyzeComponentStore
 
-Seleziona il task **StartComponentCleanup** e clicca su **Run** per avviare la pulizia.   
+Nella parte inferiore del report si leggerà **Pulizia archivio componenti consigliata**.   
+Se ci sarà come risposta un **sì**, procedere con il seguente comando per rimuovere gli elementi non più utilizzati da Windows:   
 
+	dism /online /Cleanup-Image /StartComponentCleanup
