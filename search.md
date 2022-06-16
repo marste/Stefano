@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Google
+title: Cosa stai cercando?
 permalink: /search/
 image: 'https://marzorati.co/img/google.png'
 ---
