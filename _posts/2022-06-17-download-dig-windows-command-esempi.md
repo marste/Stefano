@@ -24,6 +24,10 @@ Esempi di comandi più usati:
 **Record MX**   
 
 	dig marzorati.co MX
+	
+**Record TXT**   
+
+	dig marzorati.co TXT
 
 **Reverse DNS Lookup**   
 
