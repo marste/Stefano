@@ -9,6 +9,6 @@ share-img: 'https://marzorati.co/img/cisco.png'
 categories: [Networking]
 tags: [cisco, client, vpn, anyconnect, secure, mobile, download]
 ---
-**Download** <a href="https://marzorati.co/download/anyconnect-win-4.10.05111-predeploy-k9.zip" target="_blank">Cisco AnyConnect Secure Mobile Client per Windows</a>   
+**Download** <a href="https://www.dropbox.com/s/uf9c3ztwx50kzsh/anyconnect-win-4.10.05111-predeploy-k9.zip?dl=0" target="_blank">Cisco AnyConnect Secure Mobile Client per Windows</a>   
 
-**Download** <a href="https://marzorati.co/download/anyconnect-macos-4.10.05111-predeploy-k9.dmg" target="_blank">Cisco AnyConnect Secure Mobile Client per Mac</a> 
+**Download** <a href="https://www.dropbox.com/s/mdi71yo1n1hdlt7/anyconnect-macos-4.10.05111-predeploy-k9.dmg?dl=0" target="_blank">Cisco AnyConnect Secure Mobile Client per Mac</a> 
