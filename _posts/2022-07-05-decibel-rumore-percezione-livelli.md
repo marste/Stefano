@@ -16,17 +16,17 @@ tags: [db, decibel, suoni, rumori, percezione]
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-ate8{background-color:#ffc702;text-align:center;vertical-align:top}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-lbzb{background-color:#fe0000;text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-k3lo{background-color:#34ff34;text-align:center;vertical-align:top}
 .tg .tg-furw{background-color:#f8ff00;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-amwm">Sorgente di rumore</th>
-    <th class="tg-amwm">Livello sonoro (dB)</th>
-    <th class="tg-amwm">Percezione umana</th>
+    <th class="tg-wa1i">Sorgente di rumore</th>
+    <th class="tg-wa1i">Livello sonoro (dB)</th>
+    <th class="tg-wa1i">Percezione umana</th>
   </tr>
 </thead>
 <tbody>
