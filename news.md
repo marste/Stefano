@@ -74,7 +74,8 @@ share-img: 'https://marzorati.co/img/news.png'
 
 
 
-<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a> - <a href="https://www.rainews.it/speciali/guerraucraina2022" target="_blank">Guerra in Ucraina</a></center>   
+<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a></center>   
+<br>
 
 <center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
 <br>
