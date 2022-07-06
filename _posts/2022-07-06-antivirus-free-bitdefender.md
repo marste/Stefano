@@ -3,8 +3,8 @@ title: "Antivirus Gratis Download Bitdefender"
 author: Stefano Marzorati
 date: 2022-07-06 08:30:00 +0200
 layout: post
-image: 'https://marzorati.co/img/antivirus.png'
-share-img: 'https://marzorati.co/img/antivirus.png'
+image: 'https://marzorati.co/img/virus.jpg'
+share-img: 'https://marzorati.co/img/virus.jpg'
 categories: [Security]
 tags: [antivirus, gratis, free, download, bitdefender, home]
 ---
