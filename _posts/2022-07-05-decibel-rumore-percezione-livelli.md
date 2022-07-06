@@ -11,9 +11,9 @@ tags: [db, decibel, suoni, rumori, percezione]
 ---
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Montserrat, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Montserrat, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-ate8{background-color:#ffc702;text-align:center;vertical-align:top}
 .tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
