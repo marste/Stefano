@@ -9,6 +9,6 @@ share-img: 'https://marzorati.co/img/cisco.png'
 categories: [Networking]
 tags: [cisco, client, vpn, anyconnect, secure, mobile, download]
 ---
-**Download** <a href="http://e.pc.cd/83PotalK" target="_blank">Cisco AnyConnect Secure Mobile Client per Windows</a>   
+<a href="http://e.pc.cd/83PotalK" target="_blank">Download Cisco AnyConnect Secure Mobile Client per Windows</a>   
 
-**Download** <a href="http://e.pc.cd/uGPotalK" target="_blank">Cisco AnyConnect Secure Mobile Client per Mac</a> 
+<a href="http://e.pc.cd/uGPotalK" target="_blank">Download Cisco AnyConnect Secure Mobile Client per Mac</a> 
