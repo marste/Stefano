@@ -3,8 +3,8 @@ title: Dimensioni di un TV Monitor, pollici, larghezza, altezza e diagonale
 date: 2018-05-30 14:40:00 +0200
 published: true
 layout: post
-image: 'http://cdn.pcpartpicker.com/static/forever/images/product/3dd2cdfad48aba22d4f62e6022ef0c2c.256p.jpg'
-share-img: 'http://cdn.pcpartpicker.com/static/forever/images/product/3dd2cdfad48aba22d4f62e6022ef0c2c.256p.jpg'
+image: 'https://marzorati.co/img/monitor.jpg'
+share-img: 'https://marzorati.co/img/monitor.jpg'
 categories:
   - Varie
 tags:
