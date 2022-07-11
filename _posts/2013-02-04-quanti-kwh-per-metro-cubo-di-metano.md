@@ -6,8 +6,8 @@ layout: post
 permalink: /quanti-kwh-per-metro-cubo-di-metano/
 image: 'https://marzorati.co/img/gas.png'
 share-img: 'https://marzorati.co/img/gas.png'
-categories:
-  - Varie
+categories: [Energia]
+tags: [kwh, metro, cubo, metano, costo, prezzo, calcoli, acqua, scaldare, gas]
 ---
 <p style="text-align:center;">
   Dal metano si ricava intorno ai 9,7 kWh termici per mc.
