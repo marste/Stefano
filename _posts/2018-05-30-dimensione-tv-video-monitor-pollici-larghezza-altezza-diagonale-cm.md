@@ -1,23 +1,12 @@
 ---
 title: Dimensioni di un TV Monitor, pollici, larghezza, altezza e diagonale
-date: 2018-05-30 14:40:00 +0200
+date: 2022-07-10 14:40:00 +0200
 published: true
 layout: post
 image: 'https://marzorati.co/img/monitor.jpg'
 share-img: 'https://marzorati.co/img/monitor.jpg'
-categories:
-  - Varie
-tags:
-  - dimensioni
-  - video
-  - monitor
-  - tv
-  - televisione
-  - larghezza
-  - altezza
-  - diagonale
-  - centimetri
-  - pollici
+categories: [Casa]
+tags: [dimensioni, video, monitor, tv, televisione, larghezza, altezza, diagonale, centimentri, pollici]
 ---
 <center>
 <style type="text/css">
