@@ -10,7 +10,7 @@ tags: [export, esportare, lista, utenti, powershell, Get-ADUser]
 ---
 Se avete bisogno di esportare la lista di tutti gli utenti di AD, potete usare questa riga in powershell:
 ~~~powershell
-Get-ADUser -Filter * -Properties * | Select-Object GivenName, Surname, UserPrincipalName, Department | export-csv -path c:\temp\userexport.csv
+Get-ADUser -Filter * -Properties * | Select-Object GivenName, Surname, Email, Department | export-csv -path c:\temp\userexport.csv
 ~~~
 
 Se avete bisogno di esportare altri oggetti o campi, potete vedere i nomi facendo una query di esempio su un utente:   
