@@ -8,14 +8,14 @@ share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
 tags: [ricetta, tortillas, burrito, acqua, sale, farina, olio]
 ---
-Dosi per 4 tortillas da circa 100 grammi.   
+Dosi per 6 tortillas da circa 100 grammi.   
 
 **Ingredienti:**   
 
-  - 230 gr di farina 0 o 00
-  - 125 gr di acqua calda
-  - 10 gr di olio extra vergine di oliva
-  - 3 gr di sale
+  - 345 gr di farina 0 o 00
+  - 188 gr di acqua calda
+  - 15 gr di olio extra vergine di oliva
+  - 4,5 gr di sale
 
 <center><img src="https://marzorati.co/img/post/piadina.jpg" alt="Piadina senza lievito"></center>  
 
