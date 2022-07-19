@@ -2,7 +2,7 @@
 title: "Ricette con la friggitrice ad aria"
 subtitle: Tempi e temperature
 author: Stefano Marzorati
-date: 2020-07-17 20:30:00 +0200
+date: 2022-07-17 20:30:00 +0200
 image: 'https://marzorati.co/img/ricette.png'
 share-img: 'https://marzorati.co/img/ricette.png'
 layout: post
