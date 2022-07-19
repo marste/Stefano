@@ -20,7 +20,7 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 
 **Spiedini**   
 • Temperatura: 200°C   
-• Tempo: 7 minuti   
+• Tempo: 8 minuti   
 
 ---
 
@@ -64,15 +64,15 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 ---
 
 **Bastoncini di pesce Findus**   
-• Temperatura: 200°C   
-• Tempo: 8 minuti   
+• Temperatura: 180°C   
+• Tempo: 15 minuti   
 
 ---
 
 **Patate a spicchi**   
 • Quantità: 500 grammi   
-• Temperatura: 200°C   
-• Tempo: 18 minuti (mescolare ogni 4 minuti)   
+• Temperatura: 180°C   
+• Tempo: 27 minuti (mescolare ogni 4 minuti)   
 
 ---
 
@@ -142,10 +142,28 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 
 ---
 
-**Patatine Stick fresche**   
-• Quantità: 500 grammi   
+**Patatine a fette fresche Roast**   
+• Quantità: 600 grammi   
 • Temperatura: 180°C   
-• Tempo: 20 minuti (mescolare spesso)
+• Tempo: 27 minuti (mescolare spesso)
+
+---
+
+**Broccoletti**   
+• Temperatura: 150°C   
+• Tempo: 10 minuti
+
+---
+
+**Uova sode**   
+• Temperatura: 130°C   
+• Tempo: 12 minuti
+
+---
+
+**Uova alla coque**   
+• Temperatura: 130°C   
+• Tempo: 10 minuti
 
 ---
 
