@@ -9,7 +9,7 @@ share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
 tags: [ricetta, piadina, romagnola, olio, farina, veloce, acqua, sale]
 ---
-Dosi per 6 piadine da circa 100 grammi.   
+Dosi per **6 piadine** da circa 100 grammi.   
 
 **Ingredienti:**   
 

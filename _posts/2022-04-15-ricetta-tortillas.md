@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
 tags: [ricetta, tortillas, burrito, acqua, sale, farina, olio]
 ---
-Dosi per 6 tortillas da circa 100 grammi.   
+Dosi per **6 tortillas** da circa 100 grammi.   
 
 **Ingredienti:**   
 
