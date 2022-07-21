@@ -9,8 +9,6 @@ layout: post
 categories: [Ricette]
 tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 ---
-<center><img src="https://marzorati.co/img/post/ninja_friggitrice_aria.jpg" alt="Ninja Air Fryer"></center>
-
 **Zucchine a fettine** di 3 mm con sale, farina e pangrattato agitati nel sacchetto   
 • Quantità: 500 grammi   
 • Temperatura: 180°C   
@@ -173,3 +171,5 @@ tags: [friggitrice, aria, croccanti, tempo, temperatura, airfryer, ninja]
 • Tempo: 35 minuti
 
 ---
+
+<center><img src="https://marzorati.co/img/post/ninja_friggitrice_aria.jpg" alt="Ninja Air Fryer"></center>
