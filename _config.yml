@@ -36,7 +36,7 @@ navbar-links:
   CV: "curriculum-vitae"
   Links:
     - Speed Test: "speedtest"
-    - Playlist Radio: "streaming-radio-playlist"
+    - Office Status: "https://status.office.com/"
     - Webcam Live: "webcam-live-mare-montagna"	
     - C'era una volta un re: "https://ceraunavoltaunre.it"
 # Image to show in the navigation bar - image must be a square (width = height)
