@@ -21,7 +21,7 @@ tags: [ricetta, pane, uvetta, lievito, acqua, sale, farina]
 * 2 grammi di lievito di birra disidratato
 * 8 grammi di sale
 * 250 grammi di uvetta
-* 25 grammi di burro
+* 20 grammi di burro
 
 <p align="center">
   <img src="https://marzorati.co/img/post/pane_uvetta_2a.jpg">
