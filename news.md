@@ -79,7 +79,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 <center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
 <br>
-<center><div id="divRssUltimissime"></div></center>
+<div id="divRssUltimissime"></div>
 <script>
     $('#divRssUltimissime').FeedEk({
     FeedUrl : 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml',
