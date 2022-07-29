@@ -3,8 +3,8 @@ title: "Come installare Microsoft Store"
 author: Stefano Marzorati
 date: 2022-07-29 08:30:00 +0200
 layout: post
-image: 'https://marzorati.co/img/windows.png'
-share-img: 'https://marzorati.co/img/windows.png'
+image: 'https://marzorati.co/img/ms_store.png'
+share-img: 'https://marzorati.co/img/ms_store.png'
 categories: [Windows]
 tags: [store, microsoft, xbox, windows, installare, mancante]
 ---
