@@ -64,11 +64,6 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Laveno Mombello" src="https://www.cerrometeo.com/public/gftp0000.jpg">
 </center>
 <p></p>
-<center><strong>JESOLO LIDO</strong> (Venezia)</center>   
-<center>
-<img alt="Jesolo Lido" src="https://webcam.alfa.it/live/webcam.php?id=janeiro2">
-</center>
-<p></p>
 <center><strong>GATTEO A MARE</strong> (Forlì-Cesena)</center>   
 <center>
 <img alt="Gatteo Mare" src="http://31.3.189.179:8081/cgi-bin/faststream.jpg?stream=full&fps=2&rand=685120">
