@@ -1,22 +1,14 @@
 ---
-title: Check and repair a linux corrupted filesystem
-date: 2018-01-03 08:00:00 +0200
+title: "Controlla e ripara il filesystem linux corrotto"
+date: 2022-08-12 08:00:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/linux.png'
 share-img: 'https://marzorati.co/img/linux.png'
-categories:
-  - Linux
-tags:
-  - check
-  - repair
-  - filesystem
-  - corrupted
-  - linux
-  - badblock
-  - fsck
+categories: [Linux]
+tags: [check, controllare, repair, riparare, fsck, corrotto, filesystem, badblock, blocchi, danneggiati]
 ---
-Example:   
+Esempio:   
 
 Verifica che partizione del disco controllare con:   
 
