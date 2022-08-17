@@ -20,15 +20,11 @@ Procedi come segue:
 - Seleziona **Microsoft Foto**
 - Opzioni avanzate
 - Reimposta
-	
-	Se questa app non funziona correttamente, si può provare a ripristinarla.
-	I dati dell'app non verranno influenzati.
-
+<code>Se questa app non funziona correttamente, si può provare a ripristinarla.   
+I dati dell'app non verranno influenzati.</code>
 - Cliccare su **Ripristina**
-
-	Se questa app non funziona correttamente, reimpostala.
-	I dati dell'app verranno eliminati.
-
+<code>Se questa app non funziona correttamente, reimpostala.   
+I dati dell'app verranno eliminati.</code>
 - Cliccare su **Reimposta**
 
 A questo l'app tornerà a funzionare e non avrete più quell'errore.
