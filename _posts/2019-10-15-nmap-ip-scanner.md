@@ -21,26 +21,26 @@ tags:
 Ecco alcuni **comandi utili**.   
 
 Per eseguire un ping scan per un indirizzo o una classe:   
-```console
+```
 nmap -sn 10.10.50.0/24
 ```
 Esegue un ping scan più verifica le porte, più comuni, attive:   
-```console
+```
 nmap -T4 -F 10.10.50.1
 ```
 Quick Scan Plus:   
-```console
+```
 nmap -sV -T4 -O -F --version-light 10.10.50.1
 ```
 Mostra tutti i pacchetti inviati e ricevuti:   
-```console
+```
 nmap --packet-trace 192.168.1.1
 ```
 Per fare la scansione solo sulla porta 25 di un indirizzo IP:   
-```console
+```
 nmap -p25 192.168.20.25 -o c:\temp\log.txt
 ```
 Per fare la scansione solo sulla porta 25 di un range di indirizzi IP:   
-```console
+```
 nmap -p25 192.168.5.0/24 -o c:\temp\log.txt
 ```
