@@ -13,14 +13,20 @@ tags:
   - automatica
   - windows10
 ---
-Percorso dei programmi da avviare in automatico per tutti gli utenti del PC:   
-
-<code>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp</code>   
-
-Percorso dei programmi da avviare in automatico per solo un utente:   
-
-<code>C:\Users\profilo_utente\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</code>   
-
-oppure da "Run" o "Esegui" digita:   
-
-<code>shell:startup</code>
+Percorso dei programmi da avviare in automatico **per tutti gli utenti** del PC:   
+```
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+```
+oppure da **Esegui** digita:   
+```
+shell:common startup
+```
+---
+Percorso dei programmi da avviare in automatico **per solo un utente**:   
+```
+C:\Users\profilo_utente\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
+oppure da **Esegui**, digita:   
+```
+shell:startup
+```
