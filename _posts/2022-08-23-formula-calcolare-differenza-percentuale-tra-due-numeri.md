@@ -9,6 +9,7 @@ share-img: 'https://marzorati.co/img/excel.png'
 categories: [Excel]
 tags: [formula, calcolare, differenza, percentuale, numeri]
 ---
+Ecco la formula:   
 ```
 ((Valore finale-Valore iniziale)/Valore iniziale) x 100
 ```
