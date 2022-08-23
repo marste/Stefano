@@ -2,7 +2,7 @@
 title: "Come calcolare la differenza percentuale tra due numeri"
 subtitle: "La formula"
 author: Stefano Marzorati
-date: 2022-08-11 15:30:00 +0200
+date: 2022-08-23 12:30:00 +0200
 layout: post
 image: 'https://marzorati.co/img/excel.png'
 share-img: 'https://marzorati.co/img/excel.png'
