@@ -16,7 +16,11 @@ Ecco la formula:
 
 Esempio:   
 
+<center>
+
 | Valore iniziale | Valore finale | Variazione Percentuale |
 |:---------------:|:-------------:|:----------------------:|
 | 500 | 700 | 40% |
 | 700 | 500 | -28,57% |
+
+</center>
