@@ -29,5 +29,8 @@ Andare in:
 ```
  HKEY_CURRENT USER\Software\Microsoft\Office\1x.0\Outlook\Options
 ```
-Creare un **Valore Stringa** chiamato **DefaultPath**, fare doppio click e mettere un percorso locale, es C:\Temp   
+Creare un **Valore Stringa** chiamato **DefaultPath**, fare doppio click e mettere un percorso locale, ad esempio:   
+```
+C:\Temp
+```
 Chiudere e riaprire Outlook.
