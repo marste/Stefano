@@ -1,5 +1,5 @@
 ---
-title: "E' in corso un tentativo di connessione a \\..."
+title: "È in corso un tentativo di connessione a \\..."
 subtitle: Durante la fase di salvataggio di un file
 author: Stefano Marzorati
 date: 2022-08-26 15:30:00 +0200
@@ -11,7 +11,7 @@ tags: [microsoft, office, word, excel, outlook, corso, tentativo, connessione, s
 ---
 Se nella fase in cui state salvando un file Word, Excel o un allegato di Outlook vi esce un popup con un avviso che dice:   
 ```
-E' in corso un tentativo di connessione a \\...
+È in corso un tentativo di connessione a \\...
 ```
 Il problema è legato al percorso di salvataggio del file di default.   
 Ultimamente questo messaggio appare a chi nel percorso di default ha una share di rete e non un percorso locale.   
