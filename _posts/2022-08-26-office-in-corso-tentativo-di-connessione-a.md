@@ -1,5 +1,5 @@
 ---
-title: "È in corso un tentativo di connessione a \\..."
+title: "È in corso un tentativo di connessione a ..."
 subtitle: Durante la fase di salvataggio di un file
 author: Stefano Marzorati
 date: 2022-08-26 15:30:00 +0200
