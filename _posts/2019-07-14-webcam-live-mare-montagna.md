@@ -44,7 +44,7 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Macugnaga" src="https://meteolivevco.it/httpdocs/it/images/cam/ghiacciaiobelvedere.jpg">
 </center>
 <p></p>
-<center><strong>SELVINO</strong> - (Bergamo)</center>   
+<center><strong>SELVINO AVIATICO</strong> - (Bergamo)</center>   
 <center>
 <img alt="Varese" src="https://www.dovesciare.it/sites/default/files/externals/b6ffe831116d52218908d8f6fea2e640.jpg">
 </center>
