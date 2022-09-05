@@ -66,7 +66,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>GATTEO A MARE</strong> (Forlì-Cesena)</center>   
 <center>
-<img alt="Gatteo Mare" src="http://31.3.189.179:8081/cgi-bin/faststream.jpg?stream=full&fps=2&rand=685120">
+<img alt="Gatteo Mare" src="https://www.hotel-flamingo.com/Public/webcam/webcam.jpg?v=637979567461618627">
 </center>
 <p></p>
 <center><strong>MARINA DI CAMPO - Isola d'Elba</strong> (Livorno)</center>   
