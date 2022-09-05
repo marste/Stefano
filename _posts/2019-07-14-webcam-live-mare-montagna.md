@@ -74,3 +74,9 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Marina di Campo" src="https://cam.elbalink.it/webcam_spiaggia_marina_di_campo/camping_del_mare.jpg">
 </center>
 <p></p>
+
+<center><strong>MARINA DI CAMPO - Isola d'Elba</strong> (Livorno)</center>   
+<center>
+<a href="https://www.skylinewebcams.com/it/webcam/italia/emilia-romagna/forli-cesena/gatteo-a-mare.html" target="_blank"><img src="https://embed.skylinewebcams.com/img/66.jpg" alt="【LIVE】 Webcam a Gatteo a Mare - Forlì-Cesena | SkylineWebcams"></a>
+</center>
+<p></p>
