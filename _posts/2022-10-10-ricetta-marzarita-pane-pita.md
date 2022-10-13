@@ -1,5 +1,5 @@
 ---
-title: "Ricetta del Marzarita, un po' focaccia un po' pita"
+title: "Ricetta della Marzarita, un po' focaccia un po' pita"
 date: 2022-10-10 07:30:00 +0200
 author: Stefano Marzorati
 layout: post
