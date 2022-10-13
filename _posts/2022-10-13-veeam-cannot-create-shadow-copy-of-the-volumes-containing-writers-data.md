@@ -9,9 +9,9 @@ share-img: 'https://marzorati.co/img/veeam.png'
 categories: [Windows]
 tags: [microsoft, veeam, backup, failed, job, vss, shadow, copy, 0x8004231f]
 ---
-Questo errore è in genere causato da spazio su disco insufficiente su un volume nel sistema operativo Windows di cui viene eseguito il backup.   
-Questo può includere la partizione riservata del sistema.   
-Può anche essere causato dalla definizione di associazioni di archiviazione shadow con una dimensione massima inferiore a quella necessaria per creare la copia shadow.   
+*Questo errore è in genere causato da spazio su disco insufficiente su un volume nel sistema operativo Windows di cui viene eseguito il backup.*   
+*Questo può includere la partizione riservata del sistema.*   
+*Può anche essere causato dalla definizione di associazioni di archiviazione shadow con una dimensione massima inferiore a quella necessaria per creare la copia shadow.*   
 
 1. Verificare se si ha sufficiente spazio sui dischi
 2. Digitare il comando `vssadmin list shadowstorage`
