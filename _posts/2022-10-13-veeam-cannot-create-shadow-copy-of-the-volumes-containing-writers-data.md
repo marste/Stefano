@@ -7,7 +7,7 @@ layout: post
 image: 'https://marzorati.co/img/veeam.png'
 share-img: 'https://marzorati.co/img/veeam.png'
 categories: [Windows]
-tags: [microsoft, veeam, backup, failed, job, vss, shadow, copy]
+tags: [microsoft, veeam, backup, failed, job, vss, shadow, copy, 0x8004231f]
 ---
 Questo errore è in genere causato da spazio su disco insufficiente su un volume nel sistema operativo Windows di cui viene eseguito il backup.   
 Questo può includere la partizione riservata del sistema.   
