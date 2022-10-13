@@ -23,9 +23,9 @@ Se come risultato avrete `No items found that satisfy the query` probabilmente a
 
 Se tutto OK dovreste avere un risultato simile:   
 
-> Shadow Copy Storage association
->   For volume: (C:)\\?\Volume{f7185a0f-3733-4ef3-a256-6fcd6e61e2ab}\
->   Shadow Copy Storage volume: (C:)\\?\Volume{f7185a0f-3733-4ef3-a256-6fcd6e61e2ab}\
->    Used Shadow Copy Storage space: 19,5 MB (0%)
->   Allocated Shadow Copy Storage space: 480 MB (0%)
->   Maximum Shadow Copy Storage space: 9,94 GB (9%)
+> Shadow Copy Storage association   
+>   For volume: (C:)\\?\Volume{f7185a0f-3733-4ef3-a256-6fcd6e61e2ab}\   
+>   Shadow Copy Storage volume: (C:)\\?\Volume{f7185a0f-3733-4ef3-a256-6fcd6e61e2ab}\   
+>   Used Shadow Copy Storage space: 19,5 MB (0%)   
+>   Allocated Shadow Copy Storage space: 480 MB (0%)   
+>   Maximum Shadow Copy Storage space: 9,94 GB (9%)   
