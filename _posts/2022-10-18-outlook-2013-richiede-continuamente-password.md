@@ -3,8 +3,8 @@ title: "Outlook 2013 richiede continuamente la password"
 author: Stefano Marzorati
 date: 2022-10-18 10:30:00 +0200
 layout: post
-image: 'https://marzorati.co/img/office.png'
-share-img: 'https://marzorati.co/img/office.png'
+image: 'https://marzorati.co/img/outlook.png'
+share-img: 'https://marzorati.co/img/outlook.png'
 categories: [Office]
 tags: [microsoft, office, outlook, richiede, password, continuamente, autenticazione, moderna, ]
 ---
