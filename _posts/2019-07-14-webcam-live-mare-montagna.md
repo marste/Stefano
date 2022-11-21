@@ -59,14 +59,16 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Varese" src="https://www.astrogeo.va.it/webcam/current/campo_dei_fiori_ovest.jpg">
 </center>
 <p></p>
-<center><strong>LAVENO MOMBELLO</strong> (Varese)</center>   
+<center><strong>CESENATICO</strong> (Forlì-Cesena)</center>   
 <center>
-<img alt="Laveno Mombello" src="https://www.cerrometeo.com/public/gftp0000.jpg">
+<img alt="Cesenatico" src="http://hotel-donatello.it/mobotix/test.jpg">
+<p></p>
+<img alt="Cesenatico" src="http://bagnovenezia56.altervista.org/FI9805E_00626E53A4AB/snap/index.php">
 </center>
 <p></p>
 <center><strong>GATTEO A MARE</strong> (Forlì-Cesena)</center>   
 <center>
-<img alt="Gatteo Mare" src="https://www.hotel-flamingo.com/Public/webcam/webcam.jpg?v=637979567461618627">
+<img alt="Gatteo Mare" src="https://www.meteogatteomare.it/webcam/current.jpg">
 </center>
 <p></p>
 <center><strong>MARINA DI CAMPO - Isola d'Elba</strong> (Livorno)</center>   
