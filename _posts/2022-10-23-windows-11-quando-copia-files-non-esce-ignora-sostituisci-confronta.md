@@ -1,5 +1,5 @@
 ---
-title: "Windows 11 non esce ignora, sostituisci o confronta files durante una copia"
+title: "Windows 11: non esce ignora, sostituisci o confronta files durante una copia"
 author: Stefano Marzorati
 date: 2022-10-23 10:30:00 +0200
 layout: post
