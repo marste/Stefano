@@ -11,7 +11,7 @@ tags: [webcam, mare, montagna, live, lago]
 ---
 <center><strong>BOGLIASCO</strong> (Genova) - Riviera di Levante</center>   
 <center>
-<img alt="Bogliasco" src="http://www.prolocobogliasco.it/webcam/current_hd.jpg">
+<a name="windy-webcam-timelapse-player" data-id="1287051304" data-play="day" href="https://windy.com/webcams/1287051304" target="_blank">Bogliasco</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
 <center><strong>VARIGOTTI</strong> - Loc. Donio (Savona) - Riviera di Ponente</center>   
@@ -61,8 +61,6 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>CESENATICO</strong> (Forlì-Cesena)</center>   
 <center>
-<img alt="Cesenatico" src="http://hotel-donatello.it/mobotix/test.jpg">
-<p></p>
 <img alt="Cesenatico" src="http://bagnovenezia56.altervista.org/FI9805E_00626E53A4AB/snap/index.php">
 </center>
 <p></p>
