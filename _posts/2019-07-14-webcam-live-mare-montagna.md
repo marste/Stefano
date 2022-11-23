@@ -34,14 +34,9 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Macugnaga" src="https://www.meteolivevco.it/httpdocs/it/images/cam/lagodellefate.jpg">
 </center>
 <p></p>
-<center><strong>MACUGNAGA</strong> - Parete est Monte Rosa (Verbano-Cusio-Ossola)</center>   
+<center><strong>MACUGNAGA</strong> - Parete Est Monte Rosa (Verbano-Cusio-Ossola)</center>   
 <center>
 <a name="windy-webcam-timelapse-player" data-id="1575096789" data-play="day" href="https://windy.com/webcams/1575096789" target="_blank">Macugnaga: Parete est monte rosa</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
-</center>
-<p></p>
-<center><strong>MACUGNAGA</strong> - Ghiacciaio Belvedere (Verbano-Cusio-Ossola)</center>   
-<center>
-<img alt="Macugnaga" src="https://meteolivevco.it/httpdocs/it/images/cam/ghiacciaiobelvedere.jpg">
 </center>
 <p></p>
 <center><strong>MERANO</strong> - (Bolzano)</center>   
@@ -66,7 +61,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>GATTEO A MARE</strong> (Forlì-Cesena)</center>   
 <center>
-<img alt="Gatteo Mare" src="https://www.meteogatteomare.it/webcam/current.jpg">
+<a name="windy-webcam-timelapse-player" data-id="1427659398" data-play="day" href="https://windy.com/webcams/1427659398" target="_blank">Gatteo a Mare › Nord: Mare Adriatico</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
 <center><strong>MARINA DI CAMPO - Isola d'Elba</strong> (Livorno)</center>   
