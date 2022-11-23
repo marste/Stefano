@@ -34,9 +34,9 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Macugnaga" src="https://www.meteolivevco.it/httpdocs/it/images/cam/lagodellefate.jpg">
 </center>
 <p></p>
-<center><strong>MACUGNAGA</strong> - Piazza Municipio Staffa (Verbano-Cusio-Ossola)</center>   
+<center><strong>MACUGNAGA</strong> - Parete est Monte Rosa (Verbano-Cusio-Ossola)</center>   
 <center>
-<img alt="Macugnaga" src="https://www.comune.macugnaga.vb.it/it-it/immagine/imgurl-bdd2063350d5e7b3e8fc9b54c5caa64c?q=http%3a%2f%2fwww.comune.macugnaga.vb.it%2fWcam%2fSnapshot.jpg">
+<a name="windy-webcam-timelapse-player" data-id="1575096789" data-play="day" href="https://windy.com/webcams/1575096789" target="_blank">Macugnaga: Parete est monte rosa</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
 <center><strong>MACUGNAGA</strong> - Ghiacciaio Belvedere (Verbano-Cusio-Ossola)</center>   
