@@ -64,8 +64,8 @@ tags: [webcam, mare, montagna, live, lago]
 <a name="windy-webcam-timelapse-player" data-id="1427659398" data-play="day" href="https://windy.com/webcams/1427659398" target="_blank">Gatteo a Mare › Nord: Mare Adriatico</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
-<center><strong>MARINA DI CAMPO - Isola d'Elba</strong> (Livorno)</center>   
+<center><strong>CAPOLIVERI, Spiaggia di Lacona - Isola d'Elba</strong> (Livorno)</center>   
 <center>
-<img alt="Marina di Campo" src="https://cam.elbalink.it/webcam_spiaggia_marina_di_campo/camping_del_mare.jpg">
+<a name="windy-webcam-timelapse-player" data-id="1170888461" data-play="day" href="https://windy.com/webcams/1170888461" target="_blank">Capoliveri: Spiaggia di Lacona - Isola d'Elba</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
