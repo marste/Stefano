@@ -41,7 +41,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>MERANO</strong> - (Bolzano)</center>   
 <center>
-<img alt="Merano" src="https://www.visitmerano.it/webcam/webcam-meran.jpg">
+<a name="windy-webcam-timelapse-player" data-id="1575465405" data-play="day" href="https://windy.com/webcams/1575465405" target="_blank">Merano › Nord-Ovest: Pulverturm Meran - Mutspitze / Monte Muta 2294m - Tschigat / Gigot (m 3.000) - Zielspitze</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
 <center><strong>MERANO 2000</strong> - Mittager Avelengo - 2260 metri (Bolzano)</center>   
