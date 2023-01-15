@@ -6,7 +6,7 @@ date: 2023-01-01 00:30:00 +0200
 layout: post
 image: 'https://marzorati.co/img/calendario.webp'
 share-img: 'https://marzorati.co/img/calendario.webp'
-categories: [Outlook]
+categories: [Calendario]
 tags: [calendario, stampabile, gratis, 12 mesi, PDF, mensile, festività, spazioso, scrivere, note]
 ---
 Calendario 2023 in PDF con i 12 mesi dell'anno su singola pagina con le festività italiane.   
