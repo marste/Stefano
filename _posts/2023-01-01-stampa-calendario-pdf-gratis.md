@@ -2,7 +2,7 @@
 title: "Calendario 2023 mensile in PDF da stampare gratis"
 subtitle: Con festività italiane
 author: Stefano Marzorati
-date: 2023-01-01 00:30:00 +0200
+date: 2023-01-01 05:30:00 +0200
 layout: post
 image: 'https://marzorati.co/img/calendario.png'
 share-img: 'https://marzorati.co/img/calendario.png'
