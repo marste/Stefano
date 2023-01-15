@@ -4,8 +4,8 @@ subtitle: Con festività italiane
 author: Stefano Marzorati
 date: 2023-01-01 00:30:00 +0200
 layout: post
-image: 'https://marzorati.co/img/calendario.webp'
-share-img: 'https://marzorati.co/img/calendario.webp'
+image: 'https://marzorati.co/img/calendario.png'
+share-img: 'https://marzorati.co/img/calendario.png'
 categories: [Calendario]
 tags: [calendario, stampabile, gratis, 12 mesi, PDF, mensile, festività, spazioso, scrivere, note, stampare]
 ---
