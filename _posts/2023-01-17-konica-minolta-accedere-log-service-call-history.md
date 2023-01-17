@@ -13,7 +13,8 @@ Per visualizzare il service log di una stampante Konica e vedere gli errori che 
 Al pannello ci puoi accedere fisicamente avendo la stampante davanti, oppure da remoto accedendo al pannello via browser.   
 
 **Per accedere al pannello via browser, digitare l'indirizzo:**   
-https://indirizzo_stampante:50443/panel/remote_panel.cgi
+
+	https://indirizzo_stampante:50443/panel/remote_panel.cgi
 
 Ora andare su:   
 
