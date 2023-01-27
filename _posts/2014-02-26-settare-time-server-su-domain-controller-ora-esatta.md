@@ -1,26 +1,22 @@
 ---
-id: 2743
-title: 'Settare Time Server su Domain Controller &#8211; Ora esatta'
+title: "Settare Time Server su Domain Controller Windows"
+subtitle: Ora esatta
 author: Stefano Marzorati
+date: 2023-01-27 16:30:00 +0200
 layout: post
-guid: http://marzorati.co/?p=2743
-permalink: /settare-time-server-su-domain-controller-ora-esatta/
-authorsure_include_css:
-  - 
-dsq_thread_id:
-  - 2329896683
-categories:
-  - Windows
-tags:
-  - data
-  - esatta
-  - ntp
-  - ora
-  - server
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
+categories: [Windows]
+tags: [time, server, ntp, domain, controller, update, sync]
 ---
-`net time /setsntp:ntp2.ien.it`
+Digitare sul PDC questo comando per impostare una lista di server NTP:   
 
-oppure
+	w32tm /config /syncfromflags:manual /manualpeerlist:"0.pool.ntp.org 1.pool.ntp.org 2.pool.ntp.org 3.pool.ntp.org"
 
-`net time /setsntp:"0.pool.ntp.org 1.pool.ntp.org 2.pool.ntp.org"`  
-`w32tm /config /syncfromflags:MANUAL /reliable:YES /update`
+Per verificare che abbia preso tale lista, digitare:   
+
+	w32tm /query /peers
+
+Per sincronizzare l'ora:   
+
+	w32tm /resync
