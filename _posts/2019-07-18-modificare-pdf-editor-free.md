@@ -31,3 +31,5 @@ Si tratta di <a href="https://inkscape.org/" target="_blank">Inkscape</a>
 1. Clicca sulla lente di ingrandimento   
 2. Dal menù, scegliere Testo - Testo e carattere   
 3. Modificare la scritta partendo dal fondo   
+
+Un'alternativa funzionale online è questa: <a href="https://www.pdfescape.com/open/" target="_blank">pdfescape.com</a>   
