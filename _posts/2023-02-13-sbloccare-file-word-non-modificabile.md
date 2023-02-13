@@ -1,7 +1,7 @@
 ---
 title: "Sbloccare un file Word non modificabile"
 author: Stefano Marzorati
-date: 2023-13-02 07:30:00 +0200
+date: 2023-02-13 07:30:00 +0200
 layout: post
 image: 'https://marzorati.co/img/word.png'
 share-img: 'https://marzorati.co/img/word.png'
