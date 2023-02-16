@@ -5,8 +5,8 @@ date: 2023-02-16 11:30:00 +0200
 layout: post
 image: 'https://marzorati.co/img/SharePoint.webp'
 share-img: 'https://marzorati.co/img/SharePoint.webp'
-categories: [Hardware]
-tags: [diagnostica, diagnostic, hardware, DELL, PC, verifica, componenti]
+categories: [Sharepoint]
+tags: [irm, abilitare, sicurezza, riservatezza, office, files]
 ---
 **Abilitare IRM**
 - Andare sull'interfaccia di amministrazione di Sharepoint
