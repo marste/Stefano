@@ -10,4 +10,4 @@ tags: [diagnostica, diagnostic, hardware, DELL, PC, verifica, componenti]
 ---
 Per effettuare la diagnostica hardware del vostro PC DELL, occorrerà semplicemente:   
 - Spegnere il PC
-- Premere insieme il tasto Fn + tasto di accensione finchè non apparirà in alto a destra la voce **Diagnostic Boot selected**
+- Premere insieme il tasto **Fn + tasto di accensione** finchè non apparirà in alto a destra la voce **Diagnostic Boot selected**
