@@ -9,14 +9,12 @@ categories: [Hardware]
 tags: [diagnostica, diagnostic, hardware, DELL, PC, verifica, componenti]
 ---
 **Abilitare IRM**
-
 - Andare sull'interfaccia di amministrazione di Sharepoint
 - Impostazioni
 - Passare alla pagina delle impostazioni classica
 - Abilitare **Information Rights Management (IRM)**
 
 **Abilitare IRM su una specifica Library**
-
 - Andare nel site che si vuole
 - Andare nella library che si vuole
 - Ingranaggio
