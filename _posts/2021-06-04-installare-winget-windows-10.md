@@ -16,7 +16,7 @@ Get-AppPackage *Microsoft.DesktopAppInstaller*|select Name,PackageFullName
 
 Una volta scaricato e installato, aprire il prompt dei comandi e digitare:   
 
-<code>winget install</code>
+<code>winget</code>
 
 Poi sarà possibile ricercare i programmi da installare digitando:   
 
@@ -25,6 +25,10 @@ Poi sarà possibile ricercare i programmi da installare digitando:
 e installarlo digitando:   
 
 <code>winget install nome_programma</code>
+
+Per aggiornare tutti i programmi digitare:   
+
+<code>winget upgrade --all</code>
 
 Sarà possibile creare anche un batch per poter installare in automatico varie applicazioni, ecco un esempio:
 
