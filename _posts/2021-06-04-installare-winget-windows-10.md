@@ -10,6 +10,8 @@ tags: [winget, installare, commandline, applicazioni, github, usare]
 ---
 Andare sul sito <a href="https://github.com/microsoft/winget-cli/releases" target="_blank">https://github.com/microsoft/winget-cli/releases</a> e scaricare il file **Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle**.
 
+Get-AppPackage *Microsoft.DesktopAppInstaller*|select Name,PackageFullName   
+
 Una volta scaricato e installato, aprire il prompt dei comandi e digitare:   
 
 <code>winget install</code>
