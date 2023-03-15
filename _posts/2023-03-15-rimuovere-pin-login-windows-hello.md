@@ -1,6 +1,6 @@
 ---
 title: 'Rimuovere PIN login in Windows Hello su Windows 10'
-subtitle: Eliminare cartella Ngc
+subtitle: Eliminare cartella NGC
 author: Stefano Marzorati
 layout: post
 date: 2023-03-15 07:25:00 +0200
@@ -11,7 +11,7 @@ tags: [pin, windows, hello, remove, rimuovere, impronta, digitale]
 ---
 Ngc è la cartella che memorizza tutti i dati del PIN di Windows Hello sul PC.   
 È possibile rimuovere il PIN disattivando ed eliminando questa cartella.   
-L'eliminazione della cartella **Ngc** sarà una soluzione alla domanda su come rimuovere il PIN di accesso da Windows 10.   
+L'eliminazione della cartella **NGC** sarà una soluzione alla domanda su come rimuovere il PIN di accesso da Windows 10.   
 
 Apri **cmd** come amministratore   
 Digita   
