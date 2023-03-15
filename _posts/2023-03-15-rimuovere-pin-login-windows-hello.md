@@ -16,7 +16,7 @@ L'eliminazione della cartella **NGC** sarà una soluzione alla domanda su come r
 - Apri **cmd** come amministratore   
 - Digita   
 <pre>takeown /f %windir%\ServiceProfiles\LocalService\AppData\Local\Microsoft\NGC /R</pre>
-Digita
+- Digita
 <pre>icacls %windir%\ServiceProfiles\LocalService\AppData\Local\Microsoft\NGC /grant administrators:F /t</pre>
 - Vai nella cartella
 <pre>C:\windows\ServiceProfiles\LocalService\AppData\Local\Microsoft</pre>
