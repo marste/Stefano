@@ -21,3 +21,7 @@ Digita
 Vai nella cartella   
 	C:\windows\ServiceProfiles\LocalService\AppData\Local\Microsoft
 Elimina la cartella **NGC**
+
+- prova1
+- prova2 <pre>provaaaa</pre>
+- prova3
