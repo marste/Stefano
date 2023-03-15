@@ -21,7 +21,3 @@ L'eliminazione della cartella **NGC** sarà una soluzione alla domanda su come r
 - Vai nella cartella
 <pre>C:\windows\ServiceProfiles\LocalService\AppData\Local\Microsoft</pre>
 - Elimina la cartella **NGC**
-
-- prova1
-- prova2 <pre>provaaaa</pre>
-- prova3
