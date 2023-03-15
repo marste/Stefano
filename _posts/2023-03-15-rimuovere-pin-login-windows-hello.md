@@ -13,14 +13,14 @@ Ngc è la cartella che memorizza tutti i dati del PIN di Windows Hello sul PC.
 È possibile rimuovere il PIN disattivando ed eliminando questa cartella.   
 L'eliminazione della cartella **NGC** sarà una soluzione alla domanda su come rimuovere il PIN di accesso da Windows 10.   
 
-Apri **cmd** come amministratore   
-Digita   
-	takeown /f %windir%\ServiceProfiles\LocalService\AppData\Local\Microsoft\NGC /R
-Digita   
-	icacls %windir%\ServiceProfiles\LocalService\AppData\Local\Microsoft\NGC /grant administrators:F /t
-Vai nella cartella   
-	C:\windows\ServiceProfiles\LocalService\AppData\Local\Microsoft
-Elimina la cartella **NGC**
+- Apri **cmd** come amministratore   
+- Digita   
+<pre>takeown /f %windir%\ServiceProfiles\LocalService\AppData\Local\Microsoft\NGC /R</pre>
+Digita
+<pre>icacls %windir%\ServiceProfiles\LocalService\AppData\Local\Microsoft\NGC /grant administrators:F /t</pre>
+- Vai nella cartella
+<pre>C:\windows\ServiceProfiles\LocalService\AppData\Local\Microsoft</pre>
+- Elimina la cartella **NGC**
 
 - prova1
 - prova2 <pre>provaaaa</pre>
