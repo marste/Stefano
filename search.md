@@ -25,3 +25,5 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
+
+{% include search-lunr.html %}
