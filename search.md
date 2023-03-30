@@ -19,9 +19,52 @@ image: 'https://marzorati.co/img/google.png'
 
 <!-- Configuration -->
 <script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
-})
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('searchform'),
+      resultsContainer: document.getElementById('searchresults'),
+      json: '/search.json',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === "title" || prop === "excerpt") {
+          value = value.replace(/&amp;/g, "&");
+        }
+        return value.replace(
+          new RegExp(document.getElementById('search-input').value, "gi"), 
+          '<span class="highlight">$&</span>'
+        )
+      },
+      sortMiddleware: function(a, b) {
+        aPrio = matchPriority(a.matchedField)
+        bPrio = matchPriority(b.matchedField)
+        return bPrio - aPrio
+      },
+      searchResultTemplate: "<li class='card'>" +
+          "<div class='content'>" +
+            "<a class='post-link' href='{url}'>{title}</a>" +
+            "<span class='post-meta'>{date} • {tags}</span>" +
+            "<p>{excerpt}</p>" +
+          "</div>" +
+        "</li>" 
+      })
+    
+    function matchPriority (fieldMatched) {
+      switch (fieldMatched) {
+        case 'tags':
+          return 5;
+        case 'title':
+          return 4;
+        case 'excerpt': 
+          return 3;
+        default: 
+          return 0;
+      }
+    }
+
+    window.addEventListener('load', function() {
+        var searchParam = new URLSearchParams(window.location.search).get("q")
+        if (searchParam != null) {
+            document.getElementById('search-input').value = searchParam
+            sjs.search(searchParam)
+        } 
+        document.getElementById('search-input').placeholder = "Type your search here..."
+    }, false);
 </script>
