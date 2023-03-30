@@ -40,7 +40,6 @@ image: 'https://marzorati.co/img/google.png'
       searchResultTemplate: "<li class='card'>" +
           "<div class='content'>" +
             "<a class='post-link' href='{url}'>{title}</a>" +
-            "<span class='post-meta'>{date} • {tags}</span>" +
             "<p>{excerpt}</p>" +
           "</div>" +
         "</li>" 
