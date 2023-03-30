@@ -37,11 +37,11 @@ image: 'https://marzorati.co/img/google.png'
         bPrio = matchPriority(b.matchedField)
         return bPrio - aPrio
       },
-      searchResultTemplate: "<li class='card'>" +
-          "<div class='content'>" +
-            "<a class='post-link' href='{url}'>{title}</a>" +
-            "<p>{excerpt}</p>" +
-          "</div>" +
+      searchResultTemplate: "<li class='card'>"
+          "<div class='content'>"
+            "<a class='post-link' href='{url}'>{title}</a>"
+            "<p>{excerpt}</p>"
+          "</div>"
         "</li>" 
       })
     
