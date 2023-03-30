@@ -20,8 +20,8 @@ image: 'https://marzorati.co/img/google.png'
 <!-- Configuration -->
 <script>
     var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('searchform'),
-      resultsContainer: document.getElementById('searchresults'),
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       templateMiddleware: function(prop, value, template) {
         if (prop === "title" || prop === "excerpt") {
