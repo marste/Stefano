@@ -31,18 +31,17 @@ share-img: 'https://marzorati.co/img/cv.png'
 **Installazione, configurazione e manutenzione di:**
 
 * MS Windows Client e Servers
-* Web Servers Linux (Centos – Debian - Ubuntu)
 * Firewall Sonicwall Dell
+* Firewall Cisco Firepower
 * Switch Cisco
 * Sistemi di virtualizzazione: ESX, VMware Server
-* Office 365 - Exchange Online
+* Office 365 - Exchange Online - Sharepoint
 * Web servers (Linux, Apache, Mysql, PHP)
-* IBM AS/400
-* Microsoft Exchange
+* IBM iSeries
 * Microsoft SQL
-* VPN
-* Server FTP
-* Appliance Symantec Antivirus-Antispam
+* Cisco VPN
+* Sistemi di sicurezza Sophos XDR
+* CyberSecurity Cynet
 * Telefonia VOIP Selta
 * Telefonia DECT Spectralink
 * Data Logger a radiofrequenza
