@@ -187,7 +187,6 @@ share-img: 'https://marzorati.co/img/news.png'
 
 <!-- <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script> -->
 <script src="/js/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
 <script src='/js/jquery-3.6.0.min.js'></script>
 <script id="rendered-js">
 // ===== Scroll to Top ==== 
