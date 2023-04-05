@@ -1,5 +1,5 @@
 ---
-title: 'La configurazione della modalità affiancata dell'applicazione non è corretta'
+title: "La configurazione della modalità affiancata dell'applicazione non è corretta"
 author: Stefano Marzorati
 layout: post
 date: 2023-04-05 07:25:00 +0200
