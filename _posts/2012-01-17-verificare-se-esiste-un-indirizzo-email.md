@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/mail.png'
 categories: [email]
 tags: [address, email, verificare, telnet, mail, rcpt, indirizzo, test, recipient, user]
 ---
-~~~batch
+~~~
 nslookup
 set type=mx
 dominio.it
@@ -17,7 +17,7 @@ dominio.it
 ti annoti l&#8217;mx principale (in questo caso facciamo che sia il seguente)  
 **out.mail.it**
 
-~~~batch
+~~~
 telnet out.mail.it 25
 helo dominio.it
 AUTH LOGIN
