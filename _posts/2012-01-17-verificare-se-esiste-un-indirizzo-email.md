@@ -18,8 +18,8 @@ ti annoti l&#8217;mx principale (in questo caso facciamo che sia il seguente)
 **telnet out.mail.it 25**  
 **helo dominio.it**   
 **AUTH LOGIN**   
-**MAIL FROM:<your_email_address>**  
-**RCPT TO:<destination_email_address>**
+**MAIL FROM:<your_email_address>**   
+**RCPT TO:<destination_email_address>**   
 
 Se l&#8217;utente esiste **&#8220;Recipient ok&#8221;**  
 Se l&#8217;utente non esiste **&#8220;No such user&#8221;**
