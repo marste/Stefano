@@ -33,3 +33,4 @@ Si tratta di <a href="https://inkscape.org/" target="_blank">Inkscape</a>
 3. Modificare la scritta partendo dal fondo   
 
 Un'alternativa funzionale online è questa: <a href="https://www.pdfescape.com/open/" target="_blank">pdfescape.com</a>   
+Un'altra alternativa è questa: <a href="https://www.photopea.com/" target="_blank">photopea.com</a>   
