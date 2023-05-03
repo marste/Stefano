@@ -1,6 +1,6 @@
 ---
 title: "Download Cisco AnyConnect Secure Mobile Client per Windows, Mac e Linux"
-subtitle: Versione 4.10.05111 e 4.10.05095
+subtitle: Versione 4.10.05111 e 4.10.05095 e 4.10.06090
 author: Stefano Marzorati
 date: 2022-06-21 22:20:00 +0200
 layout: post
