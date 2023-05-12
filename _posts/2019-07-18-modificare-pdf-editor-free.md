@@ -1,7 +1,7 @@
 ---
 title: 'Modificare testo PDF - Editor Free - Opensource'
 author: Stefano Marzorati
-date: 2019-10-01 09:27:00 +0200
+date: 2023-05-12 09:27:00 +0200
 layout: post
 image: 'https://marzorati.co/img/acrobat.png'
 share-img: 'https://marzorati.co/img/acrobat.png'
