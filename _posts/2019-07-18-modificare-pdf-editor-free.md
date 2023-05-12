@@ -5,17 +5,8 @@ date: 2019-10-01 09:27:00 +0200
 layout: post
 image: 'https://marzorati.co/img/acrobat.png'
 share-img: 'https://marzorati.co/img/acrobat.png'
-categories:
-  - Windows
-tags:
-  - editor
-  - free
-  - modifica
-  - file
-  - pdf
-  - font
-  - recognise
-  - inkscape
+categories: [pdf]
+tags: [editor, free, modifica, pdf, file, font, online, free]
 ---
 Se dovete modificare il testo di un file PDF, vi consiglio di utilizzare questo software opensource free.   
 
@@ -33,4 +24,4 @@ Si tratta di <a href="https://inkscape.org/" target="_blank">Inkscape</a>
 3. Modificare la scritta partendo dal fondo   
 
 Un'alternativa funzionale online è questa: <a href="https://www.pdfescape.com/open/" target="_blank">pdfescape.com</a>   
-Un'altra alternativa è questa: <a href="https://www.photopea.com/" target="_blank">photopea.com</a>   
+Un'altra alternativa è questa: <a href="https://www.sejda.com/pdf-editor" target="_blank">sejda.com</a>   
