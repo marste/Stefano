@@ -1,6 +1,6 @@
 ---
 title: Visualizzare il nome client di un Remote Desktop Server da PowerShell
-date: 2021-10-26 14:00:00 +0200
+date: 2023-05-18 10:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/powershell.png'
 share-img: 'https://marzorati.co/img/powershell.png'
@@ -11,6 +11,14 @@ tags: [getting, client, name, remote desktop server, powershell, rdp, rds, idle,
 Per installare il modulo:   
 ~~~powershell
 Install-Module -Name PSTerminalServices
+~~~
+Per abilitare l'esecuzione:   
+~~~powershell
+Set-ExecutionPolicy RemoteSigned
+~~~
+Per importare il modulo:   
+~~~powershell
+Import-Module PSTerminalServices
 ~~~
 Per avere la **lista dei client** collegati:   
 ~~~powershell
