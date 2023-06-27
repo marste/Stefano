@@ -12,3 +12,5 @@ Se vi è capitato di aprire un file excel o word che è già aperto da qualche a
 - Andare nel percorso dove è salvato il file.
 - Andare in **Opzioni cartella** ► **Visualizzazione** ► Togliere il flag su **Nascondi i file protetti di sistema (consigliato)**
 - A questo punto vedrete comparire nella cartella il nome dello stesso file con una **~** davanti, eliminate questo file.
+
+<center><img src="https://marzorati.co/img/post/file_in_uso.png" alt="file_in_uso"></center>
