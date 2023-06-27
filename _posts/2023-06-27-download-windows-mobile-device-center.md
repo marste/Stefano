@@ -2,7 +2,7 @@
 title: "Download Windows Mobile Device Center"
 author: Stefano Marzorati
 layout: post
-date: 2023-06-27 16:15:00 +0200
+date: 2023-06-27 17:15:00 +0200
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows]
