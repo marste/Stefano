@@ -19,8 +19,8 @@ L'aspetto dovrebbe essere il seguente:
 
 In italiano le voci sono:
 
-Le proprietà del messaggio - includono il tipo di messaggio OOF
-Il mittente è questa persona (elencare i mittenti)
-Blocca il messaggio - elimina il messaggio senza inviare alcuna notifica
+Le proprietà del messaggio - includono il tipo di messaggio OOF   
+Il mittente è questa persona (elencare i mittenti)   
+Blocca il messaggio - elimina il messaggio senza inviare alcuna notifica   
 
 Assicurati che la regola abbia una priorità abbastanza alta da non essere bloccata da altre regole di trasporto.   
