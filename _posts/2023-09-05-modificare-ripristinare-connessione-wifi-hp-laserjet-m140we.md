@@ -2,7 +2,7 @@
 title: "Collegamento WiFi a stampante HP LaserJet M140we"
 author: Stefano Marzorati
 layout: post
-date: 2023-09-05 13:20:00 +0200
+date: 2023-09-05 13:21:00 +0200
 image: 'https://marzorati.co/img/hp.webp'
 share-img: 'https://marzorati.co/img/hp.webp'
 categories: [Stampanti]
