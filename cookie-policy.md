@@ -38,11 +38,11 @@ Per i trattamenti di dati personali che, previo suo consenso, società terze not
 
 ## **Google Analytics**
 
-I siti di BM hanno attivato le funzioni pubblicitarie di Google Analytics, le funzioni pubblicitarie implementate sono: i rapporti sui dati demografici e sugli interessi di Google Analytics.
+I siti di Marzorati.co hanno attivato le funzioni pubblicitarie di Google Analytics, le funzioni pubblicitarie implementate sono: i rapporti sui dati demografici e sugli interessi di Google Analytics.
 
-L’attivazione di queste funzioni pubblicitarie consente a Google Analytics di raccogliere i dati sul traffico tramite i cookie per la pubblicità di Google e gli identificatori anonimi, oltre ai dati raccolti tramite un’implementazione standard di Google Analytics. I siti di BM raccolgono e utilizzano i dati provenienti dalla pubblicità basata sugli interessi di Google o i dati sul pubblico di terze parti (ad es. età, sesso e interessi) di Google Analytics e le funzioni di Google Analytics implementate in base alla pubblicità display (ad es. remarketing, rapporti sui dati demografici e sugli interessi di Google Analytics) solo a fini statistici e di analisi del pubblico.
+L’attivazione di queste funzioni pubblicitarie consente a Google Analytics di raccogliere i dati sul traffico tramite i cookie per la pubblicità di Google e gli identificatori anonimi, oltre ai dati raccolti tramite un’implementazione standard di Google Analytics. I siti di Marzorati.co raccolgono e utilizzano i dati provenienti dalla pubblicità basata sugli interessi di Google o i dati sul pubblico di terze parti (ad es. età, sesso e interessi) di Google Analytics e le funzioni di Google Analytics implementate in base alla pubblicità display (ad es. remarketing, rapporti sui dati demografici e sugli interessi di Google Analytics) solo a fini statistici e di analisi del pubblico.
 
-I dati sono raccolti ed aggregati in forma anonima mediante software proprietari o di terze parti (es. Google Analytics). I siti di BM  e fornitori terzi, tra cui Google, utilizzano sia cookie proprietari (come il cookie di Google Analytics) sia cookie di terze parti (come il cookie di DoubleClick) per informare, ottimizzare e pubblicare annunci sulla base delle precedenti visite degli utenti ai siti di BM.
+I dati sono raccolti ed aggregati in forma anonima mediante software proprietari o di terze parti (es. Google Analytics). I siti di Marzorati.co  e fornitori terzi, tra cui Google, utilizzano sia cookie proprietari (come il cookie di Google Analytics) sia cookie di terze parti (come il cookie di DoubleClick) per informare, ottimizzare e pubblicare annunci sulla base delle precedenti visite degli utenti ai siti di marzorati.co.
 
 È possibile disattivare Google Analytics per la pubblicità display e personalizzare gli annunci della Rete Display di Google nei seguenti modi:
 
