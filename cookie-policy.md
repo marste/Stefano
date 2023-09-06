@@ -18,8 +18,8 @@ L’uso di cookies da parte di Marzorati.co avviene nel pieno rispetto di quanto
 
 I cookies “tecnici” si dividono in cookies di navigazione e cookies di sessione. Essi sono strettamente necessari a garantire la normale navigazione dei siti.   
 
-    I cookies di sessione si cancellano automaticamente alla fine di ogni navigazione con la chiusura del browser,
-    i cookies di navigazione hanno una vita più lunga.
+- I cookies di sessione si cancellano automaticamente alla fine di ogni navigazione con la chiusura del browser,
+- I cookies di navigazione hanno una vita più lunga.
 
 Sia i cookies di sessione, sia quelli di navigazione sono necessari per navigare all’interno dei siti stessi poiché consentono funzioni essenziali quali per esempio autenticazione, validazione, gestione di una sessione di navigazione. I cookies tecnici sono essenziali e possono essere utilizzati anche in assenza del consenso dell’interessato.   
 Cookies non tecnici
@@ -46,5 +46,5 @@ I dati sono raccolti ed aggregati in forma anonima mediante software proprietari
 
 È possibile disattivare Google Analytics per la pubblicità display e personalizzare gli annunci della Rete Display di Google nei seguenti modi:
 
-    Utilizzando le Impostazioni annunci: <a href="https://www.google.it/settings/ads" target="_blank">https://www.google.it/settings/ads</a>
-    Attraverso le componenti attualmente disponibili per la disattivazione di Google Analytics per il Web: <a href="https://tools.google.com/dlpage/gaoptout/" target="_blank">https://tools.google.com/dlpage/gaoptout/</a>
+- Utilizzando le Impostazioni annunci: <a href="https://www.google.it/settings/ads" target="_blank">https://www.google.it/settings/ads</a>
+- Attraverso le componenti attualmente disponibili per la disattivazione di Google Analytics per il Web: <a href="https://tools.google.com/dlpage/gaoptout/" target="_blank">https://tools.google.com/dlpage/gaoptout/</a>
