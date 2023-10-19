@@ -16,7 +16,7 @@ Una volta installato, aprite PowerShell e digitate:
 Connect-SPOService
 ~~~
 Vi chiederà l'url di amministrazione di SharePoint della vostra organizzazione:   
-Ad esempio: https://acme-admin.sharepoint.com/
+Ad esempio: <a href="https://acme-admin.sharepoint.com/" target="_blank">https://acme-admin.sharepoint.com/</a>
 
 A questo punto per avere la lista di tutti i **Site** di SharePoint eliminati digitate:   
 ~~~powershell
@@ -30,7 +30,7 @@ Get-SPOSite -IncludePersonalSite $true -Limit all
 
 Avrete una lista simile a questa:   
 
-https://acme-my.sharepoint.com/personal/mario_rossi_acme_it
+<a href="https://acme-my.sharepoint.com/personal/mario_rossi_acme_it" target="_blank">https://acme-my.sharepoint.com/personal/mario_rossi_acme_it</a>
 
 Per darvi i permessi su questo OneDrive, ora vi basterà digitare:    
 ~~~powershell
