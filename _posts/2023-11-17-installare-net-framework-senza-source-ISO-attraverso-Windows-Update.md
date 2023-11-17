@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows Servers]
 tags: [installare, .net, online, ISO, update, windows]
 ---
-Se hai questo messaggio di errore come questo:   
+Se hai questo messaggio di errore:   
 
 ***The source files could not be found. Try installing the roles, role services, or features again in a new Add Roles and Features Wizard session, and on the Confirmation page of the wizard, click “Specify an alternate source path” to specify a valid location of the source files that are required for the installation. The location must be accessible by the computer account of the destination server.***   
 
