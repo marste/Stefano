@@ -2,7 +2,7 @@
 title: "Installare .NET Framework 3.5 senza Source ISO attraverso Windows Update"
 author: Stefano Marzorati
 layout: post
-date: 2023-11-17 16:00:00 +0200
+date: 2023-11-17 12:00:00 +0200
 image: 'https://marzorati.co/img/windows.png'
 share-img: 'https://marzorati.co/img/windows.png'
 categories: [Windows Servers]
