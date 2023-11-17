@@ -22,4 +22,7 @@ mentre stai installando una feature di Windows Server, è perchè non hai a disp
 - Vai in: Computer Configuration > Administrative Templates > System
 - Sulla destra cerca: **Specify settings for optional component installation and component repair**
 - Impostalo su **Enabled** e seleziona l'opzione **Download repair Content and optional features features directly from Windows Update instead of Windows Server Update Services (WSUS)**
+
+<center><img src="https://marzorati.co/img/post/net-framework-installation-windows-update.png" alt="Install .net framework"></center>
+
 - Ora è possibile avviare nuovamente l'installazione della funzione tramite Server Manager.
