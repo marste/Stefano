@@ -1,7 +1,7 @@
 ---
 title: 'Webcam Live'
 subtitle: Mare, montagna e lago
-date: 2019-07-14 07:00:00 +0200
+date: 2023-11-18 07:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/webcam.png'
 share-img: 'https://marzorati.co/img/webcam.png'
