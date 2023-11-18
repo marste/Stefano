@@ -39,6 +39,11 @@ tags: [webcam, mare, montagna, live, lago]
 <a name="windy-webcam-timelapse-player" data-id="1575096789" data-play="day" href="https://windy.com/webcams/1575096789" target="_blank">Macugnaga: Parete est monte rosa</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
+<center><strong>RIALE</strong> - Verbano-Cusio-Ossola</center>   
+<center>
+<a name="windy-webcam-timelapse-player"  data-id="1656329114" data-play="day" href="https://windy.com/webcams/1656329114" target="_blank">Formazza: Riale</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/v2/script/player.js"></script>
+</center>
+<p></p>
 <center><strong>MERANO</strong> - (Bolzano)</center>   
 <center>
 <a name="windy-webcam-timelapse-player" data-id="1575465405" data-play="day" href="https://windy.com/webcams/1575465405" target="_blank">Merano › Nord-Ovest: Pulverturm Meran - Mutspitze / Monte Muta 2294m - Tschigat / Gigot (m 3.000) - Zielspitze</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
