@@ -8,7 +8,7 @@ layout: post
 categories: [Office365]
 tags: [microsoft, 365, quarantena, exchange, posta, sicurezza, security, menu]
 ---
-- Accedere all'Admin Portal di Office 365.
+- Accedere all'**<a href="https://portal.microsoft.com/" target="_blank">Admin Portal</a>** di Office 365.
 - Andare in **<a href="https://security.microsoft.com/" target="_blank">Sicurezza</a>**
 - **Posta elettronica e collaborazione**
 - **Revisione**
