@@ -1,7 +1,7 @@
 ---
 title: 'Webcam Live'
 subtitle: Mare, montagna e lago
-date: 2019-07-14 07:00:00 +0200
+date: 2023-11-18 07:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/webcam.png'
 share-img: 'https://marzorati.co/img/webcam.png'
@@ -37,6 +37,11 @@ tags: [webcam, mare, montagna, live, lago]
 <center><strong>MACUGNAGA</strong> - Parete Est Monte Rosa (Verbano-Cusio-Ossola)</center>   
 <center>
 <a name="windy-webcam-timelapse-player" data-id="1575096789" data-play="day" href="https://windy.com/webcams/1575096789" target="_blank">Macugnaga: Parete est monte rosa</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
+</center>
+<p></p>
+<center><strong>RIALE</strong> - Verbano-Cusio-Ossola</center>   
+<center>
+<a name="windy-webcam-timelapse-player"  data-id="1656329114" data-play="day" href="https://windy.com/webcams/1656329114" target="_blank">Formazza: Riale</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/v2/script/player.js"></script>
 </center>
 <p></p>
 <center><strong>MERANO</strong> - (Bolzano)</center>   
