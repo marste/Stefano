@@ -773,6 +773,7 @@ color: #f1c40f;
 a, a:hover {
 	text-decoration: none;
 }
+/*
 
 .socialbtns, .socialbtns ul, .socialbtns li {
 	margin: 0;
@@ -815,6 +816,7 @@ a, a:hover {
 	text-decoration: none;
 }
 
+/*
 .socialshare li {
     list-style: none outside none;
     display: inline-block;
@@ -843,3 +845,4 @@ a, a:hover {
 	-webkit-transform: rotate(360deg);
 	-o-transform: rotate(360deg);
 }
+*/
