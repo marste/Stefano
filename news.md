@@ -183,7 +183,20 @@ share-img: 'https://marzorati.co/img/news.png'
 </script>
 
 
-
+<center><h1><a name="Foto"><font color="Black">Foto</font></a></h1></center>
+<br>
+<div id="divRssFoto"></div>
+<script>
+    $('#divRssSalute').FeedEk({
+    FeedUrl : 'https://www.ansa.it/sito/photogallery/foto_rss.xml',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
 
 <!-- <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script> -->
 <script src="/js/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
