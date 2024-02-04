@@ -70,7 +70,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
 
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
 
 
 
