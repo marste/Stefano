@@ -11,8 +11,6 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, filoncino]
 ---
 **Quantitativo per fare un filoncino da 600 grammi**   
 
-<center><img src="https://marzorati.co/img/post/pane_4.jpg" alt="pane"></center>  
-
 ***Ingredienti:***   
 
 * 260 grammi di acqua
