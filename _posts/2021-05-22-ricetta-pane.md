@@ -30,7 +30,7 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, filoncino]
 
 <center><img src="https://marzorati.co/img/post/pane_5.jpg" alt="pane"></center>  
 
-* Inserisci l'impasto in forno ventilato a **220°C per circa 35 minuti**.
+* Inserisci l'impasto in forno ventilato a **220°C per circa 30/35 minuti**.
 
 <center><img src="https://marzorati.co/img/post/pane_6.jpg" alt="pane"></center>  
 
