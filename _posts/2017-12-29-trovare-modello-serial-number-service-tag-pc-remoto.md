@@ -3,23 +3,11 @@ title: Trovare modello e serial number o service tag di un PC remoto
 date: 2017-12-29 12:00:00 +0200
 author: Stefano Marzorati
 layout: post
-image: 'https://marzorati.co/img/powershell.png'
-share-img: 'https://marzorati.co/img/powershell.png'
-categories:
-  - Windows
-tags:
-  - Windows
-  - version
-  - wmic
-  - command
-  - cmd
-  - remote
-  - computersystem
-  - csproduct
-  - identifyingnumber
-  - serialnumber
-  - systemtype
-  - vendor
+image: 'https://marzorati.co/img/windows.png'
+share-img: 'https://marzorati.co/img/windows.png'
+categories: [Windows]
+tags: [Windows, version, wmic, command, cmd, remote, computersystem, csproduct, identifyingnumber, serialnumber, systemtype, vendor]
+
 ---
 Local PC:
 	
