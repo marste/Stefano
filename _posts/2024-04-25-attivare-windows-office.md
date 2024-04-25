@@ -1,9 +1,9 @@
 ---
-title: "Attivare Windows e/o Office con uno scripts"
+title: "Attivare Windows e/o Office con uno script"
 date: 2024-04-25 07:00:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/powershell.png'
-share-img: 'https://marzorati.co/img/powershell.png'
+image: 'https://marzorati.co/img/microsoft.png'
+share-img: 'https://marzorati.co/img/microsoft.png'
 layout: post
 categories: [Microsoft]
 tags: [attivare, windows, versioni, tutte, script, github, massgravel]
