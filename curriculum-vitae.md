@@ -7,7 +7,7 @@ share-img: 'https://marzorati.co/img/cv.png'
 ---
 *[07/2023 – Oggi]*
 
-## **IT Manager**   
+## IT Manager   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.alfavarese.it/" target="_blank">ALFA S.r.l.</a></b> - Società pubblica costituita nel giugno 2015 che gestisce il Servizio Idrico Integrato della Provincia di Varese.*   
@@ -29,7 +29,7 @@ share-img: 'https://marzorati.co/img/cv.png'
 
 ___
 
-[05/2015 – Oggi]
+*[05/2015 – Oggi]*
 
 ## **Responsabile IT**   
 {: style="font-size: 1.6rem; text-align: left;"}
@@ -89,7 +89,7 @@ ___
 
 ___
 
-[01/2007 – 05/2015]
+*[01/2007 – 05/2015]*
 
 ## **ICT System Administrator**   
 {: style="font-size: 1.6rem; text-align: left;"}
@@ -147,7 +147,7 @@ ___
 
 ___
 
-[12/2004 – 01/2007]
+*[12/2004 – 01/2007]*
 
 ## **IT Senior Consultant**   
 {: style="font-size: 1.6rem; text-align: left;"}
@@ -162,7 +162,7 @@ ___
 
 ___
 
-[02/2004 – 12/2004]
+*[02/2004 – 12/2004]*
 
 ## **IT Senior Consultant**   
 {: style="font-size: 1.6rem; text-align: left;"}
@@ -173,7 +173,7 @@ ___
 
 ___
 
-[04/2000 – 02/2004]
+*[04/2000 – 02/2004]*
 
 ## **IT Consultant**   
 {: style="font-size: 1.6rem; text-align: left;"}
@@ -186,7 +186,7 @@ ___
 
 ___
 
-[09/1997 – 04/2000]
+*[09/1997 – 04/2000]*
 
 ## **Hardware Engineer**   
 {: style="font-size: 1.6rem; text-align: left;"}
