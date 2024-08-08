@@ -7,7 +7,7 @@ share-img: 'https://marzorati.co/img/cv.png'
 ---
 &#128197; 07/2023 – Oggi
 
-# <b>IT Manager</b>   
+# IT Manager   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.alfavarese.it/" target="_blank">ALFA S.r.l.</a></b> - Società pubblica costituita nel giugno 2015 che gestisce il Servizio Idrico Integrato della Provincia di Varese.*   
@@ -31,7 +31,7 @@ ___
 
 &#128197; 05/2015 – 07/2023
 
-&#128104;&#127995;&#8205;&#128188; <b>Responsabile IT</b>   
+# Responsabile IT   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.siitgroup.com/" target="_blank">S.I.I.T. S.r.l.</a></b> - Società nata nel 1951 per il confezionamento di farmaci per conto terzi, oggi azienda leader come partner ideale per le aziende che vogliono affidare in outsourcing lo sviluppo e la produzione di specialità medicinali, integratori alimentari.*   
