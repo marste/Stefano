@@ -31,7 +31,7 @@ ___
 
 &#128197; 05/2015 – 07/2023
 
-<b>Responsabile IT</b>   
+&#128104;&#127995;&#8205;&#128188; <b>Responsabile IT</b>   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.siitgroup.com/" target="_blank">S.I.I.T. S.r.l.</a></b> - Società nata nel 1951 per il confezionamento di farmaci per conto terzi, oggi azienda leader come partner ideale per le aziende che vogliono affidare in outsourcing lo sviluppo e la produzione di specialità medicinali, integratori alimentari.*   
