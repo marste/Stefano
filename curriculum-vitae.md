@@ -29,9 +29,9 @@ share-img: 'https://marzorati.co/img/cv.png'
 
 ___
 
-&#128197;  05/2015 – 07/2023
+&#128197; 05/2015 – 07/2023
 
-## **Responsabile IT**   
+<b><h1>Responsabile IT</h1></b>   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.siitgroup.com/" target="_blank">S.I.I.T. S.r.l.</a></b> - Società nata nel 1951 per il confezionamento di farmaci per conto terzi, oggi azienda leader come partner ideale per le aziende che vogliono affidare in outsourcing lo sviluppo e la produzione di specialità medicinali, integratori alimentari.*   
@@ -89,9 +89,9 @@ ___
 
 ___
 
-*[01/2007 – 05/2015]*
+&#128197; 01/2007 – 05/2015
 
-## **ICT System Administrator**   
+<b><h1>ICT System Administrator</h1></b>   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.edisport.it/" target="_blank">Edisport Editoriale S.p.A.</a></b> - Casa Editrice nata nel 1914 con la fondazione della rivista "Motociclismo"*   
@@ -147,9 +147,9 @@ ___
 
 ___
 
-*[12/2004 – 01/2007]*
+&#128197; 12/2004 – 01/2007
 
-## **IT Senior Consultant**   
+<b><h1>IT Senior Consultant</h1></b>   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b>IRPE S.p.A.</b> - Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza*   
@@ -162,9 +162,9 @@ ___
 
 ___
 
-*[02/2004 – 12/2004]*
+&#128197; 02/2004 – 12/2004
 
-## **IT Senior Consultant**   
+<b><h1>IT Senior Consultant</h1></b>   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.wiit.it/" target="_blank">WIIT S.p.A.</a></b> - Azienda ICT per la fornitura di servizi di outsourcing*   
@@ -173,9 +173,9 @@ ___
 
 ___
 
-*[04/2000 – 02/2004]*
+&#128197; 04/2000 – 02/2004
 
-## **IT Consultant**   
+<b><h1>IT Consultant</h1></b>   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="https://www.soldionline.it/notizie/azioni-italia/tc-sistema-arriva-il-fallimento" target="_blank">TC Sistema S.p.A.</a></b> - Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza*   
@@ -186,9 +186,9 @@ ___
 
 ___
 
-*[09/1997 – 04/2000]*
+&#128197; 09/1997 – 04/2000
 
-## **Hardware Engineer**   
+<b><h1>Hardware Engineer</h1></b>   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="https://www.soldionline.it/notizie/azioni-italia/tc-sistema-arriva-il-fallimento" target="_blank">TC Sistema S.p.A.</a></b> - Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza*   
