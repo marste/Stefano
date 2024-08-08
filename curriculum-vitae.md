@@ -25,7 +25,8 @@ share-img: 'https://marzorati.co/img/cv.png'
 * <b>Pianificazione collaborativa, previsione e rifornimento:</b> Collaborato con diversi dipartimenti per pianificare le esigenze future, gestire il rifornimento e garantire la continuità operativa.
 * <b>Gestione e negoziazione contratti:</b> Gestito e negoziato contratti con fornitori e partner tecnologici, ottenendo condizioni vantaggiose per l'azienda.
 * <b>Stesura budget:</b> Redatto e monitorato il budget IT, garantendo un utilizzo efficiente delle risorse finanziarie.
-* <b>Pianificazione, definizione del budget e previsioni:</b> Sviluppato piani strategici e finanziari per il reparto IT, con previsioni accurate e allineate agli obiettivi aziendali a lungo termine.
+* <b>Pianificazione, definizione del budget e previsioni:</b> Sviluppato piani strategici e finanziari per il reparto IT, con previsioni accurate e allineate agli obiettivi aziendali a lungo termine.   
+
 ___
 
 [05/2015 – Oggi]
