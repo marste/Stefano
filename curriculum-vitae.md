@@ -7,7 +7,7 @@ share-img: 'https://marzorati.co/img/cv.png'
 ---
 &#128197; 07/2023 – Oggi
 
-<b><font size="5">IT Manager</font></b>   
+<b><h1>IT Manager</h1></b>   
 {: style="font-size: 1.6rem; text-align: left;"}
 
 *<b><a href="http://www.alfavarese.it/" target="_blank">ALFA S.r.l.</a></b> - Società pubblica costituita nel giugno 2015 che gestisce il Servizio Idrico Integrato della Provincia di Varese.*   
