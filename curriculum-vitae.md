@@ -34,7 +34,7 @@ ___
 
 &#128197; 05/2015 – 07/2023   
 
-<p style="text-align: left;"><h3 id="responsabile-it">Responsabile IT</h3></p>   
+### Responsabile IT   
 
 {: style="font-size: 1.6rem; text-align: left;"}
 
@@ -95,7 +95,7 @@ ___
 
 &#128197; 01/2007 – 05/2015   
 
-## ICT System Administrator   
+### ICT System Administrator   
    
 {: style="font-size: 1.6rem; text-align: left;"}
 
@@ -154,7 +154,7 @@ ___
 
 &#128197; 12/2004 – 01/2007   
 
-## IT Senior Consultant   
+### IT Senior Consultant   
    
 {: style="font-size: 1.6rem; text-align: left;"}
 
@@ -170,7 +170,7 @@ ___
 
 &#128197; 02/2004 – 12/2004   
 
-## IT Senior Consultant   
+### IT Senior Consultant   
 
 {: style="font-size: 1.6rem; text-align: left;"}
 
@@ -182,7 +182,7 @@ ___
 
 &#128197; 04/2000 – 02/2004   
 
-## IT Consultant   
+### IT Consultant   
    
 {: style="font-size: 1.6rem; text-align: left;"}
 
@@ -196,7 +196,7 @@ ___
 
 &#128197; 09/1997 – 04/2000   
 
-## Hardware Engineer   
+### Hardware Engineer   
    
 {: style="font-size: 1.6rem; text-align: left;"}
 
