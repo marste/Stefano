@@ -29,7 +29,7 @@ share-img: 'https://marzorati.co/img/cv.png'
 
 ___
 
-*[05/2015 – Oggi]*
+&#128197;  05/2015 – 07/2023
 
 ## **Responsabile IT**   
 {: style="font-size: 1.6rem; text-align: left;"}
