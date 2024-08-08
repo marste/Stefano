@@ -36,7 +36,7 @@ ___
 
 {: style="text-align: left;"}   
 
-### Responsabile IT   
+### IT Manager   
 
 {: style="font-size: 1.6rem; text-align: left;"}
 
