@@ -32,7 +32,7 @@ ___
 
 &#128197; 05/2015 – 07/2023   
 
-<p style="text-align: left;"><h2 id="responsabile-it">Responsabile IT</h2></p>   
+<p style="text-align: left;"><h3 id="responsabile-it">Responsabile IT</h3></p>   
 
 {: style="font-size: 1.6rem; text-align: left;"}
 
