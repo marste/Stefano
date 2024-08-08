@@ -5,7 +5,7 @@ permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
 ---
-[07/2023 – Oggi]
+*[07/2023 – Oggi]*
 
 ## **IT Manager**   
 {: style="font-size: 1.6rem; text-align: left;"}
