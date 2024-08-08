@@ -7,7 +7,7 @@ share-img: 'https://marzorati.co/img/cv.png'
 ---
 &#128197; 07/2023 – Oggi   
 
-## IT Manager   
+### IT Manager   
 
 {: style="font-size: 1.6rem; text-align: left;"}
 
