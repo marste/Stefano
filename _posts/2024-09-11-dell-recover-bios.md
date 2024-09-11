@@ -1,5 +1,5 @@
 ---
-title: "Come recuperare il BIOS su un PC Dell"
+title: "Come recuperare il BIOS su un PC DELL"
 subtitle: "PC DELL - Recover BIOS"
 date: 2024-09-11 10:00:00 +0200
 author: Stefano Marzorati
