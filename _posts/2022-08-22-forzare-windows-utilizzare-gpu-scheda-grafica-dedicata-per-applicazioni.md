@@ -10,6 +10,7 @@ tags: [microsoft, gpu, scheda, grafica, dedicata, applicazione, forzare, utilizz
 ---
 - Impostazioni
 - Sistema
+- Schermo
 - Impostazioni grafica
 - Scegli l'applicazione desiderata
 	- Opzioni
