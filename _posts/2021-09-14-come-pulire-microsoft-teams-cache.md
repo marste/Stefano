@@ -1,6 +1,6 @@
 ---
 title: "Come pulire la cache di Microsoft Teams"
-date: 2021-09-14 11:00:00 +0200
+date: 2024-10-28 10:00:00 +0200
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/teams.png'
@@ -97,3 +97,7 @@ Stop-Process -Id $PID
 Stop-Process -Id $PID
 }
 ~~~
+
+Se state utilizzando la nuova versione di Teams, il percorso è questo:   
+
+`%localappdata%\packages\MSTeams_8wekyb3d8bbwe\Localcache\Microsoft\MSTeams`
