@@ -100,4 +100,6 @@ Stop-Process -Id $PID
 
 Se state utilizzando la nuova versione di Teams, il percorso è questo:   
 
-`%localappdata%\packages\MSTeams_8wekyb3d8bbwe\Localcache\Microsoft\MSTeams`
+```
+%localappdata%\packages\MSTeams_8wekyb3d8bbwe\Localcache\Microsoft\MSTeams
+```
