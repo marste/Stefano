@@ -1,22 +1,13 @@
 ---
 title: Metropolitana Milano - Fermate
-date: 2016-08-15 19:00:00 +0200
+date: 2024-11-04 08:00:00 +0200
 author: Stefano Marzorati
+image: 'https://marzorati.co/img/metro.png'
+share-img: 'https://marzorati.co/img/metro.png'
 layout: post
-permalink: /metropolitana-milano-fermate/
-categories:
-  - Milano
-tags:
-  - metropolitana
-  - milano
-  - fermate
-  - rete
-  - linee
-  - ferroviarie
-  - suburbane
+categories: [mezzi pubblici]
+tags: [metropolitana, milano, fermate, rete, cartina, mappa, linee, ferroviarie, suburbane]
 ---
 **Rete Metropolitana di Milano e linee Ferroviarie Suburbane**   
 
-<p align="center">
-  <img src="https://c6.staticflickr.com/9/8040/28386338053_a292178b2b_k.jpg">
-</p>   
+<center><img src="https://marzorati.co/img/post/metropolitana-milano.jpg" alt="Mappa Metropolitana Milano"></center>
