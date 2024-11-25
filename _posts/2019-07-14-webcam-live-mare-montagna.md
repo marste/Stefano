@@ -44,6 +44,11 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Merano2000" src="https://webcams.meran2000.com/mittager/cam.jpg">
 </center>
 <p></p>
+<center><strong>SESTRIERE</strong> - Via Lattea - 2035 metri (Torino)</center>   
+<center>
+<a href="https://www.skylinewebcams.com/it/webcam/italia/piemonte/torino/sestriere-seggiovia-cit-roc.html" target="_blank"><img src="https://embed.skylinewebcams.com/img/3622.jpg" alt="【LIVE】 Sestriere - Seggiovia Cit Roc | SkylineWebcams"></a>
+</center>
+<p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
 <img alt="Varese" src="https://www.astrogeo.va.it/webcam/current/campo_dei_fiori_ovest.jpg">
