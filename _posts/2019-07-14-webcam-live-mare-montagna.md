@@ -9,11 +9,6 @@ layout: post
 categories: [webcam]
 tags: [webcam, mare, montagna, live, lago]
 ---
-<center><strong>BOGLIASCO</strong> (Genova) - Riviera di Levante</center>   
-<center>
-<a name="windy-webcam-timelapse-player" data-id="1287051304" data-play="day" href="https://windy.com/webcams/1287051304" target="_blank">Bogliasco</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
-</center>
-<p></p>
 <center><strong>VARIGOTTI</strong> - Loc. Donio (Savona) - Riviera di Ponente</center>   
 <center>
 <img alt="varigotti" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
@@ -57,11 +52,6 @@ tags: [webcam, mare, montagna, live, lago]
 <center><strong>CESENATICO</strong> (Forlì-Cesena)</center>   
 <center>
 <img alt="Cesenatico" src="http://bagnovenezia56.altervista.org/FI9805E_00626E53A4AB/snap/index.php">
-</center>
-<p></p>
-<center><strong>GATTEO A MARE</strong> (Forlì-Cesena)</center>   
-<center>
-<a name="windy-webcam-timelapse-player" data-id="1427659398" data-play="day" href="https://windy.com/webcams/1427659398" target="_blank">Gatteo a Mare › Nord: Mare Adriatico</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
 <center><strong>CAPOLIVERI, Spiaggia di Lacona - Isola d'Elba</strong> (Livorno)</center>   
