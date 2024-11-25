@@ -46,7 +46,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>SESTRIERE</strong> - Via Lattea - 2035 metri (Torino)</center>   
 <center>
-<a href="https://www.skylinewebcams.com/it/webcam/italia/piemonte/torino/sestriere-seggiovia-cit-roc.html" target="_blank"><img src="https://embed.skylinewebcams.com/img/3622.jpg" alt="【LIVE】 Sestriere - Seggiovia Cit Roc | SkylineWebcams"></a>
+<a name="windy-webcam-timelapse-player"  data-id="1666097800" data-play="day" href="https://windy.com/webcams/1666097800" target="_blank">Sestriere: Vialattea - Area Banchetta</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/v2/script/player.js"></script>
 </center>
 <p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
