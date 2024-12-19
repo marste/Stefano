@@ -9,4 +9,4 @@ layout: post
 categories: [alcol]
 tags: [tabella, alcol, vino, birra, quantità, ebrezza, guida, uomini, donne, stomaco, vuoto, pieno]
 ---
-<a href="https://marzorati.co/img/post/tabella livelli alcolemia e principali sintomi.pdf" target="_blank">Clicca qua per aprire la tabella livelli alcolemia con i principali sintomi</a>
+<a href="https://marzorati.co/img/post/tabella-livelli-alcolemia-sintomi.pdf" target="_blank">Clicca qua per aprire la tabella livelli alcolemia con i principali sintomi</a>
