@@ -26,11 +26,11 @@ tags: [ricetta, pane, lievito, acqua, sale, farina, filoncino]
 * Continua ad impastare per gli altri 5 minuti.
 * Coprire la ciotola con della pellicola trasparente e **lasciare lievitare** (almeno 7 ore).  
 * Ungi il piano di lavoro con un filo d'olio, prendi l'impasto e fai delle pieghe cercando di lasciare più aria possibile.
-* Lascia riposare circa 1 ora.
+* Lascia **riposare circa 1 ora**.
 * Rovescia l'impasto sul piano di lavoro infarinato e dividilo in due parti uguali.
-* Metti l'impasto su una teglia infarinata e lascia riposare ancora per 30/40 minuti.
-* Inserisci l'impasto in forno statico a **220°C per 10 minuti** sul ripiano più in basso.
-* Abbassa la temperatura del forno a 175°C impostalo ventilato e fai cuocere per altri 40 minuti.
+* Metti l'impasto su una teglia infarinata e lascia **riposare ancora per 30/40 minuti**.
+* Inserisci l'impasto in **forno statico a 220°C per 10 minuti** sul ripiano più in basso.
+* Abbassa la temperatura del **forno a 175°C impostalo ventilato e fai cuocere per altri 40 minuti**.
 
 <center><img src="https://marzorati.co/img/post/filoncini-pane.jpg" alt="pane"></center>  
 
