@@ -1,12 +1,12 @@
 ---
-title: "iLoveIMG - Comprimere immagini PNG, JPG, GIF, PDF online"
+title: "iLoveIMG - Tool per modificare immagini PNG, JPG, GIF, PDF online"
 subtitle: Servizio molto utile per ottimizzare le immagini per siti web
 date: 2025-01-05 06:35:00 +0200
 author: Stefano Marzorati
 layout: post
 image: "https://marzorati.co/img/compress.png"
 share-img: "https://marzorati.co/img/compress.png"
-tags: [compress, ottimizza, web, immagini, png, jpg, gif, online, svg, compression, save]
+tags: [compress, ottimizza, web, immagini, png, jpg, gif, online, svg, compression, save, comprimere,]
 ---
 <a href="https://www.iloveimg.com/" target="_blank">iLoveIMG</a> è un'applicazione web gratuita che ti consente di modificare immagini in modo semplice e veloce.  Offre una varietà di strumenti per gestire le tue immagini, tra cui:
 
