@@ -10,7 +10,8 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
 ---
 <center> <div id="ip-widget">
         <strong>Il tuo IP:</strong> <span id="ip"></span><br>
-        <strong>Località:</strong> <span id="location"></span>
+        <strong>Località:</strong> <span id="location"></span><br>
+        <strong>Paese:</strong> <span id="country"></span>
     </div>
     
     <script>
@@ -18,7 +19,8 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
             .then(response => response.json())
             .then(data => {
                 document.getElementById('ip').textContent = data.ip;
-                document.getElementById('location').textContent = `${data.city}, ${data.country_name}`;
+                document.getElementById('location').textContent = `${data.city}, ${data.region}`;
+                document.getElementById('country').textContent = data.country_name;
             })
             .catch(error => console.error('Errore nel recupero dei dati IP:', error));
     </script></center>
