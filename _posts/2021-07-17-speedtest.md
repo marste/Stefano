@@ -26,7 +26,7 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     </script></center>
 
 
-<!--OST Widget code start-->
+<!--cloudflare code start-->
 <div style="text-align: center; margin: 30px 0;">
   <a 
     href="https://speed.cloudflare.com" 
@@ -73,6 +73,76 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     Misurazione precisa di download, upload e ping
   </p>
 </div>
-<!-- OST Widget code end -->
+<!-- cloudflare code end -->
+
+<br>
+<!--fast code start-->
+
+<div style="text-align: center; margin: 2rem auto; max-width: 500px; font-family: 'Segoe UI', Roboto, sans-serif;">
+  <!-- Pulsante principale -->
+  <a 
+    href="https://fast.com/it/" 
+    target="_blank"
+    style="
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #e50914 0%, #b00710 100%);
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(229, 9, 20, 0.3);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    "
+    onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 10px 20px rgba(229, 9, 20, 0.4)'"
+    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 15px rgba(229, 9, 20, 0.3)'"
+    onmousedown="this.style.transform='translateY(1px)'"
+    onmouseup="this.style.transform='translateY(-3px)'"
+  >
+    <!-- Icona personalizzata (fulmine) -->
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="24" 
+      height="24" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      stroke-width="2" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      style="margin-right: 12px;"
+    >
+      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+    </svg>
+    TEST VELOCITÀ FAST.COM
+  </a>
+
+  <!-- Testo sottostante -->
+  <p style="margin-top: 1rem; color: #666; font-size: 0.9rem; line-height: 1.5;">
+    Misurazione precisa di download, upload e latenza<br> 
+    <span style="font-size: 0.8em;">(Servizio ufficiale Netflix)</span>
+  </p>
+
+  <!-- Effetto hover dinamico (opzionale) -->
+  <style>
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    a:hover svg {
+      animation: pulse 0.5s ease infinite;
+    }
+  </style>
+</div>
+
+<!--fast code start-->
 
 Se vuoi eseguire uno speed test da command line su Windows, utilizza pure <a href="https://marzorati.co/download/speedtest.exe" target="_blank">questo eseguibile</a> rilasciato da Ookla.
