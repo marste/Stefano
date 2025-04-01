@@ -67,7 +67,7 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     >
       <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
     </svg>
-    Testa la tua velocità con Cloudflare
+    Test di velocità con Cloudflare
   </a>
   <p style="margin-top: 12px; color: #666; font-size: 14px;">
     Misurazione precisa di download, upload e ping
