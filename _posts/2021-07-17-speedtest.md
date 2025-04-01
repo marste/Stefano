@@ -26,7 +26,53 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     </script></center>
 
 
-<!--OST Widget code start--><div style="text-align:right;"><div style="min-height:360px;"><div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;min-height:360px;border:none;overflow:hidden !important;" src="//openspeedtest.com/speedtest"></iframe></div></div></div>
+<!--OST Widget code start-->
+<div style="text-align: center; margin: 30px 0;">
+  <a 
+    href="https://speed.cloudflare.com" 
+    target="_blank"
+    style="
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #F38020 0%, #FC5F45 100%);
+      color: white;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 16px 32px;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(252, 95, 69, 0.3);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    "
+    onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 7px 20px rgba(252, 95, 69, 0.4)'"
+    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(252, 95, 69, 0.3)'"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="24" 
+      height="24" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      stroke-width="2" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      style="margin-right: 10px;"
+    >
+      <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+    </svg>
+    Testa la tua velocità con Cloudflare
+  </a>
+  <p style="margin-top: 12px; color: #666; font-size: 14px;">
+    Misurazione precisa di download, upload e ping
+  </p>
+</div>
 <!-- OST Widget code end -->
 
 Se vuoi eseguire uno speed test da command line su Windows, utilizza pure <a href="https://marzorati.co/download/speedtest.exe" target="_blank">questo eseguibile</a> rilasciato da Ookla.
