@@ -77,7 +77,6 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
 <center>Oppure utilizza</center>
 
 <!--fast code start-->
-<!DOCTYPE html>
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Netflix+Sans:wght@700;900&display=swap" rel="stylesheet">
@@ -207,7 +206,7 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
         });
     </script>
 </body>
-</html>
+
 
 <!--fast code start-->
 
