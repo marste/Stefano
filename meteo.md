@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/meteo.png'
 share-img: 'https://marzorati.co/img/meteo.png'
 ---
 <center>
-
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -28,45 +28,45 @@ share-img: 'https://marzorati.co/img/meteo.png'
         
         .weather-cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 12px;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
             max-width: 1000px;
             margin: 0 auto;
         }
         
         .weather-card {
             background: #f8f9fa;
-            border-radius: 10px;
-            padding: 15px;
+            border-radius: 12px;
+            padding: 18px;
             text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.08);
             border: 1px solid #e9ecef;
         }
         
         .day {
-            font-size: 1rem;
+            font-size: 1.2rem;
             font-weight: 600;
             color: #495057;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
         }
         
         .date {
-            font-size: 0.8rem;
+            font-size: 1rem;
             color: #868e96;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
         
         .weather-icon {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
+            font-size: 2.4rem;
+            margin-bottom: 12px;
             color: #4a6bdf;
         }
         
         .temp {
-            font-size: 1.4rem;
+            font-size: 1.8rem;
             font-weight: bold;
             color: #212529;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
         }
         
         .temp span {
@@ -75,40 +75,57 @@ share-img: 'https://marzorati.co/img/meteo.png'
         }
         
         .description {
-            font-size: 0.8rem;
+            font-size: 1rem;
             color: #495057;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
             text-transform: capitalize;
         }
         
         .details {
-            font-size: 0.75rem;
+            font-size: 0.9rem;
             color: #868e96;
             display: flex;
             justify-content: space-around;
         }
         
         .details i {
-            margin-right: 3px;
+            margin-right: 5px;
             color: #4a6bdf;
         }
         
         @media (max-width: 768px) {
             .weather-cards {
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+            
+            .weather-card {
+                padding: 15px;
             }
         }
         
         @media (max-width: 480px) {
-            .weather-cards {
-                grid-template-columns: repeat(2, 1fr);
+            .day {
+                font-size: 1.1rem;
+            }
+            
+            .date {
+                font-size: 0.95rem;
+            }
+            
+            .temp {
+                font-size: 1.6rem;
+            }
+            
+            .description {
+                font-size: 0.95rem;
             }
         }
     </style>
 </head>
 <body>
     <div class="weather-cards" id="weather-cards">
-        <div style="text-align: center; grid-column: 1/-1; padding: 20px;">
+        <div style="text-align: center; grid-column: 1/-1; padding: 30px; font-size: 1.2rem;">
             <i class="fas fa-spinner fa-spin"></i> Caricamento...
         </div>
     </div>
@@ -116,10 +133,9 @@ share-img: 'https://marzorati.co/img/meteo.png'
     <script>
         // API Config
         const API_KEY = "ApnIbUcAvKoThDuZIgrogmWjOnZRSVHu";
-        const LOCATION = "45.6206,8.9526";  // Coordinate di Rescaldina
+        const LOCATION = "45.6206,8.9526";
         const DAYS = 6;
         
-        // Fetch Weather Data
         async function fetchWeather() {
             const weatherContainer = document.getElementById("weather-cards");
             
@@ -136,14 +152,13 @@ share-img: 'https://marzorati.co/img/meteo.png'
                 displayWeather(data.timelines.daily);
             } catch (error) {
                 weatherContainer.innerHTML = `
-                    <div style="grid-column: 1/-1; color: #dc3545; text-align: center; padding: 20px;">
+                    <div style="grid-column: 1/-1; color: #dc3545; text-align: center; padding: 30px; font-size: 1.1rem;">
                         <i class="fas fa-exclamation-triangle"></i> ${error.message}
                     </div>
                 `;
             }
         }
         
-        // Display Weather Data
         function displayWeather(dailyData) {
             const weatherContainer = document.getElementById("weather-cards");
             weatherContainer.innerHTML = "";
@@ -169,7 +184,6 @@ share-img: 'https://marzorati.co/img/meteo.png'
             });
         }
         
-        // Helper functions
         function getWeatherIcon(weatherCode) {
             const icons = {
                 1000: "☀️", 1100: "🌤", 1101: "⛅", 1102: "🌥",
@@ -196,11 +210,9 @@ share-img: 'https://marzorati.co/img/meteo.png'
             return descriptions[weatherCode] || "Variabile";
         }
         
-        // Initialize
         document.addEventListener("DOMContentLoaded", fetchWeather);
     </script>
 </body>
 </html>
-
 
 </center>
