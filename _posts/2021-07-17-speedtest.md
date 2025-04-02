@@ -30,9 +30,11 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
 <div style="font-family: 'Inter', -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; text-align: center;">
   <!-- Pulsante Fast.com -->
   <a href="https://fast.com/it/" target="_blank" style="
-    display: inline-block;
-    background: linear-gradient(135deg, #E50914 0%, #B00610 100%);
-    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
     padding: 16px 32px;
     margin: 12px;
     border-radius: 8px;
@@ -40,26 +42,29 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     font-weight: 600;
     font-size: 16px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(229, 9, 20, 0.1);
-    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    border: 1px solid #e0e0e0;
     cursor: pointer;
     width: 80%;
     max-width: 280px;
-  " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 12px rgba(229, 9, 20, 0.15)'" 
-  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(229, 9, 20, 0.1)'">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 8px;">
-      <polyline points="23 4 23 10 17 10"></polyline>
-      <polyline points="1 20 1 14 7 14"></polyline>
-      <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+    gap: 10px;
+  " 
+  onmouseover="this.style.background='#E50914'; this.style.color='white'; this.style.borderColor='#E50914'; this.querySelector('svg').style.filter='brightness(0) invert(1)'" 
+  onmouseout="this.style.background='white'; this.style.color='black'; this.style.borderColor='#e0e0e0'; this.querySelector('svg').style.filter='none'">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition: all 0.3s ease;">
+      <path d="M4 17V7H8L12 3V21L8 17H4Z" fill="currentColor"/>
+      <path d="M14 7H18V17H14L10 21V3L14 7Z" fill="currentColor"/>
     </svg>
-    Test di velocità con Fast
+    Test con Fast.com
   </a>
 
   <!-- Pulsante Cloudflare -->
   <a href="https://speed.cloudflare.com/" target="_blank" style="
-    display: inline-block;
-    background: linear-gradient(135deg, #F38020 0%, #FC5F45 100%);
-    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
     padding: 16px 32px;
     margin: 12px;
     border-radius: 8px;
@@ -67,20 +72,22 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     font-weight: 600;
     font-size: 16px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(243, 128, 32, 0.1);
-    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    border: 1px solid #e0e0e0;
     cursor: pointer;
     width: 80%;
     max-width: 280px;
-  " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 12px rgba(243, 128, 32, 0.15)'" 
-  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(243, 128, 32, 0.1)'">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 8px;">
-      <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+    gap: 10px;
+  " 
+  onmouseover="this.style.background='#F38020'; this.style.color='white'; this.style.borderColor='#F38020'; this.querySelector('svg').style.filter='brightness(0) invert(1)'" 
+  onmouseout="this.style.background='white'; this.style.color='black'; this.style.borderColor='#e0e0e0'; this.querySelector('svg').style.filter='none'">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition: all 0.3s ease;">
+      <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="currentColor"/>
     </svg>
-    Test di velocità con Cloudflare
+    Test con Cloudflare
   </a>
 
-  <!-- Stile responsive aggiuntivo -->
+  <!-- Stile responsive -->
   <style>
     @media (max-width: 480px) {
       a {
