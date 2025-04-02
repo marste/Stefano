@@ -14,7 +14,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 flex flex-col items-center p-6">
-    <div class="bg-white shadow-lg rounded-lg p-6 max-w-2xl w-full">
+    <div class="bg-white shadow-lg rounded-lg p-6 max-w-3xl w-full">
         <h1 class="text-2xl font-bold text-center text-blue-600 mb-4">Previsioni Meteo Rescaldina</h1>
         <div id="weather" class="text-center"></div>
     </div>
@@ -26,7 +26,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
         async function fetchWeather() {
             weatherDiv.innerHTML = "<p class='text-gray-600'>Caricamento...</p>";
             try {
-                const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=Rescaldina,IT&days=7&lang=it`);
+                const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=Rescaldina,IT&days=6&lang=it`);
                 const data = await response.json();
                 displayWeather(data);
             } catch (error) {
@@ -40,7 +40,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
                 return;
             }
             let html = `<h2 class='text-xl font-semibold text-blue-500 mb-2'>${data.location.name}</h2>`;
-            html += "<div class='grid grid-cols-2 gap-4'>";
+            html += "<div class='grid grid-cols-3 gap-4'>";
             data.forecast.forecastday.forEach(day => {
                 html += `
                     <div class='bg-gray-200 p-4 rounded shadow'>
@@ -58,7 +58,5 @@ share-img: 'https://marzorati.co/img/meteo.png'
     </script>
 </body>
 </html>
-
-
 
 </center>
