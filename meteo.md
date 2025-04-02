@@ -11,7 +11,6 @@ share-img: 'https://marzorati.co/img/meteo.png'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 flex flex-col items-center p-6">
@@ -48,7 +47,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
                         <p class='font-bold'>${new Date(day.date).toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' })}</p>
                         <img src="${day.day.condition.icon}" alt="${day.day.condition.text}" class='mx-auto'>
                         <p>${day.day.condition.text}</p>
-                        <p class='text-lg font-bold text-gray-700'>🌡 Max: ${day.day.maxtemp_c}°C | Min: ${day.day.mintemp_c}°C</p>
+                        <p class='text-2xl font-bold text-gray-700'>🌡 Max: ${day.day.maxtemp_c}°C | Min: ${day.day.mintemp_c}°C</p>
                     </div>`;
             });
             html += "</div>";
@@ -59,6 +58,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
     </script>
 </body>
 </html>
+
 
 
 </center>
