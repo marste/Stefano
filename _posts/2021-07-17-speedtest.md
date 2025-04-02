@@ -27,7 +27,7 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
 
 
 <!--speedtest start-->
-<div style="font-family: 'Inter', -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; text-align: center;">
+<div style="font-family: 'Inter', -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; text-align: center; background: #f8f8f8; border-radius: 12px;">
   <!-- Pulsante Fast.com -->
   <a href="https://fast.com/it/" target="_blank" style="
     display: inline-flex;
@@ -36,26 +36,30 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     background: white;
     color: black;
     padding: 16px 32px;
-    margin: 12px;
-    border-radius: 8px;
+    margin: 16px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    border: 1px solid #e0e0e0;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12), 
+                0 2px 4px rgba(0,0,0,0.08);
+    border: 1px solid #e5e5e5;
     cursor: pointer;
     width: 80%;
-    max-width: 280px;
-    gap: 10px;
+    max-width: 300px;
+    gap: 12px;
+    position: relative;
+    z-index: 1;
   " 
-  onmouseover="this.style.background='#E50914'; this.style.color='white'; this.style.borderColor='#E50914'; this.querySelector('svg').style.filter='brightness(0) invert(1)'" 
-  onmouseout="this.style.background='white'; this.style.color='black'; this.style.borderColor='#e0e0e0'; this.querySelector('svg').style.filter='none'">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition: all 0.3s ease;">
+  onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(229, 9, 20, 0.2), 0 4px 12px rgba(0,0,0,0.1)'; this.style.background='#E50914'; this.style.color='white'; this.style.borderColor='#E50914'; this.querySelector('svg').style.filter='brightness(0) invert(1)'" 
+  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08)'; this.style.background='white'; this.style.color='black'; this.style.borderColor='#e5e5e5'; this.querySelector('svg').style.filter='none'">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition: all 0.4s ease;">
       <path d="M4 17V7H8L12 3V21L8 17H4Z" fill="currentColor"/>
       <path d="M14 7H18V17H14L10 21V3L14 7Z" fill="currentColor"/>
     </svg>
-    Test con Fast.com
+    Fast.com
+    <div style="position: absolute; bottom: -2px; left: 0; right: 0; height: 2px; background: #E50914; transform: scaleX(0); transition: transform 0.4s ease; transform-origin: left;"></div>
   </a>
 
   <!-- Pulsante Cloudflare -->
@@ -66,36 +70,30 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     background: white;
     color: black;
     padding: 16px 32px;
-    margin: 12px;
-    border-radius: 8px;
+    margin: 16px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    border: 1px solid #e0e0e0;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12), 
+                0 2px 4px rgba(0,0,0,0.08);
+    border: 1px solid #e5e5e5;
     cursor: pointer;
     width: 80%;
-    max-width: 280px;
-    gap: 10px;
+    max-width: 300px;
+    gap: 12px;
+    position: relative;
+    z-index: 1;
   " 
-  onmouseover="this.style.background='#F38020'; this.style.color='white'; this.style.borderColor='#F38020'; this.querySelector('svg').style.filter='brightness(0) invert(1)'" 
-  onmouseout="this.style.background='white'; this.style.color='black'; this.style.borderColor='#e0e0e0'; this.querySelector('svg').style.filter='none'">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition: all 0.3s ease;">
+  onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(243, 128, 32, 0.2), 0 4px 12px rgba(0,0,0,0.1)'; this.style.background='#F38020'; this.style.color='white'; this.style.borderColor='#F38020'; this.querySelector('svg').style.filter='brightness(0) invert(1)'" 
+  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08)'; this.style.background='white'; this.style.color='black'; this.style.borderColor='#e5e5e5'; this.querySelector('svg').style.filter='none'">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition: all 0.4s ease;">
       <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="currentColor"/>
     </svg>
-    Test con Cloudflare
+    Cloudflare
+    <div style="position: absolute; bottom: -2px; left: 0; right: 0; height: 2px; background: #F38020; transform: scaleX(0); transition: transform 0.4s ease; transform-origin: left;"></div>
   </a>
-
-  <!-- Stile responsive -->
-  <style>
-    @media (max-width: 480px) {
-      a {
-        padding: 14px 24px;
-        font-size: 15px;
-      }
-    }
-  </style>
 </div>
 <!--speedtest end-->
 
