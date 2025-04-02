@@ -63,6 +63,6 @@ share-img: 'https://marzorati.co/img/meteo.png'
 
 	
 </body>
-</html>
+
 
 </center>
