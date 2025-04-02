@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/meteo.png'
 share-img: 'https://marzorati.co/img/meteo.png'
 ---
 <center>
-<!DOCTYPE html>
+
 <html lang="it">
 <head>
     <meta charset="UTF-8">
