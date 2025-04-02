@@ -7,8 +7,161 @@ share-img: 'https://marzorati.co/img/meteo.png'
 ---
 <center>
 
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsioni Meteo Rescaldina</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: #ffffff;
+            color: #333333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eeeeee;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: #222222;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+            color: #666666;
+        }
+        
+        .weather-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .weather-card {
+            background: #f9f9f9;
+            border-radius: 12px;
+            padding: 18px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            border: 1px solid #eeeeee;
+        }
+        
+        .weather-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        
+        .day {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #444444;
+        }
+        
+        .date {
+            font-size: 0.85rem;
+            color: #777777;
+            margin-bottom: 12px;
+        }
+        
+        .weather-icon {
+            font-size: 2.2rem;
+            margin-bottom: 12px;
+            color: #4a6bdf;
+        }
+        
+        .temp {
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #222222;
+        }
+        
+        .temp span {
+            opacity: 0.7;
+            font-weight: normal;
+        }
+        
+        .description {
+            font-size: 0.9rem;
+            color: #555555;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+        
+        .details {
+            font-size: 0.8rem;
+            color: #666666;
+            margin-top: 12px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .details i {
+            margin-right: 5px;
+            color: #4a6bdf;
+        }
+        
+        .loading {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: 40px;
+            color: #666666;
+        }
+        
+        .error {
+            background: #ffeeee;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+            color: #cc0000;
+            border: 1px solid #ffdddd;
+        }
+        
+        @media (max-width: 768px) {
+            .weather-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .weather-cards {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
 <body>
     <div class="container">
         <header>
@@ -86,7 +239,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
                         <div class="day">${capitalizeFirstLetter(dayName)}</div>
                         <div class="date">${formattedDate}</div>
                         <div class="weather-icon">${getWeatherIcon(weatherCode)}</div>
-                        <div class="temp">${tempMax}° <span style="opacity:0.7;">${tempMin}°</span></div>
+                        <div class="temp">${tempMax}° <span>${tempMin}°</span></div>
                         <div class="description">${getWeatherDescription(weatherCode)}</div>
                         <div class="details">
                             <div><i class="fas fa-tint"></i> ${humidity}%</div>
@@ -133,6 +286,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
         document.addEventListener("DOMContentLoaded", fetchWeather);
     </script>
 </body>
+
 
 
 </center>
