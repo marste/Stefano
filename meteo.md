@@ -5,7 +5,7 @@ permalink: /meteo/
 image: 'https://marzorati.co/img/meteo.png'
 share-img: 'https://marzorati.co/img/meteo.png'
 ---
-<center>
+
 
 <html lang="it">
 <head>
@@ -13,6 +13,9 @@ share-img: 'https://marzorati.co/img/meteo.png'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
+<center>
+
 <body class="bg-gray-100 flex flex-col items-center p-6">
     <div class="bg-white shadow-lg rounded-lg p-6 max-w-3xl w-full">
         <h1 class="text-2xl font-bold text-center text-blue-600 mb-4">Previsioni Meteo Rescaldina</h1>
@@ -56,7 +59,9 @@ share-img: 'https://marzorati.co/img/meteo.png'
 
         fetchWeather();
     </script>
+	
+</center>
+	
 </body>
 </html>
 
-</center>
