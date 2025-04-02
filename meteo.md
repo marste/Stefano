@@ -7,6 +7,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
 ---
 <center>
 
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,81 +23,50 @@ share-img: 'https://marzorati.co/img/meteo.png'
         
         body {
             background: #ffffff;
-            color: #333333;
-            min-height: 100vh;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eeeeee;
-        }
-        
-        h1 {
-            font-size: 2.2rem;
-            margin-bottom: 10px;
-            color: #222222;
-        }
-        
-        .subtitle {
-            font-size: 1rem;
-            color: #666666;
+            padding: 10px;
         }
         
         .weather-cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            max-width: 1000px;
+            margin: 0 auto;
         }
         
         .weather-card {
-            background: #f9f9f9;
-            border-radius: 12px;
-            padding: 18px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 15px;
             text-align: center;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-            border: 1px solid #eeeeee;
-        }
-        
-        .weather-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border: 1px solid #e9ecef;
         }
         
         .day {
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: 600;
-            margin-bottom: 8px;
-            color: #444444;
+            color: #495057;
+            margin-bottom: 5px;
         }
         
         .date {
-            font-size: 0.85rem;
-            color: #777777;
-            margin-bottom: 12px;
+            font-size: 0.8rem;
+            color: #868e96;
+            margin-bottom: 10px;
         }
         
         .weather-icon {
-            font-size: 2.2rem;
-            margin-bottom: 12px;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
             color: #4a6bdf;
         }
         
         .temp {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-weight: bold;
+            color: #212529;
             margin-bottom: 5px;
-            color: #222222;
         }
         
         .temp span {
@@ -105,74 +75,41 @@ share-img: 'https://marzorati.co/img/meteo.png'
         }
         
         .description {
-            font-size: 0.9rem;
-            color: #555555;
-            margin-bottom: 10px;
+            font-size: 0.8rem;
+            color: #495057;
+            margin-bottom: 8px;
             text-transform: capitalize;
         }
         
         .details {
-            font-size: 0.8rem;
-            color: #666666;
-            margin-top: 12px;
+            font-size: 0.75rem;
+            color: #868e96;
             display: flex;
             justify-content: space-around;
         }
         
         .details i {
-            margin-right: 5px;
+            margin-right: 3px;
             color: #4a6bdf;
-        }
-        
-        .loading {
-            text-align: center;
-            font-size: 1.1rem;
-            margin-top: 40px;
-            color: #666666;
-        }
-        
-        .error {
-            background: #ffeeee;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            margin-top: 20px;
-            color: #cc0000;
-            border: 1px solid #ffdddd;
         }
         
         @media (max-width: 768px) {
             .weather-cards {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            h1 {
-                font-size: 1.8rem;
+                grid-template-columns: repeat(3, 1fr);
             }
         }
         
         @media (max-width: 480px) {
             .weather-cards {
-                grid-template-columns: 1fr;
-            }
-            
-            .container {
-                padding: 15px;
+                grid-template-columns: repeat(2, 1fr);
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Previsioni Meteo Rescaldina</h1>
-            <p class="subtitle">Prossimi 6 giorni</p>
-        </header>
-        
-        <div class="weather-cards" id="weather-cards">
-            <div class="loading">
-                <i class="fas fa-spinner fa-spin"></i> Caricamento dati meteo...
-            </div>
+    <div class="weather-cards" id="weather-cards">
+        <div style="text-align: center; grid-column: 1/-1; padding: 20px;">
+            <i class="fas fa-spinner fa-spin"></i> Caricamento...
         </div>
     </div>
 
@@ -191,27 +128,18 @@ share-img: 'https://marzorati.co/img/meteo.png'
                     `https://api.tomorrow.io/v4/weather/forecast?location=${LOCATION}&apikey=${API_KEY}&timesteps=daily&units=metric`
                 );
                 
-                if (!response.ok) {
-                    const errorData = await response.json();
-                    throw new Error(errorData.message || `Errore HTTP! Status: ${response.status}`);
-                }
+                if (!response.ok) throw new Error("Errore nel caricamento dati");
                 
                 const data = await response.json();
-                
-                if (!data.timelines?.daily) {
-                    throw new Error("Formato dati non valido");
-                }
+                if (!data.timelines?.daily) throw new Error("Dati non disponibili");
                 
                 displayWeather(data.timelines.daily);
             } catch (error) {
                 weatherContainer.innerHTML = `
-                    <div class="error">
-                        <i class="fas fa-exclamation-triangle"></i> Errore nel recupero dei dati:<br>
-                        ${error.message}<br><br>
-                        <small>Verifica la console per dettagli.</small>
+                    <div style="grid-column: 1/-1; color: #dc3545; text-align: center; padding: 20px;">
+                        <i class="fas fa-exclamation-triangle"></i> ${error.message}
                     </div>
                 `;
-                console.error("Dettaglio errore:", error);
             }
         }
         
@@ -220,30 +148,21 @@ share-img: 'https://marzorati.co/img/meteo.png'
             const weatherContainer = document.getElementById("weather-cards");
             weatherContainer.innerHTML = "";
             
-            // Get next 6 days (skip today if needed)
-            const forecastDays = dailyData.slice(0, DAYS);
-            
-            forecastDays.forEach(day => {
+            dailyData.slice(0, DAYS).forEach(day => {
                 const date = new Date(day.time);
-                const dayName = date.toLocaleDateString("it-IT", { weekday: "long" });
+                const dayName = date.toLocaleDateString("it-IT", { weekday: "short" });
                 const formattedDate = date.toLocaleDateString("it-IT", { day: "numeric", month: "short" });
-                
-                const weatherCode = day.values.weatherCode;
-                const tempMax = Math.round(day.values.temperatureMax);
-                const tempMin = Math.round(day.values.temperatureMin);
-                const humidity = Math.round(day.values.humidityAvg);
-                const windSpeed = Math.round(day.values.windSpeedAvg);
                 
                 weatherContainer.innerHTML += `
                     <div class="weather-card">
-                        <div class="day">${capitalizeFirstLetter(dayName)}</div>
+                        <div class="day">${dayName}</div>
                         <div class="date">${formattedDate}</div>
-                        <div class="weather-icon">${getWeatherIcon(weatherCode)}</div>
-                        <div class="temp">${tempMax}° <span>${tempMin}°</span></div>
-                        <div class="description">${getWeatherDescription(weatherCode)}</div>
+                        <div class="weather-icon">${getWeatherIcon(day.values.weatherCode)}</div>
+                        <div class="temp">${Math.round(day.values.temperatureMax)}° <span>${Math.round(day.values.temperatureMin)}°</span></div>
+                        <div class="description">${getWeatherDescription(day.values.weatherCode)}</div>
                         <div class="details">
-                            <div><i class="fas fa-tint"></i> ${humidity}%</div>
-                            <div><i class="fas fa-wind"></i> ${windSpeed} km/h</div>
+                            <div><i class="fas fa-tint"></i> ${Math.round(day.values.humidityAvg)}%</div>
+                            <div><i class="fas fa-wind"></i> ${Math.round(day.values.windSpeedAvg)} km/h</div>
                         </div>
                     </div>
                 `;
@@ -251,10 +170,6 @@ share-img: 'https://marzorati.co/img/meteo.png'
         }
         
         // Helper functions
-        function capitalizeFirstLetter(string) {
-            return string.charAt(0).toUpperCase() + string.slice(1);
-        }
-        
         function getWeatherIcon(weatherCode) {
             const icons = {
                 1000: "☀️", 1100: "🌤", 1101: "⛅", 1102: "🌥",
@@ -269,24 +184,23 @@ share-img: 'https://marzorati.co/img/meteo.png'
         
         function getWeatherDescription(weatherCode) {
             const descriptions = {
-                1000: "Sereno", 1100: "Preval. sereno", 1101: "Parz. nuvoloso",
-                1102: "Molto nuvoloso", 1001: "Nuvoloso", 2000: "Nebbia",
-                2100: "Nebbia leggera", 4000: "Pioviggine", 4001: "Pioggia",
-                4200: "Pioggia leggera", 4201: "Pioggia intensa", 5000: "Neve",
-                5001: "Nevischio", 5100: "Neve leggera", 5101: "Neve intensa",
-                6000: "Pioggia gelata", 6001: "Pioggia congelante",
-                6200: "Pioggia gelata leggera", 6201: "Pioggia gelata intensa",
-                7000: "Grandine", 7101: "Grandine intensa", 7102: "Grandine leggera",
-                8000: "Temporale"
+                1000: "Sereno", 1100: "Sereno", 1101: "Nuv.sparse",
+                1102: "Nuvoloso", 1001: "Coperto", 2000: "Nebbia",
+                2100: "Foschia", 4000: "Pioviggine", 4001: "Pioggia",
+                4200: "Pioggia", 4201: "Pioggia", 5000: "Neve",
+                5001: "Neve", 5100: "Neve", 5101: "Neve",
+                6000: "Gelata", 6001: "Gelata", 6200: "Gelata",
+                6201: "Gelata", 7000: "Grandine", 7101: "Grandine",
+                7102: "Grandine", 8000: "Temporale"
             };
-            return descriptions[weatherCode] || "Condizioni variabili";
+            return descriptions[weatherCode] || "Variabile";
         }
         
         // Initialize
         document.addEventListener("DOMContentLoaded", fetchWeather);
     </script>
 </body>
-
+</html>
 
 
 </center>
