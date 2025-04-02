@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Meteo Lombardia
+title: Meteo Rescaldina
 permalink: /meteo/
 image: 'https://marzorati.co/img/meteo.png'
 share-img: 'https://marzorati.co/img/meteo.png'
