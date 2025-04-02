@@ -60,8 +60,9 @@ share-img: 'https://marzorati.co/img/meteo.png'
         fetchWeather();
     </script>
 	
-</center>
+
 	
 </body>
 </html>
 
+</center>
