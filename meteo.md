@@ -23,109 +23,142 @@ share-img: 'https://marzorati.co/img/meteo.png'
         
         body {
             background: #ffffff;
-            padding: 10px;
+            padding: 15px;
         }
         
         .weather-cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
             max-width: 1000px;
             margin: 0 auto;
         }
         
         .weather-card {
             background: #f8f9fa;
-            border-radius: 12px;
-            padding: 18px;
+            border-radius: 15px;
+            padding: 20px;
             text-align: center;
-            box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
             border: 1px solid #e9ecef;
         }
         
         .day {
-            font-size: 1.2rem;
+            font-size: 1.5rem;  /* Aumentato da 1.2rem */
             font-weight: 600;
             color: #495057;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
         
         .date {
-            font-size: 1rem;
+            font-size: 1.2rem;  /* Aumentato da 1rem */
             color: #868e96;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
         }
         
         .weather-icon {
-            font-size: 2.4rem;
-            margin-bottom: 12px;
+            font-size: 3rem;    /* Aumentato da 2.4rem */
+            margin-bottom: 15px;
             color: #4a6bdf;
         }
         
         .temp {
-            font-size: 1.8rem;
+            font-size: 2.2rem;  /* Aumentato da 1.8rem */
             font-weight: bold;
             color: #212529;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
         
         .temp span {
             opacity: 0.7;
             font-weight: normal;
+            font-size: 1.8rem;  /* Dimensione separata per temp.min */
         }
         
         .description {
-            font-size: 1rem;
+            font-size: 1.2rem;  /* Aumentato da 1rem */
             color: #495057;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
             text-transform: capitalize;
         }
         
         .details {
-            font-size: 0.9rem;
+            font-size: 1.1rem;  /* Aumentato da 0.9rem */
             color: #868e96;
             display: flex;
             justify-content: space-around;
         }
         
         .details i {
-            margin-right: 5px;
+            margin-right: 6px;
             color: #4a6bdf;
         }
         
         @media (max-width: 768px) {
             .weather-cards {
                 grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+            
+            .weather-card {
+                padding: 18px;
+            }
+            
+            .day {
+                font-size: 1.4rem;
+            }
+            
+            .temp {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            .weather-cards {
                 gap: 12px;
             }
             
             .weather-card {
                 padding: 15px;
             }
-        }
-        
-        @media (max-width: 480px) {
+            
             .day {
-                font-size: 1.1rem;
+                font-size: 1.3rem;
             }
             
             .date {
-                font-size: 0.95rem;
+                font-size: 1.1rem;
+            }
+            
+            .weather-icon {
+                font-size: 2.8rem;
             }
             
             .temp {
-                font-size: 1.6rem;
+                font-size: 1.8rem;
+            }
+            
+            .temp span {
+                font-size: 1.5rem;
             }
             
             .description {
-                font-size: 0.95rem;
+                font-size: 1.1rem;
+            }
+            
+            .details {
+                font-size: 1rem;
             }
         }
     </style>
 </head>
 <body>
     <div class="weather-cards" id="weather-cards">
-        <div style="text-align: center; grid-column: 1/-1; padding: 30px; font-size: 1.2rem;">
+        <div style="text-align: center; grid-column: 1/-1; padding: 40px; font-size: 1.5rem;">
             <i class="fas fa-spinner fa-spin"></i> Caricamento...
         </div>
     </div>
@@ -152,7 +185,7 @@ share-img: 'https://marzorati.co/img/meteo.png'
                 displayWeather(data.timelines.daily);
             } catch (error) {
                 weatherContainer.innerHTML = `
-                    <div style="grid-column: 1/-1; color: #dc3545; text-align: center; padding: 30px; font-size: 1.1rem;">
+                    <div style="grid-column: 1/-1; color: #dc3545; text-align: center; padding: 40px; font-size: 1.4rem;">
                         <i class="fas fa-exclamation-triangle"></i> ${error.message}
                     </div>
                 `;
