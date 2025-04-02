@@ -5,8 +5,7 @@ permalink: /meteo-lombardia/
 image: 'https://marzorati.co/img/meteo.png'
 share-img: 'https://marzorati.co/img/meteo.png'
 ---
-
-<!DOCTYPE html>
+<center>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -79,3 +78,4 @@ share-img: 'https://marzorati.co/img/meteo.png'
     </script>
 </body>
 </html>
+</center>
