@@ -31,7 +31,7 @@ description: '27 anni di esperienza nel settore ICT'
 navbar-links:
   Search: "search"
   News: "news"
-  Meteo: "meteo-lombardia"
+  Meteo: "meteo"
   Contact: "contact"
   CV: "curriculum-vitae"
   Links:

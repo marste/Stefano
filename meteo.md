@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Meteo Lombardia
-permalink: /meteo-lombardia/
+permalink: /meteo/
 image: 'https://marzorati.co/img/meteo.png'
 share-img: 'https://marzorati.co/img/meteo.png'
 ---
