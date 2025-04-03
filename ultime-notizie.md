@@ -5,159 +5,175 @@ permalink: /ultime-notizie/
 image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
-
-<!-- Style per bottone top -->
+<!-- Style per i pulsanti circolari -->
 <style>
-#return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    border-radius: 35px;
-    display: none;
-    transition: all 0.3s ease;
-}
-#return-to-top i {
-    color: #fff;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    transition: all 0.3s ease;
-}
-#return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
-#return-to-top:hover i {
-    top: 5px;
-}
-</style>
-
-<!-- Style per RSS -->
-<style>
-    .itemTitle a { font-weight: bold; font-size: 20px; color: #008AFF; text-decoration: none; }
-    .itemTitle a:hover { text-decoration: underline; }
-    .itemDate { font-size: 11px; color: #AAAAAA; }
-</style>
-
-<!-- Style per pulsanti circolari -->
-<style>
-    .buttons-container {
+    .menu {
         display: flex;
         justify-content: center;
         gap: 15px;
-        padding: 20px;
+        margin: 20px 0;
     }
-    .circle-btn {
-        width: 60px;
-        height: 60px;
-        background: #333;
+    .menu button {
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        position: relative;
+        border: none;
+        background-color: #007BFF;
+        color: white;
+        font-size: 20px;
         cursor: pointer;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        position: relative;
     }
-    .circle-btn i {
-        color: white;
-        font-size: 24px;
-    }
-    .circle-btn:hover {
+    .menu button:hover {
         transform: translateY(-5px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
     }
-    .circle-btn:hover::after {
-        content: attr(data-tooltip);
-        position: absolute;
-        bottom: -30px;
-        background: black;
+    .tooltip {
+        visibility: hidden;
+        background-color: black;
         color: white;
-        padding: 5px 10px;
+        text-align: center;
+        padding: 5px;
         border-radius: 5px;
-        font-size: 12px;
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
         white-space: nowrap;
+    }
+    .menu button:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
+    .spinner {
+        display: none;
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-left-color: #007BFF;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+    }
+    @keyframes spin {
+        to { transform: rotate(360deg); }
     }
 </style>
 
-<body>
+<body translate="no">
+
 <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-<div class="buttons-container">
-    <div class="circle-btn" data-tooltip="Ultim'ora" onclick="scrollToSection('divRssUltimissime')"><i class="icon-bolt"></i></div>
-    <div class="circle-btn" data-tooltip="Principali" onclick="scrollToSection('divRssPrincipali')"><i class="icon-globe"></i></div>
-    <div class="circle-btn" data-tooltip="Italia" onclick="scrollToSection('divRssItalia')"><i class="icon-flag"></i></div>
-    <div class="circle-btn" data-tooltip="Economia" onclick="scrollToSection('divRssEconomia')"><i class="icon-money"></i></div>
-    <div class="circle-btn" data-tooltip="Mondo" onclick="scrollToSection('divRssMondo')"><i class="icon-globe"></i></div>
-    <div class="circle-btn" data-tooltip="Tecnologia" onclick="scrollToSection('divRssTecnologia')"><i class="icon-cogs"></i></div>
-    <div class="circle-btn" data-tooltip="Salute" onclick="scrollToSection('divRssSalute')"><i class="icon-heart"></i></div>
+<!-- Menu con pulsanti circolari -->
+<div class="menu">
+    <button onclick="scrollToSection('Ultimissime')">
+        <i class="fas fa-bolt"></i>
+        <span class="tooltip">Ultim'ora</span>
+    </button>
+    <button onclick="scrollToSection('Principali')">
+        <i class="fas fa-star"></i>
+        <span class="tooltip">Principali</span>
+    </button>
+    <button onclick="scrollToSection('Italia')">
+        <i class="fas fa-flag"></i>
+        <span class="tooltip">Italia</span>
+    </button>
+    <button onclick="scrollToSection('Economia')">
+        <i class="fas fa-chart-line"></i>
+        <span class="tooltip">Economia</span>
+    </button>
+    <button onclick="scrollToSection('Mondo')">
+        <i class="fas fa-globe"></i>
+        <span class="tooltip">Mondo</span>
+    </button>
+    <button onclick="scrollToSection('Tecnologia')">
+        <i class="fas fa-microchip"></i>
+        <span class="tooltip">Tecnologia</span>
+    </button>
+    <button onclick="scrollToSection('Salute')">
+        <i class="fas fa-heartbeat"></i>
+        <span class="tooltip">Salute</span>
+    </button>
 </div>
 
-<div id="loading-spinner" style="text-align: center; padding: 20px; font-size: 20px; display: none;">
-    <i class="icon-spinner icon-spin"></i> Caricamento...
-</div>
-
-<div id="rss-feeds">
-    <div id="divRssUltimissime"></div>
-    <div id="divRssPrincipali"></div>
-    <div id="divRssItalia"></div>
-    <div id="divRssEconomia"></div>
-    <div id="divRssMondo"></div>
-    <div id="divRssTecnologia"></div>
-    <div id="divRssSalute"></div>
-</div>
+<!-- Spinner di caricamento -->
+<div class="spinner" id="spinner"></div>
 
 <script>
-function scrollToSection(id) {
-    const section = document.getElementById(id);
-    if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
+    function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
     }
-}
 
-async function loadRSS(feedUrl, containerId) {
-    const container = document.getElementById(containerId);
-    if (!container) return;
+    function loadFeeds() {
+        $(".spinner").show();
+        const feeds = [
+            { id: "divRssUltimissime", url: "https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml" },
+            { id: "divRssPrincipali", url: "https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it" },
+            { id: "divRssItalia", url: "https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it" },
+            { id: "divRssEconomia", url: "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it" },
+            { id: "divRssMondo", url: "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it" },
+            { id: "divRssTecnologia", url: "https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl=it&gl=IT&ceid=IT:it" },
+            { id: "divRssSalute", url: "https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it" }
+        ];
 
-    document.getElementById('loading-spinner').style.display = 'block';
-
-    try {
-        const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${feedUrl}`);
-        const data = await response.json();
-
-        let html = '';
-        data.items.forEach(item => {
-            html += `
-                <div class="rss-item">
-                    <div class="itemTitle"><a href="${item.link}" target="_blank">${item.title}</a></div>
-                    <div class="itemDate">${new Date(item.pubDate).toLocaleDateString('it-IT')}</div>
-                    <div class="itemContent">${item.content}</div>
-                </div>
-            `;
+        let loaded = 0;
+        feeds.forEach(feed => {
+            $('#' + feed.id).load(feed.url, function () {
+                loaded++;
+                if (loaded === feeds.length) {
+                    $(".spinner").hide();
+                }
+            });
         });
-        container.innerHTML = html;
-    } catch (error) {
-        container.innerHTML = '<p>Errore nel caricamento del feed.</p>';
-    } finally {
-        document.getElementById('loading-spinner').style.display = 'none';
     }
-}
 
-const feeds = {
-    divRssUltimissime: 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml',
-    divRssPrincipali: 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
-    divRssItalia: 'https://news.google.com/rss/topics/CAAqIQg...',
-    divRssEconomia: 'https://news.google.com/rss/topics/CAAqJgg...',
-    divRssMondo: 'https://news.google.com/rss/topics/CAAqJgg...',
-    divRssTecnologia: 'https://news.google.com/rss/topics/CAAqJgg...',
-    divRssSalute: 'https://news.google.com/rss/topics/CAAqJgg...'
-};
-
-Object.entries(feeds).forEach(([id, url]) => loadRSS(url, id));
+    $(document).ready(function () {
+        loadFeeds();
+    });
 </script>
+
+<center><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></center>
+<div id="divRssUltimissime"></div>
+
+<center><a name="Principali"><font color="Black">Principali</font></a></center>
+<div id="divRssPrincipali"></div>
+
+<center><a name="Italia"><font color="Black">Italia</font></a></center>
+<div id="divRssItalia"></div>
+
+<center><a name="Economia"><font color="Black">Economia</font></a></center>
+<div id="divRssEconomia"></div>
+
+<center><a name="Mondo"><font color="Black">Mondo</font></a></center>
+<div id="divRssMondo"></div>
+
+<center><a name="Tecnologia"><font color="Black">Tecnologia</font></a></center>
+<div id="divRssTecnologia"></div>
+
+<center><a name="Salute"><font color="Black">Salute</font></a></center>
+<div id="divRssSalute"></div>
+
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script id="rendered-js">
+// ===== Scroll to Top ==== 
+$(window).scroll(function () {
+  if ($(this).scrollTop() >= 50) {// If page is scrolled more than 50px
+    $('#return-to-top').fadeIn(200); // Fade in the arrow
+  } else {
+    $('#return-to-top').fadeOut(200); // Else fade out the arrow
+  }
+});
+$('#return-to-top').click(function () {// When arrow is clicked
+  $('body,html').animate({
+    scrollTop: 0 // Scroll to top of body
+  }, 500);
+});
+</script>
+
 </body>
