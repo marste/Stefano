@@ -40,8 +40,6 @@ share-img: 'https://marzorati.co/img/news.png'
     .itemTitle a { font-weight: bold; font-size: 20px; color: #008AFF; text-decoration: none; }
     .itemTitle a:hover { text-decoration: underline; }
     .itemDate { font-size: 11px; color: #AAAAAA; }
-    .rss-container { max-width: 800px; margin: auto; padding: 10px; }
-    .itemDesc { font-size: 14px; color: #333; margin-top: 5px; }
 </style>
 
 <!-- Style per pulsanti circolari -->
@@ -104,40 +102,90 @@ share-img: 'https://marzorati.co/img/news.png'
     <i class="icon-spinner icon-spin"></i> Caricamento...
 </div>
 
-<div id="rss-feeds"></div>
+<!-- Sezioni RSS -->
+<div id="rss-feeds">
+    <h1 id="Ultimissime">Ultim'ora</h1>
+    <div id="divRssUltimissime"></div>
+
+    <h1 id="Principali">Principali</h1>
+    <div id="divRssPrincipali"></div>
+
+    <h1 id="Italia">Italia</h1>
+    <div id="divRssItalia"></div>
+
+    <h1 id="Economia">Economia</h1>
+    <div id="divRssEconomia"></div>
+
+    <h1 id="Mondo">Mondo</h1>
+    <div id="divRssMondo"></div>
+
+    <h1 id="Tecnologia">Tecnologia</h1>
+    <div id="divRssTecnologia"></div>
+
+    <h1 id="Salute">Salute</h1>
+    <div id="divRssSalute"></div>
+</div>
 
 <script>
+// Scorrimento fluido alla sezione
 function scrollToSection(id) {
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    const section = document.getElementById(id);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
 }
 
-const feeds = [
-    { id: "Ultimissime", title: "Ultim'ora", url: "https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml" },
-    { id: "Principali", title: "Principali", url: "https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it" },
-    { id: "Italia", title: "Italia", url: "https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it" },
-    { id: "Economia", title: "Economia", url: "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it" },
-    { id: "Mondo", title: "Mondo", url: "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it" },
-    { id: "Tecnologia", title: "Tecnologia", url: "https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl=it&gl=IT&ceid=IT:it" },
-    { id: "Salute", title: "Salute", url: "https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it" }
-];
+// Gestione pulsante "Torna su"
+window.addEventListener('scroll', function () {
+    const button = document.getElementById('return-to-top');
+    if (window.scrollY >= 50) {
+        button.style.display = 'block';
+    } else {
+        button.style.display = 'none';
+    }
+});
+document.getElementById('return-to-top').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
-async function loadRSS() {
+// Funzione per caricare i feed RSS
+async function loadRSS(feedUrl, containerId) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
     document.getElementById('loading-spinner').style.display = 'block';
-    await Promise.all(feeds.map(async (feed) => {
-        const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`);
+
+    try {
+        const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${feedUrl}`);
         const data = await response.json();
-        let content = `<center><h1><a name="${feed.id}">${feed.title}</a></h1></center><div class='rss-container'>`;
-        data.items.slice(0, 10).forEach(item => {
-            content += `<div class='item'><p class='itemTitle'><a href='${item.link}' target='_blank'>${item.title}</a></p>`;
-            content += `<p class='itemDate'>${new Date(item.pubDate).toLocaleDateString('it-IT')}</p>`;
-            content += `<p class='itemDesc'>${item.description}</p></div>`;
+
+        let html = '';
+        data.items.forEach(item => {
+            html += `
+                <div class="rss-item">
+                    <div class="itemTitle"><a href="${item.link}" target="_blank">${item.title}</a></div>
+                    <div class="itemDate">${new Date(item.pubDate).toLocaleDateString('it-IT')}</div>
+                    <div class="itemContent">${item.content}</div>
+                </div>
+            `;
         });
-        content += '</div>';
-        document.getElementById('rss-feeds').innerHTML += content;
-    }));
-    document.getElementById('loading-spinner').style.display = 'none';
+
+        container.innerHTML = html;
+    } catch (error) {
+        container.innerHTML = '<p>Errore nel caricamento del feed.</p>';
+    } finally {
+        document.getElementById('loading-spinner').style.display = 'none';
+    }
 }
 
-document.addEventListener("DOMContentLoaded", loadRSS);
+// Caricamento parallelo dei feed
+const feeds = {
+    divRssUltimissime: 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml',
+    divRssPrincipali: 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
+    divRssItalia: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it',
+    divRssEconomia: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it'
+};
+
+Object.entries(feeds).forEach(([containerId, feedUrl]) => loadRSS(feedUrl, containerId));
 </script>
 </body>
