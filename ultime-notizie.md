@@ -236,37 +236,37 @@ share-img: 'https://marzorati.co/img/news.png'
         const feeds = [
             {
                 id: 'rai-televideo',
-                title: 'Rai Televideo',
+                title: 'Ultim'ora',
                 url: 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml'
             },
             {
                 id: 'google-news-italia',
-                title: 'Google News Italia',
+                title: 'Principali',
                 url: 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it'
             },
             {
                 id: 'google-top-news',
-                title: 'Google Top News',
+                title: 'Italia',
                 url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait'
             },
             {
                 id: 'google-politica',
-                title: 'Google Politica',
+                title: 'Economia',
                 url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait'
             },
             {
                 id: 'google-economia',
-                title: 'Google Economia',
+                title: 'Mondo',
                 url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait'
             },
             {
                 id: 'google-tecnologia',
-                title: 'Google Tecnologia',
+                title: 'Tecnologia',
                 url: 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait'
             },
             {
                 id: 'google-sport',
-                title: 'Google Sport',
+                title: 'Salute',
                 url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait'
             }
         ];
