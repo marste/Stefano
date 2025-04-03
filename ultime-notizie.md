@@ -72,23 +72,29 @@ share-img: 'https://marzorati.co/img/news.png'
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-
-
 <center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a></center>   
 <br>
 
 <center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
 <br>
 <div id="divRssUltimissime"></div>
+<script src="https://cdn.rawgit.com/adamjohnson/jfeed/master/jfeed.js"></script>
 <script>
-    $('#divRssUltimissime').FeedEk({
-    FeedUrl : 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml',
-    MaxCount : 10,
-	ShowPubDate:true,
-    ShowDesc : true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
+  $(document).ready(function() {
+    var feedUrl = 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml';
+    $.get(feedUrl, function(data) {
+      var feed = $.parseXML(data);
+      var items = $(feed).find('item');
+      var html = '<ul>';
+      items.each(function() {
+        var title = $(this).find('title').text();
+        var link = $(this).find('link').text();
+        var description = $(this).find('description').text();
+        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
+      });
+      html += '</ul>';
+      $('#divRssUltimissime').html(html);
+    });
   });
 </script>
 
@@ -96,14 +102,21 @@ share-img: 'https://marzorati.co/img/news.png'
 <br>
 <div id="divRssPrincipali"></div>
 <script>
-    $('#divRssPrincipali').FeedEk({
-    FeedUrl : 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
-    MaxCount : 10,
-	ShowPubDate:true,
-    ShowDesc : true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
+  $(document).ready(function() {
+    var feedUrl = 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it';
+    $.get(feedUrl, function(data) {
+      var feed = $.parseXML(data);
+      var items = $(feed).find('item');
+      var html = '<ul>';
+      items.each(function() {
+        var title = $(this).find('title').text();
+        var link = $(this).find('link').text();
+        var description = $(this).find('description').text();
+        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
+      });
+      html += '</ul>';
+      $('#divRssPrincipali').html(html);
+    });
   });
 </script>
 
@@ -111,14 +124,21 @@ share-img: 'https://marzorati.co/img/news.png'
 <br>
 <div id="divRssItalia"></div>
 <script>
-    $('#divRssItalia').FeedEk({
-    FeedUrl : 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait',
-    MaxCount : 10,
-	ShowPubDate:true,
-    ShowDesc : true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
+  $(document).ready(function() {
+    var feedUrl = 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait';
+    $.get(feedUrl, function(data) {
+      var feed = $.parseXML(data);
+      var items = $(feed).find('item');
+      var html = '<ul>';
+      items.each(function() {
+        var title = $(this).find('title').text();
+        var link = $(this).find('link').text();
+        var description = $(this).find('description').text();
+        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
+      });
+      html += '</ul>';
+      $('#divRssItalia').html(html);
+    });
   });
 </script>
 
@@ -126,14 +146,21 @@ share-img: 'https://marzorati.co/img/news.png'
 <br>
 <div id="divRssEconomia"></div>
 <script>
-    $('#divRssEconomia').FeedEk({
-    FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
-    MaxCount : 10,
-    ShowDesc : true,
-    ShowPubDate:true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
+  $(document).ready(function() {
+    var feedUrl = 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait';
+    $.get(feedUrl, function(data) {
+      var feed = $.parseXML(data);
+      var items = $(feed).find('item');
+      var html = '<ul>';
+      items.each(function() {
+        var title = $(this).find('title').text();
+        var link = $(this).find('link').text();
+        var description = $(this).find('description').text();
+        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
+      });
+      html += '</ul>';
+      $('#divRssEconomia').html(html);
+    });
   });
 </script>
 
@@ -141,14 +168,21 @@ share-img: 'https://marzorati.co/img/news.png'
 <br>
 <div id="divRssMondo"></div>
 <script>
-    $('#divRssMondo').FeedEk({
-    FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
-    MaxCount : 10,
-    ShowDesc : true,
-    ShowPubDate:true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
+  $(document).ready(function() {
+    var feedUrl = 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait';
+    $.get(feedUrl, function(data) {
+      var feed = $.parseXML(data);
+      var items = $(feed).find('item');
+      var html = '<ul>';
+      items.each(function() {
+        var title = $(this).find('title').text();
+        var link = $(this).find('link').text();
+        var description = $(this).find('description').text();
+        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
+      });
+      html += '</ul>';
+      $('#divRssMondo').html(html);
+    });
   });
 </script>
 
@@ -156,14 +190,21 @@ share-img: 'https://marzorati.co/img/news.png'
 <br>
 <div id="divRssTecnologia"></div>
 <script>
-    $('#divRssTecnologia').FeedEk({
-    FeedUrl : 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
-    MaxCount : 10,
-    ShowDesc : true,
-    ShowPubDate:true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
+  $(document).ready(function() {
+    var feedUrl = 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait';
+    $.get(feedUrl, function(data) {
+      var feed = $.parseXML(data);
+      var items = $(feed).find('item');
+      var html = '<ul>';
+      items.each(function() {
+        var title = $(this).find('title').text();
+        var link = $(this).find('link').text();
+        var description = $(this).find('description').text();
+        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
+      });
+      html += '</ul>';
+      $('#divRssTecnologia').html(html);
+    });
   });
 </script>
 
@@ -171,17 +212,23 @@ share-img: 'https://marzorati.co/img/news.png'
 <br>
 <div id="divRssSalute"></div>
 <script>
-    $('#divRssSalute').FeedEk({
-    FeedUrl : 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
-    MaxCount : 10,
-    ShowDesc : true,
-    ShowPubDate:true,
-    TitleLinkTarget:'_blank',
-    DateFormat : 'dd/MM/yyyy',
-    DateFormatLang : 'it'
+  $(document).ready(function() {
+    var feedUrl = 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait';
+    $.get(feedUrl, function(data) {
+      var feed = $.parseXML(data);
+      var items = $(feed).find('item');
+      var html = '<ul>';
+      items.each(function() {
+        var title = $(this).find('title').text();
+        var link = $(this).find('link').text();
+        var description = $(this).find('description').text();
+        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
+      });
+      html += '</ul>';
+      $('#divRssSalute').html(html);
+    });
   });
 </script>
-
 
 <!-- <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script> -->
 <script src="/js/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
@@ -201,4 +248,5 @@ $('#return-to-top').click(function () {// When arrow is clicked
   }, 500);
 });
 //# sourceURL=pen.js
-    </script>
+</script>
+
