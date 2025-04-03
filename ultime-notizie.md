@@ -47,194 +47,198 @@ share-img: 'https://marzorati.co/img/news.png'
     color: #fff;
     top: 5px;
 }
+
+/* Style per RSS */
+.rss-feed {
+    margin: 20px auto;
+    max-width: 800px;
+}
+.rss-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.itemTitle a {
+    font-weight: bold; 
+    font-size: 20px; 
+    color: #008AFF; 
+    text-decoration: none;
+}
+.itemTitle a:hover { 
+    text-decoration: underline;
+}
+.itemDate {
+    font-size: 11px;
+    color: #AAAAAA;
+    margin-top: 5px;
+}
+.itemDescription {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.loading {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #888;
+}
+.error {
+    color: #d9534f;
+    text-align: center;
+    padding: 20px;
+}
 </style>
-<!-- Style per bottone top -->
 
+<body translate="no">
 
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aggregatore di Notizie</title>
-<style>
-    .itemTitle a{font-weight:bold; font-size:20px; color:#008AFF; text-decoration:none;}
-    .itemTitle a:hover{ text-decoration:underline }
-    .itemDate{font-size:11px;color:#AAAAAA;}
-</style>   
-</head>
-<body>
-    <header>
-        <h1>Aggregatore di Notizie</h1>
-        <p class="subtitle">Tutte le ultime notizie in un unico posto</p>
-    </header>
-    
-    <div class="nav-menu" id="nav-menu">
-        <!-- I pulsanti di navigazione verranno generati qui -->
-    </div>
-    
-    <div id="content-container">
-        <!-- Il contenuto dei feed verrà caricato qui -->
-        <div class="loading">Seleziona una fonte dal menu in alto</div>
-    </div>
-    
-    <footer>
-        Aggregatore di notizie - Contenuti aggiornati automaticamente da varie fonti
-    </footer>
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
 
-    <script>
-        // Configurazione dei feed RSS
-        const feeds = [
-            {
-                id: 'rai-televideo',
-                title: 'Ultim'ora',
-                url: 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml'
-            },
-            {
-                id: 'google-news-italia',
-                title: 'Principali',
-                url: 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it'
-            },
-            {
-                id: 'google-top-news',
-                title: 'Italia',
-                url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait'
-            },
-            {
-                id: 'google-politica',
-                title: 'Economia',
-                url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait'
-            },
-            {
-                id: 'google-economia',
-                title: 'Mondo',
-                url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait'
-            },
-            {
-                id: 'google-tecnologia',
-                title: 'Tecnologia',
-                url: 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait'
-            },
-            {
-                id: 'google-sport',
-                title: 'Salute',
-                url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait'
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<center>
+    <a href="#Ultimissime">Ultim'ora</a> - 
+    <a href="#Principali">Principali</a> - 
+    <a href="#Italia">Italia</a> - 
+    <a href="#Economia">Economia</a> - 
+    <a href="#Mondo">Mondo</a> - 
+    <a href="#Tecnologia">Tecnologia</a> - 
+    <a href="#Salute">Salute</a>
+</center>   
+<br>
+
+<center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
+<br>
+<div id="divRssUltimissime" class="rss-feed">
+    <div class="loading">Caricamento notizie in corso...</div>
+</div>
+
+<center><h1><a name="Principali"><font color="Black">Principali</font></a></h1></center>
+<br>
+<div id="divRssPrincipali" class="rss-feed">
+    <div class="loading">Caricamento notizie in corso...</div>
+</div>
+
+<center><h1><a name="Italia"><font color="Black">Italia</font></a></h1></center>
+<br>
+<div id="divRssItalia" class="rss-feed">
+    <div class="loading">Caricamento notizie in corso...</div>
+</div>
+
+<center><h1><a name="Economia"><font color="Black">Economia</font></a></h1></center>
+<br>
+<div id="divRssEconomia" class="rss-feed">
+    <div class="loading">Caricamento notizie in corso...</div>
+</div>
+
+<center><h1><a name="Mondo"><font color="Black">Mondo</font></a></h1></center>
+<br>
+<div id="divRssMondo" class="rss-feed">
+    <div class="loading">Caricamento notizie in corso...</div>
+</div>
+
+<center><h1><a name="Tecnologia"><font color="Black">Tecnologia</font></a></h1></center>
+<br>
+<div id="divRssTecnologia" class="rss-feed">
+    <div class="loading">Caricamento notizie in corso...</div>
+</div>
+
+<center><h1><a name="Salute"><font color="Black">Salute</font></a></h1></center>
+<br>
+<div id="divRssSalute" class="rss-feed">
+    <div class="loading">Caricamento notizie in corso...</div>
+</div>
+
+<script src='/js/jquery-3.6.0.min.js'></script>
+<script>
+// Funzione per ottenere e visualizzare il feed RSS
+function loadRSS(feedUrl, targetDivId, maxCount = 10) {
+    const targetDiv = document.getElementById(targetDivId);
+    
+    // Usa un proxy CORS per evitare problemi di same-origin policy
+    const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(feedUrl);
+    
+    fetch(proxyUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Errore nel caricamento del feed');
             }
-        ];
-
-        document.addEventListener('DOMContentLoaded', function() {
-            const navMenu = document.getElementById('nav-menu');
-            const contentContainer = document.getElementById('content-container');
-            
-            // Genera i pulsanti di navigazione
-            feeds.forEach(feed => {
-                const button = document.createElement('button');
-                button.className = 'nav-button';
-                button.textContent = feed.title;
-                button.dataset.feedId = feed.id;
+            return response.json();
+        })
+        .then(data => {
+            if (data.contents) {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(data.contents, "text/xml");
                 
-                button.addEventListener('click', () => {
-                    // Rimuovi la classe active da tutti i pulsanti
-                    document.querySelectorAll('.nav-button').forEach(btn => {
-                        btn.classList.remove('active');
-                    });
-                    
-                    // Aggiungi la classe active al pulsante cliccato
-                    button.classList.add('active');
-                    
-                    // Carica il feed selezionato
-                    loadFeed(feed);
-                });
+                // Estrai gli item dal feed
+                const items = xmlDoc.querySelectorAll("item");
+                let htmlContent = '';
                 
-                navMenu.appendChild(button);
-            });
-            
-            // Carica il primo feed per default
-            if (feeds.length > 0) {
-                document.querySelector('.nav-button').click();
-            }
-        });
-        
-        function loadFeed(feed) {
-            const contentContainer = document.getElementById('content-container');
-            contentContainer.innerHTML = `<div class="loading">Caricamento in corso...</div>`;
-            
-            // Usiamo un proxy CORS per evitare problemi di same-origin policy
-            const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(feed.url);
-            
-            fetch(proxyUrl)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Errore nel caricamento dei dati');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    const parser = new DOMParser();
-                    const xmlDoc = parser.parseFromString(data.contents, "text/xml");
-                    
-                    const items = xmlDoc.querySelectorAll('item');
-                    if (items.length === 0) {
-                        contentContainer.innerHTML = `<p>Nessuna notizia disponibile al momento per ${feed.title}.</p>`;
-                        return;
-                    }
-                    
-                    let htmlContent = `<h2 class="source-title">${feed.title}</h2>`;
-                    htmlContent += `<div class="news-container" id="news-container">`;
-                    
-                    items.forEach(item => {
-                        const title = item.querySelector('title')?.textContent || 'Nessun titolo';
-                        const description = item.querySelector('description')?.textContent || '';
-                        const link = item.querySelector('link')?.textContent || '#';
-                        const pubDate = item.querySelector('pubDate')?.textContent || '';
-                        
-                        const dateObj = new Date(pubDate);
-                        const formattedDate = dateObj.toLocaleDateString('it-IT', {
-                            day: '2-digit',
-                            month: '2-digit',
-                            year: 'numeric',
-                            hour: '2-digit',
-                            minute: '2-digit'
-                        });
+                // Limita il numero di elementi mostrati
+                const itemCount = Math.min(items.length, maxCount);
+                
+                if (itemCount === 0) {
+                    htmlContent = '<div class="error">Nessuna notizia disponibile</div>';
+                } else {
+                    for (let i = 0; i < itemCount; i++) {
+                        const item = items[i];
+                        const title = item.querySelector("title").textContent;
+                        const link = item.querySelector("link").textContent;
+                        const pubDate = item.querySelector("pubDate") ? new Date(item.querySelector("pubDate").textContent).toLocaleDateString('it-IT') : '';
+                        const description = item.querySelector("description") ? item.querySelector("description").textContent : '';
                         
                         htmlContent += `
-                            <div class="news-item">
-                                <h3 class="news-title">${title}</h3>
-                                <span class="news-date">${formattedDate}</span>
-                                <p class="news-description">${description}</p>
-                                <a href="${link}" class="news-link" target="_blank" rel="noopener">Leggi di più</a>
+                            <div class="rss-item">
+                                <div class="itemTitle"><a href="${link}" target="_blank">${title}</a></div>
+                                ${pubDate ? `<div class="itemDate">${pubDate}</div>` : ''}
+                                ${description ? `<div class="itemDescription">${description}</div>` : ''}
                             </div>
                         `;
-                    });
-                    
-                    htmlContent += `</div>`;
-                    contentContainer.innerHTML = htmlContent;
-                })
-                .catch(error => {
-                    console.error('Errore:', error);
-                    contentContainer.innerHTML = `<p>Impossibile caricare le notizie da ${feed.title}. Si prega di riprovare più tardi.</p>`;
-                });
+                    }
+                }
+                
+                targetDiv.innerHTML = htmlContent;
+            } else {
+                targetDiv.innerHTML = '<div class="error">Impossibile caricare il feed RSS</div>';
+            }
+        })
+        .catch(error => {
+            console.error('Errore:', error);
+            targetDiv.innerHTML = `<div class="error">Errore nel caricamento del feed: ${error.message}</div>`;
+        });
+}
+
+// Carica tutti i feed quando la pagina è pronta
+document.addEventListener("DOMContentLoaded", function() {
+    // Definizione dei feed
+    const feeds = [
+        { id: 'divRssUltimissime', url: 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml' },
+        { id: 'divRssPrincipali', url: 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it' },
+        { id: 'divRssItalia', url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it' },
+        { id: 'divRssEconomia', url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it' },
+        { id: 'divRssMondo', url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it' },
+        { id: 'divRssTecnologia', url: 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl=it&gl=IT&ceid=IT:it' },
+        { id: 'divRssSalute', url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it' }
+    ];
+    
+    // Carica ogni feed
+    feeds.forEach(feed => {
+        loadRSS(feed.url, feed.id);
+    });
+    
+    // ===== Scroll to Top ==== 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 50) {
+            $('#return-to-top').fadeIn(200);
+        } else {
+            $('#return-to-top').fadeOut(200);
         }
-    </script>
-</body>
-</html>
-
-
-<!-- <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script> -->
-<script src="/js/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-<script src='/js/jquery-3.6.0.min.js'></script>
-<script id="rendered-js">
-// ===== Scroll to Top ==== 
-$(window).scroll(function () {
-  if ($(this).scrollTop() >= 50) {// If page is scrolled more than 50px
-    $('#return-to-top').fadeIn(200); // Fade in the arrow
-  } else {
-    $('#return-to-top').fadeOut(200); // Else fade out the arrow
-  }
+    });
+    
+    $('#return-to-top').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+    });
 });
-$('#return-to-top').click(function () {// When arrow is clicked
-  $('body,html').animate({
-    scrollTop: 0 // Scroll to top of body
-  }, 500);
-});
-//# sourceURL=pen.js
-    </script>
+</script>
