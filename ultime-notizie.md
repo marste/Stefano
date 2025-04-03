@@ -5,6 +5,7 @@ permalink: /ultime-notizie/
 image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
+
 <!-- Style per bottone top -->
 <style>
 #return-to-top {
@@ -49,6 +50,7 @@ share-img: 'https://marzorati.co/img/news.png'
 }
 </style>
 <!-- Style per bottone top -->
+
 <!-- Style per RSS -->
 <style>
     .itemTitle a{font-weight:bold; font-size:20px; color:#008AFF; text-decoration:none;}
@@ -57,14 +59,8 @@ share-img: 'https://marzorati.co/img/news.png'
 </style>
 <!-- Style per RSS -->
 
-<script>
-  window.console = window.console || function(t) {};
-</script>
-<script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jFeed/0.0.1/jFeed.min.js"></script>
 
 <body translate="no">
 
@@ -72,181 +68,232 @@ share-img: 'https://marzorati.co/img/news.png'
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a></center>   
+<center>
+  <a href="#Ultimissime">Ultim'ora</a> - 
+  <a href="#Principali">Principali</a> - 
+  <a href="#Italia">Italia</a> - 
+  <a href="#Economia">Economia</a> - 
+  <a href="#Mondo">Mondo</a> - 
+  <a href="#Tecnologia">Tecnologia</a> - 
+  <a href="#Salute">Salute</a>
+</center>   
 <br>
 
-<center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
+## <center><a name="Ultimissime">Ultim'ora</a></center>
 <br>
 <div id="divRssUltimissime"></div>
-<script src="https://cdn.rawgit.com/adamjohnson/jfeed/master/jfeed.js"></script>
 <script>
-  $(document).ready(function() {
-    var feedUrl = 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml';
-    $.get(feedUrl, function(data) {
-      var feed = $.parseXML(data);
-      var items = $(feed).find('item');
-      var html = '<ul>';
-      items.each(function() {
-        var title = $(this).find('title').text();
-        var link = $(this).find('link').text();
-        var description = $(this).find('description').text();
-        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
-      });
-      html += '</ul>';
-      $('#divRssUltimissime').html(html);
+$(document).ready(function() {
+    $.getFeed({
+        url: 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml',
+        success: function(feed) {
+            let html = '<ul>';
+            for(let i=0; i<10 && i<feed.items.length; i++) {
+                let item = feed.items[i];
+                html += `
+                    <li>
+                        <div class="itemTitle">
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                        </div>
+                        <div class="itemDate">${new Date(item.updated).toLocaleDateString('it-IT')}</div>
+                        <div>${item.description}</div>
+                    </li>
+                    <br>
+                `;
+            }
+            html += '</ul>';
+            $('#divRssUltimissime').html(html);
+        }
     });
-  });
+});
 </script>
 
-<center><h1><a name="Principali"><font color="Black">Principali</font></a></h1></center>
+## <center><a name="Principali">Principali</a></center>
 <br>
 <div id="divRssPrincipali"></div>
 <script>
-  $(document).ready(function() {
-    var feedUrl = 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it';
-    $.get(feedUrl, function(data) {
-      var feed = $.parseXML(data);
-      var items = $(feed).find('item');
-      var html = '<ul>';
-      items.each(function() {
-        var title = $(this).find('title').text();
-        var link = $(this).find('link').text();
-        var description = $(this).find('description').text();
-        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
-      });
-      html += '</ul>';
-      $('#divRssPrincipali').html(html);
+$(document).ready(function() {
+    $.getFeed({
+        url: 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
+        success: function(feed) {
+            let html = '<ul>';
+            for(let i=0; i<10 && i<feed.items.length; i++) {
+                let item = feed.items[i];
+                html += `
+                    <li>
+                        <div class="itemTitle">
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                        </div>
+                        <div class="itemDate">${new Date(item.updated).toLocaleDateString('it-IT')}</div>
+                        <div>${item.description}</div>
+                    </li>
+                    <br>
+                `;
+            }
+            html += '</ul>';
+            $('#divRssPrincipali').html(html);
+        }
     });
-  });
+});
 </script>
 
-<center><h1><a name="Italia"><font color="Black">Italia</font></a></h1></center>
+## <center><a name="Italia">Italia</a></center>
 <br>
 <div id="divRssItalia"></div>
 <script>
-  $(document).ready(function() {
-    var feedUrl = 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait';
-    $.get(feedUrl, function(data) {
-      var feed = $.parseXML(data);
-      var items = $(feed).find('item');
-      var html = '<ul>';
-      items.each(function() {
-        var title = $(this).find('title').text();
-        var link = $(this).find('link').text();
-        var description = $(this).find('description').text();
-        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
-      });
-      html += '</ul>';
-      $('#divRssItalia').html(html);
+$(document).ready(function() {
+    $.getFeed({
+        url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait',
+        success: function(feed) {
+            let html = '<ul>';
+            for(let i=0; i<10 && i<feed.items.length; i++) {
+                let item = feed.items[i];
+                html += `
+                    <li>
+                        <div class="itemTitle">
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                        </div>
+                        <div class="itemDate">${new Date(item.updated).toLocaleDateString('it-IT')}</div>
+                        <div>${item.description}</div>
+                    </li>
+                    <br>
+                `;
+            }
+            html += '</ul>';
+            $('#divRssItalia').html(html);
+        }
     });
-  });
+});
 </script>
 
-<center><h1><a name="Economia"><font color="Black">Economia</font></a></h1></center>
+## <center><a name="Economia">Economia</a></center>
 <br>
 <div id="divRssEconomia"></div>
 <script>
-  $(document).ready(function() {
-    var feedUrl = 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait';
-    $.get(feedUrl, function(data) {
-      var feed = $.parseXML(data);
-      var items = $(feed).find('item');
-      var html = '<ul>';
-      items.each(function() {
-        var title = $(this).find('title').text();
-        var link = $(this).find('link').text();
-        var description = $(this).find('description').text();
-        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
-      });
-      html += '</ul>';
-      $('#divRssEconomia').html(html);
+$(document).ready(function() {
+    $.getFeed({
+        url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+        success: function(feed) {
+            let html = '<ul>';
+            for(let i=0; i<10 && i<feed.items.length; i++) {
+                let item = feed.items[i];
+                html += `
+                    <li>
+                        <div class="itemTitle">
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                        </div>
+                        <div class="itemDate">${new Date(item.updated).toLocaleDateString('it-IT')}</div>
+                        <div>${item.description}</div>
+                    </li>
+                    <br>
+                `;
+            }
+            html += '</ul>';
+            $('#divRssEconomia').html(html);
+        }
     });
-  });
+});
 </script>
 
-<center><h1><a name="Mondo"><font color="Black">Mondo</font></a></h1></center>
+## <center><a name="Mondo">Mondo</a></center>
 <br>
 <div id="divRssMondo"></div>
 <script>
-  $(document).ready(function() {
-    var feedUrl = 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait';
-    $.get(feedUrl, function(data) {
-      var feed = $.parseXML(data);
-      var items = $(feed).find('item');
-      var html = '<ul>';
-      items.each(function() {
-        var title = $(this).find('title').text();
-        var link = $(this).find('link').text();
-        var description = $(this).find('description').text();
-        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
-      });
-      html += '</ul>';
-      $('#divRssMondo').html(html);
+$(document).ready(function() {
+    $.getFeed({
+        url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+        success: function(feed) {
+            let html = '<ul>';
+            for(let i=0; i<10 && i<feed.items.length; i++) {
+                let item = feed.items[i];
+                html += `
+                    <li>
+                        <div class="itemTitle">
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                        </div>
+                        <div class="itemDate">${new Date(item.updated).toLocaleDateString('it-IT')}</div>
+                        <div>${item.description}</div>
+                    </li>
+                    <br>
+                `;
+            }
+            html += '</ul>';
+            $('#divRssMondo').html(html);
+        }
     });
-  });
+});
 </script>
 
-<center><h1><a name="Tecnologia"><font color="Black">Tecnologia</font></a></h1></center>
+## <center><a name="Tecnologia">Tecnologia</a></center>
 <br>
 <div id="divRssTecnologia"></div>
 <script>
-  $(document).ready(function() {
-    var feedUrl = 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait';
-    $.get(feedUrl, function(data) {
-      var feed = $.parseXML(data);
-      var items = $(feed).find('item');
-      var html = '<ul>';
-      items.each(function() {
-        var title = $(this).find('title').text();
-        var link = $(this).find('link').text();
-        var description = $(this).find('description').text();
-        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
-      });
-      html += '</ul>';
-      $('#divRssTecnologia').html(html);
+$(document).ready(function() {
+    $.getFeed({
+        url: 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+        success: function(feed) {
+            let html = '<ul>';
+            for(let i=0; i<10 && i<feed.items.length; i++) {
+                let item = feed.items[i];
+                html += `
+                    <li>
+                        <div class="itemTitle">
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                        </div>
+                        <div class="itemDate">${new Date(item.updated).toLocaleDateString('it-IT')}</div>
+                        <div>${item.description}</div>
+                    </li>
+                    <br>
+                `;
+            }
+            html += '</ul>';
+            $('#divRssTecnologia').html(html);
+        }
     });
-  });
+});
 </script>
 
-<center><h1><a name="Salute"><font color="Black">Salute</font></a></h1></center>
+## <center><a name="Salute">Salute</a></center>
 <br>
 <div id="divRssSalute"></div>
 <script>
-  $(document).ready(function() {
-    var feedUrl = 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait';
-    $.get(feedUrl, function(data) {
-      var feed = $.parseXML(data);
-      var items = $(feed).find('item');
-      var html = '<ul>';
-      items.each(function() {
-        var title = $(this).find('title').text();
-        var link = $(this).find('link').text();
-        var description = $(this).find('description').text();
-        html += '<li><a href="' + link + '" target="_blank">' + title + '</a><p>' + description + '</p></li>';
-      });
-      html += '</ul>';
-      $('#divRssSalute').html(html);
+$(document).ready(function() {
+    $.getFeed({
+        url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+        success: function(feed) {
+            let html = '<ul>';
+            for(let i=0; i<10 && i<feed.items.length; i++) {
+                let item = feed.items[i];
+                html += `
+                    <li>
+                        <div class="itemTitle">
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                        </div>
+                        <div class="itemDate">${new Date(item.updated).toLocaleDateString('it-IT')}</div>
+                        <div>${item.description}</div>
+                    </li>
+                    <br>
+                `;
+            }
+            html += '</ul>';
+            $('#divRssSalute').html(html);
+        }
     });
-  });
+});
 </script>
 
-<!-- <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script> -->
-<script src="/js/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-<script src='/js/jquery-3.6.0.min.js'></script>
-<script id="rendered-js">
+<script>
 // ===== Scroll to Top ==== 
 $(window).scroll(function () {
-  if ($(this).scrollTop() >= 50) {// If page is scrolled more than 50px
-    $('#return-to-top').fadeIn(200); // Fade in the arrow
+  if ($(this).scrollTop() >= 50) {
+    $('#return-to-top').fadeIn(200);
   } else {
-    $('#return-to-top').fadeOut(200); // Else fade out the arrow
+    $('#return-to-top').fadeOut(200);
   }
 });
-$('#return-to-top').click(function () {// When arrow is clicked
+$('#return-to-top').click(function () {
   $('body,html').animate({
-    scrollTop: 0 // Scroll to top of body
+    scrollTop: 0
   }, 500);
 });
-//# sourceURL=pen.js
 </script>
-
