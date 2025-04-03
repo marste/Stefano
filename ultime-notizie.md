@@ -5,64 +5,66 @@ permalink: /ultime-notizie/
 image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
 ---
-<!-- Style per i pulsanti circolari -->
+<!-- Style per bottone top -->
 <style>
-    .menu {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        margin: 20px 0;
-    }
-    .menu button {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: none;
-        background-color: #007BFF;
-        color: white;
-        font-size: 20px;
-        cursor: pointer;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease;
-        position: relative;
-    }
-    .menu button:hover {
-        transform: translateY(-5px);
-        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
-    }
-    .tooltip {
-        visibility: hidden;
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 5px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 60px;
-        left: 50%;
-        transform: translateX(-50%);
-        opacity: 0;
-        transition: opacity 0.3s;
-        white-space: nowrap;
-    }
-    .menu button:hover .tooltip {
-        visibility: visible;
-        opacity: 1;
-    }
-    .spinner {
-        display: none;
-        border: 4px solid rgba(0, 0, 0, 0.1);
-        border-left-color: #007BFF;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        animation: spin 1s linear infinite;
-        margin: 20px auto;
-    }
-    @keyframes spin {
-        to { transform: rotate(360deg); }
-    }
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
 </style>
+<!-- Style per bottone top -->
+<!-- Style per RSS -->
+<style>
+    .itemTitle a{font-weight:bold; font-size:20px; color:#008AFF; text-decoration:none;}
+    .itemTitle a:hover{ text-decoration:underline }
+    .itemDate{font-size:11px;color:#AAAAAA;}
+</style>
+<!-- Style per RSS -->
+
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
 
 <body translate="no">
 
@@ -70,96 +72,120 @@ share-img: 'https://marzorati.co/img/news.png'
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-<!-- Menu con pulsanti circolari -->
-<div class="menu">
-    <button onclick="scrollToSection('Ultimissime')">
-        <i class="fas fa-bolt"></i>
-        <span class="tooltip">Ultim'ora</span>
-    </button>
-    <button onclick="scrollToSection('Principali')">
-        <i class="fas fa-star"></i>
-        <span class="tooltip">Principali</span>
-    </button>
-    <button onclick="scrollToSection('Italia')">
-        <i class="fas fa-flag"></i>
-        <span class="tooltip">Italia</span>
-    </button>
-    <button onclick="scrollToSection('Economia')">
-        <i class="fas fa-chart-line"></i>
-        <span class="tooltip">Economia</span>
-    </button>
-    <button onclick="scrollToSection('Mondo')">
-        <i class="fas fa-globe"></i>
-        <span class="tooltip">Mondo</span>
-    </button>
-    <button onclick="scrollToSection('Tecnologia')">
-        <i class="fas fa-microchip"></i>
-        <span class="tooltip">Tecnologia</span>
-    </button>
-    <button onclick="scrollToSection('Salute')">
-        <i class="fas fa-heartbeat"></i>
-        <span class="tooltip">Salute</span>
-    </button>
-</div>
 
-<!-- Spinner di caricamento -->
-<div class="spinner" id="spinner"></div>
 
+<center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a></center>   
+<br>
+
+<center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
+<br>
+<div id="divRssUltimissime"></div>
 <script>
-    function scrollToSection(id) {
-        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
-
-    function loadFeeds() {
-        $(".spinner").show();
-        const feeds = [
-            { id: "divRssUltimissime", url: "https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml" },
-            { id: "divRssPrincipali", url: "https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it" },
-            { id: "divRssItalia", url: "https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it" },
-            { id: "divRssEconomia", url: "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it" },
-            { id: "divRssMondo", url: "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it" },
-            { id: "divRssTecnologia", url: "https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl=it&gl=IT&ceid=IT:it" },
-            { id: "divRssSalute", url: "https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it" }
-        ];
-
-        let loaded = 0;
-        feeds.forEach(feed => {
-            $('#' + feed.id).load(feed.url, function () {
-                loaded++;
-                if (loaded === feeds.length) {
-                    $(".spinner").hide();
-                }
-            });
-        });
-    }
-
-    $(document).ready(function () {
-        loadFeeds();
-    });
+    $('#divRssUltimissime').FeedEk({
+    FeedUrl : 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml',
+    MaxCount : 10,
+	ShowPubDate:true,
+    ShowDesc : true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
 </script>
 
-<center><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></center>
-<div id="divRssUltimissime"></div>
-
-<center><a name="Principali"><font color="Black">Principali</font></a></center>
+<center><h1><a name="Principali"><font color="Black">Principali</font></a></h1></center>
+<br>
 <div id="divRssPrincipali"></div>
+<script>
+    $('#divRssPrincipali').FeedEk({
+    FeedUrl : 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
+    MaxCount : 10,
+	ShowPubDate:true,
+    ShowDesc : true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
 
-<center><a name="Italia"><font color="Black">Italia</font></a></center>
+<center><h1><a name="Italia"><font color="Black">Italia</font></a></h1></center>
+<br>
 <div id="divRssItalia"></div>
+<script>
+    $('#divRssItalia').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait3DIT%2526ceid%253DIT%25253Ait',
+    MaxCount : 10,
+	ShowPubDate:true,
+    ShowDesc : true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
 
-<center><a name="Economia"><font color="Black">Economia</font></a></center>
+<center><h1><a name="Economia"><font color="Black">Economia</font></a></h1></center>
+<br>
 <div id="divRssEconomia"></div>
+<script>
+    $('#divRssEconomia').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
 
-<center><a name="Mondo"><font color="Black">Mondo</font></a></center>
+<center><h1><a name="Mondo"><font color="Black">Mondo</font></a></h1></center>
+<br>
 <div id="divRssMondo"></div>
+<script>
+    $('#divRssMondo').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtbDBHZ0pKVkNnQVAB?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
 
-<center><a name="Tecnologia"><font color="Black">Tecnologia</font></a></center>
+<center><h1><a name="Tecnologia"><font color="Black">Tecnologia</font></a></h1></center>
+<br>
 <div id="divRssTecnologia"></div>
+<script>
+    $('#divRssTecnologia').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnBkQm9DU1ZRb0FBUAE?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
 
-<center><a name="Salute"><font color="Black">Salute</font></a></center>
+<center><h1><a name="Salute"><font color="Black">Salute</font></a></h1></center>
+<br>
 <div id="divRssSalute"></div>
+<script>
+    $('#divRssSalute').FeedEk({
+    FeedUrl : 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtbDBLQUFQAQ?hl%3Dit%26gl%3DIT%26ceid%3DIT%253Ait',
+    MaxCount : 10,
+    ShowDesc : true,
+    ShowPubDate:true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
 
-<script src="/js/jquery-3.6.0.min.js"></script>
+
+<!-- <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script> -->
+<script src="/js/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script src='/js/jquery-3.6.0.min.js'></script>
 <script id="rendered-js">
 // ===== Scroll to Top ==== 
 $(window).scroll(function () {
@@ -174,6 +200,5 @@ $('#return-to-top').click(function () {// When arrow is clicked
     scrollTop: 0 // Scroll to top of body
   }, 500);
 });
-</script>
-
-</body>
+//# sourceURL=pen.js
+    </script>
