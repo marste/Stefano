@@ -51,7 +51,11 @@ share-img: 'https://marzorati.co/img/news.png'
 <!-- Style per bottone top -->
 
 
-
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregatore di Notizie</title>
     <style>
         :root {
             --primary-color: #000000; /* Nero invece del rosso Rai */
@@ -207,7 +211,7 @@ share-img: 'https://marzorati.co/img/news.png'
             }
         }
     </style>
-
+</head>
 <body>
     <header>
         <h1>Aggregatore di Notizie</h1>
@@ -362,6 +366,7 @@ share-img: 'https://marzorati.co/img/news.png'
         }
     </script>
 </body>
+</html>
 
 
 <!-- <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script> -->
