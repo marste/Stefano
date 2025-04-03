@@ -89,45 +89,30 @@ share-img: 'https://marzorati.co/img/news.png'
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 <div class="buttons-container">
-    <div class="circle-btn" data-tooltip="Ultim'ora" onclick="scrollToSection('Ultimissime')"><i class="icon-bolt"></i></div>
-    <div class="circle-btn" data-tooltip="Principali" onclick="scrollToSection('Principali')"><i class="icon-globe"></i></div>
-    <div class="circle-btn" data-tooltip="Italia" onclick="scrollToSection('Italia')"><i class="icon-flag"></i></div>
-    <div class="circle-btn" data-tooltip="Economia" onclick="scrollToSection('Economia')"><i class="icon-money"></i></div>
-    <div class="circle-btn" data-tooltip="Mondo" onclick="scrollToSection('Mondo')"><i class="icon-globe"></i></div>
-    <div class="circle-btn" data-tooltip="Tecnologia" onclick="scrollToSection('Tecnologia')"><i class="icon-cogs"></i></div>
-    <div class="circle-btn" data-tooltip="Salute" onclick="scrollToSection('Salute')"><i class="icon-heart"></i></div>
+    <div class="circle-btn" data-tooltip="Ultim'ora" onclick="scrollToSection('divRssUltimissime')"><i class="icon-bolt"></i></div>
+    <div class="circle-btn" data-tooltip="Principali" onclick="scrollToSection('divRssPrincipali')"><i class="icon-globe"></i></div>
+    <div class="circle-btn" data-tooltip="Italia" onclick="scrollToSection('divRssItalia')"><i class="icon-flag"></i></div>
+    <div class="circle-btn" data-tooltip="Economia" onclick="scrollToSection('divRssEconomia')"><i class="icon-money"></i></div>
+    <div class="circle-btn" data-tooltip="Mondo" onclick="scrollToSection('divRssMondo')"><i class="icon-globe"></i></div>
+    <div class="circle-btn" data-tooltip="Tecnologia" onclick="scrollToSection('divRssTecnologia')"><i class="icon-cogs"></i></div>
+    <div class="circle-btn" data-tooltip="Salute" onclick="scrollToSection('divRssSalute')"><i class="icon-heart"></i></div>
 </div>
 
 <div id="loading-spinner" style="text-align: center; padding: 20px; font-size: 20px; display: none;">
     <i class="icon-spinner icon-spin"></i> Caricamento...
 </div>
 
-<!-- Sezioni RSS -->
 <div id="rss-feeds">
-    <h1 id="Ultimissime">Ultim'ora</h1>
     <div id="divRssUltimissime"></div>
-
-    <h1 id="Principali">Principali</h1>
     <div id="divRssPrincipali"></div>
-
-    <h1 id="Italia">Italia</h1>
     <div id="divRssItalia"></div>
-
-    <h1 id="Economia">Economia</h1>
     <div id="divRssEconomia"></div>
-
-    <h1 id="Mondo">Mondo</h1>
     <div id="divRssMondo"></div>
-
-    <h1 id="Tecnologia">Tecnologia</h1>
     <div id="divRssTecnologia"></div>
-
-    <h1 id="Salute">Salute</h1>
     <div id="divRssSalute"></div>
 </div>
 
 <script>
-// Scorrimento fluido alla sezione
 function scrollToSection(id) {
     const section = document.getElementById(id);
     if (section) {
@@ -135,20 +120,6 @@ function scrollToSection(id) {
     }
 }
 
-// Gestione pulsante "Torna su"
-window.addEventListener('scroll', function () {
-    const button = document.getElementById('return-to-top');
-    if (window.scrollY >= 50) {
-        button.style.display = 'block';
-    } else {
-        button.style.display = 'none';
-    }
-});
-document.getElementById('return-to-top').addEventListener('click', function () {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-
-// Funzione per caricare i feed RSS
 async function loadRSS(feedUrl, containerId) {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -169,7 +140,6 @@ async function loadRSS(feedUrl, containerId) {
                 </div>
             `;
         });
-
         container.innerHTML = html;
     } catch (error) {
         container.innerHTML = '<p>Errore nel caricamento del feed.</p>';
@@ -178,14 +148,16 @@ async function loadRSS(feedUrl, containerId) {
     }
 }
 
-// Caricamento parallelo dei feed
 const feeds = {
     divRssUltimissime: 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml',
     divRssPrincipali: 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
-    divRssItalia: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it',
-    divRssEconomia: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it'
+    divRssItalia: 'https://news.google.com/rss/topics/CAAqIQg...',
+    divRssEconomia: 'https://news.google.com/rss/topics/CAAqJgg...',
+    divRssMondo: 'https://news.google.com/rss/topics/CAAqJgg...',
+    divRssTecnologia: 'https://news.google.com/rss/topics/CAAqJgg...',
+    divRssSalute: 'https://news.google.com/rss/topics/CAAqJgg...'
 };
 
-Object.entries(feeds).forEach(([containerId, feedUrl]) => loadRSS(feedUrl, containerId));
+Object.entries(feeds).forEach(([id, url]) => loadRSS(url, id));
 </script>
 </body>
