@@ -1,5 +1,5 @@
 ---
-title: Download da centinaia di siti con youtube-dl
+title: Download da centinaia di siti con youtube-dl ora yt-dlp
 author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/video.jpg'
@@ -7,9 +7,9 @@ share-img: 'https://marzorati.co/img/video.jpg'
 date: 2020-04-20 08:29:00 +0200
 permalink: /download-da-centinaia-di-siti-con-youtube-dl/
 categories: [video]
-tags: [download, mp3, porn, video, music]
+tags: [download, mp3, porn, video, music, yt-dlp]
 ---
-Per poter scaricare da questi siti, potete utilizzare <a href="https://youtube-dl.org/downloads/latest/youtube-dl.exe" target="_blank">youtube-dl</a> da command line.   
+Per poter scaricare da questi siti, potete utilizzare <a href="https://github.com/yt-dlp/yt-dlp/releases" target="_blank">yt-dlp.exe</a> da command line.   
 
 1up.com  
 220.ro  
