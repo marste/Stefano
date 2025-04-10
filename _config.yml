@@ -31,12 +31,11 @@ description: '27 anni di esperienza nel settore ICT'
 navbar-links:
   Search: "search"
   News: "news"
-  Meteo: "meteo"
+  Speed Test: "speedtest"
   Contact: "contact"
   CV: "curriculum-vitae"
   Links:
     - Webcam Live: "webcam-live-mare-montagna"
-    - Speed Test: "speedtest"
     - Office Status: "https://status.office.com/"	
     - C'era una volta un re: "https://ceraunavoltaunre.it"
 # Image to show in the navigation bar - image must be a square (width = height)
