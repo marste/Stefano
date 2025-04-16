@@ -3,8 +3,8 @@ title: "Speed Test"
 author: Stefano Marzorati
 layout: post
 date: 2021-07-17 11:05:00 +0200
-image: 'https://marzorati.co/img/speed.webp'
-share-img: 'https://marzorati.co/img/speed.webp'
+image: 'https://marzorati.co/img/speedtest.png'
+share-img: 'https://marzorati.co/img/speedtest.png'
 categories: [Networking]
 tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedtest, speed test, bandwidth speed test, internet speed test, broadband speed test, internet, network, broadband, latency, ping, throughput, download, upload, connection, dsl, adsl, cable, t1, isp, voip, ip, p address, tcp, mioip, whatismyip]
 ---
