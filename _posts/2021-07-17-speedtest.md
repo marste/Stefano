@@ -1,7 +1,7 @@
 ---
 title: Speed Test
 author: Stefano Marzorati
-layout: page
+layout: post
 date: 2021-07-17 11:05:00 +0200
 image: 'https://marzorati.co/img/speedtest.png'
 share-img: 'https://marzorati.co/img/speedtest.png'
@@ -88,14 +88,7 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
   </a>
 
   <!-- Stile responsive -->
-  <style>
-    @media (max-width: 480px) {
-      a {
-        padding: 14px 24px;
-        font-size: 15px;
-      }
-    }
-  </style>
+  
 </div>
 <!--speedtest end-->
 
