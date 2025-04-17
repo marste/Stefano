@@ -11,6 +11,11 @@ tags: [download, mp3, porn, video, music, yt-dlp]
 ---
 Per poter scaricare da questi siti, potete utilizzare <a href="https://github.com/yt-dlp/yt-dlp/releases" target="_blank">yt-dlp.exe</a> da command line.   
 
+Esempio:   
+```
+yt-dlp.exe -x --audio-format mp3 --audio-quality 0 "URL_DEL_VIDEO"
+```
+
 1up.com  
 220.ro  
 3sat  
