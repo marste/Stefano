@@ -86,8 +86,6 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     </svg>
     Cloudflare
   </a>
-
-  <!-- Stile responsive -->
   
 </div>
 <!--speedtest end-->
