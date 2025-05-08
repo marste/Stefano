@@ -1,5 +1,5 @@
 ---
-title: "Due strumenti indispensabili per l’analisi degli URL sospetti"
+title: "Tre strumenti indispensabili per l’analisi degli URL sospetti"
 date: 2025-05-08 10:00:00 +0200
 author: Stefano Marzorati
 layout: post
