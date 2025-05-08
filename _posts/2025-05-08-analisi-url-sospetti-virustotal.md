@@ -8,7 +8,7 @@ share-img: 'https://marzorati.co/img/virus.jpg'
 categories: [Cybersecurity]
 tags: [Cybersecurity, MalwareAnalysis, Tools, VirusTotal, HybridAnalysis]
 ---
-Oggi voglio segnalarvi due siti utilissimi per chi si occupa di cybersecurity, analisi di file sospetti o semplicemente per curiosi che vogliono verificare la sicurezza di un documento o URL:  
+Oggi voglio segnalarvi tre siti utilissimi per chi si occupa di cybersecurity, analisi di file sospetti o semplicemente per curiosi che vogliono verificare la sicurezza di un documento o URL:  
 
 🔍 **Hybrid Analysis** ([https://www.hybrid-analysis.com](https://www.hybrid-analysis.com))  
 Una piattaforma gratuita per analizzare file e URL in un ambiente sandbox avanzato. Fornisce report dettagliati sul comportamento di malware, indicatori di compromissione (IoC) e molto altro.  
