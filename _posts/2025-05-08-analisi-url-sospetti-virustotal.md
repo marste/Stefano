@@ -15,3 +15,6 @@ Una piattaforma gratuita per analizzare file e URL in un ambiente sandbox avanza
 
 🛡️ **VirusTotal** ([https://www.virustotal.com](https://www.virustotal.com))  
 Un classico insostituibile! Permette di caricare file o controllare URL e hash per verificare la presenza di minacce utilizzando decine di motori antivirus. Ottimo per un primo controllo rapido e affidabile.  
+
+📡 **Sophos Intelix** ([https://intelix.sophos.com](https://intelix.sophos.com))  
+Uno strumento potente per l’analisi dinamica e statica di file, URL e indirizzi IP. Offre valutazioni di rischio dettagliate e integrazioni con altre piattaforme di sicurezza, ideale per un’analisi approfondita.  
