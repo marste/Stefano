@@ -7,7 +7,7 @@ image: 'https://marzorati.co/img/google.png'
 
 <div id="password-generator" style="font-family: Arial, sans-serif; max-width: 600px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center;">
 
-  <h2 style="margin-top: 0; font-size: 1.8rem;">Generatore di Password</h2>
+ 
 
   <div style="margin-bottom: 1rem; font-size: 1.2rem;">
     <label>
