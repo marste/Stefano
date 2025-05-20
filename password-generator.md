@@ -9,14 +9,14 @@ image: 'https://marzorati.co/img/google.png'
 
  
 
-  <div style="margin-bottom: 1rem; font-size: 1.4rem;">
+  <div style="margin-bottom: 1rem; font-size: 1.5rem;">
     <label>
       Lunghezza:
-      <input type="number" id="length" value="16" min="4" max="128" style="width: 60px; padding: 0.3rem; margin-left: 0.5rem; font-size: 1rem;">
+      <input type="number" id="length" value="16" min="4" max="128" style="width: 60px; padding: 0.3rem; margin-left: 0.5rem; font-size: 1.5rem;">
     </label>
   </div>
 
-  <div style="margin-bottom: 1rem; font-size: 1.4rem; text-align: left; display: inline-block;">
+  <div style="margin-bottom: 1rem; font-size: 1.5rem; text-align: left; display: inline-block;">
     <label><input type="checkbox" id="uppercase" checked> Lettere Maiuscole</label><br>
     <label><input type="checkbox" id="lowercase" checked> Lettere Minuscole</label><br>
     <label><input type="checkbox" id="numbers" checked> Numeri</label><br>
