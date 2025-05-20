@@ -16,7 +16,7 @@ image: 'https://marzorati.co/img/google.png'
     </label>
   </div>
 
-  <div style="margin-bottom: 1rem; font-size: 1.2rem; text-align: left; display: inline-block;">
+  <div style="margin-bottom: 1rem; font-size: 1.4rem; text-align: left; display: inline-block;">
     <label><input type="checkbox" id="uppercase" checked> Lettere Maiuscole</label><br>
     <label><input type="checkbox" id="lowercase" checked> Lettere Minuscole</label><br>
     <label><input type="checkbox" id="numbers" checked> Numeri</label><br>
