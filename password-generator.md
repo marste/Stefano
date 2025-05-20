@@ -2,7 +2,7 @@
 layout: page
 title: Password Generator
 permalink: /password-generator/
-image: 'https://marzorati.co/img/google.png'
+image: 'https://marzorati.co/img/password.png'
 ---
 
 <div id="password-generator" style="font-family: Arial, sans-serif; max-width: 600px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center;">
