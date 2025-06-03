@@ -40,7 +40,15 @@ image: 'https://marzorati.co/img/password.png'
   <div style="margin-bottom: 1rem; font-size: 1.5rem;">
     <label style="font-weight: normal;">
       Lunghezza:
-      <input type="number" id="length" value="16" min="4" max="128" class="length-input">
+      <input
+        type="number"
+        id="length"
+        value="16"
+        min="1"
+        max="999"
+        class="length-input"
+        oninput="enforceMaxLength(this)"
+      >
     </label>
   </div>
 
@@ -65,8 +73,18 @@ image: 'https://marzorati.co/img/password.png'
 </div>
 
 <script>
+  function enforceMaxLength(el) {
+    // Limita a massimo 3 cifre
+    if (el.value.length > 3) {
+      el.value = el.value.slice(0, 3);
+    }
+  }
+
   function generatePassword() {
-    const length = parseInt(document.getElementById('length').value);
+    let length = parseInt(document.getElementById('length').value);
+    if (isNaN(length) || length < 1) length = 1;      // minimo 1 carattere
+    if (length > 999) length = 999;                    // massimo 999
+
     const useUpper = document.getElementById('uppercase').checked;
     const useLower = document.getElementById('lowercase').checked;
     const useNumbers = document.getElementById('numbers').checked;
