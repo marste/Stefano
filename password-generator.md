@@ -24,7 +24,7 @@ image: 'https://marzorati.co/img/password.png'
   <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin: 1.5rem 0;">
     <div id="password" style="font-size: 1.8rem; font-weight: bold; word-break: break-all; background: #f0f0f0; padding: 0.6rem 1rem; border-radius: 5px; min-width: 300px;"></div>
     <button onclick="copyPassword()" style="background: none; border: none; cursor: pointer; padding: 0;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#007bff" viewBox="0 0 24 24">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#007bff" viewBox="0 0 28 28">
         <path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"/>
       </svg>
     </button>
