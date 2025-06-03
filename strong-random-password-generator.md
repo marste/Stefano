@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Password Generator
-permalink: /password-generator/
+title: "Strong & Random Passwords Generator"
+permalink: /strong-random-password-generator/
 date: 2025-06-03 10:00:00 +0200
 description: "Generare una password complessa e sicura. Stai al sicuro online creando una password forte e sicura con il nostro strumento di generazione. Una password complessa è il primo passo per rafforzare la sicurezza dei vostri dati prevenendo le violazioni."
 image: 'https://marzorati.co/img/password.png'
