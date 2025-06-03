@@ -3,6 +3,8 @@ layout: page
 title: Password Generator
 permalink: /password-generator/
 image: 'https://marzorati.co/img/password.png'
+share-img: 'https://marzorati.co/img/password.png'
+tags: [password, generator, strong, random]
 ---
 
 <style>
