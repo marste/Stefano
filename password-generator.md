@@ -8,17 +8,17 @@ image: 'https://marzorati.co/img/password.png'
 <div id="password-generator" style="font-family: Open Sans, sans-serif; max-width: 600px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center;">
 
   <div style="margin-bottom: 1rem; font-size: 1.5rem;">
-    <label>
+    <label style="font-weight: normal;">
       Lunghezza:
       <input type="number" id="length" value="16" min="4" max="128" style="width: 60px; padding: 0.3rem; margin-left: 0.5rem; font-size: 1.5rem;">
     </label>
   </div>
 
   <div style="margin-bottom: 1rem; font-size: 1.5rem; text-align: left; display: inline-block;">
-    <label><input type="checkbox" id="uppercase" checked> Lettere Maiuscole</label><br>
-    <label><input type="checkbox" id="lowercase" checked> Lettere Minuscole</label><br>
-    <label><input type="checkbox" id="numbers" checked> Numeri</label><br>
-    <label><input type="checkbox" id="symbols" checked> Simboli</label>
+    <label style="font-weight: normal;"><input type="checkbox" id="uppercase" checked> Lettere Maiuscole</label><br>
+    <label style="font-weight: normal;"><input type="checkbox" id="lowercase" checked> Lettere Minuscole</label><br>
+    <label style="font-weight: normal;"><input type="checkbox" id="numbers" checked> Numeri</label><br>
+    <label style="font-weight: normal;"><input type="checkbox" id="symbols" checked> Simboli</label>
   </div>
 
   <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin: 1.5rem 0;">
