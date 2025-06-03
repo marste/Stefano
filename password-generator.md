@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Password Generator
 permalink: /password-generator/
 date: 2025-06-03 10:00:00 +0200
