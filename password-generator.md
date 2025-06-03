@@ -20,7 +20,7 @@ image: 'https://marzorati.co/img/password.png'
 
   /* Stile moderno per l'input lunghezza */
   .length-input {
-    width: 80px;
+    width: 60px;
     padding: 0.4rem 0.6rem;
     font-size: 1.5rem;
     border: 1px solid #ccc;
