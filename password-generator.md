@@ -129,7 +129,7 @@ tags: [password, generator, strong, random]
     const passwordText = document.getElementById("password").textContent;
     if (!passwordText || passwordText.includes("Seleziona")) return;
     navigator.clipboard.writeText(passwordText).then(() => {
-      alert("Password copiata negli appunti!");
+      alert("Copiata!");
     }).catch(err => {
       alert("Errore nella copia: " + err);
     });
