@@ -5,12 +5,42 @@ permalink: /password-generator/
 image: 'https://marzorati.co/img/password.png'
 ---
 
+<style>
+  /* Rimuove le freccine da input[type=number] in Chrome, Safari, Edge */
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Rimuove le freccine in Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  /* Stile moderno per l'input lunghezza */
+  .length-input {
+    width: 80px;
+    padding: 0.4rem 0.6rem;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+  }
+
+  .length-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+</style>
+
 <div id="password-generator" style="font-family: Open Sans, sans-serif; max-width: 600px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center;">
 
   <div style="margin-bottom: 1rem; font-size: 1.5rem;">
     <label style="font-weight: normal;">
       Lunghezza:
-      <input type="number" id="length" value="16" min="4" max="128" style="width: 60px; padding: 0.3rem; margin-left: 0.5rem; font-size: 1.5rem;">
+      <input type="number" id="length" value="16" min="4" max="128" class="length-input">
     </label>
   </div>
 
