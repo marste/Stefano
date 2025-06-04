@@ -37,7 +37,7 @@ tags: [radio, web, streaming, mp3, m3u8]
     background-position: right 0.8em center;
     background-size: 1em;
     transition: border 0.3s ease, box-shadow 0.3s ease;
-    max-width: 180px;
+    max-width: 190px;
     width: 100%;
     margin-top: 0.5em;
   }
