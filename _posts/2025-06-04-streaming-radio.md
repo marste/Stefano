@@ -10,9 +10,45 @@ bigimg: ['https://marzorati.co/img/post/music_2.jpg', 'https://marzorati.co/img/
 categories: [Music]
 tags: [radio, web, streaming, mp3, m38u]
 ---
+
+<style>
+  #radio-select {
+    padding: 0.75em 1.2em;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75em;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 0.8em center;
+    background-size: 1em;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    width: 90%;
+    margin-top: 1em;
+  }
+
+  #radio-select:hover {
+    border-color: #aaa;
+  }
+
+  #radio-select:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+  }
+
+  label[for="radio-select"] {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+</style>
+
 <center>
 
-<label for="radio-select">Scegli una radio:</label>
+<label for="radio-select">🎧 Scegli una radio:</label><br>
 <select id="radio-select">
   <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio m2o</option>
   <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
@@ -23,7 +59,6 @@ tags: [radio, web, streaming, mp3, m38u]
   <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs</option>
   <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
   <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
-  <!-- Altre radio .mp3 o .m3u8 -->
 </select>
 
 <br><br>
@@ -38,21 +73,17 @@ tags: [radio, web, streaming, mp3, m38u]
   let hlsInstance = null;
 
   function playStream(url) {
-    // Stop and detach any existing HLS stream
     if (hlsInstance) {
       hlsInstance.destroy();
       hlsInstance = null;
     }
 
-    // Se è un flusso HLS (.m3u8)
     if (url.includes('.m3u8')) {
       if (Hls.isSupported()) {
         hlsInstance = new Hls();
         hlsInstance.loadSource(url);
         hlsInstance.attachMedia(player);
-        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function () {
-          player.play();
-        });
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => player.play());
       } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
         player.src = url;
         player.addEventListener('loadedmetadata', () => player.play());
@@ -60,15 +91,12 @@ tags: [radio, web, streaming, mp3, m38u]
         alert('Il tuo browser non supporta lo streaming HLS.');
       }
     } else {
-      // MP3 stream (o altro supportato nativamente)
       player.src = url;
       player.play();
     }
   }
 
   selector.addEventListener('change', () => playStream(selector.value));
-
-  // Play default
   playStream(selector.value);
 </script>
 
