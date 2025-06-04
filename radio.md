@@ -5,7 +5,7 @@ permalink: /web-radio/
 image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
 ---
-
+<center>
 <label for="radio-select">Scegli una radio:</label>
 <select id="radio-select">
   <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">m2o</option>
@@ -47,3 +47,4 @@ share-img: 'https://marzorati.co/img/music.png'
   // Play default
   playStream(selector.value);
 </script>
+</center>
