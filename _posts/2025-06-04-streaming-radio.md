@@ -14,7 +14,7 @@ tags: [radio, web, streaming, mp3, m3u8]
 <style>
   #radio-select {
     padding: 0.75em 1.2em;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: 1px solid #ccc;
     border-radius: 0.75em;
     background-color: #f9f9f9;
@@ -56,7 +56,7 @@ tags: [radio, web, streaming, mp3, m3u8]
   /* Responsive: testo più grande e padding migliore su mobile */
   @media (max-width: 600px) {
     #radio-select {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       padding: 1em 1.5em;
     }
 
