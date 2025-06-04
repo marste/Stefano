@@ -42,7 +42,7 @@ tags: [radio, web, streaming, mp3, m3u8]
 
   label[for="radio-select"] {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     display: block;
     margin-bottom: 0.5em;
   }
