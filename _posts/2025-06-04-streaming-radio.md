@@ -12,11 +12,15 @@ tags: [radio, web, streaming, mp3, m3u8]
 ---
 
 <style>
+  .radio-wrapper {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
   .radio-container {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1.5em;
   }
 
   #radio-select {
@@ -54,9 +58,10 @@ tags: [radio, web, streaming, mp3, m3u8]
   }
 
   audio {
+    display: block;
+    margin: 1.5em auto 0;
     width: 100%;
     max-width: 600px;
-    margin-top: 1.5em;
   }
 
   @media (max-width: 600px) {
@@ -66,29 +71,29 @@ tags: [radio, web, streaming, mp3, m3u8]
     }
 
     label[for="radio-select"] {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
   }
 </style>
 
-<center>
+<div class="radio-wrapper">
+  <div class="radio-container">
+    <label for="radio-select">🎧 Scegli una radio:</label>
+    <select id="radio-select">
+      <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio m2o</option>
+      <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
+      <option value="https://stream.technolovers.fm/gabber">Gabber</option>
+      <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
+      <option value="http://technoszene.stream.laut.fm/technoszene">Technoszene</option>
+      <option value="https://streamcdnm1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8">Radio DEEJAY</option>
+      <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs</option>
+      <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
+      <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
+    </select>
+  </div>
 
-<div class="radio-container">
-  <label for="radio-select">🎧 Scegli una radio:</label>
-  <select id="radio-select">
-    <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio m2o</option>
-    <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
-    <option value="https://stream.technolovers.fm/gabber">Gabber</option>
-    <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
-    <option value="http://technoszene.stream.laut.fm/technoszene">Technoszene</option>
-    <option value="https://streamcdnm1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8">Radio DEEJAY</option>
-    <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs</option>
-    <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
-    <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
-  </select>
+  <audio id="audio-player" controls></audio>
 </div>
-
-<audio id="audio-player" controls></audio>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script>
@@ -124,5 +129,3 @@ tags: [radio, web, streaming, mp3, m3u8]
   selector.addEventListener('change', () => playStream(selector.value));
   playStream(selector.value);
 </script>
-
-</center>
