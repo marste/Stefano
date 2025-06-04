@@ -11,6 +11,12 @@ share-img: 'https://marzorati.co/img/music.png'
 <select id="radio-select">
   <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">m2o</option>
   <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
+  <option value="http://213.141.131.10:8002/gabber">Gabber</option>
+  <option value="https://stream.technolovers.fm/gabber">Gabber2</option>
+  <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
+  <option value="http://technoszene.stream.laut.fm/technoszene">Technoszene</option>
+  <option value="https://streamcdnm1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8">Radio DEEJAY</option>
+  <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs</option>
   <!-- Altre radio .mp3 o .m3u8 -->
 </select>
 
