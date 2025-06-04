@@ -80,7 +80,7 @@ tags: [radio, web, streaming, mp3, m3u8]
   <div class="radio-container">
     <label for="radio-select">🎧 Scegli una radio:</label>
     <select id="radio-select">
-      <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio m2o</option>
+      <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio M2O</option>
       <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
       <option value="https://stream.technolovers.fm/gabber">Gabber</option>
       <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
