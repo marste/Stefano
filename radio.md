@@ -9,13 +9,16 @@ share-img: 'https://marzorati.co/img/music.png'
 
 <label for="radio-select">Scegli una radio:</label>
 <select id="radio-select">
-  <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">m2o</option>
+  <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio m2o</option>
   <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
   <option value="https://stream.technolovers.fm/gabber">Gabber</option>
   <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
   <option value="http://technoszene.stream.laut.fm/technoszene">Technoszene</option>
   <option value="https://streamcdnm1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8">Radio DEEJAY</option>
   <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs</option>
+  <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
+  <option value="http://s7.onweb.gr:8410/;">Venus Radio</option>
+  <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
   <!-- Altre radio .mp3 o .m3u8 -->
 </select>
 
