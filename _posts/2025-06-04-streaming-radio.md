@@ -8,7 +8,7 @@ author: Stefano Marzorati
 layout: post
 bigimg: ['https://marzorati.co/img/post/music_2.jpg', 'https://marzorati.co/img/post/music_3.jpg']
 categories: [Music]
-tags: [radio, web, streaming, mp3, m38u]
+tags: [radio, web, streaming, mp3, m3u8]
 ---
 
 <style>
@@ -43,12 +43,32 @@ tags: [radio, web, streaming, mp3, m38u]
   label[for="radio-select"] {
     font-weight: bold;
     font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  audio {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1.5em;
+  }
+
+  /* Responsive: testo più grande e padding migliore su mobile */
+  @media (max-width: 600px) {
+    #radio-select {
+      font-size: 1.25rem;
+      padding: 1em 1.5em;
+    }
+
+    label[for="radio-select"] {
+      font-size: 1.2rem;
+    }
   }
 </style>
 
 <center>
 
-<label for="radio-select">🎧 Scegli una radio:</label><br>
+<label for="radio-select">🎧 Scegli una radio:</label>
 <select id="radio-select">
   <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio m2o</option>
   <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
@@ -61,9 +81,7 @@ tags: [radio, web, streaming, mp3, m38u]
   <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
 </select>
 
-<br><br>
-
-<audio id="audio-player" controls style="width: 100%; max-width: 600px;"></audio>
+<audio id="audio-player" controls></audio>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script>
