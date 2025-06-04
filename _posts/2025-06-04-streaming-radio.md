@@ -61,7 +61,7 @@ tags: [radio, web, streaming, mp3, m3u8]
 
   @media (max-width: 600px) {
     #radio-select {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       padding: 1em;
     }
 
