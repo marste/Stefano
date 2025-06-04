@@ -49,7 +49,7 @@ tags: [radio, web, streaming, mp3, m3u8]
 
   label[for="radio-select"] {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 0.3em;
   }
 
