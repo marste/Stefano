@@ -6,7 +6,7 @@ share-img: 'https://marzorati.co/img/music.png'
 date: 2025-06-04 07:00:00 +0200
 author: Stefano Marzorati
 layout: post
-bigimg: ['https://marzorati.co/img/post/music_1.jpg', 'https://marzorati.co/img/post/music_2.jpg', 'https://marzorati.co/img/post/music_3.jpg']
+bigimg: ['https://marzorati.co/img/post/music_2.jpg', 'https://marzorati.co/img/post/music_3.jpg']
 categories: [Music]
 tags: [radio, web, streaming, mp3, m38u]
 ---
