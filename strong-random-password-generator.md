@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Strong & Random Passwords Generator"
 permalink: /strong-random-password-generator/
 date: 2025-06-03 10:00:00 +0200
