@@ -15,6 +15,7 @@ tags: [radio, web, streaming, mp3, m3u8]
   .radio-wrapper {
     text-align: center;
     margin-bottom: 2em;
+    font-family: sans-serif;
   }
 
   .radio-container {
@@ -55,13 +56,44 @@ tags: [radio, web, streaming, mp3, m3u8]
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 0.3em;
+    color: black;
   }
 
-  audio {
-    display: block;
-    margin: 1.5em auto 0;
-    width: 100%;
-    max-width: 600px;
+  .custom-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background: #fff8dc;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+    border: 2px solid #ffd700;
+    margin-top: 1em;
+  }
+
+  #play-pause {
+    background: #ffd700;
+    color: black;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  #play-pause:hover {
+    background: #ffec3d;
+  }
+
+  #progress {
+    flex: 1;
+    accent-color: #ffd700;
+    height: 8px;
+    border-radius: 5px;
+    cursor: pointer;
   }
 
   @media (max-width: 600px) {
@@ -92,14 +124,23 @@ tags: [radio, web, streaming, mp3, m3u8]
     </select>
   </div>
 
-  <audio id="audio-player" controls preload="auto"></audio>
+  <div class="custom-player">
+    <button id="play-pause" class="play">▶️</button>
+    <input type="range" id="progress" value="0" min="0" max="100" step="1">
+  </div>
+
+  <audio id="audio-player" preload="auto"></audio>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script>
   const player = document.getElementById('audio-player');
   const selector = document.getElementById('radio-select');
+  const playPauseBtn = document.getElementById('play-pause');
+  const progress = document.getElementById('progress');
+
   let hlsInstance = null;
+  let isPlaying = false;
 
   function playStream(url) {
     if (hlsInstance) {
@@ -150,8 +191,36 @@ tags: [radio, web, streaming, mp3, m3u8]
       player.src = url;
       player.play();
     }
+
+    playPauseBtn.textContent = '⏸️';
+    isPlaying = true;
   }
 
   selector.addEventListener('change', () => playStream(selector.value));
+
+  playPauseBtn.addEventListener('click', () => {
+    if (player.paused) {
+      player.play();
+      playPauseBtn.textContent = '⏸️';
+      isPlaying = true;
+    } else {
+      player.pause();
+      playPauseBtn.textContent = '▶️';
+      isPlaying = false;
+    }
+  });
+
+  player.addEventListener('timeupdate', () => {
+    if (!isNaN(player.duration)) {
+      progress.value = (player.currentTime / player.duration) * 100;
+    }
+  });
+
+  progress.addEventListener('input', () => {
+    if (!isNaN(player.duration)) {
+      player.currentTime = (progress.value / 100) * player.duration;
+    }
+  });
+
   playStream(selector.value);
 </script>
