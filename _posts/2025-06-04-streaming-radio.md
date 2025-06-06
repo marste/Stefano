@@ -38,7 +38,7 @@ tags: [radio, web, streaming, mp3, m3u8]
     background-position: right 0.8em center;
     background-size: 1em;
     transition: border 0.3s ease, box-shadow 0.3s ease;
-    max-width: 190px;
+    max-width: 220px;
     width: 100%;
     margin-top: 0.5em;
   }
@@ -84,8 +84,13 @@ tags: [radio, web, streaming, mp3, m3u8]
     transition: background 0.3s;
   }
 
-  #play-pause:hover {
+  #play-pause:hover:enabled {
     background: #ffec3d;
+  }
+
+  #play-pause:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 
   #progress {
@@ -112,6 +117,7 @@ tags: [radio, web, streaming, mp3, m3u8]
   <div class="radio-container">
     <label for="radio-select">🎧 Scegli una radio:</label>
     <select id="radio-select">
+      <option value="" disabled selected>-- Scegli --</option>
       <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio M2O</option>
       <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
       <option value="https://stream.technolovers.fm/gabber">Gabber</option>
@@ -125,7 +131,7 @@ tags: [radio, web, streaming, mp3, m3u8]
   </div>
 
   <div class="custom-player">
-    <button id="play-pause" class="play">▶️</button>
+    <button id="play-pause" class="play" disabled>▶️</button>
     <input type="range" id="progress" value="0" min="0" max="100" step="1">
   </div>
 
@@ -159,7 +165,12 @@ tags: [radio, web, streaming, mp3, m3u8]
 
         hlsInstance.loadSource(url);
         hlsInstance.attachMedia(player);
-        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => player.play());
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+          player.play();
+          playPauseBtn.disabled = false;
+          playPauseBtn.textContent = '⏸️';
+          isPlaying = true;
+        });
 
         hlsInstance.on(Hls.Events.ERROR, function (event, data) {
           if (data.fatal) {
@@ -183,20 +194,30 @@ tags: [radio, web, streaming, mp3, m3u8]
 
       } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
         player.src = url;
-        player.addEventListener('loadedmetadata', () => player.play());
+        player.addEventListener('loadedmetadata', () => {
+          player.play();
+          playPauseBtn.disabled = false;
+          playPauseBtn.textContent = '⏸️';
+          isPlaying = true;
+        });
       } else {
         alert('Il tuo browser non supporta lo streaming HLS.');
       }
     } else {
       player.src = url;
       player.play();
+      playPauseBtn.disabled = false;
+      playPauseBtn.textContent = '⏸️';
+      isPlaying = true;
     }
-
-    playPauseBtn.textContent = '⏸️';
-    isPlaying = true;
   }
 
-  selector.addEventListener('change', () => playStream(selector.value));
+  selector.addEventListener('change', () => {
+    const url = selector.value;
+    if (url) {
+      playStream(url);
+    }
+  });
 
   playPauseBtn.addEventListener('click', () => {
     if (player.paused) {
@@ -221,6 +242,4 @@ tags: [radio, web, streaming, mp3, m3u8]
       player.currentTime = (progress.value / 100) * player.duration;
     }
   });
-
-  playStream(selector.value);
 </script>
