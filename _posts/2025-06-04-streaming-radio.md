@@ -92,14 +92,13 @@ tags: [radio, web, streaming, mp3, m3u8]
     </select>
   </div>
 
-  <audio id="audio-player" controls></audio>
+  <audio id="audio-player" controls preload="auto"></audio>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script>
   const player = document.getElementById('audio-player');
   const selector = document.getElementById('radio-select');
-
   let hlsInstance = null;
 
   function playStream(url) {
@@ -110,10 +109,37 @@ tags: [radio, web, streaming, mp3, m3u8]
 
     if (url.includes('.m3u8')) {
       if (Hls.isSupported()) {
-        hlsInstance = new Hls();
+        hlsInstance = new Hls({
+          maxBufferLength: 60,
+          maxMaxBufferLength: 120,
+          liveSyncDuration: 15,
+          enableWorker: true,
+        });
+
         hlsInstance.loadSource(url);
         hlsInstance.attachMedia(player);
         hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => player.play());
+
+        hlsInstance.on(Hls.Events.ERROR, function (event, data) {
+          if (data.fatal) {
+            switch (data.type) {
+              case Hls.ErrorTypes.NETWORK_ERROR:
+                console.warn("Errore di rete: riconnessione...");
+                hlsInstance.startLoad();
+                break;
+              case Hls.ErrorTypes.MEDIA_ERROR:
+                console.warn("Errore media: recovery...");
+                hlsInstance.recoverMediaError();
+                break;
+              default:
+                console.warn("Errore irreversibile: riavvio stream...");
+                hlsInstance.destroy();
+                playStream(selector.value);
+                break;
+            }
+          }
+        });
+
       } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
         player.src = url;
         player.addEventListener('loadedmetadata', () => player.play());
