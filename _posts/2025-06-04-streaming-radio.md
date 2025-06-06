@@ -175,7 +175,7 @@ tags: [radio, web, streaming, mp3, m3u8]
               default:
                 console.warn("Errore irreversibile: riavvio stream...");
                 hlsInstance.destroy();
-                playStream(selector.value);
+                player.src = '';
                 break;
             }
           }
@@ -222,5 +222,5 @@ tags: [radio, web, streaming, mp3, m3u8]
     }
   });
 
-  playStream(selector.value);
+  player.src = '';
 </script>
