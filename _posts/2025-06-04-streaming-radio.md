@@ -101,6 +101,15 @@ tags: [radio, web, streaming, mp3, m3u8]
     cursor: pointer;
   }
 
+  #radio-notification {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    display: none;
+    transition: opacity 0.3s ease;
+  }
+
   @media (max-width: 600px) {
     #radio-select {
       font-size: 2rem;
@@ -128,6 +137,7 @@ tags: [radio, web, streaming, mp3, m3u8]
       <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
       <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
     </select>
+    <p id="radio-notification"></p>
   </div>
 
   <div class="custom-player">
@@ -144,6 +154,7 @@ tags: [radio, web, streaming, mp3, m3u8]
   const selector = document.getElementById('radio-select');
   const playPauseBtn = document.getElementById('play-pause');
   const progress = document.getElementById('progress');
+  const notification = document.getElementById('radio-notification');
 
   let hlsInstance = null;
   let isPlaying = false;
@@ -216,6 +227,18 @@ tags: [radio, web, streaming, mp3, m3u8]
     const url = selector.value;
     if (url) {
       playStream(url);
+
+      const selectedOption = selector.options[selector.selectedIndex];
+      notification.textContent = `🔊 In ascolto: ${selectedOption.text}`;
+      notification.style.display = 'block';
+      notification.style.opacity = '1';
+
+      setTimeout(() => {
+        notification.style.opacity = '0';
+        setTimeout(() => {
+          notification.style.display = 'none';
+        }, 500);
+      }, 6000);
     }
   });
 
