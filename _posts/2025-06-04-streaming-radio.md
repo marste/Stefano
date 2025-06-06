@@ -222,5 +222,5 @@ tags: [radio, web, streaming, mp3, m3u8]
     }
   });
 
-  player.src = '';
+  playStream(selector.value);
 </script>
