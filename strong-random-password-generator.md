@@ -10,19 +10,16 @@ tags: [password, generator, strong, random]
 ---
 
 <style>
-  /* Rimuove le freccine da input[type=number] in Chrome, Safari, Edge */
   input[type=number]::-webkit-inner-spin-button,
   input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
 
-  /* Rimuove le freccine in Firefox */
   input[type=number] {
     -moz-appearance: textfield;
   }
 
-  /* Stile moderno per l'input lunghezza */
   .length-input {
     width: 50px;
     padding: 0.4rem 0.6rem;
@@ -36,6 +33,13 @@ tags: [password, generator, strong, random]
   .length-input:focus {
     outline: none;
     border-color: #007bff;
+  }
+
+  .copy-feedback {
+    font-size: 1rem;
+    color: green;
+    margin-top: 1rem;
+    display: none;
   }
 </style>
 
@@ -74,11 +78,12 @@ tags: [password, generator, strong, random]
 
   <button onclick="generatePassword()" style="padding: 0.6rem 1.2rem; font-size: 1.5rem; border: none; border-radius: 5px; background-color: #007bff; color: white; cursor: pointer;">Genera Password</button>
 
+  <div id="copy-feedback" class="copy-feedback">✅ Password copiata!</div>
+
 </div>
 
 <script>
   function enforceMaxLength(el) {
-    // Limita a massimo 3 cifre
     if (el.value.length > 3) {
       el.value = el.value.slice(0, 3);
     }
@@ -86,8 +91,8 @@ tags: [password, generator, strong, random]
 
   function generatePassword() {
     let length = parseInt(document.getElementById('length').value);
-    if (isNaN(length) || length < 1) length = 1;      // minimo 1 carattere
-    if (length > 999) length = 999;                    // massimo 999
+    if (isNaN(length) || length < 1) length = 1;
+    if (length > 999) length = 999;
 
     const useUpper = document.getElementById('uppercase').checked;
     const useLower = document.getElementById('lowercase').checked;
@@ -106,6 +111,8 @@ tags: [password, generator, strong, random]
     if (useSymbols) charset += symbols;
 
     const output = document.getElementById("password");
+    const feedback = document.getElementById("copy-feedback");
+    feedback.style.display = "none";
 
     if (charset.length === 0) {
       output.textContent = "Seleziona almeno un tipo di carattere!";
@@ -127,11 +134,17 @@ tags: [password, generator, strong, random]
 
   function copyPassword() {
     const passwordText = document.getElementById("password").textContent;
+    const feedback = document.getElementById("copy-feedback");
+
     if (!passwordText || passwordText.includes("Seleziona")) return;
+
     navigator.clipboard.writeText(passwordText).then(() => {
-      alert("Copiata!");
+      feedback.style.display = "block";
+      setTimeout(() => {
+        feedback.style.display = "none";
+      }, 2000);
     }).catch(err => {
-      alert("Errore nella copia: " + err);
+      console.error("Errore nella copia: ", err);
     });
   }
 
