@@ -177,10 +177,13 @@ tags: [radio, web, streaming, mp3, m3u8]
         hlsInstance.loadSource(url);
         hlsInstance.attachMedia(player);
         hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
-          player.play();
-          playPauseBtn.disabled = false;
-          playPauseBtn.textContent = '⏸️';
-          isPlaying = true;
+          player.play().then(() => {
+            playPauseBtn.disabled = false;
+            playPauseBtn.textContent = '⏸️';
+            isPlaying = true;
+          }).catch(() => {
+            showNotification('👉 Tocca ▶️ per riprendere l’ascolto');
+          });
         });
 
         hlsInstance.on(Hls.Events.ERROR, function (event, data) {
@@ -206,20 +209,26 @@ tags: [radio, web, streaming, mp3, m3u8]
       } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
         player.src = url;
         player.addEventListener('loadedmetadata', () => {
-          player.play();
-          playPauseBtn.disabled = false;
-          playPauseBtn.textContent = '⏸️';
-          isPlaying = true;
+          player.play().then(() => {
+            playPauseBtn.disabled = false;
+            playPauseBtn.textContent = '⏸️';
+            isPlaying = true;
+          }).catch(() => {
+            showNotification('👉 Tocca ▶️ per riprendere l’ascolto');
+          });
         });
       } else {
         alert('Il tuo browser non supporta lo streaming HLS.');
       }
     } else {
       player.src = url;
-      player.play();
-      playPauseBtn.disabled = false;
-      playPauseBtn.textContent = '⏸️';
-      isPlaying = true;
+      player.play().then(() => {
+        playPauseBtn.disabled = false;
+        playPauseBtn.textContent = '⏸️';
+        isPlaying = true;
+      }).catch(() => {
+        showNotification('👉 Tocca ▶️ per riprendere l’ascolto');
+      });
     }
   }
 
@@ -229,24 +238,18 @@ tags: [radio, web, streaming, mp3, m3u8]
       playStream(url);
 
       const selectedOption = selector.options[selector.selectedIndex];
-      notification.textContent = `🔊 In ascolto: ${selectedOption.text}`;
-      notification.style.display = 'block';
-      notification.style.opacity = '1';
-
-      setTimeout(() => {
-        notification.style.opacity = '0';
-        setTimeout(() => {
-          notification.style.display = 'none';
-        }, 500);
-      }, 6000);
+      showNotification(`🔊 In ascolto: ${selectedOption.text}`, 6000);
     }
   });
 
   playPauseBtn.addEventListener('click', () => {
     if (player.paused) {
-      player.play();
-      playPauseBtn.textContent = '⏸️';
-      isPlaying = true;
+      player.play().then(() => {
+        playPauseBtn.textContent = '⏸️';
+        isPlaying = true;
+      }).catch(() => {
+        showNotification('⚠️ Errore nella riproduzione. Tocca di nuovo ▶️.');
+      });
     } else {
       player.pause();
       playPauseBtn.textContent = '▶️';
@@ -265,4 +268,31 @@ tags: [radio, web, streaming, mp3, m3u8]
       player.currentTime = (progress.value / 100) * player.duration;
     }
   });
+
+  // 🔁 Riprendi la riproduzione quando l'utente torna alla pagina
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden && !isPlaying && player.src) {
+      player.play().then(() => {
+        playPauseBtn.textContent = '⏸️';
+        isPlaying = true;
+      }).catch(() => {
+        showNotification('📱 Tocca ▶️ per riprendere l’ascolto dopo l’interruzione.');
+      });
+    }
+  });
+
+  // 🛎️ Mostra una notifica temporanea o persistente
+  function showNotification(message, duration = 0) {
+    notification.textContent = message;
+    notification.style.display = 'block';
+    notification.style.opacity = '1';
+    if (duration > 0) {
+      setTimeout(() => {
+        notification.style.opacity = '0';
+        setTimeout(() => {
+          notification.style.display = 'none';
+        }, 500);
+      }, duration);
+    }
+  }
 </script>
