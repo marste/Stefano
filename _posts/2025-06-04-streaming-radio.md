@@ -10,6 +10,7 @@ bigimg: ['https://marzorati.co/img/post/music_2.jpg', 'https://marzorati.co/img/
 categories: [Music]
 tags: [radio, web, streaming, mp3, m3u8]
 ---
+
 <style>
   .radio-wrapper {
     text-align: center;
@@ -72,21 +73,28 @@ tags: [radio, web, streaming, mp3, m3u8]
   }
 
   #play-pause {
-  background: #fff;           /* interno bianco */
-  color: #000;                /* icona nera */
-  font-size: 1.5em;
-  border: 3px solid #000;     /* bordo nero */
-  border-radius: 50%;
-  width: 2.5em;
-  height: 2.5em;
-  cursor: pointer;
-  transition: background 0.3s, color 0.3s;
-}
+    background: #fff;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
 
-#play-pause:hover:enabled {
-  background: #f0f0f0;        /* leggero grigio chiaro al passaggio */
-}
+  #play-pause svg {
+    width: 1.2em;
+    height: 1.2em;
+  }
 
+  #play-pause:hover:enabled {
+    background: #f0f0f0;
+  }
 
   #play-pause:disabled {
     opacity: 0.5;
@@ -114,7 +122,6 @@ tags: [radio, web, streaming, mp3, m3u8]
   }
 </style>
 
-
 <div class="radio-wrapper">
   <div class="radio-container">
     <label for="radio-select">?? Scegli una radio:</label>
@@ -133,7 +140,11 @@ tags: [radio, web, streaming, mp3, m3u8]
   </div>
 
   <div class="custom-player">
-    <button id="play-pause" class="play" disabled>??</button>
+    <button id="play-pause" class="play" disabled>
+      <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="5,3 19,12 5,21" />
+      </svg>
+    </button>
     <input type="range" id="progress" value="0" min="0" max="100" step="1">
   </div>
 
@@ -145,10 +156,30 @@ tags: [radio, web, streaming, mp3, m3u8]
   const player = document.getElementById('audio-player');
   const selector = document.getElementById('radio-select');
   const playPauseBtn = document.getElementById('play-pause');
+  let playIcon = document.getElementById('play-icon');
   const progress = document.getElementById('progress');
 
   let hlsInstance = null;
   let isPlaying = false;
+
+  function setPlayIcon() {
+    playPauseBtn.innerHTML = `
+      <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="5,3 19,12 5,21" />
+      </svg>
+    `;
+    playIcon = document.getElementById('play-icon');
+  }
+
+  function setPauseIcon() {
+    playPauseBtn.innerHTML = `
+      <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="4" width="4" height="16"></rect>
+        <rect x="14" y="4" width="4" height="16"></rect>
+      </svg>
+    `;
+    playIcon = document.getElementById('play-icon');
+  }
 
   function playStream(url) {
     if (hlsInstance) {
@@ -170,7 +201,7 @@ tags: [radio, web, streaming, mp3, m3u8]
         hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
           player.play().then(() => {
             playPauseBtn.disabled = false;
-            playPauseBtn.textContent = '??';
+            setPauseIcon();
             isPlaying = true;
           });
         });
@@ -197,7 +228,7 @@ tags: [radio, web, streaming, mp3, m3u8]
         player.addEventListener('loadedmetadata', () => {
           player.play().then(() => {
             playPauseBtn.disabled = false;
-            playPauseBtn.textContent = '??';
+            setPauseIcon();
             isPlaying = true;
           });
         });
@@ -208,7 +239,7 @@ tags: [radio, web, streaming, mp3, m3u8]
       player.src = url;
       player.play().then(() => {
         playPauseBtn.disabled = false;
-        playPauseBtn.textContent = '??';
+        setPauseIcon();
         isPlaying = true;
       });
     }
@@ -224,12 +255,12 @@ tags: [radio, web, streaming, mp3, m3u8]
   playPauseBtn.addEventListener('click', () => {
     if (player.paused) {
       player.play().then(() => {
-        playPauseBtn.textContent = '??';
+        setPauseIcon();
         isPlaying = true;
       });
     } else {
       player.pause();
-      playPauseBtn.textContent = '??';
+      setPlayIcon();
       isPlaying = false;
     }
   });
@@ -249,7 +280,7 @@ tags: [radio, web, streaming, mp3, m3u8]
   document.addEventListener("visibilitychange", () => {
     if (!document.hidden && !isPlaying && player.src) {
       player.play().then(() => {
-        playPauseBtn.textContent = '??';
+        setPauseIcon();
         isPlaying = true;
       });
     }
