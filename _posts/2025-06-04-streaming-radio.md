@@ -10,7 +10,6 @@ bigimg: ['https://marzorati.co/img/post/music_2.jpg', 'https://marzorati.co/img/
 categories: [Music]
 tags: [radio, web, streaming, mp3, m3u8]
 ---
-
 <style>
   .radio-wrapper {
     text-align: center;
@@ -64,29 +63,30 @@ tags: [radio, web, streaming, mp3, m3u8]
     align-items: center;
     justify-content: center;
     gap: 1em;
-    background: #fff8dc;
+    background: #fff;
     padding: 1em;
     border-radius: 1em;
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
-    border: 2px solid #ffd700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #000;
     margin-top: 1em;
   }
 
   #play-pause {
-    background: #ffd700;
-    color: black;
-    font-size: 1.5em;
-    border: none;
-    border-radius: 50%;
-    width: 2.5em;
-    height: 2.5em;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
+  background: #fff;           /* interno bianco */
+  color: #000;                /* icona nera */
+  font-size: 1.5em;
+  border: 3px solid #000;     /* bordo nero */
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
 
-  #play-pause:hover:enabled {
-    background: #ffec3d;
-  }
+#play-pause:hover:enabled {
+  background: #f0f0f0;        /* leggero grigio chiaro al passaggio */
+}
+
 
   #play-pause:disabled {
     opacity: 0.5;
@@ -95,19 +95,11 @@ tags: [radio, web, streaming, mp3, m3u8]
 
   #progress {
     flex: 1;
-    accent-color: #ffd700;
+    accent-color: #000;
+    background-color: #eee;
     height: 8px;
     border-radius: 5px;
     cursor: pointer;
-  }
-
-  #radio-notification {
-    margin-top: 1em;
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #333;
-    display: none;
-    transition: opacity 0.3s ease;
   }
 
   @media (max-width: 600px) {
@@ -122,9 +114,10 @@ tags: [radio, web, streaming, mp3, m3u8]
   }
 </style>
 
+
 <div class="radio-wrapper">
   <div class="radio-container">
-    <label for="radio-select">🎧 Scegli una radio:</label>
+    <label for="radio-select">?? Scegli una radio:</label>
     <select id="radio-select">
       <option value="" disabled selected>-- Select --</option>
       <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">Radio M2O</option>
@@ -137,11 +130,10 @@ tags: [radio, web, streaming, mp3, m3u8]
       <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
       <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
     </select>
-    <p id="radio-notification"></p>
   </div>
 
   <div class="custom-player">
-    <button id="play-pause" class="play" disabled>▶️</button>
+    <button id="play-pause" class="play" disabled>??</button>
     <input type="range" id="progress" value="0" min="0" max="100" step="1">
   </div>
 
@@ -154,7 +146,6 @@ tags: [radio, web, streaming, mp3, m3u8]
   const selector = document.getElementById('radio-select');
   const playPauseBtn = document.getElementById('play-pause');
   const progress = document.getElementById('progress');
-  const notification = document.getElementById('radio-notification');
 
   let hlsInstance = null;
   let isPlaying = false;
@@ -179,10 +170,8 @@ tags: [radio, web, streaming, mp3, m3u8]
         hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
           player.play().then(() => {
             playPauseBtn.disabled = false;
-            playPauseBtn.textContent = '⏸️';
+            playPauseBtn.textContent = '??';
             isPlaying = true;
-          }).catch(() => {
-            showNotification('👉 Tocca ▶️ per riprendere l’ascolto');
           });
         });
 
@@ -190,15 +179,12 @@ tags: [radio, web, streaming, mp3, m3u8]
           if (data.fatal) {
             switch (data.type) {
               case Hls.ErrorTypes.NETWORK_ERROR:
-                console.warn("Errore di rete: riconnessione...");
                 hlsInstance.startLoad();
                 break;
               case Hls.ErrorTypes.MEDIA_ERROR:
-                console.warn("Errore media: recovery...");
                 hlsInstance.recoverMediaError();
                 break;
               default:
-                console.warn("Errore irreversibile: riavvio stream...");
                 hlsInstance.destroy();
                 player.src = '';
                 break;
@@ -211,10 +197,8 @@ tags: [radio, web, streaming, mp3, m3u8]
         player.addEventListener('loadedmetadata', () => {
           player.play().then(() => {
             playPauseBtn.disabled = false;
-            playPauseBtn.textContent = '⏸️';
+            playPauseBtn.textContent = '??';
             isPlaying = true;
-          }).catch(() => {
-            showNotification('👉 Tocca ▶️ per riprendere l’ascolto');
           });
         });
       } else {
@@ -224,10 +208,8 @@ tags: [radio, web, streaming, mp3, m3u8]
       player.src = url;
       player.play().then(() => {
         playPauseBtn.disabled = false;
-        playPauseBtn.textContent = '⏸️';
+        playPauseBtn.textContent = '??';
         isPlaying = true;
-      }).catch(() => {
-        showNotification('👉 Tocca ▶️ per riprendere l’ascolto');
       });
     }
   }
@@ -236,23 +218,18 @@ tags: [radio, web, streaming, mp3, m3u8]
     const url = selector.value;
     if (url) {
       playStream(url);
-
-      const selectedOption = selector.options[selector.selectedIndex];
-      showNotification(`🔊 In ascolto: ${selectedOption.text}`, 6000);
     }
   });
 
   playPauseBtn.addEventListener('click', () => {
     if (player.paused) {
       player.play().then(() => {
-        playPauseBtn.textContent = '⏸️';
+        playPauseBtn.textContent = '??';
         isPlaying = true;
-      }).catch(() => {
-        showNotification('⚠️ Errore nella riproduzione. Tocca di nuovo ▶️.');
       });
     } else {
       player.pause();
-      playPauseBtn.textContent = '▶️';
+      playPauseBtn.textContent = '??';
       isPlaying = false;
     }
   });
@@ -269,30 +246,12 @@ tags: [radio, web, streaming, mp3, m3u8]
     }
   });
 
-  // 🔁 Riprendi la riproduzione quando l'utente torna alla pagina
   document.addEventListener("visibilitychange", () => {
     if (!document.hidden && !isPlaying && player.src) {
       player.play().then(() => {
-        playPauseBtn.textContent = '⏸️';
+        playPauseBtn.textContent = '??';
         isPlaying = true;
-      }).catch(() => {
-        showNotification('📱 Tocca ▶️ per riprendere l’ascolto dopo l’interruzione.');
       });
     }
   });
-
-  // 🛎️ Mostra una notifica temporanea o persistente
-  function showNotification(message, duration = 0) {
-    notification.textContent = message;
-    notification.style.display = 'block';
-    notification.style.opacity = '1';
-    if (duration > 0) {
-      setTimeout(() => {
-        notification.style.opacity = '0';
-        setTimeout(() => {
-          notification.style.display = 'none';
-        }, 500);
-      }, duration);
-    }
-  }
 </script>
