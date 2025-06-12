@@ -136,6 +136,9 @@ tags: [radio, web, streaming, mp3, m3u8]
       <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs</option>
       <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
       <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
+	  <option value="https://ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-48000.m3u8">Il Sole 24 ore</option>
+	  <option value="http://s7.onweb.gr:8410/;">Venus Radio</option>
+      <option value="https://nr15.newradio.it:9100/stream">R.I.N.</option>
     </select>
   </div>
 
