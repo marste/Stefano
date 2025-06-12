@@ -137,7 +137,9 @@ tags: [radio, web, streaming, mp3, m3u8]
       <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
       <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
 	  <option value="https://nr15.newradio.it:9100/stream">R.I.N.</option>
-	  <option value="https://free.rcast.net/271749">HARDCORERADIO.NL</option>
+	  <option value="https://stream1-technolovers.radiohost.de/hardcore">Techno Lovers</option>
+	  <option value="https://sunsl.streamabc.net/sunsl-sunslhardcore-mp3-192-4205144?sABC=684np758%230%23q87143612r9q8n60rpq4452oq31q38qr%23vagreargenqvb-ubera.qr&aw_0_1st.playerid=internetradio-horen.de&amsparams=playerid:internetradio-horen.de;skey:1749731160">Sunshine Hardcore</option>
+	  <option value="https://best-of-techno.stream.laut.fm/best-of-techno?t302=2025-06-12_12-30-01&uuid=72708501-f14f-4e32-9043-cf4dc4f4d99a">Best of Techno</option>
 	  <option value="https://ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-48000.m3u8">Il Sole 24 ore</option>
     </select>
   </div>
