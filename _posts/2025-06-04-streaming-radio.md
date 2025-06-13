@@ -133,7 +133,7 @@ tags: [radio, web, streaming, mp3, m3u8]
 	  <option value="https://a8.asurahosting.com:7890/radio.mp3">Frenchcore24FM</option>
       <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
 	  <option value="https://best-of-techno.stream.laut.fm/best-of-techno?t302=2025-06-12_12-30-01&uuid=72708501-f14f-4e32-9043-cf4dc4f4d99a">Best of Techno</option>
-      <option value="https://streamcdnm1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8">Radio DEEJAY</option>
+      <option value="https://streamcdnm1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8">Radio Deejay</option>
       <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs - Deejay</option>
 	  <option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
 	  <option value="https://nr15.newradio.it:9100/stream">R.I.N.</option>
