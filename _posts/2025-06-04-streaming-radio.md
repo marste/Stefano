@@ -128,7 +128,7 @@ tags: [radio, web, streaming, mp3, m3u8]
     <select id="radio-select">
       <option value="" disabled selected>-- Scegli --</option>
       <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">M2O</option>
-      <option value="https://25303.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web&ttag=talpa_consent%3A1&tdsdk=js-2.9&swm=true&pname=TDSdk&pversion=2.9&banners=none&gdpr=1&gdpr_consent=CQS49vAQS49vAAcABBNLBuFwAP_gAAAAAChQJvQGQAKgAgABkADSAJgAnABiADcAH4AQAAgwBGADjAHeARaAjgCOgElAJcATsArIBnAEUgLzAXsAxkCbwAAABgkAkACoAIIAZABoAEwAPwA7wCOAElAXmOgGAAVABBADIANAAmABiAD8AO8Ai0BHAEdAJKAvMCbxCAGAGIAd4BHCUAUAJgAYgB3gEcAXmUgGAAVABBADIANAAmABiAD8AO8Ai0BHAEdAJKAvMCbxaACARwAA.f_wAAAAAAAAA&burst-time=15&sbmid=31e5a23c-4735-4abe-882e-a186e4fde2c7">538 TOP 50</option>
+      <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
       <option value="https://stream.technolovers.fm/gabber">Gabber</option>
       <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
       <option value="http://technoszene.stream.laut.fm/technoszene">Technoszene</option>
