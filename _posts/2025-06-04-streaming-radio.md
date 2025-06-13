@@ -195,7 +195,7 @@ tags: [radio, web, streaming, mp3, m3u8]
         hlsInstance = new Hls({
           maxBufferLength: 60,
           maxMaxBufferLength: 120,
-          liveSyncDuration: 15,
+          liveSyncDuration: 20,
           enableWorker: true,
         });
 
