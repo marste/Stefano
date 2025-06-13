@@ -38,7 +38,7 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
     background-position: right 0.8em center;
     background-size: 1em;
     transition: border 0.3s ease, box-shadow 0.3s ease;
-    max-width: 250px;
+    max-width: 270px;
     width: 100%;
     margin-top: 0.5em;
   }
