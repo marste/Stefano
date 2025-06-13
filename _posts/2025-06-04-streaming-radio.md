@@ -38,7 +38,7 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
     background-position: right 0.8em center;
     background-size: 1em;
     transition: border 0.3s ease, box-shadow 0.3s ease;
-    max-width: 270px;
+    max-width: 300px;
     width: 100%;
     margin-top: 0.5em;
   }
@@ -126,7 +126,7 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
   <div class="radio-container">
     
     <select id="radio-select">
-      <option value="" disabled selected>---- Scegli ----</option>
+      <option value="" disabled selected>------ Scegli ------</option>
       <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">M2O</option>
       <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
       <option value="https://stream.technolovers.fm/gabber">Gabber</option>
