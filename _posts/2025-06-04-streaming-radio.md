@@ -128,7 +128,7 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
 
 <div class="radio-wrapper">
   <div class="radio-container">
-    <label for="radio-select">Seleziona una radio</label>
+    
     <select id="radio-select">
       <option value="" disabled selected>Scegli una radio</option>
       <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">M2O</option>
