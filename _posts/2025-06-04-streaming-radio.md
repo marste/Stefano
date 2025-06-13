@@ -38,8 +38,11 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
     background-position: right 0.8em center;
     background-size: 1em;
     transition: border 0.3s ease, box-shadow 0.3s ease;
-    max-width: 300px;
-    width: 100%;
+    min-width: 200px;
+    width: auto;
+    max-width: 90vw;
+    text-align: center;
+    text-align-last: center;
     margin-top: 0.5em;
   }
 
@@ -112,8 +115,9 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
 
   @media (max-width: 600px) {
     #radio-select {
-      font-size: 2rem;
+      font-size: 1.8rem;
       padding: 1em;
+      max-width: 100%;
     }
 
     label[for="radio-select"] {
@@ -124,22 +128,22 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
 
 <div class="radio-wrapper">
   <div class="radio-container">
-    
+    <label for="radio-select">Seleziona una radio</label>
     <select id="radio-select">
       <option value="" disabled selected>------ Scegli ------</option>
       <option value="https://streamcdnr14-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">M2O</option>
       <option value="https://22663.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 TOP 50</option>
       <option value="https://stream.technolovers.fm/gabber">Gabber</option>
-	  <option value="https://a8.asurahosting.com:7890/radio.mp3">Frenchcore24FM</option>
+      <option value="https://a8.asurahosting.com:7890/radio.mp3">Frenchcore24FM</option>
       <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
-	  <option value="https://best-of-techno.stream.laut.fm/best-of-techno?t302=2025-06-12_12-30-01&uuid=72708501-f14f-4e32-9043-cf4dc4f4d99a">Best of Techno</option>
+      <option value="https://best-of-techno.stream.laut.fm/best-of-techno?t302=2025-06-12_12-30-01&uuid=72708501-f14f-4e32-9043-cf4dc4f4d99a">Best of Techno</option>
       <option value="https://streamcdnm1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8">Radio Deejay</option>
       <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs - Deejay</option>
-	  <option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
-	  <option value="https://nr15.newradio.it:9100/stream">R.I.N.</option>
+      <option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
+      <option value="https://nr15.newradio.it:9100/stream">R.I.N.</option>
       <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
-	  <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
-	  <option value="https://ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-48000.m3u8">Il Sole 24 ore</option>
+      <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
+      <option value="https://ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-48000.m3u8">Il Sole 24 ore</option>
     </select>
   </div>
 
