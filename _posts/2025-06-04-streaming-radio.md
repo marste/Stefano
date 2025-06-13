@@ -115,7 +115,7 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
 
   @media (max-width: 600px) {
     #radio-select {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       padding: 0.7em;
       max-width: 100%;
     }
