@@ -65,6 +65,32 @@ tags: [webcam, mare, montagna, live, lago]
 </center>
 <p></p>
 
-<video controls autoplay muted>
-    <source src="https://hd-auth.skylinewebcams.com/live.m3u8?a=oja46h8q88vp85m7sflvp3vh14" type="video/mp4">
-</video>
+<!-- SKYLINE STREAMING -->
+<center><strong>SKYLINE WEBCAM LIVE</strong> - Streaming diretto HLS</center>  
+<div style="display: flex; justify-content: center; padding: 1rem;">
+  <video id="video" controls autoplay style="width: 80%; max-width: 800px; border: 1px solid #ccc; border-radius: 8px;"></video>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script>
+  const video = document.getElementById('video');
+  const videoSrc = 'https://hd-auth.skylinewebcams.com/live.m3u8?a=oja46h8q88vp85m7sflvp3vh14';
+
+  if (Hls.isSupported()) {
+    const hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, () => {
+      video.play();
+    });
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    // Safari support
+    video.src = videoSrc;
+    video.addEventListener('loadedmetadata', () => {
+      video.play();
+    });
+  } else {
+    alert("Il tuo browser non supporta lo streaming HLS.");
+  }
+</script>
+<!-- SKYLINE STREAMING -->
