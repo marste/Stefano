@@ -64,33 +64,3 @@ tags: [webcam, mare, montagna, live, lago]
 <a name="windy-webcam-timelapse-player" data-id="1170888461" data-play="day" href="https://windy.com/webcams/1170888461" target="_blank">Capoliveri: Spiaggia di Lacona - Isola d'Elba</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
-
-<!-- SKYLINE STREAMING -->
-<center><strong>SKYLINE WEBCAM LIVE</strong> - Streaming diretto HLS</center>  
-<div style="display: flex; justify-content: center; padding: 1rem;">
-  <video id="video" controls autoplay style="width: 80%; max-width: 800px; border: 1px solid #ccc; border-radius: 8px;"></video>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<script>
-  const video = document.getElementById('video');
-  const videoSrc = 'https://hd-auth.skylinewebcams.com/live.m3u8?a=oja46h8q88vp85m7sflvp3vh14';
-
-  if (Hls.isSupported()) {
-    const hls = new Hls();
-    hls.loadSource(videoSrc);
-    hls.attachMedia(video);
-    hls.on(Hls.Events.MANIFEST_PARSED, () => {
-      video.play();
-    });
-  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    // Safari support
-    video.src = videoSrc;
-    video.addEventListener('loadedmetadata', () => {
-      video.play();
-    });
-  } else {
-    alert("Il tuo browser non supporta lo streaming HLS.");
-  }
-</script>
-<!-- SKYLINE STREAMING -->
