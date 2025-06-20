@@ -6,7 +6,7 @@ share-img: 'https://marzorati.co/img/music.png'
 date: 2025-06-04 07:00:00 +0200
 author: Stefano Marzorati
 layout: page
-bigimg: ['https://marzorati.co/img/post/music_1.jpeg', 'https://marzorati.co/img/post/music_2.jpg', 'https://marzorati.co/img/post/music_3.jpg']
+bigimg: ['https://marzorati.co/img/post/music_1.jpeg', 'https://marzorati.co/img/post/music_2.jpg', 'https://marzorati.co/img/post/music_3.jpg', 'https://marzorati.co/img/post/music_4.png']
 categories: [Music]
 tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, pop]
 ---
