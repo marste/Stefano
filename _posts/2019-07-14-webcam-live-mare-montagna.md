@@ -64,9 +64,7 @@ tags: [webcam, mare, montagna, live, lago]
 <a name="windy-webcam-timelapse-player" data-id="1170888461" data-play="day" href="https://windy.com/webcams/1170888461" target="_blank">Capoliveri: Spiaggia di Lacona - Isola d'Elba</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
 <p></p>
-<iframe src="https://www.skylinewebcams.com/embed/webcam/italia/sicilia/catania/vulcano-etna-sud.html" 
-        width="600" height="400" 
-        frameborder="0" 
-        scrolling="no" 
-        allowfullscreen>
-</iframe>
+
+<video controls autoplay muted>
+    <source src="https://hd-auth.skylinewebcams.com/live.m3u8?a=oja46h8q88vp85m7sflvp3vh14" type="video/mp4">
+</video>
