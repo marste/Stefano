@@ -49,11 +49,6 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Santa Maria Maggiore" src="https://colnaghi.net/druogno-img.php">
 </center>
 <p></p>
-<center><strong>SESTRIERE</strong> - Via Lattea - 2035 metri (Torino)</center>   
-<center>
-<a name="windy-webcam-timelapse-player"  data-id="1666097800" data-play="day" href="https://windy.com/webcams/1666097800" target="_blank">Sestriere: Vialattea - Area Banchetta</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/v2/script/player.js"></script>
-</center>
-<p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
 <img alt="Varese" src="https://www.astrogeo.va.it/webcam/current/campo_dei_fiori_ovest.jpg">
