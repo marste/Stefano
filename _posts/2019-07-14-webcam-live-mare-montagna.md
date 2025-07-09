@@ -44,7 +44,7 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Merano2000" src="https://webcams.meran2000.com/mittager/cam.jpg">
 </center>
 <p></p>
-<center><strong>Santa Maria Maggiore</strong> - Val Vigezzo (Verbania)</center>   
+<center><strong>Santa Maria Maggiore</strong> - 816 metri - Val Vigezzo (Verbano-Cusio-Ossola)</center>   
 <center>
 <img alt="Santa Maria Maggiore" src="https://colnaghi.net/druogno-img.php">
 </center>
