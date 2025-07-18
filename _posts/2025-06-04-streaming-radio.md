@@ -139,8 +139,8 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
       <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
       <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8">Radio Deejay</option>
       <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songsbck/radiodeejay30songsbck/play1.m3u8">30 Songs - Deejay</option>
-	  <option value="https://vdnvsxa1-4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaytime/live.m3u8>Deejay Time</option>
-      <option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
+	  <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2obck/radiom2obck/play1.m3u8">Deejay Time</option>
+	  <option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
       <option value="https://nr15.newradio.it:9100/stream">R.I.N.</option>
 	  <option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s Techno</option>
       <option value="https://nr8.newradio.it:19574/stream">70/80 Hits</option>
