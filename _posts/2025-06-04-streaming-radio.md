@@ -21,6 +21,9 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
 }
 
 .radio-wrapper{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
   text-align:center;
   font-family:var(--font);
   margin-bottom:2em;
