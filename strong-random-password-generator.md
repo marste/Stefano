@@ -27,7 +27,7 @@ tags: [password, generator, strong, random]
   }
 
   .length-slider-wrapper{display:flex;flex-direction:column;align-items:center;margin-bottom:1.5rem;}
-  .length-slider-wrapper label{margin-bottom:.5rem;font-size:1.25rem;}
+  .length-slider-wrapper label{margin-bottom:.5rem;font-size:1.7rem;}
   .length-slider{width:220px;max-width:100%;}
 
   /* Lista opzioni senza bordo e senza legend */
@@ -36,7 +36,7 @@ tags: [password, generator, strong, random]
     text-align:left;
     max-width:260px;
   }
-  .checkboxes label{display:block;margin:.35rem 0;font-size:1.1rem;}
+  .checkboxes label{display:block;margin:.35rem 0;font-size:1.7rem;}
 
   #password-output{
     font-size:1.8rem;font-weight:600;word-break:break-all;
