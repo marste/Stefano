@@ -14,10 +14,12 @@ tags: [password, generator, strong, random]
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
+  /* --- RESET & UTILITIES --- */
   input[type=number]::-webkit-inner-spin-button,
   input[type=number]::-webkit-outer-spin-button {-webkit-appearance:none;margin:0;}
   input[type=number]{-moz-appearance:textfield;}
 
+  /* --- GENERATOR STYLES --- */
   .generator-wrapper{
     font-family:'Open Sans',sans-serif;
     max-width:600px;margin:2rem auto;padding:2rem;background:#fff;
@@ -28,20 +30,12 @@ tags: [password, generator, strong, random]
   .length-slider-wrapper label{margin-bottom:.5rem;font-size:1.25rem;}
   .length-slider{width:220px;max-width:100%;}
 
-  /* FIELDSET con bordo visibile */
-  fieldset{
-    border:1px solid #ccc;
-    border-radius:6px;
-    padding:1rem 1.2rem;
+  /* Lista opzioni senza bordo e senza legend */
+  .checkboxes{
     margin:1rem auto;
+    text-align:left;
     max-width:260px;
   }
-  legend{
-    padding:0 .5rem;
-    font-size:1.15rem;
-    font-weight:600;
-  }
-
   .checkboxes label{display:block;margin:.35rem 0;font-size:1.1rem;}
 
   #password-output{
@@ -49,7 +43,7 @@ tags: [password, generator, strong, random]
     background:#f0f0f0;padding:.6rem 1rem;border-radius:5px;min-width:300px;
   }
 
-  /* PULSANTE COPIA MODERNO */
+  /* Pulsante Copia moderno */
   .copy-btn{
     display:inline-flex;align-items:center;gap:.4rem;
     padding:.55rem .9rem;
@@ -65,7 +59,7 @@ tags: [password, generator, strong, random]
   .copy-btn:hover{background:#0069d9;}
   .copy-btn:focus-visible{outline:2px solid #0053b3;outline-offset:2px;}
   .copy-btn:active{transform:scale(.96);}
-  /* ripple */
+  /* Effetto ripple */
   .copy-btn{position:relative;overflow:hidden;}
   .copy-btn::after{
     content:'';
@@ -76,34 +70,28 @@ tags: [password, generator, strong, random]
     transition:transform .4s,opacity .4s;
     opacity:1;
   }
-  .copy-btn:active::after{
-    transform:scale(4);
-    opacity:0;
-  }
+  .copy-btn:active::after{transform:scale(4);opacity:0;}
 
   .btn{padding:.6rem 1.2rem;font-size:1.5rem;border:none;border-radius:5px;background:#007bff;color:#fff;cursor:pointer;}
   .copy-feedback{font-size:1rem;color:#28a745;margin-top:1rem;display:none;}
 </style>
 
 <main class="generator-wrapper">
-  
+ 
 
   <div class="length-slider-wrapper">
     <label for="lengthRange">Lunghezza: <strong id="lengthValue">16</strong></label>
     <input type="range" id="lengthRange" min="4" max="128" value="16" class="length-slider">
   </div>
 
-  <!-- FIELDSET con bordo e legend visibili -->
-  <fieldset>
-    <legend>Opzioni caratteri</legend>
-    <div class="checkboxes">
-      <label><input type="checkbox" id="uppercase" checked> Lettere maiuscole</label>
-      <label><input type="checkbox" id="lowercase" checked> Lettere minuscole</label>
-      <label><input type="checkbox" id="numbers" checked> Numeri</label>
-      <label><input type="checkbox" id="symbols" checked> Simboli</label>
-      <label><input type="checkbox" id="excludeAmbiguous"> Escludi caratteri ambigui</label>
-    </div>
-  </fieldset>
+  <!-- Opzioni senza fieldset/legend né bordo -->
+  <div class="checkboxes">
+    <label><input type="checkbox" id="uppercase" checked> Lettere maiuscole</label>
+    <label><input type="checkbox" id="lowercase" checked> Lettere minuscole</label>
+    <label><input type="checkbox" id="numbers" checked> Numeri</label>
+    <label><input type="checkbox" id="symbols" checked> Simboli</label>
+    <label><input type="checkbox" id="excludeAmbiguous"> Escludi caratteri ambigui</label>
+  </div>
 
   <div style="display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1.5rem 0;">
     <output id="password-output" aria-live="polite" aria-atomic="true"></output>
@@ -111,7 +99,7 @@ tags: [password, generator, strong, random]
       <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
         <path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"/>
       </svg>
-    
+     
     </button>
   </div>
 
