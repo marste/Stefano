@@ -3,7 +3,7 @@ layout: page
 title: "Strong & Random Password Generator"
 permalink: /strong-random-password-generator/
 date: 2025-06-03 10:00:00 +0200
-description: "Genera password complesse e sicure in un click. Nessun dato inviato al server: tutto avviene localmente nel tuo browser."
+description: "Genera password complesse e sicure in un click. Nessun dato inviato al server."
 image: "https://marzorati.co/img/password.png"
 share-img: "https://marzorati.co/img/password.png"
 tags: [password, generator, strong, random]
@@ -14,103 +14,104 @@ tags: [password, generator, strong, random]
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
-  /* --- RESET & UTILITIES --- */
   input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none; margin: 0;
-  }
-  input[type=number] { -moz-appearance: textfield; }
+  input[type=number]::-webkit-outer-spin-button {-webkit-appearance:none;margin:0;}
+  input[type=number]{-moz-appearance:textfield;}
 
-  /* --- GENERATOR STYLES --- */
-  .generator-wrapper {
-    font-family: 'Open Sans', sans-serif;
-    max-width: 600px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,.1);
-    text-align: center;
+  .generator-wrapper{
+    font-family:'Open Sans',sans-serif;
+    max-width:600px;margin:2rem auto;padding:2rem;background:#fff;
+    border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.1);text-align:center;
   }
 
-  .length-slider-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1.5rem;
+  .length-slider-wrapper{display:flex;flex-direction:column;align-items:center;margin-bottom:1.5rem;}
+  .length-slider-wrapper label{margin-bottom:.5rem;font-size:1.25rem;}
+  .length-slider{width:220px;max-width:100%;}
+
+  /* FIELDSET con bordo visibile */
+  fieldset{
+    border:1px solid #ccc;
+    border-radius:6px;
+    padding:1rem 1.2rem;
+    margin:1rem auto;
+    max-width:260px;
+  }
+  legend{
+    padding:0 .5rem;
+    font-size:1.15rem;
+    font-weight:600;
   }
 
-  .length-slider-wrapper label {
-    margin-bottom: .5rem;
-    font-size: 1.25rem;
+  .checkboxes label{display:block;margin:.35rem 0;font-size:1.1rem;}
+
+  #password-output{
+    font-size:1.8rem;font-weight:600;word-break:break-all;
+    background:#f0f0f0;padding:.6rem 1rem;border-radius:5px;min-width:300px;
   }
 
-  .length-slider {
-    width: 220px;
-    max-width: 100%;
+  /* PULSANTE COPIA MODERNO */
+  .copy-btn{
+    display:inline-flex;align-items:center;gap:.4rem;
+    padding:.55rem .9rem;
+    font-size:1rem;
+    border:none;
+    border-radius:6px;
+    background:#007bff;
+    color:#fff;
+    cursor:pointer;
+    transition:background .25s,transform .1s;
+    box-shadow:0 2px 4px rgba(0,0,0,.15);
+  }
+  .copy-btn:hover{background:#0069d9;}
+  .copy-btn:focus-visible{outline:2px solid #0053b3;outline-offset:2px;}
+  .copy-btn:active{transform:scale(.96);}
+  /* ripple */
+  .copy-btn{position:relative;overflow:hidden;}
+  .copy-btn::after{
+    content:'';
+    position:absolute;
+    border-radius:50%;
+    transform:scale(0);
+    background:rgba(255,255,255,.4);
+    transition:transform .4s,opacity .4s;
+    opacity:1;
+  }
+  .copy-btn:active::after{
+    transform:scale(4);
+    opacity:0;
   }
 
-  .checkboxes {
-    margin: 1rem 0;
-    font-size: 1.2rem;
-    text-align: left;
-    display: inline-block;
-  }
-  .checkboxes label { display: block; margin: .4rem 0; }
-
-  #password-output {
-    font-size: 1.8rem;
-    font-weight: 600;
-    word-break: break-all;
-    background: #f0f0f0;
-    padding: .6rem 1rem;
-    border-radius: 5px;
-    min-width: 300px;
-  }
-
-  .btn {
-    padding: .6rem 1.2rem;
-    font-size: 1.5rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  .copy-feedback {
-    font-size: 1rem;
-    color: #28a745;
-    margin-top: 1rem;
-    display: none;
-  }
+  .btn{padding:.6rem 1.2rem;font-size:1.5rem;border:none;border-radius:5px;background:#007bff;color:#fff;cursor:pointer;}
+  .copy-feedback{font-size:1rem;color:#28a745;margin-top:1rem;display:none;}
 </style>
 
 <main class="generator-wrapper">
+  
 
-  <!-- ✅ Barra lunghezza centrata -->
   <div class="length-slider-wrapper">
-    <label for="lengthRange">
-      Lunghezza: <strong id="lengthValue">16</strong>
-    </label>
+    <label for="lengthRange">Lunghezza: <strong id="lengthValue">16</strong></label>
     <input type="range" id="lengthRange" min="4" max="128" value="16" class="length-slider">
   </div>
 
-  <fieldset class="checkboxes">
+  <!-- FIELDSET con bordo e legend visibili -->
+  <fieldset>
     <legend>Opzioni caratteri</legend>
-    <label><input type="checkbox" id="uppercase" checked> Lettere maiuscole</label>
-    <label><input type="checkbox" id="lowercase" checked> Lettere minuscole</label>
-    <label><input type="checkbox" id="numbers" checked> Numeri</label>
-    <label><input type="checkbox" id="symbols" checked> Simboli</label>
-    <label><input type="checkbox" id="excludeAmbiguous"> Escludi caratteri ambigui</label>
+    <div class="checkboxes">
+      <label><input type="checkbox" id="uppercase" checked> Lettere maiuscole</label>
+      <label><input type="checkbox" id="lowercase" checked> Lettere minuscole</label>
+      <label><input type="checkbox" id="numbers" checked> Numeri</label>
+      <label><input type="checkbox" id="symbols" checked> Simboli</label>
+      <label><input type="checkbox" id="excludeAmbiguous"> Escludi caratteri ambigui</label>
+    </div>
   </fieldset>
 
   <div style="display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1.5rem 0;">
     <output id="password-output" aria-live="polite" aria-atomic="true"></output>
-    <button id="copyBtn" class="btn" aria-label="Copia negli appunti" style="background:#6c757d;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+    <button id="copyBtn" class="copy-btn" aria-label="Copia negli appunti">
+      <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
         <path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"/>
       </svg>
+    
     </button>
   </div>
 
@@ -172,7 +173,6 @@ tags: [password, generator, strong, random]
     }
   }
 
-  /* -- event listeners -- */
   lengthRange.addEventListener('input', () => {
     lengthValue.textContent = lengthRange.value;
     generatePassword();
@@ -186,6 +186,6 @@ tags: [password, generator, strong, random]
     }
   });
 
-  generatePassword(); // prima generazione al caricamento
+  generatePassword();
 })();
 </script>
