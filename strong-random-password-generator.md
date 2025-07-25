@@ -14,14 +14,14 @@ tags: [password, generator, strong, random]
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
-  /* Reset spinners */
+  /* --- RESET & UTILITIES --- */
   input[type=number]::-webkit-inner-spin-button,
   input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+    -webkit-appearance: none; margin: 0;
   }
   input[type=number] { -moz-appearance: textfield; }
 
+  /* --- GENERATOR STYLES --- */
   .generator-wrapper {
     font-family: 'Open Sans', sans-serif;
     max-width: 600px;
@@ -33,9 +33,21 @@ tags: [password, generator, strong, random]
     text-align: center;
   }
 
+  .length-slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .length-slider-wrapper label {
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+  }
+
   .length-slider {
-    width: 100%;
-    max-width: 220px;
+    width: 220px;
+    max-width: 100%;
   }
 
   .checkboxes {
@@ -44,7 +56,6 @@ tags: [password, generator, strong, random]
     text-align: left;
     display: inline-block;
   }
-
   .checkboxes label { display: block; margin: .4rem 0; }
 
   #password-output {
@@ -76,13 +87,14 @@ tags: [password, generator, strong, random]
 </style>
 
 <main class="generator-wrapper">
-  
 
-  <label for="lengthRange">
-    Lunghezza: <strong id="lengthValue">16</strong>
-  </label>
-  <br>
-  <input type="range" id="lengthRange" min="4" max="128" value="16" class="length-slider">
+  <!-- ✅ Barra lunghezza centrata -->
+  <div class="length-slider-wrapper">
+    <label for="lengthRange">
+      Lunghezza: <strong id="lengthValue">16</strong>
+    </label>
+    <input type="range" id="lengthRange" min="4" max="128" value="16" class="length-slider">
+  </div>
 
   <fieldset class="checkboxes">
     <legend>Opzioni caratteri</legend>
@@ -160,7 +172,7 @@ tags: [password, generator, strong, random]
     }
   }
 
-  // Init
+  /* -- event listeners -- */
   lengthRange.addEventListener('input', () => {
     lengthValue.textContent = lengthRange.value;
     generatePassword();
@@ -174,6 +186,6 @@ tags: [password, generator, strong, random]
     }
   });
 
-  generatePassword();
+  generatePassword(); // prima generazione al caricamento
 })();
 </script>
