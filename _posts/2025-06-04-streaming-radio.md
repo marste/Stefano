@@ -20,60 +20,98 @@ tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, 
   --font: sans-serif;
 }
 
-.radio-wrapper{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  text-align:center;
-  font-family:var(--font);
-  margin-bottom:2em;
+.radio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font);
+  margin-bottom: 2em;
+  width: 100%;
+  padding: 0 1em;
 }
-label[for="radio-select"]{
-  font:bold 2rem/1 var(--font);
-  margin-bottom:.3em;
-  display:block;
+
+label[for="radio-select"] {
+  font: bold 2rem/1 var(--font);
+  margin-bottom: .3em;
+  display: block;
 }
-#radio-select{
-  font-size:1.5rem;
-  padding:.75em 1.2em;
-  border:1px solid #ccc;
-  border-radius:var(--radius);
-  background:var(--bg) url("data:image/svg+xml,%3Csvg fill='gray' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") right .8em center / 1em no-repeat;
-  appearance:none;
-  min-width:200px;
-  max-width:90vw;
-  text-align:center;
-  text-align-last:center;
-  outline:none;
-  transition:border .3s, box-shadow .3s;
+
+#radio-select {
+  font-size: 1.5rem;
+  padding: .75em 1.2em;
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+  background: var(--bg) url("data:image/svg+xml,%3Csvg fill='gray' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") right .8em center / 1em no-repeat;
+  appearance: none;
+  min-width: 200px;
+  max-width: 90vw;
+  text-align: center;
+  text-align-last: center;
+  outline: none;
+  transition: border .3s, box-shadow .3s;
 }
-#radio-select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(74,144,226,.2)}
-.custom-player{
-  display:inline-flex;
-  align-items:center;
-  gap:1em;
-  padding:1em;
-  border:3px solid var(--border);
-  border-radius:var(--radius);
-  box-shadow:0 0 10px rgba(0,0,0,.1);
-  margin-top:1em;
-  background:#fff;
+
+#radio-select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(74,144,226,.2);
 }
-#play-pause{
-  width:2.5em;height:2.5em;
-  border:3px solid var(--border);
-  border-radius:50%;
-  background:#fff;
-  cursor:pointer;
-  transition:.3s;
-  display:grid;place-items:center;
+
+.custom-player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 1em;
+  border: 3px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  margin-top: 1em;
+  background: #fff;
+  width: 100%;
+  max-width: 1000px;
+  box-sizing: border-box;
 }
-#play-pause:disabled{opacity:.5;cursor:not-allowed}
-#play-pause:hover:enabled{background:#f0f0f0}
-#progress{flex:1;height:8px;border-radius:5px;accent-color:var(--border);background:#eee;cursor:pointer}
-@media(max-width:600px){
-  #radio-select{font-size:1.8rem;padding:.7em}
-  label[for="radio-select"]{font-size:1.5rem}
+
+#play-pause {
+  width: 2.5em;
+  height: 2.5em;
+  border: 3px solid var(--border);
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  transition: .3s;
+  display: grid;
+  place-items: center;
+}
+
+#play-pause:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+#play-pause:hover:enabled {
+  background: #f0f0f0;
+}
+
+#progress {
+  flex: 1;
+  height: 8px;
+  border-radius: 5px;
+  accent-color: var(--border);
+  background: #eee;
+  cursor: pointer;
+}
+
+@media(max-width:600px) {
+  #radio-select {
+    font-size: 1.8rem;
+    padding: .7em;
+  }
+
+  label[for="radio-select"] {
+    font-size: 1.5rem;
+  }
 }
 </style>
 
