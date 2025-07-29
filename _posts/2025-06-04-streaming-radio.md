@@ -118,7 +118,7 @@ label[for="radio-select"] {
 <div class="radio-wrapper">
   <label for="radio-select">Scegli una radio</label>
   <select id="radio-select">
-    <option value="" disabled selected>Scegli…</option>
+    <option value="" disabled selected>Scegli una radio</option>
     <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2obck/radiom2obck/play1.m3u8">M2O</option>
     <option value="https://22333.live.streamtheworld.com/TLPSTR16.mp3?dist=538_web">538 Party Zone</option>
     <option value="https://stream.technolovers.fm/gabber">Gabber</option>
