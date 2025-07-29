@@ -116,7 +116,7 @@ label[for="radio-select"] {
 </style>
 
 <div class="radio-wrapper">
-  <label for="radio-select">Scegli una radio</label>
+  
   <select id="radio-select">
     <option value="" disabled selected>Scegli una radio</option>
     <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2obck/radiom2obck/play1.m3u8">M2O</option>
