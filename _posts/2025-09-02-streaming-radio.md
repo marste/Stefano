@@ -1,6 +1,6 @@
 ---
 title: Streaming Radio
-permalink: /radio1/
+permalink: /radio/
 image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
 date: 2025-06-04 07:00:00 +0200
