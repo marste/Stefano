@@ -96,7 +96,7 @@ label[for="radio-select"] {
 
 .meta {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 .meta .title {
   font-weight: 700;
@@ -107,7 +107,7 @@ label[for="radio-select"] {
 .vis-wrap {
   width: 100%;
   background: #fff;
-  border-top: 3px solid var(--border);
+   /* border-top: 3px solid var(--border); <-- RIMOSSA */
   border-bottom: 3px solid var(--border);
   position: relative;
 }
