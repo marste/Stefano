@@ -114,7 +114,7 @@ label[for="radio-select"] {
 #visualizer {
   width: 100%;
   display: block;
-  height: clamp(160px, 33vw, 380px);
+  height: clamp(160px, 33vw, 180px);
 }
 .vis-overlay {
   position: absolute; inset: 0;
