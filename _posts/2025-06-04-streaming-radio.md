@@ -64,7 +64,7 @@ label[for="radio-select"] {
   justify-content: space-between;
   gap: 1em;
   padding: 1em;
-  border: 3px solid var(--border);
+   /* border: 3px solid var(--border);  <-- RIMOSSA */
   border-radius: var(--radius);
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   margin-top: 1em;
