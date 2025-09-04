@@ -138,19 +138,17 @@ label[for="radio-select"] {
   <select id="radio-select">
     <option value="" disabled selected>— seleziona —</option>
     <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2obck/radiom2obck/play1.m3u8">M2O</option>
-    <option value="https://22333.live.streamtheworld.com/TLPSTR16.mp3?dist=538_web">538 Party Zone</option>
+    <option value="https://22533.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 Top 50</option>
+	<option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
+	<option value="https://vdnvsxa1-4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaytime/live.m3u8">Deejay Time</option>
+	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8">Radio Deejay</option>
+	<option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
+	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songsbck/radiodeejay30songsbck/play1.m3u8">30 Songs - Deejay</option>
     <option value="https://stream.technolovers.fm/gabber">Gabber</option>
     <option value="https://listen5.myradio24.com/eugenijus">Eugenijus Radio</option>
     <option value="https://a8.asurahosting.com:7890/radio.mp3">Frenchcore24FM</option>
-    <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
-    <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8">Radio Deejay</option>
-    <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songsbck/radiodeejay30songsbck/play1.m3u8">30 Songs - Deejay</option>
-    <option value="https://vdnvsxa1-4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaytime/live.m3u8">Deejay Time</option>
-    <option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
-    <option value="https://nr15.newradio.it:9100/stream">R.I.N.</option>
     <option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s</option>
-    <option value="https://regiocast.streamabc.net/regc-80s80stechno-mp3-192-6907852">80s 80s Techno</option>
-	<option value="https://altair.streamerr.co:8124/stream">Deep House FM</option>
+    <option value="https://altair.streamerr.co:8124/stream">Deep House FM</option>
     <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
     <option value="https://ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-48000.m3u8">Il Sole 24 ore</option>
   </select>
