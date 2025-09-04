@@ -146,6 +146,7 @@ label[for="radio-select"] {
 	<option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
 	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songsbck/radiodeejay30songsbck/play1.m3u8">30 Songs - Deejay</option>
     <option value="https://stream.technolovers.fm/gabber">Gabber</option>
+	<option value="http://213.141.131.10:8002/gabber">Gabber2</option>
     <option value="https://listen5.myradio24.com/eugenijus">Eugenijus Radio</option>
     <option value="https://a8.asurahosting.com:7890/radio.mp3">Frenchcore24FM</option>
     <option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s</option>
