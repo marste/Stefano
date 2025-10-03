@@ -212,7 +212,7 @@ function loadRSS(feedUrl, targetDivId, maxCount = 10) {
 document.addEventListener("DOMContentLoaded", function() {
     // Definizione dei feed
     const feeds = [
-        { id: 'divRssUltimissime', url: 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml' },
+        { id: 'divRssUltimissime', url: 'https://www.rainews.it/rss/tutti' },
         { id: 'divRssPrincipali', url: 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it' },
         { id: 'divRssItalia', url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtbDBLQUFQAQ?hl=it&gl=IT&ceid=IT:it' },
         { id: 'divRssEconomia', url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtbDBHZ0pKVkNnQVAB?hl=it&gl=IT&ceid=IT:it' },
