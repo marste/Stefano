@@ -8,14 +8,14 @@ share-img: 'https://marzorati.co/img/ricette.png'
 categories: [Ricette]
 tags: [ricetta, tortillas, burrito, acqua, sale, farina, olio]
 ---
-Dosi per **6 tortillas** da circa 100 grammi.   
+Dosi per **4 tortillas** da circa 160 grammi.   
 
 **Ingredienti:**   
 
-  - 345 gr di farina 0 o 00
-  - 188 gr di acqua calda
+  - 400 gr di farina 0 o 00
+  - 220 gr di acqua calda
   - 15 gr di olio extra vergine di oliva
-  - 4,5 gr di sale
+  - 5 gr di sale
 
 <center><img src="https://marzorati.co/img/post/piadina.jpg" alt="Piadina senza lievito"></center>  
 
@@ -24,7 +24,7 @@ Dosi per **6 tortillas** da circa 100 grammi.
 1. Riscaldare l'acqua.   
 2. In una ciotola mettete la farina, l'acqua calda, l'olio e il sale e impastate fino ad ottenere un impasto morbido e liscio.   
 3. Lascia riposare l'impasto 5/10 minuti al massimo.   
-4. Dividete l'impasto in 4 palline da 100 grammi e stendete ogni pallina con un mattarello a forma di cerchio. (non occorre infarinare il piano di lavoro, al limite infarina la pallina di pasta)    
+4. Dividete l'impasto in 4 palline da 160 grammi e stendete ogni pallina con un mattarello a forma di cerchio. (non occorre infarinare il piano di lavoro, al limite infarina la pallina di pasta)    
 5. Scaldate una padella antiaderente con un po' di burro e cuocete a fuoco medio una piadina alla volta, 1-2 minuti per lato.   
 6. Per mantenere le tortillas morbide, metterle sotto una campana o una ciotola in modo da preservarne l'umidità.
 
