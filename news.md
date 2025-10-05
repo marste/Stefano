@@ -82,8 +82,8 @@ share-img: 'https://marzorati.co/img/news.png'
 <div id="divRssUltimissime"></div>
 <script>
     $('#divRssUltimissime').FeedEk({
-    FeedUrl : 'https://www.rainews.it/rss/tutti',
-    MaxCount : 10,
+    FeedUrl : 'https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml',
+    MaxCount : 20,
 	ShowPubDate:true,
     ShowDesc : true,
     TitleLinkTarget:'_blank',
