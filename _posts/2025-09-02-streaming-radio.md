@@ -140,13 +140,14 @@ label[for="radio-select"] {
     <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">M2O</option>
     <option value="https://22533.live.streamtheworld.com/TLPSTR13.mp3?dist=538_web">538 Top 50</option>
 	<option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
-	<option value="https://technoszene.stream.laut.fm/technoszene?t302=2025-09-04_20-27-09&uuid=33966a16-a5a5-42e7-9544-679d7dd8de74">Technoszene</option>
+	<option value="https://techno-revival.stream.laut.fm/techno-revival?ref=web-app&start_time=1759669832984">Techno Revival</option>
 	<option value="https://vdnvsxa1-4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaytime/live.m3u8">Deejay Time</option>
 	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8">Radio Deejay</option>
 	<option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
-	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songsbck/radiodeejay30songsbck/play1.m3u8">30 Songs - Deejay</option>
+	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs - Deejay</option>
     <option value="https://stream.technolovers.fm/gabber">Gabber</option>
-	<option value="https://listen5.myradio24.com/eugenijus">Eugenijus Radio</option>
+	<option value="https://audio-edge-3mayu.fra.h.radiomast.io/0cef93cd-5974-43b1-868e-c739e81f4f2b">Happy Hardcore</option>
+	<option value="https://listen5.myradio24.com/eugenijus">Truckers Rave Radio</option>
     <option value="https://a8.asurahosting.com:7890/radio.mp3">Frenchcore24FM</option>
     <option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s</option>
     <option value="https://altair.streamerr.co:8124/stream">Deep House FM</option>
