@@ -187,7 +187,8 @@ label[for="radio-select"] {
   const canvas = document.getElementById('visualizer');
   const ctx = canvas.getContext('2d');
   let hls = null;
-  let audioCtx, analyser, source, dataArray;
+  let audioCtx = null;
+  let analyser, source, dataArray;
   let isPlaying = false;
   const stations = Array.from(selector.options).map(o => ({url: o.value, name: o.text}));
   let currentIndex = -1;
@@ -208,6 +209,15 @@ label[for="radio-select"] {
     analyser.connect(audioCtx.destination);
     analyser.fftSize = 256;
     dataArray = new Uint8Array(analyser.frequencyBinCount);
+    // Gestione stato AudioContext
+    audioCtx.onstatechange = () => {
+      console.log('AudioContext state:', audioCtx.state);
+      if ((audioCtx.state === 'suspended' || audioCtx.state === 'interrupted') && isPlaying) {
+        audioCtx.resume().then(() => {
+          console.log('AudioContext resumed');
+        }).catch(err => console.error('Error resuming AudioContext:', err));
+      }
+    };
     draw();
   }
   function draw() {
@@ -237,11 +247,8 @@ label[for="radio-select"] {
 
     const play = () => {
       audio.play().then(() => {
-        playBtn.disabled = false;
-        setPlayIcon(true);
-        isPlaying = true;
-        nowEl.textContent = 'In riproduzione';
-        setupVisualizer();
+        playBtn.disabled = false; setPlayIcon(true); isPlaying = true;
+        nowEl.textContent = 'In riproduzione'; setupVisualizer();
       }).catch((err) => {
         console.log('Errore durante la riproduzione:', err);
         nowEl.textContent = 'Errore, ritento...';
@@ -282,52 +289,58 @@ label[for="radio-select"] {
       play();
     }
   }
-
-  // Gestione errori audio generici
-  audio.addEventListener('error', () => {
-    console.log('Errore nell\'audio, tentativo di riconnessione...');
-    nowEl.textContent = 'Errore, riconnessione...';
-    setTimeout(() => {
-      loadStream(currentIndex);
-    }, 2000);
+  selector.addEventListener('change', () => { const i = selector.selectedIndex; if (i > 0) loadStream(i); });
+  playBtn.addEventListener('click', () => {
+    if (!audio.src) return;
+    if (audio.paused) { 
+      audio.play().catch(err => console.error('Error on manual play:', err)); 
+      setPlayIcon(true); 
+      nowEl.textContent = 'In riproduzione'; 
+    } else { 
+      audio.pause(); 
+    }
   });
-
-  // Gestione ripresa dopo pausa
+  audio.addEventListener('pause', () => { setPlayIcon(false); nowEl.textContent = 'In pausa'; isPlaying = false; });
+  audio.addEventListener('playing', () => { setPlayIcon(true); nowEl.textContent = 'In riproduzione'; isPlaying = true; });
+  audio.addEventListener('error', () => {
+    console.log('Errore audio, tentativo di riconnessione...');
+    nowEl.textContent = 'Errore, riconnessione...';
+    setTimeout(() => loadStream(currentIndex), 2000);
+  });
   audio.addEventListener('play', () => {
     if (navigator.onLine) {
       nowEl.textContent = 'In riproduzione';
       setPlayIcon(true);
       isPlaying = true;
     } else {
-      nowEl.textContent = 'Nessuna connessione di rete';
+      nowEl.textContent = 'Nessuna connessione';
       audio.pause();
       setPlayIcon(false);
     }
   });
-
-  audio.addEventListener('pause', () => {
-    setPlayIcon(false);
-    nowEl.textContent = 'In pausa';
-  });
-
-  // Gestione eventi rete
   window.addEventListener('online', () => {
-    if (!audio.src || audio.paused) return;
-    nowEl.textContent = 'Riconnessione...';
-    loadStream(currentIndex);
+    if (audio.src && audio.paused && currentIndex >= 0) {
+      nowEl.textContent = 'Riconnessione...';
+      loadStream(currentIndex);
+    }
   });
-
   window.addEventListener('offline', () => {
-    nowEl.textContent = 'Offline';
-    audio.pause();
-    setPlayIcon(false);
+    nowEl.textContent = 'Offline, in attesa di connessione...';
   });
-
-  selector.addEventListener('change', () => { const i = selector.selectedIndex; if (i > 0) loadStream(i); });
-  playBtn.addEventListener('click', () => {
-    if (!audio.src) return;
-    if (audio.paused) { audio.play(); setPlayIcon(true); nowEl.textContent = 'In riproduzione'; }
-    else { audio.pause(); }
+  // Gestione visibilità per resume su mobile
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && !audio.paused && currentIndex >= 0) {
+      nowEl.textContent = 'Ripresa...';
+      audio.play().catch(err => {
+        console.error('Error resuming audio on visibility change:', err);
+        nowEl.textContent = 'Tocca Play per riprendere';
+      });
+      if (audioCtx && (audioCtx.state === 'suspended' || audioCtx.state === 'interrupted')) {
+        audioCtx.resume().then(() => {
+          console.log('AudioContext resumed on visibility change');
+        }).catch(err => console.error('Error resuming AudioContext:', err));
+      }
+    }
   });
   prevBtn.addEventListener('click', () => { if (currentIndex > 1) loadStream(currentIndex - 1); });
   nextBtn.addEventListener('click', () => { if (currentIndex < stations.length - 1) loadStream(currentIndex + 1); });
