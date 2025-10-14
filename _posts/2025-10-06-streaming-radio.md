@@ -134,7 +134,6 @@ label[for="radio-select"] {
 	<option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
 	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs - Deejay</option>
     <option value="https://stream.technolovers.fm/gabber">Gabber</option>
-	<option value="https://audio-edge-3mayu.fra.h.radiomast.io/0cef93cd-5974-43b1-868e-c739e81f4f2b">Happy Hardcore</option>
 	<option value="https://listen5.myradio24.com/eugenijus">Truckers Rave Radio</option>
     <option value="https://a8.asurahosting.com:7890/radio.mp3">Frenchcore24FM</option>
     <option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s</option>
