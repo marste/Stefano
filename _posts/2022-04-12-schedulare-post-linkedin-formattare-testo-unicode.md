@@ -3,8 +3,8 @@ title: "Schedulare post su Linkedin"
 subtitle: Formattare testo con convertitore UNICODE
 date: 2025-10-20 08:23:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/text.png'
-share-img: 'https://marzorati.co/img/text.png'
+image: 'https://marzorati.co/img/linkedin.png'
+share-img: 'https://marzorati.co/img/linkedin.png'
 layout: post
 categories: [Social]
 tags: [schedulare, post, linkedin, twitter, unicode, free, converter]

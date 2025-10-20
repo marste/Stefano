@@ -2,8 +2,8 @@
 title: "Strumenti Online per la Gestione e la Personalizzazione del Testo: Conteggio, Conversione, Ordinamento e Codifica"
 date: 2025-10-20 16:23:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/linkedin.png'
-share-img: 'https://marzorati.co/img/linkedin.png'
+image: 'https://marzorati.co/img/text.png'
+share-img: 'https://marzorati.co/img/text.png'
 layout: post
 categories: [Social]
 tags: [Strumenti Testo, Contatore Parole, Caratteri Speciali, Confronto Testi, Ripetitore Testo, Convertitore Testo, Ordine Alfabetico, Codice Binario, Codice Morse, Carattere Invisibile, Font Estetici, Testo Personalizzato, Social Media, Scrittura Creativa, Unicode, Instagram, WhatsApp, Discord, Strumenti Online]
