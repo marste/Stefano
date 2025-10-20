@@ -23,7 +23,9 @@ Qua di seguito alcuni siti:
 
 👉 <a href="https://emojiterra.com/it/" target="_blank">https://emojiterra.com/it/</a>   
 
-Il sito **Character Calculator** (https://charactercalculator.com/it/font-changer/) offre un **generatore di testi** online per creare font estetici e caratteri speciali.   
+Il sito **Character Calculator** offre un **generatore di testi** online per creare font estetici e caratteri speciali.   
 Serve a trasformare testi normali in stili personalizzati (es. grassetto, corsivo, bolle, fraktur, ecc.) da utilizzare su piattaforme come Instagram, WhatsApp, Facebook, Discord.   
 Basta inserire il testo, scegliere lo stile desiderato e copiarlo.   
-Sfrutta i caratteri Unicode per generare simboli non presenti sulla tastiera, rendendo i testi unici e originali.
+Sfrutta i caratteri Unicode per generare simboli non presenti sulla tastiera, rendendo i testi unici e originali.   
+
+👉 <a href="https://charactercalculator.com/it/font-changer/" target="_blank">https://charactercalculator.com/it/font-changer/</a>   
