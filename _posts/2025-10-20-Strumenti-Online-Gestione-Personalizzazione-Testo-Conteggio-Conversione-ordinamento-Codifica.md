@@ -36,4 +36,4 @@ Crea testi estetici con font come grassetto, corsivo, bolle o fraktur. Perfetto 
 👻 **Carattere invisibile** (invisible-character)  
 Copia caratteri invisibili per inviare messaggi vuoti su WhatsApp, nascondere nomi su Instagram o compilare moduli online senza inserire dati. Un trucco creativo per aggirare restrizioni!
 
-💻 Visita **CharacterCalculator.com** per provare questi strumenti gratuiti e rendere i tuoi testi più creativi, organizzati e funzionali!
+💻 Visita <a href="https://charactercalculator.com/" target="_blank">https://charactercalculator.com/</a> per provare questi strumenti gratuiti e rendere i tuoi testi più creativi, organizzati e funzionali!
