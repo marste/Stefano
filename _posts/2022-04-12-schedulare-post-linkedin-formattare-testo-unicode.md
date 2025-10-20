@@ -1,7 +1,7 @@
 ---
 title: "Schedulare post su Linkedin"
 subtitle: Formattare testo con convertitore UNICODE
-date: 2022-04-12 08:23:00 +0200
+date: 2025-10-20 08:23:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/linkedin.png'
 share-img: 'https://marzorati.co/img/linkedin.png'
@@ -22,3 +22,8 @@ Qua di seguito alcuni siti:
 👉 <a href="https://yaytext.com/" target="_blank">https://yaytext.com/</a>   
 
 👉 <a href="https://emojiterra.com/it/" target="_blank">https://emojiterra.com/it/</a>   
+
+Il sito **Character Calculator** (https://charactercalculator.com/it/font-changer/) offre un **generatore di testi** online per creare font estetici e caratteri speciali.   
+Serve a trasformare testi normali in stili personalizzati (es. grassetto, corsivo, bolle, fraktur, ecc.) da utilizzare su piattaforme come Instagram, WhatsApp, Facebook, Discord.   
+Basta inserire il testo, scegliere lo stile desiderato e copiarlo.   
+Sfrutta i caratteri Unicode per generare simboli non presenti sulla tastiera, rendendo i testi unici e originali.
