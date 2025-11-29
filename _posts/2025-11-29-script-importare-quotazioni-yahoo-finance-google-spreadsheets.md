@@ -8,13 +8,13 @@ layout: post
 categories: [Financial]
 tags: [spreadsheets, importare, apps, script, quotazioni, yahoo, finance, google, reddit]
 ---
-Se avete bisogno di importare le quotazioni dei vostri titoli azionari o ETF in Google Sheets in modo che si aggiornino automaticamente, potete usare l'apps script qua sotto.   
-Per farlo funzionare occorre semplicemente aprire un foglio di lavoro su <a href="https://docs.google.com/spreadsheets/" target="_blank">https://docs.google.com/spreadsheets/</a> e andare su **Estensioni** e **Apps Script**.   
-Cliccare sul **+** a finaco di **File** e selezionare **Script**.   
-Dare un titolo a piacere al file (non implica nulla sul funzionamento).   
-Elimina il contenuto già presente e incolla lo script che trovi qua di seguito.   
-Salva cliccando sull'icona del floppydisk o premi ctrl+s.  
-Ora torna nel tuo foglio di spreadsheets e utilizzando le varie funzioni di esempio, avrai il risultato voluto.   
+- Se avete bisogno di importare le quotazioni dei vostri titoli azionari o ETF in Google Sheets in modo che si aggiornino automaticamente, potete usare l'apps script qua sotto.   
+- Per farlo funzionare occorre semplicemente aprire un foglio di lavoro su <a href="https://docs.google.com/spreadsheets/" target="_blank">https://docs.google.com/spreadsheets/</a> e andare su **Estensioni** e **Apps Script**.   
+- Cliccare sul **+** a fianco di **File** e selezionare **Script**.   
+- Dare un titolo a piacere al file (non implica nulla sul funzionamento).   
+- Elimina il contenuto già presente e incolla lo script che trovi qua di seguito.   
+- Salva cliccando sull'icona del floppydisk o premi ctrl+s.  
+- Ora torna nel tuo foglio di spreadsheets e utilizzando le varie funzioni di esempio, avrai il risultato voluto.   
 
 ```
 /**
