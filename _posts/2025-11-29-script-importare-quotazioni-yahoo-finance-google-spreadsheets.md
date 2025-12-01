@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/money.png'
 share-img: 'https://marzorati.co/img/money.png'
 layout: post
 categories: [Financial]
-tags: [spreadsheets, importare, apps, script, quotazioni, yahoo, finance, google, reddit]
+tags: [spreadsheets, importare, apps, script, quotazioni, yahoo, finance, google, sheets, reddit]
 ---
 - Se avete bisogno di importare le quotazioni dei vostri titoli azionari o ETF in Google Sheets in modo che si aggiornino automaticamente, potete usare l'apps script qua sotto.   
 - Per farlo funzionare occorre semplicemente aprire un foglio di lavoro su <a href="https://docs.google.com/spreadsheets/" target="_blank">https://docs.google.com/spreadsheets/</a> e andare su **Estensioni** e **Apps Script**.   
