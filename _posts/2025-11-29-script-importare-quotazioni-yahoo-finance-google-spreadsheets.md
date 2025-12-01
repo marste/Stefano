@@ -1,5 +1,5 @@
 ---
-title: "Apps Script per importare le quotazioni da Yahoo Finance in Google Spreadsheets"
+title: "Apps Script per importare le quotazioni da Yahoo Finance in Google Sheets"
 date: 2025-11-29 13:23:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/money.png'
