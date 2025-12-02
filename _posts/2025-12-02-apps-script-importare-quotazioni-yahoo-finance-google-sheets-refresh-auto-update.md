@@ -194,5 +194,3 @@ Sarà poi sufficiente modificare la formula così:
 =ULTIMO(SWDA.MI; Refresh!A1)
 =VARGIORN(SWDA.MI; Refresh!A1)
 ```
-
-Trovate la mia pubblicazione anche su <a href="https://www.reddit.com/r/ItaliaPersonalFinance/comments/1p98nup/comment/nrd7yzm/" target="_blank">Reddit</a>
