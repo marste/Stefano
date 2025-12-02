@@ -1,1 +1,0 @@
-touch ads.js
