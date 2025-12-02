@@ -1,6 +1,6 @@
 ---
 title: "Apps Script per importare le quotazioni da Yahoo Finance in Google Sheets con aggiornamento automatico"
-date: 2025-12-02 13:23:00 +0200
+date: 2025-12-02 11:23:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/money.png'
 share-img: 'https://marzorati.co/img/money.png'
