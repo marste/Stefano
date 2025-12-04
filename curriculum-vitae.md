@@ -17,18 +17,17 @@ share-img: 'https://marzorati.co/img/cv.png'
 
 **Principali competenze ed attività trasversali:**
 
-* <b>Miglioramento processi aziendali:</b> Implementato strategie per ottimizzare i processi aziendali, riducendo inefficienze e aumentando la produttività del team.
-* <b>Gestione delle infrastrutture:</b> Supervisione completa delle infrastrutture IT aziendali, garantendo la continuità operativa e l'aggiornamento tecnologico continuo.
-* <b>Virtualizzazione:</b> Sviluppato e gestito ambienti virtualizzati per ottimizzare l'uso delle risorse hardware e migliorare la scalabilità e flessibilità dell'infrastruttura IT.
-* <b>Cybersecurity:</b> Implementato soluzioni di sicurezza informatica per proteggere i dati aziendali, con particolare attenzione alla prevenzione delle minacce e alla gestione delle vulnerabilità.
-* <b>Team leadership:</b> Guidato un team IT multidisciplinare, promuovendo una cultura di collaborazione e crescita professionale.
-* <b>Infrastruttura di rete:</b> Gestito l'infrastruttura di rete aziendale, garantendo connettività sicura e affidabile in tutti i siti aziendali.
-* <b>Problem solving:</b> Risolto problemi complessi legati all'infrastruttura IT e ai processi aziendali, assicurando il ripristino rapido delle operazioni critiche.
-* <b>Project management:</b> Gestito progetti IT dall'inizio alla fine, rispettando tempi, costi e obiettivi stabiliti, con un focus particolare sulla qualità e sulla soddisfazione degli stakeholder.
-* <b>Pianificazione collaborativa, previsione e rifornimento:</b> Collaborato con diversi dipartimenti per pianificare le esigenze future, gestire il rifornimento e garantire la continuità operativa.
-* <b>Gestione e negoziazione contratti:</b> Gestito e negoziato contratti con fornitori e partner tecnologici, ottenendo condizioni vantaggiose per l'azienda.
-* <b>Stesura budget:</b> Redatto e monitorato il budget IT, garantendo un utilizzo efficiente delle risorse finanziarie.
-* <b>Pianificazione, definizione del budget e previsioni:</b> Sviluppato piani strategici e finanziari per il reparto IT, con previsioni accurate e allineate agli obiettivi aziendali a lungo termine.   
+Nel corso della mia esperienza, mi sono occupato di **migliorare i processi aziendali** attraverso l'implementazione di strategie mirate, che hanno permesso di ridurre le inefficienze e aumentare significativamente la produttività del team.
+
+Ho avuto la **responsabilità completa della gestione delle infrastrutture IT**, assicurando la massima continuità operativa e guidando il costante aggiornamento tecnologico. In questo contesto, ho sviluppato e gestito **ambienti virtualizzati** per ottimizzare l'utilizzo delle risorse hardware, migliorando così la scalabilità e la flessibilità dell'intero ecosistema IT.
+
+Un aspetto a cui ho sempre dedicato grande attenzione è la **cybersecurity**. Ho implementato soluzioni di sicurezza per proteggere i dati aziendali, concentrandomi sia sulla prevenzione proattiva delle minacce che sulla gestione delle vulnerabilità.
+
+Ho guidato con successo un **team IT multidisciplinare**, promuovendo una cultura di forte collaborazione e crescita professionale. La mia attività ha incluso la **gestione dell'infrastruttura di rete**, garantendo una connettività sicura e affidabile tra tutti i siti aziendali.
+
+Nel quotidiano, ho applicato le mie capacità di **problem solving** per risolvere situazioni complesse legate all'infrastruttura e ai processi, assicurando sempre il ripristino rapido delle operazioni critiche. Queste competenze sono state fondamentali anche nella **gestione di progetti IT** end-to-end, che ho portato a termine rispettando tempi, budget e obiettivi, con un costante focus sulla qualità e sulla soddisfazione degli stakeholder.
+
+A livello di pianificazione, ho **collaborato con vari dipartimenti** per anticipare le esigenze future, gestire il rifornimento e garantire la continuità operativa. Sul fronte economico e contrattuale, ho **gestito e negoziato contratti** con fornitori e partner, ottenendo condizioni vantaggiose, e mi sono occupato della **stesura e del monitoraggio del budget IT**, assicurando un uso efficiente delle risorse. Queste attività sono parte integrante di un più ampio lavoro di **pianificazione strategica, definizione del budget e previsioni** per il dipartimento IT, che sviluppo in allineamento con gli obiettivi aziendali a lungo termine.
 
 ___
 
