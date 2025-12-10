@@ -131,5 +131,3 @@ function _getMaxInfo(ticker, dataInizio, mode) {
   } catch (e) { return "Errore"; }
 }
 ```
-
-Trovate la mia pubblicazione anche su <a href="https://www.reddit.com/r/ItaliaPersonalFinance/comments/1p98nup/comment/nrd7yzm/" target="_blank">Reddit</a>
