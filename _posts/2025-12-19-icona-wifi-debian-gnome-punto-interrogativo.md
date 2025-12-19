@@ -38,3 +38,8 @@ Salva, esci e riavvia con:
 ```
 sudo systemctl restart NetworkManager
 ```
+
+Altri URL di connectivity check:   
+- http://connectivitycheck.gstatic.com/generate_204
+- http://www.gstatic.com/generate_204
+- http://connectivitycheck.android.com/generate_204
