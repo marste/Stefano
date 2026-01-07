@@ -26,7 +26,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>MACUGNAGA - Staffa</strong> - 1390 metri (Verbano-Cusio-Ossola)</center>   
 <center>
-<img alt="Macugnaga" src="https://www.distrettolaghi.it/it/webcams/macugnaga-valle-anzasca">
+<img alt="Macugnaga" src="https://webcamdtl.it/macugnaga.jpg">
 </center>
 <p></p>
 <center><strong>MACUGNAGA</strong> - Parete Est Monte Rosa (Verbano-Cusio-Ossola)</center>   
