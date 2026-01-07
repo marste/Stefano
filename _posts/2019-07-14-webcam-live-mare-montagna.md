@@ -49,11 +49,6 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Druogno" src="https://webcamdtl.it/baitinavigezzo.jpg">
 </center>
 <p></p>
-<center><strong>Terme di Premia</strong> - 800 metri - Val Vigezzo (Verbano-Cusio-Ossola)</center>   
-<center>
-<img alt="Terme di Premia" src="https://lagomaggiorexperience.it/webcam/public/premia.jpg">
-</center>
-<p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
 <img alt="Varese" src="https://www.astrogeo.va.it/webcam/current/campo_dei_fiori_ovest.jpg">
