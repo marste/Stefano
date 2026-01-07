@@ -51,7 +51,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>Terme di Premia</strong> - 800 metri - Premia (Verbano-Cusio-Ossola)</center>   
 <center>
-<img alt="Premia" src="https://lagomaggiorexperience.it/webcam/public/premia.jpg?1767800188">
+<img alt="Premia" src="https://lagomaggiorexperience.it/webcam/public/premia.jpg?1767800328">
 </center>
 <p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
