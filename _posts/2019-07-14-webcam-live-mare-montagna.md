@@ -24,9 +24,9 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Chamois" src="http://www.comune.chamois.ao.it/wcam/webcam_images/chamois.jpg">
 </center>
 <p></p>
-<center><strong>MACUGNAGA</strong> - Lago delle Fate (Verbano-Cusio-Ossola)</center>   
+<center><strong>MACUGNAGA - Staffa</strong> - 1390 metri (Verbano-Cusio-Ossola)</center>   
 <center>
-<img alt="Macugnaga" src="https://www.meteolivevco.it/httpdocs/it/images/cam/lagodellefate.jpg">
+<img alt="Macugnaga" src="https://www.distrettolaghi.it/it/webcams/macugnaga-valle-anzasca">
 </center>
 <p></p>
 <center><strong>MACUGNAGA</strong> - Parete Est Monte Rosa (Verbano-Cusio-Ossola)</center>   
