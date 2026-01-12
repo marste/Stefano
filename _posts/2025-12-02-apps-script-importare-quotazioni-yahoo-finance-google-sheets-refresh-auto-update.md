@@ -1,6 +1,6 @@
 ---
 title: "Apps Script per importare le quotazioni da Yahoo Finance in Google Sheets con aggiornamento automatico"
-date: 2025-12-02 11:23:00 +0200
+date: 2026-01-12 08:23:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/money.png'
 share-img: 'https://marzorati.co/img/money.png'
@@ -17,176 +17,202 @@ tags: [sheets, importare, apps, script, quotazioni, yahoo, finance, google, shee
 - Ora torna nel tuo foglio di spreadsheets e utilizzando le varie funzioni di esempio, avrai il risultato voluto.   
 
 ```
-/**
- * AUTO-REFRESH 2025
- * Funzioni Sheets:
- *  =ULTIMO("SWDA.MI")
- *  =VARGIORN("SWDA.MI")
- *  =YTD("SWDA.MI")
- *  =MAXVAL("SWDA.MI"; "2025-01-01")
- *  =MAXDATE("SWDA.MI"; "2025-01-01")
- *  =MAXINFO("SWDA.MI")
+/*************************************************
+ * FUNZIONI FINANZA – VERSIONE 12/01/2026
  *
- * Aggiornamento automatico:
- *  - il trigger chiama FORZA_REFRESH
- *  - Refresh!A1 cambia → forza il ricalcolo di tutte le funzioni
- */
+ * =ULTIMO("SWDA.MI")
+ * =VARGIORN("SWDA.MI")
+ * =YTD("SWDA.MI")
+ * =VARPER("SWDA.MI"; 30)
+ * =MAXDATE("SWDA.MI"; "1y")
+ * =MAXVAL("SWDA.MI"; "5y")
+ * =MAXINFO("SWDA.MI"; "7y")
+ * =FORZA_REFRESH()
+ *************************************************/
 
-////////////////////////////////////////////////////////////////////////////////
-// -------------- MODULO AUTO REFRESH ----------------------------------------//
-////////////////////////////////////////////////////////////////////////////////
+function _fetchChart(ticker, range, interval) {
+  const url =
+    "https://query1.finance.yahoo.com/v8/finance/chart/" +
+    encodeURIComponent(ticker) +
+    "?range=" + range +
+    "&interval=" + interval +
+    "&includePrePost=false";
 
-/**
- * Crea o aggiorna il foglio Refresh, che forza il ricalcolo.
- * Da collegare a un trigger (es. ogni 5 minuti).
- */
+  const res = UrlFetchApp.fetch(url, {
+    muteHttpExceptions: true,
+    headers: { "User-Agent": "Mozilla/5.0" }
+  });
+
+  const json = JSON.parse(res.getContentText());
+  return json?.chart?.result?.[0] || null;
+}
+
+/***********************
+ * ULTIMO PREZZO
+ ***********************/
+function ULTIMO(ticker) {
+  if (!ticker) return "Ticker?";
+  const r = _fetchChart(ticker, "5d", "1d");
+  const prices = r?.indicators?.quote?.[0]?.close;
+  if (!prices) return "Dati non disponibili";
+
+  for (let i = prices.length - 1; i >= 0; i--) {
+    if (prices[i] != null) return Number(prices[i].toFixed(4));
+  }
+  return "No prezzi";
+}
+
+/***********************
+ * VARIAZIONE GIORNALIERA %
+ ***********************/
+function VARGIORN(ticker) {
+  if (!ticker) return "Ticker?";
+  const r = _fetchChart(ticker, "5d", "1d");
+  const p = r?.indicators?.quote?.[0]?.close;
+  if (!p || p.length < 2) return "Dati incompleti";
+
+  let last = null, prev = null;
+  for (let i = p.length - 1; i >= 0; i--) {
+    if (p[i] != null) {
+      if (last === null) last = p[i];
+      else { prev = p[i]; break; }
+    }
+  }
+  if (last === null || prev === null) return "Dati incompleti";
+  return Number((((last - prev) / prev) * 100).toFixed(2));
+}
+
+/***********************
+ * VARIAZIONE YTD %
+ ***********************/
+function YTD(ticker) {
+  if (!ticker) return "Ticker?";
+  const r = _fetchChart(ticker, "ytd", "1d");
+  const p = r?.indicators?.quote?.[0]?.close;
+  if (!p) return "Dati incompleti";
+
+  let first = null, last = null;
+  for (let v of p) {
+    if (v != null) {
+      if (first === null) first = v;
+      last = v;
+    }
+  }
+  if (first === null || last === null) return "Dati incompleti";
+  return Number((((last - first) / first) * 100).toFixed(2));
+}
+
+/***********************
+ * VARIAZIONE % SU N GIORNI
+ ***********************/
+function VARPER(ticker, giorni) {
+  if (!ticker) return "Ticker?";
+  if (!giorni || giorni < 1) return "Periodo?";
+
+  const range = Math.max(giorni + 5, 30) + "d";
+  const r = _fetchChart(ticker, range, "1d");
+  const p = r?.indicators?.quote?.[0]?.close;
+  if (!p) return "Dati incompleti";
+
+  const clean = p.filter(v => v != null);
+  if (clean.length <= giorni) return "Dati incompleti";
+
+  const last = clean[clean.length - 1];
+  const past = clean[clean.length - 1 - giorni];
+  return Number((((last - past) / past) * 100).toFixed(2));
+}
+
+/***********************
+ * MAX VALORE DA DATA
+ * Parametri: ticker, range obbligatorio, dataInizio opzionale
+ ***********************/
+function MAXVAL(ticker, range, dataInizio) {
+  return _maxCore(ticker, dataInizio, "value", range);
+}
+
+/***********************
+ * DATA DEL MASSIMO
+ ***********************/
+function MAXDATE(ticker, range, dataInizio) {
+  return _maxCore(ticker, dataInizio, "date", range);
+}
+
+/***********************
+ * MAX INFO
+ ***********************/
+function MAXINFO(ticker, range, dataInizio) {
+  return _maxCore(ticker, dataInizio, "full", range);
+}
+
+/***********************
+ * CORE MASSIMO
+ ***********************/
+function _maxCore(ticker, dataInizio, mode, range="1y") {
+  if (!ticker || !range) return "Ticker o range mancante";
+  const r = _fetchChart(ticker, range, "1d");
+  if (!r) return "Errore Yahoo";
+
+  const prices = r.indicators?.quote?.[0]?.close;
+  const ts = r.timestamp;
+  if (!prices || !ts) return "Dati incompleti";
+
+  let startTs = 0;
+  if (dataInizio) {
+    const d = new Date(dataInizio);
+    if (!isNaN(d.getTime())) startTs = Math.floor(d.getTime() / 1000);
+  }
+
+  let maxP = -Infinity, maxT = null;
+  for (let i = 0; i < prices.length; i++) {
+    if (prices[i] == null || ts[i] < startTs) continue;
+    if (prices[i] > maxP) {
+      maxP = prices[i];
+      maxT = ts[i];
+    }
+  }
+  if (maxT === null) return "No dati";
+
+  const ultimo = ULTIMO(ticker);
+  const drawdown = typeof ultimo === "number" ? Number((((ultimo - maxP) / maxP) * 100).toFixed(2)) : "—";
+
+  const dataMax = Utilities.formatDate(new Date(maxT*1000), Session.getScriptTimeZone(), "dd/MM/yyyy");
+
+  if (mode === "value") return Number(maxP.toFixed(4));
+  if (mode === "date") return dataMax;
+
+  return [
+    ["Ticker", ticker],
+    ["Prezzo attuale", ultimo],
+    ["Var. oggi %", VARGIORN(ticker)],
+    ["Massimo", Number(maxP.toFixed(4))],
+    ["Data massimo", dataMax],
+    ["Drawdown %", drawdown],
+    ["YTD %", YTD(ticker)]
+  ];
+}
+
+/***********************
+ * FORZA REFRESH
+ ***********************/
 function FORZA_REFRESH() {
-  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const ss = SpreadsheetApp.getActive();
   let sh = ss.getSheetByName("Refresh");
-  if (!sh) sh = ss.insertSheet("Refresh");
-
-  sh.getRange("A1").setValue(new Date()); // timestamp → ricalcolo globale
+  if (!sh) {
+    sh = ss.insertSheet("Refresh");
+    sh.hideSheet();
+  }
+  sh.getRange("A1").setValue(new Date());
 }
 
-/**
- * Restituisce l'ultimo timestamp di refresh,
- * usato come parametro nascosto nelle funzioni.
- */
-function _REF() {
-  const ss = SpreadsheetApp.getActiveSpreadsheet();
-  const sh = ss.getSheetByName("Refresh");
-  if (!sh) return new Date();  // fallback
-  return sh.getRange("A1").getValue();
-}
-
-////////////////////////////////////////////////////////////////////////////////
-// -------------- FUNZIONI PRINCIPALI (con refresh invisibile) --------------//
-////////////////////////////////////////////////////////////////////////////////
-
-function ULTIMO(ticker, refresh = _REF()) {
-  if (!ticker) return "Ticker?";
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}`;
-  try {
-    const json = JSON.parse(UrlFetchApp.fetch(url, {muteHttpExceptions: true}).getContentText());
-    if (json.chart?.error) return "Errore";
-    return Number(json.chart.result[0].meta.regularMarketPrice.toFixed(4));
-  } catch (e) { return "—"; }
-}
-
-function VARGIORN(ticker, refresh = _REF()) {
-  if (!ticker) return "Ticker?";
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}`;
-  try {
-    const json = JSON.parse(UrlFetchApp.fetch(url, {muteHttpExceptions: true}).getContentText());
-    if (json.chart?.error) return "Errore";
-    const meta = json.chart.result[0].meta;
-    const cambio = meta.regularMarketPrice - meta.previousClose;
-    const perc = (cambio / meta.previousClose) * 100;
-    return Number(perc.toFixed(2));
-  } catch (e) { return "—"; }
-}
-
-function YTD(ticker, refresh = _REF()) {
-  if (!ticker) return "Ticker?";
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=ytd&interval=1d`;
-  try {
-    const json = JSON.parse(UrlFetchApp.fetch(url, {muteHttpExceptions: true}).getContentText());
-    if (json.chart?.error) return "Errore";
-    const result = json.chart.result[0];
-    if (!result) return "No dati";
-
-    let prices = result.indicators?.adjclose?.[0]?.adjclose || result.indicators?.quote?.[0]?.close || [];
-    if (!prices || prices.length === 0) return "No prezzi";
-
-    let primo = null, ultimo = null;
-    for (let p of prices) {
-      if (p !== null && p !== undefined) {
-        if (primo === null) primo = p;
-        ultimo = p;
-      }
-    }
-    if (!primo || !ultimo) return "Dati incompleti";
-
-    return Number((((ultimo - primo) / primo) * 100).toFixed(2));
-  } catch (e) { return "Errore YTD: " + e.toString(); }
-}
-
-function MAXVAL(ticker, dataInizio = "", refresh = _REF()) { 
-  return _getMaxInfo(ticker, dataInizio, "value");
-}
-function MAXDATE(ticker, dataInizio = "", refresh = _REF()) { 
-  return _getMaxInfo(ticker, dataInizio, "date");
-}
-function MAXINFO(ticker, dataInizio = "", refresh = _REF()) { 
-  return _getMaxInfo(ticker, dataInizio, "full");
-}
-
-////////////////////////////////////////////////////////////////////////////////
-// -------------- FUNZIONE INTERNA MAX --------------------------------------//
-////////////////////////////////////////////////////////////////////////////////
-
-function _getMaxInfo(ticker, dataInizio, mode) {
-  if (!ticker) return "Ticker?";
-  const range = dataInizio ? "5y" : "max";
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=${range}&interval=1d`;
-
-  try {
-    const json = JSON.parse(UrlFetchApp.fetch(url, {muteHttpExceptions: true}).getContentText());
-    if (json.chart?.error) return "Errore";
-
-    const r = json.chart.result[0];
-    const prices = r.indicators?.adjclose?.[0]?.adjclose || r.indicators?.quote?.[0]?.close;
-    const ts = r.timestamp;
-
-    const live = r.meta.regularMarketPrice;
-    const prevClose = r.meta.previousClose;
-    const cambioGiorno = live - prevClose;
-    const percGiorno = ((cambioGiorno / prevClose) * 100).toFixed(2);
-
-    let start = 0;
-    if (dataInizio) {
-      const d = (dataInizio instanceof Date) ? dataInizio : new Date(dataInizio);
-      if (isNaN(d.getTime())) return "Data errata";
-      start = Math.floor(d.getTime() / 1000);
-    }
-
-    let maxP = -Infinity, maxT = null;
-    for (let i = 0; i < prices.length; i++) {
-      if (prices[i] === null || ts[i] < start) continue;
-      if (prices[i] > maxP) { maxP = prices[i]; maxT = ts[i]; }
-    }
-    if (maxT === null) return "No dati";
-
-    const drawdown = ((live - maxP) / maxP * 100).toFixed(2);
-
-    switch (mode) {
-      case "value": 
-        return Number(maxP.toFixed(4));
-      case "date": 
-        return new Date(maxT * 1000);
-      case "full":
-        return [
-          ["Ticker", ticker],
-          ["Prezzo attuale", live.toFixed(4)],
-          ["Var. oggi", (cambioGiorno > 0 ? "+" : "") + cambioGiorno.toFixed(4) + " (" + percGiorno + "%)"],
-          ["Massimo", maxP.toFixed(4)],
-          ["Data massimo", Utilities.formatDate(new Date(maxT * 1000), Session.getScriptTimeZone(), "dd/MM/yyyy")],
-          ["Drawdown", drawdown + "%"],
-          ["YTD 2025", YTD(ticker) + "%"],
-          ["Periodo", dataInizio ? "dal " + Utilities.formatDate(new Date(start * 1000), Session.getScriptTimeZone(), "dd/MM/yyyy") : "storico"]
-        ];
-    }
-  } catch (e) { return "Errore"; }
-}
 ```
 
 Ora, sempre da **Apps Script** andate sull'icona ad orologio **Attivatori**.   
 - Scegliere la funzione da eseguire, selezionando: **FORZA_REFRESH**
 - Selezionare l'origine dell'evento, selezionando: **Evento vincolato a specifiche temporali**
 - Selezionare il tipo di attivatore basato sull'orario, selezionando: **Timer in minuti**
-- Selezionare intervallo in minuti, selezionando: **Ogni 5 minuti**
+- Selezionare intervallo in minuti, selezionando: **Ogni 30 minuti**
 
-Nel foglio, verrà creato in automatico un nuovo sheet che si chiamerà **Refresh** e nella cella A1 comparirà la data attuale che verrà refreshata ogni 5 minuti.   
+Nel foglio, verrà creato in automatico un nuovo sheet che si chiamerà **Refresh** e nella cella A1 comparirà la data attuale che verrà refreshata ogni 30 minuti.   
 
 Sarà poi sufficiente modificare la formula così:
 
