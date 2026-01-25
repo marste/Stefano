@@ -36,7 +36,7 @@ tags: [password, generator, strong, random]
       font-weight: bold;
     }
   </style>
-</head>
+
 <body>
 
 <h1>Ricerca prodotti</h1>
