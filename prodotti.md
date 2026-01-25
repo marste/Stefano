@@ -9,9 +9,18 @@ share-img: "https://marzorati.co/img/password.png"
 tags: [password, generator, strong, random]
 ---
 
+
   <style>
     body {
       font-family: Arial, sans-serif;
+    }
+
+    textarea {
+      width: 100%;
+      height: 160px;
+      padding: 10px;
+      font-size: 15px;
+      margin-bottom: 15px;
     }
 
     input {
@@ -29,17 +38,28 @@ tags: [password, generator, strong, random]
     li {
       padding: 10px;
       border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
     }
 
     .prezzo {
-      float: right;
       font-weight: bold;
+      white-space: nowrap;
     }
   </style>
-
+  
 <body>
 
 <h1>Ricerca prodotti</h1>
+
+<p><strong>Lista prodotti</strong> (una riga per prodotto)</p>
+
+<textarea id="productSource">
+Pere Abate;2,59 €/Kg
+Banane;1,79 €/Kg
+Mele Rubinia;2,99 €/Kg
+Arance Tarocco;2,49 €/Kg
+</textarea>
 
 <input
   type="text"
@@ -47,34 +67,46 @@ tags: [password, generator, strong, random]
   placeholder="Cerca prodotto..."
 >
 
-<ul id="productList">
-  <li data-nome="mela rubinia">
-    Mela Rubinia <span class="prezzo">€ 2,99</span>
-  </li>
-  <li data-nome="banana">
-    Banana <span class="prezzo">€ 1,79</span>
-  </li>
-  <li data-nome="arancia tarocco">
-    Arancia Tarocco <span class="prezzo">€ 2,49</span>
-  </li>
-  <li data-nome="pera abate">
-    Pera Abate <span class="prezzo">€ 3,10</span>
-  </li>
-</ul>
+<ul id="productList"></ul>
 
 <script>
+  const textarea = document.getElementById('productSource');
+  const list = document.getElementById('productList');
   const searchInput = document.getElementById('searchInput');
-  const products = document.querySelectorAll('#productList li');
+
+  function renderList() {
+    list.innerHTML = '';
+
+    const lines = textarea.value.split('\n');
+
+    lines.forEach(line => {
+      if (!line.includes(';')) return;
+
+      const [nome, prezzo] = line.split(';');
+
+      const li = document.createElement('li');
+      li.dataset.nome = nome.toLowerCase();
+      li.innerHTML = `
+        <span>${nome.trim()}</span>
+        <span class="prezzo">${prezzo.trim()}</span>
+      `;
+
+      list.appendChild(li);
+    });
+  }
+
+  textarea.addEventListener('input', renderList);
 
   searchInput.addEventListener('keyup', () => {
     const filter = searchInput.value.toLowerCase();
-
-    products.forEach(product => {
-      const nome = product.dataset.nome;
-      product.style.display = nome.includes(filter) ? '' : 'none';
+    document.querySelectorAll('#productList li').forEach(li => {
+      li.style.display = li.dataset.nome.includes(filter) ? '' : 'none';
     });
   });
+
+  // inizializzazione
+  renderList();
 </script>
 
 </body>
-
+</html>
