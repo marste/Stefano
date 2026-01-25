@@ -4,8 +4,8 @@ title: "Ricerca Prezzi Prodotti"
 permalink: /prezzi-prodotti/
 date: 2025-06-03 10:00:00 +0200
 description: "Ricerca veloce dei prezzi dei prodotti. Tutto in locale, nessun dato inviato al server."
-image: "https://marzorati.co/img/carrello.png"
-share-img: "https://marzorati.co/carrello.png"
+image: "https://marzorati.co/img/salvadanaio.jpg"
+share-img: "https://marzorati.co/img/salvadanaio.jpg"
 tags: [prezzi, prodotti, spesa, esselunga]
 ---
 <style>
