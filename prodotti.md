@@ -48,48 +48,48 @@ tags: [prezzi, prodotti, ricerca]
   autofocus
 >
 
-<!-- SORGENTE DATI NASCOSTA -->
 <textarea id="productSource">
 Tovaglioli monovelo Esselunga 350;2,65 €
 Sovracoscia pollo;5,69 €/kg
 Pollo a fette;11,30 €/kg
 Gorgonzola;16 €/kg
 Bagno doccia Esselunga;1,70 €/L
+Carta igienica 4 rotoli;3 €
+Wafer Esselunga;4,46 €/kg
+Pasta Esselunga;1,30 €/kg
+Lenticchie in scatola;3,05 €/kg
+Ceci in scatola;2,69 €/kg
 </textarea>
 
 <ul id="productList"></ul>
 
 <script>
-  const textarea = document.getElementById('productSource');
-  const list = document.getElementById('productList');
-  const searchInput = document.getElementById('searchInput');
+  const textarea = document.getElementById("productSource");
+  const list = document.getElementById("productList");
+  const searchInput = document.getElementById("searchInput");
 
   function renderList() {
-    list.innerHTML = '';
-
+    list.innerHTML = "";
     const filter = searchInput.value.toLowerCase();
-    const lines = textarea.value.split('\n');
+    const lines = textarea.value.split("\n");
 
     lines.forEach(line => {
-      if (!line.includes(';')) return;
+      if (!line.includes(";")) return;
 
-      const [nome, prezzo] = line.split(';');
-      const nomeClean = nome.trim();
+      const parts = line.split(";");
+      const nome = parts[0].trim();
+      const prezzo = parts[1].trim();
 
-      if (!nomeClean.toLowerCase().includes(filter)) return;
+      if (!nome.toLowerCase().includes(filter)) return;
 
-      const li = document.createElement('li');
+      const li = document.createElement("li");
       li.innerHTML = `
-        <span>${nomeClean}</span>
-        <span class="prezzo">${prezzo.trim()}</span>
+        <span>${nome}</span>
+        <span class="prezzo">${prezzo}</span>
       `;
-
       list.appendChild(li);
     });
   }
 
-  searchInput.addEventListener('keyup', renderList);
-
-  // inizializzazione (lista vuota finché non cerchi)
-  list.innerHTML = '';
+  searchInput.addEventListener("keyup", renderList);
 </script>
