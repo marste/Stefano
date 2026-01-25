@@ -99,7 +99,7 @@ Pasta Esselunga;1,30 €/kg
 Lenticchie in scatola;3,05 €/kg
 Ceci in scatola;2,69 €/kg
 Exquisa;8,30 €/kg
-Galbabino Esselunga;7,39 €/kg
+Galbanino Esselunga;7,39 €/kg
 Riso Carnaroli Gallo;2,58 €/kg
 Tortellini;7,78€/kg
 Grana Padano 16 mesi; 12€/kg
