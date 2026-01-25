@@ -91,13 +91,41 @@ tags: [prezzi, prodotti, spesa, esselunga]
 Tovaglioli monovelo Esselunga 350;2,65 €
 Sovracoscia pollo;5,69 €/kg
 Pollo a fette;11,30 €/kg
-Gorgonzola;16,00 €/kg
+Gorgonzola;16 €/kg
 Bagno doccia Esselunga;1,70 €/L
-Fazzoletti 10 pacchi;2,19 €
-Latte parzialmente scremato 1L;1,55 €
-Pasta di semola 500g;0,89 €
-Pomodori pelati 400g;0,79 €
-Olio extravergine 1L;7,90 €
+Carta igienica 4 rotoli;3 €
+Wafer Esselunga;4,46 €/kg
+Pasta Esselunga;1,30 €/kg
+Lenticchie in scatola;3,05 €/kg
+Ceci in scatola;2,69 €/kg
+Exquisa;8,30 €/kg
+Galbabino Esselunga;7,39 €/kg
+Riso Carnaroli Gallo;2,58 €/kg
+Tortellini;7,78€/kg
+Grana Padano 16 mesi; 12€/kg
+Parmigiano Reggiano 24 mesi;17 €/kg
+Caffè Solubile Aldi;29,95 €/kg
+Cacao amaro;2,07 €/kg
+Brioschi;10,91 €/kg
+Testine OralB; 2,33 cad.
+Caffè Lavazza Dek;15,98 €/kg
+Gorgonzola Santi;18 €/Kg
+Detersivo Felce Azzurra;2,16 €/L
+Detersivo lavatrice;1,85 €/L
+Shampoo Johnson;3,84 €/L
+Pancetta affumicata;22 €/kg
+Farina 0 Esselunga 13gr;1,19 €/kg
+Scottona Iperal;20 €/kg
+Farina Caputo Oro 14 gr Conad;1,49 €/kg
+Sapone liquido Dove;2,58 €/l
+Prosciutto Crudo;45 €/kg
+Prosciutto Cotto;17 €/kg
+Coppa;30 €/kg
+Salamino;14 €/kg
+Bresaola;31 €/kg
+Pancetta;18 €/kg
+Mortadella Bologna;12 €/kg
+Speck;28 €/kg
 </textarea>
 
 <script>
