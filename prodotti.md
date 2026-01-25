@@ -54,10 +54,11 @@ tags: [password, generator, strong, random]
 <p><strong>Lista prodotti</strong> (una riga per prodotto)</p>
 
 <textarea id="productSource">
-Pere Abate;2,59 €/Kg
-Banane;1,79 €/Kg
-Mele Rubinia;2,99 €/Kg
-Arance Tarocco;2,49 €/Kg
+Tovaglioli monovelo Esselunga 350;2,65 €
+Sovracoscia pollo;5,69 €/kg
+Pollo a fette;11,30 €/kg
+Gorgonzola;16 €/kg
+Bagno doccia Esselunga;1,70 €/L
 </textarea>
 
 <input
