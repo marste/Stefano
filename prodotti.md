@@ -50,7 +50,6 @@ tags: [password, generator, strong, random]
   
 <body>
 
-<h1>Ricerca prodotti</h1>
 
 <p><strong>Lista prodotti</strong> (una riga per prodotto)</p>
 
