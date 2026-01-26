@@ -81,7 +81,7 @@ tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
   <input
     type="text"
     id="searchInput"
-    placeholder="Inizia a scrivere il nome del prodotto per vedere i prezzi"
+    placeholder="Inizia a scrivere il nome del prodotto..."
     autofocus
     autocomplete="off"
   />
