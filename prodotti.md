@@ -10,12 +10,7 @@ tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
 ---
 
 <style>
-  .content-wrapper {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 16px;
-    box-sizing: border-box;
-  }
+  
 
   input[type="text"] {
     width: 100%;
