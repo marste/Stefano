@@ -81,7 +81,7 @@ tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
   <input
     type="text"
     id="searchInput"
-    placeholder="Cerca un prodotto (es. gorgonzola, pollo, tovaglioli…)"
+    placeholder="Inizia a scrivere il nome del prodotto per vedere i prezzi"
     autofocus
     autocomplete="off"
   />
@@ -157,7 +157,7 @@ Speck;28 €/kg
     if (!filter) {
       productList.innerHTML = `
         <li class="no-results">
-          Inizia a scrivere il nome del prodotto per vedere i prezzi
+          
         </li>
       `;
       return;
