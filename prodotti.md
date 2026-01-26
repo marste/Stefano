@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ricerca Prezzi Prodotti"
+title: "Ricerca Prezzi"
 permalink: /prezzi-prodotti/
 date: 2025-06-03 10:00:00 +0200
 description: "Ricerca veloce dei prezzi dei prodotti"
@@ -10,7 +10,7 @@ tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
 ---
 
 <style>
-  /* Solo lo spazio centrale per questa pagina – non tocca body globale */
+  
   #search-container {
     max-width: 720px;
     margin: 2rem auto 3rem auto;
@@ -89,7 +89,6 @@ tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
   <ul id="productList"></ul>
 
 </div>
-
 
 
   <textarea id="productSource" hidden>
