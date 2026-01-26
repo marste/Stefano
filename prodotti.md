@@ -133,7 +133,7 @@ Mortadella Bologna;12 €/kg
 Speck;28 €/kg
   </textarea>
 
-</div>
+
 
 <script>
   const searchInput   = document.getElementById("searchInput");
