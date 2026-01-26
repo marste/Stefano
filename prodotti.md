@@ -139,50 +139,59 @@ Speck;28 €/kg
   const productList   = document.getElementById("productList");
   const productSource = document.getElementById("productSource");
 
+  // Parse una sola volta (molto più veloce anche con 200+ prodotti)
   const products = productSource.value
     .split("\n")
     .map(l => l.trim())
     .filter(l => l && l.includes(";"))
     .map(l => {
       const [name, price] = l.split(";");
-      return {
-        name: name.trim(),
-        price: price.trim()
-      };
+      return { name: name.trim(), price: price.trim() };
     });
 
   function renderList() {
-    const filter = searchInput.value.toLowerCase().trim();
+    const filter = searchInput.value.trim().toLowerCase();
     productList.innerHTML = "";
 
-    const matches = filter
-      ? products.filter(p => p.name.toLowerCase().includes(filter))
-      : products;
-
-    if (!matches.length) {
-      const li = document.createElement("li");
-      li.className = "no-results";
-      li.textContent = "Nessun prodotto trovato";
-      productList.appendChild(li);
+    // Se non c'è niente scritto → messaggio di benvenuto
+    if (!filter) {
+      productList.innerHTML = `
+        <li class="no-results">
+          Inizia a scrivere il nome del prodotto per vedere i prezzi
+        </li>
+      `;
       return;
     }
 
-    const fragment = document.createDocumentFragment();
+    const matches = products.filter(p => 
+      p.name.toLowerCase().includes(filter)
+    );
 
+    if (matches.length === 0) {
+      productList.innerHTML = `
+        <li class="no-results">
+          Nessun prodotto trovato per "<strong>${searchInput.value}</strong>"
+        </li>
+      `;
+      return;
+    }
+
+    // Mostra solo i risultati
+    const fragment = document.createDocumentFragment();
     matches.forEach(p => {
       const li = document.createElement("li");
-
       li.innerHTML = `
         <span class="product-name">${p.name}</span>
         <span class="prezzo">${p.price}</span>
       `;
-
       fragment.appendChild(li);
     });
-
     productList.appendChild(fragment);
   }
 
+  // All'apertura mostra il messaggio di benvenuto
   renderList();
+
+  // Aggiorna mentre scrivi (input è più fluido di keyup)
   searchInput.addEventListener("input", renderList);
 </script>
