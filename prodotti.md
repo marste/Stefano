@@ -3,13 +3,14 @@ layout: page
 title: "Ricerca Prezzi Prodotti"
 permalink: /prezzi-prodotti/
 date: 2025-06-03 10:00:00 +0200
-description: "Ricerca veloce dei prezzi dei prodotti. Tutto in locale, nessun dato inviato al server."
+description: "Ricerca veloce dei prezzi dei prodotti"
 image: "https://marzorati.co/img/salvadanaio.jpg"
 share-img: "https://marzorati.co/img/salvadanaio.jpg"
-tags: [prezzi, prodotti, spesa, esselunga]
+tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
 ---
 <style>
   /* Reset minimo e contenitore centrale */
+  font-family:'Montserrat', sans-serif;
   .content-wrapper {
     max-width: 720px;           /* o 800px, 640px... scegli tu in base a quanto vuoi largo */
     margin: 0 auto;             /* ← questo centra orizzontalmente */
