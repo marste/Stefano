@@ -10,79 +10,87 @@ tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
 ---
 
 <style>
-  
+  /* Solo lo spazio centrale per questa pagina – non tocca body globale */
+  #search-container {
+    max-width: 720px;
+    margin: 2rem auto 3rem auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
 
-  input[type="text"] {
+  #searchInput {
     width: 100%;
     padding: 14px 16px;
     font-size: 17px;
-    border: 1px solid #ccc;
+    border: 1px solid #d1d5db;
     border-radius: 6px;
     box-sizing: border-box;
-    margin: 1.5rem 0 1.2rem 0;
+    margin-bottom: 1.4rem;
   }
 
-  input[type="text"]:focus {
+  #searchInput:focus {
     outline: none;
-    border-color: #0066cc;
-    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.12);
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
   }
 
-  ul {
+  #productList {
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
-  li {
+  #productList li {
     padding: 14px 12px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e5e7eb;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-    gap: 16px;
+    gap: 1rem;
   }
 
-  li:last-child {
+  #productList li:last-child {
     border-bottom: none;
   }
 
   .product-name {
     flex: 1;
-    color: #111;
+    color: #111827;
   }
 
   .prezzo {
     font-weight: 600;
-    color: #c62828;
+    color: #dc2626;
     white-space: nowrap;
     min-width: 90px;
     text-align: right;
   }
 
-  li.no-results {
-    display: block;
-    text-align: center;
-    color: #666;
+  .no-results {
+    color: #6b7280;
     font-style: italic;
-    padding: 30px 20px;
+    padding: 2.5rem 1rem;
+    text-align: center;
     font-size: 15px;
   }
 </style>
 
-<div class="content-wrapper">
+<div id="search-container">
 
   <input
     type="text"
     id="searchInput"
     placeholder="Cerca un prodotto (es. gorgonzola, pollo, tovaglioli…)"
-    aria-label="Cerca un prodotto"
     autofocus
     autocomplete="off"
   />
 
   <ul id="productList"></ul>
+
+</div>
+
+
 
   <textarea id="productSource" hidden>
 Tovaglioli monovelo Esselunga 350;2,65 €
