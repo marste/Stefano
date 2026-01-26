@@ -8,17 +8,15 @@ image: "https://marzorati.co/img/salvadanaio.jpg"
 share-img: "https://marzorati.co/img/salvadanaio.jpg"
 tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
 ---
+
 <style>
-  /* Reset minimo e contenitore centrale */
-  font-family:'Montserrat', sans-serif;
   .content-wrapper {
-    max-width: 720px;           /* o 800px, 640px... scegli tu in base a quanto vuoi largo */
-    margin: 0 auto;             /* ← questo centra orizzontalmente */
-    padding: 0 16px;            /* respira un po' sui lati nei telefoni */
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 16px;
     box-sizing: border-box;
   }
 
-  /* Input di ricerca */
   input[type="text"] {
     width: 100%;
     padding: 14px 16px;
@@ -35,7 +33,6 @@ tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
     box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.12);
   }
 
-  /* Lista prodotti */
   ul {
     list-style: none;
     padding: 0;
@@ -63,37 +60,41 @@ tags: [prezzi, prodotti, spesa, esselunga, supermercati, conad, aldi]
 
   .prezzo {
     font-weight: 600;
-    color: #c62828;             /* rosso scuro per i prezzi – più leggibile */
+    color: #c62828;
     white-space: nowrap;
     min-width: 90px;
     text-align: right;
   }
 
-  .no-results {
+  li.no-results {
+    display: block;
+    text-align: center;
     color: #666;
     font-style: italic;
     padding: 30px 20px;
-    text-align: center;
     font-size: 15px;
   }
 </style>
 
-<input
-  type="text"
-  id="searchInput"
-  placeholder="Cerca un prodotto (es. gorgonzola, pollo, tovaglioli…)"
-  autofocus
-  autocomplete="off"
-/>
+<div class="content-wrapper">
 
-<ul id="productList"></ul>
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Cerca un prodotto (es. gorgonzola, pollo, tovaglioli…)"
+    aria-label="Cerca un prodotto"
+    autofocus
+    autocomplete="off"
+  />
 
-<textarea id="productSource" hidden>
+  <ul id="productList"></ul>
+
+  <textarea id="productSource" hidden>
 Tovaglioli monovelo Esselunga 350;2,65 €
 Sovracoscia pollo;5,69 €/kg
 Pollo a fette;11,30 €/kg
 Gorgonzola;16 €/kg
-Bagno doccia Esselunga;1,70 €/L
+Bagno doccia Esselunga;1,70 €/l
 Carta igienica 4 rotoli;3 €
 Wafer Esselunga;4,46 €/kg
 Pasta Esselunga;1,30 €/kg
@@ -102,20 +103,20 @@ Ceci in scatola;2,69 €/kg
 Exquisa;8,30 €/kg
 Galbanino Esselunga;7,39 €/kg
 Riso Carnaroli Gallo;2,58 €/kg
-Tortellini;7,78€/kg
-Grana Padano 16 mesi; 12€/kg
+Tortellini;7,78 €/kg
+Grana Padano 16 mesi;12 €/kg
 Parmigiano Reggiano 24 mesi;17 €/kg
 Caffè Solubile Aldi;29,95 €/kg
 Cacao amaro;2,07 €/kg
 Brioschi;10,91 €/kg
-Testine OralB; 2,33 cad.
+Testine OralB;2,33 cad.
 Caffè Lavazza Dek;15,98 €/kg
-Gorgonzola Santi;18 €/Kg
-Detersivo Felce Azzurra;2,16 €/L
-Detersivo lavatrice;1,85 €/L
-Shampoo Johnson;3,84 €/L
+Gorgonzola Santi;18 €/kg
+Detersivo Felce Azzurra;2,16 €/l
+Detersivo lavatrice;1,85 €/l
+Shampoo Johnson;3,84 €/l
 Pancetta affumicata;22 €/kg
-Farina 0 Esselunga 13gr;1,19 €/kg
+Farina 0 Esselunga 13 gr;1,19 €/kg
 Scottona Iperal;20 €/kg
 Farina Caputo Oro 14 gr Conad;1,49 €/kg
 Sapone liquido Dove;2,58 €/l
@@ -127,20 +128,21 @@ Bresaola;31 €/kg
 Pancetta;18 €/kg
 Mortadella Bologna;12 €/kg
 Speck;28 €/kg
-</textarea>
+  </textarea>
+
+</div>
 
 <script>
-  const searchInput  = document.getElementById("searchInput");
-  const productList  = document.getElementById("productList");
+  const searchInput   = document.getElementById("searchInput");
+  const productList   = document.getElementById("productList");
   const productSource = document.getElementById("productSource");
 
-  // Prepariamo i dati una volta sola (più performante)
   const products = productSource.value
     .split("\n")
-    .map(line => line.trim())
-    .filter(line => line && line.includes(";"))
-    .map(line => {
-      const [name, price] = line.split(";");
+    .map(l => l.trim())
+    .filter(l => l && l.includes(";"))
+    .map(l => {
+      const [name, price] = l.split(";");
       return {
         name: name.trim(),
         price: price.trim()
@@ -148,46 +150,37 @@ Speck;28 €/kg
     });
 
   function renderList() {
-    const filter = searchInput.value.trim().toLowerCase();
+    const filter = searchInput.value.toLowerCase().trim();
     productList.innerHTML = "";
 
     const matches = filter
       ? products.filter(p => p.name.toLowerCase().includes(filter))
       : products;
 
-    if (matches.length === 0) {
+    if (!matches.length) {
       const li = document.createElement("li");
       li.className = "no-results";
-      li.textContent = filter ? "Nessun prodotto trovato" : "Nessun prodotto in lista";
+      li.textContent = "Nessun prodotto trovato";
       productList.appendChild(li);
       return;
     }
 
     const fragment = document.createDocumentFragment();
 
-    matches.forEach(item => {
+    matches.forEach(p => {
       const li = document.createElement("li");
 
-      const nameSpan = document.createElement("span");
-      nameSpan.className = "product-name";
-      nameSpan.textContent = item.name;
+      li.innerHTML = `
+        <span class="product-name">${p.name}</span>
+        <span class="prezzo">${p.price}</span>
+      `;
 
-      const priceSpan = document.createElement("span");
-      priceSpan.className = "prezzo";
-      priceSpan.textContent = item.price;
-
-      li.appendChild(nameSpan);
-      li.appendChild(priceSpan);
       fragment.appendChild(li);
     });
 
     productList.appendChild(fragment);
   }
 
-  // Mostra tutti i prodotti all'apertura
   renderList();
-
-  // Ricerca live
   searchInput.addEventListener("input", renderList);
-  // Anche "keyup" va bene, ma "input" cattura anche copia/incolla
 </script>
