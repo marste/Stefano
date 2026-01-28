@@ -4,6 +4,7 @@ title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
+published: false
 ---
 &#128197; 07/2023 – Oggi   
 
