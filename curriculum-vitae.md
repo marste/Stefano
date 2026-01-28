@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
 ---
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
         :root {
             --primary-color: #2563eb;
@@ -146,7 +146,7 @@ share-img: 'https://marzorati.co/img/cv.png'
             .timeline-date-label::before { left: -36px; }
         }
     </style>
-</head>
+
 <body>
 
 <div class="container">
