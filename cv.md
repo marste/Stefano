@@ -133,6 +133,7 @@ published: true
     font-weight: 700;
     margin-top: 6px;
     display: block;
+	text-align: center;
   }
 
   .company-name a {
