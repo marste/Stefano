@@ -137,8 +137,7 @@ published: true
   }
 
   .company-name a {
-	font-size: 1.5em
-    color: inherit;
+	color: inherit;
     text-decoration: none;
   }
 
