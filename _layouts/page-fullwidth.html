@@ -1,1 +1,13 @@
-{\rtf1}
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<div class="cv-fullwidth">
+  {{ content }}
+</div>
+
+{% if page.comments %}
+  {% include disqus.html %}
+{% endif %}
