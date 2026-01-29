@@ -52,7 +52,6 @@ published: true
 
   .cv-title h2 {
     margin: 0;
-    font-size: 2.2rem;
     font-weight: 800;
     letter-spacing: -0.02em;
   }
@@ -60,7 +59,7 @@ published: true
   .cv-subtitle {
     margin-top: 10px;
     color: var(--text-muted);
-    font-size: 0.95rem;
+    
   }
 
   /* Timeline */
@@ -83,7 +82,6 @@ published: true
     position: relative;
     font-weight: 700;
     color: var(--primary-color);
-    font-size: 0.85rem;
     margin-bottom: 15px;
     display: inline-block;
     background: var(--primary-light);
@@ -125,14 +123,13 @@ published: true
   }
 
   .role {
-    font-size: 1.65rem;
+    
     font-weight: 800;
     color: var(--text-main);
     margin: 0;
   }
 
   .company-name {
-    font-size: 1.05rem;
     color: var(--primary-color);
     font-weight: 700;
     margin-top: 6px;
@@ -145,7 +142,6 @@ published: true
   }
 
   .company-desc {
-    font-size: 0.92rem;
     color: var(--text-muted);
     font-weight: 400;
     display: block;
@@ -161,7 +157,6 @@ published: true
     display: block;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 0.75rem;
     color: var(--text-muted);
     letter-spacing: 0.05em;
     margin-bottom: 12px;
@@ -171,7 +166,6 @@ published: true
 
   /* Testo */
   .cv-text {
-    font-size: 0.98rem;
     color: #334155;
     text-align: justify;
   }
@@ -209,7 +203,6 @@ published: true
     border: 1px solid var(--border-default);
     padding: 4px 10px;
     border-radius: 6px;
-    font-size: 0.8rem;
     color: var(--text-main);
     transition: background 0.2s;
   }
@@ -228,7 +221,7 @@ published: true
   /* Mobile */
   @media (max-width: 600px) {
     .role {
-      font-size: 1.35rem;
+      
     }
 
     .timeline {
