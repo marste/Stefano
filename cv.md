@@ -7,6 +7,16 @@ share-img: 'https://marzorati.co/img/cv.png'
 published: true
 ---
 <style>
+  :root {
+    --primary-color: #2563eb;
+    --primary-light: #dbeafe;
+    --bg-color: #f8fafc;
+    --line-color: #e2e8f0;
+    --card-bg: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --border-default: #e2e8f0;
+  }
 
   /* ===========================
      CV PAGE (isolata dal tema)
