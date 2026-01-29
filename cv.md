@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: page-fullwidth
 title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
@@ -21,6 +21,14 @@ published: true
   /* ===========================
      CV PAGE (isolata dal tema)
      =========================== */
+	 
+	.cv-fullwidth{
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
   .cv-page {
     font-family: 'Montserrat', sans-serif;
     background: var(--bg-color);
