@@ -129,8 +129,7 @@ published: true
   }
 
   .company-name {
-	font-size: 1.5em;
-    color: var(--primary-color);
+	color: var(--primary-color);
     font-weight: 700;
     margin-top: 6px;
     display: block;
