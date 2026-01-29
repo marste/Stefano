@@ -146,6 +146,7 @@ published: true
     display: block;
     margin-top: 4px;
     font-style: italic;
+	font-size: 0.8em;
   }
 
   .cv-section {
