@@ -10,7 +10,6 @@ published: true
   :root {
     --primary-color: #2563eb;
     --primary-light: #dbeafe;
-    --bg-color: #f8fafc;
     --line-color: #e2e8f0;
     --card-bg: #ffffff;
     --text-main: #0f172a;
