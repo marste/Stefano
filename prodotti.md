@@ -130,6 +130,17 @@ Bresaola;31 €/kg
 Pancetta;18 €/kg
 Mortadella Bologna;12 €/kg
 Speck;28 €/kg
+Lievito di birra secco Esselunga;1,9 €/hg
+Detersivo Piatti Esselunga;1,2 €/l
+Aglio Esselunga;9,2 €/kg
+Peperoni Esselunga;3,98 €/kg
+Broccoletti Esselunga;2,68 €/kg
+Zucchine Esselunga;3,48 €/kg
+Pan Goccioli;5,92 €/kg
+Cipolla rossa Tigros;1,25 €/kg
+Patate della Sila Tigros;2 €/kg
+Aglio Tigros;6,67 €/kg
+Zuppe Tigros;2,69 €/kg
   </textarea>
 
 
