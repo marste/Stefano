@@ -16,6 +16,8 @@ tags: [sheets, importare, apps, script, quotazioni, yahoo, finance, google, shee
 - Salva cliccando sull'icona del floppydisk o premi ctrl+s.  
 - Ora torna nel tuo foglio di spreadsheets e utilizzando le varie funzioni di esempio, avrai il risultato voluto.   
 
+Ho aggiunto che 
+
 ```
 /*************************************************
  * FUNZIONI FINANZA – VERSIONE 03/02/2026 (LIVE last + PREV from daily bars)
@@ -330,8 +332,24 @@ function DEBUG_TICKER(ticker) {
 }
 
 /***********************
- * FORZA REFRESH
+ * TRIGGER CONTROLLATO 
+ * (Ogni ora precisa, 09:00 - 18:00, LUN-VEN)
  ***********************/
+function TRIGGER_PROGRAMMATO() {
+  const dataAttuale = new Date();
+  const oraAttuale = dataAttuale.getHours();
+  const giornoSettimana = dataAttuale.getDay(); // 0=Dom, 1=Lun, 2=Mar, 3=Mer, 4=Gio, 5=Ven, 6=Sab
+  
+  // Condizione: Lun-Ven e ore comprese tra le 9 e le 18 incluse
+  // Usiamo <= 18 se vuoi che scatti anche alle 18:00 precise.
+  if (giornoSettimana >= 1 && giornoSettimana <= 5 && oraAttuale >= 9 && oraAttuale <= 18) {
+    FORZA_REFRESH();
+    console.log("Refresh eseguito alle ore: " + oraAttuale + ":00");
+  } else {
+    console.log("Fascia oraria o giorno non attivi. Ora attuale: " + oraAttuale);
+  }
+}
+
 function FORZA_REFRESH() {
   const ss = SpreadsheetApp.getActive();
   let sh = ss.getSheetByName("Refresh");
@@ -342,3 +360,12 @@ function FORZA_REFRESH() {
   sh.getRange("A1").setValue(new Date());
 }
 ```
+
+ Ora, sempre da Apps Script andate sull'icona ad orologio Attivatori.
+
+- Scegliere la funzione da eseguire, selezionando: **TRIGGER_PROGRAMMATO**
+- Selezionare l'origine dell'evento, selezionando: Evento vincolato a specifiche temporali
+- Selezionare il tipo di attivatore basato sull'orario, selezionando: Timer in minuti
+- Selezionare intervallo in minuti, selezionando: Ogni 30 minuti
+
+Nel foglio, verrà creato in automatico un nuovo sheet che si chiamerà Refresh e nella cella A1 comparirà la data attuale che verrà refreshata ogni 30 minuti dalle ore 09:00 alle ore 18:00 dal lunedì al venerdì.   
