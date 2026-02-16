@@ -8,7 +8,7 @@ author: Stefano Marzorati
 layout: page
 categories: [Music]
 tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, pop]
-published: false
+published: true
 ---
 <style>
 :root {
@@ -98,7 +98,6 @@ label[for="radio-select"] {
 .vis-wrap {
   width: 100%;
   background: #fff;
-   /* border-top: 3px solid var(--border); <-- RIMOSSA */
   border-bottom: 3px solid var(--border);
   position: relative;
 }
@@ -177,355 +176,356 @@ label[for="radio-select"] {
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script>
 (() => {
-  const audio    = document.getElementById('audio-player');
+  const audio = document.getElementById('audio-player');
   const selector = document.getElementById('radio-select');
-  const playBtn  = document.getElementById('play-pause');
-  const prevBtn  = document.getElementById('prev');
-  const nextBtn  = document.getElementById('next');
-  const titleEl  = document.getElementById('station-title');
-  const nowEl    = document.getElementById('now');
-  const canvas   = document.getElementById('visualizer');
-  const ctx      = canvas.getContext('2d', { alpha: false });
-
-  // ---- Stations (salta la prima option placeholder) ----
-  const stationOptions = Array.from(selector.options).slice(1);
-  const stations = stationOptions.map(o => ({ url: o.value, name: o.text }));
-  let currentIndex = -1;
-
-  // ---- HLS / state ----
+  const playBtn = document.getElementById('play-pause');
+  const prevBtn = document.getElementById('prev');
+  const nextBtn = document.getElementById('next');
+  const titleEl = document.getElementById('station-title');
+  const nowEl = document.getElementById('now');
+  const canvas = document.getElementById('visualizer');
+  const ctx = canvas.getContext('2d');
   let hls = null;
-  let usingHls = false;
-  let wantedPlaying = false;     // l’intento dell’utente (play/pause)
-  let reconnectTimer = null;
-  let lastUrl = "";
-
-  // ---- Visualizer (lazy, e stop quando in pausa) ----
   let audioCtx = null;
-  let analyser = null;
-  let source = null;
-  let dataArray = null;
-  let rafId = null;
-
-  function resizeCanvas() {
-    const dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
-    const w = Math.floor(canvas.clientWidth * dpr);
-    const h = Math.floor(canvas.clientHeight * dpr);
-    if (canvas.width !== w) canvas.width = w;
-    if (canvas.height !== h) canvas.height = h;
-    ctx.setTransform(1,0,0,1,0,0);
-  }
-  window.addEventListener('resize', resizeCanvas, { passive: true });
+  let analyser, source, dataArray;
+  let isPlaying = false;
+  // NUOVO: Flag per tracciare se l'interruzione è stata causata da una chiamata
+  let wasInterruptedByCall = false;
+  // NUOVO: Timestamp dell'ultima interruzione
+  let lastPauseTime = 0;
+  const stations = Array.from(selector.options).map(o => ({url: o.value, name: o.text}));
+  let currentIndex = -1;
+  
+  function resizeCanvas() { canvas.width = canvas.clientWidth; canvas.height = canvas.clientHeight; }
+  window.addEventListener('resize', resizeCanvas);
   resizeCanvas();
-
+  
   function setPlayIcon(playing) {
     playBtn.innerHTML = playing
       ? '<svg class="icon" viewBox="0 0 48 48"><rect x="12" y="8" width="8" height="32"/><rect x="28" y="8" width="8" height="32"/></svg>'
       : '<svg class="icon" viewBox="0 0 48 48"><polygon points="14,10 34,24 14,38"/></svg>';
   }
-
-  function setStatus(text) { nowEl.textContent = text; }
-
-  function ensureAudioContext() {
+  
+  function setupVisualizer() {
     if (audioCtx) return;
     audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     source = audioCtx.createMediaElementSource(audio);
     analyser = audioCtx.createAnalyser();
-    analyser.fftSize = 256;
-    dataArray = new Uint8Array(analyser.frequencyBinCount);
     source.connect(analyser);
     analyser.connect(audioCtx.destination);
-  }
-
-  function startVisualizer() {
-    ensureAudioContext();
-    if (rafId) return;
-    const draw = () => {
-      rafId = requestAnimationFrame(draw);
-      if (!analyser) return;
-      analyser.getByteFrequencyData(dataArray);
-
-      ctx.fillStyle = '#fff';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-      const len = dataArray.length;
-      const barW = Math.max(1, (canvas.width / len) * 1.6);
-      let x = 0;
-      ctx.fillStyle = '#000';
-      for (let i = 0; i < len; i++) {
-        const v = dataArray[i] / 255;
-        const barH = Math.floor(v * canvas.height);
-        ctx.fillRect(x, canvas.height - barH, barW, barH);
-        x += barW + 1;
-        if (x > canvas.width) break;
+    analyser.fftSize = 256;
+    dataArray = new Uint8Array(analyser.frequencyBinCount);
+    
+    audioCtx.onstatechange = () => {
+      console.log('AudioContext state:', audioCtx.state);
+      if ((audioCtx.state === 'suspended' || audioCtx.state === 'interrupted') && isPlaying) {
+        audioCtx.resume().then(() => {
+          console.log('AudioContext resumed');
+        }).catch(err => console.error('Error resuming AudioContext:', err));
       }
     };
     draw();
   }
-
-  function stopVisualizer() {
-    if (!rafId) return;
-    cancelAnimationFrame(rafId);
-    rafId = null;
-  }
-
-  // ---- Helpers: safe play with mobile constraints ----
-  async function safePlay() {
-    try {
-      if (audioCtx && audioCtx.state === 'suspended') {
-        // Su iOS/Chrome mobile spesso serve riprendere il contesto su gesture
-        await audioCtx.resume().catch(() => {});
-      }
-      await audio.play();
-      return true;
-    } catch (e) {
-      // Autoplay/gesture restrictions oppure stream non pronto
-      console.log('safePlay error:', e);
-      return false;
+  
+  function draw() {
+    requestAnimationFrame(draw);
+    if (!analyser) return;
+    analyser.getByteFrequencyData(dataArray);
+    ctx.fillStyle = '#fff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    const barWidth = (canvas.width / dataArray.length) * 2.5;
+    let x = 0;
+    for (let i = 0; i < dataArray.length; i++) {
+      const barHeight = dataArray[i] / 2;
+      ctx.fillStyle = '#000';
+      ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+      x += barWidth + 1;
     }
   }
 
-  function clearReconnect() {
-    if (reconnectTimer) clearTimeout(reconnectTimer);
-    reconnectTimer = null;
-  }
-
-  function scheduleReconnect(delayMs = 1500) {
-    clearReconnect();
-    reconnectTimer = setTimeout(() => {
-      if (currentIndex >= 0 && wantedPlaying) {
-        // reload controllato dello stesso stream
-        loadStream(currentIndex, { keepWanted: true, forceReload: true });
-      }
-    }, delayMs);
-  }
-
-  function destroyHls() {
-    if (!hls) return;
-    try { hls.destroy(); } catch (_) {}
-    hls = null;
-    usingHls = false;
-  }
-
-  function attachStream(url) {
-    usingHls = /\.m3u8($|\?)/i.test(url) && window.Hls && Hls.isSupported();
-
-    // Se url uguale e HLS già attaccato, non rifare tutto.
-    if (usingHls && hls && lastUrl === url) return;
-
-    // Cambio stream: reset pulito
-    destroyHls();
+  // NUOVA FUNZIONE: Forza il reload dello stream per sincronizzazione tempo reale
+  function reloadStreamForLiveSync() {
+    if (currentIndex < 0 || !stations[currentIndex]) return;
+    
+    console.log('Reloading stream for live sync...');
+    nowEl.textContent = 'Sincronizzazione...';
+    
+    // Salva lo stato attuale
+    const wasPlaying = !audio.paused;
+    
+    // Distruggi HLS esistente
+    if (hls) {
+      hls.destroy();
+      hls = null;
+    }
+    
+    // Resetta l'audio completamente
     audio.pause();
+    const currentTime = audio.currentTime; // Salva per debug
     audio.removeAttribute('src');
-    audio.load(); // reset pipeline
+    audio.load(); // Forza il rilascio del buffer
+    
+    // Ricarica lo stesso stream
+    const {url, name} = stations[currentIndex];
+    
+    const play = () => {
+      audio.play().then(() => {
+        playBtn.disabled = false;
+        setPlayIcon(true);
+        isPlaying = true;
+        nowEl.textContent = 'In riproduzione';
+        console.log('Stream ricaricato e sincronizzato al tempo reale');
+      }).catch((err) => {
+        console.log('Errore durante la riproduzione:', err);
+        nowEl.textContent = 'Errore, ritento...';
+        setTimeout(() => reloadStreamForLiveSync(), 2000);
+      });
+    };
 
-    if (usingHls) {
+    // Ricostruisci HLS o sorgente audio
+    if (/\.m3u8($|\?)/i.test(url) && window.Hls && Hls.isSupported()) {
       hls = new Hls({
-        // Buffer più “mobile safe”
-        maxBufferLength: 20,
-        backBufferLength: 10,
-        maxLiveSyncPlaybackRate: 1.0,
-        enableWorker: true,
-        lowLatencyMode: false,
+        maxBufferLength: 60,
+        maxMaxBufferLength: 120,
+        maxBufferSize: 60 * 1000 * 1000,
+        // NUOVO: Configurazione per live streaming
+        liveSyncDurationCount: 3,
+        liveMaxLatencyDurationCount: 10,
+        liveDurationInfinity: true
       });
-
+      hls.loadSource(url);
       hls.attachMedia(audio);
-      hls.on(Hls.Events.MEDIA_ATTACHED, () => {
-        hls.loadSource(url);
-      });
-
-      hls.on(Hls.Events.ERROR, (evt, data) => {
-        console.log('HLS error:', data);
-        if (!data || !data.fatal) return;
-
-        // Se l’utente ha messo in pausa, non impazzire.
-        if (!wantedPlaying) return;
-
-        switch (data.type) {
-          case Hls.ErrorTypes.NETWORK_ERROR:
-            // retry load
-            try { hls.startLoad(); } catch (_) {}
-            scheduleReconnect(1200);
-            break;
-          case Hls.ErrorTypes.MEDIA_ERROR:
-            try { hls.recoverMediaError(); } catch (_) { scheduleReconnect(1200); }
-            break;
-          default:
-            scheduleReconnect(1200);
-            break;
+      hls.on(Hls.Events.MANIFEST_PARSED, play);
+      hls.on(Hls.Events.ERROR, (event, data) => {
+        if (data.fatal) {
+          switch (data.type) {
+            case Hls.ErrorTypes.NETWORK_ERROR:
+              console.log('Errore di rete, tentativo di riconnessione...');
+              hls.startLoad();
+              break;
+            case Hls.ErrorTypes.MEDIA_ERROR:
+              console.log('Errore media, tentativo di recupero...');
+              hls.recoverMediaError();
+              break;
+            default:
+              console.log('Errore non recuperabile:', data);
+              hls.destroy();
+              reloadStreamForLiveSync();
+              break;
+          }
         }
       });
+    } else {
+      // Per stream MP3/AAC: aggiungi timestamp per evitare cache
+      const cacheBuster = url.includes('?') ? `&_t=${Date.now()}` : `?_t=${Date.now()}`;
+      audio.src = url + cacheBuster;
+      play();
+    }
+  }
+  
+  function loadStream(index) {
+    if (index < 0 || index >= stations.length) return;
+    currentIndex = index;
+    const {url, name} = stations[index];
+    if (hls) { hls.destroy(); hls = null; }
+    audio.pause(); 
+    audio.removeAttribute('src');
+    audio.load(); // NUOVO: Forza pulizia buffer
+    setPlayIcon(false); 
+    playBtn.disabled = true;
+    nowEl.textContent = 'Connessione…';
+    titleEl.textContent = name;
 
+    const play = () => {
+      audio.play().then(() => {
+        playBtn.disabled = false; 
+        setPlayIcon(true); 
+        isPlaying = true;
+        nowEl.textContent = 'In riproduzione'; 
+        setupVisualizer();
+      }).catch((err) => {
+        console.log('Errore durante la riproduzione:', err);
+        nowEl.textContent = 'Errore, ritento...';
+        setTimeout(() => loadStream(currentIndex), 2000);
+      });
+    };
+
+    if (/\.m3u8($|\?)/i.test(url) && window.Hls && Hls.isSupported()) {
+      hls = new Hls({
+        maxBufferLength: 60,
+        maxMaxBufferLength: 120,
+        maxBufferSize: 60 * 1000 * 1000,
+        // NUOVO: Configurazione ottimale per live
+        liveSyncDurationCount: 3,
+        liveMaxLatencyDurationCount: 10,
+        liveDurationInfinity: true
+      });
+      hls.loadSource(url);
+      hls.attachMedia(audio);
+      hls.on(Hls.Events.MANIFEST_PARSED, play);
+      hls.on(Hls.Events.ERROR, (event, data) => {
+        if (data.fatal) {
+          switch (data.type) {
+            case Hls.ErrorTypes.NETWORK_ERROR:
+              console.log('Errore di rete, tentativo di riconnessione...');
+              hls.startLoad();
+              break;
+            case Hls.ErrorTypes.MEDIA_ERROR:
+              console.log('Errore media, tentativo di recupero...');
+              hls.recoverMediaError();
+              break;
+            default:
+              console.log('Errore non recuperabile:', data);
+              hls.destroy();
+              loadStream(currentIndex);
+              break;
+          }
+        }
+      });
     } else {
       audio.src = url;
-      // audio.load() non sempre necessario, ma su mobile aiuta nei cambi rapidi
-      audio.load();
+      play();
     }
-
-    lastUrl = url;
   }
-
-  // ---- Core: load stream ----
-  async function loadStream(index, opts = {}) {
-    const { keepWanted = false, forceReload = false } = opts;
-    if (index < 0 || index >= stations.length) return;
-
-    clearReconnect();
-
-    currentIndex = index;
-    selector.selectedIndex = index + 1; // +1 perché abbiamo placeholder
-    const { url, name } = stations[index];
-
-    titleEl.textContent = name;
-    playBtn.disabled = true;
-    setPlayIcon(false);
-
-    if (!keepWanted) wantedPlaying = true;
-
-    setStatus('Connessione…');
-
-    // Se stesso URL e non forzo reload: basta ripartire
-    if (!forceReload && lastUrl === url && audio.src) {
-      if (usingHls && hls) {
-        try { hls.startLoad(); } catch (_) {}
+  
+  selector.addEventListener('change', () => { 
+    const i = selector.selectedIndex; 
+    if (i > 0) loadStream(i); 
+  });
+  
+  playBtn.addEventListener('click', () => {
+    if (!audio.src && currentIndex > 0) {
+      // Se non c'è sorgente ma c'è una stazione selezionata, ricarica
+      reloadStreamForLiveSync();
+      return;
+    }
+    if (audio.paused) { 
+      // NUOVO: Se è in pausa da molto tempo, ricarica per sincronizzare
+      const pauseDuration = Date.now() - lastPauseTime;
+      if (pauseDuration > 5000) { // Se in pausa per più di 5 secondi
+        reloadStreamForLiveSync();
+      } else {
+        audio.play().catch(err => console.error('Error on manual play:', err)); 
+        setPlayIcon(true); 
+        nowEl.textContent = 'In riproduzione'; 
       }
-      const ok = await safePlay();
-      if (!ok) setStatus('Tocca Play per riprendere');
-      return;
-    }
-
-    attachStream(url);
-
-    // Attendo che ci sia qualcosa da suonare (specie su mp3)
-    const ok = await safePlay();
-    playBtn.disabled = false;
-
-    if (ok) {
-      setPlayIcon(true);
-      setStatus('In riproduzione');
-      startVisualizer();
-    } else {
-      setPlayIcon(false);
-      setStatus('Tocca Play per riprendere');
-    }
-  }
-
-  // ---- Play/Pause behavior (no refresh) ----
-  async function doPlay() {
-    if (currentIndex < 0) return;
-    wantedPlaying = true;
-
-    if (usingHls && hls) {
-      // Riprendi download segmenti
-      try { hls.startLoad(); } catch (_) {}
-    }
-
-    // Se pipeline “fredda” (dopo pausa lunga / background), ricarico soft
-    if (audio.readyState < 2 && lastUrl && !usingHls) {
-      audio.load();
-    }
-
-    const ok = await safePlay();
-    if (!ok) {
-      setStatus('Tocca Play per riprendere');
-      setPlayIcon(false);
-      return;
-    }
-
-    playBtn.disabled = false;
-    setPlayIcon(true);
-    setStatus('In riproduzione');
-    startVisualizer();
-  }
-
-  function doPause() {
-    wantedPlaying = false;
-    clearReconnect();
-
-    // Pausa immediata
-    try { audio.pause(); } catch (_) {}
-
-    // Stop buffer/download su HLS ma NON distruggere
-    if (usingHls && hls) {
-      try { hls.stopLoad(); } catch (_) {}
-    }
-
-    setPlayIcon(false);
-    setStatus('In pausa');
-    stopVisualizer();
-  }
-
-  // ---- UI events ----
-  selector.addEventListener('change', () => {
-    const i = selector.selectedIndex - 1; // -1 placeholder
-    if (i >= 0) loadStream(i);
-  });
-
-  playBtn.addEventListener('click', async () => {
-    if (currentIndex < 0) return;
-
-    // IMPORTANTE: su mobile, questo click è la "user gesture" utile anche per AudioContext
-    if (audio.paused) await doPlay();
-    else doPause();
-  });
-
-  prevBtn.addEventListener('click', () => {
-    if (stations.length === 0) return;
-    const nextI = currentIndex <= 0 ? 0 : currentIndex - 1;
-    loadStream(nextI);
-  });
-
-  nextBtn.addEventListener('click', () => {
-    if (stations.length === 0) return;
-    const nextI = currentIndex >= stations.length - 1 ? stations.length - 1 : currentIndex + 1;
-    loadStream(nextI);
-  });
-
-  // ---- Audio lifecycle / resilience ----
-  audio.addEventListener('playing', () => {
-    playBtn.disabled = false;
-    setPlayIcon(true);
-    if (wantedPlaying) setStatus('In riproduzione');
-    startVisualizer();
-  });
-
-  audio.addEventListener('pause', () => {
-    // Se la pausa non è voluta (es. background), non forzo play (iOS può bloccare)
-    if (!wantedPlaying) {
-      setPlayIcon(false);
-      setStatus('In pausa');
-      stopVisualizer();
+    } else { 
+      audio.pause(); 
     }
   });
-
+  
+  // MODIFICATO: Gestione pause con tracciamento temporale
+  audio.addEventListener('pause', () => { 
+    lastPauseTime = Date.now();
+    setPlayIcon(false); 
+    nowEl.textContent = 'In pausa'; 
+    isPlaying = false; 
+  });
+  
+  audio.addEventListener('playing', () => { 
+    setPlayIcon(true); 
+    nowEl.textContent = 'In riproduzione'; 
+    isPlaying = true; 
+    wasInterruptedByCall = false; // Resetta il flag
+  });
+  
   audio.addEventListener('error', () => {
-    console.log('audio error');
-    if (!wantedPlaying) return;
-    setStatus('Errore, riconnessione…');
-    scheduleReconnect(1200);
+    console.log('Errore audio, tentativo di riconnessione...');
+    nowEl.textContent = 'Errore, riconnessione...';
+    setTimeout(() => reloadStreamForLiveSync(), 2000);
   });
-
+  
+  // MODIFICATO: Gestione play con controllo interruzione
+  audio.addEventListener('play', () => {
+    if (navigator.onLine) {
+      // NUOVO: Se è stata un'interruzione lunga, ricarica lo stream
+      const pauseDuration = Date.now() - lastPauseTime;
+      if (pauseDuration > 3000) { // Se in pausa per più di 3 secondi (probabilmente una chiamata)
+        console.log('Rilevata pausa lunga, ricarico stream per sincronizzazione...');
+        reloadStreamForLiveSync();
+        return;
+      }
+      nowEl.textContent = 'In riproduzione';
+      setPlayIcon(true);
+      isPlaying = true;
+    } else {
+      nowEl.textContent = 'Nessuna connessione';
+      audio.pause();
+      setPlayIcon(false);
+    }
+  });
+  
   window.addEventListener('online', () => {
-    if (wantedPlaying && currentIndex >= 0) {
-      setStatus('Riconnessione…');
-      scheduleReconnect(300);
-    }
-  }, { passive: true });
-
-  window.addEventListener('offline', () => {
-    setStatus('Offline');
-  }, { passive: true });
-
-  // Quando torni visibile: se l’utente voleva play, prova a riprendere (ma fallback su tap)
-  document.addEventListener('visibilitychange', async () => {
-    if (document.visibilityState !== 'visible') return;
-    if (wantedPlaying && currentIndex >= 0) {
-      // riprova soft
-      await doPlay();
+    if (audio.src && audio.paused && currentIndex >= 0) {
+      nowEl.textContent = 'Riconnessione...';
+      reloadStreamForLiveSync();
     }
   });
-
-  // Stato iniziale
-  setPlayIcon(false);
-  setStatus('In pausa');
+  
+  window.addEventListener('offline', () => {
+    nowEl.textContent = 'Offline, in attesa di connessione...';
+  });
+  
+  // MODIFICATO: Gestione visibilità con reload per sincronizzazione
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && currentIndex >= 0) {
+      const hiddenDuration = Date.now() - lastPauseTime;
+      
+      // Se l'app era in background per più di 5 secondi e c'era una riproduzione attiva
+      if (hiddenDuration > 5000 && !audio.paused) {
+        console.log('App tornata in primo piano dopo pausa lunga, ricarico stream...');
+        reloadStreamForLiveSync();
+      } else if (audio.paused) {
+        // Se era solo in pausa, prova a riprendere
+        nowEl.textContent = 'Ripresa...';
+        audio.play().catch(err => {
+          console.error('Error resuming audio on visibility change:', err);
+          nowEl.textContent = 'Tocca Play per riprendere';
+        });
+      }
+      
+      // Resume AudioContext se necessario
+      if (audioCtx && (audioCtx.state === 'suspended' || audioCtx.state === 'interrupted')) {
+        audioCtx.resume().then(() => {
+          console.log('AudioContext resumed on visibility change');
+        }).catch(err => console.error('Error resuming AudioContext:', err));
+      }
+    }
+  });
+  
+  // NUOVO: Gestione specifica per interruzioni audio su mobile (telefonate)
+  audio.addEventListener('waiting', () => {
+    console.log('Audio in attesa di buffer...');
+  });
+  
+  // NUOVO: Gestione quando l'audio viene interrotto dal sistema (telefonata)
+  if ('oninterruptbegin' in audio) {
+    audio.addEventListener('interruptbegin', () => {
+      console.log('Interruzione audio rilevata (probabilmente telefonata)');
+      wasInterruptedByCall = true;
+      lastPauseTime = Date.now();
+      isPlaying = false;
+    });
+  }
+  
+  if ('oninterruptend' in audio) {
+    audio.addEventListener('interruptend', () => {
+      console.log('Fine interruzione audio, ricarico stream per sincronizzazione...');
+      if (wasInterruptedByCall) {
+        reloadStreamForLiveSync();
+        wasInterruptedByCall = false;
+      }
+    });
+  }
+  
+  // Fallback per browser che non supportano interrupt events
+  // Usa il focus/blur della window come indicatore
+  window.addEventListener('blur', () => {
+    // Il blur potrebbe indicare che sta arrivando una chiamata o notifica
+    lastPauseTime = Date.now();
+  });
+  
+  prevBtn.addEventListener('click', () => { if (currentIndex > 1) loadStream(currentIndex - 1); });
+  nextBtn.addEventListener('click', () => { if (currentIndex < stations.length - 1) loadStream(currentIndex + 1); });
 })();
 </script>
