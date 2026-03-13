@@ -1,6 +1,6 @@
 ---
 title: "Apps Script per importare le quotazioni da Yahoo Finance in Google Sheets con aggiornamento automatico"
-date: 2026-02-03 08:23:00 +0200
+date: 2026-03-13 08:23:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/money.png'
 share-img: 'https://marzorati.co/img/money.png'
@@ -20,7 +20,7 @@ Ho aggiunto che
 
 ```
 /*************************************************
- * FUNZIONI FINANZA – VERSIONE 03/02/2026 (LIVE last + PREV from daily bars)
+ * FUNZIONI FINANZA – VERSIONE 13/03/2026 (LIVE last + PREV from daily bars)
  *
  * =ULTIMO("SWDA.MI")
  * =VARGIORN("SWDA.MI")
@@ -29,6 +29,9 @@ Ho aggiunto che
  * =MAXDATE("SWDA.MI"; "1y")
  * =MAXVAL("SWDA.MI"; "5y")
  * =MAXINFO("SWDA.MI"; "7y")
+ * =MINVAL("SWDA.MI"; "6mo")
+ * =MINDATE("SWDA.MI"; "1y")
+ * =MININFO("SWDA.MI"; "3y")
  * =DEBUG_TICKER("SWDA.MI")
  * =FORZA_REFRESH()
  *************************************************/
@@ -298,6 +301,88 @@ function _maxCore(ticker, dataInizio, mode, range = "1y") {
   ];
 }
 
+
+
+
+
+/***********************
+ * MIN VALORE
+ ***********************/
+function MINVAL(ticker, range) {
+  return _minCore(ticker, range, "value");
+}
+
+/***********************
+ * DATA DEL MINIMO
+ ***********************/
+function MINDATE(ticker, range) {
+  return _minCore(ticker, range, "date");
+}
+
+/***********************
+ * MIN INFO
+ ***********************/
+function MININFO(ticker, range) {
+  return _minCore(ticker, range, "full");
+}
+
+/***********************
+ * CORE MINIMO
+ ***********************/
+function _minCore(ticker, range, mode) {
+  if (!ticker) return "Ticker?";
+  if (!range) range = "1y";
+
+  const r = _fetchChart(ticker, range, "1d");
+  if (!r) return "Errore Yahoo";
+
+  const prices = r?.indicators?.quote?.[0]?.close;
+  const ts = r?.timestamp;
+  if (!prices || !ts) return "Dati incompleti";
+
+  let minP = Infinity, minT = null;
+
+  for (let i = 0; i < prices.length; i++) {
+    const px = prices[i];
+    if (px == null) continue;
+
+    if (px < minP) {
+      minP = px;
+      minT = ts[i];
+    }
+  }
+
+  if (minT === null) return "No dati";
+
+  const ultimo = ULTIMO(ticker);
+
+  const rebound = (typeof ultimo === "number")
+    ? Number((((ultimo - minP) / minP) * 100).toFixed(2))
+    : "—";
+
+  const dataMin = Utilities.formatDate(
+    new Date(minT * 1000),
+    Session.getScriptTimeZone(),
+    "dd/MM/yyyy"
+  );
+
+  if (mode === "value") return Number(minP.toFixed(4));
+  if (mode === "date") return dataMin;
+
+  return [
+    ["Ticker", ticker],
+    ["Prezzo attuale", ultimo],
+    ["Var. oggi %", VARGIORN(ticker)],
+    ["Minimo (" + range + ")", Number(minP.toFixed(4))],
+    ["Data minimo", dataMin],
+    ["Rimbalzo %", rebound],
+    ["YTD %", YTD(ticker)]
+  ];
+}
+
+
+
+
 /***********************
  * DEBUG: mostra perché SWDA.MI prende 111,41 nei meta ma usa prevClose da daily bars
  ***********************/
@@ -359,6 +444,55 @@ function FORZA_REFRESH() {
   }
   sh.getRange("A1").setValue(new Date());
 }
+
+/***********************
+ * CAMBIO VALUTA (via CHART - stabile)
+ *
+ * =CAMBIO("EURUSD")
+ * =CAMBIO("USDEUR")
+ * =CAMBIO("EURUSD"; 6)
+ ***********************/
+function CAMBIO(pair, decimals) {
+  if (!pair) return "Pair?";
+
+  const ticker = pair.toUpperCase() + "=X";
+
+  const r = _fetchChart(ticker, "1d", "5m");
+  if (!r) return "Errore Yahoo";
+
+  const price = r?.meta?.regularMarketPrice;
+  if (price == null) return "No dati";
+
+  const dec = (decimals != null && !isNaN(decimals)) ? Number(decimals) : 4;
+  return Number(Number(price).toFixed(dec));
+}
+
+
+/***********************
+ * VARIAZIONE % CAMBIO
+ *
+ * =CAMBIO_PCT("EURUSD")
+ ***********************/
+function CAMBIO_PCT(pair, decimals) {
+  if (!pair) return "Pair?";
+
+  const ticker = pair.toUpperCase() + "=X";
+
+  const r = _fetchChart(ticker, "1d", "5m");
+  if (!r) return "Errore Yahoo";
+
+  const last = r?.meta?.regularMarketPrice;
+  const prev = r?.meta?.previousClose;
+
+  if (last == null || prev == null || prev === 0)
+    return "Dati incompleti";
+
+  const pct = ((last - prev) / prev) * 100;
+  const dec = (decimals != null && !isNaN(decimals)) ? Number(decimals) : 2;
+
+  return Number(pct.toFixed(dec));
+}
+
 ```
 
  Ora, sempre da Apps Script andate sull'icona ad orologio Attivatori.
