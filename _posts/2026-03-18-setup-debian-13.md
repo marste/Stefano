@@ -62,8 +62,7 @@ sudo apt-get update && sudo apt-get install spotify-client
 
 **Installa Stremio, Shortwave e audiotube da Flathub**
 
-**Installa Mega:**   
-[https://mega.io/it/desktop](https://mega.io/it/desktop)
+**Installa Mega:**[https://mega.io/it/desktop](https://mega.io/it/desktop)
 
 **Crea alias  per aggiornare tutto con il comando "aggiorna"**
 ```
