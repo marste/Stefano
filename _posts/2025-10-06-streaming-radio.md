@@ -8,7 +8,7 @@ author: Stefano Marzorati
 layout: page
 categories: [Music]
 tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, pop]
-published: false
+published: true
 ---
 <style>
 :root {
@@ -43,7 +43,7 @@ label[for="radio-select"] {
 }
 .player-card {
   width: 100%;
-  max-width: 1100px;
+  max-width: 740px;
   border: 3px solid var(--border);
   border-radius: 1rem;
   background: #fff;
@@ -68,9 +68,12 @@ label[for="radio-select"] {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* Touch target minimo 44px, qui abbondante */
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 #play-pause:hover:enabled { background: #f3f3f3; transform: translateY(-2px); }
-#play-pause:active:enabled { transform: translateY(0); }
+#play-pause:active:enabled { transform: translateY(0); background: #e8e8e8; }
 #play-pause .icon { width: 5rem; height: 5rem; }
 .control-btn {
   width: 7rem;
@@ -83,12 +86,16 @@ label[for="radio-select"] {
   justify-content: center;
   align-items: center;
   transition: .2s;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 .control-btn:hover { background: #f3f3f3; transform: translateY(-1px); }
+.control-btn:active { background: #e8e8e8; transform: translateY(0); }
 .control-btn .icon { width: 4rem; height: 4rem; }
 .meta {
   text-align: center;
   margin-top: 3rem;
+  padding: 0 1rem;
 }
 .meta .title {
   font-weight: 700;
@@ -98,18 +105,13 @@ label[for="radio-select"] {
 .vis-wrap {
   width: 100%;
   background: #fff;
-   /* border-top: 3px solid var(--border); <-- RIMOSSA */
   border-bottom: 3px solid var(--border);
   position: relative;
 }
 #visualizer {
   width: 100%;
   display: block;
-  height: clamp(160px, 33vw, 180px);
-}
-.vis-overlay {
-  position: absolute; inset: 0;
-  pointer-events: none;
+  height: clamp(120px, 25vw, 160px);
 }
 .footer-row {
   display: flex;
@@ -122,40 +124,42 @@ label[for="radio-select"] {
   color: #000;
 }
 </style>
+
 <div class="radio-wrapper">
   <label for="radio-select">Scegli una radio</label>
   <select id="radio-select">
     <option value="" disabled selected>🔊 Select and make it louder! 👊</option>
     <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">M2O</option>
     <option value="https://stream.technolovers.fm/gabber">Gabber</option>
-	<option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
-	<option value="https://techno-revival.stream.laut.fm/techno-revival?ref=web-app&start_time=1759669832984">Techno Revival</option>
-	<option value="https://listen5.myradio24.com/eugenijus">Truckers Rave Radio</option>
-	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8">Radio Deejay</option>
-	<option value="https://vdnvsxa1-4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaytime/live.m3u8">Deejay Time</option>
-	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs - Deejay</option>
-	<option value="https://22713.live.streamtheworld.com/TLPSTR01.mp3?dist=538_web">538 Dance Department</option>
-	<option value="https://n32a-eu.rcs.revma.com/prbak410t13vv?rj-ttl=5&rj-tok=AAABm7aZVdkAXZEe-G3o3PLkeQ">ON Club</option>
-	<option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
-	<option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s</option>
+    <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
+    <option value="https://techno-revival.stream.laut.fm/techno-revival?ref=web-app&start_time=1759669832984">Techno Revival</option>
+    <option value="https://listen5.myradio24.com/eugenijus">Truckers Rave Radio</option>
+    <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8">Radio Deejay</option>
+    <option value="https://vdnvsxa1-4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaytime/live.m3u8">Deejay Time</option>
+    <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs - Deejay</option>
+    <option value="https://22713.live.streamtheworld.com/TLPSTR01.mp3?dist=538_web">538 Dance Department</option>
+    <option value="https://n32a-eu.rcs.revma.com/prbak410t13vv?rj-ttl=5&rj-tok=AAABm7aZVdkAXZEe-G3o3PLkeQ">ON Club</option>
+    <option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
+    <option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s</option>
     <option value="https://altair.streamerr.co:8124/stream">Deep House FM</option>
-	<option value="https://sh.onweb.gr:7115/;">Venus Radio</option>
+    <option value="https://sh.onweb.gr:7115/;">Venus Radio</option>
     <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
     <option value="https://ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-48000.m3u8">Il Sole 24 ore</option>
   </select>
+
   <div class="player-card" id="player-card">
     <div class="player-top">
-      <button id="prev" class="control-btn" aria-label="Previous">
+      <button id="prev" class="control-btn" aria-label="Precedente">
         <svg class="icon" viewBox="0 0 48 48" fill="currentColor">
           <polygon points="32,10 16,24 32,38"/>
         </svg>
       </button>
-      <button id="play-pause" aria-label="Play / Pause" disabled>
+      <button id="play-pause" aria-label="Play / Pausa" disabled>
         <svg class="icon" viewBox="0 0 48 48" fill="currentColor">
           <polygon points="14,10 34,24 14,38"/>
         </svg>
       </button>
-      <button id="next" class="control-btn" aria-label="Next">
+      <button id="next" class="control-btn" aria-label="Successiva">
         <svg class="icon" viewBox="0 0 48 48" fill="currentColor">
           <polygon points="16,10 32,24 16,38"/>
         </svg>
@@ -166,183 +170,311 @@ label[for="radio-select"] {
     </div>
     <div class="vis-wrap">
       <canvas id="visualizer"></canvas>
-      <div class="vis-overlay"></div>
     </div>
     <div class="footer-row">
       <span class="now" id="now">In pausa</span>
     </div>
   </div>
-  <audio id="audio-player" preload="auto" crossorigin="anonymous"></audio>
+
+  <audio id="audio-player" preload="none" crossorigin="anonymous"></audio>
 </div>
+
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script>
 (() => {
-  const audio = document.getElementById('audio-player');
+  'use strict';
+
+  // ─── Elementi DOM ────────────────────────────────────────────────────────────
+  const audio    = document.getElementById('audio-player');
   const selector = document.getElementById('radio-select');
-  const playBtn = document.getElementById('play-pause');
-  const prevBtn = document.getElementById('prev');
-  const nextBtn = document.getElementById('next');
-  const titleEl = document.getElementById('station-title');
-  const nowEl = document.getElementById('now');
-  const canvas = document.getElementById('visualizer');
-  const ctx = canvas.getContext('2d');
-  let hls = null;
-  let audioCtx = null;
-  let analyser, source, dataArray;
-  let isPlaying = false;
-  const stations = Array.from(selector.options).map(o => ({url: o.value, name: o.text}));
-  let currentIndex = -1;
-  function resizeCanvas() { canvas.width = canvas.clientWidth; canvas.height = canvas.clientHeight; }
-  window.addEventListener('resize', resizeCanvas);
-  resizeCanvas();
-  function setPlayIcon(playing) {
-    playBtn.innerHTML = playing
-      ? '<svg class="icon" viewBox="0 0 48 48"><rect x="12" y="8" width="8" height="32"/><rect x="28" y="8" width="8" height="32"/></svg>'
-      : '<svg class="icon" viewBox="0 0 48 48"><polygon points="14,10 34,24 14,38"/></svg>';
+  const playBtn  = document.getElementById('play-pause');
+  const prevBtn  = document.getElementById('prev');
+  const nextBtn  = document.getElementById('next');
+  const titleEl  = document.getElementById('station-title');
+  const nowEl    = document.getElementById('now');
+  const canvas   = document.getElementById('visualizer');
+  const ctx      = canvas.getContext('2d');
+
+  // ─── Stazioni: escludi il placeholder (value="") ─────────────────────────────
+  const stations = Array.from(selector.options)
+    .filter(o => o.value)
+    .map(o => ({ url: o.value, name: o.text }));
+
+  // ─── Stato ───────────────────────────────────────────────────────────────────
+  let hls            = null;
+  let audioCtx       = null;
+  let analyser       = null;
+  let source         = null;
+  let dataArray      = null;
+  let animFrameId    = null;       // per fermare il RAF da pausa
+  let currentIndex   = -1;        // indice in stations[]
+  let retryCount     = 0;         // tentativi HLS errore fatale
+  const MAX_RETRY    = 3;
+
+  // Stato per gestione chiamate / visibilità
+  let wasPlayingBeforeHide = false;
+  let hideTime             = 0;
+
+  // ─── Canvas resize (debounced) ───────────────────────────────────────────────
+  let resizeTimer;
+  function resizeCanvas() {
+    canvas.width  = canvas.clientWidth;
+    canvas.height = canvas.clientHeight;
   }
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(resizeCanvas, 100);
+  });
+  resizeCanvas();
+
+  // ─── Icone play/pausa ────────────────────────────────────────────────────────
+  const ICON_PLAY  = '<svg class="icon" viewBox="0 0 48 48" fill="currentColor"><polygon points="14,10 34,24 14,38"/></svg>';
+  const ICON_PAUSE = '<svg class="icon" viewBox="0 0 48 48" fill="currentColor"><rect x="12" y="8" width="8" height="32"/><rect x="28" y="8" width="8" height="32"/></svg>';
+  function setPlayIcon(playing) { playBtn.innerHTML = playing ? ICON_PAUSE : ICON_PLAY; }
+
+  // ─── Web Audio / Visualizzatore ──────────────────────────────────────────────
   function setupVisualizer() {
     if (audioCtx) return;
-    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    source = audioCtx.createMediaElementSource(audio);
-    analyser = audioCtx.createAnalyser();
-    source.connect(analyser);
-    analyser.connect(audioCtx.destination);
-    analyser.fftSize = 256;
-    dataArray = new Uint8Array(analyser.frequencyBinCount);
-    // Gestione stato AudioContext
-    audioCtx.onstatechange = () => {
-      console.log('AudioContext state:', audioCtx.state);
-      if ((audioCtx.state === 'suspended' || audioCtx.state === 'interrupted') && isPlaying) {
-        audioCtx.resume().then(() => {
-          console.log('AudioContext resumed');
-        }).catch(err => console.error('Error resuming AudioContext:', err));
-      }
-    };
-    draw();
-  }
-  function draw() {
-    requestAnimationFrame(draw);
-    if (!analyser) return;
-    analyser.getByteFrequencyData(dataArray);
-    ctx.fillStyle = '#fff';
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-    const barWidth = (canvas.width / dataArray.length) * 2.5;
-    let x = 0;
-    for (let i = 0; i < dataArray.length; i++) {
-      const barHeight = dataArray[i] / 2;
-      ctx.fillStyle = '#000';
-      ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
-      x += barWidth + 1;
+    try {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      source   = audioCtx.createMediaElementSource(audio);
+      analyser = audioCtx.createAnalyser();
+      source.connect(analyser);
+      analyser.connect(audioCtx.destination);
+      analyser.fftSize = 256;
+      dataArray = new Uint8Array(analyser.frequencyBinCount);
+    } catch (e) {
+      // CORS o browser non supportato: il visualizzatore rimane silente
+      audioCtx = analyser = source = dataArray = null;
     }
   }
-  function loadStream(index) {
+
+  function startDraw() {
+    if (!analyser || animFrameId) return;
+    function draw() {
+      analyser.getByteFrequencyData(dataArray);
+      ctx.fillStyle = '#fff';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      const barWidth = (canvas.width / dataArray.length) * 2.5;
+      let x = 0;
+      for (let i = 0; i < dataArray.length; i++) {
+        const barHeight = dataArray[i] / 2;
+        ctx.fillStyle = '#000';
+        ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+        x += barWidth + 1;
+      }
+      animFrameId = requestAnimationFrame(draw);
+    }
+    animFrameId = requestAnimationFrame(draw);
+  }
+
+  function stopDraw() {
+    if (animFrameId) { cancelAnimationFrame(animFrameId); animFrameId = null; }
+    // Svuota canvas
+    ctx.fillStyle = '#fff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+
+  // ─── Utilities ───────────────────────────────────────────────────────────────
+  function isHls(url) { return /\.m3u8($|\?)/i.test(url); }
+
+  /** Aggiorna il selettore in modo che rifletta currentIndex */
+  function syncSelector() {
+    // L'opzione selezionata nel <select> ha indice currentIndex + 1
+    // perché l'opzione 0 è il placeholder (non in stations[])
+    selector.selectedIndex = currentIndex + 1;
+  }
+
+  // ─── Caricamento stream ───────────────────────────────────────────────────────
+  function loadStream(index, forceReload = false) {
     if (index < 0 || index >= stations.length) return;
+    if (index === currentIndex && !forceReload) return;
+
     currentIndex = index;
-    const {url, name} = stations[index];
+    retryCount   = 0;
+    const { url, name } = stations[index];
+
+    syncSelector();
+
+    // Pulizia HLS precedente
     if (hls) { hls.destroy(); hls = null; }
-    audio.pause(); audio.src = '';
-    setPlayIcon(false); playBtn.disabled = true;
+
+    audio.pause();
+    audio.removeAttribute('src');
+    audio.load();          // resetta lo stato interno
+
+    stopDraw();
+    setPlayIcon(false);
+    playBtn.disabled = true;
     nowEl.textContent = 'Connessione…';
     titleEl.textContent = name;
 
-    const play = () => {
-      audio.play().then(() => {
-        playBtn.disabled = false; setPlayIcon(true); isPlaying = true;
-        nowEl.textContent = 'In riproduzione'; setupVisualizer();
-      }).catch((err) => {
-        console.log('Errore durante la riproduzione:', err);
-        nowEl.textContent = 'Errore, ritento...';
-        setTimeout(() => loadStream(currentIndex), 2000);
-      });
+    const attemptPlay = () => {
+      audio.play()
+        .then(() => {
+          playBtn.disabled = false;
+          setPlayIcon(true);
+          nowEl.textContent = 'In riproduzione';
+          setupVisualizer();
+          startDraw();
+          if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+        })
+        .catch(err => {
+          console.warn('Errore play:', err);
+          nowEl.textContent = 'Avvio fallito, ritento…';
+          scheduleRetry();
+        });
     };
 
-    if (/\.m3u8($|\?)/i.test(url) && window.Hls && Hls.isSupported()) {
+    const scheduleRetry = () => {
+      if (retryCount < MAX_RETRY) {
+        retryCount++;
+        setTimeout(() => loadStream(currentIndex, true), 2000 * retryCount);
+      } else {
+        nowEl.textContent = 'Stream non disponibile';
+        titleEl.textContent = name;
+        playBtn.disabled = false;  // consente retry manuale
+      }
+    };
+
+    if (isHls(url) && window.Hls && Hls.isSupported()) {
       hls = new Hls({
-        maxBufferLength: 60,
-        maxMaxBufferLength: 120,
-        maxBufferSize: 60 * 1000 * 1000,
+        maxBufferLength:          60,
+        maxMaxBufferLength:       120,
+        maxBufferSize:            60 * 1000 * 1000,
+        liveSyncDurationCount:    3,
+        liveMaxLatencyDurationCount: 10,
       });
       hls.loadSource(url);
       hls.attachMedia(audio);
-      hls.on(Hls.Events.MANIFEST_PARSED, play);
-      hls.on(Hls.Events.ERROR, (event, data) => {
-        if (data.fatal) {
-          switch (data.type) {
-            case Hls.ErrorTypes.NETWORK_ERROR:
-              console.log('Errore di rete, tentativo di riconnessione...');
-              hls.startLoad();
-              break;
-            case Hls.ErrorTypes.MEDIA_ERROR:
-              console.log('Errore media, tentativo di recupero...');
-              hls.recoverMediaError();
-              break;
-            default:
-              console.log('Errore non recuperabile:', data);
-              hls.destroy();
-              loadStream(currentIndex);
-              break;
-          }
+      hls.on(Hls.Events.MANIFEST_PARSED, attemptPlay);
+      hls.on(Hls.Events.ERROR, (_e, data) => {
+        if (!data.fatal) return;
+        switch (data.type) {
+          case Hls.ErrorTypes.NETWORK_ERROR:
+            hls.startLoad();
+            break;
+          case Hls.ErrorTypes.MEDIA_ERROR:
+            hls.recoverMediaError();
+            break;
+          default:
+            hls.destroy(); hls = null;
+            nowEl.textContent = 'Errore stream, ritento…';
+            scheduleRetry();
         }
       });
     } else {
+      // Stream MP3 / AAC diretto
       audio.src = url;
-      play();
+      attemptPlay();
     }
   }
-  selector.addEventListener('change', () => { const i = selector.selectedIndex; if (i > 0) loadStream(i); });
-  playBtn.addEventListener('click', () => {
-    if (!audio.src) return;
-    if (audio.paused) { 
-      audio.play().catch(err => console.error('Error on manual play:', err)); 
-      setPlayIcon(true); 
-      nowEl.textContent = 'In riproduzione'; 
-    } else { 
-      audio.pause(); 
+
+  // ─── Ripresa dopo telefonata / background ────────────────────────────────────
+  // Su mobile iOS/Android, una chiamata in arrivo porta la pagina in background
+  // (visibilityState = 'hidden') e interrompe l'audio.
+  // Quando la chiamata finisce e l'utente torna alla pagina, riprendiamo:
+  //   • HLS → ricarica lo stream per agganciarsi al punto live attuale
+  //   • MP3 → semplice resume (il buffer è ancora valido)
+  //
+  // La soglia di 2 s filtra i normali passaggi di schermata brevi.
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      wasPlayingBeforeHide = !audio.paused;
+      hideTime = Date.now();
+      return;
+    }
+
+    // Pagina tornata visibile
+    const hiddenMs = Date.now() - hideTime;
+
+    if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+
+    if (!wasPlayingBeforeHide) return;   // era già in pausa, non fare nulla
+
+    if (hiddenMs > 2000) {
+      // Interruzione significativa (telefonata, cambio app lungo)
+      const { url } = stations[currentIndex] || {};
+      if (!url) return;
+
+      nowEl.textContent = 'Risincronizzo…';
+      if (isHls(url)) {
+        // HLS: reload obbligatorio per tornare al punto live
+        loadStream(currentIndex, true);
+      } else {
+        // MP3/AAC diretto: riprendi senza ricaricare
+        audio.play().catch(() => loadStream(currentIndex, true));
+      }
+    } else if (audio.paused) {
+      // Brevissimo hide (es. notifica): riprendi normalmente
+      audio.play().catch(() => loadStream(currentIndex, true));
     }
   });
-  audio.addEventListener('pause', () => { setPlayIcon(false); nowEl.textContent = 'In pausa'; isPlaying = false; });
-  audio.addEventListener('playing', () => { setPlayIcon(true); nowEl.textContent = 'In riproduzione'; isPlaying = true; });
-  audio.addEventListener('error', () => {
-    console.log('Errore audio, tentativo di riconnessione...');
-    nowEl.textContent = 'Errore, riconnessione...';
-    setTimeout(() => loadStream(currentIndex), 2000);
-  });
-  audio.addEventListener('play', () => {
-    if (navigator.onLine) {
-      nowEl.textContent = 'In riproduzione';
-      setPlayIcon(true);
-      isPlaying = true;
-    } else {
-      nowEl.textContent = 'Nessuna connessione';
-      audio.pause();
-      setPlayIcon(false);
-    }
-  });
+
+  // ─── Gestione connessione di rete ────────────────────────────────────────────
   window.addEventListener('online', () => {
-    if (audio.src && audio.paused && currentIndex >= 0) {
-      nowEl.textContent = 'Riconnessione...';
-      loadStream(currentIndex);
+    if (currentIndex >= 0 && wasPlayingBeforeHide) {
+      nowEl.textContent = 'Riconnessione…';
+      loadStream(currentIndex, true);
     }
   });
   window.addEventListener('offline', () => {
-    nowEl.textContent = 'Offline, in attesa di connessione...';
+    nowEl.textContent = 'Offline – in attesa di connessione…';
   });
-  // Gestione visibilità per resume su mobile
-  document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible' && !audio.paused && currentIndex >= 0) {
-      nowEl.textContent = 'Ripresa...';
-      audio.play().catch(err => {
-        console.error('Error resuming audio on visibility change:', err);
-        nowEl.textContent = 'Tocca Play per riprendere';
-      });
-      if (audioCtx && (audioCtx.state === 'suspended' || audioCtx.state === 'interrupted')) {
-        audioCtx.resume().then(() => {
-          console.log('AudioContext resumed on visibility change');
-        }).catch(err => console.error('Error resuming AudioContext:', err));
-      }
+
+  // ─── Eventi audio ─────────────────────────────────────────────────────────────
+  audio.addEventListener('pause', () => {
+    setPlayIcon(false);
+    nowEl.textContent = 'In pausa';
+    stopDraw();
+  });
+  audio.addEventListener('playing', () => {
+    setPlayIcon(true);
+    nowEl.textContent = 'In riproduzione';
+    startDraw();
+    if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+  });
+  audio.addEventListener('error', () => {
+    if (currentIndex < 0) return;
+    nowEl.textContent = 'Errore audio, riconnessione…';
+    if (retryCount < MAX_RETRY) {
+      retryCount++;
+      setTimeout(() => loadStream(currentIndex, true), 2000 * retryCount);
+    } else {
+      nowEl.textContent = 'Stream non disponibile';
+      playBtn.disabled = false;
     }
   });
-  prevBtn.addEventListener('click', () => { if (currentIndex > 1) loadStream(currentIndex - 1); });
-  nextBtn.addEventListener('click', () => { if (currentIndex < stations.length - 1) loadStream(currentIndex + 1); });
+
+  // ─── Controlli UI ────────────────────────────────────────────────────────────
+  selector.addEventListener('change', () => {
+    // selectedIndex 0 = placeholder, quindi stazione = selectedIndex - 1
+    const i = selector.selectedIndex - 1;
+    if (i >= 0) loadStream(i);
+  });
+
+  playBtn.addEventListener('click', () => {
+    if (currentIndex < 0) return;
+    if (audio.paused) {
+      // Se src è perso (es. dopo errore), ricarica; altrimenti riprendi
+      if (!audio.src || audio.error) {
+        loadStream(currentIndex, true);
+      } else {
+        audio.play().catch(() => loadStream(currentIndex, true));
+      }
+    } else {
+      audio.pause();
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) loadStream(currentIndex - 1);
+  });
+
+  nextBtn.addEventListener('click', () => {
+    if (currentIndex < stations.length - 1) loadStream(currentIndex + 1);
+  });
+
 })();
 </script>
