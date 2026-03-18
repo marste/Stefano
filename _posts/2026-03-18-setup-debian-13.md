@@ -44,7 +44,8 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 ```
 
 **Installa queste due estensioni per Gnome:**   
-[https://extensions.gnome.org/extension/4994/dash2dock-lite/](https://extensions.gnome.org/extension/4994/dash2dock-lite/)
+[https://extensions.gnome.org/extension/4994/dash2dock-lite/](https://extensions.gnome.org/extension/4994/dash2dock-lite/)   
+
 [https://extensions.gnome.org/extension/615/appindicator-support/](https://extensions.gnome.org/extension/615/appindicator-support/)
 
 **Installa Spotify:**
@@ -58,11 +59,11 @@ sudo apt-get update && sudo apt-get install spotify-client
 [https://github.com/mewset/better-iptv/releases](https://github.com/mewset/better-iptv/releases)
 
 **Inserisci questo URL m3u**
-[https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/iptvit.m3u] (https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/iptvit.m3u)
+[https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/iptvit.m3u](https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/iptvit.m3u)
 
 **Installa Stremio, Shortwave e audiotube da Flathub**
 
-**Installa Mega** da [https://mega.io/it/desktop] (https://mega.io/it/desktop)
+**Installa Mega** da [https://mega.io/it/desktop](https://mega.io/it/desktop)
 
 **Crea alias  per aggiornare tutto con il comando "aggiorna"**
 ```
