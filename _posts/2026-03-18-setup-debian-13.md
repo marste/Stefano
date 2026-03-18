@@ -45,7 +45,6 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 
 **Installa queste due estensioni per Gnome:**   
 [https://extensions.gnome.org/extension/4994/dash2dock-lite/](https://extensions.gnome.org/extension/4994/dash2dock-lite/)   
-
 [https://extensions.gnome.org/extension/615/appindicator-support/](https://extensions.gnome.org/extension/615/appindicator-support/)
 
 **Installa Spotify:**
@@ -55,7 +54,7 @@ echo "deb https://repository.spotify.com stable non-free" | sudo tee /etc/apt/so
 sudo apt-get update && sudo apt-get install spotify-client
 ```
 
-**Installa Better IPTV**
+**Installa Better IPTV:**
 [https://github.com/mewset/better-iptv/releases](https://github.com/mewset/better-iptv/releases)
 
 **Inserisci questo URL m3u per i canali del digitale terrestre:**
@@ -63,7 +62,7 @@ sudo apt-get update && sudo apt-get install spotify-client
 
 **Installa Stremio, Shortwave e audiotube da Flathub**
 
-**Installa Mega**   
+**Installa Mega:**   
 [https://mega.io/it/desktop](https://mega.io/it/desktop)
 
 **Crea alias  per aggiornare tutto con il comando "aggiorna"**
