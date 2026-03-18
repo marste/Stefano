@@ -83,5 +83,6 @@ sudo reboot
 **Come ridurre il consumo su Debian 13**
 ```
 sudo apt install tlp
-sudo tlp start
+sudo systemctl enable tlp
+sudo systemctl start tlp
 ```
