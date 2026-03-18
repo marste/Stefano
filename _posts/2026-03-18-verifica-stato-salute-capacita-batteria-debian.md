@@ -31,6 +31,4 @@ In alternativa leggendo i dati direttamente dal kernel:
 cat /sys/class/power_supply/BAT0/capacity
 ```
 E calcoli:   
-```
-capacità % = (energy_full / energy_full_design) × 100
-```
+```capacità % = (energy_full / energy_full_design) × 100```
