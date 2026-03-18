@@ -3,8 +3,8 @@ title: "In Debian 13 con GNOME l'icona del WiFi compare con un punto interrogati
 subtitle: "anche se c'è connettività"
 date: 2025-12-19 10:00:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/linux.png'
-share-img: 'https://marzorati.co/img/linux.png'
+image: 'https://marzorati.co/img/debian.png'
+share-img: 'https://marzorati.co/img/debian.png'
 layout: post
 categories: [Linux]
 tags: [debian, gnome, icon, wifi, check, connettività]
