@@ -14,22 +14,34 @@ sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree fir
 ```
 
 **Configura il servizio di stampa per avviarsi automaticamente all’avvio del sistema**   
-```sudo systemctl enable --now cups```
+```
+sudo systemctl enable --now cups
+```
 
 **installa strumenti utili (aggiornamenti automatici + firewall + info aggiornamenti)**
-```sudo apt install unattended-upgrades apt-listchanges gufw```
+```
+sudo apt install unattended-upgrades apt-listchanges gufw
+```
 
 **attiva/configura gli aggiornamenti automatici**
-```sudo dpkg-reconfigure unattended-upgrades```
+```
+sudo dpkg-reconfigure unattended-upgrades
+```
 
 **aggiorna completamente il sistema**
-```sudo apt update && sudo apt full-upgrade -y```
+```
+sudo apt update && sudo apt full-upgrade -y
+```
 
 **ripulisce ciò che non serve più**
-```sudo apt autoremove --purge -y```
+```
+sudo apt autoremove --purge -y
+```
 
 **Aggiunge il repository Flathub a Flatpak, cioè la principale “app store” per applicazioni Flatpak**
-```sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo```
+```
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
 
 **Installa queste due estensioni per Gnome:**   
 [https://extensions.gnome.org/extension/4994/dash2dock-lite/](https://extensions.gnome.org/extension/4994/dash2dock-lite/)
