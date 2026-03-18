@@ -58,7 +58,7 @@ sudo apt-get update && sudo apt-get install spotify-client
 **Installa Better IPTV**
 [https://github.com/mewset/better-iptv/releases](https://github.com/mewset/better-iptv/releases)
 
-**Inserisci questo URL m3u**
+**Inserisci questo URL m3u per i canali del digitale terrestre:**
 [https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/iptvit.m3u](https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/iptvit.m3u)
 
 **Installa Stremio, Shortwave e audiotube da Flathub**
