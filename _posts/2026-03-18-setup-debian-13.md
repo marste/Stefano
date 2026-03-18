@@ -10,7 +10,7 @@ tags: [debian, gnome, setup, install, configure, program, app]
 ---
 **Per prima cosa installa con un unico comando, tutto questo:**   
 ```
-sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree firmware-realtek firmware-iwlwifi firmware-amd-graphics firmware-intel-sound gstreamer1.0-libav gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly ffmpeg fonts-liberation2 libavcodec-extra gnome-tweaks gnome-shell-extensions gnome-software gnome-software-plugin-flatpak flatpak gnome-shell-extension-manager fonts-cantarell fonts-dejavu fonts-liberation cups system-config-printer fastfetch screenfetch htop wget gnome-shell-extension-prefs mpv
+sudo apt install firmware-linux firmware-linux-nonfree firmware-misc-nonfree firmware-realtek firmware-iwlwifi firmware-amd-graphics firmware-intel-sound gstreamer1.0-libav gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly ffmpeg fonts-liberation2 libavcodec-extra gnome-tweaks gnome-shell-extensions gnome-software gnome-software-plugin-flatpak flatpak gnome-shell-extension-manager fonts-cantarell fonts-dejavu fonts-liberation cups system-config-printer fastfetch screenfetch htop wget gnome-shell-extension-prefs mpv upower
 ```
 
 **Configura il servizio di stampa per avviarsi automaticamente all’avvio del sistema**   
