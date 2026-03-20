@@ -10,7 +10,7 @@ tags: [debian, mpv, iptv, digitale terrestre]
 ---
 Scarica il file iptv e copialo con questo comando:
 ```
-sudo wget https://marzorati.co/dowanload/iptv -qO /usr/local/bin/iptv && sudo chmod +x /usr/local/bin/iptv
+sudo wget https://marzorati.co/download/iptv -qO /usr/local/bin/iptv && sudo chmod +x /usr/local/bin/iptv
 ```
 
 Esegui solo una volta:    
