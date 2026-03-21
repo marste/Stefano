@@ -26,9 +26,6 @@ Se vedi:
 * <60% → da sostituire
    
 
-In alternativa leggendo i dati direttamente dal kernel:   
-```
-cat /sys/class/power_supply/BAT0/capacity
-```
-E calcoli:   
+Che è l'equivalente di:   
+
 ```capacità % = (energy_full / energy_full_design) × 100```
