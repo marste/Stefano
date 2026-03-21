@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/debian.png'
 share-img: 'https://marzorati.co/img/debian.png'
 layout: post
 categories: [Linux]
-tags: [debian, mpv, iptv, digitale terrestre]
+tags: [debian, mpv, iptv, digitale terrestre, dtt]
 ---
 Scarica il file iptv e copialo con questo comando:
 ```
