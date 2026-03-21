@@ -40,7 +40,4 @@ sudo systemctl restart NetworkManager
 ```
 
 Altri URL di connectivity check:   
-- http://google.com/generate_204
-- http://connectivitycheck.gstatic.com/generate_204
-- http://www.gstatic.com/generate_204
-- http://connectivitycheck.android.com/generate_204
+- http://nmcheck.gnome.org/check_network_status.txt
