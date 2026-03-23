@@ -16,7 +16,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>VARAZZE</strong> (Savona) - Riviera di Ponente</center>   
 <center>
-<img alt="varazze" src="https://vedetta.org/image-client/marina-di-varazze/image.jpg">
+<a name="windy-webcam-timelapse-player"  data-id="1711742156" data-play="day" href="https://windy.com/webcams/1711742156" target="_blank">Varazze</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/v2/script/player.js"></script>
 </center>
 <p></p>
 <center><strong>CHAMOIS</strong> (Aosta) - 1800 metri</center>   
