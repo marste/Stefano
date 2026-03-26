@@ -21,12 +21,19 @@ tags:
 
 To initiate a Delta Sync, open Windows PowerShell and run:   
 
-<code>Import-Module ADSync</code>   
-
-<code>Start-ADSyncSyncCycle -PolicyType Delta</code>
-
+```
+Import-Module ADSync
+```
+e
+```
+Start-ADSyncSyncCycle -PolicyType Delta
+```
 To initiate a Full Sync, open Windows PowerShell and run:   
 
-<code>Import-Module ADSync</code>   
-
-<code>Start-ADSyncSyncCycle -PolicyType Initial</code>
+```
+Import-Module ADSync
+```   
+e
+```
+Start-ADSyncSyncCycle -PolicyType Initial
+```
