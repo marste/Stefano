@@ -24,7 +24,6 @@ To initiate a Delta Sync, open Windows PowerShell and run:
 ```
 Import-Module ADSync
 ```
-e
 ```
 Start-ADSyncSyncCycle -PolicyType Delta
 ```
@@ -33,7 +32,6 @@ To initiate a Full Sync, open Windows PowerShell and run:
 ```
 Import-Module ADSync
 ```   
-e
 ```
 Start-ADSyncSyncCycle -PolicyType Initial
 ```
