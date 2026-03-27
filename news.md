@@ -92,6 +92,21 @@ share-img: 'https://marzorati.co/img/news.png'
   });
 </script>
 
+<center><h1><a name="Bloomberg"><font color="Black">Bloomberg</font></a></h1></center>
+<br>
+<div id="divRssBloomberg"></div>
+<script>
+    $('#divRssUltimissime').FeedEk({
+    FeedUrl : 'https://feeds.bloomberg.com/markets/news.rss',
+    MaxCount : 20,
+	ShowPubDate:true,
+    ShowDesc : true,
+    TitleLinkTarget:'_blank',
+    DateFormat : 'dd/MM/yyyy',
+    DateFormatLang : 'it'
+  });
+</script>
+
 <center><h1><a name="Principali"><font color="Black">Principali</font></a></h1></center>
 <br>
 <div id="divRssPrincipali"></div>
