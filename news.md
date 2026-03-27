@@ -97,7 +97,7 @@ share-img: 'https://marzorati.co/img/news.png'
 <div id="divRssBloomberg"></div>
 <script>
     $('#divRssBloomberg').FeedEk({
-    FeedUrl : 'https://feeds.bloomberg.com/markets/news.rss',
+    FeedUrl : 'https://feeds.content.dowjones.io/public/rss/mw_topstories',
     MaxCount : 20,
 	ShowPubDate:true,
     ShowDesc : true,
