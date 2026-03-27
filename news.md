@@ -96,7 +96,7 @@ share-img: 'https://marzorati.co/img/news.png'
 <br>
 <div id="divRssBloomberg"></div>
 <script>
-    $('#divRssUltimissime').FeedEk({
+    $('#divRssBloomberg').FeedEk({
     FeedUrl : 'https://feeds.bloomberg.com/markets/news.rss',
     MaxCount : 20,
 	ShowPubDate:true,
