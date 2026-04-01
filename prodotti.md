@@ -112,7 +112,7 @@ Caffè Solubile Aldi;29,95 €/kg
 Cacao amaro;2,07 €/kg
 Brioschi;10,91 €/kg
 Testine OralB;2,33 cad.
-Caffè Lavazza Dek;15,98 €/kg
+Caffè Lavazza Dek;14,78 €/kg
 Gorgonzola Santi;18 €/kg
 Detersivo Felce Azzurra;2,16 €/l
 Detersivo lavatrice;1,85 €/l
