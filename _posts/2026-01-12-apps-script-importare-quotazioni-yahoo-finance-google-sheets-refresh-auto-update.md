@@ -1,6 +1,6 @@
 ---
 title: "Apps Script per importare le quotazioni da Yahoo Finance in Google Sheets con aggiornamento automatico"
-date: 2026-03-13 08:23:00 +0200
+date: 2026-04-02 08:23:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/money.png'
 share-img: 'https://marzorati.co/img/money.png'
@@ -20,7 +20,14 @@ Ho aggiunto che
 
 ```
 /*************************************************
- * FUNZIONI FINANZA – VERSIONE 13/03/2026 (LIVE last + PREV from daily bars)
+ * FUNZIONI FINANZA – VERSIONE CORRETTA - Cluade 02/04/2026
+ *
+ * Correzioni rispetto alla versione 13/03/2026:
+ * - VARGIORN: usa meta.chartPreviousClose (o previousClose) direttamente
+ *   dai meta della chiamata live, evitando l'euristica sulle daily bars
+ *   che causava il calcolo errato del prevClose.
+ * - _getPrevCloseFromDailyBars: riscritta per preferire chartPreviousClose
+ *   dai meta invece della logica con tolleranza 0.3% (troppo stretta).
  *
  * =ULTIMO("SWDA.MI")
  * =VARGIORN("SWDA.MI")
@@ -32,6 +39,8 @@ Ho aggiunto che
  * =MINVAL("SWDA.MI"; "6mo")
  * =MINDATE("SWDA.MI"; "1y")
  * =MININFO("SWDA.MI"; "3y")
+ * =CAMBIO("EURUSD")
+ * =CAMBIO_PCT("EURUSD")
  * =DEBUG_TICKER("SWDA.MI")
  * =FORZA_REFRESH()
  *************************************************/
@@ -94,9 +103,9 @@ function _lastTwoNonNull(arr) {
 function _getLiveLast(ticker) {
   const t = _normTicker(ticker);
   const tries = [
-    { range: "1d", interval: "5m", label: "1d/5m" },
-    { range: "1d", interval: "1m", label: "1d/1m" },
-    { range: "5d", interval: "1d", label: "5d/1d" }
+    { range: "1d", interval: "5m",  label: "1d/5m" },
+    { range: "1d", interval: "1m",  label: "1d/1m" },
+    { range: "5d", interval: "1d",  label: "5d/1d" }
   ];
 
   for (const tr of tries) {
@@ -106,10 +115,12 @@ function _getLiveLast(ticker) {
     const m = r.meta || {};
     const hint = m.priceHint;
 
-    // last preferito: meta.regularMarketPrice
-    let last = (m.regularMarketPrice != null && !isNaN(m.regularMarketPrice)) ? Number(m.regularMarketPrice) : null;
+    // Last preferito: meta.regularMarketPrice
+    let last = (m.regularMarketPrice != null && !isNaN(m.regularMarketPrice))
+      ? Number(m.regularMarketPrice)
+      : null;
 
-    // fallback: ultimo close della serie
+    // Fallback: ultimo close della serie
     if (last == null) {
       const lastClose = _lastNonNull(r?.indicators?.quote?.[0]?.close);
       if (lastClose != null) last = Number(lastClose);
@@ -129,37 +140,50 @@ function _getLiveLast(ticker) {
 }
 
 /***********************
- * PREV CLOSE ROBUST:
- * calcolata dai daily close (range 10d / 1d)
+ * PREV CLOSE ROBUSTO
  *
- * logica:
- * - prendo gli ultimi due close validi: dailyLast, dailyPrev
- * - se dailyLast è "vicino" al liveLast => prevClose = dailyPrev
- * - altrimenti => prevClose = dailyLast (cioè ieri)
+ * CORREZIONE: la vecchia logica usava una tolleranza dello 0,3% per capire
+ * se dailyLast fosse il close di oggi o di ieri — troppo stretta in mercati
+ * mossi, causando il pick del ramo sbagliato e quindi una variazione errata.
+ *
+ * Nuova logica:
+ * 1. Usa meta.chartPreviousClose (o meta.previousClose) dalla chiamata 5d/1d:
+ *    Yahoo lo popola con il close ufficiale di ieri, senza ambiguità.
+ * 2. Fallback: penultimo close dalle barre giornaliere.
  ***********************/
 function _getPrevCloseFromDailyBars(ticker, liveLast) {
   const t = _normTicker(ticker);
-  const r = _fetchChart(t, "10d", "1d");
+
+  const r = _fetchChart(t, "5d", "1d");
   if (!r) return { prevClose: null, dailyLast: null, dailyPrev: null };
 
-  const closes = r?.indicators?.quote?.[0]?.close;
-  const two = _lastTwoNonNull(closes);
-  const dailyLast = (two.last != null ? Number(two.last) : null);
-  const dailyPrev = (two.prev != null ? Number(two.prev) : null);
+  const m = r.meta || {};
 
-  if (dailyLast == null) return { prevClose: null, dailyLast, dailyPrev };
+  // --- PRIMA SCELTA: chartPreviousClose / previousClose dai meta ---
+  // Questi campi contengono direttamente il close ufficiale del giorno precedente.
+  const metaPrev =
+    (m.chartPreviousClose != null && !isNaN(m.chartPreviousClose)) ? Number(m.chartPreviousClose) :
+    (m.previousClose     != null && !isNaN(m.previousClose))      ? Number(m.previousClose)      :
+    null;
 
-  // tolleranza per capire se il "daily last" è in realtà il last intraday (Yahoo spesso lo fa)
-  // 0.3% o minimo 0.02 (per strumenti a prezzo piccolo)
-  const tol = Math.max(Math.abs(Number(liveLast || dailyLast)) * 0.003, 0.02);
-
-  if (liveLast != null && !isNaN(liveLast) && Math.abs(dailyLast - Number(liveLast)) <= tol) {
-    // dailyLast ≈ liveLast => prev è il close precedente
-    return { prevClose: dailyPrev, dailyLast, dailyPrev };
+  if (metaPrev != null) {
+    const closes = r?.indicators?.quote?.[0]?.close;
+    const two = _lastTwoNonNull(closes);
+    return {
+      prevClose: metaPrev,
+      dailyLast: two.last != null ? Number(two.last) : null,
+      dailyPrev: two.prev != null ? Number(two.prev) : null
+    };
   }
 
-  // altrimenti dailyLast è il close di ieri
-  return { prevClose: dailyLast, dailyLast, dailyPrev };
+  // --- FALLBACK: penultimo close dalle barre giornaliere ---
+  const closes = r?.indicators?.quote?.[0]?.close;
+  const two = _lastTwoNonNull(closes);
+  return {
+    prevClose: two.prev != null ? Number(two.prev) : null,
+    dailyLast: two.last != null ? Number(two.last) : null,
+    dailyPrev: two.prev != null ? Number(two.prev) : null
+  };
 }
 
 /***********************
@@ -177,8 +201,12 @@ function ULTIMO(ticker) {
 
 /***********************
  * VARIAZIONE GIORNALIERA %
- * last = live meta.regularMarketPrice
- * prevClose = daily bars (robusto)
+ *
+ * CORREZIONE: usa direttamente meta.chartPreviousClose (o previousClose)
+ * già presente nella risposta di _getLiveLast, senza passare per
+ * _getPrevCloseFromDailyBars e la sua logica di tolleranza difettosa.
+ * _getPrevCloseFromDailyBars viene usata solo come fallback se i meta
+ * non contengono il prevClose.
  ***********************/
 function VARGIORN(ticker) {
   const t = _normTicker(ticker);
@@ -187,12 +215,23 @@ function VARGIORN(ticker) {
   const live = _getLiveLast(t);
   if (live.last == null) return "Dati incompleti";
 
-  const prevObj = _getPrevCloseFromDailyBars(t, live.last);
-  const prev = prevObj.prevClose;
+  const m = live.meta || {};
+
+  // Prova prima a leggere il prevClose direttamente dai meta della chiamata live
+  let prev =
+    (m.chartPreviousClose != null && !isNaN(m.chartPreviousClose)) ? Number(m.chartPreviousClose) :
+    (m.previousClose      != null && !isNaN(m.previousClose))      ? Number(m.previousClose)      :
+    null;
+
+  // Se i meta non lo hanno (raro), fallback a daily bars
+  if (prev == null) {
+    const prevObj = _getPrevCloseFromDailyBars(t, live.last);
+    prev = prevObj.prevClose;
+  }
 
   if (prev == null || isNaN(prev) || Number(prev) === 0) return "Dati incompleti";
 
-  return Number((((Number(live.last) - Number(prev)) / Number(prev)) * 100).toFixed(2));
+  return Number((((Number(live.last) - prev) / prev) * 100).toFixed(2));
 }
 
 /***********************
@@ -248,9 +287,9 @@ function VARPER(ticker, giorni) {
 /***********************
  * MAX helpers (storico)
  ***********************/
-function MAXVAL(ticker, range, dataInizio) { return _maxCore(ticker, dataInizio, "value", range); }
-function MAXDATE(ticker, range, dataInizio) { return _maxCore(ticker, dataInizio, "date", range); }
-function MAXINFO(ticker, range, dataInizio) { return _maxCore(ticker, dataInizio, "full", range); }
+function MAXVAL(ticker, range, dataInizio)  { return _maxCore(ticker, dataInizio, "value", range); }
+function MAXDATE(ticker, range, dataInizio) { return _maxCore(ticker, dataInizio, "date",  range); }
+function MAXINFO(ticker, range, dataInizio) { return _maxCore(ticker, dataInizio, "full",  range); }
 
 function _maxCore(ticker, dataInizio, mode, range = "1y") {
   const t = _normTicker(ticker);
@@ -288,74 +327,47 @@ function _maxCore(ticker, dataInizio, mode, range = "1y") {
   const dataMax = Utilities.formatDate(new Date(maxT * 1000), Session.getScriptTimeZone(), "dd/MM/yyyy");
 
   if (mode === "value") return _roundByHint(maxP, 4);
-  if (mode === "date") return dataMax;
+  if (mode === "date")  return dataMax;
 
   return [
-    ["Ticker", t],
+    ["Ticker",         t],
     ["Prezzo attuale", ultimo],
-    ["Var. oggi %", VARGIORN(t)],
-    ["Massimo", _roundByHint(maxP, 4)],
-    ["Data massimo", dataMax],
-    ["Drawdown %", drawdown],
-    ["YTD %", YTD(t)]
+    ["Var. oggi %",    VARGIORN(t)],
+    ["Massimo",        _roundByHint(maxP, 4)],
+    ["Data massimo",   dataMax],
+    ["Drawdown %",     drawdown],
+    ["YTD %",          YTD(t)]
   ];
 }
 
-
-
-
-
 /***********************
- * MIN VALORE
+ * MIN helpers (storico)
  ***********************/
-function MINVAL(ticker, range) {
-  return _minCore(ticker, range, "value");
-}
+function MINVAL(ticker, range)  { return _minCore(ticker, range, "value"); }
+function MINDATE(ticker, range) { return _minCore(ticker, range, "date");  }
+function MININFO(ticker, range) { return _minCore(ticker, range, "full");  }
 
-/***********************
- * DATA DEL MINIMO
- ***********************/
-function MINDATE(ticker, range) {
-  return _minCore(ticker, range, "date");
-}
-
-/***********************
- * MIN INFO
- ***********************/
-function MININFO(ticker, range) {
-  return _minCore(ticker, range, "full");
-}
-
-/***********************
- * CORE MINIMO
- ***********************/
 function _minCore(ticker, range, mode) {
   if (!ticker) return "Ticker?";
-  if (!range) range = "1y";
+  if (!range)  range = "1y";
 
   const r = _fetchChart(ticker, range, "1d");
   if (!r) return "Errore Yahoo";
 
   const prices = r?.indicators?.quote?.[0]?.close;
-  const ts = r?.timestamp;
+  const ts     = r?.timestamp;
   if (!prices || !ts) return "Dati incompleti";
 
   let minP = Infinity, minT = null;
-
   for (let i = 0; i < prices.length; i++) {
     const px = prices[i];
-    if (px == null) continue;
-
-    if (px < minP) {
-      minP = px;
-      minT = ts[i];
-    }
+    if (px == null || isNaN(px)) continue;
+    if (px < minP) { minP = px; minT = ts[i]; }
   }
 
   if (minT === null) return "No dati";
 
   const ultimo = ULTIMO(ticker);
-
   const rebound = (typeof ultimo === "number")
     ? Number((((ultimo - minP) / minP) * 100).toFixed(2))
     : "—";
@@ -367,66 +379,105 @@ function _minCore(ticker, range, mode) {
   );
 
   if (mode === "value") return Number(minP.toFixed(4));
-  if (mode === "date") return dataMin;
+  if (mode === "date")  return dataMin;
 
   return [
-    ["Ticker", ticker],
-    ["Prezzo attuale", ultimo],
-    ["Var. oggi %", VARGIORN(ticker)],
+    ["Ticker",              ticker],
+    ["Prezzo attuale",      ultimo],
+    ["Var. oggi %",         VARGIORN(ticker)],
     ["Minimo (" + range + ")", Number(minP.toFixed(4))],
-    ["Data minimo", dataMin],
-    ["Rimbalzo %", rebound],
-    ["YTD %", YTD(ticker)]
+    ["Data minimo",         dataMin],
+    ["Rimbalzo %",          rebound],
+    ["YTD %",               YTD(ticker)]
   ];
 }
 
+/***********************
+ * CAMBIO VALUTA (via CHART - stabile)
+ *
+ * =CAMBIO("EURUSD")
+ * =CAMBIO("USDEUR")
+ * =CAMBIO("EURUSD"; 6)
+ ***********************/
+function CAMBIO(pair, decimals) {
+  if (!pair) return "Pair?";
 
+  const ticker = pair.toUpperCase() + "=X";
+  const r = _fetchChart(ticker, "1d", "5m");
+  if (!r) return "Errore Yahoo";
 
+  const price = r?.meta?.regularMarketPrice;
+  if (price == null) return "No dati";
+
+  const dec = (decimals != null && !isNaN(decimals)) ? Number(decimals) : 4;
+  return Number(Number(price).toFixed(dec));
+}
 
 /***********************
- * DEBUG: mostra perché SWDA.MI prende 111,41 nei meta ma usa prevClose da daily bars
+ * VARIAZIONE % CAMBIO
+ *
+ * =CAMBIO_PCT("EURUSD")
+ ***********************/
+function CAMBIO_PCT(pair, decimals) {
+  if (!pair) return "Pair?";
+
+  const ticker = pair.toUpperCase() + "=X";
+  const r = _fetchChart(ticker, "1d", "5m");
+  if (!r) return "Errore Yahoo";
+
+  const last = r?.meta?.regularMarketPrice;
+  const prev = r?.meta?.previousClose ?? r?.meta?.chartPreviousClose ?? null;
+
+  if (last == null || prev == null || prev === 0) return "Dati incompleti";
+
+  const pct = ((last - prev) / prev) * 100;
+  const dec = (decimals != null && !isNaN(decimals)) ? Number(decimals) : 2;
+  return Number(pct.toFixed(dec));
+}
+
+/***********************
+ * DEBUG_TICKER
+ * Mostra tutti i valori chiave per diagnosticare discrepanze
  ***********************/
 function DEBUG_TICKER(ticker) {
   const t = _normTicker(ticker);
   if (!t) return "Ticker?";
 
-  const live = _getLiveLast(t);
+  const live    = _getLiveLast(t);
   const prevObj = _getPrevCloseFromDailyBars(t, live.last);
+  const m       = live.meta || {};
 
-  // meta close (quello che ti stava dando 111,41)
-  const m = live.meta || {};
   const metaPrev =
-    (m.chartPreviousClose != null && !isNaN(m.chartPreviousClose))
-      ? Number(m.chartPreviousClose)
-      : (m.previousClose != null && !isNaN(m.previousClose))
-        ? Number(m.previousClose)
-        : null;
+    (m.chartPreviousClose != null && !isNaN(m.chartPreviousClose)) ? Number(m.chartPreviousClose) :
+    (m.previousClose      != null && !isNaN(m.previousClose))      ? Number(m.previousClose)      :
+    null;
+
+  // Il prevClose effettivamente usato da VARGIORN (meta > daily fallback)
+  const prevUsedByVargiorn = metaPrev ?? prevObj.prevClose;
 
   return [
-    ["Ticker", t],
-    ["LIVE intervalUsed", live.intervalUsed],
-    ["LIVE regularMarketPrice", m.regularMarketPrice],
-    ["LIVE meta chartPreviousClose", m.chartPreviousClose],
-    ["LIVE meta previousClose", m.previousClose],
-    ["META prev (picked)", metaPrev],
-    ["DAILY lastClose", prevObj.dailyLast],
-    ["DAILY prevClose", prevObj.dailyPrev],
-    ["PREV used (daily logic)", prevObj.prevClose],
-    ["PRICEHINT", live.priceHint]
+    ["Ticker",                          t],
+    ["LIVE intervalUsed",               live.intervalUsed],
+    ["LIVE regularMarketPrice",         m.regularMarketPrice],
+    ["META chartPreviousClose",         m.chartPreviousClose],
+    ["META previousClose",              m.previousClose],
+    ["META prev usato (VARGIORN)",      prevUsedByVargiorn],
+    ["DAILY lastClose",                 prevObj.dailyLast],
+    ["DAILY prevClose (fallback)",      prevObj.dailyPrev],
+    ["VARGIORN calcolato",              VARGIORN(t)],
+    ["PRICEHINT",                       live.priceHint]
   ];
 }
 
 /***********************
- * TRIGGER CONTROLLATO 
+ * TRIGGER CONTROLLATO
  * (Ogni ora precisa, 09:00 - 18:00, LUN-VEN)
  ***********************/
 function TRIGGER_PROGRAMMATO() {
-  const dataAttuale = new Date();
-  const oraAttuale = dataAttuale.getHours();
-  const giornoSettimana = dataAttuale.getDay(); // 0=Dom, 1=Lun, 2=Mar, 3=Mer, 4=Gio, 5=Ven, 6=Sab
-  
-  // Condizione: Lun-Ven e ore comprese tra le 9 e le 18 incluse
-  // Usiamo <= 18 se vuoi che scatti anche alle 18:00 precise.
+  const dataAttuale    = new Date();
+  const oraAttuale     = dataAttuale.getHours();
+  const giornoSettimana = dataAttuale.getDay(); // 0=Dom, 1=Lun, ..., 6=Sab
+
   if (giornoSettimana >= 1 && giornoSettimana <= 5 && oraAttuale >= 9 && oraAttuale <= 18) {
     FORZA_REFRESH();
     console.log("Refresh eseguito alle ore: " + oraAttuale + ":00");
@@ -443,54 +494,6 @@ function FORZA_REFRESH() {
     sh.hideSheet();
   }
   sh.getRange("A1").setValue(new Date());
-}
-
-/***********************
- * CAMBIO VALUTA (via CHART - stabile)
- *
- * =CAMBIO("EURUSD")
- * =CAMBIO("USDEUR")
- * =CAMBIO("EURUSD"; 6)
- ***********************/
-function CAMBIO(pair, decimals) {
-  if (!pair) return "Pair?";
-
-  const ticker = pair.toUpperCase() + "=X";
-
-  const r = _fetchChart(ticker, "1d", "5m");
-  if (!r) return "Errore Yahoo";
-
-  const price = r?.meta?.regularMarketPrice;
-  if (price == null) return "No dati";
-
-  const dec = (decimals != null && !isNaN(decimals)) ? Number(decimals) : 4;
-  return Number(Number(price).toFixed(dec));
-}
-
-
-/***********************
- * VARIAZIONE % CAMBIO
- *
- * =CAMBIO_PCT("EURUSD")
- ***********************/
-function CAMBIO_PCT(pair, decimals) {
-  if (!pair) return "Pair?";
-
-  const ticker = pair.toUpperCase() + "=X";
-
-  const r = _fetchChart(ticker, "1d", "5m");
-  if (!r) return "Errore Yahoo";
-
-  const last = r?.meta?.regularMarketPrice;
-  const prev = r?.meta?.previousClose;
-
-  if (last == null || prev == null || prev === 0)
-    return "Dati incompleti";
-
-  const pct = ((last - prev) / prev) * 100;
-  const dec = (decimals != null && !isNaN(decimals)) ? Number(decimals) : 2;
-
-  return Number(pct.toFixed(dec));
 }
 
 ```
