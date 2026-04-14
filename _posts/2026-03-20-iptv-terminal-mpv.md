@@ -29,37 +29,20 @@ sudo nano ~/.config/mpv/mpv.conf
 
 e copia queste opzioni:  
 ```
-# ==========================================
-# CONFIGURAZIONE MPV PER IPTV / LIVE STREAMING
-# ==========================================
-
-# --- RETE & CACHE ---
+# --- SPECIFICO IPTV (LIVE STREAMING) ---
+deinterlace=yes                 # Attiva il deinterlacciamento automatico
 cache=yes
-cache-secs=15
-demuxer-max-bytes=512M
-demuxer-max-back-bytes=128M
-stream-lavf-o=reconnect=1:reconnect_streamed=1:reconnect_delay_max=10:timeout=30
-http-header-fields=User-Agent: VLC/3.0.20
-network-timeout=30
+demuxer-max-bytes=500MiB        # Buffer generoso per flussi 4K o HD instabili
+demuxer-max-back-bytes=100MiB
+cache-secs=30                   # 30 secondi di sicurezza contro i cali di conn>
+demuxer-readahead-secs=15       # Legge molto avanti per una riproduzione fluida
 
-# --- COMPORTAMENTO STREAMING ---
-demuxer-lavf-probe-info=no
-force-seekable=no
-save-position-on-quit=no
-keep-open=no
-fs=yes
-
-# --- VIDEO & AUDIO ---
-hwdec=auto
-vo=gpu
-video-sync=audio
-audio-sync=display-resample
-interpolation=no
-tscale=linear
-
-# --- DEBUG (decommenta se necessario) ---
-# demuxer-lavf-o=fflags=+genpts+igndts
-# log-file=~/mpv-iptv.log
+# --- QUALITÀ IMMAGINE (MESA/AMD/INTEL) ---
+# Ottimo scaling senza distruggere la durata della batteria (se su laptop)
+scale=ewa_lanczos
+cscale=mitchell
+# Rimuove gli artefatti "a scalino" (banding) comuni nelle IPTV compresse
+debian-debnd=yes
 ```
 
 ###### Thanks to [https://github.com/shahin8r/iptv](https://github.com/shahin8r/iptv)
