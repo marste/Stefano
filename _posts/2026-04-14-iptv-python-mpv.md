@@ -11,7 +11,7 @@ tags: [debian, mpv, iptv, digitale terrestre, dtt, python]
 Salva questo codice in un file e chiamalo **iptv_player.pyw**   
 
 Requisiti:   
-- Python 3.8+python.org — spunta *Add Python to PATH* durante l'installazione
+- Python 3.8+ python.org — spunta *Add Python to PATH* durante l'installazione
 - MPV Player da mpv.io 
 
 ```
