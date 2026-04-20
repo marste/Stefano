@@ -15,17 +15,20 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     </div>
     
     <script>
-        fetch('https://ipapi.co/json/')
+        fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(ipData => {
+                const ip = ipData.ip;
+                document.getElementById('ip').textContent = ip;
+                return fetch(`https://ipapi.co/${ip}/json/`);
+            })
             .then(response => response.json())
             .then(data => {
-                document.getElementById('ip').textContent = data.ip;
                 document.getElementById('location').textContent = `${data.city}, ${data.region}`;
                 document.getElementById('country').textContent = data.country_name;
             })
             .catch(error => console.error('Errore nel recupero dei dati IP:', error));
     </script></center>
-
-
 <!--speedtest start-->
 <div style="font-family: 'Inter', -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; text-align: center;">
   <!-- Pulsante Fast.com -->
@@ -57,7 +60,6 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
     </svg>
     Fast.com
   </a>
-
   <!-- Pulsante Cloudflare -->
   <a href="https://speed.cloudflare.com/" target="_blank" style="
     display: inline-flex;
@@ -89,5 +91,4 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
   
 </div>
 <!--speedtest end-->
-
 Se vuoi eseguire uno speed test da command line su Windows, utilizza pure <a href="https://marzorati.co/download/speedtest.exe" target="_blank">questo eseguibile</a> rilasciato da Ookla.
