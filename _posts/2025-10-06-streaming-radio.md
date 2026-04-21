@@ -130,7 +130,7 @@ label[for="radio-select"] {
   <select id="radio-select">
     <option value="" disabled selected>🔊 Select and make it louder! 👊</option>
     <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">M2O</option>
-    <option value="https://stream.technolovers.fm/gabber">Gabber</option>
+    <option value="https://radio.hearme.fm:8328/stream">Gabber Radio - HearMe.fm</option>
     <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
     <option value="https://techno-revival.stream.laut.fm/techno-revival?ref=web-app&start_time=1759669832984">Techno Revival</option>
     <option value="https://s7.citrus3.com:8152/stream">Toxic Sickness Radio</option>
