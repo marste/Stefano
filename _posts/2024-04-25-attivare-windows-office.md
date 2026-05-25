@@ -1,6 +1,6 @@
 ---
 title: "Attivare Windows e/o Office con uno script"
-date: 2024-04-25 07:00:00 +0200
+date: 2026-05-25 07:00:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/microsoft.png'
 share-img: 'https://marzorati.co/img/microsoft.png'
