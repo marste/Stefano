@@ -17,4 +17,4 @@ irm https://get.activated.win | iex
 
 Seguire le istruzioni del menù.   
 
-Via <a href="massgrave.dev" target="_blank">massgrave.dev</a>
+Via <a href="https://massgrave.dev" target="_blank">massgrave.dev</a>
