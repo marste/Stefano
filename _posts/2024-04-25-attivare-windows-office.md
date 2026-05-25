@@ -6,7 +6,7 @@ image: 'https://marzorati.co/img/microsoft.png'
 share-img: 'https://marzorati.co/img/microsoft.png'
 layout: post
 categories: [Microsoft]
-tags: [attivare, windows, versioni, tutte, script, github, massgravel]
+tags: [attivare, windows, versioni, script, github, massgrave, key, serial, attivazione, office, microsoft]
 ---
 Fare clic con il tasto destro del mouse sul menu di avvio di Windows e selezionare **PowerShell o Terminal** (non CMD).   
 Copiare-incollare il codice sottostante e premere invio:   
