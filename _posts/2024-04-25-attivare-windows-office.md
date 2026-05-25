@@ -12,7 +12,9 @@ Fare clic con il tasto destro del mouse sul menu di avvio di Windows e seleziona
 Copiare-incollare il codice sottostante e premere invio:   
 
 ~~~powershell
-irm https://massgrave.dev/get | iex
+irm https://get.activated.win | iex
 ~~~
 
-Seguire le istruzioni del menù.
+Seguire le istruzioni del menù.   
+
+Via <a href="massgrave.dev" target="_blank">massgrave.dev</a>
