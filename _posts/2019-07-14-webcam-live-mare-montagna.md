@@ -56,7 +56,7 @@ tags: [webcam, mare, montagna, live, lago]
 <p></p>
 <center><strong>CESENATICO</strong> (Forlì-Cesena)</center>   
 <center>
-<img alt="Cesenatico" src="http://bagnovenezia56.altervista.org/FI9805E_00626E53A4AB/snap/index.php">
+<img alt="Cesenatico" src="https://stream-meteoproject.eu/weathercam-player.php?code=35">
 </center>
 <p></p>
 <center><strong>CAPOLIVERI, Spiaggia di Lacona - Isola d'Elba</strong> (Livorno)</center>   
