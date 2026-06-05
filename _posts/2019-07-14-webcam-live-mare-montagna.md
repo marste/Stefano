@@ -49,6 +49,11 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Druogno" src="https://webcamdtl.it/baitinavigezzo.jpg">
 </center>
 <p></p>
+<center><strong>CERVINIA</strong> (Aosta)</center>   
+<center>
+<iframe src="https://stream-meteoproject.eu/weathercam-player.php?code=21" width="825" height="464"></iframe>
+</center>
+<p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
 <img alt="Varese" src="https://www.astrogeo.va.it/webcam/current/campo_dei_fiori_ovest.jpg">
