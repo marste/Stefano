@@ -46,23 +46,7 @@ tags: [webcam, mare, montagna, live, lago]
 <center>
 <img alt="varigotti" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
 </center>
-
 <p></p>
-
-<div class="webcam-section">
-  <div class="webcam-title">
-    <strong>CERVINIA</strong> (Aosta)
-  </div>
-
-  <div class="webcam-responsive">
-    <iframe
-      src="https://stream-meteoproject.eu/weathercam-player.php?code=21"
-      title="Webcam Cervinia - Aosta"
-      loading="lazy"
-      allowfullscreen>
-    </iframe>
-  </div>
-</div>
 
 <div class="webcam-section">
   <div class="webcam-title">
@@ -86,10 +70,32 @@ tags: [webcam, mare, montagna, live, lago]
 </center>
 
 <p></p>
+<center><strong>CAPOLIVERI, Spiaggia di Lacona - Isola d'Elba</strong> (Livorno)</center>   
+<center>
+<a name="windy-webcam-timelapse-player" data-id="1170888461" data-play="day" href="https://windy.com/webcams/1170888461" target="_blank">Capoliveri: Spiaggia di Lacona - Isola d'Elba</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
+</center>
+
+<p></p>
 <center><strong>CHAMOIS</strong> (Aosta) - 1800 metri</center>   
 <center>
 <img alt="Chamois" src="http://www.comune.chamois.ao.it/wcam/webcam_images/chamois.jpg">
 </center>
+
+<p></p>
+<div class="webcam-section">
+  <div class="webcam-title">
+    <strong>CERVINIA</strong> (Aosta)
+  </div>
+
+  <div class="webcam-responsive">
+    <iframe
+      src="https://stream-meteoproject.eu/weathercam-player.php?code=21"
+      title="Webcam Cervinia - Aosta"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 
 <p></p>
 <center><strong>MACUGNAGA - Staffa</strong> - 1390 metri (Verbano-Cusio-Ossola)</center>   
@@ -121,9 +127,4 @@ tags: [webcam, mare, montagna, live, lago]
 <img alt="Varese" src="https://www.astrogeo.va.it/webcam/current/campo_dei_fiori_ovest.jpg">
 </center>
 
-<p></p>
-<center><strong>CAPOLIVERI, Spiaggia di Lacona - Isola d'Elba</strong> (Livorno)</center>   
-<center>
-<a name="windy-webcam-timelapse-player" data-id="1170888461" data-play="day" href="https://windy.com/webcams/1170888461" target="_blank">Capoliveri: Spiaggia di Lacona - Isola d'Elba</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
-</center>
 <p></p>
