@@ -9,6 +9,21 @@ layout: post
 categories: [webcam]
 tags: [webcam, mare, montagna, live, lago]
 ---
+
+.webcam-responsive {
+  width: 100%;
+  aspect-ratio: 825 / 464;
+}
+
+<div class="webcam-responsive">
+      <iframe 
+        src="https://stream-meteoproject.eu/weathercam-player.php?code=21"
+        title="Webcam Cervinia - Aosta"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+
 <center><strong>VARIGOTTI</strong> - Loc. Donio (Savona) - Riviera di Ponente</center>   
 <center>
 <img alt="varigotti" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
