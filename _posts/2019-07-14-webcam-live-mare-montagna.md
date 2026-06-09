@@ -79,55 +79,48 @@ tags: [webcam, mare, montagna, live, lago]
   </div>
 </div>
 
-<center><strong>VARIGOTTI</strong> - Loc. Donio (Savona) - Riviera di Ponente</center>   
-<center>
-<img alt="varigotti" src="http://varigottimeteo.altervista.org/webcam/FI9900P_00626E863C96/snap/webcam.php">
-</center>
 <p></p>
 <center><strong>VARAZZE</strong> (Savona) - Riviera di Ponente</center>   
 <center>
 <a name="windy-webcam-timelapse-player"  data-id="1711742156" data-play="day" href="https://windy.com/webcams/1711742156" target="_blank">Varazze</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/v2/script/player.js"></script>
 </center>
+
 <p></p>
 <center><strong>CHAMOIS</strong> (Aosta) - 1800 metri</center>   
 <center>
 <img alt="Chamois" src="http://www.comune.chamois.ao.it/wcam/webcam_images/chamois.jpg">
 </center>
+
 <p></p>
 <center><strong>MACUGNAGA - Staffa</strong> - 1390 metri (Verbano-Cusio-Ossola)</center>   
 <center>
 <img alt="Macugnaga" src="https://webcamdtl.it/macugnaga.jpg">
 </center>
+
 <p></p>
 <center><strong>MACUGNAGA</strong> - Parete Est Monte Rosa (Verbano-Cusio-Ossola)</center>   
 <center>
 <a name="windy-webcam-timelapse-player" data-id="1575096789" data-play="day" href="https://windy.com/webcams/1575096789" target="_blank">Macugnaga: Parete est monte rosa</a><script async type="text/javascript" src="https://webcams.windy.com/webcams/public/embed/script/player.js"></script>
 </center>
+
 <p></p>
 <center><strong>MERANO 2000</strong> - Mittager Avelengo - 2260 metri (Bolzano)</center>   
 <center>
 <img alt="Merano2000" src="https://webcams.meran2000.com/mittager/cam.jpg">
 </center>
+
 <p></p>
 <center><strong>Druogno - Baitina</strong> - 816 metri - Val Vigezzo (Verbano-Cusio-Ossola)</center>   
 <center>
 <img alt="Druogno" src="https://webcamdtl.it/baitinavigezzo.jpg">
 </center>
-<p></p>
-<center><strong>CERVINIA</strong> (Aosta)</center>   
-<center>
-<iframe src="https://stream-meteoproject.eu/weathercam-player.php?code=21" width="825" height="464"></iframe>
-</center>
+
 <p></p>
 <center><strong>VARESE</strong> - Campo dei Fiori  (Varese)</center>   
 <center>
 <img alt="Varese" src="https://www.astrogeo.va.it/webcam/current/campo_dei_fiori_ovest.jpg">
 </center>
-<p></p>
-<center><strong>CESENATICO</strong> (Forlì-Cesena)</center>   
-<center>
-<iframe src="https://stream-meteoproject.eu/weathercam-player.php?code=35" width="825" height="464"></iframe>
-</center>
+
 <p></p>
 <center><strong>CAPOLIVERI, Spiaggia di Lacona - Isola d'Elba</strong> (Livorno)</center>   
 <center>
