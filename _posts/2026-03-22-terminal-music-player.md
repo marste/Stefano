@@ -14,6 +14,11 @@ Scarica il file ytmusic-player e copialo con questo comando:
 sudo wget https://marzorati.co/download/ytmusic-player.py -qO /usr/local/bin/music && sudo chmod +x /usr/local/bin/music
 ```
 
+Requisito:   
+```
+pip install -U yt-dlp --break-system-packages
+```
+
 Esegui:   
 ```
 music
