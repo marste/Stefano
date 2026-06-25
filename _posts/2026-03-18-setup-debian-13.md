@@ -88,7 +88,9 @@ sudo systemctl start tlp
 ```
 
 **Sincronizzare orario via NTP**
+```
 sudo apt install systemd-timesyncd
 sudo systemctl enable --now systemd-timesyncd
 sudo timedatectl set-ntp true
 timedatectl status
+```
