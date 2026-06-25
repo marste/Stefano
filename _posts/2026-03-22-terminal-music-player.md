@@ -16,6 +16,10 @@ sudo wget https://marzorati.co/download/ytmusic-player.py -qO /usr/local/bin/mus
 
 Requisito:   
 ```
+sudo apt install pip
+```
+
+```
 pip install -U yt-dlp --break-system-packages
 ```
 
