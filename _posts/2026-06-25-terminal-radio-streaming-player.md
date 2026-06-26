@@ -10,7 +10,7 @@ tags: [debian, mpv, music, player, radio, streaming, debian]
 ---
 Scarica il file radio_player_v2_3.py e copialo con questo comando:
 ```
-sudo wget https://marzorati.co/download/radio_player_v2_3.py -qO /usr/local/bin/music && sudo chmod +x /usr/local/bin/radio
+sudo wget https://marzorati.co/download/radio_player_v2_3.py -qO /usr/local/bin/radio && sudo chmod +x /usr/local/bin/radio
 ```
 
 Requisito:   
