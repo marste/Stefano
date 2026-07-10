@@ -2,8 +2,8 @@
 title: "Configurare git per github con autenticazione 2FA su Debian Stable"
 date: 2026-07-10 07:30:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/linux.png'
-share-img: 'https://marzorati.co/img/linux.png'
+image: 'https://marzorati.co/img/git.png'
+share-img: 'https://marzorati.co/img/git.png'
 layout: post
 categories: [Linux]
 tags: [debian, git, github, autenticazione, 2FA, gh]
