@@ -1,5 +1,5 @@
 ---
-title: "Configurare git per github con autenticazione 2FA su Debian Stable"
+title: "Configurare Git per Github con autenticazione 2FA su Debian Stable"
 date: 2026-07-10 07:30:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/git.png'
