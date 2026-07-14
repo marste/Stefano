@@ -64,13 +64,12 @@ sudo apt-get update && sudo apt-get install spotify-client
 
 **Installa Mega:**[https://mega.io/it/desktop](https://mega.io/it/desktop)
 
-**Crea alias  per aggiornare tutto con il comando "aggiorna" e "gitt"**
+**Crea alias  per aggiornare tutto con il comando "aggiorna"**
 ```
 sudo nano ~/.bash_aliases
 alias aggiorna='sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove --purge -y && sudo apt autoremove && sudo apt clean'
-alias gitt='git status && git add . && git commit -m "Added new post" && git pull --rebase && git push'
 source ~/.bash_aliases
-aggiorna e gitt
+aggiorna
 ```
 
 **Opzionale: Installare il kernel più recente**

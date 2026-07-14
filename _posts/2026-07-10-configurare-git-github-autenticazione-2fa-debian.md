@@ -47,3 +47,11 @@ git add .
 git commit -m "Descrizione del commit"
 git push
 ```
+
+**Crea alias  per aggiornare tutto con il comando "gitt"**
+```
+sudo nano ~/.bash_aliases
+alias gitt='git status && git add . && git commit -m "Added new post" && git pull --rebase && git push'
+source ~/.bash_aliases
+gitt
+```
