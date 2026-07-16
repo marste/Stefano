@@ -53,7 +53,6 @@ share-img: 'https://marzorati.co/img/news.png'
     .itemTitle a{font-weight:bold; font-size:20px; color:#008AFF; text-decoration:none;}
     .itemTitle a:hover{ text-decoration:underline }
     .itemDate{font-size:11px;color:#AAAAAA;}
-    .itemDesc{font-size:14px;color:#444444;margin-top:2px;}
     .feed-item{margin-bottom:16px;}
     .feed-error{font-size:13px;color:#AA3333;}
 </style>
