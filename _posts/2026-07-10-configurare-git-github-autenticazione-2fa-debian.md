@@ -51,7 +51,7 @@ git push
 **Crea alias  per aggiornare tutto con il comando "gitt"**
 ```
 sudo nano ~/.bash_aliases
-alias gitt='git status && git add . && git commit -m "Added new post" && git pull --rebase && git push'
+alias gitt='git status && git add . && git commit -m "Added new post" && git pull --no-edit && git push && git fetch'
 source ~/.bash_aliases
 gitt
 ```
