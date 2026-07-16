@@ -53,9 +53,7 @@ share-img: 'https://marzorati.co/img/news.png'
     .itemTitle a{font-weight:bold; font-size:20px; color:#008AFF; text-decoration:none;}
     .itemTitle a:hover{ text-decoration:underline }
     .itemDate{font-size:11px;color:#AAAAAA; margin:0; padding:0; line-height:1.2;}
-    .itemDesc{font-size:14px;color:#333333; margin:0; padding:0; line-height:1.3;}
     .feed-item{margin-bottom:12px; padding:0; line-height:1.2;}
-    .feed-item p{margin:2px 0; padding:0; line-height:1.2;}
     .feed-error{font-size:13px;color:#AA3333;}
     .section-title{margin:10px 0 5px 0;}
 </style>
