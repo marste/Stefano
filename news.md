@@ -73,7 +73,7 @@ share-img: 'https://marzorati.co/img/news.png'
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-<center><h1 class="section-title"><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
+
 <div id="divRssUltimissime" class="feed-container">Caricamento...</div>
 
 <script>
