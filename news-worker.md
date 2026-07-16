@@ -52,9 +52,12 @@ share-img: 'https://marzorati.co/img/news.png'
 <style>
     .itemTitle a{font-weight:bold; font-size:20px; color:#008AFF; text-decoration:none;}
     .itemTitle a:hover{ text-decoration:underline }
-    .itemDate{font-size:11px;color:#AAAAAA;}
-    .feed-item{margin-bottom:16px;}
+    .itemDate{font-size:11px;color:#AAAAAA; margin:0; padding:0; line-height:1.2;}
+    .itemDesc{font-size:14px;color:#333333; margin:0; padding:0; line-height:1.3;}
+    .feed-item{margin-bottom:12px; padding:0; line-height:1.2;}
+    .feed-item p{margin:2px 0; padding:0; line-height:1.2;}
     .feed-error{font-size:13px;color:#AA3333;}
+    .section-title{margin:10px 0 5px 0;}
 </style>
 
 <body translate="no">
@@ -66,32 +69,25 @@ share-img: 'https://marzorati.co/img/news.png'
 <center><a href="#Ultimissime">Ultim'ora</a> - <a href="#Principali">Principali</a> - <a href="#Italia">Italia</a> - <a href="#Economia">Economia</a> - <a href="#Mondo">Mondo</a> - <a href="#Tecnologia">Tecnologia</a> - <a href="#Salute">Salute</a></center>
 <br>
 
-<center><h1><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
-<br>
+<center><h1 class="section-title"><a name="Ultimissime"><font color="Black">Ultim'ora</font></a></h1></center>
 <div id="divRssUltimissime" class="feed-container">Caricamento...</div>
 
-<center><h1><a name="Principali"><font color="Black">Principali</font></a></h1></center>
-<br>
+<center><h1 class="section-title"><a name="Principali"><font color="Black">Principali</font></a></h1></center>
 <div id="divRssPrincipali" class="feed-container">Caricamento...</div>
 
-<center><h1><a name="Italia"><font color="Black">Italia</font></a></h1></center>
-<br>
+<center><h1 class="section-title"><a name="Italia"><font color="Black">Italia</font></a></h1></center>
 <div id="divRssItalia" class="feed-container">Caricamento...</div>
 
-<center><h1><a name="Economia"><font color="Black">Economia</font></a></h1></center>
-<br>
+<center><h1 class="section-title"><a name="Economia"><font color="Black">Economia</font></a></h1></center>
 <div id="divRssEconomia" class="feed-container">Caricamento...</div>
 
-<center><h1><a name="Mondo"><font color="Black">Mondo</font></a></h1></center>
-<br>
+<center><h1 class="section-title"><a name="Mondo"><font color="Black">Mondo</font></a></h1></center>
 <div id="divRssMondo" class="feed-container">Caricamento...</div>
 
-<center><h1><a name="Tecnologia"><font color="Black">Tecnologia</font></a></h1></center>
-<br>
+<center><h1 class="section-title"><a name="Tecnologia"><font color="Black">Tecnologia</font></a></h1></center>
 <div id="divRssTecnologia" class="feed-container">Caricamento...</div>
 
-<center><h1><a name="Salute"><font color="Black">Salute</font></a></h1></center>
-<br>
+<center><h1 class="section-title"><a name="Salute"><font color="Black">Salute</font></a></h1></center>
 <div id="divRssSalute" class="feed-container">Caricamento...</div>
 
 <script>
@@ -134,39 +130,29 @@ async function loadFeed(feed) {
     }
 
     container.innerHTML = items.map(item => {
-      // Estrai data e ora dal titolo o crea un formato personalizzato
       let dateDisplay = item.date || "";
-      
-      // Se il titolo contiene la data, estraila e rimuovila dal titolo
       let title = item.title || "";
       let description = item.description || "";
       
-      // Cerca data nel formato "16/07/2026" o "16.07.2026" all'inizio del titolo
+      // Estrai data dal titolo
       const dateMatch = title.match(/^(\d{1,2}[\/\.]\d{1,2}[\/\.]\d{2,4})\s*/);
       if (dateMatch) {
         dateDisplay = dateMatch[1];
         title = title.substring(dateMatch[0].length).trim();
       }
       
-      // Cerca ora nel formato "15.10" o "15:10" all'inizio del titolo
+      // Estrai ora dal titolo
       const timeMatch = title.match(/^(\d{1,2}[\.:]\d{2})\s*/);
       if (timeMatch) {
         dateDisplay = dateDisplay ? `${dateDisplay} - ${timeMatch[1]}` : timeMatch[1];
         title = title.substring(timeMatch[0].length).trim();
       }
       
-      // Se abbiamo una data e un'ora, formattiamole insieme
-      if (dateDisplay && dateDisplay.includes('-')) {
-        // Già formattato con data e ora
-      } else if (dateDisplay) {
-        // Solo data
-      }
-      
       return `
         <div class="feed-item">
-          ${dateDisplay ? `<p class="itemDate">${escapeHtml(dateDisplay)}</p>` : ""}
-          <p class="itemTitle"><a href="${escapeHtml(item.link)}" target="_blank" rel="noopener">${escapeHtml(title)}</a></p>
-          ${description ? `<p class="itemDesc">${escapeHtml(description)}</p>` : ""}
+          <div class="itemDate">${escapeHtml(dateDisplay)}</div>
+          <div class="itemTitle"><a href="${escapeHtml(item.link)}" target="_blank" rel="noopener">${escapeHtml(title)}</a></div>
+          ${description ? `<div class="itemDesc">${escapeHtml(description)}</div>` : ""}
         </div>
       `;
     }).join("");
