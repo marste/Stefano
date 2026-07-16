@@ -133,43 +133,13 @@ async function loadFeed(feed) {
       return;
     }
 
-    container.innerHTML = items.map(item => {
-      // Estrai data e ora dal titolo o crea un formato personalizzato
-      let dateDisplay = item.date || "";
-      
-      // Se il titolo contiene la data, estraila e rimuovila dal titolo
-      let title = item.title || "";
-      let description = item.description || "";
-      
-      // Cerca data nel formato "16/07/2026" o "16.07.2026" all'inizio del titolo
-      const dateMatch = title.match(/^(\d{1,2}[\/\.]\d{1,2}[\/\.]\d{2,4})\s*/);
-      if (dateMatch) {
-        dateDisplay = dateMatch[1];
-        title = title.substring(dateMatch[0].length).trim();
-      }
-      
-      // Cerca ora nel formato "15.10" o "15:10" all'inizio del titolo
-      const timeMatch = title.match(/^(\d{1,2}[\.:]\d{2})\s*/);
-      if (timeMatch) {
-        dateDisplay = dateDisplay ? `${dateDisplay} - ${timeMatch[1]}` : timeMatch[1];
-        title = title.substring(timeMatch[0].length).trim();
-      }
-      
-      // Se abbiamo una data e un'ora, formattiamole insieme
-      if (dateDisplay && dateDisplay.includes('-')) {
-        // Già formattato con data e ora
-      } else if (dateDisplay) {
-        // Solo data
-      }
-      
-      return `
-        <div class="feed-item">
-          ${dateDisplay ? `<p class="itemDate">${escapeHtml(dateDisplay)}</p>` : ""}
-          <p class="itemTitle"><a href="${escapeHtml(item.link)}" target="_blank" rel="noopener">${escapeHtml(title)}</a></p>
-          ${description ? `<p class="itemDesc">${escapeHtml(description)}</p>` : ""}
-        </div>
-      `;
-    }).join("");
+    container.innerHTML = items.map(item => `
+      <div class="feed-item">
+        <p class="itemTitle"><a href="${escapeHtml(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></p>
+        ${item.date ? `<p class="itemDate">${escapeHtml(item.date)}</p>` : ""}
+        ${item.description ? `<p class="itemDesc">${escapeHtml(item.description)}</p>` : ""}
+      </div>
+    `).join("");
   } catch (err) {
     container.innerHTML = `<p class="feed-error">Feed non disponibile al momento.</p>`;
   }
