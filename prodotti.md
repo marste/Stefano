@@ -141,6 +141,7 @@ Cipolla rossa Tigros;1,25 €/kg
 Patate della Sila Tigros;2 €/kg
 Aglio Tigros;6,67 €/kg
 Zuppe Tigros;2,69 €/kg
+Caffè 100% Arabica;13,90 €/kg
   </textarea>
 
 

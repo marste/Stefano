@@ -144,7 +144,7 @@ label[for="radio-select"] {
     <option value="https://altair.streamerr.co:8124/stream">Deep House FM</option>
     <option value="https://sh.onweb.gr:7115/;">Venus Radio</option>
     <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
-    <option value="https://ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-48000.m3u8">Il Sole 24 ore</option>
+    <option value="http://213.141.131.10:8002/gabber">Gabber</option>
   </select>
 
   <div class="player-card" id="player-card">
