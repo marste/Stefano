@@ -109,7 +109,7 @@ published: true
 
 <!-- begin skills -->
 <div class="skills">
-  <h2 class="skill-title section-title"><i class="ion ion-ios-desktop"></i> Professional Skills</h2>
+  
   <div class="chart-box">
   
     
