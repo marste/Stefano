@@ -526,7 +526,7 @@ published: true
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
 
         <div class="entry-text">
-          <p>Tecnico Hardware specializzato in installazione, riparazione e manutenzione di PC, stampanti locali o di rete, server (tecnico interno/esterno presso clienti).</p>
+          <p>Tecnico Hardware specializzato nella configurazione, installazione, diagnostica e manutenzione di sistemi client/server, notebook, infrastrutture di stampa di rete (Network Printers e Multi-Function Printers) e periferiche IT, con attività svolte sia presso la struttura interna sia in assistenza on-site presso clienti.</p>
         </div>
       </div>
     </div>
