@@ -365,11 +365,7 @@ published: true
           </ul>
         </div>
 
-        <div class="entry-block">
-          <span class="entry-block-title mono">Installazione &amp; manutenzione</span>
-          <div class="entry-stack mono">MS Windows Client e Servers · Firewall Sonicwall Dell · Firewall Cisco Firepower · Switch Cisco · ESX / VMware Server · Office 365 / Exchange Online / SharePoint · Linux / Apache / MySQL / PHP · IBM iSeries · Microsoft SQL · Cisco VPN · Sophos XDR · Cynet Cybersecurity · Telefonia VOIP Selta · Telefonia DECT Spectralink · Data Logger RF · Lettori Barcode · Controllo accessi</div>
-        </div>
-
+        
         <div class="entry-block">
           <span class="entry-block-title mono">Attività trasversali</span>
           <ul class="entry-list">
@@ -387,7 +383,12 @@ published: true
             <li>Partecipazione alle trattative economiche con i fornitori</li>
           </ul>
         </div>
-      </div>
+	
+		<div class="entry-block">
+          <span class="entry-block-title mono">Tech Stack</span>
+          <div class="entry-stack mono">MS Windows Client e Servers · Firewall Sonicwall Dell · Firewall Cisco Firepower · Switch Cisco · ESX / VMware Server · Office 365 / Exchange Online / SharePoint · Linux / Apache / MySQL / PHP · IBM iSeries · Microsoft SQL · Cisco VPN · Sophos XDR · Cynet Cybersecurity · Telefonia VOIP Selta · Telefonia DECT Spectralink · Data Logger RF · Lettori Barcode · Controllo accessi</div>
+        </div>	
+	</div>
     </div>
 
     <!-- EDISPORT -->
