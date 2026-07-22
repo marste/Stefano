@@ -478,10 +478,10 @@ published: true
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
 
         <div class="entry-text">
-        <p>Sistemista infrastrutturale specializzato nella progettazione, installazione, configurazione e amministrazione di ambienti IBM Lotus Domino (oggi HCL Domino) in architettura cluster, con funzioni di mail server e application server a supporto di circa 5.000 utenti presso Carrefour Italia S.p.A.
-		Gestione operativa dell’infrastruttura Domino, garantendo continuità del servizio, monitoraggio, troubleshooting e supporto agli utenti aziendali, in collaborazione con fornitori software e con i team IT interni nazionali e internazionali.
-		Amministrazione della piattaforma BlackBerry Enterprise Server integrata con Domino per l’erogazione di servizi di mobilità e connettività wireless a supporto del management aziendale.
-		Gestione di ambienti Microsoft enterprise, inclusi servizi di dominio, file server, distribuzione software e sistemi di backup.
+        <p>Sistemista infrastrutturale specializzato nella progettazione, installazione, configurazione e amministrazione di ambienti IBM Lotus Domino (oggi HCL Domino) in architettura cluster, con funzioni di mail server e application server a supporto di circa 5.000 utenti presso Carrefour Italia S.p.A.</p>
+		<p>Gestione operativa dell’infrastruttura Domino, garantendo continuità del servizio, monitoraggio, troubleshooting e supporto agli utenti aziendali, in collaborazione con fornitori software e con i team IT interni nazionali e internazionali.</p>
+		<p>Amministrazione della piattaforma BlackBerry Enterprise Server integrata con Domino per l’erogazione di servizi di mobilità e connettività wireless a supporto del management aziendale.</p>
+		<p>Gestione di ambienti Microsoft enterprise, inclusi servizi di dominio, file server, distribuzione software e sistemi di backup.</p>
 		Amministrazione della intranet aziendale di gruppo e gestione operativa di contenuti web, collaborando con le funzioni Marketing e con società esterne per la pubblicazione e l’aggiornamento dei contenuti digitali.
 		</p>
         </div>
