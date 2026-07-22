@@ -4,8 +4,225 @@ title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
-published: false
+published: true
 ---
+
+<!-- Ionicons -->
+<link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+<style>
+  .skills {
+    max-width: 1280px;
+    margin: 0 auto 50px auto;
+    padding: 0 20px;
+  }
+
+  .skill-title.section-title {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+  }
+
+  .skill-title.section-title .ion {
+    color: var(--primary-color, #2563eb);
+    margin-right: 10px;
+  }
+
+  .chart-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .chart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+  }
+
+  @media screen and (min-width: 576px) {
+    .chart-item {
+      flex-basis: 33.333%;
+    }
+  }
+
+  .chart {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(var(--primary-color, #2563eb) 0deg, var(--line-color, #e2e8f0) 0deg);
+    transition: background 0.3s ease-out;
+  }
+
+  .chart::before {
+    content: '';
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background: var(--card-bg, #ffffff);
+  }
+
+  .chart .percent {
+    position: relative;
+    z-index: 2;
+    font-weight: 800;
+    font-size: 1.3em;
+    color: var(--text-main, #0f172a);
+  }
+
+  .chart .percent::after {
+    content: '';
+  }
+
+  .chart-title {
+    margin-top: 14px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-muted, #64748b);
+  }
+
+  @media (max-width: 600px) {
+    .chart-box {
+      gap: 25px;
+    }
+    .chart-item {
+      width: 110px;
+    }
+    .chart {
+      width: 100px;
+      height: 100px;
+    }
+    .chart::before {
+      width: 76px;
+      height: 76px;
+    }
+  }
+</style>
+
+<!-- begin skills -->
+<div class="skills">
+  <h2 class="skill-title section-title"><i class="ion ion-ios-desktop"></i> Professional Skills</h2>
+  <div class="chart-box">
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="90"><span class="percent">98</span>%</div>
+      <span class="chart-title">IT Leadership & Management</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="95"><span class="percent">96</span>%</div>
+      <span class="chart-title">Infrastructure & Cloud</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="60"><span class="percent">95</span>%</div>
+      <span class="chart-title">Cybersecurity & Networking</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="80"><span class="percent">94</span>%</div>
+      <span class="chart-title">Project Management</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="85"><span class="percent">93</span>%</div>
+      <span class="chart-title">Microsoft Technologies</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="70"><span class="percent">97</span>%</div>
+      <span class="chart-title">Problem Solving & Innovation</span>
+    </div>
+    
+  
+  </div>
+</div>
+<!-- end skills -->
+
+<script>
+(function () {
+  function animateChart(chartEl) {
+    var target = parseFloat(chartEl.getAttribute('data-percent')) || 0;
+    var percentSpan = chartEl.querySelector('.percent');
+    var displayTarget = percentSpan ? parseFloat(percentSpan.textContent) || target : target;
+    var duration = 1400;
+    var start = null;
+
+    function easeOutCubic(t) {
+      return 1 - Math.pow(1 - t, 3);
+    }
+
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      var progress = Math.min((timestamp - start) / duration, 1);
+      var eased = easeOutCubic(progress);
+      var currentDeg = target * 3.6 * eased;
+      var currentPercent = Math.round(displayTarget * eased);
+
+      chartEl.style.background =
+        'conic-gradient(var(--primary-color, #2563eb) ' + currentDeg + 'deg, var(--line-color, #e2e8f0) 0deg)';
+
+      if (percentSpan) {
+        percentSpan.textContent = currentPercent;
+      }
+
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+    }
+
+    window.requestAnimationFrame(step);
+  }
+
+  function initCharts() {
+    var charts = document.querySelectorAll('.chart-box .chart');
+    if (!charts.length) return;
+
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            animateChart(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.4 });
+
+      charts.forEach(function (chart) {
+        observer.observe(chart);
+      });
+    } else {
+      charts.forEach(animateChart);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCharts);
+  } else {
+    initCharts();
+  }
+})();
+</script>
+
 <style>
   :root {
     --primary-color: #2563eb;
