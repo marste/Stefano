@@ -339,7 +339,7 @@ published: true
 
   <!-- ---------- Experience ---------- -->
   <div class="cv-experience">
-    <div class="cv-section-eyebrow"><i class="ion ion-ios-briefcase"></i> Esperienza</div>
+    <div class="cv-section-eyebrow"><i class="ion ion-ios-briefcase"></i> Esperienze</div>
 
     <!-- ALFA -->
     <div class="entry">
@@ -482,7 +482,7 @@ published: true
 		<p>Gestione operativa dell’infrastruttura Domino, garantendo continuità del servizio, monitoraggio, troubleshooting e supporto agli utenti aziendali, in collaborazione con fornitori software e con i team IT interni nazionali e internazionali.</p>
 		<p>Amministrazione della piattaforma BlackBerry Enterprise Server integrata con Domino per l’erogazione di servizi di mobilità e connettività wireless a supporto del management aziendale.</p>
 		<p>Gestione di ambienti Microsoft enterprise, inclusi servizi di dominio, file server, distribuzione software e sistemi di backup.</p>
-		Amministrazione della intranet aziendale di gruppo e gestione operativa di contenuti web, collaborando con le funzioni Marketing e con società esterne per la pubblicazione e l’aggiornamento dei contenuti digitali.
+		<p>Amministrazione della intranet aziendale di gruppo e gestione operativa di contenuti web, collaborando con le funzioni Marketing e con società esterne per la pubblicazione e l’aggiornamento dei contenuti digitali.
 		</p>
         </div>
       </div>
