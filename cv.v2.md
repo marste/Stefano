@@ -149,7 +149,7 @@ published: true
   
     
     <div class="chart-item">
-      <div class="chart" data-percent="70"><span class="percent">97</span>%</div>
+      <div class="chart" data-percent="70"><span class="percent">98</span>%</div>
       <span class="chart-title">Problem Solving & Innovation</span>
     </div>
     
