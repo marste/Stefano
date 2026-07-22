@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
-published: false
+published: true
 ---
 
 <!-- Ionicons -->
@@ -159,21 +159,31 @@ published: false
   }
 
   .entry-date {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 12px;
     color: var(--faint);
     line-height: 1.6;
     padding-top: 2px;
   }
 
+  .entry-date span {
+    display: block;
+  }
+
   .entry-role {
-    margin: 0 0 4px 0;
+    margin: 0 0 6px 0;
+    font-size: 1.05em;
     font-weight: 800;
     color: var(--ink);
   }
 
   .entry-company {
+    font-size: 14px;
     font-weight: 600;
     color: var(--accent);
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
 
   .entry-company a {
@@ -185,6 +195,7 @@ published: false
   }
 
   .entry-desc {
+    font-size: 0.85em;
     font-style: italic;
     color: var(--muted);
     margin: 0 0 18px 0;
@@ -211,6 +222,7 @@ published: false
 
   .entry-block-title {
     display: block;
+    font-size: 11px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--faint);
@@ -228,6 +240,7 @@ published: false
   }
 
   .entry-stack {
+    font-size: 13px;
     color: var(--muted);
     line-height: 1.9;
   }
@@ -235,10 +248,27 @@ published: false
   @media (max-width: 640px) {
     .entry {
       grid-template-columns: 1fr;
-      gap: 8px;
+      gap: 18px;
     }
+
     .entry-date {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 6px;
       padding-top: 0;
+      margin-bottom: 4px;
+    }
+
+    .entry-date span {
+      display: inline;
+    }
+
+    .entry-body {
+      display: block;
+    }
+
+    .entry-role {
+      margin-top: 2px;
     }
   }
 
@@ -316,7 +346,7 @@ published: false
 
     <!-- ALFA -->
     <div class="entry">
-      <div class="entry-date mono">07/2023<br>→ oggi</div>
+      <div class="entry-date mono"><span class="date-from">07/2023</span><span class="date-to">→ oggi</span></div>
       <div class="entry-body">
         <h3 class="entry-role">IT Manager</h3>
         <div class="entry-company"><a href="http://www.alfavarese.it/" target="_blank" rel="noopener">ALFA S.r.l.</a></div>
@@ -340,7 +370,7 @@ published: false
 
     <!-- SIIT -->
     <div class="entry">
-      <div class="entry-date mono">05/2015<br>→ 07/2023</div>
+      <div class="entry-date mono"><span class="date-from">05/2015</span><span class="date-to">→ 07/2023</span></div>
       <div class="entry-body">
         <h3 class="entry-role">IT Manager</h3>
         <div class="entry-company"><a href="http://www.siitgroup.com/" target="_blank" rel="noopener">S.I.I.T. S.r.l.</a></div>
@@ -393,7 +423,7 @@ published: false
 
     <!-- EDISPORT -->
     <div class="entry">
-      <div class="entry-date mono">01/2007<br>→ 05/2015</div>
+      <div class="entry-date mono"><span class="date-from">01/2007</span><span class="date-to">→ 05/2015</span></div>
       <div class="entry-body">
         <h3 class="entry-role">ICT System Administrator</h3>
         <div class="entry-company"><a href="http://www.edisport.it/" target="_blank" rel="noopener">Edisport Editoriale S.p.A.</a></div>
@@ -444,7 +474,7 @@ published: false
 
     <!-- IRPE -->
     <div class="entry">
-      <div class="entry-date mono">12/2004<br>→ 01/2007</div>
+      <div class="entry-date mono"><span class="date-from">12/2004</span><span class="date-to">→ 01/2007</span></div>
       <div class="entry-body">
         <h3 class="entry-role">IT Senior Consultant</h3>
         <div class="entry-company">IRPE S.p.A.</div>
@@ -462,7 +492,7 @@ published: false
 
     <!-- WIIT -->
     <div class="entry">
-      <div class="entry-date mono">02/2004<br>→ 12/2004</div>
+      <div class="entry-date mono"><span class="date-from">02/2004</span><span class="date-to">→ 12/2004</span></div>
       <div class="entry-body">
         <h3 class="entry-role">IT Senior Consultant</h3>
         <div class="entry-company"><a href="http://www.wiit.it/" target="_blank" rel="noopener">WIIT S.p.A.</a></div>
@@ -476,7 +506,7 @@ published: false
 
     <!-- TC SISTEMA - IT Consultant -->
     <div class="entry">
-      <div class="entry-date mono">04/2000<br>→ 02/2004</div>
+      <div class="entry-date mono"><span class="date-from">04/2000</span><span class="date-to">→ 02/2004</span></div>
       <div class="entry-body">
         <h3 class="entry-role">IT Consultant</h3>
         <div class="entry-company"><a href="https://www.soldionline.it/notizie/azioni-italia/tc-sistema-arriva-il-fallimento" target="_blank" rel="noopener">TC Sistema S.p.A.</a></div>
@@ -492,7 +522,7 @@ published: false
 
     <!-- TC SISTEMA - Hardware Engineer -->
     <div class="entry">
-      <div class="entry-date mono">09/1997<br>→ 04/2000</div>
+      <div class="entry-date mono"><span class="date-from">09/1997</span><span class="date-to">→ 04/2000</span></div>
       <div class="entry-body">
         <h3 class="entry-role">Hardware Engineer</h3>
         <div class="entry-company"><a href="https://www.soldionline.it/notizie/azioni-italia/tc-sistema-arriva-il-fallimento" target="_blank" rel="noopener">TC Sistema S.p.A.</a></div>
