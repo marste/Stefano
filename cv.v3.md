@@ -276,11 +276,7 @@ published: true
 <div class="cv-resume">
 
   <!-- ---------- Hero ---------- -->
-  <div class="cv-hero">
-    <span class="cv-eyebrow mono">Curriculum Vitae</span>
-    <h1>IT Manager</h1>
-    <p>Infrastrutture, cybersecurity e gestione di team IT — nel settore ICT dal 1997.</p>
-  </div>
+ 
 
   <!-- ---------- Skills ---------- -->
   <div class="cv-skills">
