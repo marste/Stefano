@@ -452,7 +452,7 @@ published: true
             <span class="skill-tag">Blade Servers IBM</span>
             <span class="skill-tag">IBM AS/400</span>
             <span class="skill-tag">Sistemi Editoriali (Adobe, Woodwing)</span>
-            <span class="skill-tag">IBM Lotus Domino</span>
+            <span class="skill-tag">IBM Lotus Domino (ora HCL Domino)</span>
             <span class="skill-tag">Microsoft Exchange</span>
             <span class="skill-tag">VPN (OpenVPN)</span>
             <span class="skill-tag">Server FTP</span>
@@ -505,14 +505,14 @@ published: true
 
           <div class="cv-text">
             <p>
-              Sistemista di rete specializzato nell’installazione ed amministrazione di <b>9 server Lotus Domino</b> in cluster con funzione di
+              Sistemista di rete specializzato nell’installazione ed amministrazione di <b>Server IBM Lotus Domino (ora HCL Domino)</b> in cluster con funzione di
               <b>mail server</b> e <b>application server</b> per un bacino di 5000 utenze, presso: <b>Carrefour Italia S.p.A.</b>
             </p>
             <p>
               Collaborazione costante con fornitori software e con i servizi interni di Carrefour S.p.A. (personale italiano ed estero).
             </p>
             <p>
-              Gestione di un server Lotus Domino dedicato al <b>BlackBerry Enterprise</b> per garantire connettività wireless alla dirigenza.
+              Gestione di un server IBM Lotus Domino dedicato al <b>BlackBerry Enterprise</b> per garantire connettività wireless alla dirigenza.
             </p>
             <p>
               Amministrazione piattaforme Microsoft per gestione domini, file server, software distribution e backup.
@@ -545,8 +545,8 @@ published: true
 
           <div class="cv-text">
             <p>
-              Sistemista di rete specializzato nell’installazione, amministrazione e presidio di server Lotus Domino presso:
-              Mediaset, Medusa Film e Alcantara con reperibilità 24h.
+              Sistemista di rete specializzato nell’installazione, amministrazione e presidio di server IBM Lotus Domino presso:
+              Mediaset, Medusa Film e Alcantara.
             </p>
           </div>
         </div>
@@ -574,8 +574,8 @@ published: true
           <span class="cv-section-title">Principali competenze ed attività tecniche</span>
 
           <div class="cv-text">
-            <p>Sistemista di rete specializzato nell’installazione ed amministrazione di server Lotus Domino.</p>
-            <p>Docente di corsi Lotus Domino Administrator.</p>
+            <p>Sistemista di rete specializzato nell’installazione ed amministrazione di server IBM Lotus Domino.</p>
+            <p>Docente di corsi IBM Lotus Domino Administrator.</p>
             <p>Installazione ed amministrazione di ambienti Microsoft.</p>
           </div>
         </div>
