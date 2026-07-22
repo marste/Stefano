@@ -301,7 +301,7 @@ published: true
 
   <!-- ---------- Skills ---------- -->
   <div class="cv-skills">
-    <div class="cv-section-eyebrow"><i class="ion ion-ios-desktop"></i> Competenze</div>
+    <div class="cv-section-eyebrow"><i class="ion ion-ios-desktop"></i>Skills</div>
 
     <div class="skills-list">
       <div class="skill-row" data-percent="97">
@@ -339,7 +339,7 @@ published: true
 
   <!-- ---------- Experience ---------- -->
   <div class="cv-experience">
-    <div class="cv-section-eyebrow"><i class="ion ion-ios-briefcase"></i> Esperienze</div>
+    <div class="cv-section-eyebrow"><i class="ion ion-ios-briefcase"></i>Professional Experience</div>
 
     <!-- ALFA -->
     <div class="entry">
