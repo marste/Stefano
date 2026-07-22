@@ -172,7 +172,7 @@ published: true
   }
 
   .entry-role {
-    margin: 0 0 6px 0;
+    margin: 0 0 14px 0;
     font-weight: 800;
 	text-align: left;
     color: var(--ink);
