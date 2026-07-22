@@ -159,7 +159,6 @@ published: true
   }
 
   .entry-date {
-    font-size: 12px;
     color: var(--faint);
     line-height: 1.6;
     padding-top: 2px;
@@ -167,13 +166,11 @@ published: true
 
   .entry-role {
     margin: 0 0 4px 0;
-    font-size: 1.05em;
     font-weight: 800;
     color: var(--ink);
   }
 
   .entry-company {
-    font-size: 14px;
     font-weight: 600;
     color: var(--accent);
     margin-bottom: 4px;
@@ -189,7 +186,6 @@ published: true
 
   .entry-desc {
     font-style: italic;
-    font-size: 0.85em;
     color: var(--muted);
     margin: 0 0 18px 0;
   }
@@ -215,7 +211,6 @@ published: true
 
   .entry-block-title {
     display: block;
-    font-size: 11px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--faint);
@@ -233,7 +228,6 @@ published: true
   }
 
   .entry-stack {
-    font-size: 13px;
     color: var(--muted);
     line-height: 1.9;
   }
