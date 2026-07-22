@@ -478,11 +478,12 @@ published: true
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
 
         <div class="entry-text">
-          <p>Sistemista di rete specializzato nell'installazione ed amministrazione di <b>Server IBM Lotus Domino (ora HCL Domino)</b> in cluster con funzione di <b>mail server</b> e <b>application server</b> per un bacino di 5000 utenze, presso: <b>Carrefour Italia S.p.A.</b></p>
-          <p>Collaborazione costante con fornitori software e con i servizi interni di Carrefour S.p.A. (personale italiano ed estero).</p>
-          <p>Gestione di un server IBM Lotus Domino dedicato al <b>BlackBerry Enterprise</b> per garantire connettività wireless alla dirigenza.</p>
-          <p>Amministrazione piattaforme Microsoft per gestione domini, file server, software distribution e backup.</p>
-          <p>Gestione intranet di gruppo e parte dei siti internet pubblicandone i contenuti in accordo con marketing e società esterne.</p>
+        <p>Sistemista infrastrutturale specializzato nella progettazione, installazione, configurazione e amministrazione di ambienti IBM Lotus Domino (oggi HCL Domino) in architettura cluster, con funzioni di mail server e application server a supporto di circa 5.000 utenti presso Carrefour Italia S.p.A.
+		Gestione operativa dell’infrastruttura Domino, garantendo continuità del servizio, monitoraggio, troubleshooting e supporto agli utenti aziendali, in collaborazione con fornitori software e con i team IT interni nazionali e internazionali.
+		Amministrazione della piattaforma BlackBerry Enterprise Server integrata con Domino per l’erogazione di servizi di mobilità e connettività wireless a supporto del management aziendale.
+		Gestione di ambienti Microsoft enterprise, inclusi servizi di dominio, file server, distribuzione software e sistemi di backup.
+		Amministrazione della intranet aziendale di gruppo e gestione operativa di contenuti web, collaborando con le funzioni Marketing e con società esterne per la pubblicazione e l’aggiornamento dei contenuti digitali.
+		</p>
         </div>
       </div>
     </div>
@@ -496,7 +497,7 @@ published: true
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing.</div>
 
         <div class="entry-text">
-          <p>Sistemista di rete specializzato nell'installazione, amministrazione e presidio di server IBM Lotus Domino presso: Mediaset, Medusa Film e Alcantara.</p>
+          <p>Sistemista di rete specializzato nell’installazione, configurazione, amministrazione e gestione operativa di ambienti server IBM Lotus Domino in contesti enterprise. Attività di presidio tecnico, monitoraggio, troubleshooting e supporto infrastrutturale presso importanti realtà aziendali tra cui Mediaset, Medusa Film e Alcantara.</p>
         </div>
       </div>
     </div>
@@ -510,9 +511,7 @@ published: true
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
 
         <div class="entry-text">
-          <p>Sistemista di rete specializzato nell'installazione ed amministrazione di server IBM Lotus Domino.</p>
-          <p>Docente di corsi IBM Lotus Domino Administrator.</p>
-          <p>Installazione ed amministrazione di ambienti Microsoft.</p>
+          <p>Sistemista infrastrutturale specializzato nella gestione di ambienti server IBM Lotus Domino e Microsoft, con esperienza nell’installazione, configurazione e amministrazione di sistemi enterprise. Attività di docenza su IBM Lotus Domino Administrator e supporto tecnico alla gestione di infrastrutture IT aziendali.</p>
         </div>
       </div>
     </div>
