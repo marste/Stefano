@@ -497,7 +497,8 @@ published: true
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing.</div>
 
         <div class="entry-text">
-          <p>Sistemista di rete specializzato nell’installazione, configurazione, amministrazione e gestione operativa di ambienti server IBM Lotus Domino in contesti enterprise. Attività di presidio tecnico, monitoraggio, troubleshooting e supporto infrastrutturale presso importanti realtà aziendali tra cui Mediaset, Medusa Film e Alcantara.</p>
+          <p>Sistemista di rete specializzato nell’installazione, configurazione, amministrazione e gestione operativa di ambienti server IBM Lotus Domino in contesti enterprise.</p>
+		  <p>Attività di presidio tecnico, monitoraggio, troubleshooting e supporto infrastrutturale presso importanti realtà aziendali tra cui Mediaset, Medusa Film e Alcantara.</p>
         </div>
       </div>
     </div>
