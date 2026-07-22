@@ -114,7 +114,7 @@ published: true
   
     
     <div class="chart-item">
-      <div class="chart" data-percent="90"><span class="percent">98</span>%</div>
+      <div class="chart" data-percent="90"><span class="percent">97</span>%</div>
       <span class="chart-title">IT Leadership & Management</span>
     </div>
     
