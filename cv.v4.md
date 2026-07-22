@@ -219,7 +219,7 @@ published: true
 
   .entry-block-title {
     display: block;
-    font-size: 11px;
+    font-size: 15px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--faint);
@@ -237,7 +237,7 @@ published: true
   }
 
   .entry-stack {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--muted);
     line-height: 1.9;
   }
