@@ -374,7 +374,7 @@ published: true
         <div class="entry-desc">Azienda leader partner per lo sviluppo e produzione di specialità medicinali e integratori alimentari.</div>
 
         <div class="entry-block">
-          <span class="entry-block-title mono">Infrastructure & Technology Responsibilities</span>
+          <span class="entry-block-title mono">Competenze Tecniche</span>
           <ul class="entry-list">
             <li>Gestione di tutto l'apparato ICT</li>
             <li>Gestione della sicurezza degli accessi interni ed esterni alle risorse ICT</li>
@@ -394,7 +394,7 @@ published: true
 
         
         <div class="entry-block">
-          <span class="entry-block-title mono">Cross-functional Responsibilities</span>
+          <span class="entry-block-title mono">Competenze Trasversali</span>
           <ul class="entry-list">
             <li>Definizione di politiche ICT, budget e piani di investimento/costi di funzione</li>
             <li>Continuità dei servizi erogati, sicurezza e armonia delle strutture hardware/software</li>
@@ -427,7 +427,7 @@ published: true
         <div class="entry-desc">Casa Editrice nata nel 1914 con la fondazione della rivista "Motociclismo".</div>
 
         <div class="entry-block">
-          <span class="entry-block-title mono">Infrastructure & Technology Responsibilities</span>
+          <span class="entry-block-title mono">Competenze Tecniche</span>
           <ul class="entry-list">
             <li>Gestione di tutto l'apparato ICT</li>
             <li>Gestione della sicurezza degli accessi interni ed esterni alle risorse ICT</li>
@@ -448,7 +448,7 @@ published: true
         
 
         <div class="entry-block">
-          <span class="entry-block-title mono">Cross-functional Responsibilities</span>
+          <span class="entry-block-title mono">Competenze Trasversali</span>
           <ul class="entry-list">
             <li>Coordinamento dell'attività di sviluppatori esterni e sistemisti</li>
             <li>Testing, improvement e reportistica sui progetti affrontati e risultati</li>
@@ -493,7 +493,7 @@ published: true
       <div class="entry-date mono"><span class="date-from">02/2004</span><span class="date-to">→ 12/2004</span></div>
       <div class="entry-body">
         <h3 class="entry-role">IT Senior Consultant</h3>
-        <div class="entry-company"><a href="http://www.wiit.it/" target="_blank" rel="noopener">WIIT S.p.A.</a></div>
+        <div class="entry-company"><a href="https://wiit.cloud/" target="_blank" rel="noopener">WIIT S.p.A.</a></div>
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing.</div>
 
         <div class="entry-text">
