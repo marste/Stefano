@@ -374,7 +374,7 @@ published: true
         <div class="entry-desc">Azienda leader partner per lo sviluppo e produzione di specialità medicinali e integratori alimentari.</div>
 
         <div class="entry-block">
-          <span class="entry-block-title mono">Attività tecniche</span>
+          <span class="entry-block-title mono">Infrastructure & Technology Responsibilities</span>
           <ul class="entry-list">
             <li>Gestione di tutto l'apparato ICT</li>
             <li>Gestione della sicurezza degli accessi interni ed esterni alle risorse ICT</li>
@@ -394,7 +394,7 @@ published: true
 
         
         <div class="entry-block">
-          <span class="entry-block-title mono">Attività trasversali</span>
+          <span class="entry-block-title mono">Cross-functional Responsibilities</span>
           <ul class="entry-list">
             <li>Definizione di politiche ICT, budget e piani di investimento/costi di funzione</li>
             <li>Continuità dei servizi erogati, sicurezza e armonia delle strutture hardware/software</li>
@@ -427,7 +427,7 @@ published: true
         <div class="entry-desc">Casa Editrice nata nel 1914 con la fondazione della rivista "Motociclismo".</div>
 
         <div class="entry-block">
-          <span class="entry-block-title mono">Attività tecniche</span>
+          <span class="entry-block-title mono">Infrastructure & Technology Responsibilities</span>
           <ul class="entry-list">
             <li>Gestione di tutto l'apparato ICT</li>
             <li>Gestione della sicurezza degli accessi interni ed esterni alle risorse ICT</li>
@@ -448,7 +448,7 @@ published: true
         
 
         <div class="entry-block">
-          <span class="entry-block-title mono">Attività trasversali</span>
+          <span class="entry-block-title mono">Cross-functional Responsibilities</span>
           <ul class="entry-list">
             <li>Coordinamento dell'attività di sviluppatori esterni e sistemisti</li>
             <li>Testing, improvement e reportistica sui progetti affrontati e risultati</li>
