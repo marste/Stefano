@@ -418,10 +418,7 @@ published: true
           </ul>
         </div>
 
-        <div class="entry-block">
-          <span class="entry-block-title mono">Installazione &amp; manutenzione</span>
-          <div class="entry-stack mono">MS Windows Client e Servers · Web Servers Linux (CentOS / Debian / Ubuntu) · Firewall & Proxy Linux · ESX / VMware Server · Apache / MySQL / PHP · Blade Servers IBM · IBM AS/400 · Sistemi Editoriali (Adobe, Woodwing) · IBM Lotus Domino (ora HCL Domino) · Microsoft Exchange · VPN (OpenVPN) · Server FTP · Appliance Symantec Antivirus-Antispam · Barracuda Spam & Virus Firewall · Telefonia VOIP Cisco · Appliance NAS NetApp · Barracuda Message Archiver · Door & Security Intercoms</div>
-        </div>
+        
 
         <div class="entry-block">
           <span class="entry-block-title mono">Attività trasversali</span>
@@ -436,6 +433,11 @@ published: true
             <li>Gestione criticità</li>
             <li>Pianificazione manutenzione proattiva reti e server</li>
           </ul>
+        </div>
+		
+		<div class="entry-block">
+          <span class="entry-block-title mono">TECH STACK</span>
+          <div class="entry-stack mono">MS Windows Client e Servers · Web Servers Linux (CentOS / Debian / Ubuntu) · Firewall & Proxy Linux · ESX / VMware Server · Apache / MySQL / PHP · Blade Servers IBM · IBM AS/400 · Sistemi Editoriali (Adobe, Woodwing) · IBM Lotus Domino (ora HCL Domino) · Microsoft Exchange · VPN (OpenVPN) · Server FTP · Appliance Symantec Antivirus-Antispam · Barracuda Spam & Virus Firewall · Telefonia VOIP Cisco · Appliance NAS NetApp · Barracuda Message Archiver · Door & Security Intercoms</div>
         </div>
       </div>
     </div>
