@@ -107,56 +107,7 @@ published: true
   }
 </style>
 
-<!-- begin skills -->
-<div class="skills">
-  
-  <div class="chart-box">
-  
-    
-    <div class="chart-item">
-      <div class="chart" data-percent="97"><span class="percent">97</span>%</div>
-      <span class="chart-title">IT Leadership & Management</span>
-    </div>
-    
-  
-    
-    <div class="chart-item">
-      <div class="chart" data-percent="96"><span class="percent">96</span>%</div>
-      <span class="chart-title">Infrastructure & Cloud</span>
-    </div>
-    
-  
-    
-    <div class="chart-item">
-      <div class="chart" data-percent="95"><span class="percent">95</span>%</div>
-      <span class="chart-title">Cybersecurity & Networking</span>
-    </div>
-    
-  
-    
-    <div class="chart-item">
-      <div class="chart" data-percent="94"><span class="percent">94</span>%</div>
-      <span class="chart-title">Project Management</span>
-    </div>
-    
-  
-    
-    <div class="chart-item">
-      <div class="chart" data-percent="93"><span class="percent">93</span>%</div>
-      <span class="chart-title">Microsoft Technologies</span>
-    </div>
-    
-  
-    
-    <div class="chart-item">
-      <div class="chart" data-percent="98"><span class="percent">98</span>%</div>
-      <span class="chart-title">Problem Solving & Innovation</span>
-    </div>
-    
-  
-  </div>
-</div>
-<!-- end skills -->
+
 
 <script>
 (function () {
@@ -829,6 +780,58 @@ published: true
       </div>
 
     </div>
+	
+	
+<!-- begin skills -->
+<div class="skills">
+  
+  <div class="chart-box">
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="97"><span class="percent">97</span>%</div>
+      <span class="chart-title">IT Leadership & Management</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="96"><span class="percent">96</span>%</div>
+      <span class="chart-title">Infrastructure & Cloud</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="95"><span class="percent">95</span>%</div>
+      <span class="chart-title">Cybersecurity & Networking</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="94"><span class="percent">94</span>%</div>
+      <span class="chart-title">Project Management</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="93"><span class="percent">93</span>%</div>
+      <span class="chart-title">Microsoft Technologies</span>
+    </div>
+    
+  
+    
+    <div class="chart-item">
+      <div class="chart" data-percent="98"><span class="percent">98</span>%</div>
+      <span class="chart-title">Problem Solving & Innovation</span>
+    </div>
+    
+  
+  </div>
+</div>
+<!-- end skills -->
 
     <div class="cv-cta">
       <a href="https://marzorati.co/contact/" class="btn btn-primary btn-lg" role="button">Contattami</a>
