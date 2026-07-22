@@ -512,7 +512,8 @@ published: true
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
 
         <div class="entry-text">
-          <p>Sistemista infrastrutturale specializzato nella gestione di ambienti server IBM Lotus Domino e Microsoft, con esperienza nell’installazione, configurazione e amministrazione di sistemi enterprise. Attività di docenza su IBM Lotus Domino Administrator e supporto tecnico alla gestione di infrastrutture IT aziendali.</p>
+          <p>Sistemista infrastrutturale specializzato nella gestione di ambienti server IBM Lotus Domino e Microsoft, con esperienza nell’installazione, configurazione e amministrazione di sistemi enterprise.</p>
+		  <p>Attività di docenza su IBM Lotus Domino Administrator e supporto tecnico alla gestione di infrastrutture IT aziendali.</p>
         </div>
       </div>
     </div>
