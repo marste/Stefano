@@ -78,7 +78,6 @@ published: true
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 12px;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--faint);
@@ -160,9 +159,9 @@ published: true
 
   .entry-date {
     display: flex;
+	font-size: 14px;
     flex-direction: column;
     gap: 2px;
-    font-size: 12px;
     color: var(--faint);
     line-height: 1.6;
     padding-top: 2px;
@@ -174,13 +173,11 @@ published: true
 
   .entry-role {
     margin: 0 0 6px 0;
-    font-size: 1.05em;
     font-weight: 800;
     color: var(--ink);
   }
 
   .entry-company {
-    font-size: 14px;
     font-weight: 600;
     color: var(--accent);
     margin-bottom: 8px;
@@ -195,7 +192,6 @@ published: true
   }
 
   .entry-desc {
-    font-size: 0.85em;
     font-style: italic;
     color: var(--muted);
     margin: 0 0 18px 0;
