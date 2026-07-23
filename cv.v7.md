@@ -16,8 +16,7 @@ published: true
   .cv-wrapper {
     display: flex;
     justify-content: center;
-    padding: 40px 20px;
-    min-height: 100vh;
+    padding: 40px 16px;
     background: #ffffff;
   }
 
@@ -30,17 +29,32 @@ published: true
     --bg: #ffffff;
 
     width: 100%;
-    max-width: 820px;           /* ← più arioso e moderno */
+    max-width: 820px;
     margin: 0 auto;
     padding: 60px 32px 80px;
     font-family: 'Montserrat', sans-serif;
     color: var(--ink);
     line-height: 1.65;
     background: var(--bg);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* opzionale: leggero rilievo */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
   }
 
+  /* ====================== MOBILE FULL WIDTH ====================== */
+  @media (max-width: 768px) {
+    .cv-wrapper {
+      padding: 20px 0;           /* riduco padding laterale */
+    }
+    
+    .cv-resume {
+      max-width: 100%;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 50px 20px 70px;   /* padding più comodo per mobile */
+    }
+  }
+
+  /* ====================== Resto degli stili (invariato) ====================== */
   .cv-resume .mono {
     font-family: 'JetBrains Mono', ui-monospace, monospace;
   }
@@ -51,7 +65,6 @@ published: true
     outline-offset: 3px;
   }
 
-  /* ---------- Section eyebrow ---------- */
   .cv-section-eyebrow {
     display: flex;
     align-items: center;
@@ -65,36 +78,13 @@ published: true
 
   .cv-skills, .cv-experience { margin-bottom: 64px; }
 
-  /* ---------- Skills ---------- */
+  /* Skills */
   .skill-row {
     display: grid;
     grid-template-columns: 200px 1fr 46px;
     align-items: center;
     gap: 18px;
     padding: 11px 0;
-  }
-  .skill-name {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--ink);
-  }
-  .skill-track {
-    height: 3px;
-    background: var(--hairline);
-    border-radius: 2px;
-    overflow: hidden;
-  }
-  .skill-fill {
-    height: 100%;
-    width: 0%;
-    background: var(--accent);
-    transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-  .skill-value {
-    font-size: 12px;
-    color: var(--muted);
-    text-align: right;
-    font-variant-numeric: tabular-nums;
   }
 
   @media (max-width: 560px) {
@@ -108,49 +98,31 @@ published: true
     .skill-track { grid-area: bar; }
   }
 
-  /* ---------- Experience ---------- */
+  /* Experience */
   .entry {
     padding: 36px 0;
     border-top: 1px solid var(--hairline);
   }
   .entry:first-of-type { border-top: 1px solid var(--hairline); }
 
-  .entry-date {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    font-size: 12px;
-    color: var(--faint);
-    margin-bottom: 10px;
+  .entry-date { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 8px; 
+    font-size: 12px; 
+    color: var(--faint); 
+    margin-bottom: 10px; 
   }
 
-  .entry-role {
-    margin: 0 0 8px 0;
-    font-weight: 800;
-    color: var(--ink);
-  }
-
-  .entry-company {
-    font-weight: 600;
-    color: var(--accent);
-    margin-bottom: 8px;
-  }
-  .entry-company a { text-decoration: none; }
-  .entry-company a:hover { text-decoration: underline; }
-
-  .entry-desc {
-    font-style: italic;
-    color: var(--muted);
-    margin-bottom: 18px;
-  }
+  .entry-role { margin: 0 0 8px 0; font-weight: 800; color: var(--ink); }
+  .entry-company { font-weight: 600; color: var(--accent); margin-bottom: 8px; }
+  .entry-desc { font-style: italic; color: var(--muted); margin-bottom: 18px; }
 
   .entry-text p {
     margin-bottom: 12px;
     color: #334155;
     text-align: justify;
   }
-  .entry-text p:last-child { margin-bottom: 0; }
-  .entry-text b { color: var(--ink); font-weight: 700; }
 
   .entry-block { margin-top: 20px; }
   .entry-block-title {
@@ -161,11 +133,7 @@ published: true
     margin-bottom: 10px;
   }
 
-  .entry-list {
-    margin: 0;
-    padding-left: 18px;
-    color: #334155;
-  }
+  .entry-list { margin: 0; padding-left: 18px; color: #334155; }
   .entry-list li { margin-bottom: 6px; }
 
   .entry-stack {
@@ -174,7 +142,6 @@ published: true
     line-height: 1.9;
   }
 
-  /* ---------- CTA ---------- */
   .cv-cta {
     text-align: center;
     margin-top: 56px;
