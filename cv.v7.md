@@ -40,30 +40,18 @@ published: true
     border-radius: 8px;
   }
 
-  /* ====================== MOBILE FULL WIDTH ====================== */
+  /* MOBILE FULL WIDTH */
   @media (max-width: 768px) {
-    .cv-wrapper {
-      padding: 20px 0;           /* riduco padding laterale */
-    }
-    
+    .cv-wrapper { padding: 20px 0; }
     .cv-resume {
       max-width: 100%;
       border-radius: 0;
       box-shadow: none;
-      padding: 50px 20px 70px;   /* padding più comodo per mobile */
+      padding: 50px 20px 70px;
     }
   }
 
-  /* ====================== Resto degli stili (invariato) ====================== */
-  .cv-resume .mono {
-    font-family: 'JetBrains Mono', ui-monospace, monospace;
-  }
-
-  .cv-resume a { color: inherit; }
-  .cv-resume :focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 3px;
-  }
+  .cv-resume .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
 
   .cv-section-eyebrow {
     display: flex;
@@ -74,17 +62,33 @@ published: true
     color: var(--faint);
     margin-bottom: 28px;
   }
-  .cv-section-eyebrow .ion { font-size: 14px; }
 
-  .cv-skills, .cv-experience { margin-bottom: 64px; }
-
-  /* Skills */
+  /* ==================== SKILLS ==================== */
   .skill-row {
     display: grid;
     grid-template-columns: 200px 1fr 46px;
     align-items: center;
     gap: 18px;
     padding: 11px 0;
+  }
+  .skill-name { font-size: 14px; font-weight: 600; color: var(--ink); }
+  .skill-track {
+    height: 3px;
+    background: var(--hairline);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .skill-fill {
+    height: 100%;
+    width: 0%;                    /* parte da zero */
+    background: var(--accent);
+    transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .skill-value {
+    font-size: 12px;
+    color: var(--muted);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
   }
 
   @media (max-width: 560px) {
@@ -97,71 +101,52 @@ published: true
     .skill-value { grid-area: value; }
     .skill-track { grid-area: bar; }
   }
-
-  /* Experience */
-  .entry {
-    padding: 36px 0;
-    border-top: 1px solid var(--hairline);
-  }
-  .entry:first-of-type { border-top: 1px solid var(--hairline); }
-
-  .entry-date { 
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 8px; 
-    font-size: 12px; 
-    color: var(--faint); 
-    margin-bottom: 10px; 
-  }
-
-  .entry-role { margin: 0 0 8px 0; font-weight: 800; color: var(--ink); }
-  .entry-company { font-weight: 600; color: var(--accent); margin-bottom: 8px; }
-  .entry-desc { font-style: italic; color: var(--muted); margin-bottom: 18px; }
-
-  .entry-text p {
-    margin-bottom: 12px;
-    color: #334155;
-    text-align: justify;
-  }
-
-  .entry-block { margin-top: 20px; }
-  .entry-block-title {
-    font-size: 15px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--faint);
-    margin-bottom: 10px;
-  }
-
-  .entry-list { margin: 0; padding-left: 18px; color: #334155; }
-  .entry-list li { margin-bottom: 6px; }
-
-  .entry-stack {
-    font-size: 14px;
-    color: var(--muted);
-    line-height: 1.9;
-  }
-
-  .cv-cta {
-    text-align: center;
-    margin-top: 56px;
-  }
-  .cv-cta a {
-    display: inline-block;
-    padding: 13px 32px;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--ink);
-    border: 1px solid var(--hairline);
-    border-radius: 4px;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-  .cv-cta a:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
 </style>
+
+<div class="cv-wrapper">
+  <div class="cv-resume">
+
+    <!-- ========== SKILLS ========== -->
+    <div class="cv-skills">
+      <div class="cv-section-eyebrow"><i class="ion ion-ios-desktop"></i>Skills</div>
+      <div class="skills-list">
+        <div class="skill-row" data-percent="97">
+          <span class="skill-name">IT Leadership & Management</span>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+          <span class="skill-value mono">97%</span>
+        </div>
+        <div class="skill-row" data-percent="96">
+          <span class="skill-name">Infrastructure & Cloud</span>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+          <span class="skill-value mono">96%</span>
+        </div>
+        <div class="skill-row" data-percent="95">
+          <span class="skill-name">Cybersecurity & Networking</span>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+          <span class="skill-value mono">95%</span>
+        </div>
+        <div class="skill-row" data-percent="94">
+          <span class="skill-name">Project Management</span>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+          <span class="skill-value mono">94%</span>
+        </div>
+        <div class="skill-row" data-percent="93">
+          <span class="skill-name">Microsoft Technologies</span>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+          <span class="skill-value mono">93%</span>
+        </div>
+        <div class="skill-row" data-percent="98">
+          <span class="skill-name">Problem Solving & Innovation</span>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+          <span class="skill-value mono">98%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Il resto del tuo CV (Experience + CTA) va qui -->
+
+  </div>
+</div>
 
 <div class="cv-wrapper">
   <div class="cv-resume">
@@ -386,30 +371,40 @@ published: true
 </div>
 
 <script>
-  // Solo animazione delle skill bars (pulito e leggero)
+  // Animazione barre skills
   (function () {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    function setFill(row) {
+
+    function animateSkill(row) {
       const percent = parseFloat(row.getAttribute('data-percent')) || 0;
       const fill = row.querySelector('.skill-fill');
       if (!fill) return;
-      if (reduceMotion) fill.style.transition = 'none';
-      requestAnimationFrame(() => fill.style.width = percent + '%');
+
+      if (reduceMotion) {
+        fill.style.transition = 'none';
+      }
+      // Forza il reflow e avvia l'animazione
+      requestAnimationFrame(() => {
+        fill.style.width = percent + '%';
+      });
     }
 
     const rows = document.querySelectorAll('.skill-row');
+
     if ('IntersectionObserver' in window) {
-      const observer = new IntersectionObserver(entries => {
+      const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            setFill(entry.target);
+            animateSkill(entry.target);
             observer.unobserve(entry.target);
           }
         });
-      }, { threshold: 0.4 });
+      }, { threshold: 0.3 });
+
       rows.forEach(row => observer.observe(row));
     } else {
-      rows.forEach(setFill);
+      // Fallback per browser vecchi
+      rows.forEach(animateSkill);
     }
   })();
 </script>
