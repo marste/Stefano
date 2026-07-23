@@ -153,19 +153,7 @@ published: true
     <!-- Hero (se vuoi aggiungerlo in futuro) -->
     <!-- <div class="cv-hero"> ... </div> -->
 
-    <!-- Skills -->
-    <div class="cv-skills">
-      <div class="cv-section-eyebrow"><i class="ion ion-ios-desktop"></i>Skills</div>
-      <div class="skills-list">
-        <!-- ... il tuo codice skills rimane identico ... -->
-        <div class="skill-row" data-percent="97"><span class="skill-name">IT Leadership & Management</span><div class="skill-track"><div class="skill-fill"></div></div><span class="skill-value mono">97%</span></div>
-        <div class="skill-row" data-percent="96"><span class="skill-name">Infrastructure & Cloud</span><div class="skill-track"><div class="skill-fill"></div></div><span class="skill-value mono">96%</span></div>
-        <div class="skill-row" data-percent="95"><span class="skill-name">Cybersecurity & Networking</span><div class="skill-track"><div class="skill-fill"></div></div><span class="skill-value mono">95%</span></div>
-        <div class="skill-row" data-percent="94"><span class="skill-name">Project Management</span><div class="skill-track"><div class="skill-fill"></div></div><span class="skill-value mono">94%</span></div>
-        <div class="skill-row" data-percent="93"><span class="skill-name">Microsoft Technologies</span><div class="skill-track"><div class="skill-fill"></div></div><span class="skill-value mono">93%</span></div>
-        <div class="skill-row" data-percent="98"><span class="skill-name">Problem Solving & Innovation</span><div class="skill-track"><div class="skill-fill"></div></div><span class="skill-value mono">98%</span></div>
-      </div>
-    </div>
+   
 
     <!-- ---------- Experience ---------- -->
   <div class="cv-experience">
