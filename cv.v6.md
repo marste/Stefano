@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
-published: false
+published: true
 ---
 
 <!-- Ionicons -->
@@ -32,11 +32,11 @@ published: false
 
   @media (min-width: 900px) {
     .cv-resume {
-      width: 100vw;
-      max-width: 900px;
+      --resume-width: min(900px, calc(100vw - 48px));
+      width: var(--resume-width);
       position: relative;
-      left: 50%;
-      margin-left: calc(-50vw + 1px);
+      left: 50vw;
+      margin-left: calc(var(--resume-width) / -2);
     }
   }
 
