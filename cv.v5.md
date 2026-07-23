@@ -10,6 +10,7 @@ published: true
 <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 <!-- JetBrains Mono -->
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
 <style>
   .cv-resume {
     --ink: #0f172a;
@@ -37,10 +38,8 @@ published: true
     outline-offset: 3px;
   }
 
-  /* ---------- Hero ---------- */
-  .cv-hero {
-    margin-bottom: 64px;
-  }
+  /* ---------- Hero & Section ---------- */
+  .cv-hero { margin-bottom: 64px; }
   .cv-eyebrow {
     display: block;
     font-size: 12px;
@@ -54,15 +53,7 @@ published: true
     font-size: 2.1em;
     font-weight: 800;
     letter-spacing: -0.02em;
-    color: var(--ink);
   }
-  .cv-hero p {
-    margin: 0;
-    color: var(--muted);
-    max-width: 46ch;
-  }
-
-  /* ---------- Section eyebrow ---------- */
   .cv-section-eyebrow {
     display: flex;
     align-items: center;
@@ -72,13 +63,8 @@ published: true
     color: var(--faint);
     margin-bottom: 28px;
   }
-  .cv-section-eyebrow .ion {
-    font-size: 14px;
-  }
-  .cv-skills,
-  .cv-experience {
-    margin-bottom: 64px;
-  }
+  .cv-section-eyebrow .ion { font-size: 14px; }
+  .cv-skills, .cv-experience { margin-bottom: 64px; }
 
   /* ---------- Skills ---------- */
   .skill-row {
@@ -88,11 +74,7 @@ published: true
     gap: 18px;
     padding: 11px 0;
   }
-  .skill-name {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--ink);
-  }
+  .skill-name { font-size: 14px; font-weight: 600; }
   .skill-track {
     height: 3px;
     background: var(--hairline);
@@ -111,18 +93,6 @@ published: true
     text-align: right;
     font-variant-numeric: tabular-nums;
   }
-  @media (max-width: 560px) {
-    .skill-row {
-      grid-template-columns: 1fr 40px;
-      grid-template-areas:
-        "name value"
-        "bar bar";
-      row-gap: 6px;
-    }
-    .skill-name { grid-area: name; }
-    .skill-value { grid-area: value; }
-    .skill-track { grid-area: bar; }
-  }
 
   /* ---------- Experience ---------- */
   .entry {
@@ -130,9 +100,6 @@ published: true
     grid-template-columns: 128px 1fr;
     gap: 32px;
     padding: 36px 0;
-    border-top: 1px solid var(--hairline);
-  }
-  .entry:first-of-type {
     border-top: 1px solid var(--hairline);
   }
   .entry-date {
@@ -144,13 +111,9 @@ published: true
     line-height: 1.6;
     padding-top: 2px;
   }
-  .entry-date span {
-    display: block;
-  }
   .entry-role {
     margin: 0 0 8px 0;
     font-weight: 800;
-    text-align: left;
     color: var(--ink);
   }
   .entry-company {
@@ -158,12 +121,8 @@ published: true
     color: var(--accent);
     margin-bottom: 8px;
   }
-  .entry-company a {
-    text-decoration: none;
-  }
-  .entry-company a:hover {
-    text-decoration: underline;
-  }
+  .entry-company a { text-decoration: none; }
+  .entry-company a:hover { text-decoration: underline; }
   .entry-desc {
     font-style: italic;
     color: var(--muted);
@@ -174,16 +133,9 @@ published: true
     color: #334155;
     text-align: justify;
   }
-  .entry-text p:last-child {
-    margin-bottom: 0;
-  }
-  .entry-text b {
-    color: var(--ink);
-    font-weight: 700;
-  }
-  .entry-block {
-    margin-top: 20px;
-  }
+  .entry-text p:last-child { margin-bottom: 0; }
+  .entry-text b { color: var(--ink); font-weight: 700; }
+  .entry-block { margin-top: 20px; }
   .entry-block-title {
     display: block;
     font-size: 15px;
@@ -197,9 +149,7 @@ published: true
     padding-left: 18px;
     color: #334155;
   }
-  .entry-list li {
-    margin-bottom: 6px;
-  }
+  .entry-list li { margin-bottom: 6px; }
   .entry-stack {
     font-size: 14px;
     color: var(--muted);
@@ -212,8 +162,6 @@ published: true
       grid-template-columns: 1fr;
       gap: 18px;
     }
-
-    /* Date + Role sulla stessa riga */
     .entry-header {
       display: flex;
       align-items: baseline;
@@ -221,7 +169,6 @@ published: true
       flex-wrap: wrap;
       margin-bottom: 8px;
     }
-
     .entry-date {
       display: flex;
       align-items: baseline;
@@ -230,26 +177,20 @@ published: true
       margin-bottom: 0;
       flex-shrink: 0;
     }
-
     .entry-date .date-from {
       font-weight: 700;
       color: var(--ink);
     }
-
     .entry-date .date-to {
       font-size: 13px;
       color: var(--faint);
     }
-
     .entry-role {
       margin: 0;
       flex: 1;
       font-size: 1.1em;
     }
-
-    .entry-date span {
-      display: inline;
-    }
+    .entry-date span { display: inline; }
   }
 
   /* ---------- CTA ---------- */
@@ -275,45 +216,8 @@ published: true
 </style>
 
 <div class="cv-resume">
-  <!-- ---------- Skills ---------- -->
-  <div class="cv-skills">
-    <div class="cv-section-eyebrow"><i class="ion ion-ios-desktop"></i>Skills</div>
 
-    <div class="skills-list">
-      <div class="skill-row" data-percent="97">
-        <span class="skill-name">IT Leadership & Management</span>
-        <div class="skill-track"><div class="skill-fill"></div></div>
-        <span class="skill-value mono">97%</span>
-      </div>
-      <div class="skill-row" data-percent="96">
-        <span class="skill-name">Infrastructure & Cloud</span>
-        <div class="skill-track"><div class="skill-fill"></div></div>
-        <span class="skill-value mono">96%</span>
-      </div>
-      <div class="skill-row" data-percent="95">
-        <span class="skill-name">Cybersecurity & Networking</span>
-        <div class="skill-track"><div class="skill-fill"></div></div>
-        <span class="skill-value mono">95%</span>
-      </div>
-      <div class="skill-row" data-percent="94">
-        <span class="skill-name">Project Management</span>
-        <div class="skill-track"><div class="skill-fill"></div></div>
-        <span class="skill-value mono">94%</span>
-      </div>
-      <div class="skill-row" data-percent="93">
-        <span class="skill-name">Microsoft Technologies</span>
-        <div class="skill-track"><div class="skill-fill"></div></div>
-        <span class="skill-value mono">93%</span>
-      </div>
-      <div class="skill-row" data-percent="98">
-        <span class="skill-name">Problem Solving & Innovation</span>
-        <div class="skill-track"><div class="skill-fill"></div></div>
-        <span class="skill-value mono">98%</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Experience -->
+  <!-- ========== EXPERIENCE ========== -->
   <div class="cv-experience">
     <div class="cv-section-eyebrow"><i class="ion ion-ios-briefcase"></i>Professional Experience</div>
 
@@ -326,8 +230,7 @@ published: true
       <div class="entry-body">
         <div class="entry-company"><a href="http://www.alfavarese.it/" target="_blank" rel="noopener">ALFA S.r.l.</a></div>
         <div class="entry-desc">Società pubblica costituita nel giugno 2015 che gestisce il Servizio Idrico Integrato della Provincia di Varese.</div>
-        <!-- resto invariato -->
-         <div class="entry-text">
+        <div class="entry-text">
           <p>Nel corso della mia esperienza, mi sono occupato di <b>migliorare i processi aziendali</b> attraverso l'implementazione di strategie mirate, che hanno permesso di ridurre le inefficienze e aumentare significativamente la produttività del team.</p>
           <p>Ho avuto la <b>responsabilità completa della gestione delle infrastrutture IT</b>, assicurando la massima continuità operativa e guidando il costante aggiornamento tecnologico. In questo contesto, ho sviluppato e gestito <b>ambienti virtualizzati</b> per ottimizzare l'utilizzo delle risorse hardware, migliorando così la scalabilità e la flessibilità dell'intero ecosistema IT.</p>
           <p>Un aspetto a cui ho sempre dedicato grande attenzione è la <b>cybersecurity</b>. Ho implementato soluzioni di sicurezza per proteggere i dati aziendali, concentrandomi sia sulla prevenzione proattiva delle minacce che sulla gestione delle vulnerabilità.</p>
@@ -351,6 +254,7 @@ published: true
       <div class="entry-body">
         <div class="entry-company"><a href="http://www.siitgroup.com/" target="_blank" rel="noopener">S.I.I.T. S.r.l.</a></div>
         <div class="entry-desc">Azienda leader partner per lo sviluppo e produzione di specialità medicinali e integratori alimentari.</div>
+        
         <div class="entry-block">
           <span class="entry-block-title mono">Competenze Tecniche</span>
           <ul class="entry-list">
@@ -369,8 +273,7 @@ published: true
             <li>Aggiornamento inventario degli assets gestiti</li>
           </ul>
         </div>
-
-        
+       
         <div class="entry-block">
           <span class="entry-block-title mono">Competenze Trasversali</span>
           <ul class="entry-list">
@@ -388,12 +291,12 @@ published: true
             <li>Partecipazione alle trattative economiche con i fornitori</li>
           </ul>
         </div>
-	
-		<div class="entry-block">
+
+        <div class="entry-block">
           <span class="entry-block-title mono">Tech Stack</span>
           <div class="entry-stack mono">MS Windows Client e Servers · Firewall Sonicwall Dell · Firewall Cisco Firepower · Switch Cisco · ESX / VMware Server · Office 365 / Exchange Online / SharePoint · Linux / Apache / MySQL / PHP · IBM iSeries · Microsoft SQL · Cisco VPN · Sophos XDR · Cynet Cybersecurity · Telefonia VOIP Selta · Telefonia DECT Spectralink · Data Logger RF · Lettori Barcode · Controllo accessi</div>
-        </div>	
-	</div>
+        </div>
+      </div>
     </div>
 
     <!-- EDISPORT -->
@@ -405,7 +308,8 @@ published: true
       <div class="entry-body">
         <div class="entry-company"><a href="http://www.edisport.it/" target="_blank" rel="noopener">Edisport Editoriale S.p.A.</a></div>
         <div class="entry-desc">Casa Editrice nata nel 1914 con la fondazione della rivista "Motociclismo".</div>
-         <div class="entry-block">
+        
+        <div class="entry-block">
           <span class="entry-block-title mono">Competenze Tecniche</span>
           <ul class="entry-list">
             <li>Gestione di tutto l'apparato ICT</li>
@@ -423,9 +327,7 @@ published: true
             <li>Aggiornamento inventario degli assets gestiti</li>
           </ul>
         </div>
-
-        
-
+       
         <div class="entry-block">
           <span class="entry-block-title mono">Competenze Trasversali</span>
           <ul class="entry-list">
@@ -440,8 +342,8 @@ published: true
             <li>Pianificazione manutenzione proattiva reti e server</li>
           </ul>
         </div>
-		
-		<div class="entry-block">
+
+        <div class="entry-block">
           <span class="entry-block-title mono">TECH STACK</span>
           <div class="entry-stack mono">MS Windows Client e Servers · Web Servers Linux (CentOS / Debian / Ubuntu) · Firewall & Proxy Linux · ESX / VMware Server · Apache / MySQL / PHP · Blade Servers IBM · IBM AS/400 · Sistemi Editoriali (Adobe, Woodwing) · IBM Lotus Domino (ora HCL Domino) · Microsoft Exchange · VPN (OpenVPN) · Server FTP · Appliance Symantec Antivirus-Antispam · Barracuda Spam & Virus Firewall · Telefonia VOIP Cisco · Appliance NAS NetApp · Barracuda Message Archiver · Door & Security Intercoms</div>
         </div>
@@ -457,14 +359,12 @@ published: true
       <div class="entry-body">
         <div class="entry-company">IRPE S.p.A.</div>
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
-
         <div class="entry-text">
-        <p>Sistemista infrastrutturale specializzato nella progettazione, installazione, configurazione e amministrazione di ambienti IBM Lotus Domino (oggi HCL Domino) in architettura cluster, con funzioni di mail server e application server a supporto di circa 5.000 utenti presso Carrefour Italia S.p.A.</p>
-		<p>Gestione operativa dell’infrastruttura Domino, garantendo continuità del servizio, monitoraggio, troubleshooting e supporto agli utenti aziendali, in collaborazione con fornitori software e con i team IT interni nazionali e internazionali.</p>
-		<p>Amministrazione della piattaforma BlackBerry Enterprise Server integrata con Domino per l’erogazione di servizi di mobilità e connettività wireless a supporto del management aziendale.</p>
-		<p>Gestione di ambienti Microsoft enterprise, inclusi servizi di dominio, file server, distribuzione software e sistemi di backup.</p>
-		<p>Amministrazione della intranet aziendale di gruppo e gestione operativa di contenuti web, collaborando con le funzioni Marketing e con società esterne per la pubblicazione e l’aggiornamento dei contenuti digitali.
-		</p>
+          <p>Sistemista infrastrutturale specializzato nella progettazione, installazione, configurazione e amministrazione di ambienti IBM Lotus Domino (oggi HCL Domino) in architettura cluster, con funzioni di mail server e application server a supporto di circa 5.000 utenti presso Carrefour Italia S.p.A.</p>
+          <p>Gestione operativa dell’infrastruttura Domino, garantendo continuità del servizio, monitoraggio, troubleshooting e supporto agli utenti aziendali, in collaborazione con fornitori software e con i team IT interni nazionali e internazionali.</p>
+          <p>Amministrazione della piattaforma BlackBerry Enterprise Server integrata con Domino per l’erogazione di servizi di mobilità e connettività wireless a supporto del management aziendale.</p>
+          <p>Gestione di ambienti Microsoft enterprise, inclusi servizi di dominio, file server, distribuzione software e sistemi di backup.</p>
+          <p>Amministrazione della intranet aziendale di gruppo e gestione operativa di contenuti web, collaborando con le funzioni Marketing e con società esterne per la pubblicazione e l’aggiornamento dei contenuti digitali.</p>
         </div>
       </div>
     </div>
@@ -480,7 +380,7 @@ published: true
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing.</div>
         <div class="entry-text">
           <p>Sistemista di rete specializzato nell’installazione, configurazione, amministrazione e gestione operativa di ambienti server IBM Lotus Domino in contesti enterprise.</p>
-		  <p>Attività di presidio tecnico, monitoraggio, troubleshooting e supporto infrastrutturale presso importanti realtà aziendali tra cui Mediaset, Medusa Film e Alcantara.</p>
+          <p>Attività di presidio tecnico, monitoraggio, troubleshooting e supporto infrastrutturale presso importanti realtà aziendali tra cui Mediaset, Medusa Film e Alcantara.</p>
         </div>
       </div>
     </div>
@@ -494,10 +394,9 @@ published: true
       <div class="entry-body">
         <div class="entry-company"><a href="https://www.soldionline.it/notizie/azioni-italia/tc-sistema-arriva-il-fallimento" target="_blank" rel="noopener">TC Sistema S.p.A.</a></div>
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
-
         <div class="entry-text">
           <p>Sistemista infrastrutturale specializzato nella gestione di ambienti server IBM Lotus Domino e Microsoft, con esperienza nell’installazione, configurazione e amministrazione di sistemi enterprise.</p>
-		  <p>Attività di docenza su IBM Lotus Domino Administrator e supporto tecnico alla gestione di infrastrutture IT aziendali.</p>
+          <p>Attività di docenza su IBM Lotus Domino Administrator e supporto tecnico alla gestione di infrastrutture IT aziendali.</p>
         </div>
       </div>
     </div>
@@ -511,7 +410,6 @@ published: true
       <div class="entry-body">
         <div class="entry-company"><a href="https://www.soldionline.it/notizie/azioni-italia/tc-sistema-arriva-il-fallimento" target="_blank" rel="noopener">TC Sistema S.p.A.</a></div>
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
-
         <div class="entry-text">
           <p>Tecnico Hardware specializzato nella configurazione, installazione, diagnostica e manutenzione di sistemi client/server, notebook, infrastrutture di stampa di rete (Network Printers e Multi-Function Printers) e periferiche IT, con attività svolte sia presso la struttura interna sia in assistenza on-site presso clienti.</p>
         </div>
@@ -533,23 +431,20 @@ published: true
     var fill = row.querySelector('.skill-fill');
     if (!fill) return;
     if (reduceMotion) fill.style.transition = 'none';
-    requestAnimationFrame(function () {
-      fill.style.width = percent + '%';
-    });
+    requestAnimationFrame(() => fill.style.width = percent + '%');
   }
   function init() {
     var rows = document.querySelectorAll('.skill-row');
-    if (!rows.length) return;
     if ('IntersectionObserver' in window) {
-      var observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
+      var observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
           if (entry.isIntersecting) {
             setFill(entry.target);
             observer.unobserve(entry.target);
           }
         });
       }, { threshold: 0.4 });
-      rows.forEach(function (row) { observer.observe(row); });
+      rows.forEach(row => observer.observe(row));
     } else {
       rows.forEach(setFill);
     }
