@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
-published: false
+published: true
 ---
 
 <!-- Ionicons -->
@@ -28,16 +28,6 @@ published: false
     color: var(--ink);
     line-height: 1.65;
     background: var(--bg);
-  }
-
-  @media (min-width: 900px) {
-    .cv-resume {
-      --resume-width: min(900px, calc(100vw - 48px));
-      width: var(--resume-width);
-      position: relative;
-      left: 50vw;
-      margin-left: calc(var(--resume-width) / -2);
-    }
   }
 
   .cv-resume .mono {
@@ -562,5 +552,52 @@ published: false
   } else {
     init();
   }
+})();
+</script>
+
+<script>
+(function () {
+  var el = null;
+  var DESKTOP_BREAKPOINT = 900;
+  var MAX_WIDTH = 900;
+  var SIDE_MARGIN = 24; // margine minimo dai bordi della viewport
+
+  function center() {
+    if (!el) el = document.querySelector('.cv-resume');
+    if (!el) return;
+
+    if (window.innerWidth < DESKTOP_BREAKPOINT) {
+      // sotto la soglia: nessuna forzatura, torna al comportamento CSS normale
+      el.style.width = '';
+      el.style.transform = '';
+      return;
+    }
+
+    var targetWidth = Math.min(MAX_WIDTH, window.innerWidth - SIDE_MARGIN * 2);
+
+    // reset per misurare la posizione "naturale" data dal tema
+    el.style.width = targetWidth + 'px';
+    el.style.transform = '';
+
+    var rect = el.getBoundingClientRect();
+    var desiredLeft = (window.innerWidth - targetWidth) / 2;
+    var shift = desiredLeft - rect.left;
+
+    el.style.transform = 'translateX(' + shift + 'px)';
+  }
+
+  var resizeTimer;
+  function onResize() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(center, 100);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', center);
+  } else {
+    center();
+  }
+  window.addEventListener('load', center); // ricalcola dopo il caricamento dei font
+  window.addEventListener('resize', onResize);
 })();
 </script>
