@@ -17,7 +17,7 @@ published: true
     --ink: #0f172a;
     --muted: #64748b;
     --faint: #94a3b8;
-    --accent: #2563eb;
+    --accent: #1da1f2;
     --hairline: #e2e8f0;
     --bg: #ffffff;
 
