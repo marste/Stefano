@@ -196,7 +196,9 @@ published: true
   .entry-desc {
     font-style: italic;
     color: var(--muted);
+	font-size: 16px;
     margin: 0 0 18px 0;
+	
   }
 
   .entry-text p {
