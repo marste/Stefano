@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /curriculum-vitae/
 image: 'https://marzorati.co/img/cv.png'
 share-img: 'https://marzorati.co/img/cv.png'
-published: false
+published: true
 ---
 
 <!-- Ionicons -->
@@ -147,8 +147,8 @@ published: false
 
   .entry {
     display: grid;
-    grid-template-columns: 128px 1fr;
-    gap: 32px;
+    grid-template-columns: 1fr;
+    gap: 6px;
     padding: 36px 0;
     border-top: 1px solid var(--hairline);
   }
@@ -159,16 +159,17 @@ published: false
 
   .entry-date {
     display: flex;
-	font-size: 14px;
-    flex-direction: column;
-    gap: 2px;
+    font-size: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
     color: var(--faint);
     line-height: 1.6;
-    padding-top: 2px;
+    margin-bottom: 4px;
   }
 
   .entry-date span {
-    display: block;
+    display: inline;
   }
 
   .entry-role {
@@ -240,33 +241,6 @@ published: false
     font-size: 14px;
     color: var(--muted);
     line-height: 1.9;
-  }
-
-  @media (max-width: 640px) {
-    .entry {
-      grid-template-columns: 1fr;
-      gap: 18px;
-    }
-
-    .entry-date {
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 6px;
-      padding-top: 0;
-      margin-bottom: 4px;
-    }
-
-    .entry-date span {
-      display: inline;
-    }
-
-    .entry-body {
-      display: block;
-    }
-
-    .entry-role {
-      margin-top: 2px;
-    }
   }
 
   /* ---------- CTA ---------- */
@@ -479,10 +453,10 @@ published: false
 
         <div class="entry-text">
         <p>Sistemista infrastrutturale specializzato nella progettazione, installazione, configurazione e amministrazione di ambienti IBM Lotus Domino (oggi HCL Domino) in architettura cluster, con funzioni di mail server e application server a supporto di circa 5.000 utenti presso Carrefour Italia S.p.A.</p>
-		<p>Gestione operativa dell’infrastruttura Domino, garantendo continuità del servizio, monitoraggio, troubleshooting e supporto agli utenti aziendali, in collaborazione con fornitori software e con i team IT interni nazionali e internazionali.</p>
-		<p>Amministrazione della piattaforma BlackBerry Enterprise Server integrata con Domino per l’erogazione di servizi di mobilità e connettività wireless a supporto del management aziendale.</p>
+		<p>Gestione operativa dell'infrastruttura Domino, garantendo continuità del servizio, monitoraggio, troubleshooting e supporto agli utenti aziendali, in collaborazione con fornitori software e con i team IT interni nazionali e internazionali.</p>
+		<p>Amministrazione della piattaforma BlackBerry Enterprise Server integrata con Domino per l'erogazione di servizi di mobilità e connettività wireless a supporto del management aziendale.</p>
 		<p>Gestione di ambienti Microsoft enterprise, inclusi servizi di dominio, file server, distribuzione software e sistemi di backup.</p>
-		<p>Amministrazione della intranet aziendale di gruppo e gestione operativa di contenuti web, collaborando con le funzioni Marketing e con società esterne per la pubblicazione e l’aggiornamento dei contenuti digitali.
+		<p>Amministrazione della intranet aziendale di gruppo e gestione operativa di contenuti web, collaborando con le funzioni Marketing e con società esterne per la pubblicazione e l'aggiornamento dei contenuti digitali.
 		</p>
         </div>
       </div>
@@ -497,7 +471,7 @@ published: false
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing.</div>
 
         <div class="entry-text">
-          <p>Sistemista di rete specializzato nell’installazione, configurazione, amministrazione e gestione operativa di ambienti server IBM Lotus Domino in contesti enterprise.</p>
+          <p>Sistemista di rete specializzato nell'installazione, configurazione, amministrazione e gestione operativa di ambienti server IBM Lotus Domino in contesti enterprise.</p>
 		  <p>Attività di presidio tecnico, monitoraggio, troubleshooting e supporto infrastrutturale presso importanti realtà aziendali tra cui Mediaset, Medusa Film e Alcantara.</p>
         </div>
       </div>
@@ -512,7 +486,7 @@ published: false
         <div class="entry-desc">Azienda ICT per la fornitura di servizi di outsourcing, consulenza, progettazione e gestione di architetture, applicazioni e sicurezza.</div>
 
         <div class="entry-text">
-          <p>Sistemista infrastrutturale specializzato nella gestione di ambienti server IBM Lotus Domino e Microsoft, con esperienza nell’installazione, configurazione e amministrazione di sistemi enterprise.</p>
+          <p>Sistemista infrastrutturale specializzato nella gestione di ambienti server IBM Lotus Domino e Microsoft, con esperienza nell'installazione, configurazione e amministrazione di sistemi enterprise.</p>
 		  <p>Attività di docenza su IBM Lotus Domino Administrator e supporto tecnico alla gestione di infrastrutture IT aziendali.</p>
         </div>
       </div>
