@@ -4,8 +4,7 @@ author: Stefano Marzorati
 layout: post
 image: 'https://marzorati.co/img/video.jpg'
 share-img: 'https://marzorati.co/img/video.jpg'
-date: 2025-04-10 08:29:00 +0200
-permalink: /download-da-centinaia-di-siti-con-youtube-dl/
+date: 2026-07-24 08:29:00 +0200
 categories: [video]
 tags: [download, mp3, porn, video, music, yt-dlp]
 ---
@@ -13,7 +12,7 @@ Per poter scaricare da questi siti, potete utilizzare <a href="https://github.co
 
 Esempio:   
 ```
-yt-dlp.exe -x --audio-format mp3 --audio-quality 0 "URL_DEL_VIDEO"
+yt-dlp.exe -x --audio-format best --audio-quality 0 "URL_DEL_VIDEO"
 ```
 
 1up.com  
