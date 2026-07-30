@@ -52,3 +52,19 @@ In base al risultato ottenuto, potrete capire il vostro rischio confrontando i v
   </tr>
 </table>
 </center>
+
+Per calcolare il colesterolo **LDL (colesterolo cattivo)** si usa comunemente la formula di Friedewald che dà una stima valida e corretta se non si hanno i trigliceridi ≥ 400 mg/dL.   
+
+La formula è:
+
+**LDL = Colesterolo Totale - HDL - (Trigliceridi / 5)**
+
+Controlla in tabella il tuo valore per vedere in quale soglia sei.
+
+| Rischio         | Valore                     |
+|-----------------|----------------------------|
+| Ottimale        | < 100 (ideale)             |
+| Quasi ottimale  | 100 – 129                  |
+| Borderline alto | 130 – 159                  |
+| Alto            | 160 – 189                  |
+| Molto alto      | ≥ 190 (attenzione massima) |
