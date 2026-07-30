@@ -62,8 +62,6 @@ La formula è:
 Controlla in tabella il tuo valore per vedere in quale soglia sei.
 
 
-<center>
-
 | Rischio         | Valore                     |
 |-----------------|----------------------------|
 | Ottimale        | < 100 (ideale)             |
@@ -71,5 +69,3 @@ Controlla in tabella il tuo valore per vedere in quale soglia sei.
 | Borderline alto | 130 – 159                  |
 | Alto            | 160 – 189                  |
 | Molto alto      | ≥ 190 (attenzione massima) |
-
-</center>
