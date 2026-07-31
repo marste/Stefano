@@ -3,7 +3,7 @@ title: Streaming Radio
 permalink: /radio/
 image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
-date: 2026-07-31 07:00:00 +0200
+date: 2026-05-30 07:00:00 +0200
 author: Stefano Marzorati
 layout: page
 categories: [Music]
