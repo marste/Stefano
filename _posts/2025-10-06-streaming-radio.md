@@ -3,11 +3,11 @@ title: Streaming Radio
 permalink: /radio/
 image: 'https://marzorati.co/img/music.png'
 share-img: 'https://marzorati.co/img/music.png'
-date: 2025-06-04 07:00:00 +0200
+date: 2026-07-31 07:00:00 +0200
 author: Stefano Marzorati
 layout: page
 categories: [Music]
-tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, frenchcore, techno, jazz, pop]
+tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, techno, jazz, lounge, pop]
 published: true
 ---
 <style>
@@ -111,7 +111,7 @@ label[for="radio-select"] {
 #visualizer {
   width: 100%;
   display: block;
-  height: clamp(120px, 25vw, 160px);
+  height: clamp(200px, 40vw, 280px);
 }
 .footer-row {
   display: flex;
@@ -229,7 +229,7 @@ label[for="radio-select"] {
   const ICON_PAUSE = '<svg class="icon" viewBox="0 0 48 48" fill="currentColor"><rect x="12" y="8" width="8" height="32"/><rect x="28" y="8" width="8" height="32"/></svg>';
   function setPlayIcon(playing) { playBtn.innerHTML = playing ? ICON_PAUSE : ICON_PLAY; }
 
-  // ─── Web Audio / Visualizzatore ──────────────────────────────────────────────
+  // ─── Web Audio / Visualizzatore (waveform, stile a barre) ────────────────────
   function setupVisualizer() {
     if (audioCtx) return;
     try {
@@ -246,20 +246,73 @@ label[for="radio-select"] {
     }
   }
 
+  // Disegna una barra con angoli arrotondati (stile WhatsApp/Spotify)
+  function drawRoundedBar(x, y, w, h, r) {
+    r = Math.min(r, w / 2, h / 2);
+    if (r < 0) r = 0;
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+    ctx.fill();
+  }
+
   function startDraw() {
     if (!analyser || animFrameId) return;
+
+    const BAR_COUNT     = 64;   // numero di barre visualizzate (envelope, non sample raw)
+    const SMOOTHING     = 0.8;  // 0 = nessun smoothing, vicino a 1 = molto fluido/lento
+    const MIN_HEIGHT    = 3;    // altezza minima "a riposo" in px
+    const FRAME_SKIP    = 2;    // ricalcola i dati ogni N frame (rallenta la frequenza percepita)
+    const smoothed      = new Array(BAR_COUNT).fill(0);
+    let frameCounter     = 0;
+
     function draw() {
-      analyser.getByteFrequencyData(dataArray);
+      frameCounter++;
+
+      // Ricalcola i valori solo ogni FRAME_SKIP frame: rallenta la "vivacità" del movimento
+      if (frameCounter % FRAME_SKIP === 0) {
+        analyser.getByteTimeDomainData(dataArray);
+
+        const samplesPerBar = Math.max(1, Math.floor(dataArray.length / BAR_COUNT));
+
+        for (let i = 0; i < BAR_COUNT; i++) {
+          // Picco di ampiezza (envelope) nella finestra di campioni della barra
+          let peak = 0;
+          const start = i * samplesPerBar;
+          for (let j = 0; j < samplesPerBar; j++) {
+            const raw = dataArray[start + j];
+            if (raw === undefined) continue;
+            const val = Math.abs(raw - 128) / 128; // 0..1
+            if (val > peak) peak = val;
+          }
+
+          // Smoothing tra un frame e l'altro per un movimento più fluido
+          smoothed[i] = smoothed[i] * SMOOTHING + peak * (1 - SMOOTHING);
+        }
+      }
+
       ctx.fillStyle = '#fff';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      const barWidth = (canvas.width / dataArray.length) * 2.5;
-      let x = 0;
-      for (let i = 0; i < dataArray.length; i++) {
-        const barHeight = dataArray[i] / 2;
+
+      const centerY  = canvas.height / 2;
+      const barSlot  = canvas.width / BAR_COUNT;
+      const barGap   = barSlot * 0.35;
+      const barWidth = Math.round(barSlot - barGap);
+      const radius   = Math.min(Math.floor(barWidth / 2), 6);
+
+      for (let i = 0; i < BAR_COUNT; i++) {
+        const barHeight = Math.round(Math.max(MIN_HEIGHT, smoothed[i] * canvas.height * 0.9));
+        const x = Math.round(i * barSlot + barGap / 2);
+        const y = Math.round(centerY - barHeight / 2);
+
         ctx.fillStyle = '#000';
-        ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
-        x += barWidth + 1;
+        drawRoundedBar(x, y, barWidth, barHeight, radius);
       }
+
       animFrameId = requestAnimationFrame(draw);
     }
     animFrameId = requestAnimationFrame(draw);
