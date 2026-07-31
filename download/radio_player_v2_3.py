@@ -28,22 +28,19 @@ import threading
 # ╚══════════════════════════════════════════════════════════════════════════════╝
 STATIONS = [
     {"name": "M2O",                  "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8"},
+    {"name": "Radio Deejay",         "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8"},
     {"name": "Hardcore Power Radio", "url": "https://hardcorepower.beheerstream.nl:8012/stream"},
     {"name": "90s 90s Techno",       "url": "https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420"},
-    {"name": "Techno Revival",       "url": "https://techno-revival.stream.laut.fm/techno-revival?ref=web-app&start_time=1759669832984"},
-    {"name": "Toxic Sickness Radio", "url": "https://s7.citrus3.com:8152/stream"},
-    {"name": "Radio Deejay",         "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8"},
     {"name": "Deejay Time",          "url": "https://vdnvsxa1-4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaytime/live.m3u8"},
     {"name": "30 Songs - Deejay",    "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8"},
-    {"name": "538 Dance Department", "url": "https://22713.live.streamtheworld.com/TLPSTR01.mp3?dist=538_web"},
     {"name": "ON Club",              "url": "https://n32a-eu.rcs.revma.com/prbak410t13vv?rj-ttl=5&rj-tok=AAABm7aZVdkAXZEe-G3o3PLkeQ"},
     {"name": "Disco Radio",          "url": "https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8"},
     {"name": "80s 80s",              "url": "https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667"},
     {"name": "Deep House FM",        "url": "https://altair.streamerr.co:8124/stream"},
     {"name": "Venus Radio",          "url": "https://sh.onweb.gr:7115/;"},
+    {"name": "Cavo Paradiso",        "url": "https://neos.win:48488/1"},  
     {"name": "Smooth Jazz",          "url": "https://smoothjazz.cdnstream1.com/2585_128.mp3"},
-    {"name": "Il Sole 24 Ore",       "url": "https://ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-48000.m3u8"},
-]
+    ]
 
 CONNECT_TIMEOUT = 10
 MAX_RETRIES = 3
