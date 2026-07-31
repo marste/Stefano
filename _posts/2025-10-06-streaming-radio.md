@@ -140,7 +140,7 @@ label[for="radio-select"] {
     <option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s</option>
     <option value="https://altair.streamerr.co:8124/stream">Deep House FM</option>
     <option value="https://sh.onweb.gr:7115/;">Venus Radio</option>
-	<option value="https://neos.win:48488/1>Cavo Paradiso</option>
+	<option value="https://neos.win:48488/1">Cavo Paradiso</option>
     <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
   </select>
 
