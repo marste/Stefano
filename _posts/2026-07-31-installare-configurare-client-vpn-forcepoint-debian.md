@@ -19,7 +19,7 @@ sudo apt install forcepoint-client_2.7.0-20260318+trixie_amd64.deb
 
 ```
 sudo nano ~/.bash_aliases
-alias vpn=''
+alias vpn='sudo forcepoint-client --certaccept -R /usr/bin/nmcli host port user'
 source ~/.bash_aliases
 vpn
 ```
