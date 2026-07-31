@@ -130,19 +130,17 @@ label[for="radio-select"] {
   <select id="radio-select">
     <option value="" disabled selected>🔊 Select and make it louder! 👊</option>
     <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8">M2O</option>
+	<option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8">Radio Deejay</option>
     <option value="https://hardcorepower.beheerstream.nl:8012/stream">Hardcore Power Radio</option>
     <option value="https://regiocast.streamabc.net/regc-90s90stechno2195701-mp3-192-2408420">90s 90s Techno</option>
-    <option value="https://techno-revival.stream.laut.fm/techno-revival?ref=web-app&start_time=1759669832984">Techno Revival</option>
-    <option value="https://s7.citrus3.com:8152/stream">Toxic Sickness Radio</option>
-    <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejaybck/radiodeejaybck/play1.m3u8">Radio Deejay</option>
     <option value="https://vdnvsxa1-4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaytime/live.m3u8">Deejay Time</option>
     <option value="https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8">30 Songs - Deejay</option>
-    <option value="https://22713.live.streamtheworld.com/TLPSTR01.mp3?dist=538_web">538 Dance Department</option>
     <option value="https://n32a-eu.rcs.revma.com/prbak410t13vv?rj-ttl=5&rj-tok=AAABm7aZVdkAXZEe-G3o3PLkeQ">ON Club</option>
     <option value="https://stream.discoradio.radio/audio/disco.stream_aac64/chunklist.m3u8">Disco Radio</option>
     <option value="https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667">80s 80s</option>
     <option value="https://altair.streamerr.co:8124/stream">Deep House FM</option>
     <option value="https://sh.onweb.gr:7115/;">Venus Radio</option>
+	<option value="https://neos.win:48488/1>Cavo Paradiso</option>
     <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
   </select>
 
