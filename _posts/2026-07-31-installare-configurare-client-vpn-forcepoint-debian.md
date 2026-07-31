@@ -18,7 +18,7 @@ sudo apt install ......
 **Crea alias per avviare la connessione VPN**
 ```
 sudo nano ~/.bash_aliases
-alias vpn='git status && git add . && git commit -m "Added new post" && git pull --no-edit && git push && git fetch'
+alias vpn=''
 source ~/.bash_aliases
 vpn
 ```
