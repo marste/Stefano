@@ -5,7 +5,7 @@ author: Stefano Marzorati
 image: 'https://marzorati.co/img/network.png'
 share-img: 'https://marzorati.co/img/network.png'
 layout: post
-published: false
+published: true
 categories: [Linux]
 tags: [vpn, forcepoint, client, debian, cli]
 ---
