@@ -9,13 +9,14 @@ published: false
 categories: [Linux]
 tags: [vpn, forcepoint, client, debian, cli]
 ---
-Installa il pacchetto .deb:   
+**Installa il pacchetto .deb:**   
 
 ```
-sudo apt install ......
+sudo apt install forcepoint-client_2.7.0-20260318+trixie_amd64.deb
 ```
 
-**Crea alias per avviare la connessione VPN**
+**Crea alias per avviare la connessione VPN:**
+
 ```
 sudo nano ~/.bash_aliases
 alias vpn=''
