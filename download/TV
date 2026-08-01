@@ -279,9 +279,9 @@ https://amg00793-amg00793c29-samsung-it-4958.playouts.now.amagi.tv/playlist/amg0
 https://jmp2.uk/plu-60b9ff2722bfa400072676ef.m3u8
 #EXTINF:-1 channel-id="ITAJ38000055E" tvg-id="ITAJ38000055E" tvg-chno="4876" tvg-name="Pluto TV Samsung Channels" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/pluto_top.png" group-title="Film",Pluto - Film Top
 https://jmp2.uk/plu-608aa17fb9f4490007e6419a.m3u8
-#EXTINF:-1 channel-id="ITBC3000003CT" tvg-id="ITBC3000003CT" tvg-chno="4995" tvg-name="Pluto TV Samsung Channels Azione" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/pluto-azione.png" group-title="Film",Pluto - Film Azione
+#EXTINF:-1 channel-id="ITBC3000003CT" tvg-id="Pluto - Film Azione" tvg-chno="4995" tvg-name="Pluto TV Samsung Channels Azione" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/pluto-azione.png" group-title="Film",Pluto - Film Azione
 https://jmp2.uk/plu-608aa20a2e7f270007c4878d.m3u8
-#EXTINF:-1 channel-id="ITBC3000002WL" tvg-id="ITBC3000002WL" tvg-chno="4915" tvg-name="Pluto TV Samsung Channels Commedia" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/plutocommedia.png" group-title="Film",Pluto - Film Commedia
+#EXTINF:-1 channel-id="ITBC3000002WL" tvg-id="Pluto - Film Commedia" tvg-chno="4915" tvg-name="Pluto TV Samsung Channels Commedia" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/plutocommedia.png" group-title="Film",Pluto - Film Commedia
 https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8
 #EXTINF:-1 channel-id="ITAJ3800009J1" tvg-id="ITAJ3800009J1" tvg-chno="4898" tvg-name="Pluto TV Samsung Channels Romantici" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/plutoromantici.png" group-title="Film",Pluto - Film Romantici
 https://jmp2.uk/plu-608aa4a4cc92820007b663af.m3u8
@@ -309,9 +309,9 @@ https://amg02512-amg02512c9-samsung-it-5470.playouts.now.amagi.tv/playlist/amg02
 https://amg02512-amg02512c8-samsung-it-5139.playouts.now.amagi.tv/playlist/amg02512-nexodigital-westerntime-samsungit/playlist.m3u8
 #EXTINF:-1 channel-id="SamsungAltaTensione.it" tvg-id="SamsungAltaTensione.it" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/chilialtatensione.png" group-title="Film",CHILI - Film Alta Tensione
 https://chili-chili-alta-tensione-1-it.plex.wurl.tv/4300.m3u8
-#EXTINF:-1 channel-id="samsung-ITBC11000047F" tvg-id="ITBC11000047F" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/chilivelvet.png" group-title="Film",CHILI - Film Romantici
+#EXTINF:-1 channel-id="samsung-ITBC11000047F" tvg-id="chili-chilivelvet" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/chilivelvet.png" group-title="Film",CHILI - Film Romantici
 https://chili-chilivelvet-1-it.plex.wurl.tv/4300.m3u8
-#EXTINF:-1 channel-id="samsung-ITBC1100003KC" tvg-id="ITBC1100003KC" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/chiligrandinomi.png" group-title="Film",CHILI - Film Grandi Nomi
+#EXTINF:-1 channel-id="samsung-ITBC1100003KC" tvg-id="chili-chiliindimenticabili" tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/chiligrandinomi.png" group-title="Film",CHILI - Film Grandi Nomi
 https://chili-chiliindimenticabili-1-it.plex.wurl.tv/4300.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/SuperFranky84/IPTV-Italia/logos/Sonyonefilmazione.png" group-title="Film",Sony One - Film d’azione
 https://a28a692c016c4af79ab371df5054a0be.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-823-IT-SONYONEFILMDAZIONE-LG_IT/playlist.m3u8
