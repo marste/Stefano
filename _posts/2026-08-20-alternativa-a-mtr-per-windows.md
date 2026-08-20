@@ -22,4 +22,6 @@ ed è pronto all'uso da PowerShell o Prompt dei comandi.
 
 Su Windows, Trippy deve essere eseguito con privilegi di Administrator.
 
+<center><img src="https://trippy.rs/_astro/main_screen.C_TNyavX_1Qsx7v.webp" alt="Trippy"></center>
+
 🔗 **Guida e download ufficiali:** [trippy.rs/start/installation/](https://trippy.rs/start/installation/)
