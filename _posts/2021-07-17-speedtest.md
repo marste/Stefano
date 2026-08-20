@@ -3,7 +3,7 @@ title: Speed Test
 author: Stefano Marzorati
 layout: page
 permalink: /speedtest/
-date: 2026-08-20 11:05:00 +0200
+date: 2021-07-17 11:05:00 +0200
 image: 'https://marzorati.co/img/speedtest.png'
 share-img: 'https://marzorati.co/img/speedtest.png'
 categories: [Networking]
