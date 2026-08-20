@@ -2,7 +2,7 @@
 title: Speed Test
 author: Stefano Marzorati
 layout: page
-date: 2021-07-17 11:05:00 +0200
+date: 2026-08-20 11:05:00 +0200
 image: 'https://marzorati.co/img/speedtest.png'
 share-img: 'https://marzorati.co/img/speedtest.png'
 categories: [Networking]
@@ -91,4 +91,5 @@ tags: [speed, test, velocità, connessione, fibra, broadband, bandwidth, speedte
   
 </div>
 <!--speedtest end-->
-Se vuoi eseguire uno speed test da command line su Windows, utilizza pure <a href="https://marzorati.co/download/speedtest.exe" target="_blank">questo eseguibile</a> rilasciato da Ookla.
+Se vuoi eseguire uno speed test da command line su Windows, utilizza pure <a href="https://marzorati.co/download/speedtest.exe" target="_blank">questo eseguibile</a> rilasciato da Ookla.   
+Per altri sistemi operativi (MacOS - Ubuntu/Debian - Fedora/CentOS/RedHat - FreeBSD), potete andare al link: <a href="https://www.speedtest.net/apps/cli" target="_blank">https://www.speedtest.net/apps/cli</a>
