@@ -9,7 +9,8 @@ published: true
 categories: [Linux]
 tags: [mtr, linux, windows, debian, cli]
 ---
-Cerchi un’alternativa moderna, veloce e completa a MTR su Windows? **Trippy (trip)** porta sul terminale Windows una TUI (Text User Interface) ricca di dettagli e aggiornata in tempo reale per analizzare rotte, latenze e pacchetti persi.
+Cerchi un’alternativa moderna, veloce e completa a MTR su Windows?   
+**Trippy (trip)** porta sul terminale Windows una TUI (Text User Interface) ricca di dettagli e aggiornata in tempo reale per analizzare rotte, latenze e pacchetti persi.
 
 Si installa facilmente tramite package manager come Winget
 
