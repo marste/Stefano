@@ -20,6 +20,6 @@ winget install trippy
 
 ed è pronto all'uso da PowerShell o Prompt dei comandi.
 
-Su Windows Trippy deve essere eseguito con privilegi di Administrator.
+Su Windows, Trippy deve essere eseguito con privilegi di Administrator.
 
 🔗 **Guida e download ufficiali:** [trippy.rs/start/installation/](https://trippy.rs/start/installation/)
