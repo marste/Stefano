@@ -32,6 +32,7 @@ navbar-links:
   Search: "search"
   News: "news"
   Speed Test: "speedtest"
+  Share: "https://wormhole.app/"
   Radio: "radio"
   Contact: "contact"
   CV: "curriculum-vitae"
