@@ -2,8 +2,8 @@
 title: "Come testare il rilevamento di EDR/XDR: i file di test ufficiali di Palo Alto Networks"
 date: 2026-08-27 07:30:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/antivirus.png'
-share-img: 'https://marzorati.co/img/antivirus.png'
+image: 'https://marzorati.co/img/virus.jpg'
+share-img: 'https://marzorati.co/img/virus.jpg'
 layout: post
 published: true
 categories: [Security]
