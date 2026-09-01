@@ -28,3 +28,5 @@ $utenti | Export-Csv -Path "C:\Temp\Utenti_PasswordNeverExpire.csv" -NoTypeInfor
 
 Write-Host "Trovati $($utenti.Count) utenti con password impostata su 'non scade mai'." -ForegroundColor Cyan
 ```
+
+Va eseguito su un DC o su una macchina con RSAT installato (**Install-WindowsFeature RSAT-AD-PowerShell** su Windows Server, oppure tramite **Funzionalità facoltative** su client).
