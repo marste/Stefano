@@ -1,7 +1,7 @@
 ---
 title: "Esportare in un file .csv la lista degli utenti AD con Password Never Expire"
 subtitle: Script Powershell
-date: 2026-08-31 07:30:00 +0200
+date: 2026-09-01 07:30:00 +0200
 author: Stefano Marzorati
 image: 'https://marzorati.co/img/powershell.png'
 share-img: 'https://marzorati.co/img/powershell.png'
