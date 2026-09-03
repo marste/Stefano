@@ -29,20 +29,7 @@ sudo nano ~/.config/mpv/mpv.conf
 
 e copia queste opzioni:  
 ```
-# --- SPECIFICO IPTV (LIVE STREAMING) ---
-deinterlace=yes                 # Attiva il deinterlacciamento automatico
-cache=yes
-demuxer-max-bytes=500MiB        # Buffer generoso per flussi 4K o HD instabili
-demuxer-max-back-bytes=100MiB
-cache-secs=30                   # 30 secondi di sicurezza contro i cali di conn>
-demuxer-readahead-secs=15       # Legge molto avanti per una riproduzione fluida
-
-# --- QUALITÀ IMMAGINE (MESA/AMD/INTEL) ---
-# Ottimo scaling senza distruggere la durata della batteria (se su laptop)
-scale=ewa_lanczos
-cscale=mitchell
-# Rimuove gli artefatti "a scalino" (banding) comuni nelle IPTV compresse
-debian-debnd=yes
+cache=no
 ```
 
 ###### Thanks to [https://github.com/shahin8r/iptv](https://github.com/shahin8r/iptv)
