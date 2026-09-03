@@ -27,7 +27,7 @@ Crea un file di configurazione per mpv:
 sudo nano ~/.config/mpv/mpv.conf
 ```
 
-e copia queste opzioni:  
+e copia questa opzione:  
 ```
 cache=no
 ```
