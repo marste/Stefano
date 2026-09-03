@@ -2,7 +2,7 @@
 layout: page
 title: Cosa stai cercando?
 permalink: /search/
-image: 'https://marzorati.co/img/google.png'
+image: 'https://marzorati.co/img/search2.png'
 ---
 <!-- Search Form -->
 <center>
