@@ -116,9 +116,9 @@ tags: [webcam, mare, montagna, live, lago]
 </center>
 
 <p></p>
-<center><strong>Druogno - Baitina</strong> - 816 metri - Val Vigezzo (Verbano-Cusio-Ossola)</center>   
+<center><strong>Santa Maria Maggiore</strong> - 816 metri - Val Vigezzo (Verbano-Cusio-Ossola)</center>   
 <center>
-<img alt="Druogno" src="https://webcamdtl.it/baitinavigezzo.jpg">
+<img alt="Druogno" src="https://colnaghi.net/fondo-img.php">
 </center>
 
 <p></p>
