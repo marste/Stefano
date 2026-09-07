@@ -13,19 +13,6 @@ Per misurare la tensione della batteria dell'auto è possibile acquistare un Vol
 
 Di seguito le tensioni da verificare:
 
-| **Motore Spento** | |
-|---|---|
-| **12,8 - 11,9** | 🟢 Voltaggio normale |
-| **11,9 - 10,8** | 🟡 Voltaggio troppo basso |
-| **< 10,8** | 🔴 Voltaggio molto basso |
-   
-   
-| **Motore Acceso** |
-|---|---|
-| **13,2 - 14,8** | 🟢 Voltaggio normale |
-| **12,8 - 13,2** | 🟡 Voltaggio troppo basso |
-| **> 14,8** | 🔴 Voltaggio troppo alto |
-
 <center>
 <table>
 <tr><th colspan="2" style="text-align:center">Motore Spento</th></tr>
