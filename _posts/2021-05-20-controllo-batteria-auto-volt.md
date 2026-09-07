@@ -13,8 +13,6 @@ Per misurare la tensione della batteria dell'auto è possibile acquistare un Vol
 
 Di seguito le tensioni da verificare:
 
-
-
 | Motore Spento | |
 |---|---|
 | **12,8 - 11,9** | 🟢 Voltaggio normale |
@@ -23,81 +21,8 @@ Di seguito le tensioni da verificare:
 
 
 
-| Motore Acceso | |
+| Motore Acceso |
 |---|---|
 | **13,2 - 14,8** | 🟢 Voltaggio normale |
 | **12,8 - 13,2** | 🟡 Voltaggio troppo basso |
 | **> 14,8** | 🔴 Voltaggio troppo alto |
-
-<center>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-ate8{background-color:#ffc702;text-align:center;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-lbzb{background-color:#fe0000;text-align:center;vertical-align:top}
-.tg .tg-l5iw{background-color:#32cb00;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-baqh" colspan="2">Motore Spento</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-baqh">12,8 - 11,9</td>
-    <td class="tg-l5iw">Voltaggio normale</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">11,9 - 10,8</td>
-    <td class="tg-ate8">Voltaggio troppo basso</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">&lt; 10,8</td>
-    <td class="tg-lbzb">Voltaggio molto basso</td>
-  </tr>
-</tbody>
-</table>
-</center>
-
-<p>
-</p>
-
-<center>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-ate8{background-color:#ffc702;text-align:center;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-lbzb{background-color:#fe0000;text-align:center;vertical-align:top}
-.tg .tg-l5iw{background-color:#32cb00;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-baqh" colspan="2">Motore Acceso</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-baqh">13,2 - 14,8</td>
-    <td class="tg-l5iw">Voltaggio normale</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">12,8 - 13,2</td>
-    <td class="tg-ate8">Voltaggio troppo basso</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">&gt; 14,8</td>
-    <td class="tg-lbzb">Voltaggio troppo alto</td>
-  </tr>
-</tbody>
-</table>
-</center>
