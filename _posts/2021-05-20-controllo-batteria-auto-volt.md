@@ -25,3 +25,10 @@ Di seguito le tensioni da verificare:
 | **13,2 - 14,8** | 🟢 Voltaggio normale |
 | **12,8 - 13,2** | 🟡 Voltaggio troppo basso |
 | **> 14,8** | 🔴 Voltaggio troppo alto |
+
+<table>
+<tr><th colspan="2">Motore Acceso</th></tr>
+<tr><td>13,2 - 14,8</td><td style="background-color:#2ecc71">Voltaggio normale</td></tr>
+<tr><td>12,8 - 13,2</td><td style="background-color:#f1c40f">Voltaggio troppo basso</td></tr>
+<tr><td>&gt; 14,8</td><td style="background-color:#e74c3c">Voltaggio troppo alto</td></tr>
+</table>
