@@ -18,9 +18,9 @@ Di seguito le tensioni da verificare:
 | **12,8 - 11,9** | 🟢 Voltaggio normale |
 | **11,9 - 10,8** | 🟡 Voltaggio troppo basso |
 | **< 10,8** | 🔴 Voltaggio molto basso |
-   
+
 <br>   
-   
+
 | **Motore Acceso** |
 |---|---|
 | **13,2 - 14,8** | 🟢 Voltaggio normale |
