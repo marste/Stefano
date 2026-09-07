@@ -28,18 +28,18 @@ Di seguito le tensioni da verificare:
 
 <center>
 <table>
-<tr><th colspan="2">Motore Spento</th></tr>
-<tr><td>12,8 - 11,9</td><td style="background-color:#2ecc71">Voltaggio normale</td></tr>
-<tr><td>11,9 - 10,8</td><td style="background-color:#f1c40f">Voltaggio troppo basso</td></tr>
-<tr><td>&gt; 10,8</td><td style="background-color:#e74c3c">Voltaggio troppo alto</td></tr>
+<tr><th colspan="2" style="text-align:center">Motore Spento</th></tr>
+<tr><td><b>12,8 - 11,9</b></td><td style="background-color:#2ecc71">Voltaggio normale</td></tr>
+<tr><td><b>11,9 - 10,8</b></td><td style="background-color:#f1c40f">Voltaggio troppo basso</td></tr>
+<tr><td><b>&lt; 10,8</b></td><td style="background-color:#e74c3c">Voltaggio molto basso</td></tr>
 </table>
-</center>
-   
-<center>
+
+<br>
+
 <table>
-<tr><th colspan="2">Motore Acceso</th></tr>
-<tr><td>13,2 - 14,8</td><td style="background-color:#2ecc71">Voltaggio normale</td></tr>
-<tr><td>12,8 - 13,2</td><td style="background-color:#f1c40f">Voltaggio troppo basso</td></tr>
-<tr><td>&gt; 14,8</td><td style="background-color:#e74c3c">Voltaggio troppo alto</td></tr>
+<tr><th colspan="2" style="text-align:center">Motore Acceso</th></tr>
+<tr><td><b>13,2 - 14,8</b></td><td style="background-color:#2ecc71">Voltaggio normale</td></tr>
+<tr><td><b>12,8 - 13,2</b></td><td style="background-color:#f1c40f">Voltaggio troppo basso</td></tr>
+<tr><td><b>&gt; 14,8</b></td><td style="background-color:#e74c3c">Voltaggio troppo alto</td></tr>
 </table>
 </center>
