@@ -19,7 +19,7 @@ Di seguito le tensioni da verificare:
 | **11,9 - 10,8** | 🟡 Voltaggio troppo basso |
 | **< 10,8** | 🔴 Voltaggio molto basso |
    
-   
+<br>   
    
 | **Motore Acceso** |
 |---|---|
