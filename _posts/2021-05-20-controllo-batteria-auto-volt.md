@@ -30,3 +30,4 @@ Di seguito le tensioni da verificare:
 <tr><td><b>&gt; 14,8</b></td><td style="background-color:#e74c3c">Voltaggio troppo alto</td></tr>
 </table>
 </center>
+
