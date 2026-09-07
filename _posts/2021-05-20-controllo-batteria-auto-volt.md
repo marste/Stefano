@@ -38,7 +38,7 @@ Di seguito le tensioni da verificare:
   </tr>
   <tr>
     <td class="tg-baqh">11,9 - 10,8</td>
-    <td class="tg-ate8">Voltaggio basso</td>
+    <td class="tg-ate8">Voltaggio troppo basso</td>
   </tr>
   <tr>
     <td class="tg-baqh">&lt; 10,8</td>
@@ -76,11 +76,11 @@ Di seguito le tensioni da verificare:
   </tr>
   <tr>
     <td class="tg-baqh">12,8 - 13,2</td>
-    <td class="tg-ate8">Voltaggio basso</td>
+    <td class="tg-ate8">Voltaggio troppo basso</td>
   </tr>
   <tr>
     <td class="tg-baqh">&gt; 14,8</td>
-    <td class="tg-lbzb">Voltaggio molto alto</td>
+    <td class="tg-lbzb">Voltaggio troppo alto</td>
   </tr>
 </tbody>
 </table>
