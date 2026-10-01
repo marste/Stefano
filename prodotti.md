@@ -142,6 +142,8 @@ Patate della Sila Tigros;2 €/kg
 Aglio Tigros;6,67 €/kg
 Zuppe Tigros;2,69 €/kg
 Caffè 100% Arabica;13,90 €/kg
+Uvetta Conad;7,56 €/kg
+Deodorante Dove Advanced Care;23,25 €/l
   </textarea>
 
 
