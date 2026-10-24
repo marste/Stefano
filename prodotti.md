@@ -144,6 +144,8 @@ Zuppe Tigros;2,69 €/kg
 Caffè 100% Arabica;13,90 €/kg
 Uvetta Conad;7,56 €/kg
 Deodorante Dove Advanced Care;23,25 €/l
+Brioschi;21,75 €/Kg
+Brioschi Crastan;10,91 €/Kg
   </textarea>
 
 
