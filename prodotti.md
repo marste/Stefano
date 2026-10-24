@@ -110,7 +110,6 @@ Grana Padano 16 mesi;12 €/kg
 Parmigiano Reggiano 24 mesi;17 €/kg
 Caffè Solubile Aldi;29,95 €/kg
 Cacao amaro;2,07 €/kg
-Brioschi;10,91 €/kg
 Testine OralB;2,33 cad.
 Caffè Lavazza Dek;14,78 €/kg
 Gorgonzola Santi;18 €/kg
