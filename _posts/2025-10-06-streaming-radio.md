@@ -142,6 +142,8 @@ label[for="radio-select"] {
     <option value="https://sh.onweb.gr:7115/;">Venus Radio</option>
 	<option value="https://neos.win:48488/1">Cavo Paradiso</option>
     <option value="https://smoothjazz.cdnstream1.com/2585_128.mp3">Smooth Jazz</option>
+    <option value="https://vocaloid.radioca.st/stream">Vocaloid Radio USA</option>
+    <option value="https://aska.ru-hoster.com:8093/mikuparu">Vocaloid Radio Russia</option>
   </select>
 
   <div class="player-card" id="player-card">
