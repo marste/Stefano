@@ -7,7 +7,7 @@ date: 2026-05-30 07:00:00 +0200
 author: Stefano Marzorati
 layout: page
 categories: [Music]
-tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, techno, jazz, lounge, pop]
+tags: [radio, web, streaming, mp3, m3u8, m2o, gabber, techno, jazz, lounge, pop, vocaloid]
 published: true
 ---
 <style>
