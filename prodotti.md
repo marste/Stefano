@@ -145,6 +145,13 @@ Uvetta Conad;7,56 €/kg
 Deodorante Dove Advanced Care;23,25 €/l
 Brioschi;21,75 €/Kg
 Brioschi Crastan;10,91 €/Kg
+Valtellina Casera DOP;9,99 €/Kg
+Gorgonzola Santi in offerta;13,29 €/Kg
+Crackers Esselunga;2,49 €/Kg
+Chipster Esselunga;14,34 €/Kg
+Caffè solubile Esselunga;27,90 €/Kg
+Nescafè Classic;41,95 €/Kg
+Nescafè Gold;41,95 €/Kg
   </textarea>
 
 
