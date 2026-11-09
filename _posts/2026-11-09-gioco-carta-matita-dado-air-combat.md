@@ -8,8 +8,6 @@ layout: post
 categories: [gioco]
 tags: [gioco, game, dado, matita]
 ---
-# DUELLO NEI CIELI
-
 Per **2 giocatori**, con **un solo dado a sei facce**.
 
 ## Materiale e preparazione
