@@ -87,7 +87,7 @@ share-img: 'https://marzorati.co/img/news.png'
 const WORKER_URL = "https://rss-proxy.stefano-marzorati.workers.dev/";
 
 const FEEDS = [
-  { containerId: "divRssUltimissime", url: "https://www.servizitelevideo.rai.it/televideo/pub/rss101.xml", max: 20 }
+  { containerId: "divRssUltimissime", url: "https://www.rainews.it/rss/ultimora", max: 20 }
   ];
 
 function escapeHtml(str) {
