@@ -2,8 +2,8 @@
 title: "Gioco: Air Combat"
 date: 2026-11-09 07:30:00 +0200
 author: Stefano Marzorati
-image: 'https://marzorati.co/img/ricette.png'
-share-img: 'https://marzorati.co/img/ricette.png'
+image: 'https://marzorati.co/img/game.png'
+share-img: 'https://marzorati.co/img/game.png'
 layout: post
 categories: [gioco]
 tags: [gioco, game, dado, matita]
