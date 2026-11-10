@@ -87,7 +87,7 @@ share-img: 'https://marzorati.co/img/news.png'
 const WORKER_URL = "https://rss-proxy.stefano-marzorati.workers.dev/";
 
 const FEEDS = [
-  { containerId: "divRssUltimissime", url: "https://www.rainews.it/rss/ultimora", max: 50 }
+  { containerId: "divRssUltimissime", url: "http://feeds.feedburner.com/SkyitTg24", max: 50 }
   ];
 
 function escapeHtml(str) {
