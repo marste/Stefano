@@ -111,6 +111,18 @@ async function loadFeed(feed) {
 
     container.innerHTML = items.map(item => {
       let dateDisplay = item.date || "";
+	  const parsedDate = new Date(dateDisplay);
+
+	if (dateDisplay && !Number.isNaN(parsedDate.getTime())) {
+	dateDisplay = new Intl.DateTimeFormat("it-IT", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZone: "Europe/Rome"
+  }).format(parsedDate);
+}
       let title = item.title || "";
       let description = item.description || "";
       
