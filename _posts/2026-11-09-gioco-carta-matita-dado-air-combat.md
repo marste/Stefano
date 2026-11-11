@@ -36,7 +36,7 @@ Tira il dado. Il risultato indica i punti disponibili.
 Con i punti fatti puoi:
 - Avanzare
 - Conservare i punti nella riserva (max 3 punti)
-- Far arretrare uno sparo avversario (gittata ridotta, max 3 in tutta la partita)
+- Far arretrare uno sparo avversario (gittata ridotta, max 3 volte in tutta la partita)
 - Distribuire i punti fra avanzamento, eventuale gittata ridotta e riserva.
 
 ### Come si disegnano le linee
