@@ -12,16 +12,17 @@ Una sfida per 2 giocatori con un solo dado a sei facce.
 
 ### Materiale e preparazione
 
-Servono:
-
+Servono:   
 - Il tabellone con gli aerei, scaricabile in fondo alla pagina
 - Due matite di colori diversi, una per giocatore
 - Una matita per annotare riserve
 - Una gomma
 - Un dado a sei facce
 
-I giocatori si siedono sui lati opposti del tabellone. Ciascuno controlla i tre aerei del proprio lato e sceglie il proprio colore.   
-Ogni aereo può attaccare soltanto quello direttamente di fronte, nella stessa colonna del foglio. Non è possibile cambiare bersaglio o attaccare in diagonale.   
+I giocatori si siedono sui lati opposti del tabellone.   
+Ciascuno controlla i tre aerei del proprio lato e sceglie il proprio colore.   
+Ogni aereo può attaccare soltanto quello direttamente di fronte, nella stessa colonna del foglio.   
+Non è possibile cambiare bersaglio o attaccare in diagonale.   
 All’inizio della partita ciascun giocatore dispone di 3 utilizzi di gittata ridotta e 0 punti riserva.   
 Entrambi tirano il dado: chi ottiene il risultato più alto comincia. In caso di parità, si ripete il lancio.   
 
@@ -54,12 +55,12 @@ Un colpo va a segno quando il tratto di linea **tocca per la prima volta il dise
 Ogni giocatore può utilizzare la gittata ridotta 3 volte in tutta la partita.   
 Quando la attivi, puoi destinare tutti o parte dei punti disponibili a far arretrare il tracciato d’attacco dell’avversario nelle colonne che preferisci, invece di far avanzare il tuo.   
 
-Esempio: ottieni 5 con il dado. Puoi scegliere di:
-
+Esempio: ottieni 5 con il dado. Puoi scegliere di:   
 - Far arretrare il tracciato avversario di 5 quadretti.
 - Avanzare di 3 quadretti e far arretrare il tracciato avversario di 2.
 
-Ogni attivazione consuma un utilizzo, indipendentemente dai punti impiegati. Barra uno dei tre quadratini “GITTATA RIDOTTA” sul tabellone.   
+Ogni attivazione consuma un utilizzo, indipendentemente dai punti impiegati.   
+Barra uno dei tre quadratini “GITTATA RIDOTTA” sul tabellone.   
 La gittata ridotta non cancella i colpi già subiti dagli aerei.   
 
 ### Riserva
@@ -69,6 +70,7 @@ Segna il totale attuale nello spazio “RISERVA”, cancellando l’indicazione 
 In un turno successivo puoi aggiungere al risultato del dado uno o più punti conservati, anche tutti insieme. Ogni punto utilizzato viene sottratto dalla riserva.   
 
 Esempio: ottieni 5, avanzi di 3 e conservi 2 punti. In un turno successivo ottieni 4: spendendo anche i 2 punti conservati, hai 6 punti disponibili.   
+
 Non puoi mai avere più di 3 punti in riserva. I punti che non spendi e non puoi conservare vanno persi.   
 
 ### Fine della partita
