@@ -44,8 +44,7 @@ Con i punti fatti puoi:
 Ogni linea avanza dritta verso l’aereo avversario, seguendo la griglia.
 
 - Un quadretto di avanzamento costa sempre un punto.
-- A ogni turno si riparte dall’estremità raggiunta in precedenza.
-- Si può interrompere l’avanzamento quando si vuole e spendere altrove i punti rimasti.
+- Si può interrompere l’avanzamento quando si vuole spendere altrove i punti rimasti.
 - Non occorre ottenere il punteggio esatto per arrivare al bersaglio.
 
 Un colpo va a segno quando il tratto di linea **tocca per la prima volta il disegno dell’aereo avversario**.
