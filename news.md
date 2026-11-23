@@ -4,154 +4,84 @@ title: Ultime Notizie
 permalink: /news/
 image: 'https://marzorati.co/img/news.png'
 share-img: 'https://marzorati.co/img/news.png'
+published: true
 ---
-
+<!-- Style per bottone top -->
 <style>
-    #return-to-top {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        z-index: 1000;
-        display: none;
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        border: none;
-        border-radius: 35px;
-        background: rgba(0, 0, 0, 0.7);
-        color: #fff;
-        cursor: pointer;
-        transition: background 0.3s ease;
-    }
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+</style>
 
-    #return-to-top:hover {
-        background: rgba(0, 0, 0, 0.9);
-    }
-
-    #return-to-top i {
-        display: inline-block;
-        font-size: 19px;
-        transition: transform 0.3s ease;
-    }
-
-    #return-to-top:hover i {
-        transform: translateY(-5px);
-    }
-
+<!-- Style RSS: stesse classi di prima -->
+<style>
     .feed-item {
         margin-bottom: 25px;
         padding-bottom: 15px;
         border-bottom: 1px solid #e0e0e0;
     }
-
     .feed-item:last-child {
         border-bottom: none;
         margin-bottom: 0;
         padding-bottom: 0;
     }
+    .itemTitle a{font-weight:bold; font-size:20px; color:#008AFF; text-decoration:none;}
+    .itemTitle a:hover{ text-decoration:underline }
+    .itemDate{font-size:12px;color:#404040; margin:0 0 2px 0; padding:0; line-height:1.4;}
+    .feed-error{font-size:13px;color:#AA3333;}
+    .section-title{margin:15px 0 10px 0;}
+</style>
 
-<<<<<<< HEAD
-    .itemTitle a {
-        font-weight: bold;
-        font-size: 20px;
-        color: #008AFF;
-        text-decoration: none;
-=======
-<body translate="no">
+<div translate="no">
 
-<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+<a href="#" id="return-to-top" aria-label="Torna all'inizio">
+    <i class="icon-chevron-up" aria-hidden="true"></i>
+</a>
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-
 <div id="divRssUltimissime" class="feed-container">Caricamento...</div>
 
-<script>
-  window.console = window.console || function(t) {};
-</script>
-<script src='/js/jquery-3.6.0.min.js'></script>
-<script>
-// URL del tuo Cloudflare Worker - da sostituire con quello reale
-// dopo il deploy (es. https://news-proxy.tuosubdominio.workers.dev
-// oppure un dominio custom tipo https://newsproxy.marzorati.co)
-const WORKER_URL = "https://rss-proxy.stefano-marzorati.workers.dev/";
-
-const FEEDS = [
-  { containerId: "divRssUltimissime", url: "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml", max: 500 }
-  ];
-
-function escapeHtml(str) {
-  const div = document.createElement("div");
-  div.textContent = str || "";
-  return div.innerHTML;
-}
-
-async function loadFeed(feed) {
-  const container = document.getElementById(feed.containerId);
-  try {
-    const endpoint = `${WORKER_URL}/?url=${encodeURIComponent(feed.url)}&max=${feed.max}`;
-    const res = await fetch(endpoint);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const items = await res.json();
-
-    if (!Array.isArray(items) || items.length === 0) {
-      container.innerHTML = "<p><em>Nessuna notizia disponibile al momento.</em></p>";
-      return;
->>>>>>> 9e5614a26b36590f53e7b2b359a888b6a47446b4
-    }
-
-    .itemTitle a:hover {
-        text-decoration: underline;
-    }
-
-    .itemDate {
-        font-size: 12px;
-        color: #404040;
-        margin: 0 0 2px 0;
-        padding: 0;
-        line-height: 1.4;
-    }
-
-    .itemDesc {
-        white-space: pre-line;
-        overflow-wrap: anywhere;
-    }
-
-    .feed-error {
-        font-size: 13px;
-        color: #AA3333;
-    }
-
-    .section-title {
-        margin: 30px 0 15px 0;
-    }
-</style>
-
-<link
-    href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
-    rel="stylesheet"
->
-
-<div translate="no">
-    <button
-        type="button"
-        id="return-to-top"
-        aria-label="Torna all'inizio della pagina"
-        title="Torna all'inizio"
-    >
-        <i class="icon-chevron-up" aria-hidden="true"></i>
-    </button>
-
-    <h2 class="section-title">ANSA — Ultime notizie</h2>
-    <div id="divRssUltimissime" class="feed-container">
-        Caricamento...
-    </div>
-
-    <h2 class="section-title">ANSA — Economia</h2>
-    <div id="divRssEconomia" class="feed-container">
-        Caricamento...
-    </div>
 </div>
+
+<script src="/js/jquery-3.6.0.min.js"></script>
 
 <script>
 (() => {
@@ -160,53 +90,64 @@ async function loadFeed(feed) {
     const WORKER_URL =
         "https://rss-proxy.stefano-marzorati.workers.dev/";
 
-    // Senza max vengono richieste tutte le notizie archiviate di oggi.
     const FEEDS = [
-        {
-            containerId: "divRssUltimissime",
-            url: "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml"
-        },
-        {
-            containerId: "divRssEconomia",
-            url: "https://www.ansa.it/sito/notizie/economia/economia_rss.xml"
-        }
+        "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml",
+        "https://www.ansa.it/sito/notizie/economia/economia_rss.xml"
     ];
+
+    function escapeHtml(str) {
+        const div = document.createElement("div");
+        div.textContent = str == null ? "" : String(str);
+        return div.innerHTML;
+    }
 
     function safeLink(value) {
         try {
             const url = new URL(value);
 
             if (url.protocol === "https:" || url.protocol === "http:") {
+                url.hash = "";
                 return url.href;
             }
-        } catch {
-            // Un link non valido viene mostrato come semplice testo.
-        }
+        } catch {}
 
         return "";
     }
 
-    function showMessage(container, message, isError = false) {
-        const paragraph = document.createElement("p");
-        paragraph.textContent = message;
-
-        if (isError) {
-            paragraph.className = "feed-error";
-        } else {
-            paragraph.style.fontStyle = "italic";
-        }
-
-        container.replaceChildren(paragraph);
+    function timestamp(item) {
+        const value = Date.parse(item.published_at || "");
+        return Number.isNaN(value) ? 0 : value;
     }
 
-    function createFeedItem(item) {
+    async function fetchFeed(feedUrl) {
+        const endpoint = new URL(WORKER_URL);
+        endpoint.searchParams.set("url", feedUrl);
+
+        // Nessun parametro max: richiede tutta la giornata.
+        const response = await fetch(endpoint);
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        const items = await response.json();
+
+        if (!Array.isArray(items)) {
+            throw new Error("Formato della risposta non valido");
+        }
+
+        return items;
+    }
+
+    function renderItem(item) {
         let dateDisplay = item.date || "";
         let title = item.title || "";
         const description = item.description || "";
+        const link = safeLink(item.link);
 
-        // Mantiene la gestione di eventuali date inserite nel titolo.
+        // Estrai data dal titolo.
         const dateMatch = title.match(
-            /^(\d{1,2}[\/.]\d{1,2}[\/.]\d{2,4})\s*/
+            /^(\d{1,2}[\/\.]\d{1,2}[\/\.]\d{2,4})\s*/
         );
 
         if (dateMatch) {
@@ -214,7 +155,8 @@ async function loadFeed(feed) {
             title = title.substring(dateMatch[0].length).trim();
         }
 
-        const timeMatch = title.match(/^(\d{1,2}[.:]\d{2})\s*/);
+        // Estrai ora dal titolo.
+        const timeMatch = title.match(/^(\d{1,2}[\.:]\d{2})\s*/);
 
         if (timeMatch) {
             dateDisplay = dateDisplay
@@ -224,131 +166,122 @@ async function loadFeed(feed) {
             title = title.substring(timeMatch[0].length).trim();
         }
 
-        const article = document.createElement("div");
-        article.className = "feed-item";
+        const titleHtml = link
+            ? `<a href="${escapeHtml(link)}"
+                  target="_blank"
+                  rel="noopener noreferrer">${escapeHtml(title)}</a>`
+            : escapeHtml(title);
 
-        const dateElement = document.createElement("div");
-        dateElement.className = "itemDate";
-        dateElement.textContent = dateDisplay;
-        article.appendChild(dateElement);
-
-        const titleElement = document.createElement("div");
-        titleElement.className = "itemTitle";
-
-        const link = safeLink(item.link);
-
-        if (link) {
-            const anchor = document.createElement("a");
-            anchor.href = link;
-            anchor.target = "_blank";
-            anchor.rel = "noopener noreferrer";
-            anchor.textContent = title;
-            titleElement.appendChild(anchor);
-        } else {
-            titleElement.textContent = title;
-        }
-
-        article.appendChild(titleElement);
-
-        if (description) {
-            const descriptionElement = document.createElement("div");
-            descriptionElement.className = "itemDesc";
-            descriptionElement.textContent = description;
-            article.appendChild(descriptionElement);
-        }
-
-        return article;
+        return `
+            <div class="feed-item">
+                <div class="itemDate">${escapeHtml(dateDisplay)}</div>
+                <div class="itemTitle">${titleHtml}</div>
+                ${
+                    description
+                        ? `<div class="itemDesc">${escapeHtml(description)}</div>`
+                        : ""
+                }
+            </div>
+        `;
     }
 
-    async function loadFeed(feed) {
-        const container = document.getElementById(feed.containerId);
+    async function loadNews() {
+        const container = document.getElementById("divRssUltimissime");
 
         if (!container) {
             return;
         }
 
-        try {
-            const endpoint = new URL(WORKER_URL);
-            endpoint.searchParams.set("url", feed.url);
+        // Se un feed non risponde, mostra comunque l'altro.
+        const results = await Promise.allSettled(
+            FEEDS.map(fetchFeed)
+        );
 
-            if (Number.isInteger(feed.max) && feed.max > 0) {
-                endpoint.searchParams.set("max", String(feed.max));
-            }
+        const successful = results.filter(
+            result => result.status === "fulfilled"
+        );
 
-            const response = await fetch(endpoint);
+        const failedCount = results.length - successful.length;
 
-            if (!response.ok) {
-                throw new Error(`HTTP ${response.status}`);
-            }
-
-            const items = await response.json();
-
-            if (!Array.isArray(items)) {
-                throw new Error("Formato della risposta non valido");
-            }
-
-            if (items.length === 0) {
-                showMessage(
-                    container,
-                    "Nessuna notizia archiviata per la giornata di oggi."
-                );
-                return;
-            }
-
-            const fragment = document.createDocumentFragment();
-
-            items.forEach(item => {
-                fragment.appendChild(createFeedItem(item));
-            });
-
-            container.replaceChildren(fragment);
-        } catch (error) {
-            console.error("Errore caricamento feed:", feed.url, error);
-
-            showMessage(
-                container,
-                "Notizie non disponibili al momento. Riprova più tardi.",
-                true
-            );
-        }
-    }
-
-    function initializePage() {
-        FEEDS.forEach(loadFeed);
-
-        const returnToTop = document.getElementById("return-to-top");
-
-        if (!returnToTop) {
+        if (successful.length === 0) {
+            container.innerHTML =
+                '<p class="feed-error">Notizie non disponibili al momento.</p>';
             return;
         }
 
-        function updateReturnToTop() {
-            returnToTop.style.display =
-                window.scrollY >= 50 ? "block" : "none";
-        }
+        // Unisce i due feed ed elimina i duplicati per link.
+        const uniqueItems = new Map();
 
-        window.addEventListener("scroll", updateReturnToTop, {
-            passive: true
-        });
+        successful.forEach(result => {
+            result.value.forEach(item => {
+                if (!item || typeof item !== "object") {
+                    return;
+                }
 
-        updateReturnToTop();
+                const link = safeLink(item.link);
 
-        returnToTop.addEventListener("click", () => {
-            const reducedMotion = window.matchMedia(
-                "(prefers-reduced-motion: reduce)"
-            ).matches;
+                if (!link) {
+                    return;
+                }
 
-            window.scrollTo({
-                top: 0,
-                behavior: reducedMotion ? "auto" : "smooth"
+                const existing = uniqueItems.get(link);
+
+                // Per lo stesso link preferisce la versione più recente.
+                if (
+                    !existing ||
+                    timestamp(item) > timestamp(existing)
+                ) {
+                    uniqueItems.set(link, item);
+                }
             });
         });
+
+        // Ordinamento cronologico decrescente sulla data ISO del Worker.
+        const items = Array.from(uniqueItems.values()).sort(
+            (a, b) =>
+                timestamp(b) - timestamp(a) ||
+                String(a.title || "").localeCompare(
+                    String(b.title || ""),
+                    "it"
+                )
+        );
+
+        const warning = failedCount > 0
+            ? '<p class="feed-error">Una delle fonti non è disponibile: l’elenco potrebbe essere incompleto.</p>'
+            : "";
+
+        if (items.length === 0) {
+            container.innerHTML =
+                warning +
+                "<p><em>Nessuna notizia archiviata per la giornata di oggi.</em></p>";
+            return;
+        }
+
+        container.innerHTML =
+            warning + items.map(renderItem).join("");
     }
 
     if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", initializePage);
+        document.addEventListener("DOMContentLoaded", loadNews);
     } else {
-        initializePage();
+        loadNews();
     }
+
+    // ===== Scroll to Top ====
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 50) {
+            $("#return-to-top").fadeIn(200);
+        } else {
+            $("#return-to-top").fadeOut(200);
+        }
+    });
+
+    $("#return-to-top").click(function (event) {
+        event.preventDefault();
+
+        $("body,html").animate({
+            scrollTop: 0
+        }, 500);
+    });
 })();
 </script>
