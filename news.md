@@ -50,11 +50,54 @@ share-img: 'https://marzorati.co/img/news.png'
         padding-bottom: 0;
     }
 
+<<<<<<< HEAD
     .itemTitle a {
         font-weight: bold;
         font-size: 20px;
         color: #008AFF;
         text-decoration: none;
+=======
+<body translate="no">
+
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+
+<div id="divRssUltimissime" class="feed-container">Caricamento...</div>
+
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script src='/js/jquery-3.6.0.min.js'></script>
+<script>
+// URL del tuo Cloudflare Worker - da sostituire con quello reale
+// dopo il deploy (es. https://news-proxy.tuosubdominio.workers.dev
+// oppure un dominio custom tipo https://newsproxy.marzorati.co)
+const WORKER_URL = "https://rss-proxy.stefano-marzorati.workers.dev/";
+
+const FEEDS = [
+  { containerId: "divRssUltimissime", url: "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml", max: 500 }
+  ];
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str || "";
+  return div.innerHTML;
+}
+
+async function loadFeed(feed) {
+  const container = document.getElementById(feed.containerId);
+  try {
+    const endpoint = `${WORKER_URL}/?url=${encodeURIComponent(feed.url)}&max=${feed.max}`;
+    const res = await fetch(endpoint);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const items = await res.json();
+
+    if (!Array.isArray(items) || items.length === 0) {
+      container.innerHTML = "<p><em>Nessuna notizia disponibile al momento.</em></p>";
+      return;
+>>>>>>> 9e5614a26b36590f53e7b2b359a888b6a47446b4
     }
 
     .itemTitle a:hover {
