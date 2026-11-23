@@ -105,7 +105,10 @@ published: true
         try {
             const url = new URL(value);
 
-            if (url.protocol === "https:" || url.protocol === "http:") {
+            if (
+                url.protocol === "https:" ||
+                url.protocol === "http:"
+            ) {
                 url.hash = "";
                 return url.href;
             }
@@ -117,6 +120,16 @@ published: true
     function timestamp(item) {
         const value = Date.parse(item.published_at || "");
         return Number.isNaN(value) ? 0 : value;
+    }
+
+    function normalizeTitle(title) {
+        return String(title || "")
+            .normalize("NFKC")
+            .toLocaleLowerCase("it-IT")
+            .replace(/[‘’ʼ`´]/g, "'")
+            .replace(/[“”«»]/g, '"')
+            .replace(/\s+/g, " ")
+            .trim();
     }
 
     async function fetchFeed(feedUrl) {
@@ -156,7 +169,9 @@ published: true
         }
 
         // Estrai ora dal titolo.
-        const timeMatch = title.match(/^(\d{1,2}[\.:]\d{2})\s*/);
+        const timeMatch = title.match(
+            /^(\d{1,2}[\.:]\d{2})\s*/
+        );
 
         if (timeMatch) {
             dateDisplay = dateDisplay
@@ -186,7 +201,9 @@ published: true
     }
 
     async function loadNews() {
-        const container = document.getElementById("divRssUltimissime");
+        const container = document.getElementById(
+            "divRssUltimissime"
+        );
 
         if (!container) {
             return;
@@ -209,42 +226,49 @@ published: true
             return;
         }
 
-        // Unisce i due feed ed elimina i duplicati per link.
-        const uniqueItems = new Map();
-
-        successful.forEach(result => {
-            result.value.forEach(item => {
-                if (!item || typeof item !== "object") {
-                    return;
-                }
-
-                const link = safeLink(item.link);
-
-                if (!link) {
-                    return;
-                }
-
-                const existing = uniqueItems.get(link);
-
-                // Per lo stesso link preferisce la versione più recente.
-                if (
-                    !existing ||
-                    timestamp(item) > timestamp(existing)
-                ) {
-                    uniqueItems.set(link, item);
-                }
-            });
-        });
-
-        // Ordinamento cronologico decrescente sulla data ISO del Worker.
-        const items = Array.from(uniqueItems.values()).sort(
-            (a, b) =>
+        // Unisce i feed e ordina dalla notizia più recente.
+        const allItems = successful
+            .flatMap(result => result.value)
+            .filter(item =>
+                item &&
+                typeof item === "object" &&
+                safeLink(item.link)
+            )
+            .sort((a, b) =>
                 timestamp(b) - timestamp(a) ||
                 String(a.title || "").localeCompare(
                     String(b.title || ""),
                     "it"
                 )
-        );
+            );
+
+        // Elimina duplicati per link oppure titolo normalizzato.
+        // Essendo già ordinate, conserva la versione più recente.
+        const seenLinks = new Set();
+        const seenTitles = new Set();
+        const items = [];
+
+        for (const item of allItems) {
+            const link = safeLink(item.link);
+            const titleKey = normalizeTitle(item.title);
+
+            const duplicate =
+                seenLinks.has(link) ||
+                (
+                    titleKey !== "" &&
+                    seenTitles.has(titleKey)
+                );
+
+            seenLinks.add(link);
+
+            if (titleKey !== "") {
+                seenTitles.add(titleKey);
+            }
+
+            if (!duplicate) {
+                items.push(item);
+            }
+        }
 
         const warning = failedCount > 0
             ? '<p class="feed-error">Una delle fonti non è disponibile: l’elenco potrebbe essere incompleto.</p>'
@@ -261,27 +285,34 @@ published: true
             warning + items.map(renderItem).join("");
     }
 
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", loadNews);
-    } else {
+    function initializePage() {
         loadNews();
+
+        // ===== Scroll to Top ====
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 50) {
+                $("#return-to-top").fadeIn(200);
+            } else {
+                $("#return-to-top").fadeOut(200);
+            }
+        });
+
+        $("#return-to-top").click(function (event) {
+            event.preventDefault();
+
+            $("body,html").animate({
+                scrollTop: 0
+            }, 500);
+        });
     }
 
-    // ===== Scroll to Top ====
-    $(window).scroll(function () {
-        if ($(this).scrollTop() >= 50) {
-            $("#return-to-top").fadeIn(200);
-        } else {
-            $("#return-to-top").fadeOut(200);
-        }
-    });
-
-    $("#return-to-top").click(function (event) {
-        event.preventDefault();
-
-        $("body,html").animate({
-            scrollTop: 0
-        }, 500);
-    });
+    if (document.readyState === "loading") {
+        document.addEventListener(
+            "DOMContentLoaded",
+            initializePage
+        );
+    } else {
+        initializePage();
+    }
 })();
 </script>
